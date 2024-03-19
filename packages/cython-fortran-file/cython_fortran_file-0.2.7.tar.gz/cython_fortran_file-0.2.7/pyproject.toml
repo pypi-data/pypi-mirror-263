@@ -1,0 +1,72 @@
+[project]
+name = "cython_fortran_file"
+version = "0.2.7"
+description = "An efficient package to read fortran-record files in Python."
+authors = [{name = "Corentin Cadiou", email = "contact@cphyc.me"}]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Cython",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "cython",
+    "numpy",
+]
+
+
+[build-system]
+requires = [
+  "setuptools>=42",
+  # see https://github.com/numpy/numpy/pull/18389
+  "wheel>=0.36.2",
+  "Cython>=3.0.0",
+  "numpy"
+]
+
+[project.readme]
+file = "Readme.md"
+content-type = "text/markdown"
+
+[project.urls]
+Homepage = "https://github.com/cphyc/cython_fortran_file"
+
+[tool.setuptools]
+license-files = ["LICENSE"]
+include-package-data = false
+
+[tool.setuptools.packages]
+find = {namespaces = false}
+
+[tool.setuptools.package-data]
+cython_fortran_file = [
+    "cython_fortran_file/*.pyx",
+    "cython_fortran_file/*.pxd",
+]
+
+[tool.distutils.bdist_wheel]
+universal = 1
+
+[tool.aliases]
+test = "pytest"
+
+[tool.pytest.ini_options]
+collect_ignore = "['setup.py']"
+
+[tool.ruff]
+# Enable Pyflakes `E` and `F` codes by default.
+select = ["E", "C", "F", "UP", "B", "A", "YTT", "S", "N", "I"]
+ignore = ["S101"]
+target-version = 'py39'
+line-length = 88
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
