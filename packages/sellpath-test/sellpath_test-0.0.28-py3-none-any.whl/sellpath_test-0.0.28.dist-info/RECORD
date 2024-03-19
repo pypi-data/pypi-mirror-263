@@ -1,0 +1,9 @@
+sellpath_test/__init__.py,sha256=zrYjVFaAo6cDZCVVuHtJhMqLxqzZSoVduJXIXfT8HVk,90
+sellpath_test/client_mgr.py,sha256=hQRVvVbj2sBcyGlpM193aUO3pmdqORYMIBIgxKmQhj8,8268
+sellpath_test/http_client.py,sha256=2d7b8QsUZCQS1inmx3eXu6fxjuzc2hdfkGE_I6vYjB8,6517
+sellpath_test/sftest.py,sha256=EzSumCZmgrnQ2j2tILcrXNsnrbwKLcgZ0Y9L2_o3BH0,163
+sellpath_test/weather_demo_example.py,sha256=2_bblAlmeahamePJSNrtQ1VWtvjCUEnX41S5XabN07Q,1919
+sellpath_test-0.0.28.dist-info/METADATA,sha256=KSCFzsF8iFTcVItYWXYHW5-6-hDtxVdBoKg8E-0m6-E,390
+sellpath_test-0.0.28.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+sellpath_test-0.0.28.dist-info/top_level.txt,sha256=ybvdNA2xp4WqLxKoq-uihxW8TFdPgikUwELLGXViF4Q,14
+sellpath_test-0.0.28.dist-info/RECORD,,
