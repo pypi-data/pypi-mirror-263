@@ -1,0 +1,2 @@
+[console_scripts]
+autossh-py = autossh.autossh_py:main

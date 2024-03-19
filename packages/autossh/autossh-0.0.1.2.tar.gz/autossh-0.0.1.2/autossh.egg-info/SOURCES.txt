@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+autossh/__init__.py
+autossh/autossh_py.py
+autossh/client.py
+autossh.egg-info/PKG-INFO
+autossh.egg-info/SOURCES.txt
+autossh.egg-info/dependency_links.txt
+autossh.egg-info/entry_points.txt
+autossh.egg-info/requires.txt
+autossh.egg-info/top_level.txt
