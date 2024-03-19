@@ -1,0 +1,6 @@
+import _cython_3_0_8
+
+__test__: dict
+get_json: _cython_3_0_8.cython_function_or_method
+get_ranges: _cython_3_0_8.cython_function_or_method
+get_trading_days: _cython_3_0_8.cython_function_or_method
