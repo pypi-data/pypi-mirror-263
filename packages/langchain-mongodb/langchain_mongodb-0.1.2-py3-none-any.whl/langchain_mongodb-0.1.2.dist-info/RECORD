@@ -1,0 +1,10 @@
+langchain_mongodb/__init__.py,sha256=R6RVg9JNV8NvoW1sVpXOdyOT1KetbHqfdtFC1GoK2xo,365
+langchain_mongodb/cache.py,sha256=RCf9fOSGwNXrNLNJBkWFrxAw6dIFWOc1M8HhGBF4TA4,10159
+langchain_mongodb/chat_message_histories.py,sha256=CdAwEjJTfqN-XaWqjuEzsDv7JwTkETahsYxR8rFtmaw,2617
+langchain_mongodb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langchain_mongodb/utils.py,sha256=XvSTkRz26k2-RbmhpjvqEyP5s_U4_XaWVc79ylGmcQc,3165
+langchain_mongodb/vectorstores.py,sha256=5gHfKjjdUgvQx78zrmvfBKSHg2cxBd8kwyyAGvJ_L1Q,17210
+langchain_mongodb-0.1.2.dist-info/LICENSE,sha256=2btS8uNUDWD_UNjw9ba6ZJt_00aUjEw9CGyK-xIHY8c,1072
+langchain_mongodb-0.1.2.dist-info/METADATA,sha256=sl0d0aH9iF1zsQXofkr_jPIYHFvynOQCfOlciUoVxXQ,2300
+langchain_mongodb-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+langchain_mongodb-0.1.2.dist-info/RECORD,,
