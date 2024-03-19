@@ -1,0 +1,12 @@
+imgui.cpython-311-x86_64-linux-gnu.so,sha256=vgcVGMu6jxDwifgDeQAIUH_3oXhe5RFpw06TYzl9v7c,7083041
+py_imgui_redux.libs/libGLdispatch-228223fa.so.0.0.0,sha256=f90hm2wkY9U0XIw-QTLbntReC9yv5tELs7eBAYdp2jw,772241
+py_imgui_redux.libs/libOpenGL-df95b584.so.0.0.0,sha256=P3BWu49KMapcZ9L310KENClJumkZ7W1KE-tTdFG6_-Q,227953
+py_imgui_redux.libs/libGLX-617a612e.so.0.0.0,sha256=AM05CDiqNyqT_w_bAeuDyKFdnnzvR56SSbEV5NVPAYo,149241
+imgui/__init__.pyi,sha256=C2SaAGco03_YjNuS-lxnwbQ0n7KZUVrPCmjfe1P_OWg,100402
+imgui/imnodes/__init__.pyi,sha256=avqKyYUHUKsgWmMop9CeZXtVrBeXBNY7ScKJHfrMOvY,12601
+imgui/implot/__init__.pyi,sha256=VU7xDSAA3HpxSC30ZcLcAMa5Bb8gTckNpr18ZBRf6us,29695
+py_imgui_redux-2.0.0.dist-info/top_level.txt,sha256=15onHRujL1_V625VUUaELFCxh9bOaAi5IzpVBJIPyHI,6
+py_imgui_redux-2.0.0.dist-info/WHEEL,sha256=YWlKy0nJ9aao4e8uDUzQl8aYd3pSdN_guc61oMtONVQ,114
+py_imgui_redux-2.0.0.dist-info/RECORD,,
+py_imgui_redux-2.0.0.dist-info/METADATA,sha256=sl73rOc1OXjagCVAFwimWzQ9OGJginlE4w_cQ0VQm28,7320
+py_imgui_redux-2.0.0.dist-info/LICENSE,sha256=fDrCLKI_lLbO88WTSx4QGbbOEZrWhcw0TBLOQxkydX4,1070
