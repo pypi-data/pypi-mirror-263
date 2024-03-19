@@ -1,0 +1,8 @@
+LICENSE
+README.md
+latex_gen.py
+setup.py
+latex_gen_3000.egg-info/PKG-INFO
+latex_gen_3000.egg-info/SOURCES.txt
+latex_gen_3000.egg-info/dependency_links.txt
+latex_gen_3000.egg-info/top_level.txt
