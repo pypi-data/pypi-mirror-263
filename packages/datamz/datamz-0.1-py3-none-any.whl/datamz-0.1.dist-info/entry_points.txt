@@ -1,0 +1,2 @@
+[console_scripts]
+datamz = datamz.module:main
