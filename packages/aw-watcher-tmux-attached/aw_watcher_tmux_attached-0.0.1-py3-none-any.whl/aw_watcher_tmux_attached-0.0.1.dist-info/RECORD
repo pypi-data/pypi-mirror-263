@@ -1,0 +1,9 @@
+watch_tmux_attached/__init__.py,sha256=DsAHdxLC16H2VjdFOU5tBx2xT9VnNQ-XbTS24fRCa_w,22
+watch_tmux_attached/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+watch_tmux_attached/cli.py,sha256=-TPPKkr4ThbXs44OxevP0TS_TT0gMA649h0HSy5N03I,1659
+watch_tmux_attached/watch_tmux_attached.py,sha256=GIM9vEBns9OQlS3bQylnP6wKRdMB2POlfTveXW8NIoo,1572
+aw_watcher_tmux_attached-0.0.1.dist-info/METADATA,sha256=tmBnTQBfz3hfo_NOdLsPKz4WLdgk6yOafihhNBSgZuE,754
+aw_watcher_tmux_attached-0.0.1.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+aw_watcher_tmux_attached-0.0.1.dist-info/entry_points.txt,sha256=IBe4XO5uqCbUrNfhFpBrFn6AuKCEh_CAZ5oVVaa3Xc4,74
+aw_watcher_tmux_attached-0.0.1.dist-info/licenses/LICENSE.txt,sha256=6XPPOGDCbXWfADfWoNbKUKvztMqEdoGKdR78nJPD5tI,1494
+aw_watcher_tmux_attached-0.0.1.dist-info/RECORD,,

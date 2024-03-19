@@ -1,0 +1,2 @@
+[console_scripts]
+aw-watcher-tmux-attached = watch_tmux_attached.cli:main
