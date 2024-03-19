@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: py-glfw-redux
+Version: 1.0.0
+Summary: A python wrapper for GLFW made with PyBind11
+Author: Alagyn
+Project-URL: Homepage, https://github.com/alagyn/py-glfw-redux
+Project-URL: Bug Tracker, https://github.com/alagyn/py-glfw-redux/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: User Interfaces
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# py-glfw-redux
+GLFW wrapper for Python made with PyBind11
