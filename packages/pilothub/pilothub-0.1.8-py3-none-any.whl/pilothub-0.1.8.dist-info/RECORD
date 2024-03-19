@@ -1,0 +1,10 @@
+pilothub/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pilothub/ppt2hb.py,sha256=PL5vM2mdY0V2BL63yp2mUXg7cIjnvpBirBzooQni0VI,4306
+pilothub/pptnotes.py,sha256=oaSRMddDT_0J5Ubl1UDW6yVkRtgxIYzSoqtFMdl6mjY,3658
+pilothub/pptx2content.py,sha256=fLifWk1DfncSBkPmZq2P5TB9JORWDuhApqIcGLwH4yo,4898
+pilothub/withopenai.py,sha256=YEnAUkeAQKh0dCrIixR1mruzlD-7d4M4BGf3cbJHCyA,4567
+pilothub-0.1.8.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pilothub-0.1.8.dist-info/METADATA,sha256=1y0pnHj3LUuTZMwsdKx05kjlpzbg55BH3DLPMRux7rI,4748
+pilothub-0.1.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pilothub-0.1.8.dist-info/top_level.txt,sha256=2x6u9qyGOIwEHXOFqjvOBuRukgeUpYjAaVQQJmFgt_Q,9
+pilothub-0.1.8.dist-info/RECORD,,
