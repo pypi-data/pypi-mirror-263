@@ -1,0 +1,7 @@
+flask
+flask-orphus
+flask_wtfmasonite-orm
+yaml
+orjson
+ward
+currencies
