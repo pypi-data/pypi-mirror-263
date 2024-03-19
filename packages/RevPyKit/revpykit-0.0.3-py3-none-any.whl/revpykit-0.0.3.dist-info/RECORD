@@ -1,0 +1,11 @@
+RevPyKit/RevPyKitMain.py,sha256=pjgcOfHo6b7ClpqavzPjqpiaaIcJBG3CNcOc6YUozcw,3768
+RevPyKit/__init__.py,sha256=QjKLYKBiTBbXJMVfUQFWMSLqNbG7sEx7hJu7mNkwc9M,20
+RevPyKit/tab1_Analysis.py,sha256=wi31e2C4PvRIJ6xav9n0zKqcq344qfix1kLQHw2R8yU,51890
+RevPyKit/tab1_Analysis_PE.py,sha256=5Ze6B5VlqvCzf0KTXgR2n_vf8ddbS4CNCMUXkpQevcQ,61787
+RevPyKit/tab2_HexEditor.py,sha256=fJ9CS_1kwtxnIL3__XckEZISEe9EpYHSp2ogeJ6M5uc,11251
+RevPyKit/tab3_Example.py,sha256=MLWuFgwA8RFwyF0JuK0ChvT5WiNXw4wMRcubxQfsd88,4006
+RevPyKit/images/55aa.png,sha256=GsJoxoamfL-Y234B5k-EdWK0XzhJmOumj-hJ9ZHQXz4,28634
+revpykit-0.0.3.dist-info/METADATA,sha256=FDIkvuSptb1mVVWzcAJIxpivNDVer4S7-wz_7-bAI-c,4641
+revpykit-0.0.3.dist-info/WHEEL,sha256=LL0B1KxSLwaTWceo7tT-0aDLd-qq9dmbnsnk1DnXlg8,87
+revpykit-0.0.3.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+revpykit-0.0.3.dist-info/RECORD,,
