@@ -1,0 +1,37 @@
+[project]
+name = "animl"  
+version = "1.2.0"  # Required
+description = "Tools for classifying camera trap images"  
+
+readme = "README.md" 
+license = {file = "LICENSE.txt"}
+keywords = ["camera trap", "ecology", "conservation", "zoo", "SDZWA", "conservationtechlab"] 
+
+authors = [{name = "Kyra Swanson", email = "tswanson@sdzwa.org" }]
+
+requires-python = ">=3.7"
+
+
+
+
+[project.urls]  # Optional
+"Homepage" = "https://github.com/conservationtechlab/animl-py"
+
+
+# The following would provide a command line executable called `sample`
+# which executes the function `main` from this package when invoked.
+#[project.scripts]  # Optional
+#sample = "sample:main"
+
+# This is configuration specific to the `setuptools` build backend.
+# If you are using a different build backend, you will need to change this.
+#[tool.setuptools]
+# If there are data files included in your packages that need to be
+# installed, specify them here.
+#package-data = {"sample" = ["*.dat"]}
+
+[build-system]
+# These are the assumed default build requirements from pip:
+# https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
