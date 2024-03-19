@@ -1,0 +1,11 @@
+FasterAPI/__init__.py,sha256=utQNjI9gakH8QFoNdB0WM0fbJWaRFjKL2PLPnfldilk,3258
+FasterAPI/app.py,sha256=tEmvEu7TePLfPNUYF_7hg1OedqTKVbF_HKei-DbifAo,4112
+FasterAPI/dependencies.py,sha256=IkIAW93r8tWXdtoTalL7IgraU_0gvRz7APT__S5QwYI,3269
+FasterAPI/models.py,sha256=engZy-OWmBM3sBpU4dL2L-gKMRGSGd5X6xEhFn5CEkg,1867
+FasterAPI/router.py,sha256=JhYO-W39repZUUgam9p_zsbhuZWv5lkCn7TJjDodGGY,8295
+FasterAPI/schemas.py,sha256=fYqMpyATKvlFeMo3w4kqkRrFtv0FnWNmJPqr-OoBu6o,908
+FasterAPI/utils.py,sha256=6FOGCVzvMCUohvxUR6bg-6u_kjQBEOVnGCadOq9DwaM,5058
+FasterAPI-0.0.30.dist-info/METADATA,sha256=rdU-d0ZW3sWr98mqg88CP5VVHBBnP3kyR4EZga5NAuo,4556
+FasterAPI-0.0.30.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+FasterAPI-0.0.30.dist-info/top_level.txt,sha256=35MA1kyZxeIFMi5ncHyCJ-2JdncCNSMJYQFKhVOhFBI,10
+FasterAPI-0.0.30.dist-info/RECORD,,
