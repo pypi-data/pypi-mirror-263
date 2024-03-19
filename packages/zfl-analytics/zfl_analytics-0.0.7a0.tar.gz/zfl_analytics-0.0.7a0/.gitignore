@@ -1,0 +1,13 @@
+.coverage
+.mypy_cache
+.python-version
+.ruff_cache
+.venv
+__pycache__
+doc/backup_data.json
+doc/dumpdata.json
+db.sqlite3
+dist
+media
+migrations/*
+venv
