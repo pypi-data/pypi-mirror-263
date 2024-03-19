@@ -1,0 +1,8 @@
+README.md
+setup.py
+netbox_grass/__init__.py
+netbox_grass.egg-info/PKG-INFO
+netbox_grass.egg-info/SOURCES.txt
+netbox_grass.egg-info/dependency_links.txt
+netbox_grass.egg-info/not-zip-safe
+netbox_grass.egg-info/top_level.txt

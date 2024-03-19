@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: netbox-grass
+Version: 0.1
+Summary: NetBox plugin that backs up the configuration of network devices.
