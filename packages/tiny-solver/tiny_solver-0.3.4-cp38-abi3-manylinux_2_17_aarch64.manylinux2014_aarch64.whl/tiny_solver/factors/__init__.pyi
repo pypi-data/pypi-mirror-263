@@ -1,0 +1,9 @@
+import numpy as np
+
+class Factor: ...
+
+class BetweenFactorSE2(Factor):
+    def __init__(self, x: float, y: float, theta: float) -> None: ...
+
+class PriorFactor(Factor):
+    def __init__(self, x: np.ndarray) -> None: ...
