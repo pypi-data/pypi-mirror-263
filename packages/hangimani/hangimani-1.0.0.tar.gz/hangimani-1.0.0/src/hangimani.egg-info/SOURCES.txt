@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/hangimani.py
+src/hangimani.egg-info/PKG-INFO
+src/hangimani.egg-info/SOURCES.txt
+src/hangimani.egg-info/dependency_links.txt
+src/hangimani.egg-info/top_level.txt
