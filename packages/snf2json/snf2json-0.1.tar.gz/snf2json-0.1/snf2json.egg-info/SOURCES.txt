@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+snf2json.egg-info/PKG-INFO
+snf2json.egg-info/SOURCES.txt
+snf2json.egg-info/dependency_links.txt
+snf2json.egg-info/entry_points.txt
+snf2json.egg-info/requires.txt
+snf2json.egg-info/top_level.txt
+src/snf2json/__init__.py
+src/snf2json/snf2json.py
