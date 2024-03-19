@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: latex-generator-test
+Version: 0.1.0
+Summary: 
+Author: Vsevolod Vaskin
+Author-email: vaskin.2003@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Example package
+
+this package is used to test package building
+
+It supports some functions for latex generation
