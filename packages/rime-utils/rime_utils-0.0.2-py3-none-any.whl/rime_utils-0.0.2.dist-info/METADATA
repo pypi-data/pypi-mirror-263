@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: rime-utils
+Version: 0.0.2
+Summary: Utilities for operating rime configurations and dictionaries
+Home-page: https://github.com/nk2028/rime-utils-python
+Author: nk2028
+Author-email: support@nk2028.shn.hk
+Project-URL: Bug Reports, https://github.com/nk2028/rime-utils-python/issues
+Project-URL: Source, https://github.com/nk2028/rime-utils-python
+Keywords: rime input-method
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Natural Language :: Chinese (Traditional)
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# rime-utils-python
+
+Utilities for parsing Rime dictionaries
+
+## Usage
+
+```python
+from rime_utils import read_rime_dict
+
+read_rime_dict('/usr/share/rime-data/jyut6ping3.words.dict.yaml')
+```
