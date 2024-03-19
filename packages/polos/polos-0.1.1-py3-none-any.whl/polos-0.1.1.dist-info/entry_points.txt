@@ -1,0 +1,3 @@
+[console_scripts]
+polos=polos.cli:polos
+
