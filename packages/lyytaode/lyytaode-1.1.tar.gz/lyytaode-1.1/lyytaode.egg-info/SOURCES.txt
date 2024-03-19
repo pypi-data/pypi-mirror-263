@@ -1,0 +1,8 @@
+LICENSE
+README.md
+lyytaode.py
+setup.py
+lyytaode.egg-info/PKG-INFO
+lyytaode.egg-info/SOURCES.txt
+lyytaode.egg-info/dependency_links.txt
+lyytaode.egg-info/top_level.txt
