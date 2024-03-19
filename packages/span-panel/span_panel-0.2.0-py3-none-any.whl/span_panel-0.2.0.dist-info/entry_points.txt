@@ -1,0 +1,2 @@
+[console_scripts]
+span-panel = span_panel.__main__:start
