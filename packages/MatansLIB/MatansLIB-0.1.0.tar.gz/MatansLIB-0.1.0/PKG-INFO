@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: MatansLIB
+Version: 0.1.0
+Summary: A library for random things
+Author: That One Indian Kido
+Requires-Python: >=3.6
+Requires-Dist: pydub
