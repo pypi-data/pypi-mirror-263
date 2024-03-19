@@ -1,0 +1,8 @@
+---
+includes:
+  # Can un-comment while developing.
+  # - server_dev.yaml
+  - package://runtimepy/server_base.yaml
+
+app:
+  - runtimepy.net.server.app.setup
