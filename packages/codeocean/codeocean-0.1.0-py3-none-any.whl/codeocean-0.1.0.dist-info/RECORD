@@ -1,0 +1,10 @@
+codeocean/__init__.py,sha256=U35lft7yuygFsrSPhmTVKDsNMPgcSA9JvzTAGo8XfVg,53
+codeocean/capsule.py,sha256=W6PmWxAwiEVUxnm_W-_rNRGie8VcvafUtTTbbC40yYE,2314
+codeocean/client.py,sha256=BzxKpMe3i49vL_rfGsgN-fob97pxRMlrjmg38y1g7TY,831
+codeocean/components.py,sha256=uVVCa-A4nG7MFu0KiNhhXsv3G6ZK5mS76TLbbg8oqM8,1315
+codeocean/computation.py,sha256=M0xcnIafZ9QoU61frBChxLkMbcvvMFkB_Y4hwdUURp8,4281
+codeocean/data_asset.py,sha256=R1FkmtyeIRRNuTVxVRP3PFvMmybQhT6RZhE-Fwp38ko,6114
+codeocean-0.1.0.dist-info/METADATA,sha256=1NuTafPBHeEtzSEkvhK8FdSKE3LRUPpuXgfYZrfWej8,1542
+codeocean-0.1.0.dist-info/WHEEL,sha256=LL0B1KxSLwaTWceo7tT-0aDLd-qq9dmbnsnk1DnXlg8,87
+codeocean-0.1.0.dist-info/licenses/LICENSE,sha256=_TRkqGNByemZnRbLIKXWkDssI_A7qGq3yAho-lvkdaw,1092
+codeocean-0.1.0.dist-info/RECORD,,
