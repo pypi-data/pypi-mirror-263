@@ -1,0 +1,9 @@
+README.md
+setup.py
+aurora_hash/__init__.py
+aurora_hash/main.py
+aurora_test.egg-info/PKG-INFO
+aurora_test.egg-info/SOURCES.txt
+aurora_test.egg-info/dependency_links.txt
+aurora_test.egg-info/entry_points.txt
+aurora_test.egg-info/top_level.txt
