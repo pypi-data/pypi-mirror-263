@@ -1,0 +1,7 @@
+trimesh
+networkx
+cadquery>=2.4.0
+
+[tests]
+pytest
+vtk
