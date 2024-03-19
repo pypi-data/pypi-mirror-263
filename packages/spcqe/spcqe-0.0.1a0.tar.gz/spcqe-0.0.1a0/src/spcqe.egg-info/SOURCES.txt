@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/spcqe/__init__.py
+src/spcqe/functions.py
+src/spcqe/functions_old.py
+src/spcqe/quantiles.py
+src/spcqe/solvers.py
+src/spcqe.egg-info/PKG-INFO
+src/spcqe.egg-info/SOURCES.txt
+src/spcqe.egg-info/dependency_links.txt
+src/spcqe.egg-info/requires.txt
+src/spcqe.egg-info/top_level.txt
