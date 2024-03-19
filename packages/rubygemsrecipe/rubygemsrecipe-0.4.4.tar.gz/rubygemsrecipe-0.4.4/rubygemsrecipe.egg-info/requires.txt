@@ -1,0 +1,7 @@
+setuptools
+six
+slapos.recipe.build>=0.57
+zc.buildout
+
+[test]
+mock
