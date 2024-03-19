@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: pibooth-nextcloud
+Version: 1.0.1
+Summary: Pibooth plugin for Nextcloud upload.
+Home-page: https://github.com/ceeeeb/pibooth-nextcloud
+Author: Ceeeeb
+License: MIT license
+Download-URL: https://github.com/ceeeeb/pibooth-nextcloud/archive/1.0.1.tar.gz
+Keywords: Raspberry Pi,camera,photobooth,nextcloud
+Platform: unix
+Platform: linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Natural Language :: English
+Classifier: Topic :: Multimedia :: Graphics :: Capture :: Digital Camera
+Description-Content-Type: text/markdown
+Requires-Dist: pibooth (>=2.0.0)
+Requires-Dist: pyocclient (==0.6)
+Requires-Dist: qrcode (>=6.1)
+
+# pibooth-nextcloud
+
+[![Python 3.0+](https://img.shields.io/badge/python-3.0+-red.svg)](https://www.python.org/downloads)
+[![PyPi package](https://badge.fury.io/py/pibooth-nextcloud.svg)](https://pypi.org/project/pibooth-nextcloud)
+[![PyPi downloads](https://img.shields.io/pypi/dm/pibooth-nextcloud?color=purple)](https://pypi.org/project/pibooth-nextcloud)
+
+`pibooth-nextcloud` is a plugin for the
+[pibooth](https://github.com/pibooth/pibooth) application.
+
+This plugin adds the photo upload to a [Nextcloud Server](). It
+generates and displays a QR Code with the URL on the gallery. It
+requires an internet connection to work
+
+## Install
+
+    $ pip3 install pibooth-nextcloud
+
+## Configuration
+
+This is the extra configuration options that can be added in the
+`pibooth` configuration):
+
+``` ini
+[NEXTCLOUD]
+# Enable upload on  Nextcloud
+activate = True
+
+# URL of server to upload
+host_nextcloud = https://<Server nextcloud>
+
+# Root directory where Nextcloud stores photos
+rep_photos_nextcloud = Photos
+
+# Album where pictures are uploaded
+album_name = suubdir
+
+# User login for nextcloud account
+user_nextcloud = user_nextcloud
+
+# User password for nextcloud account
+pass_nextcloud = pwd_nextcloud
+
+# Print QR Code on screen
+printQrCode = True
+
+# Use Nextcloudcmd for Synchronize Local et Remote directory
+useSynchronize = True
+```
+
+::: note
+::: title
+Note
+:::
+
+Edit the configuration by running the command `pibooth --config`.
+:::
+
+## Note
+
+
