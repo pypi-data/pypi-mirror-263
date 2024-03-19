@@ -1,0 +1,5 @@
+setup.py
+PyAnanyo.egg-info/PKG-INFO
+PyAnanyo.egg-info/SOURCES.txt
+PyAnanyo.egg-info/dependency_links.txt
+PyAnanyo.egg-info/top_level.txt
