@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dillagent
+Version: 1.0.1
+Summary: Agentic LLM library
+Home-page: https://github.com/buzzoo123/dillagent
+Author: buzzoo123
+Author-email: buzzoo123@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+DillAgent is an AI agent library based on the principles of ReAct: Synergizing Reasoning and Acting in Language Models. While there are existing libraries such as Langchain, Langroid, and Llamaindex, DillAgent takes a different approach by prioritizing modularity and abstraction to provide developers with more control over their LLM-powered applications.
