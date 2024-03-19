@@ -1,0 +1,7 @@
+README.md
+license.txt
+setup.py
+pro_ferramentas_para_video.egg-info/PKG-INFO
+pro_ferramentas_para_video.egg-info/SOURCES.txt
+pro_ferramentas_para_video.egg-info/dependency_links.txt
+pro_ferramentas_para_video.egg-info/top_level.txt
