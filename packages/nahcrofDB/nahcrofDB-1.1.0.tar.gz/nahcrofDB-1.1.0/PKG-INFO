@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: nahcrofDB
+Version: 1.1.0
+Summary: nahcrofDB is a simple key-value database solution allowing for fast and easy data storage
+Home-page: https://github.com/scuzzles/nahcrofDB/
+Author: Tyrae Paul
+Author-email: tyraepaul@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: requests
