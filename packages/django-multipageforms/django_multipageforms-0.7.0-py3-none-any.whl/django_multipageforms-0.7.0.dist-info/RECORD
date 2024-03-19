@@ -1,0 +1,14 @@
+multipageforms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+multipageforms/apps.py,sha256=NwvMXU8stFlkt04aJDxeljph6cPlV2L8oG-vpckmkOk,140
+multipageforms/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+multipageforms/tools.py,sha256=TfzuSg18mKTSloGa6w974_c4xCix8Msnc1-zIrnKgZg,2065
+multipageforms/forms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+multipageforms/forms/multiform.py,sha256=6MipkCk6t7o-CfKsWk5O8ud86TCJJXuPjPO4CYKO9pM,6130
+multipageforms/forms/multipageform.py,sha256=oM6yGiPVBz1AmOowYSKqVD8j57sSg2OV0Y9wQh8j9Xo,4549
+multipageforms/views/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+multipageforms/views/generic.py,sha256=lg1b_18PILIN0xXfV-XR9_nvuMg0NSKuTNiwVYBCiWE,5910
+django_multipageforms-0.7.0.dist-info/LICENSE.txt,sha256=YsHsPKfHpg017ly2377VjSFEFMJyNAqKjJp87id3H9g,1076
+django_multipageforms-0.7.0.dist-info/METADATA,sha256=jHIwgK4RtR0w2l4CWCgvYM8NbMK4sx5BhZNtPOcnIzs,2029
+django_multipageforms-0.7.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_multipageforms-0.7.0.dist-info/top_level.txt,sha256=F4T_dReHtpFyIQIbu9gy-Esuw93GnChyAFy_hIepQzw,15
+django_multipageforms-0.7.0.dist-info/RECORD,,
