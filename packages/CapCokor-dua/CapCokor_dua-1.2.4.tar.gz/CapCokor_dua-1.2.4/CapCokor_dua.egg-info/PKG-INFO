@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: CapCokor_dua
+Version: 1.2.4
+Summary: cap cokor dua adalah kakak dari cap_cokor_tiga...
+Home-page: https://github.com/IrfanDect/CapCokor_dua
+Author: bsbdrack
+Author-email: bsbdrack@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: baso-kontol
+Requires-Dist: CapCokor-tiga
+Provides-Extra: excel
+Requires-Dist: openpyxl; extra == "excel"
+
+- CapCokor_dua >> CapCokor_tiga 
+
