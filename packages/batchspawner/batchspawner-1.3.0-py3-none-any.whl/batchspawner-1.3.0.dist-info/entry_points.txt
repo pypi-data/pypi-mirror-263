@@ -1,0 +1,2 @@
+[console_scripts]
+batchspawner-singleuser = batchspawner.singleuser:main
