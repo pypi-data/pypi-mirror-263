@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "calculatormp"
+version = "0.0.3"
+authors = [{name = "Martynas Pocius", email = "martynaspocyus@gmail.com"}]
+description = "A package containing basic arithmetic operations"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Home = "https://github.com/pociusmartynas/calculator-py"
