@@ -1,0 +1,53 @@
+# Based on https://github.com/guilatrova/tryceratops/blob/main/pyproject.toml
+
+[tool.poetry]
+name = "loci-cli"
+version = "0.20240319.004558"
+description = "The official Loci CLI tool and Python client library."
+authors = ["TheTwitchy <the.twitchy@gmail.com>"]
+readme = "README.md"
+homepage = "https://gitlab.com/loci-notes/loci-cli"
+repository = "https://gitlab.com/loci-notes/loci-cli"
+packages = [{include = "loci"}]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.7"
+requests = "^2.31.0"
+rich = "^13.7.0"
+pendulum = "^3.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+pytest-cov = "^4.0.0"
+pytest-env = "^0.8.1"
+flake8 = "^6.0.0"
+black = "^23.3.0"
+pytest-mock = "^3.12.0"
+
+[tool.pytest.ini_options]
+addopts = "--cov=loci --cov-report=xml --cov-report=term-missing"
+env = [
+    "ENV=TEST"
+]
+testpaths = [
+    "tests"
+]
+
+[tool.coverage.run]
+branch = true
+omit = [
+    "tests/*"
+]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+
+[tool.poetry.scripts]
+loci = "loci_cli.__main__:root_entry"
