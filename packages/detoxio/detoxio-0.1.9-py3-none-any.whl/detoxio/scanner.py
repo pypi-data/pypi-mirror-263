@@ -1,0 +1,89 @@
+# Description: This file contains the LLMScanner class that provides a simple interface
+# to test LLM models for security vulnerabilities by using detoxio.ai APIs
+
+import detoxio.config as config
+
+from collections.abc import Callable
+from .models import LLMPrompt, LLMResponse, LLMScanResult
+
+from detoxio.adapters.grpc import get_secure_channel_with_token
+from detoxio.adapters.prompts import get_prompts_service
+
+# Define the type for a function that handles a generated prompt
+# and provides the response from the LLM model. The actual model inferencing
+# is decoupled from our scanning logic.
+LLMPromptHandler = Callable[[LLMPrompt], LLMResponse]
+
+class LLMScanner:
+    """
+    LLMScanner provides a simple interface to test LLM models for security vulnerabilities
+    by using detoxio.ai APIs to generate prompts and evaluate LLM responses for security
+    vulnerabilities.
+
+    args:
+        count (int): The number of prompts to generate for each scan.
+        key (str): The API key for the detoxio.ai API.
+    """
+    def __init__(self, count=10, key=None):
+        """
+        Initialize the LLMScanner with configuration parameters.
+
+        Args:
+            count (int): The number of prompts to generate for each scan.
+        """
+        self.count = count
+        self.batch_size = 1
+
+        if key is None:
+            key = config.load_key_from_env()
+        if key is None:
+            raise ValueError("DETOXIO_API_KEY environment variable is not set.")
+
+        self.grpc_channel = get_secure_channel_with_token(config.get_api_host(), config.get_api_port(), key)
+        self.prompt_service = get_prompts_service(self.grpc_channel)
+
+    def start(self, prompt_handler: LLMPromptHandler) -> LLMScanResult:
+        """
+        Assist in scanning an LLM model for security vulnerabilities.
+
+        Args:
+            prompt_handler (PromptHandler): A function that takes a LLMPrompt and returns a LLMResponse.
+        """
+
+        # Ping the service to verify connectivity
+        self.prompt_service.ping()
+
+        batch_size = self.batch_size
+        count = self.count
+
+        # Normalize the batch size
+        if count < batch_size:
+            batch_size = count
+
+        # Create the result object to be hydrated during scan
+        results = LLMScanResult()
+
+        # Fetch in batches to optimize RTT
+        while count > 0:
+            # Fetch a batch of prompts
+            # https://buf.build/detoxio/api/docs/main:dtx.services.prompts.v1#dtx.services.prompts.v1.PromptService.GeneratePrompts
+            res = self.prompt_service.generate_prompt(count=batch_size)
+
+            # Invoke the handler for each prompt
+            for prompt in res.prompts:
+                llm_response = prompt_handler(LLMPrompt(content=prompt.data.content))
+
+                if llm_response is None:
+                    raise ValueError("Prompt handler returned None")
+                if not isinstance(llm_response, LLMResponse):
+                    raise ValueError("Prompt handler must return an LLMResponse")
+
+                # Evaluate response
+                evaluation_response = self.prompt_service.evaluate_prompt_response(prompt, llm_response.content)
+
+                # Store response
+                results.add_raw_result(evaluation_response)
+
+            count -= batch_size
+
+        return results
