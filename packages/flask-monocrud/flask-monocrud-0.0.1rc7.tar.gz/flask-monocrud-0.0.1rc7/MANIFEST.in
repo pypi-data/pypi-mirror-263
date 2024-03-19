@@ -1,0 +1,3 @@
+include flask_monocrud/stubs/*
+include flask_monocrud/project_structure/*
+include flask_monocrud/templates/*
