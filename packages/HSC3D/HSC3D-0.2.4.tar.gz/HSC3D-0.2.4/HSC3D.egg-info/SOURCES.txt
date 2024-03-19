@@ -1,0 +1,13 @@
+License.md
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+HSC3D/HSC3D.py
+HSC3D/__init__.py
+HSC3D.egg-info/PKG-INFO
+HSC3D.egg-info/SOURCES.txt
+HSC3D.egg-info/dependency_links.txt
+HSC3D.egg-info/requires.txt
+HSC3D.egg-info/top_level.txt
