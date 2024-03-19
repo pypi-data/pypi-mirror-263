@@ -1,0 +1,46 @@
+- job:
+    name: nox-py36-gerrit-default
+    parent: nox-py36
+    nodeset: ubuntu-bionic
+
+- job:
+    name: nox-py36-gerrit-371
+    parent: nox-py36-gerrit-default
+    vars:
+      nox_environment:
+        WAR_URL: 'https://gerrit-releases.storage.googleapis.com/gerrit-3.7.1.war'
+
+- job:
+    name: nox-py311-gerrit-default
+    parent: nox-py311
+    nodeset: ubuntu-jammy
+
+- job:
+    name: nox-py311-gerrit-371
+    parent: nox-py311-gerrit-default
+    vars:
+      nox_environment:
+        WAR_URL: 'https://gerrit-releases.storage.googleapis.com/gerrit-3.7.1.war'
+
+- project:
+    vars:
+      release_python: python3
+    templates:
+      - publish-opendev-nox-docs
+    check:
+      jobs: &jobs
+        - build-python-release
+        - nox-linters
+        - nox-py36-gerrit-default
+        - nox-py36-gerrit-371
+        - nox-py311-gerrit-default
+        - nox-py311-gerrit-371
+    gate:
+      jobs: *jobs
+    promote:
+      jobs:
+        - opendev-promote-python
+    release:
+      jobs:
+        - opendev-release-python
+        - opendev-publish-unversioned-nox-docs
