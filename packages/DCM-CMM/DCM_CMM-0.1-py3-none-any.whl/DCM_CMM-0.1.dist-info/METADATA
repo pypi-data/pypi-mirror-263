@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: DCM-CMM
+Version: 0.1
+Author: Axel Osses, Emir Chacra
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: graphviz
+Requires-Dist: matplotlib
+
