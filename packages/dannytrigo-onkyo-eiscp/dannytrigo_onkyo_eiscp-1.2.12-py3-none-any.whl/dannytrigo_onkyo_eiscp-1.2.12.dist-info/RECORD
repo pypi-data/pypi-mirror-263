@@ -1,0 +1,12 @@
+eiscp/__init__.py,sha256=a2oeqMlJ2WZsO0trgVFbx8ap77xcV1GrD5MdeZL5NoI,150
+eiscp/commands.py,sha256=3jBBEBBfuOKCHJzkjxFJI1coP89_MLPcU1bTLPfk3Kg,184623
+eiscp/core.py,sha256=a7Ypu2bAkFZdKRyv6c20n5E_U5MWhGFLcWrd0VCfUAU,26411
+eiscp/script.py,sha256=P86K4kErujDdP6riHRKNIiUGsXpT5fVDNZ_l8mfBDf8,7262
+eiscp/server.py,sha256=eyMzBHMFuYiD8yPNTS_jrbD_QR5PAVf9ye2FQ00U1w0,2170
+eiscp/utils.py,sha256=k6MS7QJ-Fa3YozY74b5ZP2Ye5hepuEFi5In-yfR6ej8,929
+dannytrigo_onkyo_eiscp-1.2.12.dist-info/LICENSE,sha256=FPozdJcriu3_ZFOpD1Wll1J9QsjzUdXnKoHOp0zDpfo,1092
+dannytrigo_onkyo_eiscp-1.2.12.dist-info/METADATA,sha256=MEvd38-k087y1KKj1W461EXkqtQC1M77sZol_pkwENU,10328
+dannytrigo_onkyo_eiscp-1.2.12.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dannytrigo_onkyo_eiscp-1.2.12.dist-info/entry_points.txt,sha256=M7iKcFeomUIPUyu0iE_w_q9IoSJ9DuhJfs8EIldxhEU,43
+dannytrigo_onkyo_eiscp-1.2.12.dist-info/top_level.txt,sha256=JbeyDhMDikuPOGi3kqjeoYwznrHfICkpYa7pD7Jj6Z8,6
+dannytrigo_onkyo_eiscp-1.2.12.dist-info/RECORD,,
