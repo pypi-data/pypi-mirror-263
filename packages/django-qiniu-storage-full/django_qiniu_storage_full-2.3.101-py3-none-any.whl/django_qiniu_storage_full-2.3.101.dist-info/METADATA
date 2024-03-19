@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: django-qiniu-storage-full
+Version: 2.3.101
+Summary: Django storage for Qiniu Cloud Storage
+Home-page: https://github.com/glasslion/django-qiniu-storage
+Author: Lijian Zhou
+Author-email: glasslion@gmail.com
+License: MIT
+Keywords: qiniu django
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: Django
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+License-File: LICENSE
+Requires-Dist: qiniu >=7.1.0
+Requires-Dist: six
+Requires-Dist: requests
+
