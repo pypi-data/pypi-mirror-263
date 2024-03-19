@@ -1,0 +1,15 @@
+daily_tasks/__init__.py,sha256=gpS46hvZr96cwUUeNclMTEVEBGiOgAcwLojEh_AA7eU,34
+daily_tasks/commands/__init__.py,sha256=EvJtuKOD5dPexjAzDpmKrkF9KsqfeAbWvLTZDbr-0wY,259
+daily_tasks/commands/filter_commands.py,sha256=PeYbdccyLerOlxcZNPlgWXWB8mdoHefFvdiNYf_lF9w,2525
+daily_tasks/commands/main.py,sha256=qQ3y6IJLcGadvK8lx2ijspDwYLwfVcyPIlTxaVf1Kf4,1067
+daily_tasks/commands/main_commands.py,sha256=z3L-n88Z8J6oBlaMDjYYX4Ec5SESUdIkCnf1O4e3iU0,3381
+daily_tasks/commands/modification_commands.py,sha256=0h0kP-uo7ydUJe89sM77sstlrj8WDDKDVwVEX82PRLs,3906
+daily_tasks/commands/removal_commands.py,sha256=RyOq5GpxZHbzDf9L7YiZo3D16GtL436S13L4u8tZwdk,1260
+daily_tasks/commands/utilities.py,sha256=G0xbjmhWuhUgWrQVmw8QggUfl7bRgbIXo01GCntxX60,4132
+daily_tasks/tests/test_main_commands.py,sha256=LTr1zfsuS2EMByaz6fAhe3WYMHkJqElNKEdwwT82sfE,1268
+dailytasks-1.0.1.dist-info/LICENSE,sha256=1-AgjfDxpUcTraqE4scTycXazGwKBQ1W2c6PS-QWyw8,11558
+dailytasks-1.0.1.dist-info/METADATA,sha256=NhsKnJSMobOrbJcBbgFg6hBngmLX8QL143W7vh3U1wY,1669
+dailytasks-1.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dailytasks-1.0.1.dist-info/entry_points.txt,sha256=4daQBXGkb8eNxjffVOMAlda2pzXQiVsxGIF-re379AU,69
+dailytasks-1.0.1.dist-info/top_level.txt,sha256=P97_Y_egX4zu_W5G_ukpenE0XBUBF9X_V3GeACP09hc,12
+dailytasks-1.0.1.dist-info/RECORD,,
