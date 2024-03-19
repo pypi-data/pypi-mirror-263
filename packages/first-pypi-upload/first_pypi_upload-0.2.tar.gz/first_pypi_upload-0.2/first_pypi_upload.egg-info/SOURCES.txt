@@ -1,0 +1,6 @@
+README.md
+setup.py
+first_pypi_upload.egg-info/PKG-INFO
+first_pypi_upload.egg-info/SOURCES.txt
+first_pypi_upload.egg-info/dependency_links.txt
+first_pypi_upload.egg-info/top_level.txt
