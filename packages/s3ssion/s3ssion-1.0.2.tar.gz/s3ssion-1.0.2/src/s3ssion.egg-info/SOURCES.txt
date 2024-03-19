@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/s3ssion.py
+src/s3ssion.egg-info/PKG-INFO
+src/s3ssion.egg-info/SOURCES.txt
+src/s3ssion.egg-info/dependency_links.txt
+src/s3ssion.egg-info/requires.txt
+src/s3ssion.egg-info/top_level.txt
