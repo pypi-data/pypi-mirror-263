@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+jinjabread/__init__.py
+jinjabread/base.py
+jinjabread/tests.py
+jinjabread.egg-info/PKG-INFO
+jinjabread.egg-info/SOURCES.txt
+jinjabread.egg-info/dependency_links.txt
+jinjabread.egg-info/requires.txt
+jinjabread.egg-info/top_level.txt
