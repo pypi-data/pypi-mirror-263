@@ -1,0 +1,8 @@
+setup.py
+src/catopalidi/__init__.py
+src/catopalidi/image_generator.py
+src/catopalidi/table_generator.py
+src/catopalidi.egg-info/PKG-INFO
+src/catopalidi.egg-info/SOURCES.txt
+src/catopalidi.egg-info/dependency_links.txt
+src/catopalidi.egg-info/top_level.txt
