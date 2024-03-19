@@ -1,0 +1,14 @@
+dask
+napari
+numpy
+zarr
+pandas
+
+[docs]
+sphinx
+
+[io]
+nd2
+
+[testing]
+pytest
