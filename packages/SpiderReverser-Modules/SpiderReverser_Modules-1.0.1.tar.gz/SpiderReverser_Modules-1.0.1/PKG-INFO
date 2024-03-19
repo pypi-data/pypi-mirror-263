@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: SpiderReverser_Modules
+Version: 1.0.1
+Summary: SpiderReverser person modules
+Home-page: https://github.com/SpiderReverser/SpiderReverser_Modules
+Author: SpiderReverser
+Author-email: spiderreverser@foxmail.com
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: httpx
+Requires-Dist: httpx[http2]
+Requires-Dist: fake_useragent
+Requires-Dist: loguru
