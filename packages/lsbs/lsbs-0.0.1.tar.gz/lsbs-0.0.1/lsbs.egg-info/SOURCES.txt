@@ -1,0 +1,7 @@
+setup.py
+lsbs/__init__.py
+lsbs.egg-info/PKG-INFO
+lsbs.egg-info/SOURCES.txt
+lsbs.egg-info/dependency_links.txt
+lsbs.egg-info/requires.txt
+lsbs.egg-info/top_level.txt
