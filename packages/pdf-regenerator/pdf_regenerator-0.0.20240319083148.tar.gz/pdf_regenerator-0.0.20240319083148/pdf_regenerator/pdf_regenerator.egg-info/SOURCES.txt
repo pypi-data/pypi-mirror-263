@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+pdf_regenerator/pdf_regenerator.egg-info/PKG-INFO
+pdf_regenerator/pdf_regenerator.egg-info/SOURCES.txt
+pdf_regenerator/pdf_regenerator.egg-info/dependency_links.txt
+pdf_regenerator/pdf_regenerator.egg-info/requires.txt
+pdf_regenerator/pdf_regenerator.egg-info/top_level.txt
