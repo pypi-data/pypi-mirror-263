@@ -1,0 +1,9 @@
+torch
+tqdm
+ultralytics
+rich
+numpy
+matplotlib
+opencv-python
+pandas
+seaborn
