@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: release-build
+Version: 0.1.0
+Summary: Setting up a python package
+Home-page: UNKNOWN
+Author: AjayKumar
+Author-email: ajay.kumar3@antiersolutions.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: GitPython
+
+UNKNOWN
+
+
