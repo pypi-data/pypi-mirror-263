@@ -20986,1127 +20986,1127 @@
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/ac/c6/3bb8b48fb30f3c54048ea9d4fce7d07c2a9ce77387aa3f2cd4f33340190e/pycrdt-0.8.16-cp311-cp311-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl",
       "upload_time": "2024-03-18T22:03:30.963083Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/21/e9/9c61c7c6aa1e721d8b71d43a07aa9e61f2ea21fd58442ba8fbfba29894e0/pycrdt-0.8.16-cp311-cp311-macosx_10_12_x86_64.whl",
       "upload_time": "2024-03-18T22:03:33.011914Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/bc/55/785f68e2adfe3aa079b94e8bb5b35e2d431a8bf403593a7164429570cd37/pycrdt-0.8.16-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
       "upload_time": "2024-03-18T22:03:34.671984Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/1f/30/961de7342d8d0623ab7f5263af945e9fedd02f96018689c1b869c7174808/pycrdt-0.8.16-cp311-cp311-manylinux_2_17_armv7l.manylinux2014_armv7l.whl",
       "upload_time": "2024-03-18T22:03:36.378176Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/4f/07/569e6b290351f4434f8b65efcc4cf6fdc973ce9bb17a46e9983259ded557/pycrdt-0.8.16-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
       "upload_time": "2024-03-18T22:03:38.039628Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "covalent-api-sdk",
       "project_version": "0.9.7",
       "url": "https://files.pythonhosted.org/packages/b6/25/4bd49582905344ce3da11dda818c0870c9a806c274e1ee989d7db2826725/covalent_api_sdk-0.9.7-py3-none-any.whl",
       "upload_time": "2024-03-18T22:03:38.399448Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/5f/f3/606a0d8e77f429b03e786af6f8dda22fc4eb1d43e0b2a7fe246d3cd17877/pycrdt-0.8.16-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl",
       "upload_time": "2024-03-18T22:03:40.230115Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "covalent-api-sdk",
       "project_version": "0.9.7",
       "url": "https://files.pythonhosted.org/packages/4e/d1/0e17c4218b3046f2377689a75d4c0470eef77e61d6b532b06b94e6924d8e/covalent-api-sdk-0.9.7.tar.gz",
       "upload_time": "2024-03-18T22:03:40.995623Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "honeybee-grasshopper-energy",
       "project_version": "1.54.5",
       "url": "https://files.pythonhosted.org/packages/71/89/3b36561ab5502dc898577b0fe28b2337008ef6a9fc1705505d53ff3d6818/honeybee_grasshopper_energy-1.54.5-py2.py3-none-any.whl",
       "upload_time": "2024-03-18T22:03:41.773177Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/0a/b5/195b864928da5efb4cc4b42ad8611ca3f16bc562d1e42a36ab809e4ed5ee/pycrdt-0.8.16-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-03-18T22:03:42.040881Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/9b/0a/f5036f83b80cb12a182bf0a1752f31b380ddd434ea907f3e4fa42d4e797d/pycrdt-0.8.16-cp311-cp311-manylinux_2_5_i686.manylinux1_i686.whl",
       "upload_time": "2024-03-18T22:03:43.935073Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/33/64/8a89dfcada08076c4282b5903c862fd695af3bb16dcfc728f98443837267/pycrdt-0.8.16-cp311-none-win32.whl",
       "upload_time": "2024-03-18T22:03:45.826021Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "honeybee-grasshopper-energy",
       "project_version": "1.54.5",
       "url": "https://files.pythonhosted.org/packages/88/f2/d04f34523992e76c010768ddafbe66b91232ec666860a1c65da84b3ea328/honeybee-grasshopper-energy-1.54.5.tar.gz",
       "upload_time": "2024-03-18T22:03:46.405775Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/e1/7c/d21d08db7bd00de6a566e901fd9127e66d90eaab6fddacb9242cb0d76457/pycrdt-0.8.16-cp311-none-win_amd64.whl",
       "upload_time": "2024-03-18T22:03:47.887809Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/91/35/aa649a29be25e4f9e0c4ebd2a6b1c3a739c42edc6c3ae9bdd5f8bcdf78c4/pycrdt-0.8.16-cp312-cp312-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl",
       "upload_time": "2024-03-18T22:03:50.122535Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/4d/bf/9a9657948a7347619b7b048ecea57d804038f065f2b936b50c596af56eac/pycrdt-0.8.16-cp312-cp312-macosx_10_12_x86_64.whl",
       "upload_time": "2024-03-18T22:03:52.237200Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/ee/4a/e4240909cf1d5583d736c8e14fa89f47b9660e26f530f256f4da376a5b78/pycrdt-0.8.16-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
       "upload_time": "2024-03-18T22:03:54.096649Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/81/c2/97836b6230ad632b4f1f15b789291ab86d05809ab7d098ea1d5e10a6bb7d/pycrdt-0.8.16-cp312-cp312-manylinux_2_17_armv7l.manylinux2014_armv7l.whl",
       "upload_time": "2024-03-18T22:03:56.445212Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/6d/b0/f7e46c7714e134f64eede4adb17fdd03a09c17d98f9fe11cfb38e669af63/pycrdt-0.8.16-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
       "upload_time": "2024-03-18T22:03:58.182238Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/44/1f/67b0e0332f309239cf1e9a82ba4a867a3dfe3fa51a1ef9ebeb77d37bccbf/pycrdt-0.8.16-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl",
       "upload_time": "2024-03-18T22:04:00.565061Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/f8/ee/3e3c425b2d90a017434d639581c130774366e9a131c7b7cc85b07e4195f4/pycrdt-0.8.16-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-03-18T22:04:03.177862Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/d2/df/7b98d209a8f716e2478df5ae9b55fc0fc92bbde04b81977cc8326a9a3496/pycrdt-0.8.16-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.whl",
       "upload_time": "2024-03-18T22:04:05.361382Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/b8/0d/efd7da15d4546032fc131cc6ea5c1fb55766b6d56aaa8f0d8c02ee8b67c9/pycrdt-0.8.16-cp312-none-win32.whl",
       "upload_time": "2024-03-18T22:04:07.083320Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/e7/af/5c6c06bae7de7872dd84f42bc0ab59e434156be3f91dbdca75ca40a9f89d/pycrdt-0.8.16-cp312-none-win_amd64.whl",
       "upload_time": "2024-03-18T22:04:08.771768Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/c8/0e/be10b653aa5c7cd493c3f3971d3d5a2795e5ff7f8daa238669214f16deeb/pycrdt-0.8.16-cp38-cp38-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl",
       "upload_time": "2024-03-18T22:04:10.576706Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/e4/5c/6f98e90df071fc4fd235797446dc035caf4ee2fa397f792dec9c91cbf287/pycrdt-0.8.16-cp38-cp38-macosx_10_12_x86_64.whl",
       "upload_time": "2024-03-18T22:04:12.302154Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/f9/29/14579776c8ca5c5cb20843c4087dd8f99cc725a6b5815fdb44295bb04fb4/pycrdt-0.8.16-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
       "upload_time": "2024-03-18T22:04:13.867818Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/be/d2/eb810f7eeb214a685187d6857d37090ea10a8d5a41b31eadea94bda6753d/pycrdt-0.8.16-cp38-cp38-manylinux_2_17_armv7l.manylinux2014_armv7l.whl",
       "upload_time": "2024-03-18T22:04:15.740713Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/8e/f4/92cf29b9d2ca38d9e8028367ed89f8697288586632009ad5d11b310084a8/pycrdt-0.8.16-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
       "upload_time": "2024-03-18T22:04:17.648681Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/60/0f/b4573376226915c11bd6ef14a3b30329c092cfc5e1856b613c01c0cec8ac/pycrdt-0.8.16-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl",
       "upload_time": "2024-03-18T22:04:19.641275Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "dtree-metalcycling",
       "project_version": "0.4.1",
       "url": "https://files.pythonhosted.org/packages/bd/68/d1ce8df742fd3175731baa285686aedaeb6a72aa4b3f820ef14db298e217/dtree_metalcycling-0.4.1-py3-none-any.whl",
       "upload_time": "2024-03-18T22:04:21.258563Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/7b/b2/83080f957e9116a9f6a8daf0f96d72fbacc7f9347013182f94c74294b313/pycrdt-0.8.16-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-03-18T22:04:22.238412Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "dtree-metalcycling",
       "project_version": "0.4.1",
       "url": "https://files.pythonhosted.org/packages/59/0b/88e2b980f95f412536c9432f926b497738fd8bf0a0141d43a8ccae3d4011/dtree-metalcycling-0.4.1.tar.gz",
       "upload_time": "2024-03-18T22:04:23.069593Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/4f/94/f97000ecec861de8922d7f50c7aa8a6204e53042e6c9a78aece408bf4597/pycrdt-0.8.16-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.whl",
       "upload_time": "2024-03-18T22:04:24.637310Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/63/6c/a28889475863502e78ae34a8f3149d4a465615e3c49fb275153af5fd7cd0/pycrdt-0.8.16-cp38-none-win32.whl",
       "upload_time": "2024-03-18T22:04:26.305249Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/c8/4e/0d2f14624eab73590a6500155e67a3faf94b91eada3b0bfde4c4d7b100d5/pycrdt-0.8.16-cp38-none-win_amd64.whl",
       "upload_time": "2024-03-18T22:04:28.670740Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "yalexs",
       "project_version": "3.0.0",
       "url": "https://files.pythonhosted.org/packages/42/0b/00dc7863987c3345f7a1277c0321a4ab5f6b26b7de548e009ca24bff6cf2/yalexs-3.0.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:04:30.200025Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/af/dd/5728002a35acca869a8dc7732d3a120f28308ccb33d6691a09874100aef9/pycrdt-0.8.16-cp39-cp39-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl",
       "upload_time": "2024-03-18T22:04:30.271458Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/9f/2d/fc27deb321d3f096cea70ae76f3bf5eef3bfa031717ee43c5e10a933a321/pycrdt-0.8.16-cp39-cp39-macosx_10_12_x86_64.whl",
       "upload_time": "2024-03-18T22:04:32.727590Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "yalexs",
       "project_version": "3.0.0",
       "url": "https://files.pythonhosted.org/packages/ca/d7/a792f2d41fd0386003390947348224645a7d6935853eeaa3a342eb922b1b/yalexs-3.0.0.tar.gz",
       "upload_time": "2024-03-18T22:04:32.780991Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/d9/e8/cac9c540a365c0ddfd150152135ac2a5b9c8aaa6dc61b2dd4192abeb0d64/pycrdt-0.8.16-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
       "upload_time": "2024-03-18T22:04:34.853357Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/63/ff/93b923cf0520bb31059c15ec8a10bd62772ce87f9b4b3069f58a03e38aff/pycrdt-0.8.16-cp39-cp39-manylinux_2_17_armv7l.manylinux2014_armv7l.whl",
       "upload_time": "2024-03-18T22:04:37.415010Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/16/8a/8a5d5b1322785a8a6f829c538542e12c6762bdde452d097da44e42da4621/pycrdt-0.8.16-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
       "upload_time": "2024-03-18T22:04:40.043964Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "databricks-vectorsearch",
       "project_version": "0.24",
       "url": "https://files.pythonhosted.org/packages/ec/35/02455762cf99ddcf4fbff30449890dc5a5f8fdd0078438834fdac10ba2bb/databricks_vectorsearch-0.24-py3-none-any.whl",
       "upload_time": "2024-03-18T22:04:41.815452Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/05/19/a63a3af71bd36bc52079648576ed406e5dc4637c22fbdbba313e086ce101/pycrdt-0.8.16-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl",
       "upload_time": "2024-03-18T22:04:42.009960Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/b1/88/477a04e3c903fcccb28cec8258a6ccb647bb4112c750aa5900310f753a87/pycrdt-0.8.16-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-03-18T22:04:43.962350Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/de/46/6bb33955b93e978bfa8f543d56c93cb0c62a6fe9cc4d49425ea286cf5ec3/pycrdt-0.8.16-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.whl",
       "upload_time": "2024-03-18T22:04:46.005244Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/3f/9e/4b7f87be695575ec9497f36c84ac48f91d650d7ce410b2200bb4cb4aa9b1/pycrdt-0.8.16-cp39-none-win32.whl",
       "upload_time": "2024-03-18T22:04:47.750635Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/60/f7/45684617f5b871a1e08be286aa7e144c84293edc3b2e68b882e545c2e9d6/pycrdt-0.8.16-cp39-none-win_amd64.whl",
       "upload_time": "2024-03-18T22:04:49.404979Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/bc/2e/024514eafa7ea6840471d737e67cbbba86d8825c464d17297683928ca33e/pycrdt-0.8.16-pp38-pypy38_pp73-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl",
       "upload_time": "2024-03-18T22:04:51.001532Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/08/91/48346ff2efd067e1d25540ed82b58583d91b64aa17049a9510705f1e4072/pycrdt-0.8.16-pp38-pypy38_pp73-macosx_10_12_x86_64.whl",
       "upload_time": "2024-03-18T22:04:52.852345Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/a3/ce/a85ab51d9d4d7645360dee960e2632a2f742328e629e1f424fb1ff5ce96b/pycrdt-0.8.16-pp38-pypy38_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
       "upload_time": "2024-03-18T22:04:55.210385Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/ce/f9/27c7be029096dabad34f0d4fe127883b4d86194a7ddb3e2f41f3b187a4ca/pycrdt-0.8.16-pp38-pypy38_pp73-manylinux_2_17_armv7l.manylinux2014_armv7l.whl",
       "upload_time": "2024-03-18T22:04:56.952170Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/c4/ea/f890866bf02b1e55e4e2d3d7c5ea67dcd7115dbfc4bebda399d66bcbfc47/pycrdt-0.8.16-pp38-pypy38_pp73-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
       "upload_time": "2024-03-18T22:04:58.696406Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ansar-connect",
       "project_version": "0.1.90",
       "url": "https://files.pythonhosted.org/packages/63/3d/514e67324dd7f2d94a3ef4fc05cbfd3459dfb35ca063c0226cc4ad387111/ansar_connect-0.1.90-py3-none-any.whl",
       "upload_time": "2024-03-18T22:05:00.291677Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/d3/9c/5d1e4057469baa75658a5371bf5d207b002b6610cdcd5500bd2a9cb896d4/pycrdt-0.8.16-pp38-pypy38_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl",
       "upload_time": "2024-03-18T22:05:01.021238Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ansar-connect",
       "project_version": "0.1.90",
       "url": "https://files.pythonhosted.org/packages/f6/7a/42099da7f6fea67f07738f38b63e9b98d48d58cc9abbfd8f8991ae835925/ansar-connect-0.1.90.tar.gz",
       "upload_time": "2024-03-18T22:05:04.270924Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/85/ba/355f6deb58e3783e85174ea521591980f1dd851d042363cfda00b67e3eaf/pycrdt-0.8.16-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-03-18T22:05:04.275127Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/f1/d0/13acc4425cc595b315ca320cb1023ac21f5dd94918f37be36a61858a5199/pycrdt-0.8.16-pp38-pypy38_pp73-manylinux_2_5_i686.manylinux1_i686.whl",
       "upload_time": "2024-03-18T22:05:07.524447Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/ca/16/664e3369ff99041df53b60580a06b982ee2c715404e2446d1ba77c7ae3b5/pycrdt-0.8.16-pp39-pypy39_pp73-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl",
       "upload_time": "2024-03-18T22:05:09.488898Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/e8/9c/1d670fc813bb227554a9b2363b8b3d67e0d7bb418db26b5e8d4c1ced9707/pycrdt-0.8.16-pp39-pypy39_pp73-macosx_10_12_x86_64.whl",
       "upload_time": "2024-03-18T22:05:11.388376Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/f6/40/98dbcdc351462d269ac7a8573b0e374184938f61497bbd5be929dddc6f04/pycrdt-0.8.16-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
       "upload_time": "2024-03-18T22:05:13.103733Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/f2/d7/d28aec16567ea905375517f14268554a5c95ef35f9914abc39afde5d638d/pycrdt-0.8.16-pp39-pypy39_pp73-manylinux_2_17_armv7l.manylinux2014_armv7l.whl",
       "upload_time": "2024-03-18T22:05:14.776136Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/76/4f/e886684e7656c91a94379d7f2fa238e163418b669da886def97e38cde9d9/pycrdt-0.8.16-pp39-pypy39_pp73-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
       "upload_time": "2024-03-18T22:05:16.807456Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/d3/1a/b7f03eb640075cabf8b1b9868ed62f4ccfab72fdb1a1c5df5cdc9704027e/pycrdt-0.8.16-pp39-pypy39_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl",
       "upload_time": "2024-03-18T22:05:18.761147Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/8a/d4/19778c995555c0de7a19d20153769865a8aa3a68b324cf1ce8ff9989d8ed/pycrdt-0.8.16-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-03-18T22:05:20.677930Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/77/37/540e4593f1a21e4aaac9369a2dd487a5844f868047e64a02947bfb399a96/pycrdt-0.8.16-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.whl",
       "upload_time": "2024-03-18T22:05:22.564427Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "rooms-shared-services",
       "project_version": "0.1.60",
       "url": "https://files.pythonhosted.org/packages/45/40/fb36093769750fd716b8f4cbe60129089b1c9f2a86e81ffacaa6fe5656f9/rooms_shared_services-0.1.60-py3-none-any.whl",
       "upload_time": "2024-03-18T22:05:22.968598Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pycrdt",
       "project_version": "0.8.16",
       "url": "https://files.pythonhosted.org/packages/bf/d1/21cf51978de8ac33f8965c77879dbffbd8a6195a4b0cdacfc6a866924aa2/pycrdt-0.8.16.tar.gz",
       "upload_time": "2024-03-18T22:05:24.797758Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "rooms-shared-services",
       "project_version": "0.1.60",
       "url": "https://files.pythonhosted.org/packages/6b/7d/c0a91278e1dc313e9a5b65da00ba5f852d46d2957bf0de3db412f440d2cd/rooms_shared_services-0.1.60.tar.gz",
       "upload_time": "2024-03-18T22:05:25.071463Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "lbt-grasshopper",
       "project_version": "1.7.62",
       "url": "https://files.pythonhosted.org/packages/dd/cb/d97b4ac2a7e64f6eddee2474e76021af7062e29a5a1787c078102a129376/lbt_grasshopper-1.7.62-py2.py3-none-any.whl",
       "upload_time": "2024-03-18T22:05:30.794853Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "lbt-grasshopper",
       "project_version": "1.7.62",
       "url": "https://files.pythonhosted.org/packages/1f/41/e002bae07fca39969760e8232e330e654e0693ea47b1649491ca4cab6c9f/lbt-grasshopper-1.7.62.tar.gz",
       "upload_time": "2024-03-18T22:05:36.322790Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "edq-canvas",
       "project_version": "0.0.2",
       "url": "https://files.pythonhosted.org/packages/e1/96/64281da671f87a0399122abed3d3bf6a9b277a8ad7a46e7c9aaaed718a17/edq_canvas-0.0.2-py3-none-any.whl",
       "upload_time": "2024-03-18T22:06:06.580163Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "edq-canvas",
       "project_version": "0.0.2",
       "url": "https://files.pythonhosted.org/packages/21/11/f465d93aa3da3123acf1629a04d48a6b5e8b30cd4634829b5b8d03dfb535/edq-canvas-0.0.2.tar.gz",
       "upload_time": "2024-03-18T22:06:08.389950Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "infrahouse-toolkit",
       "project_version": "2.18.1",
       "url": "https://files.pythonhosted.org/packages/ba/83/928a72dd4b5b4908cd5cabb6fc8f657d7ad21794c1347c4a87b85aff3347/infrahouse_toolkit-2.18.1-py3-none-any.whl",
       "upload_time": "2024-03-18T22:06:54.474795Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "infrahouse-toolkit",
       "project_version": "2.18.1",
       "url": "https://files.pythonhosted.org/packages/f4/91/3677591006c6ed93c2826069d3482b6e515736357af3cffbd5bd3f979447/infrahouse-toolkit-2.18.1.tar.gz",
       "upload_time": "2024-03-18T22:06:57.109818Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "hashquery",
       "project_version": "0.0.dev13",
       "url": "https://files.pythonhosted.org/packages/01/f8/52177a3990369e40c3409b84c84e897d55aa7ae80378ea3706a65b481143/hashquery-0.0.dev13-py3-none-any.whl",
       "upload_time": "2024-03-18T22:07:21.090220Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "hashquery",
       "project_version": "0.0.dev13",
       "url": "https://files.pythonhosted.org/packages/fa/8f/738d3a7a22bfcb214c1c85a8cc62042b61d56d7e1a84305c1d486ab60d0d/hashquery-0.0.dev13.tar.gz",
       "upload_time": "2024-03-18T22:07:22.604199Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "flask-monocrud",
       "project_version": "0.0.1rc10",
       "url": "https://files.pythonhosted.org/packages/6d/49/48cd2a0a534fc0164356f4df849946d452f290502913193d1460e2382040/flask_monocrud-0.0.1rc10-py3-none-any.whl",
       "upload_time": "2024-03-18T22:07:22.741746Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "flask-monocrud",
       "project_version": "0.0.1rc10",
       "url": "https://files.pythonhosted.org/packages/88/f9/5b94229d591671761258b1e0643cf0aa9b4a387b85c4bd491b1e54160008/flask-monocrud-0.0.1rc10.tar.gz",
       "upload_time": "2024-03-18T22:07:24.145814Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cloudflare",
       "project_version": "3.0.0b2",
       "url": "https://files.pythonhosted.org/packages/a0/39/b86e4b12c3dc36ee7845690bb6d997e2919977c65e7357993d65eb96ef0a/cloudflare-3.0.0b2-py3-none-any.whl",
       "upload_time": "2024-03-18T22:08:52.215621Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "flask-monocrud",
       "project_version": "0.0.1rc11",
       "url": "https://files.pythonhosted.org/packages/d5/aa/e478c7aaab9f7c1591ccb83b9154ff9545a0fdd4157d5c74eeb278f1e3cd/flask_monocrud-0.0.1rc11-py3-none-any.whl",
       "upload_time": "2024-03-18T22:08:55.759468Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cloudflare",
       "project_version": "3.0.0b2",
       "url": "https://files.pythonhosted.org/packages/3b/36/5cba18bc00590574119d31779e7dc6f2ee7706f62d4eb417481ae4572c51/cloudflare-3.0.0b2.tar.gz",
       "upload_time": "2024-03-18T22:08:56.027683Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "flask-monocrud",
       "project_version": "0.0.1rc11",
       "url": "https://files.pythonhosted.org/packages/36/11/e817de5a284ba1c781e99144477943a1fa460163445a6ae29a26f01d8906/flask-monocrud-0.0.1rc11.tar.gz",
       "upload_time": "2024-03-18T22:08:58.286615Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "scematk",
       "project_version": "0.0.2rc83.post1",
       "url": "https://files.pythonhosted.org/packages/82/10/df44d6040e255f87cb71b486d158a142e13d7faab6c7446a228a9423858b/scematk-0.0.2rc83.post1-py3-none-any.whl",
       "upload_time": "2024-03-18T22:09:21.251117Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "scematk",
       "project_version": "0.0.2rc83.post1",
       "url": "https://files.pythonhosted.org/packages/ce/93/a472be7bd9cdda38c8c4d6c92b6268ebeccefff785a2a0d6ec7df44fc494/scematk-0.0.2rc83.post1.tar.gz",
       "upload_time": "2024-03-18T22:09:23.370667Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "arelle-release",
       "project_version": "2.25.0",
       "url": "https://files.pythonhosted.org/packages/a8/10/f9306fd6003fa6f65284533d740511e4817407858b268def0a933d0557c3/arelle_release-2.25.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:09:49.417793Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "arelle-release",
       "project_version": "2.25.0",
       "url": "https://files.pythonhosted.org/packages/af/90/9c41fdda189966d51cd2527338b4367118571d6001efe8d13a7a24f6c98e/arelle-release-2.25.0.tar.gz",
       "upload_time": "2024-03-18T22:09:53.086384Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "phykit",
       "project_version": "1.19.0",
       "url": "https://files.pythonhosted.org/packages/21/0d/8e8e31a52cf36005d712c7efc09f4120c0a0c710adc354fa5454eafc1035/phykit-1.19.0-py2.py3-none-any.whl",
       "upload_time": "2024-03-18T22:10:12.786907Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "phykit",
       "project_version": "1.19.0",
       "url": "https://files.pythonhosted.org/packages/a7/06/5dd5a3e4b6088fc91a5e5d6d349d4354383aff5da1c2eaf66278a23720b6/phykit-1.19.0.tar.gz",
       "upload_time": "2024-03-18T22:10:14.973977Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "haupt",
       "project_version": "2.1.3",
       "url": "https://files.pythonhosted.org/packages/f5/c3/4394aac77c313c3daa1686c4867d83df5b2a5a601fe39578ddadc924308a/haupt-2.1.3-py3-none-any.whl",
       "upload_time": "2024-03-18T22:10:15.134242Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "modal",
       "project_version": "0.61.66",
       "url": "https://files.pythonhosted.org/packages/14/bc/0cbb63188d82bcc7b0ff35e266c6583c1d29c5806a9196069d34426b96ec/modal-0.61.66-py3-none-any.whl",
       "upload_time": "2024-03-18T22:10:16.721137Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "haupt",
       "project_version": "2.1.3",
       "url": "https://files.pythonhosted.org/packages/ff/3d/afa4a0cad5777500076411b0c4dacefc96b9cdd63407590acc588360f0be/haupt-2.1.3.tar.gz",
       "upload_time": "2024-03-18T22:10:17.888951Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mkdocs-link-embeds-plugin",
       "project_version": "0.1.1",
       "url": "https://files.pythonhosted.org/packages/31/7d/a214e2a3efc4947776a100c2d5094e619e3c4b11ff963fd3bdf1f2d21fc5/mkdocs-link-embeds-plugin-0.1.1.tar.gz",
       "upload_time": "2024-03-18T22:10:22.114510Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "modal-client",
       "project_version": "0.61.66",
       "url": "https://files.pythonhosted.org/packages/a1/19/38fa4e35de319d153f88363289acd8e6652b59713a8b772409ceae6473a5/modal_client-0.61.66-py3-none-any.whl",
       "upload_time": "2024-03-18T22:10:23.248145Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-common2-0",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/6f/31/115c57e5e0609daa265fd951a967ca35780f38ab8aabd3c3da1abedcac72/energyml_common2_0-1.11.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:10:25.567621Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-common2-3",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/1a/a0/6b12a8239fc9a6f6f4abeaba6f91324df98cdd33f944f6a822e8dfd9e7de/energyml_common2_3-1.11.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:10:26.554643Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "polyaxon",
       "project_version": "2.1.3",
       "url": "https://files.pythonhosted.org/packages/59/22/f5b51d881df3bc735f356568fc97928d286636f46b01a3b44e8cad0b12c2/polyaxon-2.1.3-py3-none-any.whl",
       "upload_time": "2024-03-18T22:10:27.377246Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-opc",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/c8/c8/07f74ac42d2ba8c5c834b3728429ff79c019375c1e85ecae9ba29391149b/energyml_opc-1.11.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:10:27.875307Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-common2-1",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/43/b0/117b702a065db8779199341d6b28f586fdc976826b60a6e68a4e53beef12/energyml_common2_1-1.11.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:10:29.925341Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-common2-0",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/a6/98/4ef3413092a998cb169b75fd53b6c6c4d92aa37ee7a6913df80d403be7c4/energyml_common2_0-1.11.0.tar.gz",
       "upload_time": "2024-03-18T22:10:31.375487Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-common2-2",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/7d/4a/9d524090a031ca51334e159128e1f98a5c41e8b48a9d7e598a71bd2f6553/energyml_common2_2-1.11.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:10:33.697811Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "polyaxon",
       "project_version": "2.1.3",
       "url": "https://files.pythonhosted.org/packages/68/dd/8996b30feae43dac031eb8a941ef0d80ff58834930affc397806c6f049ce/polyaxon-2.1.3.tar.gz",
       "upload_time": "2024-03-18T22:10:36.391146Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-common2-3",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/94/f8/5c70e45590351919c678a222637d204e0a42ec5a9c28cfa6ebd13ffdc8a2/energyml_common2_3-1.11.0.tar.gz",
       "upload_time": "2024-03-18T22:10:37.823248Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-opc",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/e5/e3/d36b8778fce05660dc0f7664ba375079c0e79162c5731376d34be88ece4d/energyml_opc-1.11.0.tar.gz",
       "upload_time": "2024-03-18T22:10:38.496588Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-common2-2",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/4f/42/ff95f70d48d87e5d24d53829e9b45f337a95e3811f1f232134d378c4ae5b/energyml_common2_2-1.11.0.tar.gz",
       "upload_time": "2024-03-18T22:10:42.728263Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "polyaxon-sdk",
       "project_version": "2.1.3",
       "url": "https://files.pythonhosted.org/packages/b3/ed/bbaa1a1b8044d229877150b6505097accc570b9762fc96e9ff22d477d25b/polyaxon_sdk-2.1.3-py2.py3-none-any.whl",
       "upload_time": "2024-03-18T22:10:44.101831Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-common2-1",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/3f/47/4d94027e72fb976b74094337ae69009a0ab073f7e65d223fd5ba28445cf1/energyml_common2_1-1.11.0.tar.gz",
       "upload_time": "2024-03-18T22:10:44.285008Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "polyaxon-sdk",
       "project_version": "2.1.3",
       "url": "https://files.pythonhosted.org/packages/a8/42/0e2ec0a3cb6fd26dd522ab611ff4c7db117092be91fdcb83059e02d27240/polyaxon-sdk-2.1.3.tar.gz",
       "upload_time": "2024-03-18T22:10:47.594791Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-prodml2-0",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/43/f1/cf2e004bdd439b54c88a039ca5c0d4d962526d35e219399c603e700adce4/energyml_prodml2_0-1.11.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:11:51.417143Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-prodml2-0",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/70/b7/fcfddf421e59ce7e0f546ba331871a6b97604bdfc16a1b2811cea0bec7ef/energyml_prodml2_0-1.11.0.tar.gz",
       "upload_time": "2024-03-18T22:11:53.396428Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-resqml2-2-dev3",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/e0/37/82d2f9bb63a9bc602f26db3f2c52b86af72161f6e5a946c714d73919fc69/energyml_resqml2_2_dev3-1.11.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:11:54.015298Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-resqml2-2",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/02/45/fc50455ac7dc6aa5b1a2e47e48d1997e58a117b34819535769a24e74dde8/energyml_resqml2_2-1.11.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:11:54.400636Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-resqml2-0-1",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/6a/1e/53206984709636b89b83af9927b42ed3160586b153ef48f24ab967816e5f/energyml_resqml2_0_1-1.11.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:11:55.425515Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-resqml2-2-dev3",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/45/43/159f8fa3f2ece5e24159ae5b8ada68f057ef6545c29f07082543a5919baa/energyml_resqml2_2_dev3-1.11.0.tar.gz",
       "upload_time": "2024-03-18T22:11:55.688777Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-resqml2-2",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/9c/c9/6493857ef5b0f63a61bfa01265164e67f8659680524d4ff868f1a0ce9ee5/energyml_resqml2_2-1.11.0.tar.gz",
       "upload_time": "2024-03-18T22:11:56.866089Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-resqml2-0-1",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/14/b8/1b62f0ca780db17439620f4e58ab1c178fca1b041ea6a6c06a80e6ff4d31/energyml_resqml2_0_1-1.11.0.tar.gz",
       "upload_time": "2024-03-18T22:11:57.908760Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-prodml2-2",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/e3/4c/2fff12d601ab3da0bb4801d73d0926fa4744ab4ffa8eb7de3d9d179a5a11/energyml_prodml2_2-1.11.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:11:59.831326Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-prodml2-2",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/9b/87/0e555d29dd526e8a9c924c1236f7e56810d466a477b623e3b5c6028674a8/energyml_prodml2_2-1.11.0.tar.gz",
       "upload_time": "2024-03-18T22:12:02.527602Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-witsml2-0",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/04/57/0bf13dcce3d3f2b7524616a4f4a7cb9e980d55bbe4586b8e2ed5092c6d80/energyml_witsml2_0-1.11.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:12:03.423912Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-witsml2-1",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/08/19/95cea568b8cbc7cbd447e7e42bb0e0942645f9a5c6543c9d8b80ef331a20/energyml_witsml2_1-1.11.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:12:03.427525Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-witsml2-1",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/12/ee/156646db4d21b178858d9f2c6b4f744a174b8b9f3c207ce6e9f1a5ce2920/energyml_witsml2_1-1.11.0.tar.gz",
       "upload_time": "2024-03-18T22:12:05.106836Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "energyml-witsml2-0",
       "project_version": "1.11.0",
       "url": "https://files.pythonhosted.org/packages/45/29/31a244fc3ce87a3e460f5fec28ff1ef932aa89099d936c66f23591004ae6/energyml_witsml2_0-1.11.0.tar.gz",
       "upload_time": "2024-03-18T22:12:06.692123Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "i38e-utils",
       "project_version": "1.0.23",
       "url": "https://files.pythonhosted.org/packages/9e/7b/25df21d2309c5f61492cd161bcbd8339eb243b0e37bbecf1ad8cb28e0c8a/i38e_utils-1.0.23-py3-none-any.whl",
       "upload_time": "2024-03-18T22:12:11.604133Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "i38e-utils",
       "project_version": "1.0.23",
       "url": "https://files.pythonhosted.org/packages/21/95/63328397196617d841cc5adeadf80476d53b4f5875043f2a2cf2343b825c/i38e_utils-1.0.23.tar.gz",
       "upload_time": "2024-03-18T22:12:12.915768Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "caluxPy-fi",
       "project_version": "0.1.29",
       "url": "https://files.pythonhosted.org/packages/3d/50/a1bda4c646dad3c735f29296eaf08404fe4ddd5bae09273cf29263044799/caluxPy_fi-0.1.29-py3-none-any.whl",
       "upload_time": "2024-03-18T22:13:17.115787Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "caluxPy-fi",
       "project_version": "0.1.29",
       "url": "https://files.pythonhosted.org/packages/54/7a/271e23b9a13110d1cebd915110d2052112274ce2225e42c01ac16c0ae971/caluxPy_fi-0.1.29.tar.gz",
       "upload_time": "2024-03-18T22:13:19.010708Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "python-inflector",
       "project_version": "0.0.11",
       "url": "https://files.pythonhosted.org/packages/e9/a9/7cbe1ea967b7e6bfec6619617dbea22d3bb196d2c41fd079e35cbe7221d6/python_inflector-0.0.11-py3-none-any.whl",
       "upload_time": "2024-03-18T22:13:56.355464Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "python-inflector",
       "project_version": "0.0.11",
       "url": "https://files.pythonhosted.org/packages/79/a6/140fac15d563ec920e4155f60a3318c5a1f8968085dd2f5898b764a63796/python-inflector-0.0.11.tar.gz",
       "upload_time": "2024-03-18T22:13:57.596613Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "metaphor-connectors",
       "project_version": "0.13.142",
       "url": "https://files.pythonhosted.org/packages/d1/c9/309555bb1633cd567bd76c7ae4b0c8df821eaa26db468ecdf9456d130237/metaphor_connectors-0.13.142-py3-none-any.whl",
       "upload_time": "2024-03-18T22:13:58.147066Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "metaphor-connectors",
       "project_version": "0.13.142",
       "url": "https://files.pythonhosted.org/packages/37/4c/ec276d9cc5b48e713a188ef298583e8be7569aba666d4e6dbe0e2ef452d2/metaphor_connectors-0.13.142.tar.gz",
       "upload_time": "2024-03-18T22:14:04.779771Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pythopix",
       "project_version": "0.5.3",
       "url": "https://files.pythonhosted.org/packages/70/d5/6420877753623ea5288a8991f165ddc686db22fec4a2e1dc51338c64eff3/pythopix-0.5.3-py3-none-any.whl",
       "upload_time": "2024-03-18T22:15:27.585802Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pythopix",
       "project_version": "0.5.3",
       "url": "https://files.pythonhosted.org/packages/c1/9f/e042015ba3a2efafcc0c8733def731991a34e6ddcf5e37bbb73ab14247d2/pythopix-0.5.3.tar.gz",
       "upload_time": "2024-03-18T22:15:29.694069Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "proteusPy",
       "project_version": "0.93.7",
       "url": "https://files.pythonhosted.org/packages/03/c4/cdf8d76a552c5294b71179146b85146a0ae23a3f90057bec04b1223de435/proteusPy-0.93.7-py3-none-any.whl",
       "upload_time": "2024-03-18T22:16:01.612821Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "proteusPy",
       "project_version": "0.93.7",
       "url": "https://files.pythonhosted.org/packages/6c/ea/97973148351f065316315037855a7a3acfe3b25d8e9cec2d36db71f1ca0e/proteusPy-0.93.7.tar.gz",
       "upload_time": "2024-03-18T22:16:06.337647Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "python-amazon-sp-api",
       "project_version": "1.4.3",
       "url": "https://files.pythonhosted.org/packages/83/5c/4687f0b6726db661015cacd02d2783dca4e4bcb48c3df4af7dcd97de6f99/python_amazon_sp_api-1.4.3-py3-none-any.whl",
       "upload_time": "2024-03-18T22:16:47.373551Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "python-amazon-sp-api",
       "project_version": "1.4.3",
       "url": "https://files.pythonhosted.org/packages/b7/73/83d759bed28ad2808963439a2f3c871b21203ac7089148c526aa4b369d8b/python-amazon-sp-api-1.4.3.tar.gz",
       "upload_time": "2024-03-18T22:16:50.374656Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "span-panel",
       "project_version": "0.1.0",
       "url": "https://files.pythonhosted.org/packages/b5/6e/faae07cb8a01d0a4ef1eae09aab10a4febc7da26ac81c0adcfc7ceb6b099/span_panel-0.1.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:16:53.039978Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "span-panel",
       "project_version": "0.1.0",
       "url": "https://files.pythonhosted.org/packages/a6/d9/abab88b79dee4091a931f922ef16addcffc0a6d4641e2e9f5ea7f2c32d73/span_panel-0.1.0.tar.gz",
       "upload_time": "2024-03-18T22:16:54.793552Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "qiskit-dynamics",
       "project_version": "0.5.0",
       "url": "https://files.pythonhosted.org/packages/e7/9c/cd6ff61a2fed0fbba0461bcc9a70c666459d8855534caf3380077000e433/qiskit_dynamics-0.5.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:17:30.600729Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "qiskit-dynamics",
       "project_version": "0.5.0",
       "url": "https://files.pythonhosted.org/packages/cc/0c/ff495bf042f6e5b2b51cbffad95562b089ddd1af939215001597e6e0a9d2/qiskit-dynamics-0.5.0.tar.gz",
       "upload_time": "2024-03-18T22:17:32.624317Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "qp-prob",
       "project_version": "0.8.8",
       "url": "https://files.pythonhosted.org/packages/6c/72/c905724df26af593b1b91277b1ff2ff14b138a600cae2aecbe3490d77fbe/qp_prob-0.8.8-py3-none-any.whl",
       "upload_time": "2024-03-18T22:18:40.174541Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "qp-prob",
       "project_version": "0.8.8",
       "url": "https://files.pythonhosted.org/packages/53/e1/6ca7d343924733483fba356e89843a944a93fee12fff47b63bd0062c4180/qp-prob-0.8.8.tar.gz",
       "upload_time": "2024-03-18T22:18:41.756860Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ortelius-cli",
       "project_version": "9.3.259",
       "url": "https://files.pythonhosted.org/packages/e5/50/2991a0e8bd3f632985f58c34e683765f59dfaf8a7505fe4cfca0b8e6c685/ortelius_cli-9.3.259-py3-none-any.whl",
       "upload_time": "2024-03-18T22:19:41.795124Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ortelius-cli",
       "project_version": "9.3.259",
       "url": "https://files.pythonhosted.org/packages/02/6a/bb254c8a6f2dc72489603d0eeba4aa6aa9aec56834da8cebefc7dcaad928/ortelius-cli-9.3.259.tar.gz",
       "upload_time": "2024-03-18T22:19:43.943803Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "graphql-dataclass",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/c3/13/9b7482bd9cf5a3c30053fca80d97d5ac307f07528bd0e2e7f881b209641b/graphql_dataclass-1.0.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:19:47.427765Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "graphql-dataclass",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/b5/dc/9b6a5a658af570b14bb9c7ba572f0d7afe646277dae6fe6d6a17f3b6abd7/graphql-dataclass-1.0.0.tar.gz",
       "upload_time": "2024-03-18T22:19:49.413678Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "proactive",
       "project_version": "13.1.0.2403182219.dev0",
       "url": "https://files.pythonhosted.org/packages/a3/93/a551d2889690a889714c7de73720e58ee0eb8b15ba9eb149575ed8d4631a/proactive-13.1.0.2403182219.dev0.zip",
       "upload_time": "2024-03-18T22:20:07.141016Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "spectre-cnv",
       "project_version": "0.2.0",
       "url": "https://files.pythonhosted.org/packages/1e/6e/d99b8c0c082beea90b6c66a230156772b169a88dab0656b21ff5686f0398/spectre_cnv-0.2.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:20:25.523105Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "spectre-cnv",
       "project_version": "0.2.0",
       "url": "https://files.pythonhosted.org/packages/68/de/67595731d6f4329d9155a5f01ac629901483576853f95b007c7eb0fa9a14/spectre-cnv-0.2.0.tar.gz",
       "upload_time": "2024-03-18T22:20:27.311879Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "scematk",
       "project_version": "0.0.2rc84.post1",
       "url": "https://files.pythonhosted.org/packages/a7/c5/9a53790e92a1c4b2e932c2a16dd09710e40afc92c0c89b0776d6a7738f4b/scematk-0.0.2rc84.post1-py3-none-any.whl",
       "upload_time": "2024-03-18T22:20:28.967465Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "scematk",
       "project_version": "0.0.2rc84.post1",
       "url": "https://files.pythonhosted.org/packages/89/21/1abdb09f28fdf478759ae06d7a568bde2c6a1f2d61f4aaaafebd53d140af/scematk-0.0.2rc84.post1.tar.gz",
       "upload_time": "2024-03-18T22:20:30.762358Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pds.registry-moppers",
       "project_version": "2.0.0",
       "url": "https://files.pythonhosted.org/packages/f4/4f/96cab2099b7ecb1c7a3281127ca46a05cb202cbda79613de7a4fb958f3f7/pds.registry_moppers-2.0.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:20:32.729763Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "chalkpy",
       "project_version": "2.34.0",
       "url": "https://files.pythonhosted.org/packages/e5/17/78eafdd459c68412301267ff98b5c38476b6662396090c7253c1e8901a34/chalkpy-2.34.0-py3-none-any.whl",
       "upload_time": "2024-03-18T22:22:05.445773Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "chalkpy",
       "project_version": "2.34.0",
       "url": "https://files.pythonhosted.org/packages/9c/2d/dcb2b7fd9bb9557998345d75aa9b7802e3614372faa50d75b1946020dc18/chalkpy-2.34.0.tar.gz",
       "upload_time": "2024-03-18T22:22:13.669499Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "python-inflector",
       "project_version": "0.0.12",
       "url": "https://files.pythonhosted.org/packages/2e/1e/2bbbc02fea036ce27245e2e5bbbea4b87a8b0e9a201679e40285dae6bc22/python_inflector-0.0.12-py3-none-any.whl",
       "upload_time": "2024-03-18T22:22:28.481935Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "python-inflector",
       "project_version": "0.0.12",
       "url": "https://files.pythonhosted.org/packages/d1/0e/1887d53bce47d987d8717f5d1214ce3c7b49e55df36fdcff2449668129fd/python-inflector-0.0.12.tar.gz",
       "upload_time": "2024-03-18T22:22:30.155471Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "flask-monocrud",
       "project_version": "0.0.1rc12",
       "url": "https://files.pythonhosted.org/packages/ef/3b/18299d135ad5d7a30fa36565fe265d4ac65a5ec198e009db77b31e9cb343/flask_monocrud-0.0.1rc12-py3-none-any.whl",
       "upload_time": "2024-03-18T22:23:36.476357Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "flask-monocrud",
       "project_version": "0.0.1rc12",
       "url": "https://files.pythonhosted.org/packages/58/3b/5015bf7c92e4de0be3038d9d712cd80037f83f3738a50a1bef5b058f3915/flask-monocrud-0.0.1rc12.tar.gz",
       "upload_time": "2024-03-18T22:23:38.342838Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "scematk",
       "project_version": "0.0.2rc85.post1",
       "url": "https://files.pythonhosted.org/packages/b7/cd/be5d1bbd3fc59cd7bb18b3d90ba48b8084879f0fba0ae60c6a904a986da1/scematk-0.0.2rc85.post1-py3-none-any.whl",
       "upload_time": "2024-03-18T22:24:55.978931Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "scematk",
       "project_version": "0.0.2rc85.post1",
       "url": "https://files.pythonhosted.org/packages/e5/14/f9bb950f84c30cabdb20db481209f78522b23186a41fa2a299e8fb9f912a/scematk-0.0.2rc85.post1.tar.gz",
       "upload_time": "2024-03-18T22:24:57.948597Z",
-      "processed": false
+      "processed": true
     }
   ]
 }
