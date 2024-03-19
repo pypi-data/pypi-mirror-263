@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Linear_Correlation
+Version: 0.2.5
+Summary: Linear Correlation Analysis and Data Preprocessing Tools
+Author: chingDev.Official (Prince Carl Ajoc)
+Author-email: chingace471@gmail.com
+Keywords: linear correlation,correlation analysis,numerical analysis,data preprocessing,data science,pandas
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: pandas
+Requires-Dist: numpy
+
