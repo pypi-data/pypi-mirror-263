@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: latex_builder_test_project
+Version: 0.1.1
+Summary: Test library for generating LaTeX tables and images.
+Author: Sergey-Kit
+Author-email: sergey_kitaev@bk.ru
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Test library for generating LaTeX tables and images
