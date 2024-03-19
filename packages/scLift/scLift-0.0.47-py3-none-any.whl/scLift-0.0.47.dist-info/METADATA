@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: scLift
+Version: 0.0.47
+Summary: File read and write operations
+Author-email: Yu Zhengmin <3236170161@qq.com>
+Project-URL: gitee, https://gitee.com/ykenan_yingying/scLift
+Keywords: YKenan,scLift,scATAC,Cicero,ChromVAR,Fine-mapping,Single-cell epiomics,Landscape Integration of Fine-mapping Related Traits in Single Cell Epiomics
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy ==1.24.4
+Requires-Dist: matplotlib ==3.7.1
+Requires-Dist: seaborn ==0.12.2
+Requires-Dist: pandas ==2.0.3
+Requires-Dist: anndata ==0.9.1
+Requires-Dist: scipy ==1.11.4
+Requires-Dist: scanpy ==1.9.3
+Requires-Dist: scikit-learn ==1.2.2
+Requires-Dist: ykenan-file ==0.2.3
+Requires-Dist: ykenan-util ==0.0.5
+Requires-Dist: networkx ==3.2.1
+Requires-Dist: colormap ==1.0.4
+Requires-Dist: easydev ==0.12.1
+Requires-Dist: h5py ==3.8.0
+Requires-Dist: mudata ==0.2.3
+Requires-Dist: PyComplexHeatmap ==1.6.1
+Requires-Dist: magic-impute ==3.0.0
+Requires-Dist: leidenalg ==0.10.2
+Requires-Dist: scvi-tools ==1.1.2
+
+# SCIV
+
+> SCIV: Viewing the integrated landscape of variant mapping at single-cell resolution
+
+> SCIV: 在单细胞分辨率下查看突变映射的整合景观
+
+## 1. 介绍
+
+## 2. 安装
+
+## 3. 上传
+
+> upload
+
+> test
+
+```shell
+py -m build
+twine check dist/*
+twine upload --repository testpypi dist/*
+```
+
+> production
+
+```shell
+py -m build
+twine check dist/*
+twine upload dist/*
+```
+
+## 4. 使用
+
+```shell
+vim ~/.bashrc
+export OMP_NUM_THREADS=1
+export OPENBLAS_NUM_THREADS=1
+source ~/.bashrc
+
+```
+
+> test
+
+```shell
+pip3 install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+pip3 install scLift -i https://test.pypi.org/simple/
+```
+
+> production
+
+```shell
+pip3 install scLift
+```
