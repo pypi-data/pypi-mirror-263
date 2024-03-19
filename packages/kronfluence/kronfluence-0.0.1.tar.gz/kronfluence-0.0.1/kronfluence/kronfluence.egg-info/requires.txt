@@ -1,0 +1,16 @@
+torch>=2.1.0
+torchvision>=0.16.0
+accelerate>=0.27.2
+einops>=0.7.0
+einconv>=0.1.0
+opt_einsum>=3.3.0
+safetensors>=0.4.2
+tqdm>=4.66.2
+
+[dev]
+isort==5.13.2
+pylint==3.0.3
+pytest==8.0.0
+ruff==0.3.0
+datasets>=2.17.0
+transformers>=4.37.2
