@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.20240319.0
+-------------
+
+* chore(deps): update dependency openstack-image-manager to v0.20240318.0 (#829)
