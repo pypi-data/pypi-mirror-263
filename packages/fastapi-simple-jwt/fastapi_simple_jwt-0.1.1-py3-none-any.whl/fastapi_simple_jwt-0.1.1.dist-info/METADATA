@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: fastapi-simple-jwt
+Version: 0.1.1
+Summary: A simple FastAPIJWT verification module
+Home-page: https://github.com/Thresh-Frazier/fastapi-simple-jwt
+Author: Frazier
+Author-email: 470664041@qq.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi
+Requires-Dist: passlib
+Requires-Dist: pydantic
+Requires-Dist: pydantic-settings
+Requires-Dist: python-jose
+
+
+# fastapi-simple-jwt
+一个FastApi简单的jwt验证
+
+参考了官方文档修改而成
+
+https://fastapi.tiangolo.com/zh/tutorial/security/first-steps/
+
+## 前端可搭配Pure-admin使用
+
+https://github.com/pure-admin/vue-pure-admin
+
+
+## 安装
+
+```
+pip install fastapi-simple-jwt
+
+```
+
+
+## 使用
+
+确保运行目录下有.env文件，secret_key可使用 openssl rand -hex 32 生成
+
+
+```
+pip install -r requirements.txt
+
+```
+
+## 
