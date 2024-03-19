@@ -1,0 +1,6 @@
+include flask_monocrud/stubs/*
+include flask_monocrud/project_structure/*
+include flask_monocrud/templates/*
+include flask_monocrud/templates/admin/*
+include flask_monocrud/templates/admin/components/*
+include flask_monocrud/templates/admin/views/*
