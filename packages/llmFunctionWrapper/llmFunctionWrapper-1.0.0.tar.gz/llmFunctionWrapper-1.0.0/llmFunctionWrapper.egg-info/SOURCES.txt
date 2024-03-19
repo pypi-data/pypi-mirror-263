@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+llmFunctionWrapper/__init__.py
+llmFunctionWrapper.egg-info/PKG-INFO
+llmFunctionWrapper.egg-info/SOURCES.txt
+llmFunctionWrapper.egg-info/dependency_links.txt
+llmFunctionWrapper.egg-info/top_level.txt
