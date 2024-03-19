@@ -1,0 +1,6 @@
+mediapy
+
+[docs]
+furo>=2022.09.29
+myst-nb>=0.16.0
+sphinx>=5.2.1

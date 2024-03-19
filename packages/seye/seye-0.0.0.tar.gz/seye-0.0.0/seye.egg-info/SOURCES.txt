@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+seye/__init__.py
+seye/_torch_impl.py
+seye/spherical_projection.py
+seye/version.py
+seye.egg-info/PKG-INFO
+seye.egg-info/SOURCES.txt
+seye.egg-info/dependency_links.txt
+seye.egg-info/requires.txt
+seye.egg-info/top_level.txt

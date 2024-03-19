@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seye"
+version = "0.0.0"
+description = "A repo for eye simulation."
+requires-python = ">=3.6"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python",
+]
+dependencies = [
+    "mediapy",
+]
+
+[project.optional-dependencies]
+docs = [
+    "furo>=2022.09.29",
+    "myst-nb>=0.16.0",
+    "sphinx>=5.2.1",
+]
+
+[project.urls]
+"GitHub" = "https://github.com/atsu-kotani/seye"
+
+[tool.setuptools.packages.find]
+include = ["seye"]
