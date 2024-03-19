@@ -1,0 +1,16 @@
+Eye/__init__.py,sha256=KdEN_hb7NWDSbj-ydeoaoKdGLC9YG-kqlDGh_evbGBY,56
+Eye/common.py,sha256=5sdnqqu2eO1NP7T1yRk8Vav5c59kEJVwXpTxmPCAEPk,8
+Eye/match.py,sha256=Lq52Qt5rQxMXwUYcj0X-ydmD3uJThLPaXR4UFzleUwA,561
+Eye/summoner.py,sha256=gnAvGP5pUUtviJ7hAOEX97UyUea3OZm7o1DlhC5GvMc,1664
+Tentacles/__init__.py,sha256=2m8t-JUanMp12gZ5SwflS3MqDcFWE6-j8FW9t4XGpRA,207
+Tentacles/account.py,sha256=wREK8OMyMlpygWAA9oHDjxG_Oc-i8PyRLDdU_GhcPIg,1519
+Tentacles/api.py,sha256=QMCPQyuyQ4RBn2sDx1uEEBgjzcL4QiIt1Ey9ujDpMTE,952
+Tentacles/champion_mastery.py,sha256=dgdu6smI5hLrwV3wGCLWzqp8P7kceK3Lm-k7gNmDvZ8,3656
+Tentacles/common.py,sha256=zIIOXKivs1X5k7iPFpgWLgNwMdBAT4YAxQ-Iq7t7_5U,4557
+Tentacles/config.py,sha256=9Eto29GXJbQ1Q2Z5jNywSbZ53ClJDJnD3YFk4lw4VAs,60
+Tentacles/match.py,sha256=ONHUkjbhnAlCK7h4W_bQ_1Iah41rpKXc5vO3EX6s7Tw,2044
+Tentacles/summoner.py,sha256=aFPuM4W6h__I9zefI6_2kFLyQxUaFCRPAXxaEj5eD24,1720
+Velkoz-0.0.1.dist-info/METADATA,sha256=blNrGNqGdxl5e89KZmBZUfaLCfUvbHusj_donGU25_w,528
+Velkoz-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+Velkoz-0.0.1.dist-info/top_level.txt,sha256=RVj34aLM0f2g9MNRq4DXrmZpmkp8kpmYXmTldZeGemM,14
+Velkoz-0.0.1.dist-info/RECORD,,
