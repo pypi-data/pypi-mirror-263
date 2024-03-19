@@ -1,0 +1,16 @@
+inflector/__init__.py,sha256=3t_ws448RwreSIZjUN0kU4qSe-c_ZnOuZB5KsL0fbos,84
+inflector/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inflector/src/inflector.py,sha256=0eNCQMlCEXzWsGXXnGfh_PpiEJ8-RIiKsTyRxNRNX_U,5215
+inflector/src/utils.py,sha256=MnWTBCyxRxY-Tstw7_Iimt8zmU08pFjyE6P-cMXsxgU,1724
+inflector/src/rules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inflector/src/rules/base.py,sha256=kdH-l3CsEmiiKKLrQa1LrMCcpBxN9RZd77Q4ap8Hsm0,6442
+inflector/src/rules/english.py,sha256=ZlCkUCjsPpk3-BN5Pf4R9-xceXnTsCqlIkJdAaxsvBU,5648
+inflector/src/rules/spanish.py,sha256=vkkOJi7ngp09NrDfaIoJir9VxWPo5dGgiCWzEKr0tPg,8118
+inflector/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inflector/tests/tests.py,sha256=UhjgZQtF5WLWopVK9E9YyCTmVToEkelHQOyRdKzVKT0,3328
+inflector/tests/tests_es.py,sha256=ILtRrjLEto_7toXnLYYy4YCY3Bckh9t2OljGMQlkTRY,2683
+python_inflector-0.0.11.dist-info/LICENSE,sha256=lvhh0f6qpBp5Tjwhs2JhCGVS3DGKVJtnfYsSU6xRh4c,887
+python_inflector-0.0.11.dist-info/METADATA,sha256=OubscFtCcVWCcRICYB4QwiGVe9IXY5SrGpSKc1qi2C0,216
+python_inflector-0.0.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+python_inflector-0.0.11.dist-info/top_level.txt,sha256=yRa0NlVnG3VdpDFDj_aiA8j940KQAbPthsEWSGfK01k,10
+python_inflector-0.0.11.dist-info/RECORD,,
