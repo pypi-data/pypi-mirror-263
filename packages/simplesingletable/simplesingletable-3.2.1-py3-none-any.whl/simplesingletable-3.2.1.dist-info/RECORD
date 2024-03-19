@@ -1,0 +1,14 @@
+simplesingletable/__init__.py,sha256=hfoNPifQiCagrGgerMzz5-1kY4tTUOfB-3VBtKRdNFc,220
+simplesingletable/dynamodb_memory.py,sha256=0YMVctBOzPJXaeiAxvj_loeazAvdYve2EqDRdGeSXJc,27017
+simplesingletable/models.py,sha256=VBD79tbIJ8j6xs6wxg9_tzT7Pmz2UrcWJfWvS83hBZw,11954
+simplesingletable/utils.py,sha256=cYCAQ6vs19kpYN7ZDEtX7CWMlbzIX2ErBU9GPDcmU3Q,5351
+simplesingletable/extras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplesingletable/extras/form_data.py,sha256=MvsArdx4g4dClMp5wHBAUGU1Er0KzzwrSj6077wGloY,19468
+simplesingletable/extras/singleton.py,sha256=8bXnc8l9_f1hC5Fc4sU5CZ8udXWe8wOIe3k7sSgAe7U,1704
+streamlit_app/streamlit_app.py,sha256=nvLqq2doUTBI1MZUogm_FAieK6YFxwenULvtX-ncboA,7517
+streamlit_app/pages/Form Data demo.py,sha256=dZKNWbhGah_IgMv0pjcOtTDmKgrYr3reBNjjudZxp6Q,12115
+simplesingletable-3.2.1.dist-info/LICENSE,sha256=RCb4Z1PJo89GM1o1lJSYhn-u-KxtupWHmTNms9MVgBA,1092
+simplesingletable-3.2.1.dist-info/METADATA,sha256=eBcGXMhn20oUSJgZvbHbPxAP8Mbf5KZSAvLG6jsAo7s,5831
+simplesingletable-3.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+simplesingletable-3.2.1.dist-info/top_level.txt,sha256=KbH02K8cqGDmAUQG_vgPvtD_lnt29V0czEHvkS7IH10,32
+simplesingletable-3.2.1.dist-info/RECORD,,
