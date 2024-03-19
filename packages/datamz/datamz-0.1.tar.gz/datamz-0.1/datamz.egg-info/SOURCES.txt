@@ -1,0 +1,7 @@
+setup.py
+datamz.egg-info/PKG-INFO
+datamz.egg-info/SOURCES.txt
+datamz.egg-info/dependency_links.txt
+datamz.egg-info/entry_points.txt
+datamz.egg-info/requires.txt
+datamz.egg-info/top_level.txt
