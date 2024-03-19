@@ -1,0 +1,5 @@
+setup.py
+src/latex_for_homework.egg-info/PKG-INFO
+src/latex_for_homework.egg-info/SOURCES.txt
+src/latex_for_homework.egg-info/dependency_links.txt
+src/latex_for_homework.egg-info/top_level.txt
