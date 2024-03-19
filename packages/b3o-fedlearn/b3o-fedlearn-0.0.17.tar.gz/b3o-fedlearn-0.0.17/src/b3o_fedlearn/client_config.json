@@ -1,0 +1,27 @@
+{
+    "s3_fl_model_registry": "flserverdatabucketcdk0602",
+    "dynamodb_table_model_info": "fltaskscdk0602", 
+    "clients": 
+    [
+        {
+            "member_ID": "1",
+            "sqs_region": "us-east-1",
+            "client_queue_name": "clientsqs-us-east-1"
+        },
+        {
+            "member_ID": "2",
+            "sqs_region": "us-east-2",
+            "client_queue_name": "clientsqs-us-east-2"
+        },
+        {
+            "member_ID": "3",
+            "sqs_region": "us-west-1",
+            "client_queue_name": "clientsqs-us-west-1"
+        },
+        {
+            "member_ID": "4",
+            "sqs_region": "us-west-2",
+            "client_queue_name": "clientsqs-us-west-2"
+        }
+    ]
+}
