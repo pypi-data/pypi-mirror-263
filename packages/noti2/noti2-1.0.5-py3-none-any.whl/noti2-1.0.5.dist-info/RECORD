@@ -1,0 +1,11 @@
+noti/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+noti/__main__.py,sha256=kCHfBCciGxMpQhy9l1AaCC8lEP_uLVQUsVhLGeNAckE,925
+noti/auth.py,sha256=3GocoZYi74I9rc8g8aV_bcNEBP9pkb8qv7myaeaLv6Y,425
+noti/config.py,sha256=p_-Or6zV9AofZMN6h4nvnLVYitg5FxlKzTVX-m3Yzzs,707
+noti/pypi.py,sha256=LYpP6P_DjPU_jlJfdqFFGPzZc5WMiAdUTGvQZpsFHNA,3518
+noti/slack.py,sha256=-dcwaARjps2KOjjKtf1CARQTXEIryP6zdlEs1pQDxbM,984
+noti2-1.0.5.dist-info/LICENSE,sha256=sI9DLlHBLC7lSTmYNWNwp31Ah8EiJWOgCePPS_CgH9U,1064
+noti2-1.0.5.dist-info/METADATA,sha256=V0sckANQ396SjizQi4TkZ1Rfa2pw_3VAFxhtMX3TOSY,1341
+noti2-1.0.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+noti2-1.0.5.dist-info/entry_points.txt,sha256=sOjKNsQTvtX8MxKv2Mzaj40F9cDNKmnr7ef5Ip4b5v4,42
+noti2-1.0.5.dist-info/RECORD,,

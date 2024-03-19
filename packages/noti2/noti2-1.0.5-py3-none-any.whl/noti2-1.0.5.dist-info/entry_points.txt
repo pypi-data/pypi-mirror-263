@@ -1,0 +1,3 @@
+[console_scripts]
+noti=noti.__main__:cli
+
