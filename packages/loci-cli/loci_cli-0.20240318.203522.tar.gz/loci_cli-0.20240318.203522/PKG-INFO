@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: loci-cli
+Version: 0.20240318.203522
+Summary: The official Loci CLI tool and Python client library.
+Home-page: https://gitlab.com/loci-notes/loci-cli
+Author: TheTwitchy
+Author-email: the.twitchy@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: pendulum (>=3.0.0,<4.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: rich (>=13.7.0,<14.0.0)
+Project-URL: Repository, https://gitlab.com/loci-notes/loci-cli
+Description-Content-Type: text/markdown
+
+# Loci CLI Tool and Client Library
+The official Loci CLI tool and Python client library. The CLI tool performs basic Loci Notes tasks from any command line, and the Python library can be used to build other Python clients.
+
+**IMPORTANT: LOCI NOTES AS A WHOLE IS UNDERGOING REFACTORING, USE THE VERSION SPECIFIED BELOW TO MAKE SURE EVERYTTHING WORKS TOGETHER** 
+
+## Docs
+https://loci-notes.gitlab.io/clients/cli
+
+## Installation
+### Standard
+`pip3 install loci-cli==0.10.1`
+
+### Latest
+`pip3 install git+https://gitlab.com/loci-notes/loci-cli`
+
+### Development
+```bash
+pip install poetry
+poetry config virtualenvs.in-project true
+poetry install --with dev
+poetry run loci --help
+```
+
+Use VS Code for development and debugging.
+
