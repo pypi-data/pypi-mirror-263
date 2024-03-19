@@ -1,0 +1,5 @@
+{
+  "resource": true,
+  "name": "netbox",
+  "server": "github://api.github.com/SpikeeLabs/pulumi-netbox/"
+}
