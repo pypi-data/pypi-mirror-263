@@ -1,0 +1,8 @@
+energyml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+energyml/witsml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+energyml/witsml/v2_0/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+energyml/witsml/v2_0/witsmlv2.py,sha256=gD3ZYapTBRoLYcq9pPWh2rDd-DatRQH9nk59mrH4nCU,1227631
+energyml_witsml2_0-1.12.0.dist-info/LICENSE,sha256=CxZTMnvwCBzv_MbzyfzaQroZ2D049sd-scyvBEyOZGE,11338
+energyml_witsml2_0-1.12.0.dist-info/METADATA,sha256=U7IETE5FSPkw56jARqSAli6ZQqC31W8UD6g36KA3GdY,2254
+energyml_witsml2_0-1.12.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+energyml_witsml2_0-1.12.0.dist-info/RECORD,,
