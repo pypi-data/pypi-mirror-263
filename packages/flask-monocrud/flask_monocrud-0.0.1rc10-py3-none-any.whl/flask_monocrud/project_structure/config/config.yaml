@@ -1,0 +1,17 @@
+admin:
+  url:
+    production: "http://localhost:5000"
+    development: "http://localhost:5000"
+  admin_title: "Flask MonoCRUD"
+  admin_header: "Quickly build an admin interface for your Flask app."
+  admin_site_title: "Flask MonoCRUD"
+  admin_logo: "/static/logo.svg"
+
+
+web:
+  url:
+    production: "http://localhost:5000"
+    development: "http://localhost:5000"
+  web_title: "SAAS"
+  web_header: "SAAS Template"
+  web_site_title: "SAAS Web App"
