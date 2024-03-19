@@ -1,0 +1,10 @@
+chronver/__init__.py,sha256=yqR8f8oUNbH97SnvzxTwfP3F1-mpr5PHjc1M4OYlVt4,402
+chronver/git.py,sha256=XxTnQLxmRAAqOB8EYefLyVEzpV4_b_BdVKQoZ0Ho4PQ,2357
+chronver/pkg_info.py,sha256=3U968353tPLDqIxxauoQWcGTeKmNYL2FWaULXyWZ0Yo,510
+chronver/setuptools_hooks.py,sha256=aiUFjktqY582zryzI_yh2_D-Eo-GWxYf4ZVZJNqVrTY,1182
+chronver-20240318.230216.dist-info/LICENSE,sha256=qK0xscP0DcpahBGTUbj6jdyGjt13-tio6_bY8tFvpK4,11324
+chronver-20240318.230216.dist-info/METADATA,sha256=l-6miOcMai7eljxJuZPVPRa9tkyiGbGbghrBvxXcohs,5173
+chronver-20240318.230216.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+chronver-20240318.230216.dist-info/entry_points.txt,sha256=HR4RTVe4duOhGUdNqbQLj65qUNCMd72Iz8biGwOLowE,92
+chronver-20240318.230216.dist-info/top_level.txt,sha256=LNZ8XRoooyWtoRm6CGT2DswNLDwcxoOwvj8i2I5XgRU,9
+chronver-20240318.230216.dist-info/RECORD,,
