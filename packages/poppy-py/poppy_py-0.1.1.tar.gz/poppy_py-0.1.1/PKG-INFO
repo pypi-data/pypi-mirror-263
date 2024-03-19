@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: poppy-py
+Version: 0.1.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: Python bindings for poppy Rust library
+Author-email: Quentin JEROME <quentin.jerome@circl.lu>
+Maintainer-email: Quentin JEROME <quentin.jerome@circl.lu>
+Requires-Python: >=3.8
+Project-URL: Repository, https://github.com/hashlookup/poppy
