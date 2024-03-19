@@ -1,0 +1,16 @@
+lampctl/__init__.py,sha256=BRTcfCfKMUol-6-zAC8XKsIiUsGfW8b8NZeEn-Lc4Yg,5378
+lampctl/__main__.py,sha256=XgfyRkZ3cHI5oz-wWSK5G4qcRsAzDZpQYWmbOr4pVcA,62
+lampctl/color/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lampctl/color/hsb.py,sha256=JeyzuMGdQH3-Po44M8x3EZnae-TLvIHWJyFyn-X3L2M,3610
+lampctl/color/rgb.py,sha256=o64kxbWMGgtzjlJUw4ariwJCAukKTjz6lhdW3j7MRlk,3218
+lampctl/system/__init__.py,sha256=Ul16M9YYVGRytSOGpZuM212txOJi43cbQOF8xei9OqQ,2322
+lampctl/system/combined.py,sha256=ZU2ewBCf8CMHu5M_X010bcxCkoNv1c515pHDXvx-w7M,455
+lampctl/system/hue.py,sha256=Urv2g90hgM0gWu7HzUlBM-xQhLDlhaeKGU7U6rpUhFM,1794
+lampctl/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lampctl/test/test_colors.py,sha256=YwOzG5ILss_VC4OwZ9g_I_XW79H4UCGuY_L17s4Y4Yk,1322
+lampctl-0.1.0.dist-info/LICENSE,sha256=FNGppt9ul1Oz8KQn3k4Yxu5x5gzLV2_e9g7NLzkfspE,1066
+lampctl-0.1.0.dist-info/METADATA,sha256=lt-RCxUosWHrtq_LpZC2vYIzm1T8GhFU-CLbq4dssi0,2173
+lampctl-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+lampctl-0.1.0.dist-info/entry_points.txt,sha256=5TUg_w1DJz17DC8HoOvP4o8Nv2pSJTbqnwu80bb9zYI,41
+lampctl-0.1.0.dist-info/top_level.txt,sha256=SAqAlgAjJDq8NerhiwdTRBfxEipqZ3NFAKGxDdvjfxA,8
+lampctl-0.1.0.dist-info/RECORD,,
