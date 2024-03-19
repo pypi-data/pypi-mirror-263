@@ -1,0 +1,4 @@
+TODO.txt
+.DS_Store
+src/Open_STS_Miner/__pycache__/*
+examples/env
