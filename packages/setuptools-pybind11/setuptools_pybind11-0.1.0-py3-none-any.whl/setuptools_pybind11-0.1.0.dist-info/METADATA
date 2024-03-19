@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: setuptools-pybind11
+Version: 0.1.0
+Summary: Setuptools extension for building pybind11 libraries with CMake
+Author: Alagyn
+Project-URL: Homepage, https://github.com/alagyn/setuptools-pybind11
+Project-URL: Bug Tracker, https://github.com/alagyn/setuptools-pybind11/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: build
+Requires-Dist: wheel
+Provides-Extra: cmake
+Requires-Dist: cmake ; extra == 'cmake'
+
+# setuptools-pybind11
+Setuptools extension for building pybind11 libraries with CMake
