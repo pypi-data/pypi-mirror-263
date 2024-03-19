@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tk_core
+Version: 0.0.5
+Summary: Centralized core functionality for Terakeet SD, DS, DE, etc.
+Requires-Dist: boto3
+Requires-Dist: botocore
+Requires-Dist: pandas
+Requires-Dist: pydantic
+Requires-Dist: python-dotenv
+Requires-Dist: serpapi
+Requires-Dist: snowflake-connector-python[pandas]
+Requires-Dist: snowflake-snowpark-python[pandas]
+Requires-Dist: ujson
