@@ -1,0 +1,13 @@
+Click>=7.0
+torch
+torch_geometric
+pytorch_lightning
+kaggle
+polars
+numpy
+
+[dev]
+sphinx
+
+[test]
+pytest>=3
