@@ -1,0 +1,7 @@
+setup.py
+tex_utils/__init__.py
+tex_utils/tex_utils.py
+tex_utils_trew12_hw2.egg-info/PKG-INFO
+tex_utils_trew12_hw2.egg-info/SOURCES.txt
+tex_utils_trew12_hw2.egg-info/dependency_links.txt
+tex_utils_trew12_hw2.egg-info/top_level.txt
