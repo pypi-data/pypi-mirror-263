@@ -1,0 +1,106 @@
+[project]
+name = "mathlib-test"
+version = "0.1.1"
+description = "Test math lib"
+authors = [
+    { name = "Marcin Pilarczyk", email = "marcinpilarczyk@me.com" },
+]
+dependencies = []
+requires-python = ">=3.7"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.scripts]
+lint = "ruff check ."
+fmt = "ruff check . --fix"
+test = "pytest ./tests"
+test-cov = "pytest ./tests --cov=mathlib --cov-report term-missing --cov-fail-under=100"
+doc = "mkdocs build"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.4",
+    "pytest-cov>=4.1.0",
+]
+lint = [
+    "ruff>=0.3.3",
+    "pylint>=2.13.9",
+]
+doc = [
+    "mkdocs>=1.5.3",
+    "mkdocstrings[python]>=0.22.0",
+    "mkdocs-material>=9.2.7",
+]
+
+[tool.ruff]
+line-length = 120
+fix = true
+
+[tool.ruff.lint]
+extend-select = [
+    "N",
+    "F",
+    "E",
+    "W",
+    "I",
+    "D",
+    "UP",
+    "ANN",
+    "ASYNC",
+    "S",
+    "BLE",
+    "B",
+    "A",
+    "COM",
+    "CPY",
+    "C4",
+    "EM",
+    "G",
+    "INP",
+    "PYI",
+    "PT",
+    "Q",
+    "RET",
+    "SLF",
+    "TCH",
+    "ARG",
+    "PTH",
+    "PL",
+    "TRY",
+    "FLY",
+    "PERF",
+    "FURB",
+    "LOG",
+    "RUF",
+]
+fixable = [
+    "ALL",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = [
+    "F401",
+]
+"tests/**/*.py" = [
+    "S101",
+    "ARG",
+    "FBT",
+    "PLR2004",
+    "S311",
+    "ANN201",
+    "D103",
+]
