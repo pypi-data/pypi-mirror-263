@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling", "oss2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "oss2_uploader"
+version = "0.0.1"
+authors = [{ name = "Example Author", email = "author@example.com" }]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/hansen1416/oss2_uploader"
+Issues = "https://github.com/hansen1416/oss2_uploader/issues"
