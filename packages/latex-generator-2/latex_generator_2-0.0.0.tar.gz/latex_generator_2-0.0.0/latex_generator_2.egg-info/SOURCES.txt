@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+latex_generator_2/__init__.py
+latex_generator_2/latex_gen_12.py
+latex_generator_2.egg-info/PKG-INFO
+latex_generator_2.egg-info/SOURCES.txt
+latex_generator_2.egg-info/dependency_links.txt
+latex_generator_2.egg-info/top_level.txt

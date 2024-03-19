@@ -1,0 +1,1 @@
+from .latex_gen_12 import LatexGenerator
