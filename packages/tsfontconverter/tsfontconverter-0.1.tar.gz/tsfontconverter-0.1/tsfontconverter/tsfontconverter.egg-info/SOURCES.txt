@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+tsfontconverter/tsfontconverter.egg-info/PKG-INFO
+tsfontconverter/tsfontconverter.egg-info/SOURCES.txt
+tsfontconverter/tsfontconverter.egg-info/dependency_links.txt
+tsfontconverter/tsfontconverter.egg-info/top_level.txt
