@@ -1,0 +1,17 @@
+[project]
+name = "ses_email_service"
+version = "0.1"
+authors = [
+  { name="Harshit Bhalla", email="harshit.bhalla.002@gmail.com" },
+]
+description = "A Python library for sending emails with the help of amazon service SES (simple email service)."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/HarshitNci/ses-library"
