@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mathlib-test
+Version: 0.1.0
+Summary: Test math lib
+Author-Email: Marcin Pilarczyk <marcinpilarczyk@me.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# mathlib
