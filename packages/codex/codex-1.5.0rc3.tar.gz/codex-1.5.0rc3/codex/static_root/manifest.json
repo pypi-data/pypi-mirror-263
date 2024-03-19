@@ -1,0 +1,573 @@
+{
+  "_VCheckbox-!~{00q}~.js": {
+    "file": "assets/VCheckbox-CMKdyl0R.css",
+    "src": "_VCheckbox-!~{00q}~.js"
+  },
+  "_VCheckbox-DHMAhKGT.js": {
+    "file": "assets/VCheckbox-DHMAhKGT.js",
+    "imports": [
+      "_VCheckboxBtn-uCKdExac.js",
+      "_VSelectionControl-DiMGQAeK.js",
+      "_admin-drawer-panel-B_bfGEw2.js"
+    ],
+    "css": [
+      "assets/VCheckbox-CMKdyl0R.css"
+    ]
+  },
+  "_VCheckboxBtn-uCKdExac.js": {
+    "file": "assets/VCheckboxBtn-uCKdExac.js",
+    "imports": [
+      "_VSelectionControl-DiMGQAeK.js",
+      "_admin-drawer-panel-B_bfGEw2.js"
+    ]
+  },
+  "_VCombobox-!~{00o}~.js": {
+    "file": "assets/VCombobox-BksEr4D_.css",
+    "src": "_VCombobox-!~{00o}~.js"
+  },
+  "_VCombobox-BGwjt2Ev.js": {
+    "file": "assets/VCombobox-BGwjt2Ev.js",
+    "imports": [
+      "_VSelect-B2PG1Q8F.js",
+      "_VSlideGroup-COsJNHYz.js",
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "_filter-uwds7ws5.js",
+      "_VSelectionControl-DiMGQAeK.js",
+      "_confirm-footer-Cdqfbpp3.js",
+      "_VCheckboxBtn-uCKdExac.js"
+    ],
+    "css": [
+      "assets/VCombobox-BksEr4D_.css"
+    ]
+  },
+  "_VDataTableVirtual-!~{00x}~.js": {
+    "file": "assets/VDataTableVirtual-Cbj7IGxa.css",
+    "src": "_VDataTableVirtual-!~{00x}~.js"
+  },
+  "_VDataTableVirtual-DOAgMbT0.js": {
+    "file": "assets/VDataTableVirtual-DOAgMbT0.js",
+    "imports": [
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "_VSlideGroup-COsJNHYz.js",
+      "src/main.js",
+      "_confirm-footer-Cdqfbpp3.js",
+      "_confirm-dialog-Dfnanjbs.js",
+      "_VSelect-B2PG1Q8F.js",
+      "_VCheckboxBtn-uCKdExac.js",
+      "_VTable-CFVNH6Mc.js",
+      "_filter-uwds7ws5.js"
+    ],
+    "css": [
+      "assets/VDataTableVirtual-Cbj7IGxa.css"
+    ]
+  },
+  "_VExpansionPanel-!~{00w}~.js": {
+    "file": "assets/VExpansionPanel-BgvW2DKJ.css",
+    "src": "_VExpansionPanel-!~{00w}~.js"
+  },
+  "_VExpansionPanel-DG32Btuf.js": {
+    "file": "assets/VExpansionPanel-DG32Btuf.js",
+    "imports": [
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "_confirm-footer-Cdqfbpp3.js"
+    ],
+    "css": [
+      "assets/VExpansionPanel-BgvW2DKJ.css"
+    ]
+  },
+  "_VMain-!~{00i}~.js": {
+    "file": "assets/VMain-Byt37V4c.css",
+    "src": "_VMain-!~{00i}~.js"
+  },
+  "_VMain-K2VJ0SNN.js": {
+    "file": "assets/VMain-K2VJ0SNN.js",
+    "imports": [
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "src/main.js"
+    ],
+    "css": [
+      "assets/VMain-Byt37V4c.css"
+    ]
+  },
+  "_VRadioGroup-!~{00v}~.js": {
+    "file": "assets/VRadioGroup-i2qP9Wu9.css",
+    "src": "_VRadioGroup-!~{00v}~.js"
+  },
+  "_VRadioGroup-B1B5rLoK.js": {
+    "file": "assets/VRadioGroup-B1B5rLoK.js",
+    "imports": [
+      "_VSelectionControl-DiMGQAeK.js",
+      "_admin-drawer-panel-B_bfGEw2.js"
+    ],
+    "css": [
+      "assets/VRadioGroup-i2qP9Wu9.css"
+    ]
+  },
+  "_VSelect-!~{00m}~.js": {
+    "file": "assets/VSelect-udkSZJsa.css",
+    "src": "_VSelect-!~{00m}~.js"
+  },
+  "_VSelect-B2PG1Q8F.js": {
+    "file": "assets/VSelect-B2PG1Q8F.js",
+    "imports": [
+      "_VSlideGroup-COsJNHYz.js",
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "_VSelectionControl-DiMGQAeK.js",
+      "_confirm-footer-Cdqfbpp3.js",
+      "src/main.js",
+      "_VCheckboxBtn-uCKdExac.js"
+    ],
+    "css": [
+      "assets/VSelect-udkSZJsa.css"
+    ]
+  },
+  "_VSelectionControl-!~{00k}~.js": {
+    "file": "assets/VSelectionControl-BFq--28I.css",
+    "src": "_VSelectionControl-!~{00k}~.js"
+  },
+  "_VSelectionControl-DiMGQAeK.js": {
+    "file": "assets/VSelectionControl-DiMGQAeK.js",
+    "imports": [
+      "_admin-drawer-panel-B_bfGEw2.js"
+    ],
+    "css": [
+      "assets/VSelectionControl-BFq--28I.css"
+    ]
+  },
+  "_VSlideGroup-!~{00g}~.js": {
+    "file": "assets/VSlideGroup-Z7BhHtYB.css",
+    "src": "_VSlideGroup-!~{00g}~.js"
+  },
+  "_VSlideGroup-COsJNHYz.js": {
+    "file": "assets/VSlideGroup-COsJNHYz.js",
+    "imports": [
+      "_confirm-footer-Cdqfbpp3.js",
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "_VSelectionControl-DiMGQAeK.js",
+      "src/main.js"
+    ],
+    "css": [
+      "assets/VSlideGroup-Z7BhHtYB.css"
+    ]
+  },
+  "_VTable-!~{00p}~.js": {
+    "file": "assets/VTable-DflzroDq.css",
+    "src": "_VTable-!~{00p}~.js"
+  },
+  "_VTable-CFVNH6Mc.js": {
+    "file": "assets/VTable-CFVNH6Mc.js",
+    "imports": [
+      "_admin-drawer-panel-B_bfGEw2.js"
+    ],
+    "css": [
+      "assets/VTable-DflzroDq.css"
+    ]
+  },
+  "_VToolbar-!~{00d}~.js": {
+    "file": "assets/VToolbar-C5QbEltS.css",
+    "src": "_VToolbar-!~{00d}~.js"
+  },
+  "_VToolbar-CAj_xImr.js": {
+    "file": "assets/VToolbar-CAj_xImr.js",
+    "imports": [
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "src/main.js",
+      "_index-DUjeNg4x.js",
+      "_confirm-footer-Cdqfbpp3.js",
+      "_change-password-dialog-BEGKjcDv.js",
+      "_VSlideGroup-COsJNHYz.js",
+      "_VSelectionControl-DiMGQAeK.js"
+    ],
+    "dynamicImports": [
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "_admin-drawer-panel-B_bfGEw2.js"
+    ],
+    "css": [
+      "assets/VToolbar-C5QbEltS.css"
+    ]
+  },
+  "_VWindowItem-!~{00h}~.js": {
+    "file": "assets/VWindowItem-ByIod57Y.css",
+    "src": "_VWindowItem-!~{00h}~.js"
+  },
+  "_VWindowItem-DlKcSlAE.js": {
+    "file": "assets/VWindowItem-DlKcSlAE.js",
+    "imports": [
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "_confirm-footer-Cdqfbpp3.js"
+    ],
+    "css": [
+      "assets/VWindowItem-ByIod57Y.css"
+    ]
+  },
+  "_admin-drawer-panel-!~{002}~.js": {
+    "file": "assets/admin-drawer-panel-CsBUDBLE.css",
+    "src": "_admin-drawer-panel-!~{002}~.js"
+  },
+  "_admin-drawer-panel-B_bfGEw2.js": {
+    "file": "assets/admin-drawer-panel-B_bfGEw2.js",
+    "isDynamicEntry": true,
+    "css": [
+      "assets/admin-drawer-panel-CsBUDBLE.css"
+    ]
+  },
+  "_change-password-dialog-!~{00j}~.js": {
+    "file": "assets/change-password-dialog-BRmvkNir.css",
+    "src": "_change-password-dialog-!~{00j}~.js"
+  },
+  "_change-password-dialog-BEGKjcDv.js": {
+    "file": "assets/change-password-dialog-BEGKjcDv.js",
+    "imports": [
+      "_VSlideGroup-COsJNHYz.js",
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "_confirm-footer-Cdqfbpp3.js"
+    ],
+    "css": [
+      "assets/change-password-dialog-BRmvkNir.css"
+    ]
+  },
+  "_confirm-dialog-!~{00r}~.js": {
+    "file": "assets/confirm-dialog-BmhedLCx.css",
+    "src": "_confirm-dialog-!~{00r}~.js"
+  },
+  "_confirm-dialog-Dfnanjbs.js": {
+    "file": "assets/confirm-dialog-Dfnanjbs.js",
+    "imports": [
+      "_confirm-footer-Cdqfbpp3.js",
+      "_admin-drawer-panel-B_bfGEw2.js"
+    ],
+    "css": [
+      "assets/confirm-dialog-BmhedLCx.css"
+    ]
+  },
+  "_confirm-footer-!~{00f}~.js": {
+    "file": "assets/confirm-footer-VFepxcJs.css",
+    "src": "_confirm-footer-!~{00f}~.js"
+  },
+  "_confirm-footer-Cdqfbpp3.js": {
+    "file": "assets/confirm-footer-Cdqfbpp3.js",
+    "imports": [
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "src/main.js"
+    ],
+    "css": [
+      "assets/confirm-footer-VFepxcJs.css"
+    ]
+  },
+  "_datetime-column-!~{00y}~.js": {
+    "file": "assets/datetime-column-BWWfvyhn.css",
+    "src": "_datetime-column-!~{00y}~.js"
+  },
+  "_datetime-column-DFupj-rK.js": {
+    "file": "assets/datetime-column-DFupj-rK.js",
+    "imports": [
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "src/main.js"
+    ],
+    "css": [
+      "assets/datetime-column-BWWfvyhn.css"
+    ]
+  },
+  "_filter-uwds7ws5.js": {
+    "file": "assets/filter-uwds7ws5.js",
+    "imports": [
+      "_admin-drawer-panel-B_bfGEw2.js"
+    ]
+  },
+  "_index-DUjeNg4x.js": {
+    "file": "assets/index-DUjeNg4x.js"
+  },
+  "_metadata-dialog-!~{00l}~.js": {
+    "file": "assets/metadata-dialog-DPxDDFDy.css",
+    "src": "_metadata-dialog-!~{00l}~.js"
+  },
+  "_metadata-dialog-DyUap1W5.js": {
+    "file": "assets/metadata-dialog-DyUap1W5.js",
+    "imports": [
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "_VToolbar-CAj_xImr.js",
+      "_VSelectionControl-DiMGQAeK.js",
+      "src/main.js",
+      "_VSelect-B2PG1Q8F.js",
+      "_to-case-kUm8NPpW.js",
+      "_confirm-footer-Cdqfbpp3.js"
+    ],
+    "css": [
+      "assets/metadata-dialog-DPxDDFDy.css"
+    ]
+  },
+  "_to-case-kUm8NPpW.js": {
+    "file": "assets/to-case-kUm8NPpW.js",
+    "imports": [
+      "_index-DUjeNg4x.js"
+    ]
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot": {
+    "file": "assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf": {
+    "file": "assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff": {
+    "file": "assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2": {
+    "file": "assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2"
+  },
+  "src/admin.vue": {
+    "file": "assets/admin-DEG-bp3y.js",
+    "src": "src/admin.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_VToolbar-CAj_xImr.js",
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "src/main.js",
+      "_index-DUjeNg4x.js",
+      "_confirm-footer-Cdqfbpp3.js",
+      "_VSlideGroup-COsJNHYz.js",
+      "_VWindowItem-DlKcSlAE.js",
+      "_VMain-K2VJ0SNN.js",
+      "_change-password-dialog-BEGKjcDv.js",
+      "_VSelectionControl-DiMGQAeK.js"
+    ],
+    "css": [
+      "assets/admin-Df82-Qcj.css"
+    ]
+  },
+  "src/browser.vue": {
+    "file": "assets/browser-PVWOnYOV.js",
+    "src": "src/browser.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_VToolbar-CAj_xImr.js",
+      "_metadata-dialog-DyUap1W5.js",
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "src/main.js",
+      "_VSelect-B2PG1Q8F.js",
+      "_to-case-kUm8NPpW.js",
+      "_VSlideGroup-COsJNHYz.js",
+      "_VCombobox-BGwjt2Ev.js",
+      "_VTable-CFVNH6Mc.js",
+      "_confirm-footer-Cdqfbpp3.js",
+      "_VCheckbox-DHMAhKGT.js",
+      "_confirm-dialog-Dfnanjbs.js",
+      "_VMain-K2VJ0SNN.js",
+      "_index-DUjeNg4x.js",
+      "_change-password-dialog-BEGKjcDv.js",
+      "_VSelectionControl-DiMGQAeK.js",
+      "_VCheckboxBtn-uCKdExac.js",
+      "_filter-uwds7ws5.js"
+    ],
+    "css": [
+      "assets/browser-C8SJwVGz.css"
+    ]
+  },
+  "src/components/admin/flag-tab.vue": {
+    "file": "assets/flag-tab-DNfvyzTO.js",
+    "src": "src/components/admin/flag-tab.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "_VTable-CFVNH6Mc.js",
+      "_VCheckbox-DHMAhKGT.js",
+      "_VCheckboxBtn-uCKdExac.js",
+      "_VSelectionControl-DiMGQAeK.js"
+    ],
+    "css": [
+      "assets/flag-tab-BTiZcgOa.css"
+    ]
+  },
+  "src/components/admin/group-tab.vue": {
+    "file": "assets/group-tab-BPFjnZIE.js",
+    "src": "src/components/admin/group-tab.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_VDataTableVirtual-DOAgMbT0.js",
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "src/main.js",
+      "_VSlideGroup-COsJNHYz.js",
+      "_VRadioGroup-B1B5rLoK.js",
+      "_confirm-footer-Cdqfbpp3.js",
+      "_confirm-dialog-Dfnanjbs.js",
+      "_VSelect-B2PG1Q8F.js",
+      "_VSelectionControl-DiMGQAeK.js",
+      "_VCheckboxBtn-uCKdExac.js",
+      "_VTable-CFVNH6Mc.js",
+      "_filter-uwds7ws5.js"
+    ],
+    "css": [
+      "assets/group-tab-3DXxSetf.css"
+    ]
+  },
+  "src/components/admin/library-tab.vue": {
+    "file": "assets/library-tab-CnjUciEl.js",
+    "src": "src/components/admin/library-tab.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_confirm-dialog-Dfnanjbs.js",
+      "_VDataTableVirtual-DOAgMbT0.js",
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "_datetime-column-DFupj-rK.js",
+      "_VExpansionPanel-DG32Btuf.js",
+      "_VTable-CFVNH6Mc.js",
+      "_VSlideGroup-COsJNHYz.js",
+      "src/main.js",
+      "_VCombobox-BGwjt2Ev.js",
+      "_VCheckbox-DHMAhKGT.js",
+      "_VCheckboxBtn-uCKdExac.js",
+      "_confirm-footer-Cdqfbpp3.js",
+      "_VSelect-B2PG1Q8F.js",
+      "_VSelectionControl-DiMGQAeK.js",
+      "_filter-uwds7ws5.js"
+    ],
+    "css": [
+      "assets/library-tab-DZKDtQ5v.css"
+    ]
+  },
+  "src/components/admin/stats-tab.vue": {
+    "file": "assets/stats-tab-CB8WB07C.js",
+    "src": "src/components/admin/stats-tab.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_confirm-dialog-Dfnanjbs.js",
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "_index-DUjeNg4x.js",
+      "_to-case-kUm8NPpW.js",
+      "_VTable-CFVNH6Mc.js",
+      "_confirm-footer-Cdqfbpp3.js",
+      "src/main.js"
+    ],
+    "css": [
+      "assets/stats-tab-BTZLMBCU.css"
+    ]
+  },
+  "src/components/admin/task-tab.vue": {
+    "file": "assets/task-tab-CVCfrF_E.js",
+    "src": "src/components/admin/task-tab.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_confirm-dialog-Dfnanjbs.js",
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "_confirm-footer-Cdqfbpp3.js",
+      "src/main.js"
+    ],
+    "css": [
+      "assets/task-tab-DoX9OA37.css"
+    ]
+  },
+  "src/components/admin/user-tab.vue": {
+    "file": "assets/user-tab-DTq2qlpd.js",
+    "src": "src/components/admin/user-tab.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_change-password-dialog-BEGKjcDv.js",
+      "_VDataTableVirtual-DOAgMbT0.js",
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "_datetime-column-DFupj-rK.js",
+      "src/main.js",
+      "_VSlideGroup-COsJNHYz.js",
+      "_VCheckbox-DHMAhKGT.js",
+      "_VCheckboxBtn-uCKdExac.js",
+      "_confirm-footer-Cdqfbpp3.js",
+      "_confirm-dialog-Dfnanjbs.js",
+      "_VSelect-B2PG1Q8F.js",
+      "_VSelectionControl-DiMGQAeK.js",
+      "_VTable-CFVNH6Mc.js",
+      "_filter-uwds7ws5.js"
+    ]
+  },
+  "src/components/reader/pager/pdf-doc.vue": {
+    "file": "assets/pdf-doc-y-bPRiqR.js",
+    "src": "src/components/reader/pager/pdf-doc.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "src/main.js",
+      "_VToolbar-CAj_xImr.js",
+      "_index-DUjeNg4x.js",
+      "_confirm-footer-Cdqfbpp3.js",
+      "_change-password-dialog-BEGKjcDv.js",
+      "_VSlideGroup-COsJNHYz.js",
+      "_VSelectionControl-DiMGQAeK.js"
+    ],
+    "css": [
+      "assets/pdf-doc-CMzaSV_K.css"
+    ]
+  },
+  "src/http-error.vue": {
+    "file": "assets/http-error-BvGs3SEa.js",
+    "src": "src/http-error.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "_VMain-K2VJ0SNN.js",
+      "src/main.js"
+    ],
+    "css": [
+      "assets/http-error-C25WdjWC.css"
+    ]
+  },
+  "src/main.js": {
+    "file": "assets/main-AqcGlil4.js",
+    "src": "src/main.js",
+    "isEntry": true,
+    "imports": [
+      "_admin-drawer-panel-B_bfGEw2.js"
+    ],
+    "dynamicImports": [
+      "src/admin.vue",
+      "src/browser.vue",
+      "src/http-error.vue",
+      "src/reader.vue",
+      "src/components/admin/flag-tab.vue",
+      "src/components/admin/user-tab.vue",
+      "src/components/admin/group-tab.vue",
+      "src/components/admin/library-tab.vue",
+      "src/components/admin/task-tab.vue",
+      "src/components/admin/stats-tab.vue"
+    ],
+    "css": [
+      "assets/main-CacfwsKA.css"
+    ],
+    "assets": [
+      "assets/materialdesignicons-webfont-CSr8KVlo.eot",
+      "assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+      "assets/materialdesignicons-webfont-PXm3-2wK.woff",
+      "assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+    ]
+  },
+  "src/reader.vue": {
+    "file": "assets/reader-Dg6MGieT.js",
+    "src": "src/reader.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_VToolbar-CAj_xImr.js",
+      "_metadata-dialog-DyUap1W5.js",
+      "_admin-drawer-panel-B_bfGEw2.js",
+      "src/main.js",
+      "_VWindowItem-DlKcSlAE.js",
+      "_VSelect-B2PG1Q8F.js",
+      "_VRadioGroup-B1B5rLoK.js",
+      "_VCheckbox-DHMAhKGT.js",
+      "_VExpansionPanel-DG32Btuf.js",
+      "_VMain-K2VJ0SNN.js",
+      "_index-DUjeNg4x.js",
+      "_confirm-footer-Cdqfbpp3.js",
+      "_change-password-dialog-BEGKjcDv.js",
+      "_VSlideGroup-COsJNHYz.js",
+      "_VSelectionControl-DiMGQAeK.js",
+      "_to-case-kUm8NPpW.js",
+      "_VCheckboxBtn-uCKdExac.js"
+    ],
+    "dynamicImports": [
+      "src/components/reader/pager/pdf-doc.vue"
+    ],
+    "css": [
+      "assets/reader-DHZzx6Jl.css"
+    ]
+  }
+}
