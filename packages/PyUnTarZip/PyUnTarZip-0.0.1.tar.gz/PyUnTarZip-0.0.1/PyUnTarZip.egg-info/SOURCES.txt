@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+PyUnTarZip/__init__.py
+PyUnTarZip/__main__.py
+PyUnTarZip.egg-info/PKG-INFO
+PyUnTarZip.egg-info/SOURCES.txt
+PyUnTarZip.egg-info/dependency_links.txt
+PyUnTarZip.egg-info/top_level.txt
