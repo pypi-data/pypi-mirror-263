@@ -1,0 +1,8 @@
+seye/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seye/_torch_impl.py,sha256=-Vs6es-YGVCeoZc_rEw1otGHy_eAMLsU1bmRFqqg80k,444
+seye/spherical_projection.py,sha256=iAhHmh9Na5iSeeSV9qDzbUZbcu3aym2_SE-24MAnwE8,5569
+seye/version.py,sha256=ShXQBVjyiSOHxoQJS2BvNG395W4KZfqMxZWBAR0MZrE,22
+seye-0.0.0.dist-info/METADATA,sha256=XYDkI52MM0eGPH9qKFnysULgmSDIGWydPB-RHQOxkqU,445
+seye-0.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+seye-0.0.0.dist-info/top_level.txt,sha256=Gx_DubFvn0Y8OGcvcQ71wKo24_fV0TPqOWRQVoPWtfc,5
+seye-0.0.0.dist-info/RECORD,,

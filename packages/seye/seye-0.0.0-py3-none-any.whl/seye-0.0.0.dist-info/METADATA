@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: seye
+Version: 0.0.0
+Summary: A repo for eye simulation.
+Project-URL: GitHub, https://github.com/atsu-kotani/seye
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Requires-Dist: mediapy
+Provides-Extra: docs
+Requires-Dist: furo >=2022.09.29 ; extra == 'docs'
+Requires-Dist: myst-nb >=0.16.0 ; extra == 'docs'
+Requires-Dist: sphinx >=5.2.1 ; extra == 'docs'
+
