@@ -1,0 +1,14 @@
+annotations/__init__.py,sha256=kUcOT65Zqn2f8otjcS0mxG7qNaoT5dX8L2M51vxjPTc,38
+annotations/transform.py,sha256=1JJx03UGQ3YIgZs-vAU9RlsrHOFGYEAz3wMWCTKHAMA,651
+augmentations/__init__.py,sha256=U8yIOTf3wF6s4xB43BftIPpEmq1Hg9rdO00ZYFtHlv0,381
+augmentations/brightness_contrast.py,sha256=toWF6uf0FYAaKo35e4a4hLzsqRjy1bLT-RLZOxMFat8,241
+augmentations/color_space.py,sha256=hXHqFYU2b3h2YVc7_hxUfmKz4eCZHoupqczeSl_tXhE,518
+augmentations/flip.py,sha256=gmYgIEl9nIL8bjoPXQw3qi7Mr_aQIK5KHwDXsu1gy9Y,2166
+augmentations/kernel_filters.py,sha256=9M7togWubULzOyqNfNhZ7jNHMqFQSSmLa9V70LNkE4Y,733
+augmentations/random_crop.py,sha256=mekOaifs0fJbkSY0DYNqPMhrNltZx3U29J3LUGOFFDc,410
+augmentations/resize.py,sha256=lYBiAnJkNxE42a75l0ADgphvPr24Nix5oc5Vm1TLgJ4,87
+augmentations/rotate.py,sha256=__zT4J2vj6FAQScye7hTPZfhcFxZysnNkNpwJcZfyEk,454
+imgaugtools-1.0.0.dist-info/METADATA,sha256=8y31i4wEM4jAZaFg4qckhT-ZIshEFWbNOsOrHKsKA-4,259
+imgaugtools-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+imgaugtools-1.0.0.dist-info/top_level.txt,sha256=hpq-WJ9YxNt2GUEgAJSQ3dpstxE2l_OR-EK4kOSPxeU,26
+imgaugtools-1.0.0.dist-info/RECORD,,
