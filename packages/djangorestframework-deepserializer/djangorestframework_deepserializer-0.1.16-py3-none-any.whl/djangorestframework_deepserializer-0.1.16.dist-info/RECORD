@@ -1,0 +1,8 @@
+deepserializer/__init__.py,sha256=rALIjKzjhz8ZSGRltlL7i3RiO0a0RvpatKWFSEF7tkY,144
+deepserializer/serializers.py,sha256=fmpFUAs0wwz8DvvcSXbsIG00FHHm48yzbP3BD_yxbDY,36155
+deepserializer/views.py,sha256=v6xOJDgE0t5yus73ch9cI7lO02MI229wk7W_SsPKrJM,7552
+djangorestframework_deepserializer-0.1.16.dist-info/LICENSE,sha256=9IuZl6bVV1_VdCSozTS-dQnTm1ONZEHFOkvll0cFf3k,1062
+djangorestframework_deepserializer-0.1.16.dist-info/METADATA,sha256=B4TcismpuZZVay1iKAU_sfJ0jWxIiCzYcmqIA2CGmu0,10344
+djangorestframework_deepserializer-0.1.16.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+djangorestframework_deepserializer-0.1.16.dist-info/top_level.txt,sha256=ljwKy98U2IotU0bOkIAxHkAzOmfu_G-1fVPtpO-hS8g,15
+djangorestframework_deepserializer-0.1.16.dist-info/RECORD,,
