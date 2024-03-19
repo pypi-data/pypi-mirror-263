@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+nescree32/README.MD
+nescree32/__init__.py
+nescree32/requirements.txt
+nescree32/thirdparty.json
+nescree32.egg-info/PKG-INFO
+nescree32.egg-info/SOURCES.txt
+nescree32.egg-info/dependency_links.txt
+nescree32.egg-info/requires.txt
+nescree32.egg-info/top_level.txt

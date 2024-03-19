@@ -1,0 +1,3 @@
+include nescree32/requirements.txt
+include nescree32/thirdparty.json
+include nescree32/README.MD
