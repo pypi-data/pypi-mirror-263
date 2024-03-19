@@ -1,0 +1,19 @@
+load("@py_deps//:requirements.bzl", "requirement")
+load("//bazel:python.bzl", "py_tests_with_shim")
+
+py_tests_with_shim(
+    size = "medium",
+    srcs = glob(
+        [
+            "test_*.py",
+        ],
+    ),
+    data = [
+        "//frontend/cli/tests/test_files:requirements_files",
+        "//frontend/cli/tests/test_files:working_dirs",
+    ],
+    deps = [
+        "//frontend/cli:anyscale",
+        requirement("pytest"),
+    ],
+)
