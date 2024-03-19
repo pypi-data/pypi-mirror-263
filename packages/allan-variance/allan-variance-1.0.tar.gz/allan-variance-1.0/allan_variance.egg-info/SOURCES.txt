@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+allan_variance/__init__.py
+allan_variance/avar.py
+allan_variance/noise.py
+allan_variance.egg-info/PKG-INFO
+allan_variance.egg-info/SOURCES.txt
+allan_variance.egg-info/dependency_links.txt
+allan_variance.egg-info/requires.txt
+allan_variance.egg-info/top_level.txt
+allan_variance/tests/test_avar.py
+allan_variance/tests/test_noise.py
