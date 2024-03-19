@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: oxidd
+Version: 0.0.0
+Summary: Decision Diagrams
+Author-email: Nils Husung <husung@cs.uni-saarland.de>
+Maintainer-email: Nils Husung <husung@cs.uni-saarland.de>
+Project-URL: Homepage, https://oxidd.net
+Project-URL: Repository, https://github.com/OxiDD/oxidd
+Project-URL: Issues, https://github.com/OxiDD/oxidd/issues
+Keywords: Decision Diagrams,BDD,ZBDD,ZDD
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: C
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Rust
+Classifier: Topic :: Scientific/Engineering
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+License-File: LICENSE-APACHE
+License-File: LICENSE-MIT
+Requires-Dist: cffi ~=1.12
+Requires-Dist: typing-extensions ~=4.0
+
