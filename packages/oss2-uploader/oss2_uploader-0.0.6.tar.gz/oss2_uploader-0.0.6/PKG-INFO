@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: oss2_uploader
+Version: 0.0.6
+Summary: Uploader files in a folder to Aliyun OSS
+Project-URL: Homepage, https://github.com/hansen1416/oss2_uploader
+Project-URL: Issues, https://github.com/hansen1416/oss2_uploader/issues
+Author-email: YugoAmaryl46 <badapplesweetie@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: oss2
+Requires-Dist: tqdm
+Description-Content-Type: text/markdown
+
+Uploader files in a folder to Aliyun OSS
