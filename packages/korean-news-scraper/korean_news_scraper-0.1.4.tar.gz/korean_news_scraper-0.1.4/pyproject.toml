@@ -1,0 +1,18 @@
+[project]
+name = "korean_news_scraper"
+version = "0.1.4"
+authors = [
+  { name="kimminsum", email="tommy1005a@gmail.com" },
+]
+description = "A python package for web scraping korean news articles"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/kimminsum/korean-news-scraper"
+Issues = "https://github.com/kimminsum/korean-news-scraper/issues"
