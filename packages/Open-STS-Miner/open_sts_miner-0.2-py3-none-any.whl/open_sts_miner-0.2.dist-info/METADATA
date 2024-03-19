@@ -1,0 +1,27 @@
+Metadata-Version: 2.3
+Name: Open_STS_Miner
+Version: 0.2
+Summary: A package implementing the Spatiotemporal Sequence Miner (STS Miner) algorithm
+Project-URL: Homepage, https://github.com/MichaelBiancardi/OpenSTSMiner
+Author-email: Michael Biancardi <MichaelBiancardi@my.unt.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: geopandas
+Requires-Dist: numpy
+Requires-Dist: pandas
+Description-Content-Type: text/markdown
+
+# Open STS Miner
+
+This package implements the Spatiotemporal Sequence Miner (STS Miner) algorithm, first introduced by Huang et al. (2008): A framework for mining sequential patterns from spatio-temporal event data sets.  Given a database of spatiotemporal events (i.e., records with an event type, location, and time), STS Miner finds significant sequences of events that occur nearby in space and shortly after one another in time.  These sequences are of the form A -> B -> C, where A, B, and C are event types.  The definition of "close" is set by user parameters.  Significance of a sequence is determined by comparing the local event densities to global event densities, again with a user-defined threshold.  See Huang et al.'s 2008 paper for details on the algorithm.
+
+Open STS Miner implements the Naive STS Miner algorithm and the optimized Slicing STS Miner algorithm, which processes overlapping temporal slices to handle large datasets.
+
+This package is entirely free and open source.  It is provided as-is.  You are free to use the package and modify the source code.  Open STS Miner can be downloaded with pip for use in Python: ***.
+
+The src directory contains the core code for Open STS Miner in the sts_miner.py file.  Unit tests are provided in the test.py file.  Utility functions are provided in the util.py file.  The sts_predictor file contains code to turn STS Miner into a predictor.
+
+The examples directory contains some example code for using Open STS Miner on the sample dataset provided in Huang et al.'s original paper; this dataset is located in the sample_data directory.
