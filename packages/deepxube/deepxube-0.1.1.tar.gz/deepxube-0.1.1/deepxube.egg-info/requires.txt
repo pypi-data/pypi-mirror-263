@@ -1,0 +1,15 @@
+torch>=2.0
+numpy
+matplotlib
+clingo
+wget
+filelock
+opencv-python
+imageio
+
+[test]
+pytest
+pytest-cov
+mypy
+flake8
+tox
