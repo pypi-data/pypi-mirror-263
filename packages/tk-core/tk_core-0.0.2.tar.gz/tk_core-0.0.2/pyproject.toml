@@ -1,0 +1,59 @@
+[project]
+name = "tk_core"
+description = "Centralized core functionality for Terakeet SD, DS, DE, etc."
+version = "0.0.2"
+dependencies = [
+  "boto3",
+  "botocore",
+  "pandas",
+  "pydantic",
+  "python-dotenv",
+  "serpapi",
+  "snowflake-connector-python[pandas]",
+  "snowflake-snowpark-python[pandas]",
+  "ujson"
+]
+
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "src"
+]
+
+[tool.ruff]
+line-length = 127
+exclude = ["test"]
+
+[tool.ruff.lint]
+select = [
+  "ANN", # annotations
+  # pycodestyle
+  "E",
+  # Pyflakes
+  "F",
+  # pyupgrade
+  "UP",
+  # flake8-bugbear
+  "B",
+  # flake8-simplify
+  "SIM",
+  # isort
+  "I",
+  #flake8-bandit
+  "S"
+]
+
+ignore = [
+    "ANN101", # Missing type annotation for `self` in method
+    "ANN102", # Missing type annotation for `cls` in classmethod
+    "COM812", # Missing trailing comma in Python 3.5+
+    "ANN401", # Allow Any type declaration
+    "ANN002", # Args type hint skip
+    "ANN003", # Kwargs type hint skip
+    "SIM108", # ternary operator required
+]
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+
