@@ -1,0 +1,8 @@
+pretty_xlsxwriter.py
+setup.py
+pretty_xlsxwriter.egg-info/PKG-INFO
+pretty_xlsxwriter.egg-info/SOURCES.txt
+pretty_xlsxwriter.egg-info/dependency_links.txt
+pretty_xlsxwriter.egg-info/not-zip-safe
+pretty_xlsxwriter.egg-info/requires.txt
+pretty_xlsxwriter.egg-info/top_level.txt
