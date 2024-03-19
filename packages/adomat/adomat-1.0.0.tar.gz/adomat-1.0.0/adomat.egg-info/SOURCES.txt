@@ -1,0 +1,7 @@
+README.md
+setup.py
+adomat.egg-info/PKG-INFO
+adomat.egg-info/SOURCES.txt
+adomat.egg-info/dependency_links.txt
+adomat.egg-info/requires.txt
+adomat.egg-info/top_level.txt
