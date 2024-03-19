@@ -1,0 +1,36 @@
+"""
+Base model for all Terakeet endpoints.
+Requires an application name to be passed in the request body.
+"""
+import datetime as dt
+
+from pydantic import BaseModel, Field
+
+
+class TerakeetMetadata(BaseModel):
+    application: str
+    tags: dict = Field(default={})
+    cache_duration: int = 1  # in days
+
+
+class TerakeetRequestModel(BaseModel):
+    tk_metadata: TerakeetMetadata
+
+
+class TerakeetResponseMetadata(BaseModel):
+    request_id: str
+    request_time: dt.datetime
+    requesting_application: str
+    request_tags: dict = Field(default={})
+    processing_application: str
+    cached_results: int | None = Field(default=None)
+    needed_results: int | None = Field(default=None)
+
+
+class TerakeetResponseModel(BaseModel):
+    tk_metadata: TerakeetResponseMetadata
+
+
+class TerakeetBatchQueryRequest(TerakeetRequestModel):
+    queries: list
+    search_parameters: BaseModel

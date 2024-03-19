@@ -1,0 +1,9 @@
+boto3
+botocore
+pandas
+pydantic
+python-dotenv
+serpapi
+snowflake-connector-python[pandas]
+snowflake-snowpark-python[pandas]
+ujson
