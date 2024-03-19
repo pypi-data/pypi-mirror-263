@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: noti2
+Version: 1.0.5
+Summary: Notify you that your code finished running
+License: MIT
+Author: Binh Vu
+Author-email: binh@toan2.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: semver (>=3.0.2,<4.0.0)
+Requires-Dist: serde2 (>=1.7.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+# notifications
+
+Notify you that your code finished running.
+
+# Slack
+
+Steps to setup slack notifications:
+
+1. Create a slack app and get the webhook URL (https://api.slack.com/messaging/webhooks)
+2. Obtain the webhook URL such as `https://hooks.slack.com/services/XXXX/XXXXX/XXXXXX`, then run `python -m noti.auth` and paste the URL when prompted.
+3. After that, you can either use:
+
+```python
+import noti
+
+with noti.slack.watch("do some work..."):
+    ...
+```
+
+to be notified when the code block finishes, or use:
+
+```python
+import noti
+noti.slack("done!")
+```
+
