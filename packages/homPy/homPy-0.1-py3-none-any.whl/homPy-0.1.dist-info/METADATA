@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: homPy
+Version: 0.1
+Summary: A Python library to get public IP address.
+Author: twinsszi
+Author-email: adhm90879@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+very sample library to get your ip 
