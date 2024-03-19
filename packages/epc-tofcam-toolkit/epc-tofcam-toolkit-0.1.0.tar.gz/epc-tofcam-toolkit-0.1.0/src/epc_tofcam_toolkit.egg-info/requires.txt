@@ -1,0 +1,12 @@
+numpy
+matplotlib
+pillow
+opencv-python
+pyqtgraph
+PySide6
+pyserial
+scipy
+pyqtdarktheme
+qtconsole
+ipython
+pyopengl
