@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: MeowerBot
+Version: 4.0.0a2
+Summary: A meower bot lib for py
+Home-page: https://github.com/MeowerBots/MeowerBot.py
+License: MIT
+Author: showierdata9978
+Author-email: 68120127+showierdata9978@users.noreply.github.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: dataclasses-json (>=0.6.1,<0.7.0)
+Requires-Dist: httpx (>=0.27.0,<0.28.0)
+Requires-Dist: orjson (>=3.9.15,<4.0.0)
+Requires-Dist: ujson (>=5.8.0,<6.0.0)
+Requires-Dist: websockets (>=12.0,<13.0)
+Project-URL: Repository, https://github.com/MeowerBots/MeowerBot.py
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/meower-community/MeowerBot.py/master/assets/logo.svg"/>
+</p>
+
+A Python Bot library with an API like nextcord or discord.py, but instead of discord, it is made for the FOSS Social media [Meower](https://github.com/meower-media-co/)
+
+
+
+## Installing
+
+```bash
+pip install MeowerBot
+```
+
+### Documentation.
+They are located [here](https://meowerbot.pages.dev/)
+
+## Extra links
+
+MeowerBot.py's [MIT LICENSE](./LICENSE)
+
