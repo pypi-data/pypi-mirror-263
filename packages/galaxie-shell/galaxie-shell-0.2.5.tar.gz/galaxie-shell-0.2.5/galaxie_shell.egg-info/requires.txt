@@ -1,0 +1,10 @@
+wheel
+setuptools
+
+[tests]
+coverage
+setuptools
+wheel
+
+[tests:python_version < "3.4"]
+mock<4,>=1.0.1
