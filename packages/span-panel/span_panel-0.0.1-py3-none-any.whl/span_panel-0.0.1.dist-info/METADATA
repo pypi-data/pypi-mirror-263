@@ -1,0 +1,56 @@
+Metadata-Version: 2.3
+Name: span-panel
+Version: 0.0.1
+Summary: Unofficial SPAN Panel Python API and CLI
+Project-URL: Source Code, https://github.com/AngellusMortis/span-panel/
+Project-URL: Documentation, https://angellusmortis.github.io/span-panel/latest/
+Project-URL: Bug Reports, https://github.com/AngellusMortis/span-panel/issues/
+Project-URL: Changelog, https://github.com/AngellusMortis/span-panel/releases/
+Author-email: Christopher Bailey <cbailey@mort.is>
+Maintainer-email: Christopher Bailey <cbailey@mort.is>
+License: MIT
+Keywords: Home Assistant,Home Automation,Python,SPAN,SPAN Panel
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.9
+Requires-Dist: aenum
+Requires-Dist: aiohttp
+Requires-Dist: pydantic!=1.9.1,<2.0
+Requires-Dist: python-dateutil
+Requires-Dist: urllib3>=1.25.3
+Provides-Extra: dev
+Requires-Dist: base36; extra == 'dev'
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: build; extra == 'dev'
+Requires-Dist: coverage[toml]; extra == 'dev'
+Requires-Dist: ipython; extra == 'dev'
+Requires-Dist: isort; extra == 'dev'
+Requires-Dist: mike; extra == 'dev'
+Requires-Dist: mkdocs-git-revision-date-localized-plugin; extra == 'dev'
+Requires-Dist: mkdocs-include-markdown-plugin; extra == 'dev'
+Requires-Dist: mkdocs-material; extra == 'dev'
+Requires-Dist: mkdocstrings[python]; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: pydocstyle; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-asyncio; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: pytest-timeout>=1.2.1; extra == 'dev'
+Requires-Dist: pytest-xdist[psutil]; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Requires-Dist: termcolor; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Unofficial Span Panel Python API and CLI
+
+[![Latest PyPI version](https://img.shields.io/pypi/v/span-panel)](https://pypi.org/project/span-panel/) [![Supported Python](https://img.shields.io/pypi/pyversions/span-panel)](https://pypi.org/project/span-panel/) [![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![CI](https://github.com/AngellusMortis/span-panel/actions/workflows/ci.yaml/badge.svg)](https://github.com/AngellusMortis/pyunifiprotect/actions/workflows/ci.yaml) [![Documentation](https://github.com/AngellusMortis/span-panel/actions/workflows/pages/pages-build-deployment/badge.svg)](https://angellusmortis.github.io/span-panel/)
+
+`span-panel` is an unofficial API for the [SPAN Smart Panel](https://www.span.io/panel). There is no affiliation with SPAN.
+
+Project is still WIP.
