@@ -1,0 +1,10 @@
+LICENSE-APACHE
+LICENSE-MIT
+README.md
+pyproject.toml
+src/oxidd/__init__.py
+src/oxidd.egg-info/PKG-INFO
+src/oxidd.egg-info/SOURCES.txt
+src/oxidd.egg-info/dependency_links.txt
+src/oxidd.egg-info/requires.txt
+src/oxidd.egg-info/top_level.txt
