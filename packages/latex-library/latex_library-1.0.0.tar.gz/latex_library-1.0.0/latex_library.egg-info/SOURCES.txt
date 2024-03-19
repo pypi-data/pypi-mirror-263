@@ -1,0 +1,6 @@
+setup.py
+latex_library.egg-info/PKG-INFO
+latex_library.egg-info/SOURCES.txt
+latex_library.egg-info/dependency_links.txt
+latex_library.egg-info/requires.txt
+latex_library.egg-info/top_level.txt
