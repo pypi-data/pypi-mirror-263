@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dsbix
+Version: 0.1
+Summary: API für DSBMobile via tesseract.
+Home-page: https://github.com/zfqtim/dsbix
+Author: veoh
+Author-email: zfq@tuta.io
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+An updated version of nerrixde's DSBApi.
+Install all requirements before installing or just use 'pip install dsapi'
+
+Contact me on Github(https://github.com/zfqtim) or write me a E-Mail at zfq@tuta.io if there are any problems.
+
+This repo works right now so i won't update it unless theres some kind of change.
