@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+forcealign/__init__.py
+forcealign/forcealign.py
+forcealign.egg-info/PKG-INFO
+forcealign.egg-info/SOURCES.txt
+forcealign.egg-info/dependency_links.txt
+forcealign.egg-info/top_level.txt
