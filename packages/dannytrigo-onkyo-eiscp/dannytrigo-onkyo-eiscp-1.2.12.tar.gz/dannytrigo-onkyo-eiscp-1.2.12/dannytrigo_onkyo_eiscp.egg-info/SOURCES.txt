@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+setup.py
+dannytrigo_onkyo_eiscp.egg-info/PKG-INFO
+dannytrigo_onkyo_eiscp.egg-info/SOURCES.txt
+dannytrigo_onkyo_eiscp.egg-info/dependency_links.txt
+dannytrigo_onkyo_eiscp.egg-info/entry_points.txt
+dannytrigo_onkyo_eiscp.egg-info/requires.txt
+dannytrigo_onkyo_eiscp.egg-info/top_level.txt
+eiscp/__init__.py
+eiscp/commands.py
+eiscp/core.py
+eiscp/script.py
+eiscp/server.py
+eiscp/utils.py
+tests/test_core.py
