@@ -1,0 +1,12 @@
+.*
+!.bumpversion.cfg
+!.github
+!.gitignore
+!.pre-commit-config.yaml
+*.pyc
+*.sqlite3
+*.egg-info
+build
+dist
+docs/_build
+htmlcov
