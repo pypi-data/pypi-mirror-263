@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cherrypy = "*"
+requests = "*"
+python-ldap = "*"
+sqlalchemy = "*"
+python-dateutil = "*"
+jinja2 = "*"
+
+[dev-packages]
+black = "*"
+
+[requires]
+python_version = "3.6.8"
+
+[pipenv]
+allow_prereleases = true
