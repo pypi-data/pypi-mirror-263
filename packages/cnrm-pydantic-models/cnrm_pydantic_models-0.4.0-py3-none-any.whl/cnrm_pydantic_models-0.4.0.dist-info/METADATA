@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cnrm-pydantic-models
+Version: 0.4.0
+Summary: Common pydantic models for Config Connect resources
+Author-Email: Eric Larssen <eric.larssen@realkinetic.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: pydantic>=2.6.4
+Requires-Dist: pyyaml>=6.0.1
+Description-Content-Type: text/markdown
+
+# CNRM Pydantic Models
+
