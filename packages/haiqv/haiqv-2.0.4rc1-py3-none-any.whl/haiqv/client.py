@@ -1,0 +1,208 @@
+import os
+import json
+import tempfile
+import requests
+import posixpath
+import contextlib
+
+from typing import Optional, Any
+
+from .entities import run
+from .error.value_error import HaiqvValueError
+from .utils.files import guess_mime_type
+from .utils.log_config import setup_logger
+
+__logger = setup_logger('client')
+
+
+# Notebook
+def get_notebook_info(client_ip: str) -> Any:
+    try:
+        notebook_info = requests.get(f'{os.environ.get("_HAIQV_PLAT_URL")}/platform/resource/get-notebook-info?ip={client_ip}')
+
+        if notebook_info.status_code == 200:
+            return notebook_info.json()
+        else:
+            return HaiqvValueError(notebook_info.text)
+    except Exception as e:
+        __logger.debug(e)
+        return HaiqvValueError('notebook info fetch failed')
+
+
+# Run
+def create_run(exp_name: str, run_name: str, namespace: str, notebook_id: int, notebook_name: str, owner: str, owner_name: str) -> Any:
+    data = {
+        'exp_name': exp_name,
+        'run_name': run_name,
+        'namespace': namespace,
+        'notebook_id': notebook_id,
+        'notebook_name': notebook_name,
+        'owner': owner,
+        'owner_name': owner_name,
+    }
+
+    try:
+        run_info = requests.post(f'{os.environ.get("_HAIQV_BASE_URL")}/experiment/run',
+                                 data=json.dumps(data),
+                                 headers={'Content-Type': 'application/json'})
+
+        if run_info.status_code == 200:
+            return run.Run(id=run_info.json()['run_id'], name=run_name)
+        else:
+            return HaiqvValueError(run_info.text)
+    except Exception as e:
+        __logger.debug(e)
+        return HaiqvValueError('create_run failed')
+
+
+def update_run(
+        run_id: str,
+        status: Optional[str] = None,
+        is_end: Optional[bool] = False,
+) -> Optional[HaiqvValueError]:
+    try:
+        res = requests.post(f'{os.environ.get("_HAIQV_BASE_URL")}/experiment/run/update?run_id={run_id}&status={status}&is_end={is_end}')
+
+        if res.status_code != 200:
+            return HaiqvValueError(res.text)
+    except Exception as e:
+        __logger.debug(e)
+        return HaiqvValueError('update_run failed')
+
+
+# Parameter
+def log_param(run_id: str, key: str, value: Any) -> Optional[HaiqvValueError]:
+    data = [
+        {
+            key: str(value)
+        }
+    ]
+    try:
+        res = requests.post(f'{os.environ.get("_HAIQV_BASE_URL")}/experiment/logging/batch-params?run_id={run_id}',
+                            data=json.dumps(data),
+                            headers={'Content-Type': 'application/json'})
+        if res.status_code != 200:
+            return HaiqvValueError(res.text)
+    except Exception as e:
+        __logger.debug(e)
+        return HaiqvValueError('log_param failed')
+
+
+def log_params(run_id: str, data: Any) -> Optional[HaiqvValueError]:
+    try:
+        res = requests.post(f'{os.environ.get("_HAIQV_BASE_URL")}/experiment/logging/batch-params?run_id={run_id}',
+                            data=json.dumps(data),
+                            headers={'Content-Type': 'application/json'})
+        if res.status_code != 200:
+            return HaiqvValueError(res.text)
+    except Exception as e:
+        __logger.debug(e)
+        return HaiqvValueError('log_params failed')
+
+
+# Metric
+def log_metric(run_id: str, key: str, value: float, step: int) -> Optional[HaiqvValueError]:
+    data = [
+        {
+            'key': key,
+            'value': str(value),
+            'step': step
+        }
+    ]
+    try:
+        res = requests.post(f'{os.environ.get("_HAIQV_BASE_URL")}/experiment/logging/batch-metrics?run_id={run_id}',
+                            data=json.dumps(data),
+                            headers={'Content-Type': 'application/json'})
+        if res.status_code != 200:
+            return HaiqvValueError(res.text)
+    except Exception as e:
+        __logger.debug(e)
+        return HaiqvValueError('log_metric failed')
+
+
+def log_metrics(run_id: str, data: Any) -> Optional[HaiqvValueError]:
+    try:
+        res = requests.post(f'{os.environ.get("_HAIQV_BASE_URL")}/experiment/logging/batch-metrics?run_id={run_id}',
+                            data=json.dumps(data),
+                            headers={'Content-Type': 'application/json'})
+        if res.status_code != 200:
+            return HaiqvValueError(res.text)
+    except Exception as e:
+        __logger.debug(e)
+        return HaiqvValueError('log_metrics failed')
+
+
+# Artifact
+def log_artifact(run_id: str, local_file: str, artifact_path: str) -> Optional[HaiqvValueError]:
+    try:
+        filename = os.path.basename(local_file)
+        mime = guess_mime_type(filename)
+        with open(local_file, 'rb') as f:
+            res = requests.post(
+                f'{os.environ.get("_HAIQV_BASE_URL")}/experiment/logging/artifacts?run_id={run_id}&artifact_path={artifact_path}',
+                files={'local_file': (filename, f, mime)}
+            )
+            if res.status_code != 200:
+                return HaiqvValueError(res)
+    except Exception as e:
+        __logger.debug(e)
+        return HaiqvValueError('log_artifact failed')
+
+
+# Requirements
+def log_requirements(run_id: str, text: str, requirement_file: str) -> Optional[HaiqvValueError]:
+    try:
+        with _log_artifact_helper(run_id, requirement_file) as tmp_path:
+            with open(tmp_path, "w", encoding="utf-8") as f:
+                f.write(text)
+    except Exception as e:
+        __logger.debug(e)
+        return HaiqvValueError('log_requirements failed')
+
+
+# metadata
+def log_dataset_metadata(run_id: str, name: str, path: str, desc: str = None) -> Optional[HaiqvValueError]:
+    try:
+        res = requests.post(f'{os.environ.get("_HAIQV_BASE_URL")}/experiment/logging/metadata-dataset?run_id={run_id}&name={name}&path={path}&description={desc}',
+                            headers={'Content-Type': 'application/json'})
+        if res.status_code != 200:
+            return HaiqvValueError(res.text)
+    except Exception as e:
+        __logger.debug(e)
+        return HaiqvValueError('log_dataset_metadata failed')
+
+
+def log_model_metadata(run_id: str, name: str, path: str, step: int, volume_name: str, volume_path: str, metric: Optional[dict] = None) -> Optional[HaiqvValueError]:
+    try:
+        res = requests.post(f'{os.environ.get("_HAIQV_BASE_URL")}/experiment/logging/metadata-model?run_id={run_id}&name={name}&path={path}&step={step}&volume_name={volume_name}&volume_path={volume_path}',
+                            data=json.dumps(metric),
+                            headers={'Content-Type': 'application/json'})
+        if res.status_code != 200:
+            return HaiqvValueError(res.text)
+    except Exception as e:
+        __logger.debug(e)
+        return HaiqvValueError('log_model_metadata failed')
+
+
+def keepalive(run_id: str) -> Optional[HaiqvValueError]:
+    try:
+        res = requests.post(f'{os.environ.get("_HAIQV_BASE_URL")}/experiment/run/heartbeat?run_id={run_id}',
+                            headers={'Content-Type': 'application/json'})
+        if res.status_code != 200:
+            return HaiqvValueError(res.text)
+    except Exception as e:
+        __logger.debug(e)
+        return HaiqvValueError('keepalive failed')
+
+
+@contextlib.contextmanager
+def _log_artifact_helper(run_id, artifact_file):
+    norm_path = posixpath.normpath(artifact_file)
+    filename = posixpath.basename(norm_path)
+    artifact_dir = posixpath.dirname(norm_path)
+
+    with tempfile.TemporaryDirectory() as tmp_dir:
+        tmp_path = os.path.join(tmp_dir, filename)
+        yield tmp_path
+        log_artifact(run_id, tmp_path, artifact_dir)
+
