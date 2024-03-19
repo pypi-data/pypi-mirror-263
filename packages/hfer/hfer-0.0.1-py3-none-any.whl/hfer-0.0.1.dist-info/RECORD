@@ -1,0 +1,9 @@
+hfer/__init__.py,sha256=EAiNULAYWg3mw5M0trPqL5UjjaZJYSdSeLkI5LsQbqA,189
+hfer/_builder.py,sha256=AtjxbgXGBtSEdPhwFwPZ9rGyEW7vrGvMuobmI-RPM0A,947
+hfer/_registry.py,sha256=G1KCPRBwHnSpP2iu-XmWRBQt_d_XIWEfS9XnsXBAm6o,2392
+hfer/hf_backend.py,sha256=QRzNO_mP1jBOpW6mqykgeEZGMfL39Oplj5Wu5QAO8Rw,6863
+hfer-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+hfer-0.0.1.dist-info/METADATA,sha256=cuE-_H3t3uIEIYzQC4QjINn6NJzElNz69hY5Ry-ZoBQ,348
+hfer-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+hfer-0.0.1.dist-info/top_level.txt,sha256=KZT9u1i0pfbeamgqqgUZW0qGCTmTG2wWruZg77QALxM,5
+hfer-0.0.1.dist-info/RECORD,,
