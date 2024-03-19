@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: adomat
+Version: 1.0.0
+Summary: simple library to get your ip
+Author: twinsszi
+Author-email: adhm90879@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+simple library to get ur ip
