@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: camera-ui-python-types
+Version: 0.1.1
+Summary: camera.ui python plugin types
+Author: seydx
+Author-email: dev@seydx.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# @camera.ui/python-types
