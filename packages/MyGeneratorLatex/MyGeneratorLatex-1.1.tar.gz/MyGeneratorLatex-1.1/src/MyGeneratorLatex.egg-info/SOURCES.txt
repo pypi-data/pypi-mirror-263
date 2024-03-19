@@ -1,0 +1,5 @@
+setup.py
+src/MyGeneratorLatex.egg-info/PKG-INFO
+src/MyGeneratorLatex.egg-info/SOURCES.txt
+src/MyGeneratorLatex.egg-info/dependency_links.txt
+src/MyGeneratorLatex.egg-info/top_level.txt
