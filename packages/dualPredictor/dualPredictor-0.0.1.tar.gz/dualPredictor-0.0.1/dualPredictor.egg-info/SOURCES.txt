@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+dualPredictor.egg-info/PKG-INFO
+dualPredictor.egg-info/SOURCES.txt
+dualPredictor.egg-info/dependency_links.txt
+dualPredictor.egg-info/requires.txt
+dualPredictor.egg-info/top_level.txt
