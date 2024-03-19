@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: super_baso_kontol
+Version: 1.2.1
+Summary: resep super baso kontol....
+Home-page: https://github.com/IrfanDect/super_baso_kontolPY
+Author: IrfanDect
+Author-email: bsbdrack@gmail.com
+License: MIT
+Keywords: super_baso_kontol
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: Public Domain
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: rich
+Requires-Dist: requests
+Requires-Dist: prompt-toolkit
+Provides-Extra: excel
+Requires-Dist: openpyxl; extra == "excel"
+
+* tools resep from baso kontol
+- baso & kontol
+- done

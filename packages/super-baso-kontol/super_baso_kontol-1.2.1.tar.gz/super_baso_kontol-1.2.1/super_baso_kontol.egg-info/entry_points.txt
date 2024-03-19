@@ -1,0 +1,2 @@
+[console_script]
+super_baso_kontol = super_baso_kontol.cli:main
