@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Missing_Value
+Version: 0.2.5
+Summary: Python class for imputing missing values in data columns using various imputation strategies based on data types.
+Author: chingDev.Official (Prince Carl Ajoc)
+Author-email: chingace471@gmail.com
+Keywords: missing data,imputation,data preprocessing,data cleaning,data analysis,pandas,numpy,statistics
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: statistics
