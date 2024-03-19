@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+visual_selection/__init__.py
+visual_selection/__main__.py
+visual_selection/app.py
+visual_selection.egg-info/PKG-INFO
+visual_selection.egg-info/SOURCES.txt
+visual_selection.egg-info/dependency_links.txt
+visual_selection.egg-info/entry_points.txt
+visual_selection.egg-info/requires.txt
+visual_selection.egg-info/top_level.txt
