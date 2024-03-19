@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: jenkins_pipeline_2024_tutorial
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Roman Polonsky
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
+

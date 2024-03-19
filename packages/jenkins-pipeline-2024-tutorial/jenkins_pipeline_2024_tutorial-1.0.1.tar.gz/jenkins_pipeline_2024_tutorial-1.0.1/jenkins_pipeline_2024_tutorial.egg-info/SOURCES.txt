@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+jenkins_pipeline_2024_tutorial.egg-info/PKG-INFO
+jenkins_pipeline_2024_tutorial.egg-info/SOURCES.txt
+jenkins_pipeline_2024_tutorial.egg-info/dependency_links.txt
+jenkins_pipeline_2024_tutorial.egg-info/top_level.txt
+src/__init__.py
+src/example.py
