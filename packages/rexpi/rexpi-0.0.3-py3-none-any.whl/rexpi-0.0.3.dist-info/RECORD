@@ -1,0 +1,12 @@
+rexpi/AAAlawson.py,sha256=tI3bBS9-rdBrywadsfJCVkv0JS9JxMVWpqG3KbXsYEw,6762
+rexpi/__init__.py,sha256=UVrUJj9OVb6uchd-UZUrW9lfF67b94_kBl-9qvbQ-3U,173
+rexpi/barycentricfcts.py,sha256=54RKQ7HZ-SI1-DcngFpfzeROpzkxqJSImlovGS4PQFU,14872
+rexpi/brib.py,sha256=axF8ZlIUg87YWY5N_NveeaMAhz5Fw8Dl7wJlbWC4NzA,10549
+rexpi/cheb.py,sha256=haRbmHWcxmLrpaLerZfK3WYuL294v9Q_7zvYqjw4CXM,1515
+rexpi/errorestimates.py,sha256=rrDltmot33JkRAqaYdMjNwy7AoWkkCq56RECQN6qfa4,1006
+rexpi/expimv.py,sha256=Re5-pPXRvEWb5bJwsD0a6-GDt9NVpvVRLOEoWjVbBSU,2084
+rexpi/pade.py,sha256=BVEYAG8uKjt1FQiHWYgAgZbF7NSD57d4wMigXzsnWNQ,1491
+rexpi-0.0.3.dist-info/METADATA,sha256=p16KD4LEN7aJJQoAQf33dLkltGbFMEg5ZGkGx9HkWFE,1055
+rexpi-0.0.3.dist-info/WHEEL,sha256=LL0B1KxSLwaTWceo7tT-0aDLd-qq9dmbnsnk1DnXlg8,87
+rexpi-0.0.3.dist-info/licenses/LICENSE,sha256=RQSvmitQAkDNX5kYErArN9RCDJCD3_1l04pfAm0COMc,1529
+rexpi-0.0.3.dist-info/RECORD,,
