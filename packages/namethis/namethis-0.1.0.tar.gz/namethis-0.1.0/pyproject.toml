@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "namethis"
+version = "0.1.0"
+description = "Returns a set of AzureRM resoruce names"
+authors = [{ name = "Tomas Maggio", email = "tomas-pypi@maggio.nz" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["azure", "resource", "naming"]
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://dev.azure.com/dev-the-office/namethis"
+Repository = "https://dev.azure.com/dev-the-office/_git/namethis"
+Documentation = "https://dev.azure.com/dev-the-office/_git/namethis/README.md"
+
+[tool.hatch.metadata]
+# Specify package data to include
+package-data = { "namethis" = ["data/resourceDefinition.json"] }
