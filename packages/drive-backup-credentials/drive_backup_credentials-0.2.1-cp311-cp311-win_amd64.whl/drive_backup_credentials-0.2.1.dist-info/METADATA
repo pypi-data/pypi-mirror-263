@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: drive-backup-credentials
+Version: 0.2.1
+Summary: Drive Backup credential tool module.
+Author-email: George Waters <gwatersdev@gmail.com>
+License: Copyright (c) 2024 George Waters
+        
+        This binary package is meant to only be used with Drive Backup. Do not modify
+        this package or redistribute it separately from Drive Backup.
+        
+        This license must be included in all copies of this package.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography >=42.0.0
+Requires-Dist: google-auth-oauthlib >=1.0.0
+
+# Drive Backup Credentials
+
+A Python package of a Cython based C-extension that can acquire user credentials
+from Google OAuth with encrypted client credentials. The encryption key is
+stored in an obfuscated manner in the compiled binary.
+
+This is intended for use with
+[Drive Backup](https://github.com/dunkmann00/Drive-Backup).
