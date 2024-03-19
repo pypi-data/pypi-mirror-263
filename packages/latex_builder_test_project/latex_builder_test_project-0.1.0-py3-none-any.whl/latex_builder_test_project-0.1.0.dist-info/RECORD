@@ -1,0 +1,5 @@
+latex_tools/__init__.py,sha256=NkA9JFCCx03j1xJ3D43WO8yfg5dC8QaIIvkW0SieQhs,132
+latex_tools/latex_tools.py,sha256=eTtpvUDvOZwtm7dtwNqRmBfukwVptTKqnLhXC36bETc,1021
+latex_builder_test_project-0.1.0.dist-info/METADATA,sha256=SYKRQlLS6TPEb2Xraimnj9NWE4He3kY29uujd4zyADQ,510
+latex_builder_test_project-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+latex_builder_test_project-0.1.0.dist-info/RECORD,,
