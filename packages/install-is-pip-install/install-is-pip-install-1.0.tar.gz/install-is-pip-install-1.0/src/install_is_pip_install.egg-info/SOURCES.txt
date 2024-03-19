@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/install.py
+src/install_is_pip_install.egg-info/PKG-INFO
+src/install_is_pip_install.egg-info/SOURCES.txt
+src/install_is_pip_install.egg-info/dependency_links.txt
+src/install_is_pip_install.egg-info/top_level.txt
