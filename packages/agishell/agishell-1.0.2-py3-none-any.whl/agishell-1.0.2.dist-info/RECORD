@@ -1,0 +1,17 @@
+agishell/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+agishell/__version__.py,sha256=UyYPbNMktlPeDdckfblQb8KJU6zLCsYZlijp5Y0Hhdg,205
+agishell/aigc.py,sha256=ZWtDItn1BpHFz4_T9QtSCIdJwEDStIFJKDNQ6Ky9Qs0,3735
+agishell/utils.py,sha256=nUTxQpiRjmV37SqojRz46vbYmV6N8-wbhF1tejJVeco,226
+agishell/hardwares/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agishell/hardwares/audio130x.py,sha256=C6q8WpnOvkQeP-L-1Jv1q68uS9DPHXuM91naJob09Tg,12770
+agishell/llm/__init__.py,sha256=MOwJpnl9PgMq0hS40nTMOGqcTp77Y9nvTudmtmBQo7k,23
+agishell/llm/llm.py,sha256=6cKLG3LaKzE26xhMhx99H8CFoyDmTQkd_1SyJ6Dy_sY,4000
+agishell/tools/__init__.py,sha256=_8woHQ3N_GQkACKT0DiuRQ5I-s2AcJEIDUY_WWfSdS8,152
+agishell/tools/speech_to_text.py,sha256=jl5wxspSqho4iSxmxv7h1j7aMOoMzqD_ayl4aaBH0dQ,1529
+agishell/tools/speex_decoder.py,sha256=zsneE7PqDlZEo8O32LJ9vm9LeTdMWnzusRiHF-7DrtY,490
+agishell/tools/text_to_speech.py,sha256=Ifzc6Obc4MxCWsSdmZ3Iil7PP88_j4z-yXidbr3Zmtg,339
+agishell-1.0.2.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+agishell-1.0.2.dist-info/METADATA,sha256=9zkmqiQ_Fmyw8VBTcJ1znSNDlRGPeurSUHkcAU-vfzw,380
+agishell-1.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+agishell-1.0.2.dist-info/top_level.txt,sha256=S62UdzIt2a-BrrH6xzVv_96dYxus1W1yoN8HAyeR5sU,9
+agishell-1.0.2.dist-info/RECORD,,
