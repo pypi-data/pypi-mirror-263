@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: itranslator
+Version: 0.0.2
+Summary: A Python package to use in translating texts based on api
+Home-page: https://github.com/metect/itranslator
+Author: amirali irvany
+Author-email: dev.amirali.irvany@gmail.com
+License: MIT
+Keywords: translate,translator,google,google-translate,free-translator
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: user_agent
+
+# itranslator
+A Python package to use in translating texts based on api
