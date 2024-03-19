@@ -1,0 +1,2 @@
+[console_scripts]
+snf2json = src.snf2json.snf2json:main
