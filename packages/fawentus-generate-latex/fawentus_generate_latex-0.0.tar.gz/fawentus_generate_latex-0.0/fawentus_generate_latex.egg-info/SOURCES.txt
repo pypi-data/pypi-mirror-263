@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+fawentus_generate_latex.egg-info/PKG-INFO
+fawentus_generate_latex.egg-info/SOURCES.txt
+fawentus_generate_latex.egg-info/dependency_links.txt
+fawentus_generate_latex.egg-info/not-zip-safe
+fawentus_generate_latex.egg-info/top_level.txt
+generate_latex/__init__.py
+generate_latex/generate_latex.py
