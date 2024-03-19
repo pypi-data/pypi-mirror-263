@@ -1,0 +1,42 @@
+Metadata-Version: 2.3
+Name: blacknoise
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/matthiask/blacknoise#readme
+Project-URL: Issues, https://github.com/matthiask/blacknoise/issues
+Project-URL: Source, https://github.com/matthiask/blacknoise
+Author-email: Matthias Kestenholz <mk@feinheit.ch>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# blacknoise
+
+[![PyPI - Version](https://img.shields.io/pypi/v/blacknoise.svg)](https://pypi.org/project/blacknoise)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/blacknoise.svg)](https://pypi.org/project/blacknoise)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install blacknoise
+```
+
+## License
+
+`blacknoise` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
