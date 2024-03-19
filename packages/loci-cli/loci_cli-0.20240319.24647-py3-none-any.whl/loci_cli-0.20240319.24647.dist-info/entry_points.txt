@@ -1,0 +1,3 @@
+[console_scripts]
+loci=loci_cli.__main__:root_entry
+
