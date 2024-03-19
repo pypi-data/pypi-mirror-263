@@ -1,0 +1,5 @@
+latex_generator_test/__init__.py,sha256=g08a8TwX06Ra-XKuo-qBHGH0osjz1QDKaI6HApODkoc,31
+latex_generator_test/latex_generator.py,sha256=s3-GyNaKbNXHmhtleF_Phw2UlKwPJMU8XsbOhQhLzNY,1455
+latex_generator_test-0.1.0.dist-info/METADATA,sha256=QMaNvXTq6j5eqEB_si_IXjgD-M1Or2DJ_42ounugrno,519
+latex_generator_test-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+latex_generator_test-0.1.0.dist-info/RECORD,,
