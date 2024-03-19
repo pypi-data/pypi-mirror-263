@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: selfclean
+Version: 0.0.2
+Summary: A holistic self-supervised data cleaning strategy to detect irrelevant samples, near duplicates and label errors.
+Home-page: https://github.com/Digital-Dermatology/SelfClean
+Author: Fabian Groeger
+Author-email: fabian.groeger@unibas.ch
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: tqdm
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: wget ==3.2
+Requires-Dist: pytest
+Requires-Dist: torchvision
+Requires-Dist: torchinfo
+Requires-Dist: torchmetrics
+Requires-Dist: einops
+Requires-Dist: black >=22.6
+Requires-Dist: coverage >=6
+Requires-Dist: darglint >=1.8
+Requires-Dist: isort >=5.10
+Requires-Dist: pipreqs ==0.4.11
+Requires-Dist: pre-commit >=2.20
+Requires-Dist: pytest-cov >=3
+Requires-Dist: transformers
+Requires-Dist: seaborn
+Requires-Dist: SciencePlots
+Requires-Dist: scikit-image
+Requires-Dist: codecov
+Requires-Dist: randomname
+
+# SelfClean
+A holistic self-supervised data cleaning strategy to detect irrelevant samples, near duplicates and label errors.
+
+<p align="center">
+  <img src="assets/SelfClean_Teaser.svg">
+</p>
+
+[**SelfClean Paper**](https://arxiv.org/abs/2305.17048)
+
+
+## Development Environment
+Run `make` for a list of possible targets.
+
+### Installation
+Run these commands to install the project:
+```bash
+make init
+make install
+```
+
+To run linters on all files:
+```bash
+pre-commit run --all-files
+```
+
+### Code and test conventions
+- `black` for code style
+- `isort` for import sorting
+- `pytest` for running tests
+
+
