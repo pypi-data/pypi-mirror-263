@@ -1,0 +1,11 @@
+loci/__init__.py,sha256=sre1Fnec_yoABA-yanjm_gtGS8hU4xURX2qNERpgTWM,569
+loci/apis.py,sha256=mCnYQWfHGmSrszxpnXnaeVWrqS7qCQ71yciquv85dD4,7117
+loci/cli/__init__.py,sha256=f3NBoEGo0PyWjnqVE8SWuyQSGk0xkSuW-rWgbPXULkQ,6304
+loci/errors.py,sha256=FNunxq5Y3ZINWB9X25Te7LF3vyQ59MUG_wWShPLfbjo,5104
+loci/utils.py,sha256=ZCvV8QNDxOXrHUDuHJczbl_YFiyy1lbd6XeeZ8HAsrU,15352
+loci/version.py,sha256=iglxhamZzUzj2QbXLkwYUSA6UNeVqV7OFeZZBTmjTFw,34
+loci_cli-0.20240319.4558.dist-info/LICENSE,sha256=PwiehnAMTqmWOwGOWW4R2Jqu99g5s1CHwnBjJvZz27o,35070
+loci_cli-0.20240319.4558.dist-info/METADATA,sha256=dQ17lRpVcc30AQT_u8StPsxrGiI1D2KDGLTq-WrHNq0,1452
+loci_cli-0.20240319.4558.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+loci_cli-0.20240319.4558.dist-info/entry_points.txt,sha256=5E6xCpwz-E8iBOjPrtPJ1HRfQWAqYLpksJkj-7m0jNI,53
+loci_cli-0.20240319.4558.dist-info/RECORD,,
