@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+baijudodhia_toolkit_py.egg-info/PKG-INFO
+baijudodhia_toolkit_py.egg-info/SOURCES.txt
+baijudodhia_toolkit_py.egg-info/dependency_links.txt
+baijudodhia_toolkit_py.egg-info/requires.txt
+baijudodhia_toolkit_py.egg-info/top_level.txt
+tests/__init__.py
+tests/test_condition.py
+tests/test_rule.py
+tests/test_source.py
