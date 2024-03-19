@@ -1,0 +1,10 @@
+pdf_gpt4_json/__init__.py,sha256=PoG5cgfTfD8AmPXUFeffIN3J3yWXIZoz9DzXpG2ZKqw,463
+pdf_gpt4_json/cli.py,sha256=RS3Z6IbBVOrB_5OB-RfdQE0Oge8dSOaspw6z5Dt4Ndw,1846
+pdf_gpt4_json/gpt.py,sha256=gXnSjM6rYZNzuShVrLFKomo3TKbUAYsonb2XUCNHaPo,8858
+pdf_gpt4_json/main.py,sha256=rWXPxBFnZChqHJ1-tU9FurMt4z4kg7SM-SKe75Dl2FU,316
+pdf_gpt4_json/util.py,sha256=gLco3QeSBD4TAFoMkfYhJNzutl-3Ahf17RfW62gGhBg,9953
+pdf_gpt4_json-0.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pdf_gpt4_json-0.1.2.dist-info/METADATA,sha256=BB1hRd_aqTuKqKjm3DxaCV1pwRqGrNyTfdrF9F8T8bQ,4235
+pdf_gpt4_json-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pdf_gpt4_json-0.1.2.dist-info/entry_points.txt,sha256=1OTfN3FeEJCPUVcvP74n5wkgkXpoND99HjHNim_XCRE,56
+pdf_gpt4_json-0.1.2.dist-info/RECORD,,
