@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: python-inflector
+Version: 0.0.10
+Summary: The Inflector is used for getting the plural and singular form of nouns
+Author: Kemok
+License: MIT
+Requires-Python: >=3.10
+License-File: LICENSE
