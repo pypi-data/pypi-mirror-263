@@ -1,0 +1,32 @@
+[project]
+name = "aiowc"
+version = "0.2.4"
+license = {text = "MIT License"}
+authors = [
+  { name="Vladislav Kochetkov", email="vakochetkov@gmail.com" },
+]
+description = "Asynchronous Python wrapper for WooCommerce REST API"
+readme = "README.rst"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = [
+    "python", 
+    "woocommerce", 
+    "rest",
+    "api",
+    "async",
+    "asyncio",
+    "aiohttp",
+    "wcapi",
+]
+dependencies = [
+  "aiohttp>=3.9.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/vakochetkov/aiowc"
+Issues = "https://github.com/vakochetkov/aiowc/issues"
