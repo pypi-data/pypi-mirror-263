@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: dillagent
+Version: 1.0.0
+Summary: Agentic LLM library
+Home-page: https://github.com/buzzoo123/dillagent
+Author: buzzoo123
+Author-email: buzzoo123@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: annotated-types ==0.6.0
+Requires-Dist: anthropic ==0.19.2
+Requires-Dist: anyio ==4.3.0
+Requires-Dist: beautifulsoup4 ==4.12.3
+Requires-Dist: certifi ==2024.2.2
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: colorama ==0.4.6
+Requires-Dist: distro ==1.9.0
+Requires-Dist: docutils ==0.20.1
+Requires-Dist: exceptiongroup ==1.2.0
+Requires-Dist: filelock ==3.13.1
+Requires-Dist: fsspec ==2024.2.0
+Requires-Dist: googlesearch-python ==1.2.3
+Requires-Dist: h11 ==0.14.0
+Requires-Dist: httpcore ==1.0.4
+Requires-Dist: httpx ==0.27.0
+Requires-Dist: huggingface-hub ==0.21.4
+Requires-Dist: idna ==3.6
+Requires-Dist: importlib-metadata ==7.0.2
+Requires-Dist: jaraco.classes ==3.3.1
+Requires-Dist: keyring ==24.3.1
+Requires-Dist: markdown-it-py ==3.0.0
+Requires-Dist: mdurl ==0.1.2
+Requires-Dist: more-itertools ==10.2.0
+Requires-Dist: nh3 ==0.2.15
+Requires-Dist: openai ==1.13.3
+Requires-Dist: packaging ==24.0
+Requires-Dist: pkginfo ==1.10.0
+Requires-Dist: pydantic ==2.6.3
+Requires-Dist: pydantic-core ==2.16.3
+Requires-Dist: Pygments ==2.17.2
+Requires-Dist: python-dotenv ==1.0.1
+Requires-Dist: pywin32-ctypes ==0.2.2
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: readme-renderer ==43.0
+Requires-Dist: requests ==2.31.0
+Requires-Dist: requests-toolbelt ==1.0.0
+Requires-Dist: rfc3986 ==2.0.0
+Requires-Dist: rich ==13.7.1
+Requires-Dist: sniffio ==1.3.1
+Requires-Dist: soupsieve ==2.5
+Requires-Dist: termcolor ==2.4.0
+Requires-Dist: tokenizers ==0.15.2
+Requires-Dist: tqdm ==4.66.2
+Requires-Dist: twine ==5.0.0
+Requires-Dist: typing-extensions ==4.10.0
+Requires-Dist: urllib3 ==2.2.1
+Requires-Dist: zipp ==3.18.1
+
+DillAgent is an AI agent library based on the principles of ReAct: Synergizing Reasoning and Acting in Language Models. While there are existing libraries such as Langchain, Langroid, and Llamaindex, DillAgent takes a different approach by prioritizing modularity and abstraction to provide developers with more control over their LLM-powered applications.
