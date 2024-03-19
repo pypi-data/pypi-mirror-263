@@ -1,0 +1,5 @@
+setup.py
+my_weather_project_19_03_24.egg-info/PKG-INFO
+my_weather_project_19_03_24.egg-info/SOURCES.txt
+my_weather_project_19_03_24.egg-info/dependency_links.txt
+my_weather_project_19_03_24.egg-info/top_level.txt
