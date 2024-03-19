@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: first-pypi-upload
+Version: 0.1
+Summary: A simple password generator
+Home-page: https://github.com/nkoscinski/basic-pwd-generator
+Author: Nick Koscinski
+Author-email: ndkoscinski@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# pwd_gen
+
+A simple password generator that takes in a length and generates a password of that length.
+
+The code is not really the point of this project, the main point is for me to learn how to package and distribute a python package.
+
