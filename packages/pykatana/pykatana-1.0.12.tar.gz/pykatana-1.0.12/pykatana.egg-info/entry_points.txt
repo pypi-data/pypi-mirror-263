@@ -1,0 +1,3 @@
+[console_scripts]
+pykatana = pykatana.__main__:main
+
