@@ -1,0 +1,5 @@
+fastapi
+passlib
+pydantic
+pydantic_settings
+python_jose
