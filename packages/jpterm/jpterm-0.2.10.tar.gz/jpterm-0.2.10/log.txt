@@ -1,0 +1,1370 @@
+pre-install [1] | pip install pre-commit
+Collecting pre-commit
+  Using cached pre_commit-3.6.2-py2.py3-none-any.whl.metadata (1.3 kB)
+Collecting cfgv>=2.0.0 (from pre-commit)
+  Using cached cfgv-3.4.0-py2.py3-none-any.whl.metadata (8.5 kB)
+Collecting identify>=1.0.0 (from pre-commit)
+  Using cached identify-2.5.35-py2.py3-none-any.whl.metadata (4.4 kB)
+Collecting nodeenv>=0.11.1 (from pre-commit)
+  Using cached nodeenv-1.8.0-py2.py3-none-any.whl.metadata (21 kB)
+Collecting pyyaml>=5.1 (from pre-commit)
+  Using cached PyYAML-6.0.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.1 kB)
+Collecting virtualenv>=20.10.0 (from pre-commit)
+  Using cached virtualenv-20.25.1-py3-none-any.whl.metadata (4.4 kB)
+Collecting setuptools (from nodeenv>=0.11.1->pre-commit)
+  Using cached setuptools-69.2.0-py3-none-any.whl.metadata (6.3 kB)
+Collecting distlib<1,>=0.3.7 (from virtualenv>=20.10.0->pre-commit)
+  Using cached distlib-0.3.8-py2.py3-none-any.whl.metadata (5.1 kB)
+Collecting filelock<4,>=3.12.2 (from virtualenv>=20.10.0->pre-commit)
+  Using cached filelock-3.13.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting platformdirs<5,>=3.9.1 (from virtualenv>=20.10.0->pre-commit)
+  Using cached platformdirs-4.2.0-py3-none-any.whl.metadata (11 kB)
+Using cached pre_commit-3.6.2-py2.py3-none-any.whl (204 kB)
+Using cached cfgv-3.4.0-py2.py3-none-any.whl (7.2 kB)
+Using cached identify-2.5.35-py2.py3-none-any.whl (98 kB)
+Using cached nodeenv-1.8.0-py2.py3-none-any.whl (22 kB)
+Using cached PyYAML-6.0.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (724 kB)
+Using cached virtualenv-20.25.1-py3-none-any.whl (3.8 MB)
+Using cached distlib-0.3.8-py2.py3-none-any.whl (468 kB)
+Using cached filelock-3.13.1-py3-none-any.whl (11 kB)
+Using cached platformdirs-4.2.0-py3-none-any.whl (17 kB)
+Using cached setuptools-69.2.0-py3-none-any.whl (821 kB)
+Installing collected packages: distlib, setuptools, pyyaml, platformdirs, identify, filelock, cfgv, virtualenv, nodeenv, pre-commit
+Successfully installed cfgv-3.4.0 distlib-0.3.8 filelock-3.13.1 identify-2.5.35 nodeenv-1.8.0 platformdirs-4.2.0 pre-commit-3.6.2 pyyaml-6.0.1 setuptools-69.2.0 virtualenv-20.25.1
+pre-install [2] | pip install textual
+Collecting textual
+  Using cached textual-0.53.1-py3-none-any.whl.metadata (5.6 kB)
+Collecting markdown-it-py>=2.1.0 (from markdown-it-py[linkify,plugins]>=2.1.0->textual)
+  Using cached markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting rich>=13.3.3 (from textual)
+  Using cached rich-13.7.1-py3-none-any.whl.metadata (18 kB)
+Collecting typing-extensions<5.0.0,>=4.4.0 (from textual)
+  Using cached typing_extensions-4.10.0-py3-none-any.whl.metadata (3.0 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual)
+  Using cached mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Collecting linkify-it-py<3,>=1 (from markdown-it-py[linkify,plugins]>=2.1.0->textual)
+  Using cached linkify_it_py-2.0.3-py3-none-any.whl.metadata (8.5 kB)
+Collecting mdit-py-plugins (from markdown-it-py[linkify,plugins]>=2.1.0->textual)
+  Using cached mdit_py_plugins-0.4.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=13.3.3->textual)
+  Using cached pygments-2.17.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting uc-micro-py (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual)
+  Using cached uc_micro_py-1.0.3-py3-none-any.whl.metadata (2.0 kB)
+Using cached textual-0.53.1-py3-none-any.whl (537 kB)
+Using cached markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+Using cached rich-13.7.1-py3-none-any.whl (240 kB)
+Using cached typing_extensions-4.10.0-py3-none-any.whl (33 kB)
+Using cached linkify_it_py-2.0.3-py3-none-any.whl (19 kB)
+Using cached mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Using cached pygments-2.17.2-py3-none-any.whl (1.2 MB)
+Using cached mdit_py_plugins-0.4.0-py3-none-any.whl (54 kB)
+Using cached uc_micro_py-1.0.3-py3-none-any.whl (6.2 kB)
+Installing collected packages: uc-micro-py, typing-extensions, pygments, mdurl, markdown-it-py, linkify-it-py, rich, mdit-py-plugins, textual
+Successfully installed linkify-it-py-2.0.3 markdown-it-py-3.0.0 mdit-py-plugins-0.4.0 mdurl-0.1.2 pygments-2.17.2 rich-13.7.1 textual-0.53.1 typing-extensions-4.10.0 uc-micro-py-1.0.3
+pre-install [3] | pip install textual-dev
+Collecting textual-dev
+  Using cached textual_dev-1.5.1-py3-none-any.whl.metadata (1.5 kB)
+Collecting aiohttp>=3.8.1 (from textual-dev)
+  Using cached aiohttp-3.9.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.4 kB)
+Collecting click>=8.1.2 (from textual-dev)
+  Using cached click-8.1.7-py3-none-any.whl.metadata (3.0 kB)
+Collecting msgpack>=1.0.3 (from textual-dev)
+  Using cached msgpack-1.0.8-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.1 kB)
+Requirement already satisfied: textual>=0.36.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual-dev) (0.53.1)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual-dev) (4.10.0)
+Collecting aiosignal>=1.1.2 (from aiohttp>=3.8.1->textual-dev)
+  Using cached aiosignal-1.3.1-py3-none-any.whl.metadata (4.0 kB)
+Collecting attrs>=17.3.0 (from aiohttp>=3.8.1->textual-dev)
+  Using cached attrs-23.2.0-py3-none-any.whl.metadata (9.5 kB)
+Collecting frozenlist>=1.1.1 (from aiohttp>=3.8.1->textual-dev)
+  Using cached frozenlist-1.4.1-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (12 kB)
+Collecting multidict<7.0,>=4.5 (from aiohttp>=3.8.1->textual-dev)
+  Using cached multidict-6.0.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.2 kB)
+Collecting yarl<2.0,>=1.0 (from aiohttp>=3.8.1->textual-dev)
+  Using cached yarl-1.9.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (31 kB)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual>=0.36.0->textual-dev) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual>=0.36.0->textual-dev) (13.7.1)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual>=0.36.0->textual-dev) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual>=0.36.0->textual-dev) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual>=0.36.0->textual-dev) (0.4.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.3.3->textual>=0.36.0->textual-dev) (2.17.2)
+Collecting idna>=2.0 (from yarl<2.0,>=1.0->aiohttp>=3.8.1->textual-dev)
+  Using cached idna-3.6-py3-none-any.whl.metadata (9.9 kB)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual>=0.36.0->textual-dev) (1.0.3)
+Using cached textual_dev-1.5.1-py3-none-any.whl (26 kB)
+Using cached aiohttp-3.9.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.3 MB)
+Using cached click-8.1.7-py3-none-any.whl (97 kB)
+Using cached msgpack-1.0.8-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (408 kB)
+Using cached aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+Using cached attrs-23.2.0-py3-none-any.whl (60 kB)
+Using cached frozenlist-1.4.1-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (281 kB)
+Using cached multidict-6.0.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (130 kB)
+Using cached yarl-1.9.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (322 kB)
+Using cached idna-3.6-py3-none-any.whl (61 kB)
+Installing collected packages: multidict, msgpack, idna, frozenlist, click, attrs, yarl, aiosignal, aiohttp, textual-dev
+Successfully installed aiohttp-3.9.3 aiosignal-1.3.1 attrs-23.2.0 click-8.1.7 frozenlist-1.4.1 idna-3.6 msgpack-1.0.8 multidict-6.0.5 textual-dev-1.5.1 yarl-1.9.4
+pre-install [4] | pip install -e ./txl
+Obtaining file:///home/david/github/davidbrochart/jpterm/txl
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting asphalt<5,>=4.12.0 (from txl==0.2.9)
+  Using cached asphalt-4.12.0-py3-none-any.whl.metadata (4.6 kB)
+Requirement already satisfied: textual<0.54.0,>=0.53.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl==0.2.9) (0.53.1)
+Collecting ruamel.yaml>=0.15 (from asphalt<5,>=4.12.0->txl==0.2.9)
+  Using cached ruamel.yaml-0.18.6-py3-none-any.whl.metadata (23 kB)
+Collecting async-generator~=1.4 (from asphalt<5,>=4.12.0->txl==0.2.9)
+  Using cached async_generator-1.10-py3-none-any.whl.metadata (4.9 kB)
+Collecting asyncio-extras~=1.3 (from asphalt<5,>=4.12.0->txl==0.2.9)
+  Using cached asyncio_extras-1.3.2-py3-none-any.whl.metadata (2.1 kB)
+Collecting async-timeout>=2.0 (from asphalt<5,>=4.12.0->txl==0.2.9)
+  Using cached async_timeout-4.0.3-py3-none-any.whl.metadata (4.2 kB)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl==0.2.9) (8.1.7)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl==0.2.9) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl==0.2.9) (13.7.1)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl==0.2.9) (4.10.0)
+Collecting tree-sitter<0.21.0,>=0.20.1 (from textual[syntax]<0.54.0,>=0.53.1->txl==0.2.9)
+  Using cached tree_sitter-0.20.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.2 kB)
+Collecting tree_sitter_languages>=1.7.0 (from textual[syntax]<0.54.0,>=0.53.1->txl==0.2.9)
+  Using cached tree_sitter_languages-1.10.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (10 kB)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl==0.2.9) (0.4.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.3.3->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl==0.2.9) (2.17.2)
+Collecting ruamel.yaml.clib>=0.2.7 (from ruamel.yaml>=0.15->asphalt<5,>=4.12.0->txl==0.2.9)
+  Using cached ruamel.yaml.clib-0.2.8-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl.metadata (2.2 kB)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl==0.2.9) (69.2.0)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl==0.2.9) (1.0.3)
+Using cached asphalt-4.12.0-py3-none-any.whl (31 kB)
+Using cached async_generator-1.10-py3-none-any.whl (18 kB)
+Using cached async_timeout-4.0.3-py3-none-any.whl (5.7 kB)
+Using cached asyncio_extras-1.3.2-py3-none-any.whl (8.4 kB)
+Using cached ruamel.yaml-0.18.6-py3-none-any.whl (117 kB)
+Using cached tree_sitter-0.20.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (493 kB)
+Using cached tree_sitter_languages-1.10.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (8.4 MB)
+Using cached ruamel.yaml.clib-0.2.8-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl (734 kB)
+Building wheels for collected packages: txl
+  Building editable for txl (pyproject.toml): started
+  Building editable for txl (pyproject.toml): finished with status 'done'
+  Created wheel for txl: filename=txl-0.2.9-py3-none-any.whl size=2042 sha256=99a7619716dcbfb2b8628cb3aaee2d8680effb6b06f879443f358f88ddf9a9ed
+  Stored in directory: /tmp/pip-ephem-wheel-cache-py_r5t6a/wheels/43/c0/3a/ebfd3ae6aea917e682fc5a70529312dfd5f3cc0e5200b910cc
+Successfully built txl
+Installing collected packages: tree-sitter, ruamel.yaml.clib, async-timeout, async-generator, tree_sitter_languages, ruamel.yaml, asyncio-extras, asphalt, txl
+Successfully installed asphalt-4.12.0 async-generator-1.10 async-timeout-4.0.3 asyncio-extras-1.3.2 ruamel.yaml-0.18.6 ruamel.yaml.clib-0.2.8 tree-sitter-0.20.4 tree_sitter_languages-1.10.2 txl-0.2.9
+pre-install [5] | pip install -e ./plugins/cell
+Obtaining file:///home/david/github/davidbrochart/jpterm/plugins/cell
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting pycrdt<0.9.0,>=0.8.11 (from txl_cell==0.2.9)
+  Using cached pycrdt-0.8.11-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.0 kB)
+Requirement already satisfied: txl in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_cell==0.2.9) (0.2.9)
+Requirement already satisfied: asphalt<5,>=4.12.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl->txl_cell==0.2.9) (4.12.0)
+Requirement already satisfied: textual<0.54.0,>=0.53.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_cell==0.2.9) (0.53.1)
+Requirement already satisfied: ruamel.yaml>=0.15 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_cell==0.2.9) (0.18.6)
+Requirement already satisfied: async-generator~=1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_cell==0.2.9) (1.10)
+Requirement already satisfied: asyncio-extras~=1.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_cell==0.2.9) (1.3.2)
+Requirement already satisfied: async-timeout>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_cell==0.2.9) (4.0.3)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_cell==0.2.9) (8.1.7)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_cell==0.2.9) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_cell==0.2.9) (13.7.1)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_cell==0.2.9) (4.10.0)
+Requirement already satisfied: tree-sitter<0.21.0,>=0.20.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_cell==0.2.9) (0.20.4)
+Requirement already satisfied: tree_sitter_languages>=1.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_cell==0.2.9) (1.10.2)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_cell==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_cell==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_cell==0.2.9) (0.4.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.3.3->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_cell==0.2.9) (2.17.2)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ruamel.yaml>=0.15->asphalt<5,>=4.12.0->txl->txl_cell==0.2.9) (0.2.8)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_cell==0.2.9) (69.2.0)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_cell==0.2.9) (1.0.3)
+Using cached pycrdt-0.8.11-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.4 MB)
+Building wheels for collected packages: txl_cell
+  Building editable for txl_cell (pyproject.toml): started
+  Building editable for txl_cell (pyproject.toml): finished with status 'done'
+  Created wheel for txl_cell: filename=txl_cell-0.2.9-py3-none-any.whl size=2357 sha256=d2d2f68a0692a505a0f255b1b6c2c4d79b6b8e31d68abaf1a9dd1620319e498c
+  Stored in directory: /tmp/pip-ephem-wheel-cache-t8esczmz/wheels/4f/09/c2/0bc7346ea88da8733d7a3559966bd34d6e814c08533c6f843b
+Successfully built txl_cell
+Installing collected packages: pycrdt, txl_cell
+Successfully installed pycrdt-0.8.11 txl_cell-0.2.9
+pre-install [6] | pip install -e ./plugins/console
+Obtaining file:///home/david/github/davidbrochart/jpterm/plugins/console
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting jupyter-ydoc<3.0.0,>=2.0.0 (from txl_console==0.2.9)
+  Using cached jupyter_ydoc-2.0.1-py3-none-any.whl.metadata (2.9 kB)
+Requirement already satisfied: txl in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_console==0.2.9) (0.2.9)
+Requirement already satisfied: pycrdt<0.9.0,>=0.8.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-ydoc<3.0.0,>=2.0.0->txl_console==0.2.9) (0.8.11)
+Requirement already satisfied: asphalt<5,>=4.12.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl->txl_console==0.2.9) (4.12.0)
+Requirement already satisfied: textual<0.54.0,>=0.53.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_console==0.2.9) (0.53.1)
+Requirement already satisfied: ruamel.yaml>=0.15 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_console==0.2.9) (0.18.6)
+Requirement already satisfied: async-generator~=1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_console==0.2.9) (1.10)
+Requirement already satisfied: asyncio-extras~=1.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_console==0.2.9) (1.3.2)
+Requirement already satisfied: async-timeout>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_console==0.2.9) (4.0.3)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_console==0.2.9) (8.1.7)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_console==0.2.9) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_console==0.2.9) (13.7.1)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_console==0.2.9) (4.10.0)
+Requirement already satisfied: tree-sitter<0.21.0,>=0.20.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_console==0.2.9) (0.20.4)
+Requirement already satisfied: tree_sitter_languages>=1.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_console==0.2.9) (1.10.2)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_console==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_console==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_console==0.2.9) (0.4.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.3.3->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_console==0.2.9) (2.17.2)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ruamel.yaml>=0.15->asphalt<5,>=4.12.0->txl->txl_console==0.2.9) (0.2.8)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_console==0.2.9) (69.2.0)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_console==0.2.9) (1.0.3)
+Using cached jupyter_ydoc-2.0.1-py3-none-any.whl (10 kB)
+Building wheels for collected packages: txl_console
+  Building editable for txl_console (pyproject.toml): started
+  Building editable for txl_console (pyproject.toml): finished with status 'done'
+  Created wheel for txl_console: filename=txl_console-0.2.9-py3-none-any.whl size=2411 sha256=acae3b91dda8341352f779f26b60ddab8a69e5a3eec40ed4a16be8f7efc4fa5c
+  Stored in directory: /tmp/pip-ephem-wheel-cache-ikmejiff/wheels/88/ee/d2/4a81c836cee1339f065344d1690a5b2e9eadb676a2c144cbe3
+Successfully built txl_console
+Installing collected packages: jupyter-ydoc, txl_console
+Successfully installed jupyter-ydoc-2.0.1 txl_console-0.2.9
+pre-install [7] | pip install -e ./plugins/editors
+Obtaining file:///home/david/github/davidbrochart/jpterm/plugins/editors
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: txl in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_editors==0.2.9) (0.2.9)
+Requirement already satisfied: asphalt<5,>=4.12.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl->txl_editors==0.2.9) (4.12.0)
+Requirement already satisfied: textual<0.54.0,>=0.53.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_editors==0.2.9) (0.53.1)
+Requirement already satisfied: ruamel.yaml>=0.15 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_editors==0.2.9) (0.18.6)
+Requirement already satisfied: async-generator~=1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_editors==0.2.9) (1.10)
+Requirement already satisfied: asyncio-extras~=1.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_editors==0.2.9) (1.3.2)
+Requirement already satisfied: async-timeout>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_editors==0.2.9) (4.0.3)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_editors==0.2.9) (8.1.7)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_editors==0.2.9) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_editors==0.2.9) (13.7.1)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_editors==0.2.9) (4.10.0)
+Requirement already satisfied: tree-sitter<0.21.0,>=0.20.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_editors==0.2.9) (0.20.4)
+Requirement already satisfied: tree_sitter_languages>=1.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_editors==0.2.9) (1.10.2)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_editors==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_editors==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_editors==0.2.9) (0.4.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.3.3->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_editors==0.2.9) (2.17.2)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ruamel.yaml>=0.15->asphalt<5,>=4.12.0->txl->txl_editors==0.2.9) (0.2.8)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_editors==0.2.9) (69.2.0)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_editors==0.2.9) (1.0.3)
+Building wheels for collected packages: txl_editors
+  Building editable for txl_editors (pyproject.toml): started
+  Building editable for txl_editors (pyproject.toml): finished with status 'done'
+  Created wheel for txl_editors: filename=txl_editors-0.2.9-py3-none-any.whl size=2381 sha256=669ea4eef7b40ac90e8714266818b9a7bde2fff1a11675ff9103723c33891922
+  Stored in directory: /tmp/pip-ephem-wheel-cache-xkzni1j7/wheels/49/e2/38/c1918af66eab9b75479e6f10720c38085eba1fd8ca05756b99
+Successfully built txl_editors
+Installing collected packages: txl_editors
+Successfully installed txl_editors-0.2.9
+pre-install [8] | pip install -e ./plugins/file_browser
+Obtaining file:///home/david/github/davidbrochart/jpterm/plugins/file_browser
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: txl in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_file_browser==0.2.9) (0.2.9)
+Requirement already satisfied: asphalt<5,>=4.12.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl->txl_file_browser==0.2.9) (4.12.0)
+Requirement already satisfied: textual<0.54.0,>=0.53.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_file_browser==0.2.9) (0.53.1)
+Requirement already satisfied: ruamel.yaml>=0.15 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_file_browser==0.2.9) (0.18.6)
+Requirement already satisfied: async-generator~=1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_file_browser==0.2.9) (1.10)
+Requirement already satisfied: asyncio-extras~=1.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_file_browser==0.2.9) (1.3.2)
+Requirement already satisfied: async-timeout>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_file_browser==0.2.9) (4.0.3)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_file_browser==0.2.9) (8.1.7)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_file_browser==0.2.9) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_file_browser==0.2.9) (13.7.1)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_file_browser==0.2.9) (4.10.0)
+Requirement already satisfied: tree-sitter<0.21.0,>=0.20.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_file_browser==0.2.9) (0.20.4)
+Requirement already satisfied: tree_sitter_languages>=1.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_file_browser==0.2.9) (1.10.2)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_file_browser==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_file_browser==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_file_browser==0.2.9) (0.4.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.3.3->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_file_browser==0.2.9) (2.17.2)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ruamel.yaml>=0.15->asphalt<5,>=4.12.0->txl->txl_file_browser==0.2.9) (0.2.8)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_file_browser==0.2.9) (69.2.0)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_file_browser==0.2.9) (1.0.3)
+Building wheels for collected packages: txl_file_browser
+  Building editable for txl_file_browser (pyproject.toml): started
+  Building editable for txl_file_browser (pyproject.toml): finished with status 'done'
+  Created wheel for txl_file_browser: filename=txl_file_browser-0.2.9-py3-none-any.whl size=2528 sha256=4357e313c1f8d485a7439ea60e3e5fcd2b1aa10fa54b1a2b8643318bbd598645
+  Stored in directory: /tmp/pip-ephem-wheel-cache-yi_48r3j/wheels/9f/18/e0/088e178e43f878511154576d86f605d3e208381d70f8dc6e6c
+Successfully built txl_file_browser
+Installing collected packages: txl_file_browser
+Successfully installed txl_file_browser-0.2.9
+pre-install [9] | pip install -e ./plugins/image_viewer
+Obtaining file:///home/david/github/davidbrochart/jpterm/plugins/image_viewer
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting textual-imageview>=0.1.1 (from txl_image_viewer==0.2.9)
+  Using cached textual_imageview-0.1.1-py3-none-any.whl.metadata (3.1 kB)
+Requirement already satisfied: txl in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_image_viewer==0.2.9) (0.2.9)
+Collecting pillow>=9.4.0 (from textual-imageview>=0.1.1->txl_image_viewer==0.2.9)
+  Using cached pillow-10.2.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (9.7 kB)
+Requirement already satisfied: rich>=13.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual-imageview>=0.1.1->txl_image_viewer==0.2.9) (13.7.1)
+Requirement already satisfied: textual>=0.9.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual-imageview>=0.1.1->txl_image_viewer==0.2.9) (0.53.1)
+Requirement already satisfied: asphalt<5,>=4.12.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl->txl_image_viewer==0.2.9) (4.12.0)
+Requirement already satisfied: ruamel.yaml>=0.15 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_image_viewer==0.2.9) (0.18.6)
+Requirement already satisfied: async-generator~=1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_image_viewer==0.2.9) (1.10)
+Requirement already satisfied: asyncio-extras~=1.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_image_viewer==0.2.9) (1.3.2)
+Requirement already satisfied: async-timeout>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_image_viewer==0.2.9) (4.0.3)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_image_viewer==0.2.9) (8.1.7)
+Requirement already satisfied: markdown-it-py>=2.2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.0.0->textual-imageview>=0.1.1->txl_image_viewer==0.2.9) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.0.0->textual-imageview>=0.1.1->txl_image_viewer==0.2.9) (2.17.2)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual>=0.9.1->textual-imageview>=0.1.1->txl_image_viewer==0.2.9) (4.10.0)
+Requirement already satisfied: tree-sitter<0.21.0,>=0.20.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_image_viewer==0.2.9) (0.20.4)
+Requirement already satisfied: tree_sitter_languages>=1.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_image_viewer==0.2.9) (1.10.2)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.2.0->rich>=13.0.0->textual-imageview>=0.1.1->txl_image_viewer==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual>=0.9.1->textual-imageview>=0.1.1->txl_image_viewer==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual>=0.9.1->textual-imageview>=0.1.1->txl_image_viewer==0.2.9) (0.4.0)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ruamel.yaml>=0.15->asphalt<5,>=4.12.0->txl->txl_image_viewer==0.2.9) (0.2.8)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_image_viewer==0.2.9) (69.2.0)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual>=0.9.1->textual-imageview>=0.1.1->txl_image_viewer==0.2.9) (1.0.3)
+Using cached textual_imageview-0.1.1-py3-none-any.whl (8.9 kB)
+Using cached pillow-10.2.0-cp312-cp312-manylinux_2_28_x86_64.whl (4.5 MB)
+Building wheels for collected packages: txl_image_viewer
+  Building editable for txl_image_viewer (pyproject.toml): started
+  Building editable for txl_image_viewer (pyproject.toml): finished with status 'done'
+  Created wheel for txl_image_viewer: filename=txl_image_viewer-0.2.9-py3-none-any.whl size=2486 sha256=53ef0445dc3fec0a81ef4c1f584c8629f7029951dcb2a175c3e247ba485958a5
+  Stored in directory: /tmp/pip-ephem-wheel-cache-_jigdca0/wheels/c1/9f/bf/64620a180b552d1a34efb55c6383dca80c936c1ed055633504
+Successfully built txl_image_viewer
+Installing collected packages: pillow, textual-imageview, txl_image_viewer
+Successfully installed pillow-10.2.0 textual-imageview-0.1.1 txl_image_viewer-0.2.9
+pre-install [10] | pip install -e ./plugins/jpterm
+Obtaining file:///home/david/github/davidbrochart/jpterm/plugins/jpterm
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: txl in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_jpterm==0.2.9) (0.2.9)
+Requirement already satisfied: asphalt<5,>=4.12.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl->txl_jpterm==0.2.9) (4.12.0)
+Requirement already satisfied: textual<0.54.0,>=0.53.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_jpterm==0.2.9) (0.53.1)
+Requirement already satisfied: ruamel.yaml>=0.15 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_jpterm==0.2.9) (0.18.6)
+Requirement already satisfied: async-generator~=1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_jpterm==0.2.9) (1.10)
+Requirement already satisfied: asyncio-extras~=1.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_jpterm==0.2.9) (1.3.2)
+Requirement already satisfied: async-timeout>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_jpterm==0.2.9) (4.0.3)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_jpterm==0.2.9) (8.1.7)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_jpterm==0.2.9) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_jpterm==0.2.9) (13.7.1)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_jpterm==0.2.9) (4.10.0)
+Requirement already satisfied: tree-sitter<0.21.0,>=0.20.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_jpterm==0.2.9) (0.20.4)
+Requirement already satisfied: tree_sitter_languages>=1.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_jpterm==0.2.9) (1.10.2)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_jpterm==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_jpterm==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_jpterm==0.2.9) (0.4.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.3.3->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_jpterm==0.2.9) (2.17.2)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ruamel.yaml>=0.15->asphalt<5,>=4.12.0->txl->txl_jpterm==0.2.9) (0.2.8)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_jpterm==0.2.9) (69.2.0)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_jpterm==0.2.9) (1.0.3)
+Building wheels for collected packages: txl_jpterm
+  Building editable for txl_jpterm (pyproject.toml): started
+  Building editable for txl_jpterm (pyproject.toml): finished with status 'done'
+  Created wheel for txl_jpterm: filename=txl_jpterm-0.2.9-py3-none-any.whl size=2363 sha256=7f4abf59b71b99cdd8833d8df472b0e48a4039119d650c4389c9aedcf9e28f8f
+  Stored in directory: /tmp/pip-ephem-wheel-cache-_6zzgoyj/wheels/df/e2/05/f1e7ccd21d4d6e90b8153d053f87b9b04e367d62baf1c3aad1
+Successfully built txl_jpterm
+Installing collected packages: txl_jpterm
+Successfully installed txl_jpterm-0.2.9
+pre-install [11] | pip install -e ./plugins/kernel
+Obtaining file:///home/david/github/davidbrochart/jpterm/plugins/kernel
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asphalt in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_kernel==0.2.9) (4.12.0)
+Requirement already satisfied: pycrdt<0.9.0,>=0.8.11 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_kernel==0.2.9) (0.8.11)
+Collecting python-dateutil>=2.8.2 (from txl_kernel==0.2.9)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Requirement already satisfied: txl in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_kernel==0.2.9) (0.2.9)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->txl_kernel==0.2.9)
+  Using cached six-1.16.0-py2.py3-none-any.whl.metadata (1.8 kB)
+Requirement already satisfied: ruamel.yaml>=0.15 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt->txl_kernel==0.2.9) (0.18.6)
+Requirement already satisfied: async-generator~=1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt->txl_kernel==0.2.9) (1.10)
+Requirement already satisfied: asyncio-extras~=1.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt->txl_kernel==0.2.9) (1.3.2)
+Requirement already satisfied: async-timeout>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt->txl_kernel==0.2.9) (4.0.3)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt->txl_kernel==0.2.9) (8.1.7)
+Requirement already satisfied: textual<0.54.0,>=0.53.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_kernel==0.2.9) (0.53.1)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ruamel.yaml>=0.15->asphalt->txl_kernel==0.2.9) (0.2.8)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_kernel==0.2.9) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_kernel==0.2.9) (13.7.1)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_kernel==0.2.9) (4.10.0)
+Requirement already satisfied: tree-sitter<0.21.0,>=0.20.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_kernel==0.2.9) (0.20.4)
+Requirement already satisfied: tree_sitter_languages>=1.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_kernel==0.2.9) (1.10.2)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_kernel==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_kernel==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_kernel==0.2.9) (0.4.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.3.3->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_kernel==0.2.9) (2.17.2)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_kernel==0.2.9) (69.2.0)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_kernel==0.2.9) (1.0.3)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Building wheels for collected packages: txl_kernel
+  Building editable for txl_kernel (pyproject.toml): started
+  Building editable for txl_kernel (pyproject.toml): finished with status 'done'
+  Created wheel for txl_kernel: filename=txl_kernel-0.2.9-py3-none-any.whl size=2153 sha256=00caf86d3ef118b97f950e2924b095e1f6b8d2790b78c85c3187ebb632c07212
+  Stored in directory: /tmp/pip-ephem-wheel-cache-y4szlff1/wheels/04/bd/28/128db2340c247b10876fc9238fabf73fd1f85d3cae9b402aac
+Successfully built txl_kernel
+Installing collected packages: six, python-dateutil, txl_kernel
+Successfully installed python-dateutil-2.9.0.post0 six-1.16.0 txl_kernel-0.2.9
+pre-install [12] | pip install -e ./plugins/local_contents
+Obtaining file:///home/david/github/davidbrochart/jpterm/plugins/local_contents
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting anyio<5,>=3.7.0 (from txl_local_contents==0.2.9)
+  Using cached anyio-4.3.0-py3-none-any.whl.metadata (4.6 kB)
+Requirement already satisfied: jupyter-ydoc<3.0.0,>=2.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_local_contents==0.2.9) (2.0.1)
+Requirement already satisfied: txl in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_local_contents==0.2.9) (0.2.9)
+Requirement already satisfied: idna>=2.8 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from anyio<5,>=3.7.0->txl_local_contents==0.2.9) (3.6)
+Collecting sniffio>=1.1 (from anyio<5,>=3.7.0->txl_local_contents==0.2.9)
+  Using cached sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+Requirement already satisfied: pycrdt<0.9.0,>=0.8.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-ydoc<3.0.0,>=2.0.0->txl_local_contents==0.2.9) (0.8.11)
+Requirement already satisfied: asphalt<5,>=4.12.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl->txl_local_contents==0.2.9) (4.12.0)
+Requirement already satisfied: textual<0.54.0,>=0.53.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_contents==0.2.9) (0.53.1)
+Requirement already satisfied: ruamel.yaml>=0.15 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_local_contents==0.2.9) (0.18.6)
+Requirement already satisfied: async-generator~=1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_local_contents==0.2.9) (1.10)
+Requirement already satisfied: asyncio-extras~=1.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_local_contents==0.2.9) (1.3.2)
+Requirement already satisfied: async-timeout>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_local_contents==0.2.9) (4.0.3)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_local_contents==0.2.9) (8.1.7)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_contents==0.2.9) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_contents==0.2.9) (13.7.1)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_contents==0.2.9) (4.10.0)
+Requirement already satisfied: tree-sitter<0.21.0,>=0.20.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_contents==0.2.9) (0.20.4)
+Requirement already satisfied: tree_sitter_languages>=1.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_contents==0.2.9) (1.10.2)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_contents==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_contents==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_contents==0.2.9) (0.4.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.3.3->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_contents==0.2.9) (2.17.2)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ruamel.yaml>=0.15->asphalt<5,>=4.12.0->txl->txl_local_contents==0.2.9) (0.2.8)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_contents==0.2.9) (69.2.0)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_contents==0.2.9) (1.0.3)
+Using cached anyio-4.3.0-py3-none-any.whl (85 kB)
+Using cached sniffio-1.3.1-py3-none-any.whl (10 kB)
+Building wheels for collected packages: txl_local_contents
+  Building editable for txl_local_contents (pyproject.toml): started
+  Building editable for txl_local_contents (pyproject.toml): finished with status 'done'
+  Created wheel for txl_local_contents: filename=txl_local_contents-0.2.9-py3-none-any.whl size=2534 sha256=cf8e79477370706668840162057cbfd73596dc7721afdc329bf3e66a89f22e91
+  Stored in directory: /tmp/pip-ephem-wheel-cache-_blo3uf8/wheels/95/e2/ed/19b48b776f4b21e3639d58c7c3c198dc2175f665d4a3c2507f
+Successfully built txl_local_contents
+Installing collected packages: sniffio, anyio, txl_local_contents
+Successfully installed anyio-4.3.0 sniffio-1.3.1 txl_local_contents-0.2.9
+pre-install [13] | pip install -e ./plugins/local_terminals
+Obtaining file:///home/david/github/davidbrochart/jpterm/plugins/local_terminals
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: anyio<5,>=3.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_local_terminals==0.2.9) (4.3.0)
+Requirement already satisfied: txl in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_local_terminals==0.2.9) (0.2.9)
+Requirement already satisfied: idna>=2.8 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from anyio<5,>=3.7.0->txl_local_terminals==0.2.9) (3.6)
+Requirement already satisfied: sniffio>=1.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from anyio<5,>=3.7.0->txl_local_terminals==0.2.9) (1.3.1)
+Requirement already satisfied: asphalt<5,>=4.12.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl->txl_local_terminals==0.2.9) (4.12.0)
+Requirement already satisfied: textual<0.54.0,>=0.53.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_terminals==0.2.9) (0.53.1)
+Requirement already satisfied: ruamel.yaml>=0.15 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_local_terminals==0.2.9) (0.18.6)
+Requirement already satisfied: async-generator~=1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_local_terminals==0.2.9) (1.10)
+Requirement already satisfied: asyncio-extras~=1.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_local_terminals==0.2.9) (1.3.2)
+Requirement already satisfied: async-timeout>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_local_terminals==0.2.9) (4.0.3)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_local_terminals==0.2.9) (8.1.7)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_terminals==0.2.9) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_terminals==0.2.9) (13.7.1)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_terminals==0.2.9) (4.10.0)
+Requirement already satisfied: tree-sitter<0.21.0,>=0.20.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_terminals==0.2.9) (0.20.4)
+Requirement already satisfied: tree_sitter_languages>=1.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_terminals==0.2.9) (1.10.2)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_terminals==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_terminals==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_terminals==0.2.9) (0.4.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.3.3->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_terminals==0.2.9) (2.17.2)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ruamel.yaml>=0.15->asphalt<5,>=4.12.0->txl->txl_local_terminals==0.2.9) (0.2.8)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_terminals==0.2.9) (69.2.0)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_terminals==0.2.9) (1.0.3)
+Building wheels for collected packages: txl_local_terminals
+  Building editable for txl_local_terminals (pyproject.toml): started
+  Building editable for txl_local_terminals (pyproject.toml): finished with status 'done'
+  Created wheel for txl_local_terminals: filename=txl_local_terminals-0.2.9-py3-none-any.whl size=2557 sha256=55344c554953efe4e1dadfa9653b67cdc8bc73eccc023e91a0f834311b7877ff
+  Stored in directory: /tmp/pip-ephem-wheel-cache-x_3sjs_w/wheels/bd/a2/9e/7c80809da0510f40b9a55694b00181d9fd81700c978bda90c0
+Successfully built txl_local_terminals
+Installing collected packages: txl_local_terminals
+Successfully installed txl_local_terminals-0.2.9
+pre-install [14] | pip install -e ./plugins/local_kernels
+Obtaining file:///home/david/github/davidbrochart/jpterm/plugins/local_kernels
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting ipykernel (from txl_local_kernels==0.2.9)
+  Using cached ipykernel-6.29.3-py3-none-any.whl.metadata (6.3 kB)
+Collecting pyzmq>=24.0.1 (from txl_local_kernels==0.2.9)
+  Using cached pyzmq-25.1.2-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (4.9 kB)
+Requirement already satisfied: txl in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_local_kernels==0.2.9) (0.2.9)
+Requirement already satisfied: txl-kernel in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_local_kernels==0.2.9) (0.2.9)
+Collecting comm>=0.1.1 (from ipykernel->txl_local_kernels==0.2.9)
+  Using cached comm-0.2.2-py3-none-any.whl.metadata (3.7 kB)
+Collecting debugpy>=1.6.5 (from ipykernel->txl_local_kernels==0.2.9)
+  Using cached debugpy-1.8.1-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.1 kB)
+Collecting ipython>=7.23.1 (from ipykernel->txl_local_kernels==0.2.9)
+  Using cached ipython-8.22.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting jupyter-client>=6.1.12 (from ipykernel->txl_local_kernels==0.2.9)
+  Using cached jupyter_client-8.6.1-py3-none-any.whl.metadata (8.3 kB)
+Collecting jupyter-core!=5.0.*,>=4.12 (from ipykernel->txl_local_kernels==0.2.9)
+  Using cached jupyter_core-5.7.2-py3-none-any.whl.metadata (3.4 kB)
+Collecting matplotlib-inline>=0.1 (from ipykernel->txl_local_kernels==0.2.9)
+  Using cached matplotlib_inline-0.1.6-py3-none-any.whl.metadata (2.8 kB)
+Collecting nest-asyncio (from ipykernel->txl_local_kernels==0.2.9)
+  Using cached nest_asyncio-1.6.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting packaging (from ipykernel->txl_local_kernels==0.2.9)
+  Using cached packaging-24.0-py3-none-any.whl.metadata (3.2 kB)
+Collecting psutil (from ipykernel->txl_local_kernels==0.2.9)
+  Using cached psutil-5.9.8-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (21 kB)
+Collecting tornado>=6.1 (from ipykernel->txl_local_kernels==0.2.9)
+  Using cached tornado-6.4-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.5 kB)
+Collecting traitlets>=5.4.0 (from ipykernel->txl_local_kernels==0.2.9)
+  Using cached traitlets-5.14.2-py3-none-any.whl.metadata (10 kB)
+Requirement already satisfied: asphalt<5,>=4.12.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl->txl_local_kernels==0.2.9) (4.12.0)
+Requirement already satisfied: textual<0.54.0,>=0.53.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_kernels==0.2.9) (0.53.1)
+Requirement already satisfied: pycrdt<0.9.0,>=0.8.11 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl-kernel->txl_local_kernels==0.2.9) (0.8.11)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl-kernel->txl_local_kernels==0.2.9) (2.9.0.post0)
+Requirement already satisfied: ruamel.yaml>=0.15 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_local_kernels==0.2.9) (0.18.6)
+Requirement already satisfied: async-generator~=1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_local_kernels==0.2.9) (1.10)
+Requirement already satisfied: asyncio-extras~=1.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_local_kernels==0.2.9) (1.3.2)
+Requirement already satisfied: async-timeout>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_local_kernels==0.2.9) (4.0.3)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_local_kernels==0.2.9) (8.1.7)
+Collecting decorator (from ipython>=7.23.1->ipykernel->txl_local_kernels==0.2.9)
+  Using cached decorator-5.1.1-py3-none-any.whl.metadata (4.0 kB)
+Collecting jedi>=0.16 (from ipython>=7.23.1->ipykernel->txl_local_kernels==0.2.9)
+  Using cached jedi-0.19.1-py2.py3-none-any.whl.metadata (22 kB)
+Collecting prompt-toolkit<3.1.0,>=3.0.41 (from ipython>=7.23.1->ipykernel->txl_local_kernels==0.2.9)
+  Using cached prompt_toolkit-3.0.43-py3-none-any.whl.metadata (6.5 kB)
+Requirement already satisfied: pygments>=2.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ipython>=7.23.1->ipykernel->txl_local_kernels==0.2.9) (2.17.2)
+Collecting stack-data (from ipython>=7.23.1->ipykernel->txl_local_kernels==0.2.9)
+  Using cached stack_data-0.6.3-py3-none-any.whl.metadata (18 kB)
+Collecting pexpect>4.3 (from ipython>=7.23.1->ipykernel->txl_local_kernels==0.2.9)
+  Using cached pexpect-4.9.0-py2.py3-none-any.whl.metadata (2.5 kB)
+Requirement already satisfied: platformdirs>=2.5 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-core!=5.0.*,>=4.12->ipykernel->txl_local_kernels==0.2.9) (4.2.0)
+Requirement already satisfied: six>=1.5 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from python-dateutil>=2.8.2->txl-kernel->txl_local_kernels==0.2.9) (1.16.0)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_kernels==0.2.9) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_kernels==0.2.9) (13.7.1)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_kernels==0.2.9) (4.10.0)
+Requirement already satisfied: tree-sitter<0.21.0,>=0.20.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_kernels==0.2.9) (0.20.4)
+Requirement already satisfied: tree_sitter_languages>=1.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_kernels==0.2.9) (1.10.2)
+Collecting parso<0.9.0,>=0.8.3 (from jedi>=0.16->ipython>=7.23.1->ipykernel->txl_local_kernels==0.2.9)
+  Using cached parso-0.8.3-py2.py3-none-any.whl.metadata (7.5 kB)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_kernels==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_kernels==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_kernels==0.2.9) (0.4.0)
+Collecting ptyprocess>=0.5 (from pexpect>4.3->ipython>=7.23.1->ipykernel->txl_local_kernels==0.2.9)
+  Using cached ptyprocess-0.7.0-py2.py3-none-any.whl.metadata (1.3 kB)
+Collecting wcwidth (from prompt-toolkit<3.1.0,>=3.0.41->ipython>=7.23.1->ipykernel->txl_local_kernels==0.2.9)
+  Using cached wcwidth-0.2.13-py2.py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ruamel.yaml>=0.15->asphalt<5,>=4.12.0->txl->txl_local_kernels==0.2.9) (0.2.8)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_kernels==0.2.9) (69.2.0)
+Collecting executing>=1.2.0 (from stack-data->ipython>=7.23.1->ipykernel->txl_local_kernels==0.2.9)
+  Using cached executing-2.0.1-py2.py3-none-any.whl.metadata (9.0 kB)
+Collecting asttokens>=2.1.0 (from stack-data->ipython>=7.23.1->ipykernel->txl_local_kernels==0.2.9)
+  Using cached asttokens-2.4.1-py2.py3-none-any.whl.metadata (5.2 kB)
+Collecting pure-eval (from stack-data->ipython>=7.23.1->ipykernel->txl_local_kernels==0.2.9)
+  Using cached pure_eval-0.2.2-py3-none-any.whl.metadata (6.2 kB)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_local_kernels==0.2.9) (1.0.3)
+Using cached pyzmq-25.1.2-cp312-cp312-manylinux_2_28_x86_64.whl (1.1 MB)
+Using cached ipykernel-6.29.3-py3-none-any.whl (117 kB)
+Using cached comm-0.2.2-py3-none-any.whl (7.2 kB)
+Using cached debugpy-1.8.1-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.4 MB)
+Using cached ipython-8.22.2-py3-none-any.whl (811 kB)
+Using cached jupyter_client-8.6.1-py3-none-any.whl (105 kB)
+Using cached jupyter_core-5.7.2-py3-none-any.whl (28 kB)
+Using cached matplotlib_inline-0.1.6-py3-none-any.whl (9.4 kB)
+Using cached tornado-6.4-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (435 kB)
+Using cached traitlets-5.14.2-py3-none-any.whl (85 kB)
+Using cached nest_asyncio-1.6.0-py3-none-any.whl (5.2 kB)
+Using cached packaging-24.0-py3-none-any.whl (53 kB)
+Using cached psutil-5.9.8-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (288 kB)
+Using cached jedi-0.19.1-py2.py3-none-any.whl (1.6 MB)
+Using cached pexpect-4.9.0-py2.py3-none-any.whl (63 kB)
+Using cached prompt_toolkit-3.0.43-py3-none-any.whl (386 kB)
+Using cached decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Using cached stack_data-0.6.3-py3-none-any.whl (24 kB)
+Using cached asttokens-2.4.1-py2.py3-none-any.whl (27 kB)
+Using cached executing-2.0.1-py2.py3-none-any.whl (24 kB)
+Using cached parso-0.8.3-py2.py3-none-any.whl (100 kB)
+Using cached ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+Using cached pure_eval-0.2.2-py3-none-any.whl (11 kB)
+Using cached wcwidth-0.2.13-py2.py3-none-any.whl (34 kB)
+Building wheels for collected packages: txl_local_kernels
+  Building editable for txl_local_kernels (pyproject.toml): started
+  Building editable for txl_local_kernels (pyproject.toml): finished with status 'done'
+  Created wheel for txl_local_kernels: filename=txl_local_kernels-0.2.9-py3-none-any.whl size=2520 sha256=f62ec49003ca2797e7ca9a4d864e3629ce1b033e17cf49eafd95e75020227271
+  Stored in directory: /tmp/pip-ephem-wheel-cache-_f3rlinc/wheels/cf/d7/fb/056ebb5df036da6e65762e19a19588b637c5b7ec6e38b00799
+Successfully built txl_local_kernels
+Installing collected packages: wcwidth, pure-eval, ptyprocess, traitlets, tornado, pyzmq, psutil, prompt-toolkit, pexpect, parso, packaging, nest-asyncio, executing, decorator, debugpy, asttokens, stack-data, matplotlib-inline, jupyter-core, jedi, comm, jupyter-client, ipython, ipykernel, txl_local_kernels
+Successfully installed asttokens-2.4.1 comm-0.2.2 debugpy-1.8.1 decorator-5.1.1 executing-2.0.1 ipykernel-6.29.3 ipython-8.22.2 jedi-0.19.1 jupyter-client-8.6.1 jupyter-core-5.7.2 matplotlib-inline-0.1.6 nest-asyncio-1.6.0 packaging-24.0 parso-0.8.3 pexpect-4.9.0 prompt-toolkit-3.0.43 psutil-5.9.8 ptyprocess-0.7.0 pure-eval-0.2.2 pyzmq-25.1.2 stack-data-0.6.3 tornado-6.4 traitlets-5.14.2 txl_local_kernels-0.2.9 wcwidth-0.2.13
+pre-install [15] | pip install -e ./plugins/notebook_editor
+Obtaining file:///home/david/github/davidbrochart/jpterm/plugins/notebook_editor
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: jupyter-ydoc<3.0.0,>=2.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_notebook_editor==0.2.9) (2.0.1)
+Requirement already satisfied: pycrdt<0.9.0,>=0.8.11 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_notebook_editor==0.2.9) (0.8.11)
+Requirement already satisfied: txl in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_notebook_editor==0.2.9) (0.2.9)
+Requirement already satisfied: asphalt<5,>=4.12.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl->txl_notebook_editor==0.2.9) (4.12.0)
+Requirement already satisfied: textual<0.54.0,>=0.53.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_notebook_editor==0.2.9) (0.53.1)
+Requirement already satisfied: ruamel.yaml>=0.15 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_notebook_editor==0.2.9) (0.18.6)
+Requirement already satisfied: async-generator~=1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_notebook_editor==0.2.9) (1.10)
+Requirement already satisfied: asyncio-extras~=1.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_notebook_editor==0.2.9) (1.3.2)
+Requirement already satisfied: async-timeout>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_notebook_editor==0.2.9) (4.0.3)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_notebook_editor==0.2.9) (8.1.7)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_notebook_editor==0.2.9) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_notebook_editor==0.2.9) (13.7.1)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_notebook_editor==0.2.9) (4.10.0)
+Requirement already satisfied: tree-sitter<0.21.0,>=0.20.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_notebook_editor==0.2.9) (0.20.4)
+Requirement already satisfied: tree_sitter_languages>=1.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_notebook_editor==0.2.9) (1.10.2)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_notebook_editor==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_notebook_editor==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_notebook_editor==0.2.9) (0.4.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.3.3->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_notebook_editor==0.2.9) (2.17.2)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ruamel.yaml>=0.15->asphalt<5,>=4.12.0->txl->txl_notebook_editor==0.2.9) (0.2.8)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_notebook_editor==0.2.9) (69.2.0)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_notebook_editor==0.2.9) (1.0.3)
+Building wheels for collected packages: txl_notebook_editor
+  Building editable for txl_notebook_editor (pyproject.toml): started
+  Building editable for txl_notebook_editor (pyproject.toml): finished with status 'done'
+  Created wheel for txl_notebook_editor: filename=txl_notebook_editor-0.2.9-py3-none-any.whl size=2556 sha256=283816634ca2eedcffcd749f0d0e2552ca69ed4dd63c39e9e75ee75cdcaa9076
+  Stored in directory: /tmp/pip-ephem-wheel-cache-19n8yyc0/wheels/a1/09/d6/53977de6be96e42635fbdb720cfc457d9b391effd5cc82ed37
+Successfully built txl_notebook_editor
+Installing collected packages: txl_notebook_editor
+Successfully installed txl_notebook_editor-0.2.9
+pre-install [16] | pip install -e ./plugins/remote_contents
+Obtaining file:///home/david/github/davidbrochart/jpterm/plugins/remote_contents
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting httpx-ws>=0.4.2 (from txl_remote_contents==0.2.9)
+  Using cached httpx_ws-0.5.1-py3-none-any.whl.metadata (7.5 kB)
+Collecting httpx>=0.23.1 (from txl_remote_contents==0.2.9)
+  Using cached httpx-0.27.0-py3-none-any.whl.metadata (7.2 kB)
+Requirement already satisfied: jupyter-ydoc<3.0.0,>=2.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_remote_contents==0.2.9) (2.0.1)
+Collecting pycrdt-websocket<0.13.0,>=0.12.7 (from txl_remote_contents==0.2.9)
+  Using cached pycrdt_websocket-0.12.7-py3-none-any.whl.metadata (5.3 kB)
+Requirement already satisfied: pycrdt<0.9.0,>=0.8.11 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_remote_contents==0.2.9) (0.8.11)
+Requirement already satisfied: txl in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_remote_contents==0.2.9) (0.2.9)
+Requirement already satisfied: anyio in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx>=0.23.1->txl_remote_contents==0.2.9) (4.3.0)
+Collecting certifi (from httpx>=0.23.1->txl_remote_contents==0.2.9)
+  Using cached certifi-2024.2.2-py3-none-any.whl.metadata (2.2 kB)
+Collecting httpcore==1.* (from httpx>=0.23.1->txl_remote_contents==0.2.9)
+  Using cached httpcore-1.0.4-py3-none-any.whl.metadata (20 kB)
+Requirement already satisfied: idna in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx>=0.23.1->txl_remote_contents==0.2.9) (3.6)
+Requirement already satisfied: sniffio in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx>=0.23.1->txl_remote_contents==0.2.9) (1.3.1)
+Collecting h11<0.15,>=0.13 (from httpcore==1.*->httpx>=0.23.1->txl_remote_contents==0.2.9)
+  Using cached h11-0.14.0-py3-none-any.whl.metadata (8.2 kB)
+Collecting wsproto (from httpx-ws>=0.4.2->txl_remote_contents==0.2.9)
+  Using cached wsproto-1.2.0-py3-none-any.whl.metadata (5.6 kB)
+Collecting aiosqlite<1,>=0.18.0 (from pycrdt-websocket<0.13.0,>=0.12.7->txl_remote_contents==0.2.9)
+  Using cached aiosqlite-0.20.0-py3-none-any.whl.metadata (4.3 kB)
+Requirement already satisfied: asphalt<5,>=4.12.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl->txl_remote_contents==0.2.9) (4.12.0)
+Requirement already satisfied: textual<0.54.0,>=0.53.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_contents==0.2.9) (0.53.1)
+Requirement already satisfied: typing_extensions>=4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from aiosqlite<1,>=0.18.0->pycrdt-websocket<0.13.0,>=0.12.7->txl_remote_contents==0.2.9) (4.10.0)
+Requirement already satisfied: ruamel.yaml>=0.15 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_remote_contents==0.2.9) (0.18.6)
+Requirement already satisfied: async-generator~=1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_remote_contents==0.2.9) (1.10)
+Requirement already satisfied: asyncio-extras~=1.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_remote_contents==0.2.9) (1.3.2)
+Requirement already satisfied: async-timeout>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_remote_contents==0.2.9) (4.0.3)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_remote_contents==0.2.9) (8.1.7)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_contents==0.2.9) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_contents==0.2.9) (13.7.1)
+Requirement already satisfied: tree-sitter<0.21.0,>=0.20.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_contents==0.2.9) (0.20.4)
+Requirement already satisfied: tree_sitter_languages>=1.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_contents==0.2.9) (1.10.2)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_contents==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_contents==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_contents==0.2.9) (0.4.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.3.3->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_contents==0.2.9) (2.17.2)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ruamel.yaml>=0.15->asphalt<5,>=4.12.0->txl->txl_remote_contents==0.2.9) (0.2.8)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_contents==0.2.9) (69.2.0)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_contents==0.2.9) (1.0.3)
+Using cached httpx-0.27.0-py3-none-any.whl (75 kB)
+Using cached httpcore-1.0.4-py3-none-any.whl (77 kB)
+Using cached httpx_ws-0.5.1-py3-none-any.whl (13 kB)
+Using cached pycrdt_websocket-0.12.7-py3-none-any.whl (19 kB)
+Using cached aiosqlite-0.20.0-py3-none-any.whl (15 kB)
+Using cached certifi-2024.2.2-py3-none-any.whl (163 kB)
+Using cached wsproto-1.2.0-py3-none-any.whl (24 kB)
+Using cached h11-0.14.0-py3-none-any.whl (58 kB)
+Building wheels for collected packages: txl_remote_contents
+  Building editable for txl_remote_contents (pyproject.toml): started
+  Building editable for txl_remote_contents (pyproject.toml): finished with status 'done'
+  Created wheel for txl_remote_contents: filename=txl_remote_contents-0.2.9-py3-none-any.whl size=2588 sha256=e177713f1cb9fd32cb17b424939c427ee2bec72e5e2fce55d4a9f39229009e98
+  Stored in directory: /tmp/pip-ephem-wheel-cache-v71avtvj/wheels/d1/0f/69/64c16e711cfdc51b4620ba3c9b77e257f3efba5f3712a77f40
+Successfully built txl_remote_contents
+Installing collected packages: h11, certifi, aiosqlite, wsproto, pycrdt-websocket, httpcore, httpx, httpx-ws, txl_remote_contents
+Successfully installed aiosqlite-0.20.0 certifi-2024.2.2 h11-0.14.0 httpcore-1.0.4 httpx-0.27.0 httpx-ws-0.5.1 pycrdt-websocket-0.12.7 txl_remote_contents-0.2.9 wsproto-1.2.0
+pre-install [17] | pip install -e ./plugins/remote_terminals
+Obtaining file:///home/david/github/davidbrochart/jpterm/plugins/remote_terminals
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: httpx-ws>=0.4.2 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_remote_terminals==0.2.9) (0.5.1)
+Requirement already satisfied: httpx>=0.23.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_remote_terminals==0.2.9) (0.27.0)
+Requirement already satisfied: txl in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_remote_terminals==0.2.9) (0.2.9)
+Requirement already satisfied: anyio in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx>=0.23.1->txl_remote_terminals==0.2.9) (4.3.0)
+Requirement already satisfied: certifi in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx>=0.23.1->txl_remote_terminals==0.2.9) (2024.2.2)
+Requirement already satisfied: httpcore==1.* in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx>=0.23.1->txl_remote_terminals==0.2.9) (1.0.4)
+Requirement already satisfied: idna in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx>=0.23.1->txl_remote_terminals==0.2.9) (3.6)
+Requirement already satisfied: sniffio in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx>=0.23.1->txl_remote_terminals==0.2.9) (1.3.1)
+Requirement already satisfied: h11<0.15,>=0.13 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpcore==1.*->httpx>=0.23.1->txl_remote_terminals==0.2.9) (0.14.0)
+Requirement already satisfied: wsproto in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx-ws>=0.4.2->txl_remote_terminals==0.2.9) (1.2.0)
+Requirement already satisfied: asphalt<5,>=4.12.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl->txl_remote_terminals==0.2.9) (4.12.0)
+Requirement already satisfied: textual<0.54.0,>=0.53.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_terminals==0.2.9) (0.53.1)
+Requirement already satisfied: ruamel.yaml>=0.15 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_remote_terminals==0.2.9) (0.18.6)
+Requirement already satisfied: async-generator~=1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_remote_terminals==0.2.9) (1.10)
+Requirement already satisfied: asyncio-extras~=1.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_remote_terminals==0.2.9) (1.3.2)
+Requirement already satisfied: async-timeout>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_remote_terminals==0.2.9) (4.0.3)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_remote_terminals==0.2.9) (8.1.7)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_terminals==0.2.9) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_terminals==0.2.9) (13.7.1)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_terminals==0.2.9) (4.10.0)
+Requirement already satisfied: tree-sitter<0.21.0,>=0.20.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_terminals==0.2.9) (0.20.4)
+Requirement already satisfied: tree_sitter_languages>=1.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_terminals==0.2.9) (1.10.2)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_terminals==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_terminals==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_terminals==0.2.9) (0.4.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.3.3->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_terminals==0.2.9) (2.17.2)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ruamel.yaml>=0.15->asphalt<5,>=4.12.0->txl->txl_remote_terminals==0.2.9) (0.2.8)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_terminals==0.2.9) (69.2.0)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_terminals==0.2.9) (1.0.3)
+Building wheels for collected packages: txl_remote_terminals
+  Building editable for txl_remote_terminals (pyproject.toml): started
+  Building editable for txl_remote_terminals (pyproject.toml): finished with status 'done'
+  Created wheel for txl_remote_terminals: filename=txl_remote_terminals-0.2.9-py3-none-any.whl size=2547 sha256=e2d826e09317d0e82e5110280135e53030824cca381e1b6b5e159aa2934cf22f
+  Stored in directory: /tmp/pip-ephem-wheel-cache-uiuolwq4/wheels/2a/b4/a7/272b12596a34a23ddcc2daeafc572e9d087d04b5beb5c08339
+Successfully built txl_remote_terminals
+Installing collected packages: txl_remote_terminals
+Successfully installed txl_remote_terminals-0.2.9
+pre-install [18] | pip install -e ./plugins/remote_kernels
+Obtaining file:///home/david/github/davidbrochart/jpterm/plugins/remote_kernels
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: httpx-ws>=0.4.2 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_remote_kernels==0.2.9) (0.5.1)
+Requirement already satisfied: httpx>=0.23.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_remote_kernels==0.2.9) (0.27.0)
+Requirement already satisfied: pycrdt<0.9.0,>=0.8.11 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_remote_kernels==0.2.9) (0.8.11)
+Requirement already satisfied: txl in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_remote_kernels==0.2.9) (0.2.9)
+Requirement already satisfied: txl-kernel in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_remote_kernels==0.2.9) (0.2.9)
+Requirement already satisfied: anyio in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx>=0.23.1->txl_remote_kernels==0.2.9) (4.3.0)
+Requirement already satisfied: certifi in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx>=0.23.1->txl_remote_kernels==0.2.9) (2024.2.2)
+Requirement already satisfied: httpcore==1.* in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx>=0.23.1->txl_remote_kernels==0.2.9) (1.0.4)
+Requirement already satisfied: idna in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx>=0.23.1->txl_remote_kernels==0.2.9) (3.6)
+Requirement already satisfied: sniffio in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx>=0.23.1->txl_remote_kernels==0.2.9) (1.3.1)
+Requirement already satisfied: h11<0.15,>=0.13 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpcore==1.*->httpx>=0.23.1->txl_remote_kernels==0.2.9) (0.14.0)
+Requirement already satisfied: wsproto in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx-ws>=0.4.2->txl_remote_kernels==0.2.9) (1.2.0)
+Requirement already satisfied: asphalt<5,>=4.12.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl->txl_remote_kernels==0.2.9) (4.12.0)
+Requirement already satisfied: textual<0.54.0,>=0.53.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_kernels==0.2.9) (0.53.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl-kernel->txl_remote_kernels==0.2.9) (2.9.0.post0)
+Requirement already satisfied: ruamel.yaml>=0.15 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_remote_kernels==0.2.9) (0.18.6)
+Requirement already satisfied: async-generator~=1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_remote_kernels==0.2.9) (1.10)
+Requirement already satisfied: asyncio-extras~=1.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_remote_kernels==0.2.9) (1.3.2)
+Requirement already satisfied: async-timeout>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_remote_kernels==0.2.9) (4.0.3)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_remote_kernels==0.2.9) (8.1.7)
+Requirement already satisfied: six>=1.5 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from python-dateutil>=2.8.2->txl-kernel->txl_remote_kernels==0.2.9) (1.16.0)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_kernels==0.2.9) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_kernels==0.2.9) (13.7.1)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_kernels==0.2.9) (4.10.0)
+Requirement already satisfied: tree-sitter<0.21.0,>=0.20.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_kernels==0.2.9) (0.20.4)
+Requirement already satisfied: tree_sitter_languages>=1.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_kernels==0.2.9) (1.10.2)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_kernels==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_kernels==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_kernels==0.2.9) (0.4.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.3.3->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_kernels==0.2.9) (2.17.2)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ruamel.yaml>=0.15->asphalt<5,>=4.12.0->txl->txl_remote_kernels==0.2.9) (0.2.8)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_kernels==0.2.9) (69.2.0)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_remote_kernels==0.2.9) (1.0.3)
+Building wheels for collected packages: txl_remote_kernels
+  Building editable for txl_remote_kernels (pyproject.toml): started
+  Building editable for txl_remote_kernels (pyproject.toml): finished with status 'done'
+  Created wheel for txl_remote_kernels: filename=txl_remote_kernels-0.2.9-py3-none-any.whl size=2553 sha256=4512b40756915d34782b85a43d2405af961bff6eca0ff5bff02aa77973e13439
+  Stored in directory: /tmp/pip-ephem-wheel-cache-r0w7wgtx/wheels/ed/43/06/4790b03a48f8aef4504e5e0f1f3333234f8a2f7dbb0bf0e67a
+Successfully built txl_remote_kernels
+Installing collected packages: txl_remote_kernels
+Successfully installed txl_remote_kernels-0.2.9
+pre-install [19] | pip install -e ./plugins/text_editor
+Obtaining file:///home/david/github/davidbrochart/jpterm/plugins/text_editor
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: txl in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_text_editor==0.2.9) (0.2.9)
+Requirement already satisfied: asphalt<5,>=4.12.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl->txl_text_editor==0.2.9) (4.12.0)
+Requirement already satisfied: textual<0.54.0,>=0.53.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_text_editor==0.2.9) (0.53.1)
+Requirement already satisfied: ruamel.yaml>=0.15 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_text_editor==0.2.9) (0.18.6)
+Requirement already satisfied: async-generator~=1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_text_editor==0.2.9) (1.10)
+Requirement already satisfied: asyncio-extras~=1.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_text_editor==0.2.9) (1.3.2)
+Requirement already satisfied: async-timeout>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_text_editor==0.2.9) (4.0.3)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_text_editor==0.2.9) (8.1.7)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_text_editor==0.2.9) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_text_editor==0.2.9) (13.7.1)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_text_editor==0.2.9) (4.10.0)
+Requirement already satisfied: tree-sitter<0.21.0,>=0.20.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_text_editor==0.2.9) (0.20.4)
+Requirement already satisfied: tree_sitter_languages>=1.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_text_editor==0.2.9) (1.10.2)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_text_editor==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_text_editor==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_text_editor==0.2.9) (0.4.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.3.3->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_text_editor==0.2.9) (2.17.2)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ruamel.yaml>=0.15->asphalt<5,>=4.12.0->txl->txl_text_editor==0.2.9) (0.2.8)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_text_editor==0.2.9) (69.2.0)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_text_editor==0.2.9) (1.0.3)
+Building wheels for collected packages: txl_text_editor
+  Building editable for txl_text_editor (pyproject.toml): started
+  Building editable for txl_text_editor (pyproject.toml): finished with status 'done'
+  Created wheel for txl_text_editor: filename=txl_text_editor-0.2.9-py3-none-any.whl size=2449 sha256=01f5ed87475d2b16e35e2fa4059572fe745e35e150c3e59b5ed94c7caadb4724
+  Stored in directory: /tmp/pip-ephem-wheel-cache-rfm6dmlg/wheels/18/a3/94/5ce3a989ede7cde8b35be698f2bfae030283b3a230ba82a910
+Successfully built txl_text_editor
+Installing collected packages: txl_text_editor
+Successfully installed txl_text_editor-0.2.9
+pre-install [20] | pip install -e ./plugins/markdown_viewer
+Obtaining file:///home/david/github/davidbrochart/jpterm/plugins/markdown_viewer
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: txl in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_markdown_viewer==0.2.9) (0.2.9)
+Requirement already satisfied: asphalt<5,>=4.12.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl->txl_markdown_viewer==0.2.9) (4.12.0)
+Requirement already satisfied: textual<0.54.0,>=0.53.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_markdown_viewer==0.2.9) (0.53.1)
+Requirement already satisfied: ruamel.yaml>=0.15 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_markdown_viewer==0.2.9) (0.18.6)
+Requirement already satisfied: async-generator~=1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_markdown_viewer==0.2.9) (1.10)
+Requirement already satisfied: asyncio-extras~=1.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_markdown_viewer==0.2.9) (1.3.2)
+Requirement already satisfied: async-timeout>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_markdown_viewer==0.2.9) (4.0.3)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_markdown_viewer==0.2.9) (8.1.7)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_markdown_viewer==0.2.9) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_markdown_viewer==0.2.9) (13.7.1)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_markdown_viewer==0.2.9) (4.10.0)
+Requirement already satisfied: tree-sitter<0.21.0,>=0.20.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_markdown_viewer==0.2.9) (0.20.4)
+Requirement already satisfied: tree_sitter_languages>=1.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_markdown_viewer==0.2.9) (1.10.2)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_markdown_viewer==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_markdown_viewer==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_markdown_viewer==0.2.9) (0.4.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.3.3->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_markdown_viewer==0.2.9) (2.17.2)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ruamel.yaml>=0.15->asphalt<5,>=4.12.0->txl->txl_markdown_viewer==0.2.9) (0.2.8)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_markdown_viewer==0.2.9) (69.2.0)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_markdown_viewer==0.2.9) (1.0.3)
+Building wheels for collected packages: txl_markdown_viewer
+  Building editable for txl_markdown_viewer (pyproject.toml): started
+  Building editable for txl_markdown_viewer (pyproject.toml): finished with status 'done'
+  Created wheel for txl_markdown_viewer: filename=txl_markdown_viewer-0.2.9-py3-none-any.whl size=2512 sha256=67561563930a489f76d13d82e5bb8e5747e0a85dca51477b3d2e175089bbce99
+  Stored in directory: /tmp/pip-ephem-wheel-cache-wd4kb2sn/wheels/ca/e0/a6/88d940ef139374f7752e83ec2194b7b86af054fa2489132891
+Successfully built txl_markdown_viewer
+Installing collected packages: txl_markdown_viewer
+Successfully installed txl_markdown_viewer-0.2.9
+pre-install [21] | pip install -e ./plugins/terminal
+Obtaining file:///home/david/github/davidbrochart/jpterm/plugins/terminal
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting pyte>=0.8.1 (from txl_terminal==0.2.9)
+  Using cached pyte-0.8.2-py3-none-any.whl.metadata (3.0 kB)
+Requirement already satisfied: txl in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_terminal==0.2.9) (0.2.9)
+Requirement already satisfied: wcwidth in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from pyte>=0.8.1->txl_terminal==0.2.9) (0.2.13)
+Requirement already satisfied: asphalt<5,>=4.12.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl->txl_terminal==0.2.9) (4.12.0)
+Requirement already satisfied: textual<0.54.0,>=0.53.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_terminal==0.2.9) (0.53.1)
+Requirement already satisfied: ruamel.yaml>=0.15 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_terminal==0.2.9) (0.18.6)
+Requirement already satisfied: async-generator~=1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_terminal==0.2.9) (1.10)
+Requirement already satisfied: asyncio-extras~=1.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_terminal==0.2.9) (1.3.2)
+Requirement already satisfied: async-timeout>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_terminal==0.2.9) (4.0.3)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_terminal==0.2.9) (8.1.7)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_terminal==0.2.9) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_terminal==0.2.9) (13.7.1)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_terminal==0.2.9) (4.10.0)
+Requirement already satisfied: tree-sitter<0.21.0,>=0.20.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_terminal==0.2.9) (0.20.4)
+Requirement already satisfied: tree_sitter_languages>=1.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_terminal==0.2.9) (1.10.2)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_terminal==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_terminal==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_terminal==0.2.9) (0.4.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.3.3->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_terminal==0.2.9) (2.17.2)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ruamel.yaml>=0.15->asphalt<5,>=4.12.0->txl->txl_terminal==0.2.9) (0.2.8)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_terminal==0.2.9) (69.2.0)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_terminal==0.2.9) (1.0.3)
+Using cached pyte-0.8.2-py3-none-any.whl (31 kB)
+Building wheels for collected packages: txl_terminal
+  Building editable for txl_terminal (pyproject.toml): started
+  Building editable for txl_terminal (pyproject.toml): finished with status 'done'
+  Created wheel for txl_terminal: filename=txl_terminal-0.2.9-py3-none-any.whl size=2415 sha256=55699d03b186f0ea8e52c2bbfa42d44e1ee66cc712fa3ea16ccb9f98f57806cf
+  Stored in directory: /tmp/pip-ephem-wheel-cache-y4q9d1us/wheels/5f/f3/d8/827dd0d75a4d7ccf42116e6bd439b07eb04b435c735404737d
+Successfully built txl_terminal
+Installing collected packages: pyte, txl_terminal
+Successfully installed pyte-0.8.2 txl_terminal-0.2.9
+pre-install [22] | pip install -e ./plugins/launcher
+Obtaining file:///home/david/github/davidbrochart/jpterm/plugins/launcher
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: txl in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_launcher==0.2.9) (0.2.9)
+Requirement already satisfied: asphalt<5,>=4.12.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl->txl_launcher==0.2.9) (4.12.0)
+Requirement already satisfied: textual<0.54.0,>=0.53.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_launcher==0.2.9) (0.53.1)
+Requirement already satisfied: ruamel.yaml>=0.15 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_launcher==0.2.9) (0.18.6)
+Requirement already satisfied: async-generator~=1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_launcher==0.2.9) (1.10)
+Requirement already satisfied: asyncio-extras~=1.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_launcher==0.2.9) (1.3.2)
+Requirement already satisfied: async-timeout>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_launcher==0.2.9) (4.0.3)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_launcher==0.2.9) (8.1.7)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_launcher==0.2.9) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_launcher==0.2.9) (13.7.1)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_launcher==0.2.9) (4.10.0)
+Requirement already satisfied: tree-sitter<0.21.0,>=0.20.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_launcher==0.2.9) (0.20.4)
+Requirement already satisfied: tree_sitter_languages>=1.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_launcher==0.2.9) (1.10.2)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_launcher==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_launcher==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_launcher==0.2.9) (0.4.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.3.3->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_launcher==0.2.9) (2.17.2)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ruamel.yaml>=0.15->asphalt<5,>=4.12.0->txl->txl_launcher==0.2.9) (0.2.8)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_launcher==0.2.9) (69.2.0)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual<0.54.0,>=0.53.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_launcher==0.2.9) (1.0.3)
+Building wheels for collected packages: txl_launcher
+  Building editable for txl_launcher (pyproject.toml): started
+  Building editable for txl_launcher (pyproject.toml): finished with status 'done'
+  Created wheel for txl_launcher: filename=txl_launcher-0.2.9-py3-none-any.whl size=2397 sha256=8dfbe2bef9a2dfedc008b431205de486adc548353bb6aae6ab669851c6cee4e0
+  Stored in directory: /tmp/pip-ephem-wheel-cache-pi9xhyvo/wheels/14/8b/68/38470bf94ca3629d58ef06accafd3889038c11203703cc3d84
+Successfully built txl_launcher
+Installing collected packages: txl_launcher
+Successfully installed txl_launcher-0.2.9
+pre-install [23] | pip install -e ./plugins/widgets
+Obtaining file:///home/david/github/davidbrochart/jpterm/plugins/widgets
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: pycrdt<0.9.0,>=0.8.11 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_widgets==0.2.9) (0.8.11)
+Requirement already satisfied: txl in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl_widgets==0.2.9) (0.2.9)
+Collecting ypywidgets-textual<0.4.0,>=0.3.0 (from txl_widgets==0.2.9)
+  Using cached ypywidgets_textual-0.3.0-py3-none-any.whl.metadata (527 bytes)
+Collecting ypywidgets<0.7.0,>=0.6.5 (from txl_widgets==0.2.9)
+  Using cached ypywidgets-0.6.5-py3-none-any.whl.metadata (1.8 kB)
+Requirement already satisfied: comm<1,>=0.1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ypywidgets<0.7.0,>=0.6.5->txl_widgets==0.2.9) (0.2.2)
+Collecting reacttrs<1,>=0.1.4 (from ypywidgets<0.7.0,>=0.6.5->txl_widgets==0.2.9)
+  Using cached reacttrs-0.1.4-py3-none-any.whl.metadata (1.0 kB)
+Requirement already satisfied: pyte in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ypywidgets-textual<0.4.0,>=0.3.0->txl_widgets==0.2.9) (0.8.2)
+Collecting textual-plotext (from ypywidgets-textual<0.4.0,>=0.3.0->txl_widgets==0.2.9)
+  Using cached textual_plotext-0.2.1-py3-none-any.whl.metadata (8.1 kB)
+Requirement already satisfied: textual>=0.41.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ypywidgets-textual<0.4.0,>=0.3.0->txl_widgets==0.2.9) (0.53.1)
+Requirement already satisfied: asphalt<5,>=4.12.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from txl->txl_widgets==0.2.9) (4.12.0)
+Requirement already satisfied: ruamel.yaml>=0.15 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_widgets==0.2.9) (0.18.6)
+Requirement already satisfied: async-generator~=1.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_widgets==0.2.9) (1.10)
+Requirement already satisfied: asyncio-extras~=1.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_widgets==0.2.9) (1.3.2)
+Requirement already satisfied: async-timeout>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_widgets==0.2.9) (4.0.3)
+Requirement already satisfied: click>=6.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from asphalt<5,>=4.12.0->txl->txl_widgets==0.2.9) (8.1.7)
+Requirement already satisfied: traitlets>=4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from comm<1,>=0.1.4->ypywidgets<0.7.0,>=0.6.5->txl_widgets==0.2.9) (5.14.2)
+Requirement already satisfied: markdown-it-py>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual>=0.41.0->ypywidgets-textual<0.4.0,>=0.3.0->txl_widgets==0.2.9) (3.0.0)
+Requirement already satisfied: rich>=13.3.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual>=0.41.0->ypywidgets-textual<0.4.0,>=0.3.0->txl_widgets==0.2.9) (13.7.1)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual>=0.41.0->ypywidgets-textual<0.4.0,>=0.3.0->txl_widgets==0.2.9) (4.10.0)
+Requirement already satisfied: tree-sitter<0.21.0,>=0.20.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_widgets==0.2.9) (0.20.4)
+Requirement already satisfied: tree_sitter_languages>=1.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from textual[syntax]<0.54.0,>=0.53.1->txl->txl_widgets==0.2.9) (1.10.2)
+Requirement already satisfied: wcwidth in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from pyte->ypywidgets-textual<0.4.0,>=0.3.0->txl_widgets==0.2.9) (0.2.13)
+Collecting plotext<6.0.0,>=5.2.8 (from textual-plotext->ypywidgets-textual<0.4.0,>=0.3.0->txl_widgets==0.2.9)
+  Using cached plotext-5.2.8-py3-none-any.whl.metadata (5.3 kB)
+Requirement already satisfied: mdurl~=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py>=2.1.0->markdown-it-py[linkify,plugins]>=2.1.0->textual>=0.41.0->ypywidgets-textual<0.4.0,>=0.3.0->txl_widgets==0.2.9) (0.1.2)
+Requirement already satisfied: linkify-it-py<3,>=1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual>=0.41.0->ypywidgets-textual<0.4.0,>=0.3.0->txl_widgets==0.2.9) (2.0.3)
+Requirement already satisfied: mdit-py-plugins in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from markdown-it-py[linkify,plugins]>=2.1.0->textual>=0.41.0->ypywidgets-textual<0.4.0,>=0.3.0->txl_widgets==0.2.9) (0.4.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rich>=13.3.3->textual>=0.41.0->ypywidgets-textual<0.4.0,>=0.3.0->txl_widgets==0.2.9) (2.17.2)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ruamel.yaml>=0.15->asphalt<5,>=4.12.0->txl->txl_widgets==0.2.9) (0.2.8)
+Requirement already satisfied: setuptools>=60.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from tree-sitter<0.21.0,>=0.20.1->textual[syntax]<0.54.0,>=0.53.1->txl->txl_widgets==0.2.9) (69.2.0)
+Requirement already satisfied: uc-micro-py in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual>=0.41.0->ypywidgets-textual<0.4.0,>=0.3.0->txl_widgets==0.2.9) (1.0.3)
+Using cached ypywidgets-0.6.5-py3-none-any.whl (5.8 kB)
+Using cached ypywidgets_textual-0.3.0-py3-none-any.whl (9.8 kB)
+Using cached reacttrs-0.1.4-py3-none-any.whl (5.3 kB)
+Using cached textual_plotext-0.2.1-py3-none-any.whl (16 kB)
+Using cached plotext-5.2.8-py3-none-any.whl (60 kB)
+Building wheels for collected packages: txl_widgets
+  Building editable for txl_widgets (pyproject.toml): started
+  Building editable for txl_widgets (pyproject.toml): finished with status 'done'
+  Created wheel for txl_widgets: filename=txl_widgets-0.2.9-py3-none-any.whl size=2446 sha256=9aa0132a52041120ef16103d80bb4aa3ab9a0b02b919dc53005650664a991bec
+  Stored in directory: /tmp/pip-ephem-wheel-cache-cv1pege7/wheels/c9/31/b0/3f0ecbb37eb4d801cc8c90004400eb003ebbab6e1c3432a813
+Successfully built txl_widgets
+Installing collected packages: reacttrs, plotext, ypywidgets, textual-plotext, ypywidgets-textual, txl_widgets
+Successfully installed plotext-5.2.8 reacttrs-0.1.4 textual-plotext-0.2.1 txl_widgets-0.2.9 ypywidgets-0.6.5 ypywidgets-textual-0.3.0
+pre-install [24] | pip install "jupyterlab>=4"
+Collecting jupyterlab>=4
+  Using cached jupyterlab-4.1.5-py3-none-any.whl.metadata (15 kB)
+Collecting async-lru>=1.0.0 (from jupyterlab>=4)
+  Using cached async_lru-2.0.4-py3-none-any.whl.metadata (4.5 kB)
+Requirement already satisfied: httpx>=0.25.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyterlab>=4) (0.27.0)
+Requirement already satisfied: ipykernel in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyterlab>=4) (6.29.3)
+Collecting jinja2>=3.0.3 (from jupyterlab>=4)
+  Using cached Jinja2-3.1.3-py3-none-any.whl.metadata (3.3 kB)
+Requirement already satisfied: jupyter-core in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyterlab>=4) (5.7.2)
+Collecting jupyter-lsp>=2.0.0 (from jupyterlab>=4)
+  Using cached jupyter_lsp-2.2.4-py3-none-any.whl.metadata (1.8 kB)
+Collecting jupyter-server<3,>=2.4.0 (from jupyterlab>=4)
+  Using cached jupyter_server-2.13.0-py3-none-any.whl.metadata (8.4 kB)
+Collecting jupyterlab-server<3,>=2.19.0 (from jupyterlab>=4)
+  Using cached jupyterlab_server-2.25.4-py3-none-any.whl.metadata (5.9 kB)
+Collecting notebook-shim>=0.2 (from jupyterlab>=4)
+  Using cached notebook_shim-0.2.4-py3-none-any.whl.metadata (4.0 kB)
+Requirement already satisfied: packaging in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyterlab>=4) (24.0)
+Requirement already satisfied: tornado>=6.2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyterlab>=4) (6.4)
+Requirement already satisfied: traitlets in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyterlab>=4) (5.14.2)
+Requirement already satisfied: anyio in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx>=0.25.0->jupyterlab>=4) (4.3.0)
+Requirement already satisfied: certifi in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx>=0.25.0->jupyterlab>=4) (2024.2.2)
+Requirement already satisfied: httpcore==1.* in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx>=0.25.0->jupyterlab>=4) (1.0.4)
+Requirement already satisfied: idna in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx>=0.25.0->jupyterlab>=4) (3.6)
+Requirement already satisfied: sniffio in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpx>=0.25.0->jupyterlab>=4) (1.3.1)
+Requirement already satisfied: h11<0.15,>=0.13 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from httpcore==1.*->httpx>=0.25.0->jupyterlab>=4) (0.14.0)
+Collecting MarkupSafe>=2.0 (from jinja2>=3.0.3->jupyterlab>=4)
+  Using cached MarkupSafe-2.1.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.0 kB)
+Collecting argon2-cffi (from jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached argon2_cffi-23.1.0-py3-none-any.whl.metadata (5.2 kB)
+Requirement already satisfied: jupyter-client>=7.4.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-server<3,>=2.4.0->jupyterlab>=4) (8.6.1)
+Collecting jupyter-events>=0.9.0 (from jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached jupyter_events-0.10.0-py3-none-any.whl.metadata (5.9 kB)
+Collecting jupyter-server-terminals (from jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached jupyter_server_terminals-0.5.3-py3-none-any.whl.metadata (5.6 kB)
+Collecting nbconvert>=6.4.4 (from jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached nbconvert-7.16.2-py3-none-any.whl.metadata (8.0 kB)
+Collecting nbformat>=5.3.0 (from jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached nbformat-5.10.3-py3-none-any.whl.metadata (3.6 kB)
+Collecting overrides (from jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached overrides-7.7.0-py3-none-any.whl.metadata (5.8 kB)
+Collecting prometheus-client (from jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached prometheus_client-0.20.0-py3-none-any.whl.metadata (1.8 kB)
+Requirement already satisfied: pyzmq>=24 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-server<3,>=2.4.0->jupyterlab>=4) (25.1.2)
+Collecting send2trash>=1.8.2 (from jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached Send2Trash-1.8.2-py3-none-any.whl.metadata (4.0 kB)
+Collecting terminado>=0.8.3 (from jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached terminado-0.18.1-py3-none-any.whl.metadata (5.8 kB)
+Collecting websocket-client (from jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached websocket_client-1.7.0-py3-none-any.whl.metadata (7.9 kB)
+Requirement already satisfied: platformdirs>=2.5 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-core->jupyterlab>=4) (4.2.0)
+Collecting babel>=2.10 (from jupyterlab-server<3,>=2.19.0->jupyterlab>=4)
+  Using cached Babel-2.14.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting json5>=0.9.0 (from jupyterlab-server<3,>=2.19.0->jupyterlab>=4)
+  Using cached json5-0.9.24-py3-none-any.whl.metadata (30 kB)
+Collecting jsonschema>=4.18.0 (from jupyterlab-server<3,>=2.19.0->jupyterlab>=4)
+  Using cached jsonschema-4.21.1-py3-none-any.whl.metadata (7.8 kB)
+Collecting requests>=2.31 (from jupyterlab-server<3,>=2.19.0->jupyterlab>=4)
+  Using cached requests-2.31.0-py3-none-any.whl.metadata (4.6 kB)
+Requirement already satisfied: comm>=0.1.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ipykernel->jupyterlab>=4) (0.2.2)
+Requirement already satisfied: debugpy>=1.6.5 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ipykernel->jupyterlab>=4) (1.8.1)
+Requirement already satisfied: ipython>=7.23.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ipykernel->jupyterlab>=4) (8.22.2)
+Requirement already satisfied: matplotlib-inline>=0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ipykernel->jupyterlab>=4) (0.1.6)
+Requirement already satisfied: nest-asyncio in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ipykernel->jupyterlab>=4) (1.6.0)
+Requirement already satisfied: psutil in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ipykernel->jupyterlab>=4) (5.9.8)
+Requirement already satisfied: decorator in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ipython>=7.23.1->ipykernel->jupyterlab>=4) (5.1.1)
+Requirement already satisfied: jedi>=0.16 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ipython>=7.23.1->ipykernel->jupyterlab>=4) (0.19.1)
+Requirement already satisfied: prompt-toolkit<3.1.0,>=3.0.41 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ipython>=7.23.1->ipykernel->jupyterlab>=4) (3.0.43)
+Requirement already satisfied: pygments>=2.4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ipython>=7.23.1->ipykernel->jupyterlab>=4) (2.17.2)
+Requirement already satisfied: stack-data in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ipython>=7.23.1->ipykernel->jupyterlab>=4) (0.6.3)
+Requirement already satisfied: pexpect>4.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from ipython>=7.23.1->ipykernel->jupyterlab>=4) (4.9.0)
+Requirement already satisfied: attrs>=22.2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.19.0->jupyterlab>=4) (23.2.0)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.19.0->jupyterlab>=4)
+  Using cached jsonschema_specifications-2023.12.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.19.0->jupyterlab>=4)
+  Using cached referencing-0.34.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.7.1 (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.19.0->jupyterlab>=4)
+  Using cached rpds_py-0.18.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-client>=7.4.4->jupyter-server<3,>=2.4.0->jupyterlab>=4) (2.9.0.post0)
+Collecting python-json-logger>=2.0.4 (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached python_json_logger-2.0.7-py3-none-any.whl.metadata (6.5 kB)
+Requirement already satisfied: pyyaml>=5.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab>=4) (6.0.1)
+Collecting rfc3339-validator (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached rfc3339_validator-0.1.4-py2.py3-none-any.whl.metadata (1.5 kB)
+Collecting rfc3986-validator>=0.1.1 (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached rfc3986_validator-0.1.1-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting beautifulsoup4 (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached beautifulsoup4-4.12.3-py3-none-any.whl.metadata (3.8 kB)
+Collecting bleach!=5.0.0 (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached bleach-6.1.0-py3-none-any.whl.metadata (30 kB)
+Collecting defusedxml (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached defusedxml-0.7.1-py2.py3-none-any.whl.metadata (32 kB)
+Collecting jupyterlab-pygments (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached jupyterlab_pygments-0.3.0-py3-none-any.whl.metadata (4.4 kB)
+Collecting mistune<4,>=2.0.3 (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached mistune-3.0.2-py3-none-any.whl.metadata (1.7 kB)
+Collecting nbclient>=0.5.0 (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached nbclient-0.10.0-py3-none-any.whl.metadata (7.8 kB)
+Collecting pandocfilters>=1.4.1 (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached pandocfilters-1.5.1-py2.py3-none-any.whl.metadata (9.0 kB)
+Collecting tinycss2 (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached tinycss2-1.2.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting fastjsonschema (from nbformat>=5.3.0->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached fastjsonschema-2.19.1-py3-none-any.whl.metadata (2.1 kB)
+Collecting charset-normalizer<4,>=2 (from requests>=2.31->jupyterlab-server<3,>=2.19.0->jupyterlab>=4)
+  Using cached charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (33 kB)
+Collecting urllib3<3,>=1.21.1 (from requests>=2.31->jupyterlab-server<3,>=2.19.0->jupyterlab>=4)
+  Using cached urllib3-2.2.1-py3-none-any.whl.metadata (6.4 kB)
+Requirement already satisfied: ptyprocess in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from terminado>=0.8.3->jupyter-server<3,>=2.4.0->jupyterlab>=4) (0.7.0)
+Collecting argon2-cffi-bindings (from argon2-cffi->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached argon2_cffi_bindings-21.2.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.7 kB)
+Requirement already satisfied: six>=1.9.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from bleach!=5.0.0->nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab>=4) (1.16.0)
+Collecting webencodings (from bleach!=5.0.0->nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached webencodings-0.5.1-py2.py3-none-any.whl.metadata (2.1 kB)
+Requirement already satisfied: parso<0.9.0,>=0.8.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jedi>=0.16->ipython>=7.23.1->ipykernel->jupyterlab>=4) (0.8.3)
+Collecting fqdn (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached fqdn-1.5.1-py3-none-any.whl.metadata (1.4 kB)
+Collecting isoduration (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached isoduration-20.11.0-py3-none-any.whl.metadata (5.7 kB)
+Collecting jsonpointer>1.13 (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached jsonpointer-2.4-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting uri-template (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached uri_template-1.3.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting webcolors>=1.11 (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached webcolors-1.13-py3-none-any.whl.metadata (2.6 kB)
+Requirement already satisfied: wcwidth in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from prompt-toolkit<3.1.0,>=3.0.41->ipython>=7.23.1->ipykernel->jupyterlab>=4) (0.2.13)
+Collecting cffi>=1.0.1 (from argon2-cffi-bindings->argon2-cffi->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached cffi-1.16.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting soupsieve>1.2 (from beautifulsoup4->nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached soupsieve-2.5-py3-none-any.whl.metadata (4.7 kB)
+Requirement already satisfied: executing>=1.2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from stack-data->ipython>=7.23.1->ipykernel->jupyterlab>=4) (2.0.1)
+Requirement already satisfied: asttokens>=2.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from stack-data->ipython>=7.23.1->ipykernel->jupyterlab>=4) (2.4.1)
+Requirement already satisfied: pure-eval in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from stack-data->ipython>=7.23.1->ipykernel->jupyterlab>=4) (0.2.2)
+Collecting pycparser (from cffi>=1.0.1->argon2-cffi-bindings->argon2-cffi->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached pycparser-2.21-py2.py3-none-any.whl.metadata (1.1 kB)
+Collecting arrow>=0.15.0 (from isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached arrow-1.3.0-py3-none-any.whl.metadata (7.5 kB)
+Collecting types-python-dateutil>=2.8.10 (from arrow>=0.15.0->isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab>=4)
+  Using cached types_python_dateutil-2.9.0.20240316-py3-none-any.whl.metadata (1.8 kB)
+Using cached jupyterlab-4.1.5-py3-none-any.whl (11.4 MB)
+Using cached async_lru-2.0.4-py3-none-any.whl (6.1 kB)
+Using cached Jinja2-3.1.3-py3-none-any.whl (133 kB)
+Using cached jupyter_lsp-2.2.4-py3-none-any.whl (69 kB)
+Using cached jupyter_server-2.13.0-py3-none-any.whl (383 kB)
+Using cached jupyterlab_server-2.25.4-py3-none-any.whl (58 kB)
+Using cached notebook_shim-0.2.4-py3-none-any.whl (13 kB)
+Using cached Babel-2.14.0-py3-none-any.whl (11.0 MB)
+Using cached json5-0.9.24-py3-none-any.whl (30 kB)
+Using cached jsonschema-4.21.1-py3-none-any.whl (85 kB)
+Using cached jupyter_events-0.10.0-py3-none-any.whl (18 kB)
+Using cached MarkupSafe-2.1.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (28 kB)
+Using cached nbconvert-7.16.2-py3-none-any.whl (257 kB)
+Using cached nbformat-5.10.3-py3-none-any.whl (78 kB)
+Using cached requests-2.31.0-py3-none-any.whl (62 kB)
+Using cached Send2Trash-1.8.2-py3-none-any.whl (18 kB)
+Using cached terminado-0.18.1-py3-none-any.whl (14 kB)
+Using cached argon2_cffi-23.1.0-py3-none-any.whl (15 kB)
+Using cached jupyter_server_terminals-0.5.3-py3-none-any.whl (13 kB)
+Using cached overrides-7.7.0-py3-none-any.whl (17 kB)
+Using cached prometheus_client-0.20.0-py3-none-any.whl (54 kB)
+Using cached websocket_client-1.7.0-py3-none-any.whl (58 kB)
+Using cached bleach-6.1.0-py3-none-any.whl (162 kB)
+Using cached charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (141 kB)
+Using cached jsonschema_specifications-2023.12.1-py3-none-any.whl (18 kB)
+Using cached mistune-3.0.2-py3-none-any.whl (47 kB)
+Using cached nbclient-0.10.0-py3-none-any.whl (25 kB)
+Using cached pandocfilters-1.5.1-py2.py3-none-any.whl (8.7 kB)
+Using cached python_json_logger-2.0.7-py3-none-any.whl (8.1 kB)
+Using cached referencing-0.34.0-py3-none-any.whl (26 kB)
+Using cached rfc3986_validator-0.1.1-py2.py3-none-any.whl (4.2 kB)
+Using cached rpds_py-0.18.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+Using cached urllib3-2.2.1-py3-none-any.whl (121 kB)
+Using cached argon2_cffi_bindings-21.2.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (86 kB)
+Using cached beautifulsoup4-4.12.3-py3-none-any.whl (147 kB)
+Using cached defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Using cached fastjsonschema-2.19.1-py3-none-any.whl (23 kB)
+Using cached jupyterlab_pygments-0.3.0-py3-none-any.whl (15 kB)
+Using cached rfc3339_validator-0.1.4-py2.py3-none-any.whl (3.5 kB)
+Using cached tinycss2-1.2.1-py3-none-any.whl (21 kB)
+Using cached cffi-1.16.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (477 kB)
+Using cached jsonpointer-2.4-py2.py3-none-any.whl (7.8 kB)
+Using cached soupsieve-2.5-py3-none-any.whl (36 kB)
+Using cached webcolors-1.13-py3-none-any.whl (14 kB)
+Using cached webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Using cached fqdn-1.5.1-py3-none-any.whl (9.1 kB)
+Using cached isoduration-20.11.0-py3-none-any.whl (11 kB)
+Using cached uri_template-1.3.0-py3-none-any.whl (11 kB)
+Using cached arrow-1.3.0-py3-none-any.whl (66 kB)
+Using cached pycparser-2.21-py2.py3-none-any.whl (118 kB)
+Using cached types_python_dateutil-2.9.0.20240316-py3-none-any.whl (9.7 kB)
+Installing collected packages: webencodings, fastjsonschema, websocket-client, webcolors, urllib3, uri-template, types-python-dateutil, tinycss2, terminado, soupsieve, send2trash, rpds-py, rfc3986-validator, rfc3339-validator, python-json-logger, pycparser, prometheus-client, pandocfilters, overrides, mistune, MarkupSafe, jupyterlab-pygments, jsonpointer, json5, fqdn, defusedxml, charset-normalizer, bleach, babel, async-lru, requests, referencing, jupyter-server-terminals, jinja2, cffi, beautifulsoup4, arrow, jsonschema-specifications, isoduration, argon2-cffi-bindings, jsonschema, argon2-cffi, nbformat, nbclient, jupyter-events, nbconvert, jupyter-server, notebook-shim, jupyterlab-server, jupyter-lsp, jupyterlab
+Successfully installed MarkupSafe-2.1.5 argon2-cffi-23.1.0 argon2-cffi-bindings-21.2.0 arrow-1.3.0 async-lru-2.0.4 babel-2.14.0 beautifulsoup4-4.12.3 bleach-6.1.0 cffi-1.16.0 charset-normalizer-3.3.2 defusedxml-0.7.1 fastjsonschema-2.19.1 fqdn-1.5.1 isoduration-20.11.0 jinja2-3.1.3 json5-0.9.24 jsonpointer-2.4 jsonschema-4.21.1 jsonschema-specifications-2023.12.1 jupyter-events-0.10.0 jupyter-lsp-2.2.4 jupyter-server-2.13.0 jupyter-server-terminals-0.5.3 jupyterlab-4.1.5 jupyterlab-pygments-0.3.0 jupyterlab-server-2.25.4 mistune-3.0.2 nbclient-0.10.0 nbconvert-7.16.2 nbformat-5.10.3 notebook-shim-0.2.4 overrides-7.7.0 pandocfilters-1.5.1 prometheus-client-0.20.0 pycparser-2.21 python-json-logger-2.0.7 referencing-0.34.0 requests-2.31.0 rfc3339-validator-0.1.4 rfc3986-validator-0.1.1 rpds-py-0.18.0 send2trash-1.8.2 soupsieve-2.5 terminado-0.18.1 tinycss2-1.2.1 types-python-dateutil-2.9.0.20240316 uri-template-1.3.0 urllib3-2.2.1 webcolors-1.13 webencodings-0.5.1 websocket-client-1.7.0
+pre-install [25] | pip install "jupyter-collaboration >=2"
+Collecting jupyter-collaboration>=2
+  Using cached jupyter_collaboration-2.0.3-py3-none-any.whl.metadata (6.9 kB)
+Requirement already satisfied: jsonschema>=4.18.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-collaboration>=2) (4.21.1)
+Requirement already satisfied: jupyter-events>=0.7.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-collaboration>=2) (0.10.0)
+Collecting jupyter-server-fileid<1,>=0.7.0 (from jupyter-collaboration>=2)
+  Using cached jupyter_server_fileid-0.9.1-py3-none-any.whl.metadata (4.7 kB)
+Requirement already satisfied: jupyter-server<3.0.0,>=2.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-collaboration>=2) (2.13.0)
+Requirement already satisfied: jupyter-ydoc<3.0.0,>=2.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-collaboration>=2) (2.0.1)
+Requirement already satisfied: pycrdt-websocket<0.13.0,>=0.12.5 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-collaboration>=2) (0.12.7)
+Requirement already satisfied: attrs>=22.2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jsonschema>=4.18.0->jupyter-collaboration>=2) (23.2.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jsonschema>=4.18.0->jupyter-collaboration>=2) (2023.12.1)
+Requirement already satisfied: referencing>=0.28.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jsonschema>=4.18.0->jupyter-collaboration>=2) (0.34.0)
+Requirement already satisfied: rpds-py>=0.7.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jsonschema>=4.18.0->jupyter-collaboration>=2) (0.18.0)
+Requirement already satisfied: python-json-logger>=2.0.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-events>=0.7.0->jupyter-collaboration>=2) (2.0.7)
+Requirement already satisfied: pyyaml>=5.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-events>=0.7.0->jupyter-collaboration>=2) (6.0.1)
+Requirement already satisfied: rfc3339-validator in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-events>=0.7.0->jupyter-collaboration>=2) (0.1.4)
+Requirement already satisfied: rfc3986-validator>=0.1.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-events>=0.7.0->jupyter-collaboration>=2) (0.1.1)
+Requirement already satisfied: traitlets>=5.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-events>=0.7.0->jupyter-collaboration>=2) (5.14.2)
+Requirement already satisfied: anyio>=3.1.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (4.3.0)
+Requirement already satisfied: argon2-cffi in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (23.1.0)
+Requirement already satisfied: jinja2 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (3.1.3)
+Requirement already satisfied: jupyter-client>=7.4.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (8.6.1)
+Requirement already satisfied: jupyter-core!=5.0.*,>=4.12 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (5.7.2)
+Requirement already satisfied: jupyter-server-terminals in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (0.5.3)
+Requirement already satisfied: nbconvert>=6.4.4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (7.16.2)
+Requirement already satisfied: nbformat>=5.3.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (5.10.3)
+Requirement already satisfied: overrides in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (7.7.0)
+Requirement already satisfied: packaging in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (24.0)
+Requirement already satisfied: prometheus-client in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (0.20.0)
+Requirement already satisfied: pyzmq>=24 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (25.1.2)
+Requirement already satisfied: send2trash>=1.8.2 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (1.8.2)
+Requirement already satisfied: terminado>=0.8.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (0.18.1)
+Requirement already satisfied: tornado>=6.2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (6.4)
+Requirement already satisfied: websocket-client in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (1.7.0)
+Requirement already satisfied: pycrdt<0.9.0,>=0.8.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-ydoc<3.0.0,>=2.0.0->jupyter-collaboration>=2) (0.8.11)
+Requirement already satisfied: aiosqlite<1,>=0.18.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from pycrdt-websocket<0.13.0,>=0.12.5->jupyter-collaboration>=2) (0.20.0)
+Requirement already satisfied: typing_extensions>=4.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from aiosqlite<1,>=0.18.0->pycrdt-websocket<0.13.0,>=0.12.5->jupyter-collaboration>=2) (4.10.0)
+Requirement already satisfied: idna>=2.8 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from anyio>=3.1.0->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (3.6)
+Requirement already satisfied: sniffio>=1.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from anyio>=3.1.0->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (1.3.1)
+Requirement already satisfied: fqdn in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.7.0->jupyter-collaboration>=2) (1.5.1)
+Requirement already satisfied: isoduration in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.7.0->jupyter-collaboration>=2) (20.11.0)
+Requirement already satisfied: jsonpointer>1.13 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.7.0->jupyter-collaboration>=2) (2.4)
+Requirement already satisfied: uri-template in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.7.0->jupyter-collaboration>=2) (1.3.0)
+Requirement already satisfied: webcolors>=1.11 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.7.0->jupyter-collaboration>=2) (1.13)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-client>=7.4.4->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (2.9.0.post0)
+Requirement already satisfied: platformdirs>=2.5 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from jupyter-core!=5.0.*,>=4.12->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (4.2.0)
+Requirement already satisfied: beautifulsoup4 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from nbconvert>=6.4.4->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (4.12.3)
+Requirement already satisfied: bleach!=5.0.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from nbconvert>=6.4.4->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (6.1.0)
+Requirement already satisfied: defusedxml in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from nbconvert>=6.4.4->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (0.7.1)
+Requirement already satisfied: jupyterlab-pygments in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from nbconvert>=6.4.4->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (0.3.0)
+Requirement already satisfied: markupsafe>=2.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from nbconvert>=6.4.4->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (2.1.5)
+Requirement already satisfied: mistune<4,>=2.0.3 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from nbconvert>=6.4.4->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (3.0.2)
+Requirement already satisfied: nbclient>=0.5.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from nbconvert>=6.4.4->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (0.10.0)
+Requirement already satisfied: pandocfilters>=1.4.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from nbconvert>=6.4.4->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (1.5.1)
+Requirement already satisfied: pygments>=2.4.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from nbconvert>=6.4.4->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (2.17.2)
+Requirement already satisfied: tinycss2 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from nbconvert>=6.4.4->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (1.2.1)
+Requirement already satisfied: fastjsonschema in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from nbformat>=5.3.0->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (2.19.1)
+Requirement already satisfied: ptyprocess in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from terminado>=0.8.3->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (0.7.0)
+Requirement already satisfied: argon2-cffi-bindings in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from argon2-cffi->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (21.2.0)
+Requirement already satisfied: six in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from rfc3339-validator->jupyter-events>=0.7.0->jupyter-collaboration>=2) (1.16.0)
+Requirement already satisfied: webencodings in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from bleach!=5.0.0->nbconvert>=6.4.4->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (0.5.1)
+Requirement already satisfied: cffi>=1.0.1 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from argon2-cffi-bindings->argon2-cffi->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (1.16.0)
+Requirement already satisfied: soupsieve>1.2 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from beautifulsoup4->nbconvert>=6.4.4->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (2.5)
+Requirement already satisfied: arrow>=0.15.0 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.7.0->jupyter-collaboration>=2) (1.3.0)
+Requirement already satisfied: types-python-dateutil>=2.8.10 in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from arrow>=0.15.0->isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.7.0->jupyter-collaboration>=2) (2.9.0.20240316)
+Requirement already satisfied: pycparser in /home/david/.local/share/hatch/env/virtual/jpterm/-V8cnvgI/dev/lib/python3.12/site-packages (from cffi>=1.0.1->argon2-cffi-bindings->argon2-cffi->jupyter-server<3.0.0,>=2.0.0->jupyter-collaboration>=2) (2.21)
+Using cached jupyter_collaboration-2.0.3-py3-none-any.whl (56 kB)
+Using cached jupyter_server_fileid-0.9.1-py3-none-any.whl (16 kB)
+Installing collected packages: jupyter-server-fileid, jupyter-collaboration
+Successfully installed jupyter-collaboration-2.0.3 jupyter-server-fileid-0.9.1
