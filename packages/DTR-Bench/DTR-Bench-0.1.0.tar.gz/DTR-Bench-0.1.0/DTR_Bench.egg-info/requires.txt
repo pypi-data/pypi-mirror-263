@@ -1,0 +1,3 @@
+DTRGym
+optuna==3.2.0
+wandb
