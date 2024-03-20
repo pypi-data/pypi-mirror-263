@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: coghotswap
+Version: 0.0.2
+Summary: Allow hot reloading of extensions for Pycord a fork of discord.py
+Home-page: https://github.com/TropicalShadow/coghotswap
+Author: TropicalShadow
+Author-email: me@tesseract.club
+License: The MIT License (MIT)
+Keywords: discord development hotswap
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: watchgod
+
+# CogHotSwap
+
+> Work in progress
+
+You ever wish that your discord bot cogs would just reload by themselves? Well now you can, by adding just one line of code to your bot we will automate the reloading of all your cogs, and hopefully give you feed back (Coming Soon Feature).
+
+This project was built for [Pycord](https://github.com/Pycord-Development/pycord) a fork of [Discord.py](https://github.com/Rapptz/discord.py)
+
+----
+
+## Installation
+
+```sh
+git clone https://github.com/TropicalShadow/CogHotSwap
+cd CogHotSwap
+python -m pip install -U .
+```
+
+or if you have git, add this to your requirements.txt
+
+```sh
+git+https://github.com/TropicalShadow/CogHotSwap
+```
+
+----
+
+## Coming Soon Features
+
+- [x] List of unloaded cogs that can be loaded or have errored
+- [x] Enhance the reloading of the files
+
+----
+Examples [here](examples/basic_bot.py)
+
+```py
+from discord.ext.commands import Bot
+from coghotswap import Watcher
+
+bot = Bot("!")
+Watcher(bot, path="cogs")
+
+bot.run("token")
+```
+
+----
+
+## Need Support?
+
+Contact me on discord `RealName_123#2570`

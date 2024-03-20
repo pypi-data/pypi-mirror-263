@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+coghotswap/__init__.py
+coghotswap/__version__.py
+coghotswap/coghotswap.py
+coghotswap.egg-info/PKG-INFO
+coghotswap.egg-info/SOURCES.txt
+coghotswap.egg-info/dependency_links.txt
+coghotswap.egg-info/not-zip-safe
+coghotswap.egg-info/requires.txt
+coghotswap.egg-info/top_level.txt
