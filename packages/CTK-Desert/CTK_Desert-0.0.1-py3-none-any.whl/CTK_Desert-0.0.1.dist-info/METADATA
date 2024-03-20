@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: CTK_Desert
+Version: 0.0.1
+Summary: A GUI that uses the customtkinter library to create GUIs based on your need, so that you focus on the functionality of your application and not the design.
+Author-email: Morad Sayed <Morad.S.Singer@gmail.com>
+Keywords: CTK_Desert,tkinter,Customtkinter,GUI,APP,beautiful,design,easy,simple,fast,CTK
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: customtkinter >=5.2.0
+Requires-Dist: Pillow >=9.4.0
+Requires-Dist: numpy >=1.23.5
+
+# Test Package
+
+This is a test example package. You can follow this [GitHub](https://github.com/MoradSayed) for the official release.
