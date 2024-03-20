@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+i_py_messenger/__init__.py
+i_py_messenger/configuration.py
+i_py_messenger/imessage_client.py
+macpymessenger.egg-info/PKG-INFO
+macpymessenger.egg-info/SOURCES.txt
+macpymessenger.egg-info/dependency_links.txt
+macpymessenger.egg-info/not-zip-safe
+macpymessenger.egg-info/top_level.txt
