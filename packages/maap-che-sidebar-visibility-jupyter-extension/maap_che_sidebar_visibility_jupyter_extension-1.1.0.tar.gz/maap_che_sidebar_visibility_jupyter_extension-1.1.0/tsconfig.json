@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    //"declaration": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es2018", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "paths": {
+      "@lumino/widgets": ["./node_modules/@lumino/widgets"]
+    },
+    "rootDir": "src",
+    "strict": true,
+    "strictNullChecks": false,
+    "target": "es2018",
+    "types": []
+  },
+  "include": ["src/*"]
+}
