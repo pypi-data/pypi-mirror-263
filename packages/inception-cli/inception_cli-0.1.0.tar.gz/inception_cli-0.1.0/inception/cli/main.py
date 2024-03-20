@@ -1,0 +1,31 @@
+import logging
+
+import click
+
+from inception.cli.commands import export_projects
+from inception.cli.commands.project import import_projects, delete_project, list_projects
+
+
+@click.group(help="CLI tool for INCEpTION")
+def cli():
+    logging.basicConfig(
+        # format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", datefmt="%d-%b-%y %H:%M:%S", level=logging.INFO
+        format="%(message)s",
+        level=logging.INFO,
+    )
+
+
+@click.group(help="CLI tool for INCEpTION")
+def project():
+    pass
+
+
+project.add_command(export_projects)
+project.add_command(import_projects)
+project.add_command(list_projects)
+project.add_command(delete_project)
+
+cli.add_command(project)
+
+if __name__ == "__main__":
+    cli()
