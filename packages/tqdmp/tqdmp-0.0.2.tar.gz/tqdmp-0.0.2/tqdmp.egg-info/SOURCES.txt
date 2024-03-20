@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+tests/__init__.py
+tests/test_tqdmp.py
+tqdmp/__init__.py
+tqdmp/tqdmp.py
+tqdmp.egg-info/PKG-INFO
+tqdmp.egg-info/SOURCES.txt
+tqdmp.egg-info/dependency_links.txt
+tqdmp.egg-info/requires.txt
+tqdmp.egg-info/top_level.txt
