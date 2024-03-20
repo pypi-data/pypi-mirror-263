@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyturn
+Version: 0.1
+Summary: simple stun/turn clients for testing purpose
+Home-page: https://gitlab.com/swiperbotle/pyturn
+Author: SwiperBotle
+Author-email: swiperbotle@gmail.com
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: passlib ==1.7.4
+
+A Python-based STUN/TURN client can be used for testing purposes to assess network connectivity, troubleshoot NAT traversal issues, and ensure proper configuration of STUN/TURN servers. It typically sends STUN requests to a STUN server to obtain network information and may utilize TURN servers as relays when direct communication between peers is blocked by firewalls or NAT devices.
