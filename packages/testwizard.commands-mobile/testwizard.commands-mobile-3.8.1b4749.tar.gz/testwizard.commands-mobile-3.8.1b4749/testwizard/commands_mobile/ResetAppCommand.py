@@ -1,0 +1,20 @@
+import sys
+import json
+
+from testwizard.commands_core import CommandBase
+from testwizard.commands_core.SimpleResult import SimpleResult
+
+
+class ResetAppCommand(CommandBase):
+    def __init__(self, testObject):
+        CommandBase.__init__(self, testObject, "Mobile.ResetApp")
+
+    def execute(self, bundleId):
+        if bundleId is None:
+            requestObj = []
+        else:
+            requestObj = [bundleId]
+
+        result = self.executeCommand(requestObj)
+
+        return SimpleResult(result, "ResetApp was successful", "ResetApp failed")
