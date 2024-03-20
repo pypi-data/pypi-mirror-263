@@ -1,0 +1,12 @@
+cloudfloordns/__init__.py,sha256=XnqeDPQDV-r6E_OnSW1ZF2ZXj1PiRCqy3gdOCBW6Uf0,127
+cloudfloordns/__main__.py,sha256=nlodFIU31BdEB6zjmMzkPkWUb-IZdG-GZrkaqc4kDZU,470
+cloudfloordns/client.py,sha256=-t3VlhIzL-L76JAbIoleWORjkOREGnM8LgPRc3kNlTU,2935
+cloudfloordns/domain.py,sha256=9payeVxNXqgTUaS1QiH0s35MvBXv4EpJ56idceRfiao,7376
+cloudfloordns/domain_registration.py,sha256=kaxtixBkFNn4ILTAG2k8ngdUnanbGIh2XrwQiCLLoVM,3904
+cloudfloordns/pool.py,sha256=gnmesaEZDc71KfMp1UkaWEwy2hcJs8FN-oX3ZFQax1E,50
+cloudfloordns/record.py,sha256=9G3sk6O43Wc6lsnM5NkKXxyZiiMXCXaKEDMVXlBHTNQ,3623
+cloudfloordns/utils/__init__.py,sha256=qqBw59i6bZIM39bjqQPHxZNOWdysgSa1suOUXnJvzqI,1813
+cloudfloordns/utils/mail.py,sha256=hdk3fH2iz7U5cUgdcgMSsK5qhwzvsb4F4_84xroHOXU,1372
+cloudfloordns-0.1.2.dist-info/METADATA,sha256=DNvT4BQ8hV-3IB2OPQ3gLXUDmAQF79eg-wVmA5dGF1U,3575
+cloudfloordns-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cloudfloordns-0.1.2.dist-info/RECORD,,
