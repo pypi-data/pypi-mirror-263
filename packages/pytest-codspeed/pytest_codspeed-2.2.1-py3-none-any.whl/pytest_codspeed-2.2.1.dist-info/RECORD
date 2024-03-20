@@ -1,0 +1,13 @@
+pytest_codspeed/__init__.py,sha256=sagYIurozQN74mSKguFmB4Nzj2wh_X0VmowXB0Jx5gY,107
+pytest_codspeed/plugin.py,sha256=wAJRtA6kH5ry996B3Q5WUMxRckXF_WOhaoTz5hoIOX0,10133
+pytest_codspeed/utils.py,sha256=Enj3OFzy-UC-NI57zBCkuu9xxcuknkbrzIwZTw8ahV4,1302
+pytest_codspeed/_wrapper/.gitignore,sha256=zU04ixPMp7jv_8apig-dPCsKNJBoDlYGnlTxPNAVyRo,25
+pytest_codspeed/_wrapper/__init__.py,sha256=6W6ymFgMNzvKeMTy7qITpHtIsWloQ8pWNngvbljJqs0,928
+pytest_codspeed/_wrapper/wrapper.c,sha256=LPgxq9fZMIOCTlZvobyjjBCGg-IqBTTMnxe62Y-QL6Y,392
+pytest_codspeed/_wrapper/wrapper.h,sha256=BFwKN8rtilya4iSG_n_hRoFuyvbA4Y5A0wjBas79p9A,149
+pytest_codspeed/_wrapper/wrapper.pyi,sha256=4BT5H6Ar1ncXcd9I3fqzPN_dVoIVMETynFwjjxW-ITs,365
+pytest_codspeed-2.2.1.dist-info/METADATA,sha256=FpfoIvZhtISgs7cmZN-T0QjQFMBmEjA7wG4hMib7sC8,6314
+pytest_codspeed-2.2.1.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+pytest_codspeed-2.2.1.dist-info/entry_points.txt,sha256=6uCy7WyaiRyhwx2MtbVrRAeoIym7og6QTq1-UYReNtU,45
+pytest_codspeed-2.2.1.dist-info/licenses/LICENSE,sha256=i984mYEVjtPoLsABRhAjwUqRuALpZMqro-H16C8wl_w,1092
+pytest_codspeed-2.2.1.dist-info/RECORD,,
