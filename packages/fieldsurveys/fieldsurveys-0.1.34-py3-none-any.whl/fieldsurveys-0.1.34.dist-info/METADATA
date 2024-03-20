@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: fieldsurveys
+Version: 0.1.34
+Summary: A Python package for creating and managing field surveys.
+Home-page: https://github.com/karangattu/fieldsurveys
+Author: Karan Gathani
+Author-email: karan.gathani+fieldsurveysapp@posit.co
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4 ==4.12.3
+Requires-Dist: colorama ==0.4.6
+Requires-Dist: cryptography ==42.0.5
+Requires-Dist: faicons ==0.2.2
+Requires-Dist: geopy ==2.4.1
+Requires-Dist: google-api-python-client ==2.120.0
+Requires-Dist: google-auth-httplib2 ==0.2.0
+Requires-Dist: google-auth-oauthlib ==1.2.0
+Requires-Dist: google-auth ==2.28.1
+Requires-Dist: gspread-dataframe ==3.3.1
+Requires-Dist: gspread ==6.0.2
+Requires-Dist: htmltools ==0.5.1
+Requires-Dist: pandas ==2.2.1
+Requires-Dist: plotly ==5.19.0
+Requires-Dist: pytz ==2024.1
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: questionary ==2.0.1
+Requires-Dist: requests ==2.31.0
+Requires-Dist: rsconnect-python ==1.22.0
+Requires-Dist: shiny ==0.7.1
+Requires-Dist: shinyswatch ==0.4.2
+Requires-Dist: timezonefinder ==6.4.1
+Requires-Dist: us ==3.1.1
+Requires-Dist: Wikipedia-API ==0.6.0
+Provides-Extra: tests
+Requires-Dist: playwright ==1.41.2 ; extra == 'tests'
+Requires-Dist: pytest ==8.0.2 ; extra == 'tests'
+Requires-Dist: pytest-mock ==3.12.0 ; extra == 'tests'
+Requires-Dist: pytest-playwright ==0.4.4 ; extra == 'tests'
+
+# Field surveys App
+
+We developed an interactive web application to facilitate multi-taxon field sampling and data collection using the Shiny for Python platform. This app serves the following purposes:
+
+1. It allows researchers, citizen scientists, students, and others to easily design and conduct standardized surveys for various organisms, such as arthropods, birds, and plants.
+2. The app is accessible on any device with an internet connection, including desktops, laptops, tablets, and smartphones.
+
+This user-friendly application streamlines the process of field sampling and data collection, making it more efficient and accessible to a wide range of users, regardless of their technical expertise or location. The app is designed to be flexible and customizable, allowing users to design surveys that meet their specific research needs. The app also includes a data management system that allows users to store, manage, and analyze their survey data.
+
+## Set-up your application
+
+Follow the instructions for setting up the app for your use case by following the instructions in the [documentation](https://karangattu.github.io/fieldsurveys/).
+
+
+## Issues/Feature requests
+
+If you encounter any issues or have any feature requests, please feel free to open an issue on the GitHub repository [here](https://github.com/karangattu/fieldsurveys/issues)
