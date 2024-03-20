@@ -1,0 +1,15 @@
+pyeasy_crc/__init__.py,sha256=1B3MGPwH8f4bQBxHMLPq4XxNXXdqEgkPaJBWSyqtss8,30
+pyeasy_crc/source/crc8.py,sha256=psOD1TwKzqdUMF78fVFxb2X3Psj2hEgq0KA3BluIPuE,470
+pyeasy_crc/source/algorithms/Algorithm.py,sha256=Aaf6HHsNtmnhlaYElLpPZGUhze8ZBEY-DsfhB44W81s,198
+pyeasy_crc/source/algorithms/Algorithms.py,sha256=tBB_KlSiJ0TtE_7nMMBbnooK7WjdrJ8A5wJR5vK5s5I,390
+pyeasy_crc/source/algorithms/cdma2000.py,sha256=8geyid-McGYbFpwLwwos1Jr3DOtd2N_AQlRIDi-4KNc,2102
+pyeasy_crc/source/algorithms/ebu.py,sha256=1k7I09D-QrIBNWfpFSwqEOEvhomGSEprVlE5uMXh5cY,2089
+pyeasy_crc/source/algorithms/i_code.py,sha256=hlAEv5I6yfoJtbSDdPz2w10z0bGgiLpO7oCkasmVhJQ,2101
+pyeasy_crc/source/algorithms/itu.py,sha256=Xp4_DtRcrLpOsMr7E5ZlcU9ddzQf9R9Y_TuBqxuE_eU,2097
+pyeasy_crc/source/algorithms/maxim.py,sha256=w3FNw-3FaDAXb0XVn-jC02l6CMzQwI5XdWxhR8-pvzA,2097
+pyeasy_crc/source/algorithms/rohc.py,sha256=Q9z-fJt9sovSPl2809e-CCy3z1I5ui5c6GI9AEHxYBA,2096
+pyeasy_crc/source/types/AlgorithmKeys.py,sha256=iahZoDDtDs_DZMK0sXr7-DvpAkEukQJ_yAR3xxZF1ys,141
+pyeasy_crc-0.0.4.dist-info/METADATA,sha256=RzXX5jb2IjzM96THox1zCcIS946JgICSojrYXuDqURQ,550
+pyeasy_crc-0.0.4.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+pyeasy_crc-0.0.4.dist-info/licenses/LICENSE,sha256=WymYaGONpaM_puUE7tgTn48-nm1-u-2aReDdJvBv5-w,1108
+pyeasy_crc-0.0.4.dist-info/RECORD,,
