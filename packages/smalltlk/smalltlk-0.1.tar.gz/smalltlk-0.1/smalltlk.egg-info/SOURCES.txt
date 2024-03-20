@@ -1,0 +1,9 @@
+README.md
+setup.py
+smalltlk/__init__.py
+smalltlk/main.py
+smalltlk.egg-info/PKG-INFO
+smalltlk.egg-info/SOURCES.txt
+smalltlk.egg-info/dependency_links.txt
+smalltlk.egg-info/entry_points.txt
+smalltlk.egg-info/top_level.txt
