@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hklab2024
+Version: 0.0.1
+Summary: function for calcluation
+Home-page: http://github.com/hyokwan/hklab2024
+Author: kimhyokwan
+Author-email: haiteam@kopo.ac.kr
+License: MIT
+Keywords: trimmedmean
+Requires-Dist: isoweek
