@@ -1,0 +1,12 @@
+stim/__init__.py,sha256=ErM7bmcmbE2_P17GqUOeZdwBqYnEx6DXPB9dd4R-CrA,2435
+stim/__init__.pyi,sha256=Wz56RQw5ELmzwT4feJQ2L29oQtgpfRowQ8KOrvua6Kw,425764
+stim/_detect_machine_architecture.cp39-win_amd64.pyd,sha256=8pBSfwOFt5ttU4t0XhoOI_pPKr9E7jCtS618e-xP5m0,100864
+stim/_main_argv.py,sha256=LaZT8A7YbfdKA5euH_xM9WC-NxGaotJvMP4Tv7SRV_s,145
+stim/_stim_polyfill.cp39-win_amd64.pyd,sha256=gjNNLOLhu1as51-I1gUFw3v7Kdbubh_5FeUVr1mx--Y,2926080
+stim/_stim_sse2.cp39-win_amd64.pyd,sha256=POSjKXYRIjB1MLHTJeaF_vrjwFLpn4aeQr2k1m9-DiQ,2926080
+stim-1.14.dev1710899196.dist-info/LICENSE,sha256=SbvpEU5JIU3yzMMkyzrI0dGqHDoJR_lMKGdl6GZHsy4,11558
+stim-1.14.dev1710899196.dist-info/METADATA,sha256=hVWp7aaECeMUozpYDoBHA39ZratMJdlv-PdUhcm8oaQ,4342
+stim-1.14.dev1710899196.dist-info/WHEEL,sha256=Z6c-bE0pUM47a70GvqO_SvH_XXU0lm62gEAKtoNJ08A,100
+stim-1.14.dev1710899196.dist-info/entry_points.txt,sha256=nKrnVit2TO7zlOC9PzFDbziXiGroRejQTIeqeJ2VS6Q,51
+stim-1.14.dev1710899196.dist-info/top_level.txt,sha256=_h6lQZBgzVLumwrXyf13DY71YT6dUkd4SY-ZRjcljFQ,5
+stim-1.14.dev1710899196.dist-info/RECORD,,
