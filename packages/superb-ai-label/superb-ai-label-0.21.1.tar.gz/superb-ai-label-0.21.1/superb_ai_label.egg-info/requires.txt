@@ -1,0 +1,3 @@
+requests
+semver
+phy-credit==0.8.2
