@@ -1,0 +1,7 @@
+sklearn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sklearn/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sklearn/datasets/make_regression.py,sha256=k7V6h6wNn_OhuMGG5bwOQcTjfNJie9yDuCdmPtCrkC0,345
+sklearn_testing_demo-0.1.dist-info/METADATA,sha256=D4SCg6L1-rMyp7Q3larYccLU5nMSdCCxJZLNvihGy3s,280
+sklearn_testing_demo-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sklearn_testing_demo-0.1.dist-info/top_level.txt,sha256=RED9Cd42eES2ITQsRYJc34r65tejDc9eVxnPLzvX9Qg,8
+sklearn_testing_demo-0.1.dist-info/RECORD,,
