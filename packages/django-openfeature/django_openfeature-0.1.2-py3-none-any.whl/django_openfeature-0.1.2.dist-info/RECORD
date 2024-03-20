@@ -1,0 +1,15 @@
+django_openfeature/__init__.py,sha256=D3I9URvs1OaKTfH1DLdYCCrjdvrjA6dN96gaj8SoW5M,988
+django_openfeature/context.py,sha256=Xoq9Gj6_I4_FBixdKJV4XzDh0MgLWBKXbcU1iNcWbcc,889
+django_openfeature/provider.py,sha256=zufvY8tRybfD-dx89wlQ67J_NY_ngwQ6kgMU3wiuIEk,4539
+django_openfeature/settings.py,sha256=biaY_TKmqWAkz5eSruz8EtYlot2QofI_0PTRVt1MQJo,883
+django_openfeature/test.py,sha256=oQcA4tNKpsEahXw8RmSPuJUXIN_N8A_sItO8_m9i2TA,610
+django_openfeature/debug_toolbar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_openfeature/debug_toolbar/panels.py,sha256=OwM7M_oZvVg3MGgUh4M-VILl7gT7MdQ7T_isVcjRLbw,1678
+django_openfeature/templates/debug_toolbar/panels/feature_flags.html,sha256=LBv3ZK7xtVBWsU2-zYdKNYR5DRf3KWs94Gd2caR9Tvw,1393
+django_openfeature/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_openfeature/templatetags/openfeature.py,sha256=GSFFdoH2UzB7xRUtNCunG2Wyi5S4t7RSBHC6W1GZaAA,2393
+django_openfeature-0.1.2.dist-info/LICENSE,sha256=d664w0Inq7ya8xCWty3S2M5-ucQsdFmpXHH7S6vfOrI,1074
+django_openfeature-0.1.2.dist-info/METADATA,sha256=48LKOz3AtUtpqJSAse8ysQ0l5ziEO_XY561F3BIyZlg,7421
+django_openfeature-0.1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_openfeature-0.1.2.dist-info/top_level.txt,sha256=5s1XlpLVNWveT9GNsXsJbz65xAcb8ILZz3DEknZh70Q,19
+django_openfeature-0.1.2.dist-info/RECORD,,
