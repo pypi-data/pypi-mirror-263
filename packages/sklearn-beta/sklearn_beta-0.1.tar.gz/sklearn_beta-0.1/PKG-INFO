@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sklearn_beta
+Version: 0.1
+Summary: This is merely to show what can happen if you are not careful about what packages you install via pip. DO NOT USE THIS
+Author: p4nd4m4n
+Author-email: p4nd4m4n@example.com
+License: MIT
+Requires-Dist: requests
