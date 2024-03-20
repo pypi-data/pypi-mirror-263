@@ -1,0 +1,2 @@
+[console_scripts]
+bugswarm-cfg = bugswarm_cfg.main:main
