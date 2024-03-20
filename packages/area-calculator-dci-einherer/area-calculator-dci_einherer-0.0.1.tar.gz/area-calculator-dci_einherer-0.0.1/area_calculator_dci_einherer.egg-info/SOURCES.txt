@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+area_calculator_dci_einherer.egg-info/PKG-INFO
+area_calculator_dci_einherer.egg-info/SOURCES.txt
+area_calculator_dci_einherer.egg-info/dependency_links.txt
+area_calculator_dci_einherer.egg-info/top_level.txt
