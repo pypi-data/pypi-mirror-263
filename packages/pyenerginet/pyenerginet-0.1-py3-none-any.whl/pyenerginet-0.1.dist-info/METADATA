@@ -1,0 +1,24 @@
+Metadata-Version: 2.3
+Name: pyenerginet
+Version: 0.1
+Summary: A package to extract data from Energinet and Energi Data Service
+Project-URL: Homepage, https://github.com/edu230991/pyenerginet
+Project-URL: Issues, https://github.com/edu230991/pyenerginet/issues
+Author-email: Edoardo Simioni <edu230991@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# pyenerginet
+A python package to facilitate using public data from Energinet.
+https://www.energidataservice.dk/
+
+
+### Publishing
+Set up following these guides:
+- https://packaging.python.org/en/latest/tutorials/packaging-projects/
+- https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/
+
