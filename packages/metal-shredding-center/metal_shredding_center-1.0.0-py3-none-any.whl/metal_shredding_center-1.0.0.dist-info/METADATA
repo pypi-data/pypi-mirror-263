@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: metal_shredding_center
+Version: 1.0.0
+License: CL
+Description-Content-Type: text/plain
+Requires-Dist: volts
+Requires-Dist: shares
+Requires-Dist: ships
+Requires-Dist: flask
+Requires-Dist: jsonschema
+Requires-Dist: rich
+
