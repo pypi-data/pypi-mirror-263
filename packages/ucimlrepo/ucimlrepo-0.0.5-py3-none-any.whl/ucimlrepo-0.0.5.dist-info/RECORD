@@ -1,0 +1,9 @@
+ucimlrepo/__init__.py,sha256=8YpJ7U6bEUHue9RNivs-t_LElW_wLV6Esx_csjp18dM,29
+ucimlrepo/dotdict.py,sha256=F6v2HNkqx8ILQ8QVUjurBBQVT8oXzques3-rD56E73s,176
+ucimlrepo/fetch.py,sha256=-QeHqcNZ05LiYpdEKI7KGgBnLRoe7_vBrPoqLzablPQ,8328
+ucimlrepo/test.py,sha256=2RUSPalyZhpXYcVnGwfuqelJ4SCe0lyKgkUlPfWBai4,1922
+ucimlrepo-0.0.5.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+ucimlrepo-0.0.5.dist-info/METADATA,sha256=Z6ReY0rQRLMBd1jEUyd5ZvJQzoUXaYO8kVrkolAj19M,5339
+ucimlrepo-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ucimlrepo-0.0.5.dist-info/top_level.txt,sha256=nxlpk-O15-dgJ1soK7xfhbxOQvRYp5ViOoRZsjW-Jp8,10
+ucimlrepo-0.0.5.dist-info/RECORD,,
