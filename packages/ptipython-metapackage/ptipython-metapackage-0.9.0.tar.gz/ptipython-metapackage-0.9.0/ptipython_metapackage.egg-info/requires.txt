@@ -1,0 +1,2 @@
+ptpython==2.0.6
+ipython==7.34.0
