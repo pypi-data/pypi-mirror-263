@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/py_scheduling_library.egg-info/PKG-INFO
+src/py_scheduling_library.egg-info/SOURCES.txt
+src/py_scheduling_library.egg-info/dependency_links.txt
+src/py_scheduling_library.egg-info/top_level.txt
