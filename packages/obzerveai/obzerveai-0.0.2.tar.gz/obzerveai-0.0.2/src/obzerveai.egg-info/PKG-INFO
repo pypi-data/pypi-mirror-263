@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: obzerveai
+Version: 0.0.2
+Summary: A python package of utilities for AI based solutions
+Author-email: obzerveai <goyal.siddharth22@gmail.com>
+Project-URL: Homepage, https://github.com/obzerveai/
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# obzerveai
