@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dnssplitter"
+dynamic = ["version"]
+description = "A fast python implementation of breaking down DNS domains into parts."
+readme = "README.md"
+license = ""
+requires-python = ">=3"
+authors = [
+    { name = "Wes Hardaker", email = "opensource@hardakers.net" },
+]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+
+[project.scripts]
+dbdnssplit = "dnssplitter.scripts.dbdnssplit:main"
+dnssplit = "dnssplitter.scripts.dnssplit:main"
+
+[project.urls]
+Homepage = "https://github.com/hardaker/dnssplitter"
+
+[tool.hatch.version]
+path = "dnssplitter/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/dnssplitter",
+]
