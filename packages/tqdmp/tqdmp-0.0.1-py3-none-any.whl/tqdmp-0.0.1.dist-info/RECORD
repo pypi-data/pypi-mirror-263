@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_tqdmp.py,sha256=KoqpGbAS70HkVHQbEuWZDIe99DNvOm7VfUrRhXQqPqY,2470
+tqdmp/__init__.py,sha256=2ujfRBG-E1w6gI4YYBT81ozG1n_SsvxWqPFf_frMXjc,51
+tqdmp/tqdmp.py,sha256=UBA3Mai_4TTFOPyChzkhBYbLrlYVaA9dqMrvyqGbkrA,4134
+tqdmp-0.0.1.dist-info/LICENSE,sha256=KoHXm4UVa6MxPT9mitwum-W39xn7U0ptm2xkM69Lt-I,1083
+tqdmp-0.0.1.dist-info/METADATA,sha256=_82T09rI1kFOsmprkQ-zQmg5o91HRHxtu3Z8uztK24k,2606
+tqdmp-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tqdmp-0.0.1.dist-info/top_level.txt,sha256=l-DXeUEL6WxriCm6W9KN_fxnrH2uhBNG9jQBoV0Cues,12
+tqdmp-0.0.1.dist-info/RECORD,,
