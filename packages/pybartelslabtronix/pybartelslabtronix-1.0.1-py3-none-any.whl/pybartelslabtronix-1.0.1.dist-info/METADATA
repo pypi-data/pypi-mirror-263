@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pybartelslabtronix
+Version: 1.0.1
+Summary: Automate the Bartels Mikrotechnik labtronix micropump driver
+Author-email: Rolf Harkes <r.harkes@nki.nl>
+Keywords: Bartels Mikrotechnik,labtronix,micropump
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyserial
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+
+# Python automation for the Bartels Mikrotechnik labtronix micropump driver
+
+## Installation
+`pip install pybartelslabtronix`
+
+## Usage
+[See Jupyter Notebook for example usage.](notebooks/Test_Bartels_Labtronix.ipynb)
