@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: my_linux_setup2
+Version: 0.0.1
+Project-URL: Homepage, https://example.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+0.0.2
+- update
+
+0.0.3
+- rename packages
