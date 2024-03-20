@@ -1,0 +1,8 @@
+TAT.cpython-39-x86_64-linux-gnu.so,sha256=oaCAj9BwMfEnYUqqWRBFU7NeRkMAp9VaRR1NIfl3Xug,31851849
+pytat.libs/libgfortran-91cc3cb1.so.3.0.0,sha256=VePrZzBsL_F-b4oIEOqg3LJulM2DkkxQZdUEDoeBRgg,1259665
+pytat.libs/libopenblas-r0-f650aae0.3.3.so,sha256=eewCtT9XPNcRaonwTDl0cwGOf9oFcgs1TUNQXBnUeVg,37325001
+pytat.libs/libquadmath-96973f99.so.0.0.0,sha256=k0wi3tDn0WnE1GeIdslgUa3z2UVF2pYvYLQWWbB12js,247609
+pytat-0.3.16.dist-info/RECORD,,
+pytat-0.3.16.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytat-0.3.16.dist-info/METADATA,sha256=tswAQLgFPOc0IXymjPd4c-ibA0E2YCL10t_uZE7s5TI,54883
+pytat-0.3.16.dist-info/WHEEL,sha256=Inh3lM_I0WefbsRUb3ZmN_yTl627GbfP8AvnA2isk8g,151
