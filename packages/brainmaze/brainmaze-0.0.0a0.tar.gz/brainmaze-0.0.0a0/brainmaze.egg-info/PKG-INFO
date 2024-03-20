@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: brainmaze
+Version: 0.0.0a0
+Summary: BrainMaze: Brain Electrophysiology, Behavior and Dynamics Analysis Toolbox
+Home-page: https://github.com/bnelair/brainmaze-utils
+Author: Filip Mivalt
+Author-email: mivalt.filip@mayo.edu
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+
+A toolbox for analyzing brain electrophysiology and behavior in long-term data

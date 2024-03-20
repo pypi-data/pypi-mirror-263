@@ -1,0 +1,7 @@
+setup.py
+brainmaze/__init__.py
+brainmaze.egg-info/PKG-INFO
+brainmaze.egg-info/SOURCES.txt
+brainmaze.egg-info/dependency_links.txt
+brainmaze.egg-info/requires.txt
+brainmaze.egg-info/top_level.txt
