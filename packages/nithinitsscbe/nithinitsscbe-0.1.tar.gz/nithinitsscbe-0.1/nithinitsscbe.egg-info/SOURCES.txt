@@ -1,0 +1,5 @@
+setup.py
+nithinitsscbe.egg-info/PKG-INFO
+nithinitsscbe.egg-info/SOURCES.txt
+nithinitsscbe.egg-info/dependency_links.txt
+nithinitsscbe.egg-info/top_level.txt
