@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: optialgo
+Version: 0.0.3
+Summary: OptiAlgo menyediakan solusi cepat dan andal untuk mencari algoritma terbaik bagi pengguna, serta memberikan fleksibilitas dalam menangani berbagai masalah data.
+Home-page: https://github.com/nsandarma/OptiAlgo
+Author: nsandarma
+Author-email: nsandarma@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: imbalanced-learn (==0.12.0)
+Requires-Dist: imblearn (==0.0)
+Requires-Dist: joblib (==1.3.2)
+Requires-Dist: numpy (==1.26.4)
+Requires-Dist: pandas (==2.2.1)
+Requires-Dist: python-dateutil (==2.9.0.post0)
+Requires-Dist: pytz (==2024.1)
+Requires-Dist: scikit-learn (==1.4.1.post1)
+Requires-Dist: scipy (==1.12.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: threadpoolctl (==3.3.0)
+Requires-Dist: tzdata (==2024.1)
+Requires-Dist: xgboost (==2.0.3)
+
+# OptiAlgo
+OptiAlgo adalah sebuah proyek yang masih dalam tahap pengembangan. Proyek ini bertujuan untuk menyediakan solusi yang cepat dan andal bagi pengguna yang ingin menemukan algoritma terbaik untuk data mereka tanpa harus melakukan pengujian yang rumit dan memakan waktu secara manual. Dengan OptiAlgo, pengguna dapat dengan mudah mencari algoritma yang paling sesuai dengan kebutuhan mereka, memberikan fleksibilitas yang diperlukan untuk menangani berbagai jenis masalah data dengan efisien.
+
+## Fitur Utama
+1. Mencari Algoritma Terbaik
+2. Set Model
+3. Prediksi
+4. Tuning HyperParameter
+5. Preprocessing Data (Handling Missing Values,Sampling)
+
+## Instalasi
+
+**Sebelum install OptiAlgo, pastikan Anda telah membuat environment terlebih dahulu.**
+
+```bash
+pip install optialgo
+```
+
+## Cara Menggunakan
+```py
+import pandas as pd
+from optialgo import Classification
+
+df = pd.read_csv('dataset_ex/drug200.csv')
+features = ['Age','Sex','BP','Cholesterol',"Na_to_K"]
+target = 'Drug'
+
+clf = Classification()
+clf.fit(data=df,target=target,features=features)
+result = clf.compare_model(output='dataframe')
+print(result)
+```
+untuk lebih lengkap nya anda bisa temukan pada notebook [example](https://github.com/nsandarma/OptiAlgo/blob/master/example.ipynb)
+
+
+## Cara Berkontribusi
+Kami sangat menyambut kontribusi dari komunitas untuk meningkatkan dan mengembangkan OptiAlgo. Berikut adalah langkah-langkah umum untuk berkontribusi:
+
+1. **Beri Masukan**: Berikan masukan tentang bagaimana kami dapat meningkatkan OptiAlgo melalui pembuatan *issues*.
+2. **Kode Sumber**: Jika Anda seorang pengembang, Anda dapat berkontribusi dengan menulis kode sumber baru atau memperbaiki yang sudah ada.
+3. **Uji Coba**: Bantu kami dengan menguji OptiAlgo dan memberikan umpan balik tentang pengalaman Anda.
+
+## Lisensi
+
+MIT
+
+## Kontak
+
+email : nsandarma@gmail.com
+
+Terima kasih telah menggunakan OptiAlgo!
