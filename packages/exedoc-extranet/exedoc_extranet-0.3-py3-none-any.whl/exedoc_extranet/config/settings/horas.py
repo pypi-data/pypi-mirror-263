@@ -1,0 +1,4 @@
+import os
+
+INICIO_HORAS_HABILES = os.environ.get('INICIO_HORAS_HABILES', 8)
+TERMINO_HORAS_HABILES = os.environ.get('TERMINO_HORAS_HABILES', 14)
