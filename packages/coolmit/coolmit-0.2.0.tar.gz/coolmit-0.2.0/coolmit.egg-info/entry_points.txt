@@ -1,0 +1,2 @@
+[console_scripts]
+git-coolmit = coolmit:run_commandline
