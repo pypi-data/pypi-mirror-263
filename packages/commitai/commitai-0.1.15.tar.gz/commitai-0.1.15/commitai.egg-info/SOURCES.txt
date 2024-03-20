@@ -1,0 +1,12 @@
+README.md
+setup.py
+commitai/__init__.py
+commitai/cli.py
+commitai/git.py
+commitai/template.py
+commitai.egg-info/PKG-INFO
+commitai.egg-info/SOURCES.txt
+commitai.egg-info/dependency_links.txt
+commitai.egg-info/entry_points.txt
+commitai.egg-info/requires.txt
+commitai.egg-info/top_level.txt
