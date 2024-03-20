@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ez2code
+Version: 0.0.2
+Summary: Python Lib building trial
+Author-email: applenongbu <hutk1726@naver.com>
+Keywords: example,training
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Freeware
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: matplotlib
+
