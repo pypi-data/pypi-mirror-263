@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+bugswarm_cfg/__init__.py
+bugswarm_cfg/javaparser.sh
+bugswarm_cfg/main.py
+bugswarm_cfg/soot.sh
+bugswarm_cfg/spoon.sh
+bugswarm_cfg.egg-info/PKG-INFO
+bugswarm_cfg.egg-info/SOURCES.txt
+bugswarm_cfg.egg-info/dependency_links.txt
+bugswarm_cfg.egg-info/entry_points.txt
+bugswarm_cfg.egg-info/requires.txt
+bugswarm_cfg.egg-info/top_level.txt
