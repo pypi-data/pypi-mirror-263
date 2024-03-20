@@ -1,0 +1,33 @@
+from django.db import models
+
+from djangoldp.models import Model
+from djangoldp.permissions import AuthenticatedOnly, ReadOnly
+
+from djangoldp_energiepartagee.models.actor import Actor
+from djangoldp_energiepartagee.models.citizen_project import CitizenProject
+
+
+class Partner(Model):
+    actor = models.ForeignKey(
+        Actor,
+        blank=True,
+        on_delete=models.CASCADE,
+        verbose_name="Acteur",
+        related_name="partner_of",
+    )
+    citizen_project = models.ForeignKey(
+        CitizenProject,
+        blank=True,
+        on_delete=models.CASCADE,
+        verbose_name="Projet Citoyen",
+        related_name="partnered_by",
+    )
+
+    class Meta(Model.Meta):
+        ordering = ["pk"]
+        permission_classes = [AuthenticatedOnly, ReadOnly]
+        rdf_type = "energiepartagee:partner"
+        nested_fields = ["types"]
+
+    def __str__(self):
+        return self.urlid
