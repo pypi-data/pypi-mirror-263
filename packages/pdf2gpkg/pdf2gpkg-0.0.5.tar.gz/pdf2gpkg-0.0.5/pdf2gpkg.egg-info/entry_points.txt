@@ -1,0 +1,2 @@
+[console_scripts]
+pdf2gpkg = pdf2gpkg.__main__:main

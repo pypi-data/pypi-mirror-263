@@ -1,0 +1,15 @@
+README.md
+setup.py
+pdf2gpkg/__init__.py
+pdf2gpkg/__main__.py
+pdf2gpkg/utils.py
+pdf2gpkg.egg-info/PKG-INFO
+pdf2gpkg.egg-info/SOURCES.txt
+pdf2gpkg.egg-info/dependency_links.txt
+pdf2gpkg.egg-info/entry_points.txt
+pdf2gpkg.egg-info/requires.txt
+pdf2gpkg.egg-info/top_level.txt
+pdf2gpkg/ref/germany/ref.qgz
+pdf2gpkg/ref/germany/ref.shp.zip
+pdf2gpkg/ref/germany/ref_src.geojson
+pdf2gpkg/ref/germany/ref_tgt.geojson
