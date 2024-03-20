@@ -1,0 +1,12 @@
+poetry_patches/__init__.py,sha256=kxaFd2fx6zn6TMmlx1bDmhUo4dfOPrvY1qcrPLTyLiQ,130
+poetry_patches/commands.py,sha256=3sXbv18WBMC61BrxMQoLPobcCiOhOyav0NwweXH-jO0,593
+poetry_patches/patcher.py,sha256=VACO_4CNHG_PtX9sr2Gmyf7cyc7oe4eQwTRRJ-iRh4M,5529
+poetry_patches/plugins.py,sha256=TJetwMnZRCNG5s54vT5BYwW8JI3fmM3zLUPjWT76kx4,581
+poetry_patches/state/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_patches/state/backup.py,sha256=QdDENLrsmptyTfJ-fOnRV3hAjqvnrRn61ytSn487jj4,2198
+poetry_patches/state/meta.py,sha256=hXFO_xjdDseP2D91QLhX4QH9uA6GYjREt4_J4O1i5Kw,1044
+poetry_patches-0.1.6.dist-info/entry_points.txt,sha256=DdbNOo0dmsHVKKloJzUAvCwDoAP3ya0Ct6FQTcooq8Q,80
+poetry_patches-0.1.6.dist-info/LICENSE,sha256=hhsFQ_7vRhIEGebqp9amZrvtwW6f0kB6juiR-kJpcgQ,1089
+poetry_patches-0.1.6.dist-info/METADATA,sha256=_CB1oLN5n80qYjvuFLLEQ6opZmi9zhytEFH-XbpzukI,1154
+poetry_patches-0.1.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+poetry_patches-0.1.6.dist-info/RECORD,,
