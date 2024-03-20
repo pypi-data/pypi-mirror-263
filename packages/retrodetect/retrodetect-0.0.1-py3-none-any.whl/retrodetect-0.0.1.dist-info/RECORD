@@ -1,0 +1,10 @@
+retrodetect/__init__.py,sha256=q23UL74bNream7XeHOYECxSdsQFs2HZuV_jk6aK0wjs,447
+retrodetect/detect.py,sha256=ehNIywB8G0gCpJilQy9aPVQx95ZukfztJQxrFmIfTj0,13586
+retrodetect/image_processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+retrodetect/image_processing/image_processing.py,sha256=wETkzBz-QLJBZ-8Hnv-y_mG7k7OGS3x8u8AFXpvAwMs,10021
+retrodetect/image_processing/normxcorr2.py,sha256=Byu4HUeXtl15e6Tds7prZHWpMwut5RUPK8BsZrglHHM,3064
+retrodetect-0.0.1.dist-info/LICENSE,sha256=w3rOAYVXBgxcXadaOM68fvo-IZTcbcfU-P3MWlGTFDw,2049
+retrodetect-0.0.1.dist-info/METADATA,sha256=2MPsrBH7F2gVW7FcGozVpxAxxBsBVJRX6NN3barFKRY,3345
+retrodetect-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+retrodetect-0.0.1.dist-info/top_level.txt,sha256=-s86KhZsmBHivx_MbIyTH9A5RZKFmqjLVGd3vyyN8IQ,12
+retrodetect-0.0.1.dist-info/RECORD,,
