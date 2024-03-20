@@ -1,0 +1,16 @@
+pymatgen/io/validation/__init__.py,sha256=M-V81emBSOhkVsS0tUGZZhFLkGhyMuxbmiEeN17W7A8,315
+pymatgen/io/validation/check_common_errors.py,sha256=J-vxjwzCreRXdtBqAUDC1P-jroJxg97DBd3wffri0uI,10557
+pymatgen/io/validation/check_for_excess_empty_space.py,sha256=WFux6UZOB7ITQNsv63UaD2sH8vRlTZIMsy88shR818w,2903
+pymatgen/io/validation/check_incar.py,sha256=sOkBQQ1DByvljliizGxBnbG7hLtuLZk7136Qvgnb-7s,42273
+pymatgen/io/validation/check_kpoints_kspacing.py,sha256=qYNko5NWvJ2T5t3ucKk_B5148ppypPFqJfRx_SlRnkg,5468
+pymatgen/io/validation/check_package_versions.py,sha256=FgEiKUfo6urxfj_Lhn7q3gWWZAvaSRsFjEU0MQA2NLs,1441
+pymatgen/io/validation/check_potcar.py,sha256=rhz-G4OFN-tE4_vtYQV11It_-m1NI5k7GDEKnsI6os0,6003
+pymatgen/io/validation/compare_to_MP_ehull.py,sha256=enqKk3hZpjq54kYsWwWBOPSEeprODjDTOQyvhxWI-_g,1840
+pymatgen/io/validation/settings.py,sha256=sZQV-xTlkQZ_7O6rCK77V40BiUB2YfeRwYlv4wyXi0I,5263
+pymatgen/io/validation/validation.py,sha256=fbljDPEcmrSq_GGJsFuoRUpG5ClUQeqXw6L0mXdy8eI,15333
+pymatgen/io/validation/vasp_defaults.yaml,sha256=PgvVGOYNKII4w741K6xrG5UfFjCmuLGdFuud8gYy3iA,4510
+pymatgen_io_validation-0.0.1.dist-info/LICENSE,sha256=qUHylkpvi82Rjh9Putdr5vT69H_BYNZa_mOti3R_m0E,1169
+pymatgen_io_validation-0.0.1.dist-info/METADATA,sha256=PPeXU67ARpnrWu1haZsNiR-LyUf6cVQqpqWL4J--ndI,14820
+pymatgen_io_validation-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pymatgen_io_validation-0.0.1.dist-info/top_level.txt,sha256=hw3_MuYkbiMKbj1W3PJuWYeiYcB1owVQYj-SHQbvoWc,9
+pymatgen_io_validation-0.0.1.dist-info/RECORD,,
