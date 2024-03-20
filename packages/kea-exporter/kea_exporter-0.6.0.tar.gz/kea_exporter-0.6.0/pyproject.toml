@@ -1,0 +1,55 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "kea-exporter"
+version = "0.6.0"
+description = "Export Kea Metrics in the Prometheus Exposition Format"
+authors = [
+    { name = "Martin Weinelt", email = "hexa@darmstadt.ccc.de" },
+]
+requires-python = ">=3.8,<4.0"
+dependencies = [
+    "click>=8.1.7,<9.0",
+    "prometheus-client>=0.1.1,<1.0",
+    "requests>=2.31.0,<3.0",
+]
+readme = "README.rst"
+keywords = [
+    "prometheus",
+    "exporter",
+    "metrics",
+    "kea",
+    "dhcp",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Monitoring",
+    "Topic :: System :: Systems Administration",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+changelog = "https://github.com/mweinelt/kea-exporter/blob/develop/HISTORY"
+homepage = "https://github.com/mweinelt/kea-exporter"
+repository = "https://github.com/mweinelt/kea-exporter.git"
+
+[project.scripts]
+kea-exporter = "kea_exporter.__main__:cli"
+
+[tool.black]
+line-length = 120
+
+[tool.ruff]
+line-length = 120
