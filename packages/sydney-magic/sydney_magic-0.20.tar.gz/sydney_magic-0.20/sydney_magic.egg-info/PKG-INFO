@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: sydney-magic
+Version: 0.20
+Summary: An IPython magic extension for interacting with Sydney.py
+Author: Pavel Nakaznenko
+Author-email: p.nakaznenko@gmail.com
+Keywords: ipython magic sydney
+Requires-Dist: IPython
+Requires-Dist: sydney-py
+Requires-Dist: nest_asyncio
