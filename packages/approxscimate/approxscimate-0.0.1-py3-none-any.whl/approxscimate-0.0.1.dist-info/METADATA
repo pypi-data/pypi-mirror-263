@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: approxscimate
+Version: 0.0.1
+Summary: A package for approximating SciPy functions
+Project-URL: Homepage, https://github.com/MissingCurlyBracket/ApproxSciMate
+Project-URL: Issues, https://github.com/MissingCurlyBracket/ApproxSciMate/issues
+Author-email: Lucian Negru <l.negru@student.tudelft.nl>, Eleni Papadopoulou <e.papadopoulou@student.tudelft.nl>, Yang Li <yli59@tudelft.nl>
+License-Expression: LGPL-3.0-only
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# ApproxSciMate
+A python library for approximating SciPy functions.
