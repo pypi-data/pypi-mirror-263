@@ -1,0 +1,2 @@
+[console_scripts]
+spotify_translator = spotify_translator.spotify_translator:spotify_translator

@@ -1,0 +1,9 @@
+spotify_translator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spotify_translator/constants.py,sha256=G3maCjHw0PL2_uWOOANyzQ_lnkGOvLf0Nz-kQ3drUrQ,269
+spotify_translator/spotify_translator.py,sha256=qi09XBOuDKyssb4WXXc9coiQYCbBa417Oa6i67l7qCs,3636
+spotify_translator/utils.py,sha256=0y-d9tZpRwyVzivJcv51p3VQNxKX_WW-7shWEYQlLGA,5471
+spotify_translator-0.0.1.dist-info/METADATA,sha256=OGjZPmMaZV_BqIUt1AXQsGT6Jr0zkriqFmHuB0GraX8,2479
+spotify_translator-0.0.1.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+spotify_translator-0.0.1.dist-info/entry_points.txt,sha256=LMCIsm_nUpMLdc7CLgs-AqetFyVql09qcUDZS7rct58,96
+spotify_translator-0.0.1.dist-info/licenses/LICENSE,sha256=T8oaxETBD2y900PgvJCiOlI3WBSvBC3AVTrcvKdLTkg,1093
+spotify_translator-0.0.1.dist-info/RECORD,,
