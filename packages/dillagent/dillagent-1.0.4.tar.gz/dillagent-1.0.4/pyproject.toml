@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dillagent"
+version = "1.0.4"  # Update this with your desired version
+description = "Agentic LLM library"
+authors = [{name="buzzoo123"}]
+license = {file="LICENSE"}
+
+[lib]
+name = "dillagent"
+version = "{version}"  # Inherits from package.version
+
+[dependencies]
