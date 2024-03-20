@@ -1,0 +1,10 @@
+automerge-1.0.0rc1.dist-info/METADATA,sha256=f8xvua2DPFazTAoaJuSVuJYXwAhofIXnXsz0ZNyZaTQ,283
+automerge-1.0.0rc1.dist-info/WHEEL,sha256=ZNUrXbQgTLvf9dFoKpcCJmPuNZngq__QTD7UWXFElak,95
+automerge-1.0.0rc1.dist-info/license_files/LICENSE,sha256=8n4_0GSFTjO_pcQpr7tFfXB7GoSAx1Y714mSaGf020w,1079
+automerge/core/__init__.py,sha256=kvBj4CS_HS7Bg74Vug4p2iHEx58xAg0dbtGM3Nbzwyk,1220
+automerge/document.py,sha256=V9-j_yl3_lHtsniq-t5KxENfj2SyQ-lfBb2AjprvAUc,10704
+automerge/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+automerge/_automerge.pyi,sha256=8pwRSQrxxitPNLTzbJC39dBkMcTGHGJyOpts3_-fhHA,4490
+automerge/__init__.py,sha256=ja3-Q2mxpwPocAo4E0r71YgsO53VFNhKgoa48Ugg5GY,58
+automerge/_automerge.cp312-win_amd64.pyd,sha256=ybeGueAhn2X8IGrhKYwuOChtD-Z5I_Dk0VWEmLGM-Ww,2128384
+automerge-1.0.0rc1.dist-info/RECORD,,
