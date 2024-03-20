@@ -1,0 +1,17 @@
+elematic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elematic/api/MatML_api.py,sha256=PxcRe4a_DwpIxYFlbDt4W8kOHvmORzWU6GQK2DBGX08,444772
+elematic/api/MatML_api_subs.py,sha256=Q_dM9hxyOtlIqWSmWTAUAgoXiZfNpIP8k67lTsXYmdI,19209
+elematic/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elematic/api/io.py,sha256=RshO7BDAm2wsZbOjMrscZI2Ic2hXKqMfzF7Oj_cQJCw,22789
+elematic/api/utilities.py,sha256=j7wxpksEweYoHD29apgt8guKk2FcCmE-21dyoCwZUcg,13032
+elematic/gui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elematic/gui/example.py,sha256=eExhkJ11WfgBYcSM8yBVAFvjJnwxJceunXE8hNZWluc,10625
+elematic/gui/gui.py,sha256=fOnxaasUYHvSgZgZKQ5MdN4m9rOrfTK8NIwcgY2Gaww,4665
+elematic/res/matml31.xsd,sha256=VkEQ21UC_xGAP1H1yck9pyp9Ym0A_B2SXOBLxPMUHJQ,117046
+elematic/res/example_matml/INCONEL 718 - ASTM F3055 CLASS D.xml,sha256=ZAEXMKmUf_9Ng8yXYQE-XaoRc52c9JamXtKrDXb8OI4,5964
+elematic/res/example_matml/MatML3e1.xml,sha256=oy1kPGC622r2bZ6VXL4GzjQbk29vSwSQauB9XwOMXvo,7691
+elematic/res/example_matml/MatML3e2.xml,sha256=vEpbvBlly_3PCBqM23U4fnDAv5XDllV0qHR14CEoJQo,6165
+elematic-1.0.0.dist-info/METADATA,sha256=1ROqARlF8LFY4eStn2ckNJ1ratO5ZlArB8l1WRto78s,4026
+elematic-1.0.0.dist-info/WHEEL,sha256=adIW6_CayhCWDUikzqu5WLRybZ1lcYIbb8UUP37hrXo,105
+elematic-1.0.0.dist-info/licenses/LICENSE,sha256=-3ZCBSqlmRpS7FR_OnDgw2-1ZMjezAgWwKQ19xV3RbQ,1085
+elematic-1.0.0.dist-info/RECORD,,
