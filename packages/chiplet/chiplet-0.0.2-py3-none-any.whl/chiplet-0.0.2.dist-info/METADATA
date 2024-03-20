@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: chiplet
+Version: 0.0.2
+Summary: A chiplet is a smaller, modular piece of silicon containing integrated circuits, designed to be combined with other chiplets on a single substrate to form a larger, composite semiconductor device.
+Author: substrate
+Author-email: eng@substrate.run
+Requires-Python: >=3.10,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: jinja2
+Requires-Dist: pydantic (>=2.5,<3.0)
+Requires-Dist: pyyaml
+Requires-Dist: typer[all]
+Description-Content-Type: text/markdown
+
+### Substrate Chiplets
+
+> A chiplet is a smaller, modular piece of silicon containing integrated circuits, designed to be combined with other 
+chiplets on a single substrate to form a larger, composite semiconductor device. 
+> 
+> This approach allows for more 
+efficient manufacturing, as each chiplet can be optimized for a specific function, 
+improving performance and scalability while reducing costs and development time compared to traditional 
+monolithic chip designs. 
+> 
+> Chiplets are interconnected via a substrate that facilitates communication between them, 
+often using advanced packaging technologies like 2.5D and 3D integration.
+

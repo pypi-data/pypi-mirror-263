@@ -1,0 +1,40 @@
+"""
+Auto-generated Substrate Chiplet via `chiplet new`. See chiplet/README.md for more info
+"""
+
+{%- if use_fastapi -%}
+from fastapi import FastAPI
+{%- endif %}
+from ray import serve
+from starlette.requests import Request
+
+
+{%- if use_fastapi -%}
+app = FastAPI()
+{%- endif %}
+
+@serve.deployment(name="{{ model_name }}")
+{%- if use_fastapi -%}
+@serve.ingress(app)
+{%- endif %}
+class Model:
+    def __init__(self):
+        pass
+
+    async def run(self, args):
+        pass
+
+    async def __call__(self, req: Request):
+        args = await req.json()
+        return await self.run(args)
+
+{%- if use_fastapi -%}
+     @app.post("/")
+     async def post(
+         self, args: ARG_T
+     ) -> Union[InferenceRun[OUT_T, USAGE_T], InferenceError]:
+         ...
+{%- endif %}
+
+
+entrypoint = Model.bind()

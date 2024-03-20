@@ -1,0 +1,23 @@
+# Base config file for chiplets. see chiplet.config.ImageTarget for all options
+images:
+  gpu-model-runtime:
+    name: {{ chiplet_name }}
+    base: rayproject/ray:{{ ray_tag }}
+    system:
+      - wget
+    conda:
+      - pytorch==2.2.1
+      - torchvision
+      - torchaudio
+      - -c pytorch
+    pip: []
+    run:
+      - "echo 'SUBSTRATE CHIPLET: {{ chiplet_name }}'"
+      - "python --version"
+      - "ray --version"
+      - "echo 'cuda: ' && python -c 'import torch; print(torch.version.cuda)'"
+      - "echo 'cudnn: ' && python -c 'import torch; print(torch.backends.cudnn.version())'"
+    env: {}
+  gpu-model-runtime-dev:
+    name: {{ chiplet_name }}-dev
+    base: gpu-model-runtime

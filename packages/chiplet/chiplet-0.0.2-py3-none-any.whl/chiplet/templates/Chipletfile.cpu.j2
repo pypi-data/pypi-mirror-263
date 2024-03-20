@@ -1,0 +1,14 @@
+# Base config file for chiplets. see chiplet.config.ImageTarget for all options
+images:
+  cpu-model-runtime:
+    name: {{ chiplet_name }}
+    base: rayproject/ray:{{ ray_tag }}
+    system:
+      - wget
+    conda: []
+    pip: []
+    run:
+      - "echo 'SUBSTRATE CHIPLET: {{ chiplet_name }}'"
+      - "python --version"
+      - "ray --version"
+    env: {}

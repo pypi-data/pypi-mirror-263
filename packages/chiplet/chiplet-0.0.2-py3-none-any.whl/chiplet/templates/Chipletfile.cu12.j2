@@ -1,0 +1,29 @@
+# Base config file for chiplets. see chiplet.config.ImageTarget for all options
+images:
+  cuda-model-runtime:
+    name: {{ chiplet_name }}
+    base: nvidia/cuda:12.3.2-base-ubuntu22.04
+    system:
+      - wget
+    conda:
+      - pytorch==2.2.1
+      - torchvision
+      - torchaudio
+      - pytorch-cuda=12.3.2
+      - cudatoolkit=12.3.2
+      - cudnn=8.2.1
+      - -c pytorch -c nvidia
+    pip:
+      - ray[serve]==2.9.3
+    run:
+      - "echo 'SUBSTRATE CHIPLET: {{ chiplet_name }}'"
+      - "python --version"
+      - "ray --version"
+      - "echo 'pytorch: ' && python -c 'import torch; print(torch.__version__)'"
+      - "echo 'cuda: ' && python -c 'import torch; print(torch.version.cuda)'"
+      - "echo 'cudnn: ' && python -c 'import torch; print(torch.backends.cudnn.version())'"
+      - "echo 'opencv:' && python -c 'import cv2; print(cv2.__version__)'"
+    env:
+      MY_ENV_VAR: value
+    command: ["bash"]
+

@@ -1,0 +1,14 @@
+chiplet/builder.py,sha256=brZTbfoWta5I2oLAnrqqKVSLtCXa-v7njF7h2UVt7f8,4941
+chiplet/cli.py,sha256=ckKmc0lqr9pjhn2ExQJghkKDIOVuJB81eF-ZD15yRUA,7612
+chiplet/config.py,sha256=G0xzyZvkcwSItqL76omoOJlhveQxZewngob7a0rJeKE,10226
+chiplet/constants.py,sha256=SuwSstSIOy4aFvjGO_afQlOrAU5pB0T0f2hWfV2xHd4,585
+chiplet/render_options.py,sha256=Y6DODv2N3FRgVFkU-4hngXhZZ0iZ7JbM8iMTUTPvhRM,514
+chiplet/templates/Chipletfile.cpu.j2,sha256=r2XnvJ48OqjD0dljWB1P6_PfTu608S07lDgPs3iUf7s,354
+chiplet/templates/Chipletfile.cu12.j2,sha256=IwEuRirhsg5nGQCf3SE70XKS7_Awk5fU3AdlthrY2UY,920
+chiplet/templates/Chipletfile.gpu.j2,sha256=RBoTPEewCUiHRgVj3MDGb1sa4Y4ZIIaafKLQVtmgsiM,690
+chiplet/templates/Dockerfile.j2,sha256=o0Zfp4kWGS94Gog5q5V2Lil9RYeMPRsI2p5pz1rvTm0,3533
+chiplet/templates/Model.j2,sha256=RRASbXY38xMGL73z9LSLRmqKEsLNlelFeKtB0mWvaXg,793
+chiplet-0.0.2.dist-info/METADATA,sha256=02H0paIOSgK01B6LxEYSAmQHWDTQas9q2Uoass1DNr0,1329
+chiplet-0.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+chiplet-0.0.2.dist-info/entry_points.txt,sha256=IocTGltXssLMa4WJbYFjq8eE6b2QgE382UCKtf29FEY,43
+chiplet-0.0.2.dist-info/RECORD,,
