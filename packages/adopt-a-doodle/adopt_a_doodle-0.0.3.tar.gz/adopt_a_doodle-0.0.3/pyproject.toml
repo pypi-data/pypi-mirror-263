@@ -1,0 +1,28 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[tool.maturin]
+python-source = "src"
+profile = "release"
+strip = true
+
+[project]
+name = "adopt_a_doodle"
+dependencies = ["Panda3D~=1.10.11"]
+version = "0.0.3"
+authors = [
+  { name="Vhou-Atroph", email="vhouatroph@proton.me" },
+]
+description = "A Python package to make the creation of Doodle actors easier!"
+readme = "readme.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Vhou-Atroph/adopt-a-doodle"
+"Bug Tracker" = "https://github.com/Vhou-Atroph/adopt-a-doodle/issues"
