@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+ChatGskBot/__init__.py
+ChatGskBot.egg-info/PKG-INFO
+ChatGskBot.egg-info/SOURCES.txt
+ChatGskBot.egg-info/dependency_links.txt
+ChatGskBot.egg-info/not-zip-safe
+ChatGskBot.egg-info/top_level.txt
