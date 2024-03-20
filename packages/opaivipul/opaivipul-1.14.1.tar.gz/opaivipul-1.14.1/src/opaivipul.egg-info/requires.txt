@@ -1,0 +1,19 @@
+httpx<1,>=0.23.0
+pydantic<3,>=1.9.0
+typing-extensions<5,>=4.7
+anyio<5,>=3.5.0
+distro<2,>=1.7.0
+sniffio
+tqdm>4
+
+[:python_version < "3.8"]
+cached-property
+
+[datalib]
+numpy>=1
+pandas>=1.2.3
+pandas-stubs>=1.1.0.11
+
+[dev]
+pytest>=7.0
+twine>=4.0.2
