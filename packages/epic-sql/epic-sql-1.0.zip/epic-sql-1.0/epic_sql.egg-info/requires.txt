@@ -1,0 +1,8 @@
+pandas
+epic-common
+
+[bigquery]
+tqdm
+google-api-core
+google-cloud-bigquery
+epic-jupyter
