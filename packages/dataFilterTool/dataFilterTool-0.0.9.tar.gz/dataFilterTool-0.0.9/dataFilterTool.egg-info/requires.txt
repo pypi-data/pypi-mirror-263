@@ -1,0 +1,6 @@
+pytest
+pylance
+black
+pandas
+xlsxwriter
+openpyxl
