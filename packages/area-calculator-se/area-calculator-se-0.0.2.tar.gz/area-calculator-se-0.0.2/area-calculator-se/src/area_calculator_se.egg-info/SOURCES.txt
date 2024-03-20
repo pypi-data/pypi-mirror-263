@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+area-calculator-se/src/area_calculator_se.py
+area-calculator-se/src/area_calculator_se.egg-info/PKG-INFO
+area-calculator-se/src/area_calculator_se.egg-info/SOURCES.txt
+area-calculator-se/src/area_calculator_se.egg-info/dependency_links.txt
+area-calculator-se/src/area_calculator_se.egg-info/top_level.txt
