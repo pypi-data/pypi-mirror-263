@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/retrodetect/__init__.py
+src/retrodetect/detect.py
+src/retrodetect.egg-info/PKG-INFO
+src/retrodetect.egg-info/SOURCES.txt
+src/retrodetect.egg-info/dependency_links.txt
+src/retrodetect.egg-info/requires.txt
+src/retrodetect.egg-info/top_level.txt
+src/retrodetect/image_processing/__init__.py
+src/retrodetect/image_processing/image_processing.py
+src/retrodetect/image_processing/normxcorr2.py
+tests/test_detect.py
+tests/test_image_processing.py
+tests/test_normxcorr2.py

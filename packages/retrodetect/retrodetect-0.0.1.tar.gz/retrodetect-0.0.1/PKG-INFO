@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: retrodetect
+Version: 0.0.1
+Summary: Finds retroreflectors in a pair of images
+Author-email: Mike Smith <m.t.smith@sheffield.ac.uk>
+Maintainer-email: XXX <XXX@example.com>
+License: 1 User: Fair Source License, version 0.9
+        
+        Copyright © 2018 Michael Smith
+        
+        Licensor: Michael Smith
+        
+        Software: Retrodetector 
+        
+        Excluding the normxcorr2.py file, used for computing the normalized cross-correlation.
+        
+        Use Limitation: 1 users
+        
+        License Grant. Licensor hereby grants to each recipient of the Software (“you”) a non-exclusive, non-transferable, royalty-free and fully-paid-up license, under all of the Licensor’s copyright and patent rights, to use, copy, distribute, prepare derivative works of, publicly perform and display the Software, subject to the Use Limitation and the conditions set forth below.
+        
+        Use Limitation. The license granted above allows use by up to the number of users per entity set forth above (the “Use Limitation”). For determining the number of users, “you” includes all affiliates, meaning legal entities controlling, controlled by, or under common control with you. If you exceed the Use Limitation, your use is subject to payment of Licensor’s then-current list price for licenses.
+        
+        Conditions. Redistribution in source code or other forms must include a copy of this license document to be provided in a reasonable manner. Any redistribution of the Software is only allowed subject to this license.
+        
+        Trademarks. This license does not grant you any right in the trademarks, service marks, brand names or logos of Licensor.
+        
+        DISCLAIMER. THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OR CONDITION, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. LICENSORS HEREBY DISCLAIM ALL LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE.
+        
+        Termination. If you violate the terms of this license, your rights will terminate automatically and will not be reinstated without the prior written consent of Licensor. Any such termination will not affect the right of others who may have received copies of the Software from you.
+        
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug_Tracker, https://github.com/pypa/sampleproject/issues
+Project-URL: Documentation, https://readthedocs.org
+Project-URL: Repository, https://github.com/me/spam.git
+Project-URL: Changelog, https://github.com/me/spam/blob/master/CHANGELOG.md
+Keywords: bee,retroreflectors,XXX,XXX,XXX
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: test
+Requires-Dist: flake8; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: opencv-python; extra == "test"
+
+# retrodetect
+Detect retroreflectors in image pair
