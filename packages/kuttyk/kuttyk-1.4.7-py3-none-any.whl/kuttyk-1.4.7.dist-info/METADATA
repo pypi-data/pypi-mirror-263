@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kuttyk
+Version: 1.4.7
+Summary: 
+Author: kuttykishorekk
+Author-email: kishorekumarmourougane@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib (>=3.8.3,<4.0.0)
+Requires-Dist: plotly (>=5.19.0,<6.0.0)
+Requires-Dist: seaborn (>=0.13.2,<0.14.0)
