@@ -1,0 +1,10 @@
+setup.py
+oetcloudmodule/__init__.py
+oetcloudmodule/add.py
+oetcloudmodule/subtract.py
+oetcloudmodule.egg-info/PKG-INFO
+oetcloudmodule.egg-info/SOURCES.txt
+oetcloudmodule.egg-info/dependency_links.txt
+oetcloudmodule.egg-info/top_level.txt
+oetcloudmodule/extras/__init__.py
+oetcloudmodule/extras/multiply.py
