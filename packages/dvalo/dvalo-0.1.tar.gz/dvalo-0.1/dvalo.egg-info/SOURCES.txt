@@ -1,0 +1,5 @@
+setup.py
+dvalo.egg-info/PKG-INFO
+dvalo.egg-info/SOURCES.txt
+dvalo.egg-info/dependency_links.txt
+dvalo.egg-info/top_level.txt
