@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: mansai
+Version: 0.1.8
+Summary: Prank package for SAI circle in Sejong University
+Author-email: Janghoo Lee <dlwkdgn1@naver.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: pytest ; extra == "dev"
+Provides-Extra: dev
+
+# ManSAI
+
+## Install
+
+### From wheel
+
+```bash
+pip install 
+```
+
+### From source
+
+```bash
+python3 -m pip install flit
+python3 -m flit build
+```
+
+## Publish
+
+### Publish sdist
+
+```bash
+python3 -m flit publish
+```
+
