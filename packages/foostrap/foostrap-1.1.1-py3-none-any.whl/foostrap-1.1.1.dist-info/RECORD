@@ -1,0 +1,9 @@
+foostrap/__init__.py,sha256=0ekkcUcKdd2y6Wu15M5RtQr5ne4cEhnQLUNftfIYHEw,31
+foostrap/interface.py,sha256=ErdEjv8AG0PdwJX8vihEEln9yTxzE4FbyBe8Ic8e4q0,3790
+foostrap/preproc.py,sha256=iHsGZX1fO0qz0iA5I-uwN9sgBnaO7sp_4aBGjLIT6kU,7286
+foostrap/stats_numba.py,sha256=htHWjvBr0gyIB6SQnKYk-53Sy0EAlxtv39iLNPXfvVs,7453
+foostrap/stats_py.py,sha256=dBjMcMEQGfqqykkEbz1AAXi1i8hcqOsVkvQgfA2i35g,4296
+foostrap-1.1.1.dist-info/METADATA,sha256=Cr_d0XOgfz-CiB-tLmbbUZfBP76Da0XHtiFWLViVtQs,5049
+foostrap-1.1.1.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+foostrap-1.1.1.dist-info/licenses/LICENSE,sha256=RWPrwDzJRfAnwMpaWs5gT_0MopEW24K-DigqIKnr8PE,1071
+foostrap-1.1.1.dist-info/RECORD,,
