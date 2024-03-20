@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+TSfraction/__init__.py
+TSfraction/module_a.py
+TSfraction.egg-info/PKG-INFO
+TSfraction.egg-info/SOURCES.txt
+TSfraction.egg-info/dependency_links.txt
+TSfraction.egg-info/top_level.txt
