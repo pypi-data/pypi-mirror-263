@@ -1,0 +1,122 @@
+Automask:
+  -
+
+Bandpass:
+  -
+
+Despike:
+  -
+
+BlurInMask:
+  -
+
+Centrality:
+  -
+
+Seg:
+  -
+
+SkullStrip:
+  -
+
+DegreeCentrality:
+  -
+
+Retroicor:
+  -
+
+ECM:
+  -
+
+TNorm:
+  -
+
+OutlierCount:
+  -
+
+NetCorr:
+  -
+
+CommandLine:
+  -
+  
+Qwarp:
+  -
+
+AFNIPythonCommand:
+  -
+  
+AlignEpiAnatPy:
+  -
+
+TCorrelate:
+  -
+
+ClipLevel:
+  -
+
+LFCD:
+  -
+
+Maskave:
+  -
+
+Hist:
+  -
+
+AutoTLRC:
+  -
+
+AutoTcorrelate:
+  -
+
+AFNICommand:
+  -
+
+Allineate:
+  -
+
+ROIStats:
+  -
+
+TSmooth:
+  -
+
+Means:
+  -
+
+Volreg:
+  -
+
+Fourier:
+  -
+
+Fim:
+  -
+
+QwarpPlusMinus:
+  -
+
+TCorr1D:
+  -
+
+TProject:
+  -
+
+TCorrMap:
+  -
+
+BlurToFWHM:
+  -
+
+TShift:
+  -
+
+Warp:
+  -
+
+Detrend:
+  -
+
+QualityIndex:
+  -
