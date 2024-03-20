@@ -1,0 +1,11 @@
+glfw.cp312-win_amd64.pyd,sha256=zqi6frQiLSACJ9ogS-8N-E75ffCjVealsyaNzVluc5Q,329216
+glfw.pyi,sha256=Ju5x1inAW5GCsVmnANsWDUTMLm7OHlfWdBI1WO7NtDg,23085
+glfw3.dll,sha256=wTq9AxLLwiOFtKKO4PUYXe9v8OgnvXp5XeDw9slIkSY,231424
+glfw3dll.lib,sha256=o5wKtRdrKuqhRyggTLRlSTz8TCN3Ln3Svk2JiCgmSPA,31378
+py-glfw-redux-1.0.2.inc/GLFW/glfw3.h,sha256=qjcJhfa0k7vgNYo2q0n1eApjl8AgnG2YpiFD3qWVtzw,241826
+py-glfw-redux-1.0.2.inc/GLFW/glfw3native.h,sha256=QANYgf3AKpqyZcIIYzj3SaBBHhwVto-tpnj6NOi9iVg,21201
+py_glfw_redux-1.0.2.dist-info/LICENSE,sha256=lLrq1iQPd_x2HXDrDBN0xZW4dNVDmyNy2lomcGQMvDo,1070
+py_glfw_redux-1.0.2.dist-info/METADATA,sha256=ddX6efbtODdLcuD4e0ACyRD8cFF-v0L6KM-ABn56TMk,1311
+py_glfw_redux-1.0.2.dist-info/WHEEL,sha256=fZWyj_84lK0cA-ZNCsdwhbJl0OTrpWkxInEn424qrSs,102
+py_glfw_redux-1.0.2.dist-info/top_level.txt,sha256=n6GNY584FzIdaCsyFH_mQw_kXzRH9bZ9wYb8VvDeT3k,5
+py_glfw_redux-1.0.2.dist-info/RECORD,,
