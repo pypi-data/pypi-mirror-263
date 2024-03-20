@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: GeoUnitMergerDI
+Version: 1.0.0
+Summary: DataInt module for merging graph nodes with their neighbors based on their weights. intended for merging geolocations.
+Home-page: https://github.com/dataintmx/RiskIndex-GeoMerger
+License: BSD
+Platform: linux
+Platform: windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Other/Nonlisted Topic
