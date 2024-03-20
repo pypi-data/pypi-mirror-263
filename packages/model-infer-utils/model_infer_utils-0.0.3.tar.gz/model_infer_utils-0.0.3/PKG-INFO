@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: model_infer_utils
+Version: 0.0.3
+Summary: A utils package for model-inference
+Author: wei.zhang
+Author-email: zhangwei@singularity-ai.com
+License: MIT
+Keywords: utils model inference
