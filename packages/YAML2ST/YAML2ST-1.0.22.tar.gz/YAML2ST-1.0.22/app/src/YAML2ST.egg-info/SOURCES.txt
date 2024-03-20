@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+app/src/YAML2ST.py
+app/src/YAML2ST.egg-info/PKG-INFO
+app/src/YAML2ST.egg-info/SOURCES.txt
+app/src/YAML2ST.egg-info/dependency_links.txt
+app/src/YAML2ST.egg-info/requires.txt
+app/src/YAML2ST.egg-info/top_level.txt
