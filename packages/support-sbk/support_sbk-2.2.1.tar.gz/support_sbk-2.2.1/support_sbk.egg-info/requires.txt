@@ -1,0 +1,10 @@
+rich
+requests
+prompt-toolkit
+baso_kontol
+super_baso_kontol
+CapCokor-tiga
+CapCokor-dua
+
+[excel]
+openpyxl
