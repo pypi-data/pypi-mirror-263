@@ -1,0 +1,7 @@
+include epic/sklearn/metrics/leven/*.h
+
+# ---- AUTO-GENERATED: lines beyond this point were added by quicklib.datafiles at Wed Mar  6 15:00:28 2024
+include dynamic_install_requires.txt
+include dynamic_extras_require.txt
+include quicklib_incorporated.v2.5.zip
+# ---- AUTO-GENERATED: done
