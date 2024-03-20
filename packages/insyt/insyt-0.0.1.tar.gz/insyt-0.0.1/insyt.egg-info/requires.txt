@@ -1,0 +1,7 @@
+pandas
+watchdog
+tokenizers
+transformers
+torch
+ollama
+rq
