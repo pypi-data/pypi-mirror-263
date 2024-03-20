@@ -1,0 +1,2 @@
+[console_scripts]
+cron-parser = cron_parser.cli:cli

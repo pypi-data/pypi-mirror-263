@@ -1,0 +1,72 @@
+# Cron Expression Parser
+
+1. This is simple cron expression parser written in python that translates cron expression and send output in table format.
+
+2. It accepts string input which has following  five paramters 
+- minute
+- hour
+- day of month
+- month
+- day of week
+- command
+
+## System Requirements
+
+- Python >=3.6
+- `pipenv` Python package manager
+
+## Usage
+
+To use this program, follow these steps:
+
+1. Open a terminal or command prompt in the root folder.
+
+2. Install all dependencies and active the virtual environment:
+   ```shell
+   pipenv install
+   pipenv install -r requirements.txt
+   pipenv shell
+   pipenv install pytest
+   ```
+
+3. Install the package as a binary.
+   ```shell
+   pip install --editable .
+   ```
+
+4. Now you have access to `cron-parser` binary. Run the program with a cron expression as an argument. For example:
+
+   ```shell
+   cron-parser "*/15 0 1,15 * 1-5 /usr/bin/find"
+   ```
+
+   Replace `"*/15 0 1,15 * 1-5 /usr/bin/find"` with your own cron expression.
+
+5. The program will output the formatted cron expression as a table, like this:
+
+   ```
+   minute        0 15 30 45
+   hour          0
+   day of month  1 15
+   month         1 2 3 4 5 6 7 8 9 10 11 12
+   day of week   1 2 3 4 5
+   command       /usr/bin/find
+   ```
+
+7. You can run the tests to see if the code works correctly:
+   ```shell
+   pytest
+   ```
+
+## Features
+
+- Handles step values, range of values, any value (`*`), and lists of values for each cron field.
+- Provides clear and human-readable output with field names and corresponding time values.
+
+## Contributing
+
+If you would like to contribute to this project, please feel free to submit issues or pull requests on the GitHub repository.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
