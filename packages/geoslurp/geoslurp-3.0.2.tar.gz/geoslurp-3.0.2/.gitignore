@@ -1,0 +1,9 @@
+__pycache__
+.idea
+.geoenv
+*egg-info*
+dist
+build
+*.pyc
+*.gpg
+.ipynb_checkpoints

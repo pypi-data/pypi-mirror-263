@@ -1,0 +1,14 @@
+[console_scripts]
+geoslurper = geoslurp.cli.geoslurper:main
+
+[geoslurp.dbfuncs]
+loadfile = geoslurp.plugins.dbfunc.readfile:readfile
+maskgeom = geoslurp.plugins.dbfunc.maskgeom:gs_maskgeom
+
+[geoslurp.dsetfactories]
+geoshapes = geoslurp.plugins.dset.geoshapes:getGeoshapesDsets
+grdcsets = geoslurp.plugins.dset.grdc:getGRDCDsets
+
+[geoslurp.viewfactories]
+graceview = geoslurp.plugins.views.graceviews:getGRACEviews
+grdcviews = geoslurp.plugins.dset.grdc:getGRDCviews
