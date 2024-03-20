@@ -1,0 +1,13 @@
+tangent_works/__init__.py,sha256=BRBBdevrTjMtG0Gglxyo4-HnOpOJds9Az59vXVWzf7g,626
+tangent_works/__version__.py,sha256=dgnZSAlJptLKlZA4LyqlEUio4rOPF5-tuYejIaaQgKY,138
+tangent_works/api_utils.py,sha256=Ezm_nQaZnlhYvBzP5S5QgvoTbEMEtcZyZUTHwjvKxyE,563
+tangent_works/authentication.py,sha256=VQAxF9J5p9spGD1eUIK_-8pcUZIXa71tJqJmIFJyVSM,1354
+tangent_works/auto_forecasting.py,sha256=QFIF-9i5JrQYMH3NSTc_NzKeXJ2MH-nR9qatguva_rE,15609
+tangent_works/config.py,sha256=ZB3stemqCTNr8v5JVjugQsBjz6Hh-ocAROK2b79uyyc,133
+tangent_works/exceptions.py,sha256=pcu1jpj4xYVMRNRuucNn2fTwGLXr1IDX-XwqsKDPdzg,87
+tangent_works/forecasting.py,sha256=-75zXuU_c1s-keAv-jpgsE1Sx4lssD1BddExOtJmjKU,3850
+tangent_works/general_utils.py,sha256=zBfnk61t9uMJRHhUwPaS6RM7nYFCl5Q_MwReOBy2knA,386
+tangent_works/time_series.py,sha256=uhgIJ17qu7flMG14oQX0ngIhLbI0aR-WnuhGmH_oRio,4942
+tangent_works-0.0.3.dist-info/METADATA,sha256=k2LfG2r0H-vHhvGNBSvS26zmFE8Zv6x1uVdpItfS9Rw,1465
+tangent_works-0.0.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+tangent_works-0.0.3.dist-info/RECORD,,
