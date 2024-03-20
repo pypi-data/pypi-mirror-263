@@ -1,0 +1,17 @@
+maap_help_jupyter_extension/__init__.py,sha256=0BsbgutS4L-dJXpnf0zhuosH1oOAeOH6X65qsvee_bI,321
+maap_help_jupyter_extension/_version.py,sha256=znsVMC-VSrrbP0QAT_b-Ny9wCA-CKaTr-hCtvQFQ-4k,171
+maap_help_jupyter_extension-1.3.1.data/data/share/jupyter/labextensions/maap-help-jupyter-extension/package.json,sha256=x58sRxU9dBN6lnj1h9mP18botS3RB5LWS1YhPreRblo,3850
+maap_help_jupyter_extension-1.3.1.data/data/share/jupyter/labextensions/maap-help-jupyter-extension/schemas/maap-help-jupyter-extension/package.json.orig,sha256=035SjWBqXZq2Afr2Mpk71Fs0Yxjr85E53MYy4tXQoH4,3708
+maap_help_jupyter_extension-1.3.1.data/data/share/jupyter/labextensions/maap-help-jupyter-extension/schemas/maap-help-jupyter-extension/plugin.json,sha256=ogP1d3pafmwxl1tRlDB-7lWLoLh27fBEWmR_TQppLBY,207
+maap_help_jupyter_extension-1.3.1.data/data/share/jupyter/labextensions/maap-help-jupyter-extension/static/350.7739dae4444b0c0c91be.js,sha256=agTxyUJyzFd7y6elmnGiRMOHML1ZfRtj5qkyO9o77Cw,102239
+maap_help_jupyter_extension-1.3.1.data/data/share/jupyter/labextensions/maap-help-jupyter-extension/static/350.7739dae4444b0c0c91be.js.LICENSE.txt,sha256=ZCzq080J_Ho89H4n4r3QQNW-WVhT6xj_p9800u6iesk,370
+maap_help_jupyter_extension-1.3.1.data/data/share/jupyter/labextensions/maap-help-jupyter-extension/static/728.7b9144576fda9bc6f6c0.js,sha256=e5FEV2_am8b2wBApxJeY7V7MR-q8-8D1_GXt6QkNj7E,3679
+maap_help_jupyter_extension-1.3.1.data/data/share/jupyter/labextensions/maap-help-jupyter-extension/static/858.0698a0542640525760de.js,sha256=BpigVCZAUldg3vsBIcLKMks86r3Gi8z4qr2QCMRVILE,16902
+maap_help_jupyter_extension-1.3.1.data/data/share/jupyter/labextensions/maap-help-jupyter-extension/static/remoteEntry.14d62e1da1cde4bf116a.js,sha256=FNYuHaHN5L8RakvINNRbUJplpCgV2C8Y0UJrpKoNf_8,7081
+maap_help_jupyter_extension-1.3.1.data/data/share/jupyter/labextensions/maap-help-jupyter-extension/static/style.js,sha256=zgsAMlOgyI7LukxgoHpnrhmxcgWycMACzrJ3uyPcTsI,170
+maap_help_jupyter_extension-1.3.1.data/data/share/jupyter/labextensions/maap-help-jupyter-extension/static/third-party-licenses.json,sha256=94vFPDwHoM3QWYirHsAPXMHDCK6m0WYrFi8m5h2S2rk,17706
+maap_help_jupyter_extension-1.3.1.data/data/share/jupyter/labextensions/maap-help-jupyter-extension/install.json,sha256=3jplWfiobkOPNe9qI7sDRnUq2lYPxR4Wui1wApBGXco,215
+maap_help_jupyter_extension-1.3.1.dist-info/METADATA,sha256=G1pYDJylYVmmCrZy2eZw7whkGpZEM2HCVdA4qpug2Rs,19562
+maap_help_jupyter_extension-1.3.1.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+maap_help_jupyter_extension-1.3.1.dist-info/licenses/LICENSE,sha256=Ji-LiBgJ_JF46lN--GKv552ykXwmPPnx6qZY9Pc5yl8,10988
+maap_help_jupyter_extension-1.3.1.dist-info/RECORD,,
