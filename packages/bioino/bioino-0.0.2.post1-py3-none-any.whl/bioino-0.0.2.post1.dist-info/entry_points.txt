@@ -1,0 +1,2 @@
+[console_scripts]
+bioino = bioino.cli:main

@@ -1,0 +1,11 @@
+bioino/__init__.py,sha256=5MJIOjT96JTNqz_w0Y2kCfS6tjC89kEYxSrm1noYIlg,39
+bioino/cli.py,sha256=5_YQ79IUQjTbDxB4FnJ3aecOpstY-HhbrRyPd1LDHs4,4226
+bioino/fasta.py,sha256=R6d-zcOZZMmtDdwJxeuBN1X204Zxu_nkB4OSyADHLz8,9410
+bioino/gff.py,sha256=YVOOZoCQVygSpiOJSEWWjxxQKVCRPfBz3zgHk0d2hZc,24309
+bioino/tables.py,sha256=OEmxLxAu7maQa0-4tkbpv8jOzvm07mCAwgUYrRpG2M4,201
+bioino-0.0.2.post1.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+bioino-0.0.2.post1.dist-info/METADATA,sha256=S5ggRC8U_fNrsc1bUEbqW2zmmQtthnJOhDN8ysziADA,9993
+bioino-0.0.2.post1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bioino-0.0.2.post1.dist-info/entry_points.txt,sha256=ItQXRH0cNYVTg1hqPJPzcsbgxDMmm9pYCLomcqkIlhI,43
+bioino-0.0.2.post1.dist-info/top_level.txt,sha256=XjRccp_OmitatvGyi5Sm7TTKooScSKp7QfENsKWsfwc,7
+bioino-0.0.2.post1.dist-info/RECORD,,
