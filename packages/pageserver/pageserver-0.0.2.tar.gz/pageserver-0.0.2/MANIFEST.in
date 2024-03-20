@@ -1,0 +1,3 @@
+graft src/pageserver/sites/admin/static
+graft src/pageserver/sites/admin/templates
+graft src/pageserver/sites/admin/tasks
