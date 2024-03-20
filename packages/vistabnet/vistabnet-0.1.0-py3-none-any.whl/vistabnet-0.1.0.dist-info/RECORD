@@ -1,0 +1,7 @@
+vistabnet/__init__.py,sha256=NINRG1D4HlfI8SV-7EsXW9EUcXHPbD2896C78q4qHgM,40
+vistabnet/trainer.py,sha256=5ZGKASPgS75cF_WxXZ88NwAHO0qMJ-uBqDYiFSynQZI,6080
+vistabnet/vistabnet.py,sha256=wSqhnbaBu8zwv2uOTdNN_brlgHL9ghbrg5H9Bh4NzGo,4624
+vistabnet/vistabnet_backbone.py,sha256=JCePVY1qGfgVK1OF9oS1Ii3qRp62zLDjr8r-dYAZMAY,4277
+vistabnet-0.1.0.dist-info/METADATA,sha256=dbT6fUeDfNQ9tyaB36-3T9pa-pQHKN9IZEnoPlY_Aqg,601
+vistabnet-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+vistabnet-0.1.0.dist-info/RECORD,,
