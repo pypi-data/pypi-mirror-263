@@ -1,0 +1,53 @@
+image: python:3.11
+
+workflow:
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_COMMIT_TAG
+
+code style:
+  stage: test
+  before_script:
+    - apt-get update
+    - apt-get install --assume-yes --no-install-recommends git
+    - pip install pre-commit==3.5.0
+  script:
+    - pre-commit run --all-files --show-diff-on-failure
+  # Use caching to reuse the environments pre-commit creates.
+  variables:
+    PRE_COMMIT_HOME: ${CI_PROJECT_DIR}/.cache/pre-commit
+  cache:
+    paths:
+      - ${PRE_COMMIT_HOME}
+
+test:
+  stage: test
+  before_script:
+    - pip install pipenv==2023.11.15
+    - pipenv install --deploy --dev
+  script:
+    - pipenv run ci-coverage -k 'not integration'
+  coverage: '/(?i)total.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/'
+  artifacts:
+    reports:
+      junit: report.xml
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
+
+type checking:
+  stage: test
+  before_script:
+    - pip install pipenv==2023.11.15
+    - pipenv install --deploy --dev
+  script:
+    - pipenv run type-check
+
+publish to pypi:
+  stage: deploy
+  script:
+    - pip install flit~=3.9
+    - flit publish
+  rules:
+    - if: $CI_COMMIT_TAG
