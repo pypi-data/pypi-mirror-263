@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: time_zone_dict
+Version: 1.1.0
+Summary: Time Zone dict
+Home-page: https://github.com/z1kurat/Time-Zone-dict-for-python
+Author: z1kurat
+Author-email: novorozhbitov@mail.com
+Project-URL: Source, https://github.com/z1kurat/Time-Zone-dict-for-python
+Project-URL: Tracker, https://github.com/z1kurat/Time-Zone-dict-for-python/issues
+Keywords: time time_zone zone python dict
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.25.1
+
+# Time-Zone-dict-for-python
+ 
