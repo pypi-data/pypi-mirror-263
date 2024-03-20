@@ -1,0 +1,12 @@
+shipyard_bigquery/__init__.py,sha256=8psE15K5wbSZiCRD4nQnbspvPATGKdlYol-EGMqPlks,37
+shipyard_bigquery/bigquery.py,sha256=uj-kcl7AJBGs3Y6CPlZ47o6LdsIDa2_45oHKYQSnuk4,7893
+shipyard_bigquery/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shipyard_bigquery/cli/authtest.py,sha256=E4fx8t8FjjtSgTB44nz2lha7rk8qoiFb1LsY0L0Bb9Q,682
+shipyard_bigquery/cli/download.py,sha256=Gz38G6MZq5xYyC93BU6xUvXhtSHkgzZzmn2rZIAP5Sk,1854
+shipyard_bigquery/cli/download_to_gcs.py,sha256=NL4FCZeenoRvTXplpbSYJP_FMhYYjji_W1UV_Grph5o,2029
+shipyard_bigquery/cli/execute_query.py,sha256=I1k46QTrcMbp618dcXSekSewVt7QskfAhW8Aa7tjJkI,1190
+shipyard_bigquery/cli/upload.py,sha256=UtyXDvAWM8oCF5lMPsBNaSuxsME1rFpgM5h_uJSZHyY,4952
+shipyard_bigquery/utils/exceptions.py,sha256=s_8r2jsyFSJNZhROWBW2dAWdYydOQ6T_GqDHbTV4-b4,1508
+shipyard_bigquery-0.1.3.dist-info/METADATA,sha256=8C1S_F0AAiNeMObzThofrzL5Mv4FI_CBm46rihbBUmI,2652
+shipyard_bigquery-0.1.3.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+shipyard_bigquery-0.1.3.dist-info/RECORD,,
