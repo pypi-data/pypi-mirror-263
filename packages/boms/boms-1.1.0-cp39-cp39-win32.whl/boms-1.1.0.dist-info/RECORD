@@ -1,0 +1,13 @@
+boms_wrapper.cp39-win32.pyd,sha256=1oT1SZVgeLvKHcrWmrS6hli1ItN2PzvWIJz2kH_T0TU,215040
+boms/__init__.py,sha256=y2Onkb__3b3cX7Tjmxiis4ErW4bw7ai3-YVQZOWbb-s,117
+boms/boms_wrapper.cpp,sha256=5rZclnQzTC89g4gHtfFT0BLeUWDX961PQ2EW6ZNhgEs,3892
+boms/indicators.hpp,sha256=0VR-vv6SxwYC28voJxSmhA6pIoq7wLT7d-ejgB0uWpQ,115770
+boms/main.py,sha256=awcBmT8-4iQywdRlSVbiLbrL6R8Rg_onTOBSuJsXGjU,4142
+boms/meanshift.cpp,sha256=seGwBC3waVMGjXxJ_jOfiKieemCRgvOesuiX5NWsDE4,43034
+boms/meanshift.hpp,sha256=ldBx3K5W_bIOpZ70E7U5Im6HNH_pZpLb9Kx2mCKrF-Q,452
+boms/utils_vis.py,sha256=hwQmrYireFZeSMYGijGkPCOE4txpwvUZL_QkqmnJi_Y,12469
+boms-1.1.0.dist-info/LICENSE,sha256=WxO0Wj7KEly00dmk32m_EG7QgOJFS6JZJ8y1fTzcX6s,1064
+boms-1.1.0.dist-info/METADATA,sha256=JvAsyMFrLQKW_lNInvxINIxPBwmBuomjrSbUEOABnrw,3609
+boms-1.1.0.dist-info/WHEEL,sha256=J4VEqyL9z1mLE9UmMSsP54FoLo18dqSe_E9pRPZ-IbI,96
+boms-1.1.0.dist-info/top_level.txt,sha256=NShj10cj0e9Nfstt4EXUYbbX7DGUfAYjxveQSVcVuNw,18
+boms-1.1.0.dist-info/RECORD,,
