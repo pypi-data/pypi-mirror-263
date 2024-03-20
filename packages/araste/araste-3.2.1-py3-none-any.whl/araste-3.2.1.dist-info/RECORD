@@ -1,0 +1,16 @@
+araste/__init__.py,sha256=hWGUNO1rPeQaXKfh2veUrm4un2Qhvqrtm1BZDBgrgTo,10517
+araste/char_maps.py,sha256=yxWVXH-c2Aqtqfnc6TLoxXhEECl3h1WsuGZe38FaFl0,9774
+araste/filters.py,sha256=hYPbd3a10tYp51WpsyLGiQCFO4K7PeBXQAJ63QATt5o,8732
+araste/fonts/aipara.aff,sha256=l2P0fP8LvXe31wkuhrDTbFrmBzPr304y2RkaLFVwAsQ,21914
+araste/fonts/aipara_mini.aff,sha256=KLhu6LYI82FQJ5r4oIA5oBU7tANhmBah4PaIfpw-sYM,4504
+araste/fonts/danial.aff,sha256=JKRVgBG3ed5rSQYTRgkf7yOmFw77Dx7VQBgtgbKoqeI,22586
+araste/fonts/naqshe.aff,sha256=HjgNSgNVPPWkpHXxOdgWR-IeOEyG_eBlBc99a0kFYJE,7862
+araste/fonts/nima.aff,sha256=KNiuYeyiPZzKqpodgOJVUcP5TQ-GEMms4J_aw0SQBA4,22358
+araste/fonts/zivar.aff,sha256=rBTpxxJ_AAFx9KuDb6lZplq3DVM8PyzN_IsgFoTX4Ps,20050
+araste-3.2.1.data/scripts/araste,sha256=mbO-pzer332TrjpBLQZPEOYILzZUZ7AhmuHBspoXQsw,2778
+araste-3.2.1.data/scripts/araste-get,sha256=i14FcpyzNO0gIQUYxMpGAeLb2fmXxuiCIIPHmlP-NaQ,3797
+araste-3.2.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+araste-3.2.1.dist-info/METADATA,sha256=48ubojiVWcv1gJMV_vuSLyDTxEm9u7NyrapkuBjdyWs,3622
+araste-3.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+araste-3.2.1.dist-info/top_level.txt,sha256=4kgusdipgAhPRJu18_01Rx9zsgSwu5uApfskLdcopIw,7
+araste-3.2.1.dist-info/RECORD,,
