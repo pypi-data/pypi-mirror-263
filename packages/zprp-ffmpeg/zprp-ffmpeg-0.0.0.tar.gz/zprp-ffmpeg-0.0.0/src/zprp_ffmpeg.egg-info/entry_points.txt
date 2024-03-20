@@ -1,0 +1,2 @@
+[console_scripts]
+zprp-ffmpeg = zprp_ffmpeg.cli:main
