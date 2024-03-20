@@ -1,0 +1,40 @@
+[project]
+name = "mtbpy"
+version = "1.0.2"
+
+description = "Module for communicating with Minitab from Python scripts executed via the PYSC command."
+
+license = {file = "LICENSE.txt"}
+readme = "README.md"
+
+authors = [
+  {name = "Minitab, LLC", email = "techsupport@minitab.com" }
+]
+
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Intended Audience :: End Users/Desktop",
+  "Topic :: Scientific/Engineering",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3 :: Only",
+  "Operating System :: OS Independent"
+]
+
+requires-python = ">= 3.7"
+
+dependencies = [
+  "protobuf >= 3.20.0",
+  "grpcio >= 1.57.0"
+]
+
+[project.urls]
+"Homepage" = "https://support.minitab.com/minitab/"
+
+[build-system]
+requires = [
+  "setuptools >= 59.7.0",
+  "wheel >= 0.40.0"
+]
+
+build-backend = "setuptools.build_meta"
