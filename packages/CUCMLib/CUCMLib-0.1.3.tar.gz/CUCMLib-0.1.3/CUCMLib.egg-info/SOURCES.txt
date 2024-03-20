@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+CUCMLib/AXLAPI.wsdl
+CUCMLib/AXLEnums.xsd
+CUCMLib/AXLSoap.xsd
+CUCMLib/__init__.py
+CUCMLib/partition.py
+CUCMLib/phone.py
+CUCMLib.egg-info/PKG-INFO
+CUCMLib.egg-info/SOURCES.txt
+CUCMLib.egg-info/dependency_links.txt
+CUCMLib.egg-info/not-zip-safe
+CUCMLib.egg-info/requires.txt
+CUCMLib.egg-info/top_level.txt

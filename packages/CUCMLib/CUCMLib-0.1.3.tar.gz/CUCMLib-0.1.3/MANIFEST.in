@@ -1,0 +1,3 @@
+include AXLAPI.wsdl
+include AXLEnums.xsd
+include AXLSoap.xsd
