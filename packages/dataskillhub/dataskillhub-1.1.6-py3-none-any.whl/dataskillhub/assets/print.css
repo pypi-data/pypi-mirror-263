@@ -1,0 +1,150 @@
+@page {
+    size: A4 portrait;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: Calibri;
+    font-size: 10pt;
+    padding: 0 6mm;
+}
+
+/* GENERAL */
+
+h1 {
+    font-size: 24pt;
+}
+
+h2 {
+    font-size: 14pt;
+    padding-bottom: 2.7mm;
+}
+
+h3 {
+    font-size: 12pt;
+    padding-bottom: 1mm;
+}
+
+li {
+    padding-left: 5mm;
+    padding-top: 1mm;
+}
+
+.check ul li::before {
+    padding-right: 3mm;
+}
+
+section {
+    break-inside: avoid;
+}
+
+.topsect {
+    font-size: 12pt;
+    padding: 4mm 0;
+}
+
+mark {
+    font-size: 9pt;
+}
+
+/* SPECIFIC INSIDE BODY */
+
+header,
+#header-space {
+    height: 2.8cm;
+}
+
+thead {
+    display: table-header-group;
+}
+
+header {
+    position: fixed;
+    top: 0;
+}
+
+header .logo {
+    height: 2cm;
+    padding-top: 5mm;
+    padding-bottom: 3mm;
+}
+
+#identity {
+    height: 3cm;
+    padding: 0;
+    padding-bottom: 5mm;
+}
+
+#identity p {
+    font-size: 11pt;
+}
+
+#certif>div>ul {
+    padding-right: 3mm;
+}
+
+#certif #img_certif {
+    padding: 0;
+}
+
+#certif #img_certif>img {
+    height: 2cm;
+}
+
+#missions {
+    break-inside: auto;
+}
+
+#missions>div>ul>li {
+    break-inside: avoid;
+    padding: 0;
+    padding-top: 6mm;
+    padding-left: 10mm;
+}
+
+#missions>div>ul>li>ul li::before {
+    padding-right: 3mm;
+}
+
+#missions>div>ul>li>p:first-of-type {
+    padding-bottom: 2mm;
+}
+
+#missions>div>ul>li>p:last-of-type {
+    padding-top: 2mm;
+}
+
+footer,
+#footer-space {
+    height: 1cm;
+}
+
+tfoot {
+    display: table-footer-group;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding-left: 1.8cm;
+    padding-top: 3mm;
+    /* padding-bottom: 4mm; */
+}
+
+footer li {
+    font-size: 8pt;
+}
+
+footer span {
+    font-size: 10pt;
+}
+
+/* ICONs FOR h2 */
+
+h2::before {
+    width: 3.2mm;
+    height: 3.2mm;
+    margin-right: 2mm;
+}
+

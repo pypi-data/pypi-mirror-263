@@ -1,0 +1,218 @@
+:root {
+    --blue-datalyo: #009C9D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 2%;
+}
+
+/* GENERAL */
+
+.bold {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2,
+h3,
+.uppercase {
+    text-transform: uppercase;
+}
+
+h2 {
+    padding-bottom: 13px;
+    color: var(--blue-datalyo);
+}
+
+h3 {
+    font-style: italic;
+    padding-bottom: 5px;
+    color: var(--blue-datalyo);
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.check ul li::before {
+    content: "\2713";
+    /* HTML : &#10003; */
+    /* Arrow */
+    /* content: "\002B9A";  HTML : &#11162; */
+    padding-right: 1vw;
+}
+
+li {
+    padding-left: 2vw;
+    padding-top: 5px;
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+}
+
+.topsect {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 25px 0;
+    color: var(--blue-datalyo);
+}
+
+mark {
+    color: var(--blue-datalyo);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+    background-color: transparent;
+}
+
+/* SPECIFIC INSIDE BODY */
+
+thead,
+tfoot {
+    display: none;
+}
+
+header .logo {
+    height: 100px;
+}
+
+#identity {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+#identity p {
+    margin-left: 1px;
+}
+
+#identity img {
+    height: 100%;
+}
+
+#identity #name {
+    align-self: center;
+}
+
+#certif>div:not([class]) {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#certif>div>ul {
+    padding-right: 20px;
+    width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    #certif>div>ul {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+
+    #certif div:not([class]) {
+        justify-content: center;
+    }
+}
+
+#certif #img_certif {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2vw;
+    align-content: center;
+}
+
+#certif #img_certif>img {
+    height: 80px;
+}
+
+#missions>div>ul>li {
+    padding: 25px 0 25px 2vw;
+}
+
+#missions>div>ul>li>p:first-of-type {
+    padding-bottom: 15px;
+}
+
+#missions>div>ul>li>p:last-of-type {
+    padding-top: 15px;
+}
+
+#missions>div>ul>li>ul li::before {
+    content: "\2713";
+    padding-right: 1vw;
+}
+
+footer {
+    font-size: 0.7em;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+    color: var(--blue-datalyo);
+    font-weight: bold;
+}
+
+footer span {
+    font-size: 1.2em;
+}
+
+/* ICONS FOR h2 */
+
+h2::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    margin-right: 7px;
+}
+
+#value-added h2::before {
+    background-image: url('Icons/icon_star.png');
+}
+
+#key-skills h2::before {
+    background-image: url('Icons/icon_skill.png');
+}
+
+#diplomas h2::before {
+    background-image: url("Icons/icon_diploma.png");
+}
+
+#certif h2::before {
+    background-image: url("Icons/icon_diploma.png");
+}
+
+#languages h2::before {
+    background-image: url("Icons/icon_chat.png");
+}
+
+#animations h2::before {
+    background-image: url("Icons/icon_person.png");
+}
+
+#missions h2::before {
+    background-image: url("Icons/icon_person.png");
+}

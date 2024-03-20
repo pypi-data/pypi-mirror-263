@@ -1,0 +1,17 @@
+dataskillhub/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataskillhub/consultant.py,sha256=D-37zVZXN_1lpU7xzKQ7Z12-A-ESt5QJIXuQ7QHurnE,1770
+dataskillhub/cv.py,sha256=ObR3tfNkSvSqrqNA54tmap0mf5pFYsYUO6z7rhfTns0,2432
+dataskillhub/extract.py,sha256=36xQydTMmLZbr_Q0J3l_5ONpdsLSSuLTP9MYlgbN33w,1947
+dataskillhub/init_src.py,sha256=6bl4SNh9nitbL8GFntzyVFtTAHqy7_ojC8spwUCTAWs,407
+dataskillhub/main.py,sha256=LlRzNjtW_9u0NgM46C9OnkUyJrxpVTl49maYy8TfHAM,2490
+dataskillhub/assets/print.css,sha256=ekpsC7AbaB6l34A_KFgWjMxDv5re5pYOVfrRvuz_nus,1746
+dataskillhub/assets/style.css,sha256=GRCnqCQ6IWpt-3uF0jFYqGfcdcSCvj5Lh-GVfzWS81M,3133
+dataskillhub/config/anonyme.json,sha256=MV5guWOo9e8l4uM87cLUk5o6U_jfAOxJGe19lZ0zuXA,138
+dataskillhub/templates/index.html,sha256=MqLjVdloAI1V3nBELzPjjBsszX_YX_rmSZDuvFXo7LY,4262
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_extract.py,sha256=4hZiEi_t7X0vd58FciaxSs5bv9jOoQrPiyc6gvOeQvY,970
+dataskillhub-1.1.6.dist-info/METADATA,sha256=g7LYmdvBP3C_CowB0cxy0ZjHeunmkswuuybGV3-DqPs,649
+dataskillhub-1.1.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dataskillhub-1.1.6.dist-info/entry_points.txt,sha256=C3lvLPA2vokxqzWBupom4lqFBKDXRQhhtaps3fDc-9M,48
+dataskillhub-1.1.6.dist-info/top_level.txt,sha256=FvFAq1bx82eU3FnObh7xQAZbfIwU84vSzYnE29Qy6k8,18
+dataskillhub-1.1.6.dist-info/RECORD,,

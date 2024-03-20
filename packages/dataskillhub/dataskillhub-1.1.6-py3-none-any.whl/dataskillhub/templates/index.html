@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="icon" type="image/png" href="{{asset_path}}/Logos/logo.png" />
+    <link rel="stylesheet" type="text/css" href="{{asset_path}}/style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="{{asset_path}}/print.css" media="print">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="{{asset_path}}/Logos/logo_datalyo.png" alt="Logo Datalyo">
+    </header>
+
+    <table>
+
+        <thead>
+            <tr>
+                <td>
+                    <div id="header-space"></div>
+                </td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                    <section id="identity">
+                        <div id="name">
+                            <h1>{{identity}}</h1>
+                            <p class="bold">{{post}}</p>
+                        </div>
+                        <div><img src="{{asset_path}}/Profils/EOR.jpg" alt={{identity}}></div>
+                    </section>
+
+
+                    <section id="value-added" class="check">
+                        <h2>Valeur ajoutée sur votre mission</h2>
+                        <div>
+                            {{valeur_ajoutee}}
+                        </div>
+
+                    </section>
+
+                    <section id="key-skills" class="check">
+                        <div class="topsect">★★★</div>
+                        <h2>Compétences Clés</h2>
+                        <div>
+                            {{competences_cles}}
+                        </div>
+
+                    </section>
+
+                    <section id="diplomas" class="check">
+                        <div class="topsect">★★★</div>
+                        <h2>Diplômes</h3>
+                            <div>
+                                {{diplomes}}
+                            </div>
+
+                    </section>
+
+                    <section id="certif" class="check">
+                        <div class="topsect">★★★</div>
+                        <h2>Certifications et formations</h2>
+                        <div>
+                            {{certifications_formations}}
+
+
+                            <div id="img_certif">
+                                <img src="{{asset_path}}/Certifications/cert_psm.svg">
+                                <img src="{{asset_path}}/Certifications/cert_tableau.jpg">
+                                <img src="{{asset_path}}/Certifications/cert_talend.png">
+                            </div>
+                        </div>
+
+
+                    </section>
+
+                    <section id="languages" class="check">
+                        <div class="topsect">★★★</div>
+                        <h2>Langues</h2>
+                        <div>
+                            {{langues}}
+                        </div>
+
+                    </section>
+
+                    <section id="animations" class="check">
+                        <div class="topsect">★★★</div>
+                        <h2>Animations de formations</h2>
+                        <div>
+                            {{animateur}}
+                        </div>
+
+                    </section>
+
+                    <section id="missions">
+                        <div class="topsect">★★★</div>
+                        <h2>Missions significatives</h2>
+                        <div>
+                            {{missions_significatives}}
+                        </div>
+                    </section>
+
+                </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>
+                    <div id="footer-space"></div>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <footer>
+        <ul>
+            <li><span>#D</span>ataGouvernance</li>
+            <li><span>#I</span>ngénierieData</li>
+            <li><span>#C</span>loud</li>
+            <li><span>#D</span>ataviz</li>
+            <li><span>#A</span>nalytics</li>
+            <li><span>#D</span>ataScience</li>
+            <li><span>#F</span>ormation</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
