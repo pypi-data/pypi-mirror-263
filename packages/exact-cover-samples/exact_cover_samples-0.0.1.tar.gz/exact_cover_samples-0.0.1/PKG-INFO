@@ -1,0 +1,27 @@
+Metadata-Version: 2.3
+Name: exact_cover_samples
+Version: 0.0.1
+Summary: Some exact cover problems and their solutions
+Project-URL: Homepage, https://github.com/parmentelat/exact-cover-samples
+Project-URL: Issues, https://github.com/parmentelat/exact-cover-samples/issues
+Author-email: Thierry Parmentelat <thierry.parmentelat@inria.fr>
+License-Expression: CC-BY-NC-4.0
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: pandas
+Provides-Extra: benchmark
+Requires-Dist: exact-cover; extra == 'benchmark'
+Requires-Dist: exact-cover-py; extra == 'benchmark'
+Requires-Dist: pandas; extra == 'benchmark'
+Requires-Dist: xcover; extra == 'benchmark'
+Provides-Extra: build
+Requires-Dist: build; extra == 'build'
+Requires-Dist: hatchling; extra == 'build'
+Requires-Dist: twine; extra == 'build'
+Description-Content-Type: text/markdown
+
+# exact cover samples
+
+contains some exact cover samples together with their solutions.
