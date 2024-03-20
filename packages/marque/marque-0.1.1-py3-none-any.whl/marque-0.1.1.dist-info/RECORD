@@ -1,0 +1,12 @@
+marque/__init__.py,sha256=rTKSC1kl-0jcGoRUAZpB-qr5KzQCJx7UHNp2Rpc1wso,320
+marque/flow.py,sha256=vwltDjg_Xezhd6F5XmHiSg2X8hbMwZ3tAJNQsm-YpFE,11488
+marque/helpers.py,sha256=cdbm9d67e0Eksrc67-mq4mXiTNxn2uV50CNQdoAKrsQ,1095
+marque/logging.py,sha256=xrAQNDJwZ2LntbWu16TnDsNabCnENsAS5IFBQ0rRzDY,1500
+marque/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+marque/scope.py,sha256=z4wVU2OMbvWoneWO9vYk29deZ2fFrtA-0IqOYWp3NIA,3012
+marque/storage.py,sha256=5aK0XnaAj8olo-9myPUc5euDMH2VchFOwRmCjodLPb8,5855
+marque/util.py,sha256=Vb6H3CQHhb333F9ju9jb2hlaGydwRdVQWHDBaMUd-8M,1738
+marque-0.1.1.dist-info/LICENSE,sha256=iQbTWAkleh-aSgqLkm5n6TxYZSNfMwLcncagVA-gqx0,1066
+marque-0.1.1.dist-info/METADATA,sha256=UbgtGnJbYIbq5fAk-J7lLiS164JgSBq_59v7jUwI2rk,3534
+marque-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+marque-0.1.1.dist-info/RECORD,,
