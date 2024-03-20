@@ -1,0 +1,10 @@
+inception/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inception/cli/commands/__init__.py,sha256=W8KMAWtzoUPcobS1W8PTq14t5KWM8QosGCwlJaZpVnQ,44
+inception/cli/commands/project.py,sha256=ADQpnZALOz8M0RxnPxkwV-RQ8srA3rUeDj6lxu210Pk,4157
+inception/cli/main.py,sha256=0JQQUgWSRrpK_WQDvbCIXGJgVnS8m13YOmiTSNx-4os,719
+inception/cli/utils.py,sha256=QQSKaL31ZOXo6lqbgm82RU4zmuFXm2deg2rlxjdUOB8,1650
+inception_cli-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+inception_cli-0.1.1.dist-info/METADATA,sha256=K2kh4UT3WhMSPoL3gHivlB0PsvyDyEnd_l77Nhga5-0,5533
+inception_cli-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+inception_cli-0.1.1.dist-info/entry_points.txt,sha256=vHdtlcFAjRo5PPErImDh0_B51a-T2Pl--9Ynrz1A0j4,56
+inception_cli-0.1.1.dist-info/RECORD,,
