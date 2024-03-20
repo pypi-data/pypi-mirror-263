@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: area-calculator-dci_einherer
+Version: 0.0.1
+Author: einherer
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+example-project
+
+area calculation
+* square
+* rectangle
+* circle
+* triangle
