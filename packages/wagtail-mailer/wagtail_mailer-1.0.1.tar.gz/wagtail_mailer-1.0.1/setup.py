@@ -1,0 +1,74 @@
+from setuptools import setup
+
+# [metadata]
+# name = wagtail_mailer
+# version = 1.0.0
+# description = An application made for the Django Web Framework.
+# long_description = file: README.md
+# long_description_content_type = text/markdown
+# author = Nigel
+# author_email = nigel@goodadvice.it
+# url = https://github.com/Nigel2392/wagtail_mailer
+# license = GPL-3.0-only
+# classifiers =
+#     Environment :: Web Environment
+#     Framework :: Django
+#     Framework :: Django :: 4.2
+#     Framework :: Wagtail
+#     Framework :: Wagtail :: 5
+#     Framework :: Wagtail :: 6
+#     Intended Audience :: Developers
+#     License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+#     Operating System :: OS Independent
+#     Programming Language :: Python
+#     Programming Language :: Python :: 3
+#     Programming Language :: Python :: 3 :: Only
+#     Programming Language :: Python :: 3.8
+#     Programming Language :: Python :: 3.9
+#     Topic :: Internet :: WWW/HTTP
+#     Topic :: Internet :: WWW/HTTP :: Dynamic Content
+# 
+# [options]
+# include_package_data = true
+# packages = find:
+# python_requires = >=3.8
+# install_requires =
+#     Django >= 4.2
+#     Wagtail >= 5.0
+# 
+
+setup(
+#     name='wagtail_mailer',
+#     version='1.0.0',
+#     description='An application made for the Django Web Framework.',
+#     long_description=open('README.md').read(),
+#     long_description_content_type='text/markdown',
+#     author='Nigel',
+#     # url='https://github.com/Nigel2392/wagtail_mailer',
+#     license='GPL-3.0-only',
+#     classifiers=[
+#         'Environment :: Web Environment',
+#         'Framework :: Django',
+#         'Framework :: Django :: 4.2',
+#         'Framework :: Wagtail',
+#         'Framework :: Wagtail :: 5',
+#         'Framework :: Wagtail :: 6',
+#         'Intended Audience :: Developers',
+#         'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
+#         'Operating System :: OS Independent',
+#         'Programming Language :: Python',
+#         'Programming Language :: Python :: 3',
+#         'Programming Language :: Python :: 3 :: Only',
+#         'Programming Language :: Python :: 3.8',
+#         'Programming Language :: Python :: 3.9',
+#         'Topic :: Internet :: WWW/HTTP',
+#         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
+#     ],
+#     include_package_data=True,
+#     packages=['wagtail_mailer'],
+#     python_requires='>=3.8',
+#     install_requires=[
+#         'Django >= 4.2',
+#         'Wagtail >= 5.0',
+#     ],
+)
