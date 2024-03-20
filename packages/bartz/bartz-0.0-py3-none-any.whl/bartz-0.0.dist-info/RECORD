@@ -1,0 +1,12 @@
+bartz/__init__.py,sha256=KpeWEIKkXq7YyooRdLZK6atfLJimi0hIa8-xqBPnDWQ,1331
+bartz/debug.py,sha256=SBdFJd9gXtBEw2b3R3pv14ARwKCDkHiycOuDm0iVEhA,5846
+bartz/grove.py,sha256=v2k10EBjgi2aLCsGvM01z0z--9Xv4ApBOxpke-6gIYM,10309
+bartz/interface.py,sha256=pPUOYpHCci_NADF58jrbee2tcnaKZYzwgK0FF5XuwJU,15823
+bartz/jaxext.py,sha256=FK5j1zfW1yR4-yPKcD7ZvKSkVQ5--jHjQpVCl4n4gXY,2844
+bartz/mcmcloop.py,sha256=ZxasSfWZzuYT_rOnSL8iSzIGQQS3ZtcBUhdXis2K-II,7207
+bartz/mcmcstep.py,sha256=acy_2rSIEXV5BzqLY96aQaqlsxtalxyO3Q4gPvUMRVU,35912
+bartz/prepcovars.py,sha256=3ddDOtNNop3Ba2Kgy_dZ6apFydtwaEXH3uXSmmKf9Fs,4421
+bartz-0.0.dist-info/LICENSE,sha256=heuIJZQK9IexJYC-fYHoLUrgj8HG8yS3G072EvKh-94,1073
+bartz-0.0.dist-info/METADATA,sha256=kKCGPdD_bOxJ3cLePc1R19kS3AzwGtFK_aR9ljBX6HY,869
+bartz-0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+bartz-0.0.dist-info/RECORD,,
