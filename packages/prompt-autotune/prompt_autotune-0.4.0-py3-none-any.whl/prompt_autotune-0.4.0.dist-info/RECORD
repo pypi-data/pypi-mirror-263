@@ -1,0 +1,12 @@
+prompt_autotune/Evaluation.py,sha256=Uvm0KiUDOorrsDQOGt-K1okqGBndNvvuiudWuFW5AUg,2464
+prompt_autotune/GenerateExamples.py,sha256=QpAXz9q3WNRdZt8HyT60khxoZClpFgB2MxU5MbQN7n8,2192
+prompt_autotune/PROMPTS.py,sha256=HI4JZrm7I7MX48mVV55UFd8M7qs9CEJ0H5fKZOnf3f8,2228
+prompt_autotune/TunePrompt.py,sha256=yR_8Ykl-3GCBuwsaCSRzrIMXSWdElEr-lrH1_v5E7WI,3907
+prompt_autotune/__init__.py,sha256=krIDkV_92S5IhsjtllqzYLS6lOdfwqB8UaFL-QJLVkc,66
+prompt_autotune/main.py,sha256=aNSzBNOcPpB66bTSK9pXM4IhJPw_g_GmBm4hrzE5zlk,207
+prompt_autotune-0.4.0.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+prompt_autotune-0.4.0.dist-info/METADATA,sha256=0L_fKzpfGxbG9ppfbevcm4-CBTTlhU1-jxBbwjMcXqw,1444
+prompt_autotune-0.4.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+prompt_autotune-0.4.0.dist-info/entry_points.txt,sha256=vNgyp7ay1awQYJoNo7X3C1h5tVPMIwF3VZfVUGITRVk,51
+prompt_autotune-0.4.0.dist-info/top_level.txt,sha256=Cby5zh2nomMn8uolHG6-W8rxsK36A4L1HWMdA4EAjEg,16
+prompt_autotune-0.4.0.dist-info/RECORD,,
