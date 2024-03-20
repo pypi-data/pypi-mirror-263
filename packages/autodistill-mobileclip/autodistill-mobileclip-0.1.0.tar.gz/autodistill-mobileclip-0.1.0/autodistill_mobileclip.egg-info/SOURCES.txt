@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+autodistill_mobileclip/__init__.py
+autodistill_mobileclip/mobileclip_model.py
+autodistill_mobileclip.egg-info/PKG-INFO
+autodistill_mobileclip.egg-info/SOURCES.txt
+autodistill_mobileclip.egg-info/dependency_links.txt
+autodistill_mobileclip.egg-info/requires.txt
+autodistill_mobileclip.egg-info/top_level.txt
