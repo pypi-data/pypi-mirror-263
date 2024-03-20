@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "outerop"
+version = "0.1.1"
+description = ""
+authors = ["Stephen Byrne <39441007+stephenbyrne99@users.noreply.github.com>"]
+readme = "README.md"
+packages=[{include = "outerop"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mistralai = "^0.1.6"
+anthropic = "^0.21.0"
+openai = "^1.14.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
