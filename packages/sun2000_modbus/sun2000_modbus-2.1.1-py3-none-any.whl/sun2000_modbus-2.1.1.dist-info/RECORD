@@ -1,0 +1,9 @@
+sun2000_modbus/__init__.py,sha256=2rxElRby70lVsigXbYkTTacGB838w_nSA_dgMNTUAv0,96
+sun2000_modbus/datatypes.py,sha256=iS919BLAZHJjUwylSceJE_snxgngiY43oYdeVQGCZTk,1144
+sun2000_modbus/inverter.py,sha256=8FyXhsdn3up7kHXsoVT2gezVX5V4clqGzTmGS9bxs1U,3695
+sun2000_modbus/mappings.py,sha256=3LZPRJrE_dXQdLwMvSwm2IPt3AvwiP4KxIPhe729ZPM,2783
+sun2000_modbus/registers.py,sha256=LAGnSKqEmGswuOTcMOR79zbMHpDkqi0DRM2_tgYQYyo,31787
+sun2000_modbus-2.1.1.dist-info/LICENSE,sha256=Z2SUVYYJpPXSSWoIqRX7OZ_K-QL63xcep51zbU-O_w4,1073
+sun2000_modbus-2.1.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+sun2000_modbus-2.1.1.dist-info/METADATA,sha256=tSKOTXliJHssyNS1xyzGEo4LIfhEvSn-lGgdRGfwMic,36648
+sun2000_modbus-2.1.1.dist-info/RECORD,,
