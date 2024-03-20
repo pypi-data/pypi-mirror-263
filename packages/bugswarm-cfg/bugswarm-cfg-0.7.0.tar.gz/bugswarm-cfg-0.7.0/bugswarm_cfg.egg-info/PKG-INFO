@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bugswarm-cfg
+Version: 0.7.0
+Summary: A tool to run BugSwarm Docker containers with sandbox environments for CFG generation using various tools.
+Home-page: https://github.com/apratimshukla6/bugswarm-cfg
+Author: Apratim Shukla
+Author-email: apratimshukla6@gmail.com
+License: MIT
+Keywords: bugswarm cfg
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BugSwarm CFG
+
+## To run BugSwarm CFG generation with Spoon
+```bugswarm-cfg --image-tag dromara-hertzbeat-12624254643 --tool spoon```
+
+## To run BugSwarm CFG generation with JavaParser
+```bugswarm-cfg --image-tag dromara-hertzbeat-12624254643 --tool javaparser```
