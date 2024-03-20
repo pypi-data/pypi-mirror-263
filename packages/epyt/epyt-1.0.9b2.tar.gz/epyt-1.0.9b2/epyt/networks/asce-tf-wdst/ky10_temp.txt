@@ -1,0 +1,2797 @@
+  Page 1                                    Tue Mar 19 19:10:48 2024
+
+  ******************************************************************
+  *                           E P A N E T                          *
+  *                   Hydraulic and Water Quality                  *
+  *                   Analysis for Pipe Networks                   *
+  *                         Version 2.2                            *
+  ******************************************************************
+  
+  Analysis begun Tue Mar 19 19:10:48 2024
+
+   
+  Hydraulic Status:
+  -----------------------------------------------------------------------
+     0:00:00: Pump ~@Pump-9 changed by Tank T-4 control
+     0:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 53.169223
+              PRV ~@RV-4 switched from active to closed
+              Trial  2: relative flow change = 0.658903
+              PRV ~@RV-1 switched from active to closed
+              PRV ~@RV-4 switched from closed to active
+              PRV ~@RV-5 switched from active to open
+              Trial  3: relative flow change = 0.266258
+              PRV ~@RV-5 switched from open to active
+              Trial  4: relative flow change = 0.105494
+              PRV ~@RV-4 switched from active to open
+              Trial  5: relative flow change = 0.041299
+              PRV ~@RV-4 switched from open to active
+              Trial  6: relative flow change = 0.015220
+              Trial  7: relative flow change = 0.024556
+              Trial  8: relative flow change = 0.001297
+              Trial  9: relative flow change = 0.000191
+              Trial 10: relative flow change = 0.000005
+                        maximum  flow change = 0.4383 for Link ~@Pump-9
+                        maximum  head error  = 0.0000 for Link P-452
+
+     0:00:00: Balanced after 10 trials
+     0:00:00: Reservoir R-1 is filling
+     0:00:00: Reservoir R-2 is emptying
+     0:00:00: Tank T-1 is filling at 140.78 ft
+     0:00:00: Tank T-10 is emptying at 179.16 ft
+     0:00:00: Tank T-11 is filling at 101.61 ft
+     0:00:00: Tank T-12 is filling at 158.36 ft
+     0:00:00: Tank T-13 is filling at 70.48 ft
+     0:00:00: Tank T-2 is filling at 82.67 ft
+     0:00:00: Tank T-3 is emptying at 67.79 ft
+     0:00:00: Tank T-4 is emptying at 84.61 ft
+     0:00:00: Tank T-5 is filling at 134.36 ft
+     0:00:00: Tank T-6 is filling at 102.72 ft
+     0:00:00: Tank T-7 is emptying at 142.29 ft
+     0:00:00: Tank T-8 is filling at 121.77 ft
+     0:00:00: Tank T-9 is emptying at 148.59 ft
+     0:00:00: Pump ~@Pump-9 closed
+     0:00:00: PRV ~@RV-1 closed
+   
+     0:32:22: Balancing the network:
+
+              Trial  1: relative flow change = 0.107109
+              Trial  2: relative flow change = 0.058159
+              Pipe P-1 switched from open to closed
+              Trial  3: relative flow change = 0.043777
+              Trial  4: relative flow change = 0.006881
+              Trial  5: relative flow change = 0.000434
+              Trial  6: relative flow change = 0.000004
+                        maximum  flow change = 0.2821 for Link P-948
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+     0:32:22: Balanced after 6 trials
+     0:32:22: Tank T-12 is closed at 158.49 ft
+     0:32:22: Tank T-8 is emptying at 130.27 ft
+     0:32:22: Tank T-9 is filling at 133.59 ft
+     0:32:22: Pipe P-1 changed from open to temporarily closed
+   
+     1:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.095749
+              Trial  2: relative flow change = 0.079867
+              Pipe P-1 switched from closed to open
+              Trial  3: relative flow change = 0.079281
+              Trial  4: relative flow change = 0.021572
+              Trial  5: relative flow change = 0.003634
+              Trial  6: relative flow change = 0.000222
+              Trial  7: relative flow change = 0.000001
+                        maximum  flow change = 0.1049 for Link P-948
+                        maximum  head error  = 0.0000 for Link P-948
+
+     1:00:00: Balanced after 7 trials
+     1:00:00: Tank T-12 is filling at 158.49 ft
+     1:00:00: Tank T-8 is filling at 124.93 ft
+     1:00:00: Tank T-9 is emptying at 142.62 ft
+     1:00:00: Pipe P-1 changed from temporarily closed to open
+   
+     1:31:36: Balancing the network:
+
+              Trial  1: relative flow change = 0.110954
+              Trial  2: relative flow change = 0.051175
+              Pipe P-1 switched from open to closed
+              Trial  3: relative flow change = 0.055616
+              Trial  4: relative flow change = 0.007874
+              Trial  5: relative flow change = 0.000541
+              Trial  6: relative flow change = 0.000006
+                        maximum  flow change = 0.2159 for Link P-948
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+     1:31:36: Balanced after 6 trials
+     1:31:36: Tank T-8 is emptying at 129.93 ft
+     1:31:36: Tank T-9 is filling at 133.59 ft
+     1:31:36: Pipe P-1 changed from open to temporarily closed
+   
+     2:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.105524
+              Trial  2: relative flow change = 0.158963
+              Pipe P-1 switched from closed to open
+              Trial  3: relative flow change = 0.140122
+              Trial  4: relative flow change = 0.054236
+              Trial  5: relative flow change = 0.015602
+              Trial  6: relative flow change = 0.003122
+              Trial  7: relative flow change = 0.000152
+              Trial  8: relative flow change = 0.000001
+                        maximum  flow change = 0.0358 for Link P-948
+                        maximum  head error  = 0.0000 for Link P-948
+
+     2:00:00: Balanced after 8 trials
+     2:00:00: Tank T-8 is filling at 124.56 ft
+     2:00:00: Tank T-9 is emptying at 142.67 ft
+     2:00:00: Pipe P-1 changed from temporarily closed to open
+   
+     2:13:17: Balancing the network:
+
+              Trial  1: relative flow change = 0.050854
+              Trial  2: relative flow change = 0.008092
+              Pipe P-1030 switched from open to closed
+              Trial  3: relative flow change = 0.014211
+              Trial  4: relative flow change = 0.002889
+              Trial  5: relative flow change = 0.000340
+              Trial  6: relative flow change = 0.000008
+                        maximum  flow change = 0.0315 for Link P-1031
+                        maximum  head error  = 0.0000 for Link P-645
+
+     2:13:17: Balanced after 6 trials
+     2:13:17: Tank T-10 is filling at 177.68 ft
+     2:13:17: Tank T-11 is closed at 106.61 ft
+     2:13:17: Pipe P-1030 changed from open to temporarily closed
+   
+     2:19:58: Pump ~@Pump-13 changed by Tank T-1 control
+     2:19:58: Balancing the network:
+
+              Trial  1: relative flow change = 0.070744
+              Trial  2: relative flow change = 0.015803
+              Trial  3: relative flow change = 0.004456
+              Trial  4: relative flow change = 0.000600
+              Trial  5: relative flow change = 0.000052
+                        maximum  flow change = 4.0825 for Link ~@Pump-13
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+     2:19:58: Balanced after 5 trials
+     2:19:58: Tank T-1 is emptying at 143.78 ft
+     2:19:58: Tank T-8 is emptying at 126.88 ft
+     2:19:58: Tank T-9 is filling at 138.34 ft
+     2:19:58: Pump ~@Pump-13 changed from open to closed
+   
+     2:42:06: Balancing the network:
+
+              Trial  1: relative flow change = 0.078000
+              Trial  2: relative flow change = 0.006620
+              Pipe P-10 switched from open to closed
+              Trial  3: relative flow change = 0.007022
+              PRV ~@RV-2 switched from active to open
+              Trial  4: relative flow change = 0.026226
+              PRV ~@RV-2 switched from open to active
+              Trial  5: relative flow change = 0.000706
+              Trial  6: relative flow change = 0.000007
+                        maximum  flow change = 0.0755 for Link P-867
+                        maximum  head error  = 0.0000 for Link P-85
+
+     2:42:06: Balanced after 6 trials
+     2:42:06: Tank T-3 is closed at 61.79 ft
+     2:42:06: Tank T-8 is filling at 126.10 ft
+     2:42:06: Tank T-9 is emptying at 139.27 ft
+     2:42:06: Pipe P-10 changed from open to temporarily closed
+   
+     3:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.071021
+              Trial  2: relative flow change = 0.021941
+              Trial  3: relative flow change = 0.006916
+              Trial  4: relative flow change = 0.000974
+              Trial  5: relative flow change = 0.000021
+                        maximum  flow change = 1.6877 for Link P-948
+                        maximum  head error  = 0.0000 for Link P-948
+
+     3:00:00: Balanced after 5 trials
+     3:00:00: Tank T-8 is emptying at 127.38 ft
+     3:00:00: Tank T-9 is filling at 136.76 ft
+   
+     3:29:28: Balancing the network:
+
+              Trial  1: relative flow change = 0.128885
+              Trial  2: relative flow change = 0.034137
+              Pipe P-596 switched from open to closed
+              Trial  3: relative flow change = 0.382797
+              Trial  4: relative flow change = 0.062182
+              Trial  5: relative flow change = 0.005682
+              Trial  6: relative flow change = 0.000371
+              Trial  7: relative flow change = 0.000006
+                        maximum  flow change = 0.0175 for Link P-370
+                        maximum  head error  = 0.0000 for Link P-370
+
+     3:29:28: Balanced after 7 trials
+     3:29:28: Tank T-2 is closed at 97.67 ft
+     3:29:28: Tank T-8 is filling at 124.47 ft
+     3:29:28: Tank T-9 is emptying at 141.14 ft
+     3:29:28: Pipe P-596 changed from open to temporarily closed
+   
+     3:58:05: Balancing the network:
+
+              Trial  1: relative flow change = 0.142588
+              Trial  2: relative flow change = 0.081793
+              Trial  3: relative flow change = 0.032269
+              Trial  4: relative flow change = 0.007733
+              Trial  5: relative flow change = 0.000543
+              Trial  6: relative flow change = 0.000003
+                        maximum  flow change = 0.1694 for Link P-948
+                        maximum  head error  = 0.0000 for Link P-948
+
+     3:58:05: Balanced after 6 trials
+     3:58:05: Tank T-8 is emptying at 128.56 ft
+     3:58:05: Tank T-9 is filling at 133.60 ft
+   
+     3:58:15: Balancing the network:
+
+              Trial  1: relative flow change = 0.000846
+              Trial  2: relative flow change = 0.000006
+                        maximum  flow change = 0.0404 for Link P-948
+                        maximum  head error  = 0.0000 for Link ~@Pump-10
+
+              Pipe P-678 switched from open to closed
+              Trial  3: relative flow change = 0.257541
+              Trial  4: relative flow change = 0.040429
+              Trial  5: relative flow change = 0.004938
+              Trial  6: relative flow change = 0.000229
+              Trial  7: relative flow change = 0.000003
+                        maximum  flow change = 0.0107 for Link P-593
+                        maximum  head error  = 0.0000 for Link P-593
+
+     3:58:15: Balanced after 7 trials
+     3:58:15: Tank T-7 is closed at 117.29 ft
+     3:58:15: Pipe P-678 changed from open to temporarily closed
+   
+     4:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.020472
+              Trial  2: relative flow change = 0.004624
+              Trial  3: relative flow change = 0.000722
+              Trial  4: relative flow change = 0.000005
+                        maximum  flow change = 0.0070 for Link P-783
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+     4:00:00: Balanced after 4 trials
+   
+     5:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.196163
+              Trial  2: relative flow change = 0.049854
+              Trial  3: relative flow change = 0.008360
+              Trial  4: relative flow change = 0.000345
+              Trial  5: relative flow change = 0.000020
+                        maximum  flow change = 0.2061 for Link P-562
+                        maximum  head error  = 0.0000 for Link P-562
+
+     5:00:00: Balanced after 5 trials
+     5:00:00: Tank T-8 is filling at 118.67 ft
+     5:00:00: Tank T-9 is emptying at 149.01 ft
+   
+     5:28:57: Balancing the network:
+
+              Trial  1: relative flow change = 0.181770
+              Trial  2: relative flow change = 0.084623
+              Pipe P-1 switched from open to closed
+              Trial  3: relative flow change = 0.172822
+              Trial  4: relative flow change = 0.024552
+              Trial  5: relative flow change = 0.001872
+              Trial  6: relative flow change = 0.000039
+                        maximum  flow change = 0.0435 for Link P-394
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+     5:28:57: Balanced after 6 trials
+     5:28:57: Tank T-12 is emptying at 159.67 ft
+     5:28:57: Tank T-8 is emptying at 127.19 ft
+     5:28:57: Tank T-9 is filling at 133.59 ft
+     5:28:57: Pipe P-1 changed from open to temporarily closed
+   
+     6:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.139388
+              Trial  2: relative flow change = 0.108791
+              Pipe P-1 switched from closed to open
+              Trial  3: relative flow change = 0.230828
+              Trial  4: relative flow change = 0.064381
+              Trial  5: relative flow change = 0.007726
+              Trial  6: relative flow change = 0.000396
+              Trial  7: relative flow change = 0.000018
+                        maximum  flow change = 0.1084 for Link P-347
+                        maximum  head error  = 0.0000 for Link P-347
+
+     6:00:00: Balanced after 7 trials
+     6:00:00: Tank T-8 is filling at 122.48 ft
+     6:00:00: Tank T-9 is emptying at 141.55 ft
+     6:00:00: Pipe P-1 changed from temporarily closed to open
+   
+     6:24:10: Balancing the network:
+
+              Trial  1: relative flow change = 0.120292
+              Trial  2: relative flow change = 0.155951
+              Trial  3: relative flow change = 0.076070
+              Trial  4: relative flow change = 0.029620
+              Trial  5: relative flow change = 0.006893
+              Trial  6: relative flow change = 0.000439
+              Trial  7: relative flow change = 0.000002
+                        maximum  flow change = 0.0925 for Link P-948
+                        maximum  head error  = 0.0000 for Link P-948
+
+     6:24:10: Balanced after 7 trials
+     6:24:10: Tank T-8 is emptying at 126.77 ft
+     6:24:10: Tank T-9 is filling at 133.60 ft
+   
+     6:54:59: Pump ~@Pump-8 changed by Tank T-13 control
+     6:54:59: Balancing the network:
+
+              Trial  1: relative flow change = 0.156679
+              Trial  2: relative flow change = 0.249331
+              CV P-75 switched from open to closed
+              Trial  3: relative flow change = 0.085236
+              PRV ~@RV-5 switched from active to closed
+              Trial  4: relative flow change = 0.021403
+              Trial  5: relative flow change = 0.002166
+              Trial  6: relative flow change = 0.000033
+                        maximum  flow change = 0.9298 for Link P-948
+                        maximum  head error  = 45.3364 for Link ~@Pump-10
+
+     6:54:59: Balanced after 6 trials
+     6:54:59: Tank T-12 is filling at 159.34 ft
+     6:54:59: Tank T-13 is emptying at 90.48 ft
+     6:54:59: Tank T-8 is filling at 122.30 ft
+     6:54:59: Tank T-9 is emptying at 140.48 ft
+     6:54:59: CV P-75 changed from open to closed
+     6:54:59: Pump ~@Pump-8 changed from open to closed
+     6:54:59: PRV ~@RV-5 changed from active to closed
+   
+     7:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.186786
+              Trial  2: relative flow change = 0.050736
+              Trial  3: relative flow change = 0.007346
+              Trial  4: relative flow change = 0.000138
+              Trial  5: relative flow change = 0.000001
+                        maximum  flow change = 0.0010 for Link P-89
+                        maximum  head error  = 40.3756 for Link ~@Pump-10
+
+     7:00:00: Balanced after 5 trials
+     7:00:00: Tank T-12 is emptying at 159.35 ft
+   
+     7:21:55: Balancing the network:
+
+              Trial  1: relative flow change = 0.097885
+              Trial  2: relative flow change = 0.154766
+              Pipe P-1 switched from open to closed
+              Trial  3: relative flow change = 0.254418
+              Trial  4: relative flow change = 0.061973
+              Trial  5: relative flow change = 0.011228
+              Trial  6: relative flow change = 0.000741
+              Trial  7: relative flow change = 0.000007
+                        maximum  flow change = 0.1902 for Link P-948
+                        maximum  head error  = 37.1376 for Link ~@Pump-10
+
+     7:21:55: Balanced after 7 trials
+     7:21:55: Tank T-10 is closed at 179.73 ft
+     7:21:55: Tank T-6 is emptying at 130.22 ft
+     7:21:55: Tank T-8 is emptying at 125.95 ft
+     7:21:55: Tank T-9 is filling at 133.59 ft
+     7:21:55: Pipe P-1 changed from open to temporarily closed
+   
+     8:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.215271
+              PRV ~@RV-2 switched from active to open
+              Trial  2: relative flow change = 0.078372
+              Pipe P-1 switched from closed to open
+              Trial  3: relative flow change = 0.248714
+              Trial  4: relative flow change = 0.067828
+              Trial  5: relative flow change = 0.010294
+              Trial  6: relative flow change = 0.001188
+              Trial  7: relative flow change = 0.000055
+                        maximum  flow change = 0.1249 for Link P-70
+                        maximum  head error  = 36.6901 for Link ~@Pump-10
+
+     8:00:00: Balanced after 7 trials
+     8:00:00: Tank T-10 is emptying at 179.73 ft
+     8:00:00: Tank T-5 is emptying at 136.69 ft
+     8:00:00: Tank T-6 is filling at 130.18 ft
+     8:00:00: Tank T-8 is filling at 120.93 ft
+     8:00:00: Tank T-9 is emptying at 142.07 ft
+     8:00:00: Pipe P-1 changed from temporarily closed to open
+     8:00:00: PRV ~@RV-2 changed from active to open
+   
+     8:04:56: Pump ~@Pump-9 changed by Tank T-4 control
+     8:04:56: Balancing the network:
+
+              Trial  1: relative flow change = 0.045845
+              Trial  2: relative flow change = 0.091534
+              Trial  3: relative flow change = 0.038124
+              Trial  4: relative flow change = 0.004975
+              Trial  5: relative flow change = 0.000026
+                        maximum  flow change = 0.0313 for Link P-667
+                        maximum  head error  = 36.7578 for Link ~@Pump-10
+
+     8:04:56: Balanced after 5 trials
+     8:04:56: Tank T-4 is filling at 79.61 ft
+     8:04:56: Pump ~@Pump-9 changed from closed to open
+   
+     8:26:05: Balancing the network:
+
+              Trial  1: relative flow change = 0.105155
+              Trial  2: relative flow change = 0.090164
+              Pipe P-1 switched from open to closed
+              Trial  3: relative flow change = 0.211771
+              Trial  4: relative flow change = 0.040362
+              Trial  5: relative flow change = 0.004959
+              Trial  6: relative flow change = 0.000225
+              Trial  7: relative flow change = 0.000005
+                        maximum  flow change = 0.0175 for Link P-45
+                        maximum  head error  = 33.0453 for Link ~@Pump-10
+
+     8:26:05: Balanced after 7 trials
+     8:26:05: Tank T-6 is emptying at 130.29 ft
+     8:26:05: Tank T-8 is emptying at 125.46 ft
+     8:26:05: Tank T-9 is filling at 133.59 ft
+     8:26:05: Pipe P-1 changed from open to temporarily closed
+   
+     9:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.101024
+              Trial  2: relative flow change = 0.049181
+              Pipe P-1 switched from closed to open
+              Trial  3: relative flow change = 0.235377
+              Trial  4: relative flow change = 0.063751
+              Trial  5: relative flow change = 0.011074
+              Trial  6: relative flow change = 0.000974
+              Trial  7: relative flow change = 0.000055
+                        maximum  flow change = 0.2822 for Link P-722
+                        maximum  head error  = 35.1937 for Link ~@Pump-10
+
+     9:00:00: Balanced after 7 trials
+     9:00:00: Tank T-6 is filling at 129.80 ft
+     9:00:00: Tank T-8 is filling at 121.28 ft
+     9:00:00: Tank T-9 is emptying at 140.65 ft
+     9:00:00: Pipe P-1 changed from temporarily closed to open
+   
+     9:20:47: Balancing the network:
+
+              Trial  1: relative flow change = 0.108431
+              Trial  2: relative flow change = 0.064579
+              Pipe P-1 switched from open to closed
+              Trial  3: relative flow change = 0.199302
+              Trial  4: relative flow change = 0.029883
+              Trial  5: relative flow change = 0.002941
+              Trial  6: relative flow change = 0.000094
+                        maximum  flow change = 0.1567 for Link P-36
+                        maximum  head error  = 31.4814 for Link ~@Pump-10
+
+     9:20:47: Balanced after 6 trials
+     9:20:47: Tank T-6 is emptying at 129.81 ft
+     9:20:47: Tank T-8 is emptying at 125.05 ft
+     9:20:47: Tank T-9 is filling at 133.59 ft
+     9:20:47: Pipe P-1 changed from open to temporarily closed
+   
+    10:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.080250
+              Trial  2: relative flow change = 0.031407
+              Pipe P-1 switched from closed to open
+              Trial  3: relative flow change = 0.234146
+              Trial  4: relative flow change = 0.065756
+              Trial  5: relative flow change = 0.012774
+              Trial  6: relative flow change = 0.001200
+              Trial  7: relative flow change = 0.000073
+                        maximum  flow change = 0.1407 for Link P-974
+                        maximum  head error  = 34.6231 for Link ~@Pump-10
+
+    10:00:00: Balanced after 7 trials
+    10:00:00: Tank T-8 is filling at 120.52 ft
+    10:00:00: Tank T-9 is emptying at 141.25 ft
+    10:00:00: Pipe P-1 changed from temporarily closed to open
+   
+    10:20:41: Balancing the network:
+
+              Trial  1: relative flow change = 0.114756
+              Trial  2: relative flow change = 0.053260
+              Trial  3: relative flow change = 0.014295
+              Trial  4: relative flow change = 0.002182
+              Trial  5: relative flow change = 0.000057
+                        maximum  flow change = 2.7825 for Link P-948
+                        maximum  head error  = 34.0090 for Link ~@Pump-10
+
+    10:20:41: Balanced after 5 trials
+    10:20:41: Tank T-8 is emptying at 124.62 ft
+    10:20:41: Tank T-9 is filling at 133.60 ft
+   
+    10:40:29: Pump ~@Pump-8 changed by Tank T-13 control
+    10:40:29: Balancing the network:
+
+              Trial  1: relative flow change = 0.135431
+              PRV ~@RV-5 switched from closed to open
+              Trial  2: relative flow change = 0.284342
+              CV P-75 switched from closed to open
+              Trial  3: relative flow change = 0.172684
+              Trial  4: relative flow change = 0.083987
+              Trial  5: relative flow change = 0.036923
+              Trial  6: relative flow change = 0.012545
+              Trial  7: relative flow change = 0.002053
+              Trial  8: relative flow change = 0.000115
+              Trial  9: relative flow change = 0.000115
+              Trial 10: relative flow change = 0.000230
+              Trial 11: relative flow change = 0.000459
+              Trial 12: relative flow change = 0.000922
+              Trial 13: relative flow change = 0.001854
+              Trial 14: relative flow change = 0.003748
+              Trial 15: relative flow change = 0.007636
+              Trial 16: relative flow change = 0.015704
+              Trial 17: relative flow change = 0.031957
+              Trial 18: relative flow change = 0.056957
+              Trial 19: relative flow change = 0.059098
+              Trial 20: relative flow change = 0.017811
+              PRV ~@RV-5 switched from open to active
+              Trial 21: relative flow change = 0.001877
+              Trial 22: relative flow change = 0.003028
+              Trial 23: relative flow change = 0.000123
+              Trial 24: relative flow change = 0.000000
+                        maximum  flow change = 0.0005 for Link P-310
+                        maximum  head error  = 0.0000 for Link ~@Pump-10
+
+    10:40:29: Balanced after 24 trials
+    10:40:29: Tank T-8 is filling at 122.50 ft
+    10:40:29: Tank T-9 is emptying at 136.63 ft
+    10:40:29: CV P-75 changed from closed to open
+    10:40:29: Pump ~@Pump-8 changed from closed to open
+    10:40:29: PRV ~@RV-5 changed from closed to active
+   
+    10:55:56: Balancing the network:
+
+              Trial  1: relative flow change = 0.046347
+              Trial  2: relative flow change = 0.136604
+              Pipe P-1 switched from open to closed
+              Trial  3: relative flow change = 0.258060
+              Trial  4: relative flow change = 0.050515
+              PRV ~@RV-5 switched from active to open
+              Trial  5: relative flow change = 0.012836
+              Trial  6: relative flow change = 0.002111
+              Trial  7: relative flow change = 0.000118
+              Trial  8: relative flow change = 0.000004
+                        maximum  flow change = 0.0553 for Link P-622
+                        maximum  head error  = 0.0000 for Link P-622
+
+    10:55:56: Balanced after 8 trials
+    10:55:56: Tank T-8 is emptying at 123.98 ft
+    10:55:56: Tank T-9 is filling at 133.59 ft
+    10:55:56: Pipe P-1 changed from open to temporarily closed
+    10:55:56: PRV ~@RV-5 changed from active to open
+   
+    11:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.006215
+              Trial  2: relative flow change = 0.000822
+              Pipe P-1 switched from closed to open
+              Trial  3: relative flow change = 0.193259
+              PRV ~@RV-5 switched from open to active
+              Trial  4: relative flow change = 0.044683
+              Trial  5: relative flow change = 0.006215
+              Trial  6: relative flow change = 0.000172
+              Trial  7: relative flow change = 0.000004
+                        maximum  flow change = 0.0332 for Link P-474
+                        maximum  head error  = 0.0000 for Link P-474
+
+    11:00:00: Balanced after 7 trials
+    11:00:00: Pipe P-1 changed from temporarily closed to open
+    11:00:00: PRV ~@RV-5 changed from open to active
+   
+    12:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.115203
+              Trial  2: relative flow change = 0.009191
+              Trial  3: relative flow change = 0.000236
+              Trial  4: relative flow change = 0.000001
+                        maximum  flow change = 0.0190 for Link P-948
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+    12:00:00: Balanced after 4 trials
+    12:00:00: Tank T-8 is filling at 119.59 ft
+    12:00:00: Tank T-9 is emptying at 139.01 ft
+   
+    12:15:41: Balancing the network:
+
+              Trial  1: relative flow change = 0.066763
+              Trial  2: relative flow change = 0.019496
+              Trial  3: relative flow change = 0.021684
+              Trial  4: relative flow change = 0.003309
+              Trial  5: relative flow change = 0.000326
+              Trial  6: relative flow change = 0.000004
+                        maximum  flow change = 0.1887 for Link P-948
+                        maximum  head error  = 0.0000 for Link P-948
+
+    12:15:41: Balanced after 6 trials
+    12:15:41: Tank T-8 is emptying at 122.45 ft
+    12:15:41: Tank T-9 is filling at 133.60 ft
+   
+    13:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.084692
+              Trial  2: relative flow change = 0.005229
+              Trial  3: relative flow change = 0.000082
+                        maximum  flow change = 0.3398 for Link P-242
+                        maximum  head error  = 0.0000 for Link P-242
+
+    13:00:00: Balanced after 3 trials
+    13:00:00: Tank T-8 is filling at 120.27 ft
+    13:00:00: Tank T-9 is emptying at 135.81 ft
+   
+    13:09:05: Balancing the network:
+
+              Trial  1: relative flow change = 0.031386
+              Trial  2: relative flow change = 0.006934
+              Pipe P-1 switched from open to closed
+              Pipe P-948 switched from open to closed
+              Trial  3: relative flow change = 0.223346
+              Trial  4: relative flow change = 0.026313
+              Trial  5: relative flow change = 0.002850
+              PRV ~@RV-5 switched from active to open
+              Trial  6: relative flow change = 0.000566
+              Trial  7: relative flow change = 0.000023
+                        maximum  flow change = 0.0345 for Link P-469
+                        maximum  head error  = 0.0000 for Link P-39
+
+    13:09:05: Balanced after 7 trials
+    13:09:05: Tank T-8 is closed at 121.39 ft
+    13:09:05: Tank T-9 is closed at 133.59 ft
+    13:09:05: Pipe P-1 changed from open to temporarily closed
+    13:09:05: Pipe P-948 changed from open to temporarily closed
+    13:09:05: PRV ~@RV-5 changed from active to open
+   
+    14:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.015185
+              Trial  2: relative flow change = 0.000631
+              Trial  3: relative flow change = 0.000016
+                        maximum  flow change = 0.0768 for Link P-39
+                        maximum  head error  = 0.0000 for Link P-39
+
+    14:00:00: Balanced after 3 trials
+   
+    14:38:36: Balancing the network:
+
+              Trial  1: relative flow change = 0.006364
+              Trial  2: relative flow change = 0.000605
+              Pipe P-5 switched from open to closed
+              Trial  3: relative flow change = 0.079379
+              Trial  4: relative flow change = 0.005505
+              Trial  5: relative flow change = 0.000444
+              Trial  6: relative flow change = 0.000096
+                        maximum  flow change = 0.8340 for Link P-272
+                        maximum  head error  = 0.0010 for Link P-272
+
+    14:38:36: Balanced after 6 trials
+    14:38:36: Tank T-12 is closed at 148.36 ft
+    14:38:36: Pipe P-5 changed from open to temporarily closed
+   
+    15:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.004066
+              Trial  2: relative flow change = 0.000381
+              Trial  3: relative flow change = 0.000010
+                        maximum  flow change = 0.0604 for Link P-814
+                        maximum  head error  = 0.0000 for Link P-814
+
+    15:00:00: Balanced after 3 trials
+   
+    16:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.013360
+              Trial  2: relative flow change = 0.003018
+              Trial  3: relative flow change = 0.000032
+                        maximum  flow change = 0.0716 for Link P-785
+                        maximum  head error  = 0.0000 for Link P-814
+
+    16:00:00: Balanced after 3 trials
+   
+    17:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.037394
+              Trial  2: relative flow change = 0.007188
+              PRV ~@RV-4 switched from active to open
+              Trial  3: relative flow change = 0.000691
+              Trial  4: relative flow change = 0.000047
+                        maximum  flow change = 0.3527 for Link P-814
+                        maximum  head error  = 0.0007 for Link P-814
+
+    17:00:00: Balanced after 4 trials
+    17:00:00: Tank T-4 is emptying at 80.85 ft
+    17:00:00: PRV ~@RV-4 changed from active to open
+   
+    18:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.068693
+              Trial  2: relative flow change = 0.001887
+              Trial  3: relative flow change = 0.000024
+                        maximum  flow change = 0.2556 for Link P-867
+                        maximum  head error  = 0.0000 for Link P-85
+
+    18:00:00: Balanced after 3 trials
+   
+    18:08:30: Pump ~@Pump-13 changed by Tank T-1 control
+    18:08:30: Balancing the network:
+
+              Trial  1: relative flow change = 0.035853
+              Trial  2: relative flow change = 0.073522
+              Trial  3: relative flow change = 0.023662
+              Trial  4: relative flow change = 0.017348
+              Trial  5: relative flow change = 0.004268
+              Trial  6: relative flow change = 0.000119
+              Trial  7: relative flow change = 0.000000
+                        maximum  flow change = 0.0011 for Link P-310
+                        maximum  head error  = 0.0000 for Link ~@Pump-13
+
+    18:08:30: Balanced after 7 trials
+    18:08:30: Tank T-1 is filling at 130.78 ft
+    18:08:30: Pump ~@Pump-13 changed from closed to open
+   
+    19:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.072217
+              Trial  2: relative flow change = 0.002197
+              Trial  3: relative flow change = 0.000015
+                        maximum  flow change = 0.0404 for Link P-747
+                        maximum  head error  = 0.0000 for Link P-601
+
+    19:00:00: Balanced after 3 trials
+    19:00:00: Tank T-1 is emptying at 130.81 ft
+   
+    20:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.019907
+              Trial  2: relative flow change = 0.000487
+              Trial  3: relative flow change = 0.000001
+                        maximum  flow change = 0.0137 for Link P-675
+                        maximum  head error  = 0.0000 for Link P-1001
+
+    20:00:00: Balanced after 3 trials
+   
+    20:52:41: Balancing the network:
+
+              Trial  1: relative flow change = 0.010185
+              Trial  2: relative flow change = 0.000366
+              Pipe P-1030 switched from closed to open
+              Pipe P-9 switched from open to closed
+              Trial  3: relative flow change = 0.092524
+              PRV ~@RV-1 switched from closed to open
+              Trial  4: relative flow change = 0.012253
+              Trial  5: relative flow change = 0.001944
+              Trial  6: relative flow change = 0.000616
+              Trial  7: relative flow change = 0.000133
+              Trial  8: relative flow change = 0.000008
+                        maximum  flow change = 0.0663 for Link P-692
+                        maximum  head error  = 0.0001 for Link P-55
+
+    20:52:41: Balanced after 8 trials
+    20:52:41: Tank T-11 is emptying at 106.61 ft
+    20:52:41: Tank T-13 is closed at 65.48 ft
+    20:52:41: Pipe P-1030 changed from temporarily closed to open
+    20:52:41: Pipe P-9 changed from open to temporarily closed
+    20:52:41: PRV ~@RV-1 changed from closed to open
+   
+  WARNING: Negative pressures at 20:52:41 hrs.
+   
+    21:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.042261
+              Trial  2: relative flow change = 0.000739
+              Trial  3: relative flow change = 0.000007
+                        maximum  flow change = 0.0756 for Link P-85
+                        maximum  head error  = 0.0000 for Link P-85
+
+    21:00:00: Balanced after 3 trials
+   
+  WARNING: Negative pressures at 21:00:00 hrs.
+   
+    22:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.585400
+              PRV ~@RV-1 switched from open to active
+              PRV ~@RV-2 switched from open to active
+              PRV ~@RV-4 switched from open to active
+              PRV ~@RV-5 switched from open to active
+              Trial  2: relative flow change = 0.094641
+              PRV ~@RV-2 switched from active to open
+              Trial  3: relative flow change = 0.064698
+              PRV ~@RV-1 switched from active to closed
+              PRV ~@RV-5 switched from active to open
+              Trial  4: relative flow change = 0.071641
+              Pipe P-9 switched from closed to open
+              Trial  5: relative flow change = 0.038768
+              Trial  6: relative flow change = 0.003677
+              Trial  7: relative flow change = 0.000134
+              Trial  8: relative flow change = 0.000001
+                        maximum  flow change = 0.0017 for Link P-451
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+    22:00:00: Balanced after 8 trials
+    22:00:00: Tank T-1 is filling at 130.20 ft
+    22:00:00: Tank T-11 is filling at 106.59 ft
+    22:00:00: Tank T-13 is filling at 65.48 ft
+    22:00:00: Tank T-4 is filling at 78.64 ft
+    22:00:00: Pipe P-9 changed from temporarily closed to open
+    22:00:00: PRV ~@RV-1 changed from open to closed
+    22:00:00: PRV ~@RV-4 changed from open to active
+   
+    22:01:27: Balancing the network:
+
+              Trial  1: relative flow change = 0.000100
+              Trial  2: relative flow change = 0.000009
+                        maximum  flow change = 0.0157 for Link P-783
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+              Pipe P-1030 switched from open to closed
+              Trial  3: relative flow change = 0.007384
+              Trial  4: relative flow change = 0.001195
+              Trial  5: relative flow change = 0.000049
+                        maximum  flow change = 0.2934 for Link P-389
+                        maximum  head error  = 0.0002 for Link P-145
+
+    22:01:27: Balanced after 5 trials
+    22:01:27: Tank T-11 is closed at 106.61 ft
+    22:01:27: Pipe P-1030 changed from open to temporarily closed
+   
+    22:09:40: Balancing the network:
+
+              Trial  1: relative flow change = 0.000444
+              Trial  2: relative flow change = 0.000053
+                        maximum  flow change = 0.0891 for Link P-783
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+              Pipe P-630 switched from open to closed
+              Pipe P-881 switched from open to closed
+              Trial  3: relative flow change = 0.203129
+              Trial  4: relative flow change = 0.018026
+              PRV ~@RV-4 switched from active to open
+              Trial  5: relative flow change = 0.003011
+              Trial  6: relative flow change = 0.000189
+              Trial  7: relative flow change = 0.000005
+                        maximum  flow change = 0.0156 for Link P-624
+                        maximum  head error  = 0.0000 for Link P-624
+
+    22:09:40: Balanced after 7 trials
+    22:09:40: Tank T-5 is closed at 124.36 ft
+    22:09:40: Pipe P-630 changed from open to temporarily closed
+    22:09:40: Pipe P-881 changed from open to temporarily closed
+    22:09:40: PRV ~@RV-4 changed from active to open
+   
+    23:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.293262
+              PRV ~@RV-2 switched from open to active
+              PRV ~@RV-4 switched from open to active
+              Trial  2: relative flow change = 0.035814
+              Trial  3: relative flow change = 0.016049
+              Trial  4: relative flow change = 0.001300
+              Trial  5: relative flow change = 0.000073
+                        maximum  flow change = 0.1869 for Link P-192
+                        maximum  head error  = 0.0000 for Link P-192
+
+    23:00:00: Balanced after 5 trials
+    23:00:00: Tank T-10 is filling at 171.61 ft
+    23:00:00: PRV ~@RV-2 changed from open to active
+    23:00:00: PRV ~@RV-4 changed from open to active
+   
+    24:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.095329
+              PRV ~@RV-5 switched from open to active
+              Trial  2: relative flow change = 0.021101
+              Trial  3: relative flow change = 0.005925
+              Trial  4: relative flow change = 0.000309
+              Trial  5: relative flow change = 0.000010
+                        maximum  flow change = 0.0506 for Link P-633
+                        maximum  head error  = 0.0000 for Link P-633
+
+    24:00:00: Balanced after 5 trials
+    24:00:00: Tank T-6 is filling at 102.64 ft
+    24:00:00: PRV ~@RV-5 changed from open to active
+   
+    25:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.045964
+              Trial  2: relative flow change = 0.009908
+              Trial  3: relative flow change = 0.001286
+              Trial  4: relative flow change = 0.000013
+                        maximum  flow change = 0.0230 for Link P-976
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+    25:00:00: Balanced after 4 trials
+   
+    26:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.022138
+              Trial  2: relative flow change = 0.005755
+              Pipe P-5 switched from closed to open
+              Trial  3: relative flow change = 0.001141
+              Trial  4: relative flow change = 0.000274
+              Trial  5: relative flow change = 0.000011
+                        maximum  flow change = 0.0153 for Link P-512
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+    26:00:00: Balanced after 5 trials
+    26:00:00: Tank T-12 is filling at 148.36 ft
+    26:00:00: Pipe P-5 changed from temporarily closed to open
+   
+    27:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.003514
+              Trial  2: relative flow change = 0.001227
+              Trial  3: relative flow change = 0.000030
+                        maximum  flow change = 0.0415 for Link P-512
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+    27:00:00: Balanced after 3 trials
+   
+    27:16:49: Pump ~@Pump-9 changed by Tank T-4 control
+    27:16:49: Balancing the network:
+
+              Trial  1: relative flow change = 0.187124
+              Trial  2: relative flow change = 0.005712
+              Pipe P-630 switched from closed to open
+              Pipe P-881 switched from closed to open
+              Trial  3: relative flow change = 0.038525
+              Trial  4: relative flow change = 0.003568
+              Trial  5: relative flow change = 0.000236
+              Trial  6: relative flow change = 0.000048
+                        maximum  flow change = 2.5215 for Link ~@Pump-9
+                        maximum  head error  = 0.0000 for Link P-833
+
+    27:16:49: Balanced after 6 trials
+    27:16:49: Tank T-4 is emptying at 84.61 ft
+    27:16:49: Tank T-5 is filling at 124.36 ft
+    27:16:49: Pipe P-630 changed from temporarily closed to open
+    27:16:49: Pipe P-881 changed from temporarily closed to open
+    27:16:49: Pump ~@Pump-9 changed from open to closed
+   
+    28:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.028628
+              Trial  2: relative flow change = 0.003724
+              Trial  3: relative flow change = 0.000684
+              Trial  4: relative flow change = 0.000007
+                        maximum  flow change = 0.1576 for Link ~@Pump-9
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+    28:00:00: Balanced after 4 trials
+    28:00:00: Tank T-12 is emptying at 148.43 ft
+   
+    29:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.050929
+              Trial  2: relative flow change = 0.008567
+              Trial  3: relative flow change = 0.001373
+              Trial  4: relative flow change = 0.000008
+                        maximum  flow change = 0.0098 for Link ~@Pump-9
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+    29:00:00: Balanced after 4 trials
+   
+    29:04:25: Balancing the network:
+
+              Trial  1: relative flow change = 0.000709
+              Trial  2: relative flow change = 0.000080
+                        maximum  flow change = 0.0935 for Link P-512
+                        maximum  head error  = 0.0000 for Link ~@Pump-10
+
+              Pipe P-5 switched from open to closed
+              Trial  3: relative flow change = 0.011111
+              Trial  4: relative flow change = 0.002866
+              Trial  5: relative flow change = 0.000119
+              Trial  6: relative flow change = 0.000002
+                        maximum  flow change = 0.0027 for Link P-512
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+    29:04:25: Balanced after 6 trials
+    29:04:25: Tank T-12 is closed at 148.36 ft
+    29:04:25: Pipe P-5 changed from open to temporarily closed
+   
+    30:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.088700
+              Trial  2: relative flow change = 0.021898
+              Trial  3: relative flow change = 0.002545
+              Trial  4: relative flow change = 0.000034
+                        maximum  flow change = 0.0615 for Link P-808
+                        maximum  head error  = 0.0000 for Link P-974
+
+    30:00:00: Balanced after 4 trials
+    30:00:00: Tank T-5 is emptying at 124.61 ft
+   
+    31:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.188667
+              PRV ~@RV-2 switched from active to open
+              PRV ~@RV-5 switched from active to open
+              Trial  2: relative flow change = 0.056691
+              Trial  3: relative flow change = 0.009434
+              Trial  4: relative flow change = 0.000726
+              Trial  5: relative flow change = 0.000079
+                        maximum  flow change = 0.6467 for Link P-821
+                        maximum  head error  = 0.0002 for Link P-821
+
+    31:00:00: Balanced after 5 trials
+    31:00:00: Tank T-10 is emptying at 174.40 ft
+    31:00:00: Tank T-6 is emptying at 108.43 ft
+    31:00:00: PRV ~@RV-2 changed from active to open
+    31:00:00: PRV ~@RV-5 changed from active to open
+   
+    32:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.137078
+              Trial  2: relative flow change = 0.024012
+              PRV ~@RV-4 switched from active to open
+              Trial  3: relative flow change = 0.011099
+              Trial  4: relative flow change = 0.000139
+              Trial  5: relative flow change = 0.000001
+                        maximum  flow change = 0.0010 for Link P-310
+                        maximum  head error  = 0.0000 for Link P-200
+
+    32:00:00: Balanced after 5 trials
+    32:00:00: Tank T-13 is emptying at 89.13 ft
+    32:00:00: PRV ~@RV-4 changed from active to open
+   
+    32:05:38: Balancing the network:
+
+              Trial  1: relative flow change = 0.001064
+              Trial  2: relative flow change = 0.000003
+                        maximum  flow change = 0.0111 for Link P-718
+                        maximum  head error  = 0.0000 for Link P-601
+
+              Pipe P-630 switched from open to closed
+              Pipe P-881 switched from open to closed
+              Trial  3: relative flow change = 0.106063
+              Trial  4: relative flow change = 0.005137
+              Trial  5: relative flow change = 0.000546
+              Trial  6: relative flow change = 0.000049
+                        maximum  flow change = 0.2307 for Link P-814
+                        maximum  head error  = 0.0003 for Link P-814
+
+    32:05:38: Balanced after 6 trials
+    32:05:38: Tank T-5 is closed at 124.36 ft
+    32:05:38: Pipe P-630 changed from open to temporarily closed
+    32:05:38: Pipe P-881 changed from open to temporarily closed
+   
+    32:47:18: Pump ~@Pump-9 changed by Tank T-4 control
+    32:47:18: Balancing the network:
+
+              Trial  1: relative flow change = 0.090507
+              Trial  2: relative flow change = 0.190371
+              Trial  3: relative flow change = 0.014063
+              Trial  4: relative flow change = 0.001564
+              Trial  5: relative flow change = 0.000278
+              Trial  6: relative flow change = 0.000017
+                        maximum  flow change = 0.0973 for Link P-814
+                        maximum  head error  = 0.0000 for Link P-814
+
+    32:47:18: Balanced after 6 trials
+    32:47:18: Pump ~@Pump-9 changed from closed to open
+   
+    33:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.048146
+              Trial  2: relative flow change = 0.001207
+              Trial  3: relative flow change = 0.000002
+                        maximum  flow change = 0.0067 for Link P-59
+                        maximum  head error  = 0.0000 for Link P-445
+
+    33:00:00: Balanced after 3 trials
+   
+    34:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.015404
+              Trial  2: relative flow change = 0.000354
+              Trial  3: relative flow change = 0.000000
+                        maximum  flow change = 0.0004 for Link P-310
+                        maximum  head error  = 0.0000 for Link ~@Pump-9
+
+    34:00:00: Balanced after 3 trials
+   
+    35:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.007130
+              Trial  2: relative flow change = 0.000079
+                        maximum  flow change = 0.1870 for Link P-650
+                        maximum  head error  = 0.0000 for Link ~@Pump-3
+
+    35:00:00: Balanced after 2 trials
+   
+    35:32:06: Balancing the network:
+
+              Trial  1: relative flow change = 0.003781
+              Trial  2: relative flow change = 0.000023
+                        maximum  flow change = 0.0606 for Link P-650
+                        maximum  head error  = 0.0000 for Link ~@Pump-3
+
+              Pipe P-512 switched from open to closed
+              Trial  3: relative flow change = 0.341853
+              Trial  4: relative flow change = 0.069561
+              Pipe P-596 switched from closed to open
+              Trial  5: relative flow change = 0.172711
+              Trial  6: relative flow change = 0.032764
+              Trial  7: relative flow change = 0.002604
+              Trial  8: relative flow change = 0.000055
+                        maximum  flow change = 0.5190 for Link P-102
+                        maximum  head error  = 0.0004 for Link P-728
+
+    35:32:06: Balanced after 8 trials
+    35:32:06: Tank T-1 is emptying at 140.58 ft
+    35:32:06: Tank T-2 is emptying at 97.67 ft
+    35:32:06: Tank T-6 is closed at 97.72 ft
+    35:32:06: Pipe P-512 changed from open to temporarily closed
+    35:32:06: Pipe P-596 changed from temporarily closed to open
+   
+  WARNING: Negative pressures at 35:32:06 hrs.
+   
+    36:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.011030
+              Trial  2: relative flow change = 0.000140
+              Trial  3: relative flow change = 0.000000
+                        maximum  flow change = 0.0009 for Link P-1015
+                        maximum  head error  = 0.0000 for Link P-728
+
+    36:00:00: Balanced after 3 trials
+   
+  WARNING: Negative pressures at 36:00:00 hrs.
+   
+    37:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.027833
+              Trial  2: relative flow change = 0.000514
+              Trial  3: relative flow change = 0.000005
+                        maximum  flow change = 0.0741 for Link P-728
+                        maximum  head error  = 0.0000 for Link P-728
+
+    37:00:00: Balanced after 3 trials
+   
+  WARNING: Negative pressures at 37:00:00 hrs.
+   
+    38:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.013077
+              Trial  2: relative flow change = 0.000197
+              Trial  3: relative flow change = 0.000006
+                        maximum  flow change = 0.0915 for Link P-728
+                        maximum  head error  = 0.0000 for Link P-728
+
+    38:00:00: Balanced after 3 trials
+    38:00:00: Tank T-1 is closed at 140.47 ft
+   
+  WARNING: Negative pressures at 38:00:00 hrs.
+   
+    39:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.004354
+              Trial  2: relative flow change = 0.000039
+                        maximum  flow change = 0.1945 for Link P-728
+                        maximum  head error  = 0.0001 for Link P-728
+
+    39:00:00: Balanced after 2 trials
+   
+  WARNING: Negative pressures at 39:00:00 hrs.
+   
+    40:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.011415
+              Trial  2: relative flow change = 0.000249
+              Trial  3: relative flow change = 0.000000
+                        maximum  flow change = 0.0004 for Link P-310
+                        maximum  head error  = 0.0000 for Link P-211
+
+    40:00:00: Balanced after 3 trials
+    40:00:00: Tank T-1 is emptying at 140.47 ft
+   
+  WARNING: Negative pressures at 40:00:00 hrs.
+   
+    41:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.039683
+              Trial  2: relative flow change = 0.001082
+              Pipe P-1030 switched from closed to open
+              Trial  3: relative flow change = 0.000019
+                        maximum  flow change = 0.2860 for Link P-728
+                        maximum  head error  = 0.0002 for Link P-728
+
+    41:00:00: Balanced after 3 trials
+    41:00:00: Pipe P-1030 changed from temporarily closed to open
+   
+  WARNING: Negative pressures at 41:00:00 hrs.
+   
+    41:14:39: Balancing the network:
+
+              Trial  1: relative flow change = 0.001191
+              Trial  2: relative flow change = 0.000006
+                        maximum  flow change = 0.0647 for Link P-728
+                        maximum  head error  = 0.0000 for Link P-211
+
+              Pipe P-3 switched from open to closed
+              Trial  3: relative flow change = 0.042807
+              PRV ~@RV-3 switched from active to open
+              Trial  4: relative flow change = 0.000318
+              Trial  5: relative flow change = 0.000039
+                        maximum  flow change = 0.6385 for Link P-728
+                        maximum  head error  = 0.0007 for Link P-728
+
+    41:14:39: Balanced after 5 trials
+    41:14:39: Tank T-11 is emptying at 106.61 ft
+    41:14:39: Tank T-4 is closed at 74.61 ft
+    41:14:39: Pipe P-3 changed from open to temporarily closed
+    41:14:39: PRV ~@RV-3 changed from active to open
+   
+  WARNING: Negative pressures at 41:14:39 hrs.
+   
+    42:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.072882
+              Trial  2: relative flow change = 0.001300
+              Trial  3: relative flow change = 0.000007
+                        maximum  flow change = 0.0806 for Link P-102
+                        maximum  head error  = 0.0000 for Link P-728
+
+    42:00:00: Balanced after 3 trials
+   
+  WARNING: Negative pressures at 42:00:00 hrs.
+   
+    43:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.080813
+              Trial  2: relative flow change = 0.001845
+              Trial  3: relative flow change = 0.000008
+                        maximum  flow change = 0.0355 for Link P-1015
+                        maximum  head error  = 0.0000 for Link ~@Pump-2
+
+    43:00:00: Balanced after 3 trials
+   
+  WARNING: Negative pressures at 43:00:00 hrs.
+   
+    44:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.019040
+              Trial  2: relative flow change = 0.000203
+              Trial  3: relative flow change = 0.000000
+                        maximum  flow change = 0.0006 for Link P-310
+                        maximum  head error  = 0.0000 for Link ~@Pump-2
+
+    44:00:00: Balanced after 3 trials
+   
+  WARNING: Negative pressures at 44:00:00 hrs.
+   
+    44:02:39: Balancing the network:
+
+              Trial  1: relative flow change = 0.000242
+              Trial  2: relative flow change = 0.000000
+                        maximum  flow change = 0.0012 for Link P-1015
+                        maximum  head error  = 0.0000 for Link P-783
+
+              Pipe P-596 switched from open to closed
+              Trial  3: relative flow change = 0.164426
+              Trial  4: relative flow change = 0.014336
+              Trial  5: relative flow change = 0.000785
+              Trial  6: relative flow change = 0.000039
+                        maximum  flow change = 0.4455 for Link P-102
+                        maximum  head error  = 0.0001 for Link P-102
+
+    44:02:39: Balanced after 6 trials
+    44:02:39: Tank T-2 is closed at 72.67 ft
+    44:02:39: Pipe P-596 changed from open to temporarily closed
+   
+  WARNING: Negative pressures at 44:02:39 hrs.
+   
+    45:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.033425
+              Trial  2: relative flow change = 0.000152
+              Trial  3: relative flow change = 0.000000
+                        maximum  flow change = 0.0005 for Link P-108
+                        maximum  head error  = 0.0000 for Link ~@Pump-13
+
+    45:00:00: Balanced after 3 trials
+   
+  WARNING: Negative pressures at 45:00:00 hrs.
+   
+    46:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.447023
+              PRV ~@RV-3 switched from open to active
+              Trial  2: relative flow change = 0.029133
+              Pipe P-3 switched from closed to open
+              Trial  3: relative flow change = 0.003428
+              Trial  4: relative flow change = 0.000056
+                        maximum  flow change = 0.0837 for Link P-3
+                        maximum  head error  = 0.0001 for Link ~@Pump-9
+
+    46:00:00: Balanced after 4 trials
+    46:00:00: Tank T-1 is filling at 138.14 ft
+    46:00:00: Tank T-11 is filling at 104.64 ft
+    46:00:00: Tank T-13 is filling at 69.87 ft
+    46:00:00: Tank T-4 is filling at 74.61 ft
+    46:00:00: Pipe P-3 changed from temporarily closed to open
+    46:00:00: PRV ~@RV-3 changed from open to active
+   
+  WARNING: Negative pressures at 46:00:00 hrs.
+   
+    47:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.204045
+              PRV ~@RV-2 switched from open to active
+              PRV ~@RV-4 switched from open to active
+              Trial  2: relative flow change = 0.030162
+              Pipe P-512 switched from closed to open
+              Pipe P-596 switched from closed to open
+              Trial  3: relative flow change = 0.455978
+              PRV ~@RV-4 switched from active to open
+              Trial  4: relative flow change = 0.241783
+              PRV ~@RV-4 switched from open to active
+              Pipe P-512 switched from open to closed
+              Trial  5: relative flow change = 0.324134
+              PRV ~@RV-4 switched from active to open
+              Trial  6: relative flow change = 0.063632
+              PRV ~@RV-2 switched from active to open
+              Trial  7: relative flow change = 0.011911
+              Trial  8: relative flow change = 0.002594
+              Trial  9: relative flow change = 0.000403
+              Trial 10: relative flow change = 0.000049
+                        maximum  flow change = 0.2625 for Link P-297
+                        maximum  head error  = 0.0000 for Link P-297
+
+    47:00:00: Balanced after 10 trials
+    47:00:00: Tank T-2 is filling at 72.67 ft
+    47:00:00: Pipe P-596 changed from temporarily closed to open
+   
+    48:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.090625
+              PRV ~@RV-2 switched from open to active
+              Trial  2: relative flow change = 0.004114
+              Trial  3: relative flow change = 0.000039
+                        maximum  flow change = 0.1208 for Link P-374
+                        maximum  head error  = 0.0000 for Link P-145
+
+    48:00:00: Balanced after 3 trials
+    48:00:00: PRV ~@RV-2 changed from open to active
+   
+    49:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.047606
+              PRV ~@RV-4 switched from open to active
+              Trial  2: relative flow change = 0.007145
+              Trial  3: relative flow change = 0.003200
+              Trial  4: relative flow change = 0.000100
+                        maximum  flow change = 0.2526 for Link P-89
+                        maximum  head error  = 0.0001 for Link ~@Pump-11
+
+    49:00:00: Balanced after 4 trials
+    49:00:00: Tank T-10 is filling at 164.72 ft
+    49:00:00: PRV ~@RV-4 changed from open to active
+   
+    49:24:54: Balancing the network:
+
+              Trial  1: relative flow change = 0.001990
+              Trial  2: relative flow change = 0.000216
+              Pipe P-1030 switched from open to closed
+              Trial  3: relative flow change = 0.005685
+              Trial  4: relative flow change = 0.001000
+              Trial  5: relative flow change = 0.000048
+                        maximum  flow change = 0.1438 for Link P-444
+                        maximum  head error  = 0.0001 for Link P-645
+
+    49:24:54: Balanced after 5 trials
+    49:24:54: Tank T-11 is closed at 106.61 ft
+    49:24:54: Pipe P-1030 changed from open to temporarily closed
+   
+    50:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.020910
+              Trial  2: relative flow change = 0.002760
+              Trial  3: relative flow change = 0.000368
+              Trial  4: relative flow change = 0.000010
+                        maximum  flow change = 0.0246 for Link P-89
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+    50:00:00: Balanced after 4 trials
+   
+   
+  Hydraulic Status:
+  -----------------------------------------------------------------------
+     0:00:00: Pump ~@Pump-9 changed by Tank T-4 control
+     0:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 53.169223
+              PRV ~@RV-4 switched from active to closed
+              Trial  2: relative flow change = 0.658903
+              PRV ~@RV-1 switched from active to closed
+              PRV ~@RV-4 switched from closed to active
+              PRV ~@RV-5 switched from active to open
+              Trial  3: relative flow change = 0.266258
+              PRV ~@RV-5 switched from open to active
+              Trial  4: relative flow change = 0.105494
+              PRV ~@RV-4 switched from active to open
+              Trial  5: relative flow change = 0.041299
+              PRV ~@RV-4 switched from open to active
+              Trial  6: relative flow change = 0.015220
+              Trial  7: relative flow change = 0.024556
+              Trial  8: relative flow change = 0.001297
+              Trial  9: relative flow change = 0.000191
+              Trial 10: relative flow change = 0.000005
+                        maximum  flow change = 0.4383 for Link ~@Pump-9
+                        maximum  head error  = 0.0000 for Link P-452
+
+     0:00:00: Balanced after 10 trials
+     0:00:00: Reservoir R-1 is filling
+     0:00:00: Reservoir R-2 is emptying
+     0:00:00: Tank T-1 is filling at 140.78 ft
+     0:00:00: Tank T-10 is emptying at 179.16 ft
+     0:00:00: Tank T-11 is filling at 101.61 ft
+     0:00:00: Tank T-12 is filling at 158.36 ft
+     0:00:00: Tank T-13 is filling at 70.48 ft
+     0:00:00: Tank T-2 is filling at 82.67 ft
+     0:00:00: Tank T-3 is emptying at 67.79 ft
+     0:00:00: Tank T-4 is emptying at 84.61 ft
+     0:00:00: Tank T-5 is filling at 134.36 ft
+     0:00:00: Tank T-6 is filling at 102.72 ft
+     0:00:00: Tank T-7 is emptying at 142.29 ft
+     0:00:00: Tank T-8 is filling at 121.77 ft
+     0:00:00: Tank T-9 is emptying at 148.59 ft
+     0:00:00: Pump ~@Pump-9 closed
+     0:00:00: PRV ~@RV-1 closed
+   
+     0:32:22: Balancing the network:
+
+              Trial  1: relative flow change = 0.107109
+              Trial  2: relative flow change = 0.058159
+              Pipe P-1 switched from open to closed
+              Trial  3: relative flow change = 0.043777
+              Trial  4: relative flow change = 0.006881
+              Trial  5: relative flow change = 0.000434
+              Trial  6: relative flow change = 0.000004
+                        maximum  flow change = 0.2821 for Link P-948
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+     0:32:22: Balanced after 6 trials
+     0:32:22: Tank T-12 is closed at 158.49 ft
+     0:32:22: Tank T-8 is emptying at 130.27 ft
+     0:32:22: Tank T-9 is filling at 133.59 ft
+     0:32:22: Pipe P-1 changed from open to temporarily closed
+   
+     1:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.095749
+              Trial  2: relative flow change = 0.079867
+              Pipe P-1 switched from closed to open
+              Trial  3: relative flow change = 0.079281
+              Trial  4: relative flow change = 0.021572
+              Trial  5: relative flow change = 0.003634
+              Trial  6: relative flow change = 0.000222
+              Trial  7: relative flow change = 0.000001
+                        maximum  flow change = 0.1049 for Link P-948
+                        maximum  head error  = 0.0000 for Link P-948
+
+     1:00:00: Balanced after 7 trials
+     1:00:00: Tank T-12 is filling at 158.49 ft
+     1:00:00: Tank T-8 is filling at 124.93 ft
+     1:00:00: Tank T-9 is emptying at 142.62 ft
+     1:00:00: Pipe P-1 changed from temporarily closed to open
+   
+     1:31:36: Balancing the network:
+
+              Trial  1: relative flow change = 0.110954
+              Trial  2: relative flow change = 0.051175
+              Pipe P-1 switched from open to closed
+              Trial  3: relative flow change = 0.055616
+              Trial  4: relative flow change = 0.007874
+              Trial  5: relative flow change = 0.000541
+              Trial  6: relative flow change = 0.000006
+                        maximum  flow change = 0.2159 for Link P-948
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+     1:31:36: Balanced after 6 trials
+     1:31:36: Tank T-8 is emptying at 129.93 ft
+     1:31:36: Tank T-9 is filling at 133.59 ft
+     1:31:36: Pipe P-1 changed from open to temporarily closed
+   
+     2:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.105524
+              Trial  2: relative flow change = 0.158963
+              Pipe P-1 switched from closed to open
+              Trial  3: relative flow change = 0.140122
+              Trial  4: relative flow change = 0.054236
+              Trial  5: relative flow change = 0.015602
+              Trial  6: relative flow change = 0.003122
+              Trial  7: relative flow change = 0.000152
+              Trial  8: relative flow change = 0.000001
+                        maximum  flow change = 0.0358 for Link P-948
+                        maximum  head error  = 0.0000 for Link P-948
+
+     2:00:00: Balanced after 8 trials
+     2:00:00: Tank T-8 is filling at 124.56 ft
+     2:00:00: Tank T-9 is emptying at 142.67 ft
+     2:00:00: Pipe P-1 changed from temporarily closed to open
+   
+     2:13:17: Balancing the network:
+
+              Trial  1: relative flow change = 0.050854
+              Trial  2: relative flow change = 0.008092
+              Pipe P-1030 switched from open to closed
+              Trial  3: relative flow change = 0.014211
+              Trial  4: relative flow change = 0.002889
+              Trial  5: relative flow change = 0.000340
+              Trial  6: relative flow change = 0.000008
+                        maximum  flow change = 0.0315 for Link P-1031
+                        maximum  head error  = 0.0000 for Link P-645
+
+     2:13:17: Balanced after 6 trials
+     2:13:17: Tank T-10 is filling at 177.68 ft
+     2:13:17: Tank T-11 is closed at 106.61 ft
+     2:13:17: Pipe P-1030 changed from open to temporarily closed
+   
+     2:19:58: Pump ~@Pump-13 changed by Tank T-1 control
+     2:19:58: Balancing the network:
+
+              Trial  1: relative flow change = 0.070744
+              Trial  2: relative flow change = 0.015803
+              Trial  3: relative flow change = 0.004456
+              Trial  4: relative flow change = 0.000600
+              Trial  5: relative flow change = 0.000052
+                        maximum  flow change = 4.0825 for Link ~@Pump-13
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+     2:19:58: Balanced after 5 trials
+     2:19:58: Tank T-1 is emptying at 143.78 ft
+     2:19:58: Tank T-8 is emptying at 126.88 ft
+     2:19:58: Tank T-9 is filling at 138.34 ft
+     2:19:58: Pump ~@Pump-13 changed from open to closed
+   
+     2:42:06: Balancing the network:
+
+              Trial  1: relative flow change = 0.078000
+              Trial  2: relative flow change = 0.006620
+              Pipe P-10 switched from open to closed
+              Trial  3: relative flow change = 0.007022
+              PRV ~@RV-2 switched from active to open
+              Trial  4: relative flow change = 0.026226
+              PRV ~@RV-2 switched from open to active
+              Trial  5: relative flow change = 0.000706
+              Trial  6: relative flow change = 0.000007
+                        maximum  flow change = 0.0755 for Link P-867
+                        maximum  head error  = 0.0000 for Link P-85
+
+     2:42:06: Balanced after 6 trials
+     2:42:06: Tank T-3 is closed at 61.79 ft
+     2:42:06: Tank T-8 is filling at 126.10 ft
+     2:42:06: Tank T-9 is emptying at 139.27 ft
+     2:42:06: Pipe P-10 changed from open to temporarily closed
+   
+     3:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.071021
+              Trial  2: relative flow change = 0.021941
+              Trial  3: relative flow change = 0.006916
+              Trial  4: relative flow change = 0.000974
+              Trial  5: relative flow change = 0.000021
+                        maximum  flow change = 1.6877 for Link P-948
+                        maximum  head error  = 0.0000 for Link P-948
+
+     3:00:00: Balanced after 5 trials
+     3:00:00: Tank T-8 is emptying at 127.38 ft
+     3:00:00: Tank T-9 is filling at 136.76 ft
+   
+     3:29:28: Balancing the network:
+
+              Trial  1: relative flow change = 0.128885
+              Trial  2: relative flow change = 0.034137
+              Pipe P-596 switched from open to closed
+              Trial  3: relative flow change = 0.382797
+              Trial  4: relative flow change = 0.062182
+              Trial  5: relative flow change = 0.005682
+              Trial  6: relative flow change = 0.000371
+              Trial  7: relative flow change = 0.000006
+                        maximum  flow change = 0.0175 for Link P-370
+                        maximum  head error  = 0.0000 for Link P-370
+
+     3:29:28: Balanced after 7 trials
+     3:29:28: Tank T-2 is closed at 97.67 ft
+     3:29:28: Tank T-8 is filling at 124.47 ft
+     3:29:28: Tank T-9 is emptying at 141.14 ft
+     3:29:28: Pipe P-596 changed from open to temporarily closed
+   
+     3:58:05: Balancing the network:
+
+              Trial  1: relative flow change = 0.142588
+              Trial  2: relative flow change = 0.081793
+              Trial  3: relative flow change = 0.032269
+              Trial  4: relative flow change = 0.007733
+              Trial  5: relative flow change = 0.000543
+              Trial  6: relative flow change = 0.000003
+                        maximum  flow change = 0.1694 for Link P-948
+                        maximum  head error  = 0.0000 for Link P-948
+
+     3:58:05: Balanced after 6 trials
+     3:58:05: Tank T-8 is emptying at 128.56 ft
+     3:58:05: Tank T-9 is filling at 133.60 ft
+   
+     3:58:15: Balancing the network:
+
+              Trial  1: relative flow change = 0.000846
+              Trial  2: relative flow change = 0.000006
+                        maximum  flow change = 0.0404 for Link P-948
+                        maximum  head error  = 0.0000 for Link ~@Pump-10
+
+              Pipe P-678 switched from open to closed
+              Trial  3: relative flow change = 0.257541
+              Trial  4: relative flow change = 0.040429
+              Trial  5: relative flow change = 0.004938
+              Trial  6: relative flow change = 0.000229
+              Trial  7: relative flow change = 0.000003
+                        maximum  flow change = 0.0107 for Link P-593
+                        maximum  head error  = 0.0000 for Link P-593
+
+     3:58:15: Balanced after 7 trials
+     3:58:15: Tank T-7 is closed at 117.29 ft
+     3:58:15: Pipe P-678 changed from open to temporarily closed
+   
+     4:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.020472
+              Trial  2: relative flow change = 0.004624
+              Trial  3: relative flow change = 0.000722
+              Trial  4: relative flow change = 0.000005
+                        maximum  flow change = 0.0070 for Link P-783
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+     4:00:00: Balanced after 4 trials
+   
+     5:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.196163
+              Trial  2: relative flow change = 0.049854
+              Trial  3: relative flow change = 0.008360
+              Trial  4: relative flow change = 0.000345
+              Trial  5: relative flow change = 0.000020
+                        maximum  flow change = 0.2061 for Link P-562
+                        maximum  head error  = 0.0000 for Link P-562
+
+     5:00:00: Balanced after 5 trials
+     5:00:00: Tank T-8 is filling at 118.67 ft
+     5:00:00: Tank T-9 is emptying at 149.01 ft
+   
+     5:28:57: Balancing the network:
+
+              Trial  1: relative flow change = 0.181770
+              Trial  2: relative flow change = 0.084623
+              Pipe P-1 switched from open to closed
+              Trial  3: relative flow change = 0.172822
+              Trial  4: relative flow change = 0.024552
+              Trial  5: relative flow change = 0.001872
+              Trial  6: relative flow change = 0.000039
+                        maximum  flow change = 0.0435 for Link P-394
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+     5:28:57: Balanced after 6 trials
+     5:28:57: Tank T-12 is emptying at 159.67 ft
+     5:28:57: Tank T-8 is emptying at 127.19 ft
+     5:28:57: Tank T-9 is filling at 133.59 ft
+     5:28:57: Pipe P-1 changed from open to temporarily closed
+   
+     6:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.139388
+              Trial  2: relative flow change = 0.108791
+              Pipe P-1 switched from closed to open
+              Trial  3: relative flow change = 0.230828
+              Trial  4: relative flow change = 0.064381
+              Trial  5: relative flow change = 0.007726
+              Trial  6: relative flow change = 0.000396
+              Trial  7: relative flow change = 0.000018
+                        maximum  flow change = 0.1084 for Link P-347
+                        maximum  head error  = 0.0000 for Link P-347
+
+     6:00:00: Balanced after 7 trials
+     6:00:00: Tank T-8 is filling at 122.48 ft
+     6:00:00: Tank T-9 is emptying at 141.55 ft
+     6:00:00: Pipe P-1 changed from temporarily closed to open
+   
+     6:24:10: Balancing the network:
+
+              Trial  1: relative flow change = 0.120292
+              Trial  2: relative flow change = 0.155951
+              Trial  3: relative flow change = 0.076070
+              Trial  4: relative flow change = 0.029620
+              Trial  5: relative flow change = 0.006893
+              Trial  6: relative flow change = 0.000439
+              Trial  7: relative flow change = 0.000002
+                        maximum  flow change = 0.0925 for Link P-948
+                        maximum  head error  = 0.0000 for Link P-948
+
+     6:24:10: Balanced after 7 trials
+     6:24:10: Tank T-8 is emptying at 126.77 ft
+     6:24:10: Tank T-9 is filling at 133.60 ft
+   
+     6:54:59: Pump ~@Pump-8 changed by Tank T-13 control
+     6:54:59: Balancing the network:
+
+              Trial  1: relative flow change = 0.156679
+              Trial  2: relative flow change = 0.249331
+              CV P-75 switched from open to closed
+              Trial  3: relative flow change = 0.085236
+              PRV ~@RV-5 switched from active to closed
+              Trial  4: relative flow change = 0.021403
+              Trial  5: relative flow change = 0.002166
+              Trial  6: relative flow change = 0.000033
+                        maximum  flow change = 0.9298 for Link P-948
+                        maximum  head error  = 45.3364 for Link ~@Pump-10
+
+     6:54:59: Balanced after 6 trials
+     6:54:59: Tank T-12 is filling at 159.34 ft
+     6:54:59: Tank T-13 is emptying at 90.48 ft
+     6:54:59: Tank T-8 is filling at 122.30 ft
+     6:54:59: Tank T-9 is emptying at 140.48 ft
+     6:54:59: CV P-75 changed from open to closed
+     6:54:59: Pump ~@Pump-8 changed from open to closed
+     6:54:59: PRV ~@RV-5 changed from active to closed
+   
+     7:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.186786
+              Trial  2: relative flow change = 0.050736
+              Trial  3: relative flow change = 0.007346
+              Trial  4: relative flow change = 0.000138
+              Trial  5: relative flow change = 0.000001
+                        maximum  flow change = 0.0010 for Link P-89
+                        maximum  head error  = 40.3756 for Link ~@Pump-10
+
+     7:00:00: Balanced after 5 trials
+     7:00:00: Tank T-12 is emptying at 159.35 ft
+   
+     7:21:55: Balancing the network:
+
+              Trial  1: relative flow change = 0.097885
+              Trial  2: relative flow change = 0.154766
+              Pipe P-1 switched from open to closed
+              Trial  3: relative flow change = 0.254418
+              Trial  4: relative flow change = 0.061973
+              Trial  5: relative flow change = 0.011228
+              Trial  6: relative flow change = 0.000741
+              Trial  7: relative flow change = 0.000007
+                        maximum  flow change = 0.1902 for Link P-948
+                        maximum  head error  = 37.1376 for Link ~@Pump-10
+
+     7:21:55: Balanced after 7 trials
+     7:21:55: Tank T-10 is closed at 179.73 ft
+     7:21:55: Tank T-6 is emptying at 130.22 ft
+     7:21:55: Tank T-8 is emptying at 125.95 ft
+     7:21:55: Tank T-9 is filling at 133.59 ft
+     7:21:55: Pipe P-1 changed from open to temporarily closed
+   
+     8:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.215271
+              PRV ~@RV-2 switched from active to open
+              Trial  2: relative flow change = 0.078372
+              Pipe P-1 switched from closed to open
+              Trial  3: relative flow change = 0.248714
+              Trial  4: relative flow change = 0.067828
+              Trial  5: relative flow change = 0.010294
+              Trial  6: relative flow change = 0.001188
+              Trial  7: relative flow change = 0.000055
+                        maximum  flow change = 0.1249 for Link P-70
+                        maximum  head error  = 36.6901 for Link ~@Pump-10
+
+     8:00:00: Balanced after 7 trials
+     8:00:00: Tank T-10 is emptying at 179.73 ft
+     8:00:00: Tank T-5 is emptying at 136.69 ft
+     8:00:00: Tank T-6 is filling at 130.18 ft
+     8:00:00: Tank T-8 is filling at 120.93 ft
+     8:00:00: Tank T-9 is emptying at 142.07 ft
+     8:00:00: Pipe P-1 changed from temporarily closed to open
+     8:00:00: PRV ~@RV-2 changed from active to open
+   
+     8:04:56: Pump ~@Pump-9 changed by Tank T-4 control
+     8:04:56: Balancing the network:
+
+              Trial  1: relative flow change = 0.045845
+              Trial  2: relative flow change = 0.091534
+              Trial  3: relative flow change = 0.038124
+              Trial  4: relative flow change = 0.004975
+              Trial  5: relative flow change = 0.000026
+                        maximum  flow change = 0.0313 for Link P-667
+                        maximum  head error  = 36.7578 for Link ~@Pump-10
+
+     8:04:56: Balanced after 5 trials
+     8:04:56: Tank T-4 is filling at 79.61 ft
+     8:04:56: Pump ~@Pump-9 changed from closed to open
+   
+     8:26:05: Balancing the network:
+
+              Trial  1: relative flow change = 0.105155
+              Trial  2: relative flow change = 0.090164
+              Pipe P-1 switched from open to closed
+              Trial  3: relative flow change = 0.211771
+              Trial  4: relative flow change = 0.040362
+              Trial  5: relative flow change = 0.004959
+              Trial  6: relative flow change = 0.000225
+              Trial  7: relative flow change = 0.000005
+                        maximum  flow change = 0.0175 for Link P-45
+                        maximum  head error  = 33.0453 for Link ~@Pump-10
+
+     8:26:05: Balanced after 7 trials
+     8:26:05: Tank T-6 is emptying at 130.29 ft
+     8:26:05: Tank T-8 is emptying at 125.46 ft
+     8:26:05: Tank T-9 is filling at 133.59 ft
+     8:26:05: Pipe P-1 changed from open to temporarily closed
+   
+     9:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.101024
+              Trial  2: relative flow change = 0.049181
+              Pipe P-1 switched from closed to open
+              Trial  3: relative flow change = 0.235377
+              Trial  4: relative flow change = 0.063751
+              Trial  5: relative flow change = 0.011074
+              Trial  6: relative flow change = 0.000974
+              Trial  7: relative flow change = 0.000055
+                        maximum  flow change = 0.2822 for Link P-722
+                        maximum  head error  = 35.1937 for Link ~@Pump-10
+
+     9:00:00: Balanced after 7 trials
+     9:00:00: Tank T-6 is filling at 129.80 ft
+     9:00:00: Tank T-8 is filling at 121.28 ft
+     9:00:00: Tank T-9 is emptying at 140.65 ft
+     9:00:00: Pipe P-1 changed from temporarily closed to open
+   
+     9:20:47: Balancing the network:
+
+              Trial  1: relative flow change = 0.108431
+              Trial  2: relative flow change = 0.064579
+              Pipe P-1 switched from open to closed
+              Trial  3: relative flow change = 0.199302
+              Trial  4: relative flow change = 0.029883
+              Trial  5: relative flow change = 0.002941
+              Trial  6: relative flow change = 0.000094
+                        maximum  flow change = 0.1567 for Link P-36
+                        maximum  head error  = 31.4814 for Link ~@Pump-10
+
+     9:20:47: Balanced after 6 trials
+     9:20:47: Tank T-6 is emptying at 129.81 ft
+     9:20:47: Tank T-8 is emptying at 125.05 ft
+     9:20:47: Tank T-9 is filling at 133.59 ft
+     9:20:47: Pipe P-1 changed from open to temporarily closed
+   
+    10:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.080250
+              Trial  2: relative flow change = 0.031407
+              Pipe P-1 switched from closed to open
+              Trial  3: relative flow change = 0.234146
+              Trial  4: relative flow change = 0.065756
+              Trial  5: relative flow change = 0.012774
+              Trial  6: relative flow change = 0.001200
+              Trial  7: relative flow change = 0.000073
+                        maximum  flow change = 0.1407 for Link P-974
+                        maximum  head error  = 34.6231 for Link ~@Pump-10
+
+    10:00:00: Balanced after 7 trials
+    10:00:00: Tank T-8 is filling at 120.52 ft
+    10:00:00: Tank T-9 is emptying at 141.25 ft
+    10:00:00: Pipe P-1 changed from temporarily closed to open
+   
+    10:20:41: Balancing the network:
+
+              Trial  1: relative flow change = 0.114756
+              Trial  2: relative flow change = 0.053260
+              Trial  3: relative flow change = 0.014295
+              Trial  4: relative flow change = 0.002182
+              Trial  5: relative flow change = 0.000057
+                        maximum  flow change = 2.7825 for Link P-948
+                        maximum  head error  = 34.0090 for Link ~@Pump-10
+
+    10:20:41: Balanced after 5 trials
+    10:20:41: Tank T-8 is emptying at 124.62 ft
+    10:20:41: Tank T-9 is filling at 133.60 ft
+   
+    10:40:29: Pump ~@Pump-8 changed by Tank T-13 control
+    10:40:29: Balancing the network:
+
+              Trial  1: relative flow change = 0.135431
+              PRV ~@RV-5 switched from closed to open
+              Trial  2: relative flow change = 0.284342
+              CV P-75 switched from closed to open
+              Trial  3: relative flow change = 0.172684
+              Trial  4: relative flow change = 0.083987
+              Trial  5: relative flow change = 0.036923
+              Trial  6: relative flow change = 0.012545
+              Trial  7: relative flow change = 0.002053
+              Trial  8: relative flow change = 0.000115
+              Trial  9: relative flow change = 0.000115
+              Trial 10: relative flow change = 0.000230
+              Trial 11: relative flow change = 0.000459
+              Trial 12: relative flow change = 0.000922
+              Trial 13: relative flow change = 0.001854
+              Trial 14: relative flow change = 0.003748
+              Trial 15: relative flow change = 0.007636
+              Trial 16: relative flow change = 0.015704
+              Trial 17: relative flow change = 0.031957
+              Trial 18: relative flow change = 0.056957
+              Trial 19: relative flow change = 0.059098
+              Trial 20: relative flow change = 0.017811
+              PRV ~@RV-5 switched from open to active
+              Trial 21: relative flow change = 0.001877
+              Trial 22: relative flow change = 0.003028
+              Trial 23: relative flow change = 0.000123
+              Trial 24: relative flow change = 0.000000
+                        maximum  flow change = 0.0005 for Link P-310
+                        maximum  head error  = 0.0000 for Link ~@Pump-10
+
+    10:40:29: Balanced after 24 trials
+    10:40:29: Tank T-8 is filling at 122.50 ft
+    10:40:29: Tank T-9 is emptying at 136.63 ft
+    10:40:29: CV P-75 changed from closed to open
+    10:40:29: Pump ~@Pump-8 changed from closed to open
+    10:40:29: PRV ~@RV-5 changed from closed to active
+   
+    10:55:56: Balancing the network:
+
+              Trial  1: relative flow change = 0.046347
+              Trial  2: relative flow change = 0.136604
+              Pipe P-1 switched from open to closed
+              Trial  3: relative flow change = 0.258060
+              Trial  4: relative flow change = 0.050515
+              PRV ~@RV-5 switched from active to open
+              Trial  5: relative flow change = 0.012836
+              Trial  6: relative flow change = 0.002111
+              Trial  7: relative flow change = 0.000118
+              Trial  8: relative flow change = 0.000004
+                        maximum  flow change = 0.0553 for Link P-622
+                        maximum  head error  = 0.0000 for Link P-622
+
+    10:55:56: Balanced after 8 trials
+    10:55:56: Tank T-8 is emptying at 123.98 ft
+    10:55:56: Tank T-9 is filling at 133.59 ft
+    10:55:56: Pipe P-1 changed from open to temporarily closed
+    10:55:56: PRV ~@RV-5 changed from active to open
+   
+    11:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.006215
+              Trial  2: relative flow change = 0.000822
+              Pipe P-1 switched from closed to open
+              Trial  3: relative flow change = 0.193259
+              PRV ~@RV-5 switched from open to active
+              Trial  4: relative flow change = 0.044683
+              Trial  5: relative flow change = 0.006215
+              Trial  6: relative flow change = 0.000172
+              Trial  7: relative flow change = 0.000004
+                        maximum  flow change = 0.0332 for Link P-474
+                        maximum  head error  = 0.0000 for Link P-474
+
+    11:00:00: Balanced after 7 trials
+    11:00:00: Pipe P-1 changed from temporarily closed to open
+    11:00:00: PRV ~@RV-5 changed from open to active
+   
+    12:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.115203
+              Trial  2: relative flow change = 0.009191
+              Trial  3: relative flow change = 0.000236
+              Trial  4: relative flow change = 0.000001
+                        maximum  flow change = 0.0190 for Link P-948
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+    12:00:00: Balanced after 4 trials
+    12:00:00: Tank T-8 is filling at 119.59 ft
+    12:00:00: Tank T-9 is emptying at 139.01 ft
+   
+    12:15:41: Balancing the network:
+
+              Trial  1: relative flow change = 0.066763
+              Trial  2: relative flow change = 0.019496
+              Trial  3: relative flow change = 0.021684
+              Trial  4: relative flow change = 0.003309
+              Trial  5: relative flow change = 0.000326
+              Trial  6: relative flow change = 0.000004
+                        maximum  flow change = 0.1887 for Link P-948
+                        maximum  head error  = 0.0000 for Link P-948
+
+    12:15:41: Balanced after 6 trials
+    12:15:41: Tank T-8 is emptying at 122.45 ft
+    12:15:41: Tank T-9 is filling at 133.60 ft
+   
+    13:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.084692
+              Trial  2: relative flow change = 0.005229
+              Trial  3: relative flow change = 0.000082
+                        maximum  flow change = 0.3398 for Link P-242
+                        maximum  head error  = 0.0000 for Link P-242
+
+    13:00:00: Balanced after 3 trials
+    13:00:00: Tank T-8 is filling at 120.27 ft
+    13:00:00: Tank T-9 is emptying at 135.81 ft
+   
+    13:09:05: Balancing the network:
+
+              Trial  1: relative flow change = 0.031386
+              Trial  2: relative flow change = 0.006934
+              Pipe P-1 switched from open to closed
+              Pipe P-948 switched from open to closed
+              Trial  3: relative flow change = 0.223346
+              Trial  4: relative flow change = 0.026313
+              Trial  5: relative flow change = 0.002850
+              PRV ~@RV-5 switched from active to open
+              Trial  6: relative flow change = 0.000566
+              Trial  7: relative flow change = 0.000023
+                        maximum  flow change = 0.0345 for Link P-469
+                        maximum  head error  = 0.0000 for Link P-39
+
+    13:09:05: Balanced after 7 trials
+    13:09:05: Tank T-8 is closed at 121.39 ft
+    13:09:05: Tank T-9 is closed at 133.59 ft
+    13:09:05: Pipe P-1 changed from open to temporarily closed
+    13:09:05: Pipe P-948 changed from open to temporarily closed
+    13:09:05: PRV ~@RV-5 changed from active to open
+   
+    14:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.015185
+              Trial  2: relative flow change = 0.000631
+              Trial  3: relative flow change = 0.000016
+                        maximum  flow change = 0.0768 for Link P-39
+                        maximum  head error  = 0.0000 for Link P-39
+
+    14:00:00: Balanced after 3 trials
+   
+    14:38:36: Balancing the network:
+
+              Trial  1: relative flow change = 0.006364
+              Trial  2: relative flow change = 0.000605
+              Pipe P-5 switched from open to closed
+              Trial  3: relative flow change = 0.079379
+              Trial  4: relative flow change = 0.005505
+              Trial  5: relative flow change = 0.000444
+              Trial  6: relative flow change = 0.000096
+                        maximum  flow change = 0.8340 for Link P-272
+                        maximum  head error  = 0.0010 for Link P-272
+
+    14:38:36: Balanced after 6 trials
+    14:38:36: Tank T-12 is closed at 148.36 ft
+    14:38:36: Pipe P-5 changed from open to temporarily closed
+   
+    15:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.004066
+              Trial  2: relative flow change = 0.000381
+              Trial  3: relative flow change = 0.000010
+                        maximum  flow change = 0.0604 for Link P-814
+                        maximum  head error  = 0.0000 for Link P-814
+
+    15:00:00: Balanced after 3 trials
+   
+    16:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.013360
+              Trial  2: relative flow change = 0.003018
+              Trial  3: relative flow change = 0.000032
+                        maximum  flow change = 0.0716 for Link P-785
+                        maximum  head error  = 0.0000 for Link P-814
+
+    16:00:00: Balanced after 3 trials
+   
+    17:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.037394
+              Trial  2: relative flow change = 0.007188
+              PRV ~@RV-4 switched from active to open
+              Trial  3: relative flow change = 0.000691
+              Trial  4: relative flow change = 0.000047
+                        maximum  flow change = 0.3527 for Link P-814
+                        maximum  head error  = 0.0007 for Link P-814
+
+    17:00:00: Balanced after 4 trials
+    17:00:00: Tank T-4 is emptying at 80.85 ft
+    17:00:00: PRV ~@RV-4 changed from active to open
+   
+    18:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.068693
+              Trial  2: relative flow change = 0.001887
+              Trial  3: relative flow change = 0.000024
+                        maximum  flow change = 0.2556 for Link P-867
+                        maximum  head error  = 0.0000 for Link P-85
+
+    18:00:00: Balanced after 3 trials
+   
+    18:08:30: Pump ~@Pump-13 changed by Tank T-1 control
+    18:08:30: Balancing the network:
+
+              Trial  1: relative flow change = 0.035853
+              Trial  2: relative flow change = 0.073522
+              Trial  3: relative flow change = 0.023662
+              Trial  4: relative flow change = 0.017348
+              Trial  5: relative flow change = 0.004268
+              Trial  6: relative flow change = 0.000119
+              Trial  7: relative flow change = 0.000000
+                        maximum  flow change = 0.0011 for Link P-310
+                        maximum  head error  = 0.0000 for Link ~@Pump-13
+
+    18:08:30: Balanced after 7 trials
+    18:08:30: Tank T-1 is filling at 130.78 ft
+    18:08:30: Pump ~@Pump-13 changed from closed to open
+   
+    19:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.072217
+              Trial  2: relative flow change = 0.002197
+              Trial  3: relative flow change = 0.000015
+                        maximum  flow change = 0.0404 for Link P-747
+                        maximum  head error  = 0.0000 for Link P-601
+
+    19:00:00: Balanced after 3 trials
+    19:00:00: Tank T-1 is emptying at 130.81 ft
+   
+    20:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.019907
+              Trial  2: relative flow change = 0.000487
+              Trial  3: relative flow change = 0.000001
+                        maximum  flow change = 0.0137 for Link P-675
+                        maximum  head error  = 0.0000 for Link P-1001
+
+    20:00:00: Balanced after 3 trials
+   
+    20:52:41: Balancing the network:
+
+              Trial  1: relative flow change = 0.010185
+              Trial  2: relative flow change = 0.000366
+              Pipe P-1030 switched from closed to open
+              Pipe P-9 switched from open to closed
+              Trial  3: relative flow change = 0.092524
+              PRV ~@RV-1 switched from closed to open
+              Trial  4: relative flow change = 0.012253
+              Trial  5: relative flow change = 0.001944
+              Trial  6: relative flow change = 0.000616
+              Trial  7: relative flow change = 0.000133
+              Trial  8: relative flow change = 0.000008
+                        maximum  flow change = 0.0663 for Link P-692
+                        maximum  head error  = 0.0001 for Link P-55
+
+    20:52:41: Balanced after 8 trials
+    20:52:41: Tank T-11 is emptying at 106.61 ft
+    20:52:41: Tank T-13 is closed at 65.48 ft
+    20:52:41: Pipe P-1030 changed from temporarily closed to open
+    20:52:41: Pipe P-9 changed from open to temporarily closed
+    20:52:41: PRV ~@RV-1 changed from closed to open
+   
+  WARNING: Negative pressures at 20:52:41 hrs.
+   
+    21:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.042261
+              Trial  2: relative flow change = 0.000739
+              Trial  3: relative flow change = 0.000007
+                        maximum  flow change = 0.0756 for Link P-85
+                        maximum  head error  = 0.0000 for Link P-85
+
+    21:00:00: Balanced after 3 trials
+   
+  WARNING: Negative pressures at 21:00:00 hrs.
+   
+    22:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.585400
+              PRV ~@RV-1 switched from open to active
+              PRV ~@RV-2 switched from open to active
+              PRV ~@RV-4 switched from open to active
+              PRV ~@RV-5 switched from open to active
+              Trial  2: relative flow change = 0.094641
+              PRV ~@RV-2 switched from active to open
+              Trial  3: relative flow change = 0.064698
+              PRV ~@RV-1 switched from active to closed
+              PRV ~@RV-5 switched from active to open
+              Trial  4: relative flow change = 0.071641
+              Pipe P-9 switched from closed to open
+              Trial  5: relative flow change = 0.038768
+              Trial  6: relative flow change = 0.003677
+              Trial  7: relative flow change = 0.000134
+              Trial  8: relative flow change = 0.000001
+                        maximum  flow change = 0.0017 for Link P-451
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+    22:00:00: Balanced after 8 trials
+    22:00:00: Tank T-1 is filling at 130.20 ft
+    22:00:00: Tank T-11 is filling at 106.59 ft
+    22:00:00: Tank T-13 is filling at 65.48 ft
+    22:00:00: Tank T-4 is filling at 78.64 ft
+    22:00:00: Pipe P-9 changed from temporarily closed to open
+    22:00:00: PRV ~@RV-1 changed from open to closed
+    22:00:00: PRV ~@RV-4 changed from open to active
+   
+    22:01:27: Balancing the network:
+
+              Trial  1: relative flow change = 0.000100
+              Trial  2: relative flow change = 0.000009
+                        maximum  flow change = 0.0157 for Link P-783
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+              Pipe P-1030 switched from open to closed
+              Trial  3: relative flow change = 0.007384
+              Trial  4: relative flow change = 0.001195
+              Trial  5: relative flow change = 0.000049
+                        maximum  flow change = 0.2934 for Link P-389
+                        maximum  head error  = 0.0002 for Link P-145
+
+    22:01:27: Balanced after 5 trials
+    22:01:27: Tank T-11 is closed at 106.61 ft
+    22:01:27: Pipe P-1030 changed from open to temporarily closed
+   
+    22:09:40: Balancing the network:
+
+              Trial  1: relative flow change = 0.000444
+              Trial  2: relative flow change = 0.000053
+                        maximum  flow change = 0.0891 for Link P-783
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+              Pipe P-630 switched from open to closed
+              Pipe P-881 switched from open to closed
+              Trial  3: relative flow change = 0.203129
+              Trial  4: relative flow change = 0.018026
+              PRV ~@RV-4 switched from active to open
+              Trial  5: relative flow change = 0.003011
+              Trial  6: relative flow change = 0.000189
+              Trial  7: relative flow change = 0.000005
+                        maximum  flow change = 0.0156 for Link P-624
+                        maximum  head error  = 0.0000 for Link P-624
+
+    22:09:40: Balanced after 7 trials
+    22:09:40: Tank T-5 is closed at 124.36 ft
+    22:09:40: Pipe P-630 changed from open to temporarily closed
+    22:09:40: Pipe P-881 changed from open to temporarily closed
+    22:09:40: PRV ~@RV-4 changed from active to open
+   
+    23:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.293262
+              PRV ~@RV-2 switched from open to active
+              PRV ~@RV-4 switched from open to active
+              Trial  2: relative flow change = 0.035814
+              Trial  3: relative flow change = 0.016049
+              Trial  4: relative flow change = 0.001300
+              Trial  5: relative flow change = 0.000073
+                        maximum  flow change = 0.1869 for Link P-192
+                        maximum  head error  = 0.0000 for Link P-192
+
+    23:00:00: Balanced after 5 trials
+    23:00:00: Tank T-10 is filling at 171.61 ft
+    23:00:00: PRV ~@RV-2 changed from open to active
+    23:00:00: PRV ~@RV-4 changed from open to active
+   
+    24:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.095329
+              PRV ~@RV-5 switched from open to active
+              Trial  2: relative flow change = 0.021101
+              Trial  3: relative flow change = 0.005925
+              Trial  4: relative flow change = 0.000309
+              Trial  5: relative flow change = 0.000010
+                        maximum  flow change = 0.0506 for Link P-633
+                        maximum  head error  = 0.0000 for Link P-633
+
+    24:00:00: Balanced after 5 trials
+    24:00:00: Tank T-6 is filling at 102.64 ft
+    24:00:00: PRV ~@RV-5 changed from open to active
+   
+    25:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.045964
+              Trial  2: relative flow change = 0.009908
+              Trial  3: relative flow change = 0.001286
+              Trial  4: relative flow change = 0.000013
+                        maximum  flow change = 0.0230 for Link P-976
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+    25:00:00: Balanced after 4 trials
+   
+    26:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.022138
+              Trial  2: relative flow change = 0.005755
+              Pipe P-5 switched from closed to open
+              Trial  3: relative flow change = 0.001141
+              Trial  4: relative flow change = 0.000274
+              Trial  5: relative flow change = 0.000011
+                        maximum  flow change = 0.0153 for Link P-512
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+    26:00:00: Balanced after 5 trials
+    26:00:00: Tank T-12 is filling at 148.36 ft
+    26:00:00: Pipe P-5 changed from temporarily closed to open
+   
+    27:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.003514
+              Trial  2: relative flow change = 0.001227
+              Trial  3: relative flow change = 0.000030
+                        maximum  flow change = 0.0415 for Link P-512
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+    27:00:00: Balanced after 3 trials
+   
+    27:16:49: Pump ~@Pump-9 changed by Tank T-4 control
+    27:16:49: Balancing the network:
+
+              Trial  1: relative flow change = 0.187124
+              Trial  2: relative flow change = 0.005712
+              Pipe P-630 switched from closed to open
+              Pipe P-881 switched from closed to open
+              Trial  3: relative flow change = 0.038525
+              Trial  4: relative flow change = 0.003568
+              Trial  5: relative flow change = 0.000236
+              Trial  6: relative flow change = 0.000048
+                        maximum  flow change = 2.5215 for Link ~@Pump-9
+                        maximum  head error  = 0.0000 for Link P-833
+
+    27:16:49: Balanced after 6 trials
+    27:16:49: Tank T-4 is emptying at 84.61 ft
+    27:16:49: Tank T-5 is filling at 124.36 ft
+    27:16:49: Pipe P-630 changed from temporarily closed to open
+    27:16:49: Pipe P-881 changed from temporarily closed to open
+    27:16:49: Pump ~@Pump-9 changed from open to closed
+   
+    28:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.028628
+              Trial  2: relative flow change = 0.003724
+              Trial  3: relative flow change = 0.000684
+              Trial  4: relative flow change = 0.000007
+                        maximum  flow change = 0.1576 for Link ~@Pump-9
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+    28:00:00: Balanced after 4 trials
+    28:00:00: Tank T-12 is emptying at 148.43 ft
+   
+    29:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.050929
+              Trial  2: relative flow change = 0.008567
+              Trial  3: relative flow change = 0.001373
+              Trial  4: relative flow change = 0.000008
+                        maximum  flow change = 0.0098 for Link ~@Pump-9
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+    29:00:00: Balanced after 4 trials
+   
+    29:04:25: Balancing the network:
+
+              Trial  1: relative flow change = 0.000709
+              Trial  2: relative flow change = 0.000080
+                        maximum  flow change = 0.0935 for Link P-512
+                        maximum  head error  = 0.0000 for Link ~@Pump-10
+
+              Pipe P-5 switched from open to closed
+              Trial  3: relative flow change = 0.011111
+              Trial  4: relative flow change = 0.002866
+              Trial  5: relative flow change = 0.000119
+              Trial  6: relative flow change = 0.000002
+                        maximum  flow change = 0.0027 for Link P-512
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+    29:04:25: Balanced after 6 trials
+    29:04:25: Tank T-12 is closed at 148.36 ft
+    29:04:25: Pipe P-5 changed from open to temporarily closed
+   
+    30:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.088700
+              Trial  2: relative flow change = 0.021898
+              Trial  3: relative flow change = 0.002545
+              Trial  4: relative flow change = 0.000034
+                        maximum  flow change = 0.0615 for Link P-808
+                        maximum  head error  = 0.0000 for Link P-974
+
+    30:00:00: Balanced after 4 trials
+    30:00:00: Tank T-5 is emptying at 124.61 ft
+   
+    31:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.188667
+              PRV ~@RV-2 switched from active to open
+              PRV ~@RV-5 switched from active to open
+              Trial  2: relative flow change = 0.056691
+              Trial  3: relative flow change = 0.009434
+              Trial  4: relative flow change = 0.000726
+              Trial  5: relative flow change = 0.000079
+                        maximum  flow change = 0.6467 for Link P-821
+                        maximum  head error  = 0.0002 for Link P-821
+
+    31:00:00: Balanced after 5 trials
+    31:00:00: Tank T-10 is emptying at 174.40 ft
+    31:00:00: Tank T-6 is emptying at 108.43 ft
+    31:00:00: PRV ~@RV-2 changed from active to open
+    31:00:00: PRV ~@RV-5 changed from active to open
+   
+    32:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.137078
+              Trial  2: relative flow change = 0.024012
+              PRV ~@RV-4 switched from active to open
+              Trial  3: relative flow change = 0.011099
+              Trial  4: relative flow change = 0.000139
+              Trial  5: relative flow change = 0.000001
+                        maximum  flow change = 0.0010 for Link P-310
+                        maximum  head error  = 0.0000 for Link P-200
+
+    32:00:00: Balanced after 5 trials
+    32:00:00: Tank T-13 is emptying at 89.13 ft
+    32:00:00: PRV ~@RV-4 changed from active to open
+   
+    32:05:38: Balancing the network:
+
+              Trial  1: relative flow change = 0.001064
+              Trial  2: relative flow change = 0.000003
+                        maximum  flow change = 0.0111 for Link P-718
+                        maximum  head error  = 0.0000 for Link P-601
+
+              Pipe P-630 switched from open to closed
+              Pipe P-881 switched from open to closed
+              Trial  3: relative flow change = 0.106063
+              Trial  4: relative flow change = 0.005137
+              Trial  5: relative flow change = 0.000546
+              Trial  6: relative flow change = 0.000049
+                        maximum  flow change = 0.2307 for Link P-814
+                        maximum  head error  = 0.0003 for Link P-814
+
+    32:05:38: Balanced after 6 trials
+    32:05:38: Tank T-5 is closed at 124.36 ft
+    32:05:38: Pipe P-630 changed from open to temporarily closed
+    32:05:38: Pipe P-881 changed from open to temporarily closed
+   
+    32:47:18: Pump ~@Pump-9 changed by Tank T-4 control
+    32:47:18: Balancing the network:
+
+              Trial  1: relative flow change = 0.090507
+              Trial  2: relative flow change = 0.190371
+              Trial  3: relative flow change = 0.014063
+              Trial  4: relative flow change = 0.001564
+              Trial  5: relative flow change = 0.000278
+              Trial  6: relative flow change = 0.000017
+                        maximum  flow change = 0.0973 for Link P-814
+                        maximum  head error  = 0.0000 for Link P-814
+
+    32:47:18: Balanced after 6 trials
+    32:47:18: Pump ~@Pump-9 changed from closed to open
+   
+    33:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.048146
+              Trial  2: relative flow change = 0.001207
+              Trial  3: relative flow change = 0.000002
+                        maximum  flow change = 0.0067 for Link P-59
+                        maximum  head error  = 0.0000 for Link P-445
+
+    33:00:00: Balanced after 3 trials
+   
+    34:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.015404
+              Trial  2: relative flow change = 0.000354
+              Trial  3: relative flow change = 0.000000
+                        maximum  flow change = 0.0004 for Link P-310
+                        maximum  head error  = 0.0000 for Link ~@Pump-9
+
+    34:00:00: Balanced after 3 trials
+   
+    35:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.007130
+              Trial  2: relative flow change = 0.000079
+                        maximum  flow change = 0.1870 for Link P-650
+                        maximum  head error  = 0.0000 for Link ~@Pump-3
+
+    35:00:00: Balanced after 2 trials
+   
+    35:32:06: Balancing the network:
+
+              Trial  1: relative flow change = 0.003781
+              Trial  2: relative flow change = 0.000023
+                        maximum  flow change = 0.0606 for Link P-650
+                        maximum  head error  = 0.0000 for Link ~@Pump-3
+
+              Pipe P-512 switched from open to closed
+              Trial  3: relative flow change = 0.341853
+              Trial  4: relative flow change = 0.069561
+              Pipe P-596 switched from closed to open
+              Trial  5: relative flow change = 0.172711
+              Trial  6: relative flow change = 0.032764
+              Trial  7: relative flow change = 0.002604
+              Trial  8: relative flow change = 0.000055
+                        maximum  flow change = 0.5190 for Link P-102
+                        maximum  head error  = 0.0004 for Link P-728
+
+    35:32:06: Balanced after 8 trials
+    35:32:06: Tank T-1 is emptying at 140.58 ft
+    35:32:06: Tank T-2 is emptying at 97.67 ft
+    35:32:06: Tank T-6 is closed at 97.72 ft
+    35:32:06: Pipe P-512 changed from open to temporarily closed
+    35:32:06: Pipe P-596 changed from temporarily closed to open
+   
+  WARNING: Negative pressures at 35:32:06 hrs.
+   
+    36:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.011030
+              Trial  2: relative flow change = 0.000140
+              Trial  3: relative flow change = 0.000000
+                        maximum  flow change = 0.0009 for Link P-1015
+                        maximum  head error  = 0.0000 for Link P-728
+
+    36:00:00: Balanced after 3 trials
+   
+  WARNING: Negative pressures at 36:00:00 hrs.
+   
+    37:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.027833
+              Trial  2: relative flow change = 0.000514
+              Trial  3: relative flow change = 0.000005
+                        maximum  flow change = 0.0741 for Link P-728
+                        maximum  head error  = 0.0000 for Link P-728
+
+    37:00:00: Balanced after 3 trials
+   
+  WARNING: Negative pressures at 37:00:00 hrs.
+   
+    38:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.013077
+              Trial  2: relative flow change = 0.000197
+              Trial  3: relative flow change = 0.000006
+                        maximum  flow change = 0.0915 for Link P-728
+                        maximum  head error  = 0.0000 for Link P-728
+
+    38:00:00: Balanced after 3 trials
+    38:00:00: Tank T-1 is closed at 140.47 ft
+   
+  WARNING: Negative pressures at 38:00:00 hrs.
+   
+    39:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.004354
+              Trial  2: relative flow change = 0.000039
+                        maximum  flow change = 0.1945 for Link P-728
+                        maximum  head error  = 0.0001 for Link P-728
+
+    39:00:00: Balanced after 2 trials
+   
+  WARNING: Negative pressures at 39:00:00 hrs.
+   
+    40:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.011415
+              Trial  2: relative flow change = 0.000249
+              Trial  3: relative flow change = 0.000000
+                        maximum  flow change = 0.0004 for Link P-310
+                        maximum  head error  = 0.0000 for Link P-211
+
+    40:00:00: Balanced after 3 trials
+    40:00:00: Tank T-1 is emptying at 140.47 ft
+   
+  WARNING: Negative pressures at 40:00:00 hrs.
+   
+    41:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.039683
+              Trial  2: relative flow change = 0.001082
+              Pipe P-1030 switched from closed to open
+              Trial  3: relative flow change = 0.000019
+                        maximum  flow change = 0.2860 for Link P-728
+                        maximum  head error  = 0.0002 for Link P-728
+
+    41:00:00: Balanced after 3 trials
+    41:00:00: Pipe P-1030 changed from temporarily closed to open
+   
+  WARNING: Negative pressures at 41:00:00 hrs.
+   
+    41:14:39: Balancing the network:
+
+              Trial  1: relative flow change = 0.001191
+              Trial  2: relative flow change = 0.000006
+                        maximum  flow change = 0.0647 for Link P-728
+                        maximum  head error  = 0.0000 for Link P-211
+
+              Pipe P-3 switched from open to closed
+              Trial  3: relative flow change = 0.042807
+              PRV ~@RV-3 switched from active to open
+              Trial  4: relative flow change = 0.000318
+              Trial  5: relative flow change = 0.000039
+                        maximum  flow change = 0.6385 for Link P-728
+                        maximum  head error  = 0.0007 for Link P-728
+
+    41:14:39: Balanced after 5 trials
+    41:14:39: Tank T-11 is emptying at 106.61 ft
+    41:14:39: Tank T-4 is closed at 74.61 ft
+    41:14:39: Pipe P-3 changed from open to temporarily closed
+    41:14:39: PRV ~@RV-3 changed from active to open
+   
+  WARNING: Negative pressures at 41:14:39 hrs.
+   
+    42:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.072882
+              Trial  2: relative flow change = 0.001300
+              Trial  3: relative flow change = 0.000007
+                        maximum  flow change = 0.0806 for Link P-102
+                        maximum  head error  = 0.0000 for Link P-728
+
+    42:00:00: Balanced after 3 trials
+   
+  WARNING: Negative pressures at 42:00:00 hrs.
+   
+    43:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.080813
+              Trial  2: relative flow change = 0.001845
+              Trial  3: relative flow change = 0.000008
+                        maximum  flow change = 0.0355 for Link P-1015
+                        maximum  head error  = 0.0000 for Link ~@Pump-2
+
+    43:00:00: Balanced after 3 trials
+   
+  WARNING: Negative pressures at 43:00:00 hrs.
+   
+    44:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.019040
+              Trial  2: relative flow change = 0.000203
+              Trial  3: relative flow change = 0.000000
+                        maximum  flow change = 0.0006 for Link P-310
+                        maximum  head error  = 0.0000 for Link ~@Pump-2
+
+    44:00:00: Balanced after 3 trials
+   
+  WARNING: Negative pressures at 44:00:00 hrs.
+   
+    44:02:39: Balancing the network:
+
+              Trial  1: relative flow change = 0.000242
+              Trial  2: relative flow change = 0.000000
+                        maximum  flow change = 0.0012 for Link P-1015
+                        maximum  head error  = 0.0000 for Link P-783
+
+              Pipe P-596 switched from open to closed
+              Trial  3: relative flow change = 0.164426
+              Trial  4: relative flow change = 0.014336
+              Trial  5: relative flow change = 0.000785
+              Trial  6: relative flow change = 0.000039
+                        maximum  flow change = 0.4455 for Link P-102
+                        maximum  head error  = 0.0001 for Link P-102
+
+    44:02:39: Balanced after 6 trials
+    44:02:39: Tank T-2 is closed at 72.67 ft
+    44:02:39: Pipe P-596 changed from open to temporarily closed
+   
+  WARNING: Negative pressures at 44:02:39 hrs.
+   
+    45:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.033425
+              Trial  2: relative flow change = 0.000152
+              Trial  3: relative flow change = 0.000000
+                        maximum  flow change = 0.0005 for Link P-108
+                        maximum  head error  = 0.0000 for Link ~@Pump-13
+
+    45:00:00: Balanced after 3 trials
+   
+  WARNING: Negative pressures at 45:00:00 hrs.
+   
+    46:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.447023
+              PRV ~@RV-3 switched from open to active
+              Trial  2: relative flow change = 0.029133
+              Pipe P-3 switched from closed to open
+              Trial  3: relative flow change = 0.003428
+              Trial  4: relative flow change = 0.000056
+                        maximum  flow change = 0.0837 for Link P-3
+                        maximum  head error  = 0.0001 for Link ~@Pump-9
+
+    46:00:00: Balanced after 4 trials
+    46:00:00: Tank T-1 is filling at 138.14 ft
+    46:00:00: Tank T-11 is filling at 104.64 ft
+    46:00:00: Tank T-13 is filling at 69.87 ft
+    46:00:00: Tank T-4 is filling at 74.61 ft
+    46:00:00: Pipe P-3 changed from temporarily closed to open
+    46:00:00: PRV ~@RV-3 changed from open to active
+   
+  WARNING: Negative pressures at 46:00:00 hrs.
+   
+    47:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.204045
+              PRV ~@RV-2 switched from open to active
+              PRV ~@RV-4 switched from open to active
+              Trial  2: relative flow change = 0.030162
+              Pipe P-512 switched from closed to open
+              Pipe P-596 switched from closed to open
+              Trial  3: relative flow change = 0.455978
+              PRV ~@RV-4 switched from active to open
+              Trial  4: relative flow change = 0.241783
+              PRV ~@RV-4 switched from open to active
+              Pipe P-512 switched from open to closed
+              Trial  5: relative flow change = 0.324134
+              PRV ~@RV-4 switched from active to open
+              Trial  6: relative flow change = 0.063632
+              PRV ~@RV-2 switched from active to open
+              Trial  7: relative flow change = 0.011911
+              Trial  8: relative flow change = 0.002594
+              Trial  9: relative flow change = 0.000403
+              Trial 10: relative flow change = 0.000049
+                        maximum  flow change = 0.2625 for Link P-297
+                        maximum  head error  = 0.0000 for Link P-297
+
+    47:00:00: Balanced after 10 trials
+    47:00:00: Tank T-2 is filling at 72.67 ft
+    47:00:00: Pipe P-596 changed from temporarily closed to open
+   
+    48:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.090625
+              PRV ~@RV-2 switched from open to active
+              Trial  2: relative flow change = 0.004114
+              Trial  3: relative flow change = 0.000039
+                        maximum  flow change = 0.1208 for Link P-374
+                        maximum  head error  = 0.0000 for Link P-145
+
+    48:00:00: Balanced after 3 trials
+    48:00:00: PRV ~@RV-2 changed from open to active
+   
+    49:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.047606
+              PRV ~@RV-4 switched from open to active
+              Trial  2: relative flow change = 0.007145
+              Trial  3: relative flow change = 0.003200
+              Trial  4: relative flow change = 0.000100
+                        maximum  flow change = 0.2526 for Link P-89
+                        maximum  head error  = 0.0001 for Link ~@Pump-11
+
+    49:00:00: Balanced after 4 trials
+    49:00:00: Tank T-10 is filling at 164.72 ft
+    49:00:00: PRV ~@RV-4 changed from open to active
+   
+    49:24:54: Balancing the network:
+
+              Trial  1: relative flow change = 0.001990
+              Trial  2: relative flow change = 0.000216
+              Pipe P-1030 switched from open to closed
+              Trial  3: relative flow change = 0.005685
+              Trial  4: relative flow change = 0.001000
+              Trial  5: relative flow change = 0.000048
+                        maximum  flow change = 0.1438 for Link P-444
+                        maximum  head error  = 0.0001 for Link P-645
+
+    49:24:54: Balanced after 5 trials
+    49:24:54: Tank T-11 is closed at 106.61 ft
+    49:24:54: Pipe P-1030 changed from open to temporarily closed
+   
+    50:00:00: Balancing the network:
+
+              Trial  1: relative flow change = 0.020910
+              Trial  2: relative flow change = 0.002760
+              Trial  3: relative flow change = 0.000368
+              Trial  4: relative flow change = 0.000010
+                        maximum  flow change = 0.0246 for Link P-89
+                        maximum  head error  = 0.0000 for Link ~@Pump-11
+
+    50:00:00: Balanced after 4 trials
+   
