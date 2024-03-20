@@ -1,0 +1,9 @@
+pynxtools>=0.0.10
+ipython<8.22.1
+
+[dev]
+mypy
+ruff
+pytest
+types-pyyaml
+pip-tools
