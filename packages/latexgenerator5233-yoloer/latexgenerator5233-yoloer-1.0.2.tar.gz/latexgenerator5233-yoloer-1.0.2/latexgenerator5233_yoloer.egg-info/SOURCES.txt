@@ -1,0 +1,7 @@
+README.md
+latex_generator.py
+setup.py
+latexgenerator5233_yoloer.egg-info/PKG-INFO
+latexgenerator5233_yoloer.egg-info/SOURCES.txt
+latexgenerator5233_yoloer.egg-info/dependency_links.txt
+latexgenerator5233_yoloer.egg-info/top_level.txt

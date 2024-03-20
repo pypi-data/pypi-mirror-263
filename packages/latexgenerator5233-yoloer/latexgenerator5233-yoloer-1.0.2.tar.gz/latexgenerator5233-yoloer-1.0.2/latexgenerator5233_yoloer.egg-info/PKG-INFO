@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: latexgenerator5233-yoloer
+Version: 1.0.2
+Summary: A simple LaTeX table and image generator
+Home-page: https://github.com/gdnjr5233/Advanced-Python_2024
+Author: Wangquanyu
+Author-email: w1450111904@gmail.com
+License: UNKNOWN
+Keywords: LaTeX,table,image,generator
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+LatexGenerator5233-YOLOer
+A simple LaTeX table and image generator.
+
+Installation
+You can install LatexGenerator5233-YOLOer using pip:
+pip install latexgenerator5233-yoloer
+
+Contributing
+Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Author
+Wangquanyu - Initial work - w1450111904@gmail.com
+
+Feel free to adjust and expand this template to better fit your project!
+
