@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+hillapdf/__init__.py
+hillapdf/pdf2image.py
+hillapdf/pdf2text.py
+hillapdf.egg-info/PKG-INFO
+hillapdf.egg-info/SOURCES.txt
+hillapdf.egg-info/dependency_links.txt
+hillapdf.egg-info/top_level.txt
