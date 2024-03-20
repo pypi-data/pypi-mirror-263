@@ -1,0 +1,8 @@
+pytest_loguru/__init__.py,sha256=11ozJKiUsqDCZ3_mcAHhGYUyGK_Unl54djVSBBExFB4,59
+pytest_loguru/_version.py,sha256=j90u3VVU4UrJf1fgMUhaZarHK_Do2XGYXr-vZvOFzVo,411
+pytest_loguru/plugin.py,sha256=87DKj5HZK1d81LSvPpgd91e9OU_WNEOVfP9ghXS1o0A,852
+pytest_loguru-0.4.0.dist-info/METADATA,sha256=ydm1hsT3RT8eDjJigbitbMfNFsyxqxAnpOyJqYZj4_E,2334
+pytest_loguru-0.4.0.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+pytest_loguru-0.4.0.dist-info/entry_points.txt,sha256=LjzOoWvfWfZpG2q2oerk2ltSl_rDAnreRWg2I2WbF9k,41
+pytest_loguru-0.4.0.dist-info/licenses/LICENSE,sha256=UwZP1VT1tDhDIprOoPiHkGF6ooCDyeAEv8Q1p3xYyWw,1061
+pytest_loguru-0.4.0.dist-info/RECORD,,
