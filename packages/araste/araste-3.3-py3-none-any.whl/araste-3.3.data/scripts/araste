@@ -1,0 +1,83 @@
+#!python
+import os
+import argparse
+
+# message handling
+# levels ( Error, Warning, Info, Text )
+# note: levels and text with string types
+
+
+def message(level, text):
+    print(f"{level}:\n{text}")
+
+
+try:
+    import araste
+except ImportError:
+    message("Error", "Araste is not installed")
+    exit(1)
+
+
+def main():
+    # read from flf font file
+
+    parser = argparse.ArgumentParser()
+    default_font_name = 'aipara'
+
+    parser.add_argument("-f", "--font", help="font path or font name",
+                        dest="font", default=default_font_name)
+    parser.add_argument("--list", help="list available fonts",
+                        dest="get_font_list", action="store_true")
+    parser.add_argument("-F", "--filter", help="specify output filter (can be multiple!)",
+                        dest="filters", type=str, nargs='*')
+    parser.add_argument("--filter-list", help="list available filters",
+                        dest="get_filter_list", action="store_true")    
+    parser.add_argument("-a", "--alignment", help="alignment of output [l,r,c]", default='l')
+    parser.add_argument("-w", "--width", help="specify width maximum of text", default=None, type=int)
+    parser.add_argument("text", help="Text", nargs='*', default='')
+
+    args = parser.parse_args()
+
+    # default dir where fonts are stored
+    # there are 2 possible options. root directory or home directory
+    fonts_dir = araste.__file__.replace("__init__.py", "") + "fonts"
+    if args.get_font_list:
+        fonts_list = filter(lambda x: x.endswith('aff'), os.listdir(fonts_dir))
+        for font_name in fonts_list:
+            print(os.path.splitext(font_name)[0])
+        exit(0)
+    
+    elif args.get_filter_list:
+        from araste.filters import get_filters
+        filter_list = get_filters()
+
+        for araste_filter in filter_list:
+            print(araste_filter, ':', filter_list[araste_filter])
+        exit(0)
+
+    if len(args.text) > 0:
+        text = ' '.join(args.text)
+        try:
+            rendered_ascii_art = araste.render(text, args.font, ' ',
+             filters=args.filters, alignment=args.alignment, width=args.width)
+            print(rendered_ascii_art)
+        except FileNotFoundError:
+            message("Error", f"{args.font} is not found")
+            exit(1)
+    else:
+        while True:
+            try:
+                text = input()
+                rendered_ascii_art = araste.render(text, args.font, ' ',
+                 filters=args.filters, alignment=args.alignment, width=args.width)
+                print(rendered_ascii_art)
+
+            except EOFError:
+                break
+            except FileNotFoundError:
+                message("Error", f"{args.font} is not found")
+                exit(1)
+
+
+if __name__ == "__main__":
+    main()
