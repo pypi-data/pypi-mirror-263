@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pageserver
+Version: 0.0.1
+Summary: a asyncio web framework.
+Author-email: song zirui <pochnsong@163.com>
+Project-URL: Homepage, https://github.com/pochnsong/pageserver.git
+Project-URL: Documentation, https://github.com/pochnsong/pageserver/wiki
+Project-URL: Repository, https://github.com/pochnsong/pageserver.git
+Project-URL: Issues, https://github.com/pochnsong/pageserver/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+a django like web framework base on asyncio, but support websocket native, no need 3d package. 
