@@ -1,0 +1,31 @@
+Metadata-Version: 2.3
+Name: pyeasy_crc
+Version: 0.0.5
+Summary: Implementação de easy-crc do npm em python
+Project-URL: Homepage, https://github.com/olokorre/pyeasy_crc
+Project-URL: Issues, https://github.com/olokorre/pyeasy_crc/issues
+Author-email: Andrei Ruan Steffens <andreiruansteffens@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Py Easy CRC
+
+## Install
+
+```
+pip install pyeasy-crc
+```
+
+## Usage
+
+```py
+
+from pyeasy_crc import crc8
+
+result = crc8('I-CODE', "data")
+
+```
