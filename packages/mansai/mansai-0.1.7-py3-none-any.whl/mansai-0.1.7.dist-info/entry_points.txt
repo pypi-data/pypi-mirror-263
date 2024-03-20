@@ -1,0 +1,3 @@
+[console_scripts]
+member=mansai.cli.member:main
+
