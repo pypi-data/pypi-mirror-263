@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: shorse
+Version: 0.0.1
+Summary: A package to display a shorse
+Home-page: 
+Author: Shorse
+Author-email: yusufy2004@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: numpy==1.26.4
+Requires-Dist: opencv_python==4.8.1.78
