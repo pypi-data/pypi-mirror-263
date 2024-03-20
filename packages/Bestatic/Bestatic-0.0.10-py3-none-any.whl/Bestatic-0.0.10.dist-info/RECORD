@@ -1,0 +1,13 @@
+bestatic/__init__.py,sha256=zLSF8YahsbB7lUdvqh2p8Azf9J8cRrCPh0Es3OCh4xs,198
+bestatic/bestatic.py,sha256=nG7cnqsTJomAfsJ9gc-SgZD8Lj3KlOQ646KY9E_uBB0,3312
+bestatic/bestaticSitemap.py,sha256=k2cdrpgNZ_cihW6j4saHTI__FZZsxdpdDc7T4z4lwI0,1642
+bestatic/generator.py,sha256=-1jlACLBl-ZYdnqDqzzLDxtS5xP_B4ChTshAWU1V_9I,14555
+bestatic/httpserver.py,sha256=z-RSSXu8xqsDI4RFg_ew8Co2zzB-96QBdsedVpKCabI,1779
+bestatic/newcontent.py,sha256=auq8kifB2VsORRuV9tdZrEjF3Axdc2gUgt9i8O4lmRA,1527
+bestatic/quickstart.py,sha256=5MUA4s8efZ_jEyuGBv-ogKorIYlmzp9rMqKuadov6fk,3449
+Bestatic-0.0.10.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+Bestatic-0.0.10.dist-info/METADATA,sha256=YJpC-sK5bykOi6S16wy5MN3RWRAHzSMxB8yNem9ZaPI,3240
+Bestatic-0.0.10.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+Bestatic-0.0.10.dist-info/entry_points.txt,sha256=5hzH7JLzEKIEX4t0ZkCheXMhs0iPOAFgPJpMVPCP79A,52
+Bestatic-0.0.10.dist-info/top_level.txt,sha256=4b-gkta_7pG_n8H9ek9lOI6WXRa2V_WnlKK2rrqmeqI,9
+Bestatic-0.0.10.dist-info/RECORD,,
