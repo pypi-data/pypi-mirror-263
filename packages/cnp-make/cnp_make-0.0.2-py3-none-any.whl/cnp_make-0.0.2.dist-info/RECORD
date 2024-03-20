@@ -1,0 +1,11 @@
+cnp_build/__init__.py,sha256=LLGV4BVW3PemmBETmmSuIQBuyESr4qw_ggpzYCZprKk,38
+cnp_build/build_module.py,sha256=Y-rg3HuNlRY3LyfRMgiDtS-TWtAPA9u_r8U6otbt6NA,96994
+cnp_build/cli.py,sha256=BTpjnHTtcCJ7scWmxRnTFYN32_FgXcSzQ0ZBuBtbR54,460
+cnp_make/__init__.py,sha256=LLGV4BVW3PemmBETmmSuIQBuyESr4qw_ggpzYCZprKk,38
+cnp_make/build_module.py,sha256=Y-rg3HuNlRY3LyfRMgiDtS-TWtAPA9u_r8U6otbt6NA,96994
+cnp_make/cli.py,sha256=BTpjnHTtcCJ7scWmxRnTFYN32_FgXcSzQ0ZBuBtbR54,460
+cnp_make-0.0.2.dist-info/METADATA,sha256=EoXqcWYT7cmFi9ZUw67tr-4Vvh0jDYy5cbTTGnq9dZI,333
+cnp_make-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cnp_make-0.0.2.dist-info/entry_points.txt,sha256=wZFU1xevp5cdxqgkL6rk3mjHhzO1fp6wbEvcPGpnTiU,48
+cnp_make-0.0.2.dist-info/top_level.txt,sha256=EiH1ROvP2hxaG1Te3z9pX7TVazAnd-tHcs7mZxFqzpI,9
+cnp_make-0.0.2.dist-info/RECORD,,
