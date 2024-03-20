@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: typing-test-ydratec
+Version: 0.2.2
+Summary: A simple typing test in a terminal
+Author-email: Clement Tardy <clementardy@icloud.com>
+Description-Content-Type: text/markdown
+
+# typing_test
