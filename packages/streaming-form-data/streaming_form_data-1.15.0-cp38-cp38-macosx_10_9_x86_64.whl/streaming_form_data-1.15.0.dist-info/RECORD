@@ -1,0 +1,10 @@
+streaming_form_data/targets.py,sha256=QHnsy1qxT_hQcL3INsG1iRRFvaUsMsdq3NY6vJznvGw,7143
+streaming_form_data/validators.py,sha256=BQgVDAHGjPqjN4ceNRo-VukgdgU4J1MEdkLLPbU2Hks,401
+streaming_form_data/__init__.py,sha256=Vdf5aPNYo49JI8WSVlGkQE6_PgrkVGJ6-RQWIW8eZYY,106
+streaming_form_data/parser.py,sha256=YUo2JXLWKd4ZGEX5z0fBiOB7mI3Fk7IK3wSE1KDZjVE,2691
+streaming_form_data/_parser.cpython-38-darwin.so,sha256=WF8NlMQlMnpPYPs-L-2ENqT4kC0GyAAAGqOuCvTqqxo,224944
+streaming_form_data-1.15.0.dist-info/RECORD,,
+streaming_form_data-1.15.0.dist-info/WHEEL,sha256=wt_0D7ETubDJ-d2If9gFyi_RXCxFIy3PzOgckP8MsJY,109
+streaming_form_data-1.15.0.dist-info/top_level.txt,sha256=lTgAZgYvLH3LLe_DILwXtizVMs-Tb9GgpCgUBbRFRfo,20
+streaming_form_data-1.15.0.dist-info/LICENSE.txt,sha256=_vMdhmgj-H7hH3okEkMIQVBPjJg_BiK9YTq4jmp8aYE,1077
+streaming_form_data-1.15.0.dist-info/METADATA,sha256=JCNfwKcYqeb-uKuYcCFKzAEr-_HaBgSY99kenQNJwsU,4431
