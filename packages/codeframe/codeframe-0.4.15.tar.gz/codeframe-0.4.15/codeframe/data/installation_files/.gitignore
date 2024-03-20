@@ -1,0 +1,15 @@
+*.egg-info
+usage_tox.md
+__pycache__
+__init__.pyc
+dist
+*~
+data/installation_files/.bumpversion.cfg
+data/installation_files/.gitignore
+data/installation_files/README.org
+data/installation_files/__init__.py
+data/installation_files/bin_codeframe.py
+data/installation_files/codeframe
+data/installation_files/distcheck.sh
+data/installation_files/requirements.txt
+data/installation_files/setup.py
