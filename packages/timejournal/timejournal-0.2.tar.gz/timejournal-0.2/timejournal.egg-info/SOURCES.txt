@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+timejournal/__init__.py
+timejournal/cli.py
+timejournal.egg-info/PKG-INFO
+timejournal.egg-info/SOURCES.txt
+timejournal.egg-info/dependency_links.txt
+timejournal.egg-info/entry_points.txt
+timejournal.egg-info/requires.txt
+timejournal.egg-info/top_level.txt
