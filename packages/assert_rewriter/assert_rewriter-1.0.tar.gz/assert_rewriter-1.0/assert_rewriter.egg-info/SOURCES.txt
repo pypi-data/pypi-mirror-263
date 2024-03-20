@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.py
+assert_rewriter/__init__.py
+assert_rewriter/compatibility.py
+assert_rewriter/core.py
+assert_rewriter/samples.py
+assert_rewriter/tests.py
+assert_rewriter.egg-info/PKG-INFO
+assert_rewriter.egg-info/SOURCES.txt
+assert_rewriter.egg-info/dependency_links.txt
+assert_rewriter.egg-info/top_level.txt
