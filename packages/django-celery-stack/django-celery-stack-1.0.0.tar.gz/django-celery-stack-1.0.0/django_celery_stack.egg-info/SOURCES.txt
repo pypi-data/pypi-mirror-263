@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+django_celery_stack/__init__.py
+django_celery_stack/apps.py
+django_celery_stack/managers.py
+django_celery_stack/tasks.py
+django_celery_stack/tests.py
+django_celery_stack/urls.py
+django_celery_stack/views.py
+django_celery_stack.egg-info/PKG-INFO
+django_celery_stack.egg-info/SOURCES.txt
+django_celery_stack.egg-info/dependency_links.txt
+django_celery_stack.egg-info/requires.txt
+django_celery_stack.egg-info/top_level.txt
