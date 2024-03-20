@@ -1,0 +1,2 @@
+[console_scripts]
+MIRACLE = MIRACLEpy.main:main
