@@ -1,0 +1,2 @@
+[console_scripts]
+adder_s = adder_s.example:hello
