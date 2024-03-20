@@ -1,0 +1,14 @@
+README.md
+setup.py
+pulumi_teamcity/__init__.py
+pulumi_teamcity/_utilities.py
+pulumi_teamcity/provider.py
+pulumi_teamcity/pulumi-plugin.json
+pulumi_teamcity/py.typed
+pulumi_teamcity/random.py
+pulumi_teamcity.egg-info/PKG-INFO
+pulumi_teamcity.egg-info/SOURCES.txt
+pulumi_teamcity.egg-info/dependency_links.txt
+pulumi_teamcity.egg-info/not-zip-safe
+pulumi_teamcity.egg-info/requires.txt
+pulumi_teamcity.egg-info/top_level.txt
