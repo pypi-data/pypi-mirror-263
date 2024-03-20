@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+calculator/__init__.py
+calculator/calculator.py
+calculator_package_foxylex.egg-info/PKG-INFO
+calculator_package_foxylex.egg-info/SOURCES.txt
+calculator_package_foxylex.egg-info/dependency_links.txt
+calculator_package_foxylex.egg-info/top_level.txt
+tests/__init__.py
+tests/test_calculator.py
