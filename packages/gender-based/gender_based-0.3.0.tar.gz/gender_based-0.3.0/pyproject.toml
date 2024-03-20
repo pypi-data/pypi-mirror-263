@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "gender-based"
+version = "0.3.0"
+description = "Library containing model to find the gender of a speaker through audio file"
+authors = ["Priya-begur <priya@shavik.ai>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+tensorflow = "^2.7.0"
+keras = "^2.7.0"
+librosa = "^0.8.1"
+
+
+[[tool.poetry.source]]
+name = "foo"
+url = "https://pypi.example.org/simple/"
+priority = "supplemental"
+
+
+[[tool.poetry.source]]
+name = "gender_based"
+url = "https://gender_based.pypi.org/legacy/"
+priority = "primary"
+
+
+[[tool.poetry.source]]
+name = "jax"
+url = "https://storage.googleapis.com/jax-releases/jax_releases.html"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
