@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyTools_QOL"
+version = "0.0.2"
+authors = [
+  { name="Micah Best", email="micahbest21@gmail.com" },
+]
+description = "Python tools that I use for quality of life programming"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["tools", "quality of life", "pytools", "pyutils", "QOL"]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+	"Intended Audience :: Developers",
+]
+dependencies = [
+	"numpy>=1.24.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/MicahBest/pytools-qol"
+Issues = "https://github.com/MicahBest/pytools-qol/issues"
+
+[tool.black]
+line-length = 127

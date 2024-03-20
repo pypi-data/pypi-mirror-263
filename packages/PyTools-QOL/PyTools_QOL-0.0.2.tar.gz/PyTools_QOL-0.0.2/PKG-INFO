@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: PyTools_QOL
+Version: 0.0.2
+Summary: Python tools that I use for quality of life programming
+Author-email: Micah Best <micahbest21@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Micah Best
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/MicahBest/pytools-qol
+Project-URL: Issues, https://github.com/MicahBest/pytools-qol/issues
+Keywords: tools,quality of life,pytools,pyutils,QOL
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.24.0
+
+# PyTools_QOL
+Python tools that I use for quality of life programming
+
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/MicahBest/PyTools_QOL/.github%2Fworkflows%2FPyTools_QOL.yml?logo=github)
+[![Downloads](https://static.pepy.tech/badge/PyTools_QOL)](https://pepy.tech/project/PyTools_QOL)
+
+## Installation Instructions
+Package information and installation instructions can be found on [PyPI](https://pypi.org/project/PyTools-QOL/).
+
+To install package:
+```bash
+pip install PyTools-QOL
+```
+
+## Features and Capabilities
+
+### Program Execution Time:
+Example usage:
+```python
+import time
+from PyTools_QOL import print_execution_time
+
+def main():
+    time.sleep(3) # waits for 3 seconds
+
+if __name__ == "__main__":
+    main()
+    print_execution_time() # > Program executed in 3 seconds.
+```
