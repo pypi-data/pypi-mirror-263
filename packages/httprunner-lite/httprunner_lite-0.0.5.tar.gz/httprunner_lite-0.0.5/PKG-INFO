@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: httprunner_lite
+Version: 0.0.5
+Summary: This is an HTTP interface automation testing engine from httprunner4, mainly provided for platform use.
+Home-page: https://github.com/phailin/httprunner_lite
+Author: phailin
+Author-email: phailin791@hotmail.com
+License: MIT
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: loguru
+Requires-Dist: jmespath
+Requires-Dist: filetype
+Requires-Dist: requests_toolbelt
+Requires-Dist: pydantic>2
+
+# Summarg
+This is an HTTP interface automation testing engine from httprunner4, mainly provided for platform use.
+
+
+# Install
+### pip install httprunner_lite

@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.py
+httprunner_lite/__init__.py
+httprunner_lite/client.py
+httprunner_lite/model.py
+httprunner_lite/response.py
+httprunner_lite/runner.py
+httprunner_lite.egg-info/PKG-INFO
+httprunner_lite.egg-info/SOURCES.txt
+httprunner_lite.egg-info/dependency_links.txt
+httprunner_lite.egg-info/requires.txt
+httprunner_lite.egg-info/top_level.txt

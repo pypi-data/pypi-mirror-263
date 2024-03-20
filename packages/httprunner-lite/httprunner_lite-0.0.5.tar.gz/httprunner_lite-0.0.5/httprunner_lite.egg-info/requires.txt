@@ -1,0 +1,6 @@
+requests
+loguru
+jmespath
+filetype
+requests_toolbelt
+pydantic>2
