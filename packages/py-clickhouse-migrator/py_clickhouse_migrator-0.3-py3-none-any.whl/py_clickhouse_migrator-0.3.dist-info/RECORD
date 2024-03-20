@@ -1,0 +1,9 @@
+py_clickhouse_migrator/__init__.py,sha256=n0mUSmQNMHWa2TypBori1kglAC3-BjISFfy6s3vjrVE,39
+py_clickhouse_migrator/cli.py,sha256=ZBH1iElU8E1HEWb8VZLX3KIQ1aUYzCdQgri5GdgZA7c,1844
+py_clickhouse_migrator/migrator.py,sha256=mfKoECM343IIQVx11UhHkf1ZYb_5uTGBqYmFmp53J2k,8129
+py_clickhouse_migrator-0.3.dist-info/LICENCE.txt,sha256=9_Z5-J447bRXUBT2mN7oHUWKNnRuApv2q7gPvivoCvo,1062
+py_clickhouse_migrator-0.3.dist-info/METADATA,sha256=cmXp9yvCk4D9qkva2qQm6TqlEnQSFjWKKcdgRxTC1xM,1728
+py_clickhouse_migrator-0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+py_clickhouse_migrator-0.3.dist-info/entry_points.txt,sha256=BMl0IEbP2L7iuFIqfYJdHPOyk-2U1I9OF-FQnjKsX_E,61
+py_clickhouse_migrator-0.3.dist-info/top_level.txt,sha256=pjtmVASjsXaRKUDhO9UrIS375sQVEFukgr38morF47U,23
+py_clickhouse_migrator-0.3.dist-info/RECORD,,
