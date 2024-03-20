@@ -1,0 +1,11 @@
+photerr/__init__.py,sha256=xTntvBIbr9-ELgJH5GyfnPOZrFCcOzp3g_CBFimu3YI,555
+photerr/euclid.py,sha256=YF70_wY70eKYCHhGhnaduGuyf3GxWRMs0-nAReQ7hh0,1229
+photerr/lsstV1.py,sha256=C7hzCAfEDBuRmCc9YwWqpDCNrSs9N5MtF1BDAs4dGZA,2948
+photerr/lsstV2.py,sha256=EuxtR9gDkfXHrfk9DxBOD6rbSsXYTgjB74dt849Q_zc,3552
+photerr/model.py,sha256=gJUturUGYa3SKoa_MXyQKLDpY-K8YQGFyd4ulmJIVps,19179
+photerr/params.py,sha256=TYfSrGjvjr3zRr6bwOkK607UfHNC38Y0SNGZfH4RwDo,22075
+photerr/roman.py,sha256=B1gHwo1YMmlXPs79WQrkFK27RGiuFO7fN0KpS0kQHDs,1244
+photerr-1.2.4.dist-info/LICENSE,sha256=L8UtrsUobTeIo2cYywQntsowAJT7MIuN9vMT8FJKidg,1079
+photerr-1.2.4.dist-info/METADATA,sha256=L3IxtPXS9Gv3uPC586pmT1xoykb6oByriZEIFB0nXcI,12743
+photerr-1.2.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+photerr-1.2.4.dist-info/RECORD,,
