@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+apsw = "*"
+importlib-metadata = "*"
+pyahocorasick = "*"
+
+[dev-packages]
+black = "*"
+hatch = "*"
+pylint = "*"
+sphinx = "*"
+sphinx-argparse = "*"
+build = "*"
+rdbunit = "*"
+twine = "*"
+toml = "*"
+
+[requires]
+python_version = "3"
