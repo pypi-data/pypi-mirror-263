@@ -1,0 +1,5 @@
+vcf2parquet-0.6.0.dist-info/METADATA,sha256=WnzPDOd8RT0P2OV9kR2VF-6gJEYBhLzzVs0oyS9SwQc,2108
+vcf2parquet-0.6.0.dist-info/WHEEL,sha256=WuLbRyaSMdMTjFNlsacj_586rwqdeXYuJfsLbvjo8ck,94
+pyvcf2parquet/__init__.py,sha256=HihoQIRSSVGCXPoVTZ6GcWNfVGkrOKIricajanj6kVc,135
+pyvcf2parquet/pyvcf2parquet.cp38-win_amd64.pyd,sha256=NmiBG2t4wIlms_1NuLsVyIyksYE1IHReC_n8q1PSr3Q,4203520
+vcf2parquet-0.6.0.dist-info/RECORD,,
