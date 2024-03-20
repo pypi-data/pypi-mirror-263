@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyaiolava
+Version: 0.1.0
+Summary: Asynchronous library for working with Business Lava API. Creating invoices, checking balances and more.
+Home-page: https://github.com/kesevone/aiolava
+Author: kesevone
+Author-email: kesevone@gmail.com
+Project-URL: Official documentation, https://dev.lava.ru/business
+Keywords: lava aiolava lavaapi businesslava pyaiolava
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp>=3.9.3
+Requires-Dist: pydantic>=2.6.4
+
+![alt text](https://telegra.ph/file/ab8d0def9474a9ee31bfb.png)
+
+## Aiolava вЂ” a simple and convenient asynchronous library for working with the Business Lava API.
+
+### You will be able to create invoices with all the parameters that are available in the Lava API, as well as receive information about them after creation. Also, you can get information about the balance, and in the future methods will be implemented under the Lava Payoff API.
+
+### All data returned from the API is converted into a convenient Pydantic-model with clear parameter names.
+
+# Installation

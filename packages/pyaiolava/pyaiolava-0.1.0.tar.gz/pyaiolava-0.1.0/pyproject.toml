@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pyaiolava"
+version = "0.1.0"
+description = "Asynchronous library for working with Business Lava API. Creating invoices, checking balances and more."
+authors = ["kesevone <kesevone@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.9.3"
+pydantic = "^2.6.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
