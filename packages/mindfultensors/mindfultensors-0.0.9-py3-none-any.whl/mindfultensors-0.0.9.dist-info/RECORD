@@ -1,0 +1,10 @@
+mindfultensors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mindfultensors/gencoords.py,sha256=doAiLu4WyE5lL0R95vxKW-R1P4PVPtlyhPqdz2iyNhI,2931
+mindfultensors/mongoloader.py,sha256=R3RLIBOhhrYe_z64qH4pMsMX1p3I7vO1OSX6ZrnV2jA,5920
+mindfultensors/redisloader.py,sha256=kiw_i4bsShceUBx2glMSmoX710fRAKZ0kJlAWQ7zg3c,2270
+mindfultensors/utils.py,sha256=-lR4sQeUvoWD2s7V1JrzrklcbqUmU3nf8RaMF-7a5yY,3394
+mindfultensors-0.0.9.dist-info/LICENSE,sha256=JN-_tLpuHKqPVeLo3vm8bSkeN3kiXcHu2AByngwsyCM,1068
+mindfultensors-0.0.9.dist-info/METADATA,sha256=tJUwoOSFMMTGYvD8ZEnlDWGoQlDAUJ0QGl2AwniuwBM,1714
+mindfultensors-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mindfultensors-0.0.9.dist-info/top_level.txt,sha256=_XG__vqs6ur7NPJ_E7a5fsZejJnJ9ABYjceom59W3hM,15
+mindfultensors-0.0.9.dist-info/RECORD,,
