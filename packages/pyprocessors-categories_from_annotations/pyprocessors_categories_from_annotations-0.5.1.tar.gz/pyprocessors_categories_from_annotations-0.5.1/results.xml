@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="4" tests="7" time="0.158" timestamp="2024-03-19T17:05:50.092845" hostname="OLI-OMEN"><testcase classname="bumpversion" name="FLAKE8" time="0.000"><skipped type="pytest.skip" message="file(s) previously passed FLAKE8 checks">/home/olivier/dev/kairntech/pyprocessors_categories_from_annotations/.tox/report/lib/python3.8/site-packages/pytest_flake8.py:124: file(s) previously passed FLAKE8 checks</skipped></testcase><testcase classname="src.pyprocessors_categories_from_annotations.__init__" name="FLAKE8" time="0.000"><skipped type="pytest.skip" message="file(s) previously passed FLAKE8 checks">/home/olivier/dev/kairntech/pyprocessors_categories_from_annotations/.tox/report/lib/python3.8/site-packages/pytest_flake8.py:124: file(s) previously passed FLAKE8 checks</skipped></testcase><testcase classname="src.pyprocessors_categories_from_annotations.categories_from_annotations" name="FLAKE8" time="0.055"><failure message="/home/olivier/dev/kairntech/pyprocessors_categories_from_annotations/src/pyprocessors_categories_from_annotations/categories_from_annotations.py:11:1: E302 expected 2 blank lines, found 1&#10;">/home/olivier/dev/kairntech/pyprocessors_categories_from_annotations/src/pyprocessors_categories_from_annotations/categories_from_annotations.py:11:1: E302 expected 2 blank lines, found 1
+</failure></testcase><testcase classname="tests.__init__" name="FLAKE8" time="0.000"><skipped type="pytest.skip" message="file(s) previously passed FLAKE8 checks">/home/olivier/dev/kairntech/pyprocessors_categories_from_annotations/.tox/report/lib/python3.8/site-packages/pytest_flake8.py:124: file(s) previously passed FLAKE8 checks</skipped></testcase><testcase classname="tests.test_categories_from_annotations" name="FLAKE8" time="0.000"><skipped type="pytest.skip" message="file(s) previously passed FLAKE8 checks">/home/olivier/dev/kairntech/pyprocessors_categories_from_annotations/.tox/report/lib/python3.8/site-packages/pytest_flake8.py:124: file(s) previously passed FLAKE8 checks</skipped></testcase><testcase classname="tests.test_categories_from_annotations" name="test_model" time="0.000" /><testcase classname="tests.test_categories_from_annotations" name="test_categories_from_annotations" time="0.001"><failure message="AssertionError: assert 0 == 3&#10; +  where 0 = len([])&#10; +    where [] = Document(text='\nActuellement hospitalisé en Allemagne, le président algérien Abdelmadjid Tebboune, instigateur du réf...=None, boundaries=None, metadata=None, altTexts=None, properties=None, sentences=None, annotations=None, categories=[]).categories">def test_categories_from_annotations():
+        testdir = Path(__file__).parent
+        source = Path(testdir, "data/response_1622736571452.json")
+    
+        with source.open("r") as fin:
+            jdocs = json.load(fin)
+            docs = [Document(**jdoc) for jdoc in jdocs]
+        processor = CategoriesFromAnnotationsProcessor()
+        parameters = CategoriesFromAnnotationsParameters()
+        docs = processor.process(docs, parameters)
+        doc0 = docs[0]
+        assert len(doc0.categories) == 1
+    
+        parameters.multi_label_threshold = 0.0
+        docs = processor.process(docs, parameters)
+        doc0 = docs[0]
+&gt;       assert len(doc0.categories) == 3
+E       AssertionError: assert 0 == 3
+E        +  where 0 = len([])
+E        +    where [] = Document(text='\nActuellement hospitalisé en Allemagne, le président algérien Abdelmadjid Tebboune, instigateur du réf...=None, boundaries=None, metadata=None, altTexts=None, properties=None, sentences=None, annotations=None, categories=[]).categories
+
+tests/test_categories_from_annotations.py:31: AssertionError</failure></testcase></testsuite></testsuites>
