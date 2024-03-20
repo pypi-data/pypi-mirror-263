@@ -1,0 +1,6 @@
+openpyxl
+pandas
+beautifulsoup4
+requests
+google-oauth2-tool
+google-api-python-client

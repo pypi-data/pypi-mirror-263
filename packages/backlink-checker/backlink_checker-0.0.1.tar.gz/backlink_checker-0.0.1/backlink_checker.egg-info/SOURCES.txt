@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+backlink_checker/__init__.py
+backlink_checker.egg-info/PKG-INFO
+backlink_checker.egg-info/SOURCES.txt
+backlink_checker.egg-info/dependency_links.txt
+backlink_checker.egg-info/requires.txt
+backlink_checker.egg-info/top_level.txt
