@@ -1,0 +1,9 @@
+ftlangdetect/__init__.py,sha256=D8Ea_rUeIrGXEWtFadWmNPvGE8VUUEUqxQGMn5O6zJQ,49
+ftlangdetect/detect.py,sha256=SsTS5b1E_OrwHnYTOoHUWAKxKLhw3TKBDa0GWRc27D0,1595
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_detect.py,sha256=HGtV1t_of4o8biWz5PxnBiWTXIkT4J6Tan6gdPHj7r0,627
+fasttext_langdetect_wheel-1.0.5.dist-info/LICENSE,sha256=oIjKk21VnOkMTwO_x4t78BrL6tPd0rfN_IwtI3OdrYY,1070
+fasttext_langdetect_wheel-1.0.5.dist-info/METADATA,sha256=jkd1wrqh8UsJFkwLMpILQ6Wnx5ZH_Lu9zrFFaLX9a_A,14353
+fasttext_langdetect_wheel-1.0.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+fasttext_langdetect_wheel-1.0.5.dist-info/top_level.txt,sha256=yST4S5zQ1xDOkS5xjQWeOVtAGMs5TgnDeB30KgiRyKM,19
+fasttext_langdetect_wheel-1.0.5.dist-info/RECORD,,
