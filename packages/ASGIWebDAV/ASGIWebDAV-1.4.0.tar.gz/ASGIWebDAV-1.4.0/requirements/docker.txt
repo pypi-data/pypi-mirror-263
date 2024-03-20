@@ -1,0 +1,4 @@
+-r full.txt
+
+# catch exception
+sentry-sdk

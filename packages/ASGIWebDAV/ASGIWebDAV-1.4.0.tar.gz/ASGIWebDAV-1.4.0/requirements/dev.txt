@@ -1,0 +1,14 @@
+-r full.txt
+
+# distribute
+-r mkdocs.txt
+-r pypi.txt
+-r docker.txt
+pyinstaller
+
+# dev
+-r test.txt
+
+# extend 3rd package
+asgiref
+wsgidav
