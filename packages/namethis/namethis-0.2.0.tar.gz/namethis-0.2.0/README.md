@@ -1,0 +1,472 @@
+# NameThis
+
+NameThis is a Python utility for generating standardized names for Azure resources based on environmental variables and predefined naming conventions. It uses a JSON file with resource definitions to create names that adhere to constraints such as length, inclusion of specific substrings, and whether dashes are supported. This tool is ideal for developers and cloud architects looking to automate the creation of Azure resources with consistent and meaningful names.
+
+> The naming spec comes from Azure CAF [provider](https://github.com/aztfmod/terraform-provider-azurecaf) for platform engineering.
+
+Source file: https://raw.githubusercontent.com/aztfmod/terraform-provider-azurecaf/main/resourceDefinition.json
+
+Using commit hash `7a79e20720eb5de4a8498f72fe66c854d4cbc391`.
+
+## Features
+
+- **Environment Variable Integration**: Leverages environment variables for dynamic naming based on the deployment context (e.g., development, staging, production).
+- **Custom Naming Rules**: Applies custom naming rules defined in a JSON file, allowing for flexibility in how resources are named.
+- **Adherence to Constraints**: Ensures generated names meet Azure's naming requirements, such as maximum length and character restrictions.
+
+## Prerequisites
+
+Before you begin, ensure you have the following:
+
+- Python 3.6 or later
+- Access to the terminal or command prompt
+
+## Installation
+
+Using `pip` it would be:
+```bash
+pip install namethis
+```
+
+Or add it to your `requirements.txt` file (or equivalent).
+
+## Configuration
+
+1. **Environment Variables**: Set the following environment variables to influence the naming conventions:
+   - `LZID`: A 4-digit identifier for your landing zone.
+        - Author uses [`lzid`](https://pypi.org/project/lzid) for this.
+   - `ENVIRONMENT`: Your deployment environment (e.g., dev, prod, lab).
+   - `LOCATION_SHORT`: A 3-letter code representing the deployment location (e.g., aue, nzn).
+
+2. **Resource Definitions JSON**: The `resourceDefinition.json` file sourced as described above. Defines properties such as `slug`, `max_length`, and whether dashes are supported.
+
+## Usage
+
+To run NameThis, navigate to the script's directory and execute:
+
+## From the CLI
+```bash
+python namethis.py --pretty-print
+```
+
+The script will read the resourceDefinition.json file and environment variables, then print the generated resource names set to the console.
+
+## From your Python code
+
+### Resource names
+Print a set:
+```python
+from namethis import namethis
+
+print(json.dumps(namethis(), indent=4, sort_keys=True))
+```
+
+Or use them to name objects:
+```python
+from namethis import namethis
+
+nameset=namethis()
+
+container = sdk.createContainer(name=nameset['storage_container'])
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+```
+
+### Multiple resource names
+
+In case where multiple names of the same resoruce type are needed, you can generate multiple sets:
+
+```python
+from namethis import namethis
+
+name_sets = 2
+nameset = namethis(name_sets)
+
+# Access additional instances, which have indices appended
+for x in range(1, name_sets+1):  # Starts from 1 up to 2, inclusive
+    print(nameset[f"virtual_machine{x}"])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# Indexed instance(s)...
+# vm0000uat01
+# vm0000uat02
+```
+
+## Customization
+
+Modify/Replace the `resourceDefinition.json` file to include your specific resource naming requirements. Use the URL above or follow the sample below.
+
+```json
+[
+  {
+    "name": "exampleResource",
+    "slug": "exrsrc",
+    "max_length": 20,
+    "dashes": false,
+    "scope": "global"
+  }
+]
+```
+
+## Resource names generated
+
+```json
+{
+    "aadb2c_directory": "aadb2c-0000-uat",
+    "aks_node_pool_linux": "npl0000uat",
+    "aks_node_pool_windows": "npw",
+    "analysis_services_server": "as0000uataue",
+    "api_management": "apim-0000-uat",
+    "api_management_api": "apimapi-0000-uat",
+    "api_management_api_operation_tag": "apimapiopt-0000-uat",
+    "api_management_backend": "apimbe-0000-uat",
+    "api_management_certificate": "apimcer-0000-uat",
+    "api_management_gateway": "apimgw-0000-uat",
+    "api_management_group": "apimgr-0000-uat",
+    "api_management_logger": "apimlg-0000-uat",
+    "api_management_service": "apim-0000-uat",
+    "app_configuration": "appcg-0000-uat-aue",
+    "app_service": "app-0000-uat",
+    "app_service_environment": "ase-0000-uat-aue",
+    "app_service_plan": "plan-0000-uat-aue",
+    "application_gateway": "agw-0000-uat-aue",
+    "application_insights": "appi-0000-uat-aue",
+    "application_insights_web_test": "appiwt-0000-uat-aue",
+    "application_security_group": "asg-0000-uat-aue",
+    "automation_account": "aa-0000-uat-aue",
+    "automation_certificate": "aacert-0000-uat-aue",
+    "automation_credential": "aacred-0000-uat-aue",
+    "automation_hybrid_runbook_worker_group": "aahwg-0000-uat-aue",
+    "automation_job_schedule": "aajs-0000-uat-aue",
+    "automation_runbook": "aarun-0000-uat-aue",
+    "automation_schedule": "aasched-0000-uat-aue",
+    "automation_variable": "aavar-0000-uat-aue",
+    "availability_set": "avail-0000-uat-aue",
+    "bastion_host": "bast-0000-uat-aue",
+    "batch_account": "ba0000uataue",
+    "batch_application": "baapp-0000-uat-aue",
+    "batch_certificate": "bacert-0000-uat-aue",
+    "batch_pool": "bapool-0000-uat-aue",
+    "bot_channel_directline": "botline-0000-uat-aue",
+    "bot_channel_email": "botmail-0000-uat-aue",
+    "bot_channel_ms_teams": "botteams-0000-uat-aue",
+    "bot_channel_slack": "botslack-0000-uat-aue",
+    "bot_channels_registration": "botchan-0000-uat-aue",
+    "bot_connection": "botcon-0000-uat-aue",
+    "bot_web_app": "bot-0000-uat",
+    "cdn_endpoint": "cdn-0000-uat",
+    "cdn_frontdoor_custom_domain": "cfdcd-0000-uat-aue",
+    "cdn_frontdoor_endpoint": "cfde-0000-uat",
+    "cdn_frontdoor_firewall_policy": "cfdfp0000uataue",
+    "cdn_frontdoor_origin": "cfdo-0000-uat-aue",
+    "cdn_frontdoor_origin_group": "cfdog-0000-uat-aue",
+    "cdn_frontdoor_profile": "cfdp-0000-uat-aue",
+    "cdn_frontdoor_route": "cfdroute-0000-uat-aue",
+    "cdn_frontdoor_rule": "cfdr0000uataue",
+    "cdn_frontdoor_rule_set": "cfdrs0000uataue",
+    "cdn_frontdoor_secret": "cfds-0000-uat-aue",
+    "cdn_frontdoor_security_policy": "cfdsp-0000-uat-aue",
+    "cdn_profile": "cdnprof-0000-uat-aue",
+    "cognitive_account": "cog-0000-uat-aue",
+    "communication_service": "acs-0000-uat-aue",
+    "consumption_budget_resource_group": "acbrg-0000-uat-aue",
+    "consumption_budget_subscription": "acbs-0000-uat-aue",
+    "container_app": "ca-0000-uat-aue",
+    "container_app_environment": "cae-0000-uat-aue",
+    "container_registry": "cr0000uataue",
+    "container_registry_webhook": "crwh0000uataue",
+    "containergroups": "cg-0000-uat-aue",
+    "cosmosdb_account": "cosmos-0000-uat-aue",
+    "custom_provider": "prov-0000-uat-aue",
+    "dashboard": "dsb-0000-uat-aue",
+    "data_factory": "adf-0000-uat",
+    "data_factory_dataset_azure_blob": "adfblob-0000-uat-aue",
+    "data_factory_dataset_cosmosdb_sqlapi": "adfsqlapi-0000-uat-aue",
+    "data_factory_dataset_delimited_text": "adfdtext-0000-uat-aue",
+    "data_factory_dataset_http": "adfhttp-0000-uat-aue",
+    "data_factory_dataset_json": "adfjson-0000-uat-aue",
+    "data_factory_dataset_mysql": "adfmysql-0000-uat-aue",
+    "data_factory_dataset_postgresql": "adfpsql-0000-uat-aue",
+    "data_factory_dataset_sql_server_table": "adfmssql-0000-uat-aue",
+    "data_factory_integration_runtime_managed": "adfir-0000-uat-aue",
+    "data_factory_linked_service_azure_blob_storage": "adflsabs-0000-uat-aue",
+    "data_factory_linked_service_azure_databricks": "adflsadb-0000-uat-aue",
+    "data_factory_linked_service_azure_function": "adflsaf-0000-uat-aue",
+    "data_factory_linked_service_azure_sql_database": "adflsasdb-0000-uat-aue",
+    "data_factory_linked_service_cosmosdb": "adflsacdb-0000-uat-aue",
+    "data_factory_linked_service_data_lake_storage_gen2": "adfsvst-0000-uat-aue",
+    "data_factory_linked_service_key_vault": "adfsvkv-0000-uat-aue",
+    "data_factory_linked_service_mysql": "adfsvmysql-0000-uat-aue",
+    "data_factory_linked_service_postgresql": "adfsvpsql-0000-uat-aue",
+    "data_factory_linked_service_sftp": "adflsaftp-0000-uat-aue",
+    "data_factory_linked_service_sql_server": "adfsvmssql-0000-uat-aue",
+    "data_factory_linked_service_web": "adfsvweb-0000-uat-aue",
+    "data_factory_pipeline": "adfpl-0000-uat-aue",
+    "data_factory_trigger_schedule": "adftg-0000-uat-aue",
+    "data_lake_analytics_account": "dla0000uat",
+    "data_lake_analytics_firewall_rule": "dlfw-0000-uat-aue",
+    "data_lake_store": "dls0000uataue",
+    "data_lake_store_firewall_rule": "dlsfw-0000-uat-aue",
+    "data_protection_backup_policy_blob_storage": "dpbpb-0000-uat-aue",
+    "data_protection_backup_policy_disk": "dpbpd-0000-uat-aue",
+    "data_protection_backup_policy_postgresql": "dpbpp-0000-uat-aue",
+    "data_protection_backup_vault": "dpbv-0000-uat-aue",
+    "database_migration_project": "migr-0000-uat-aue",
+    "database_migration_service": "dms-0000-uat-aue",
+    "databricks_workspace": "dbw-0000-uat-aue",
+    "dedicated_host": "dh-0000-uat-aue",
+    "dedicated_host_group": "dhg-0000-uat-aue",
+    "dev_test_lab": "lab-0000-uat-aue",
+    "dev_test_linux_virtual_machine": "labvm-0000-uat-aue",
+    "dev_test_windows_virtual_machine": "labvm0000uataue",
+    "digital_twins_endpoint_eventgrid": "adteg-0000-uat-aue",
+    "digital_twins_endpoint_eventhub": "adteh-0000-uat-aue",
+    "digital_twins_endpoint_servicebus": "adtsb-0000-uat-aue",
+    "digital_twins_instance": "adt-0000-uat-aue",
+    "disk_encryption_set": "des-0000-uat-aue",
+    "dns_zone": "dns-0000-uat-aue",
+    "eventgrid_domain": "egd-0000-uat-aue",
+    "eventgrid_domain_topic": "egdt-0000-uat-aue",
+    "eventgrid_event_subscription": "egs-0000-uat-aue",
+    "eventgrid_topic": "egt-0000-uat-aue",
+    "eventhub": "evh-0000-uat-aue",
+    "eventhub_authorization_rule": "ehar-0000-uat-aue",
+    "eventhub_consumer_group": "ehcg-0000-uat-aue",
+    "eventhub_namespace": "ehn-0000-uat",
+    "eventhub_namespace_authorization_rule": "ehnar-0000-uat-aue",
+    "eventhub_namespace_disaster_recovery_config": "ehdr-0000-uat-aue",
+    "express_route_circuit": "erc-0000-uat-aue",
+    "express_route_gateway": "ergw-0000-uat-aue",
+    "federated_identity_credential": "fedcred-0000-uat-aue",
+    "firewall": "fw-0000-uat-aue",
+    "firewall_policy": "afwp-0000-uat-aue",
+    "frontdoor": "fd-0000-uat",
+    "frontdoor_firewall_policy": "fdfw0000uat",
+    "function_app": "fa-0000-uat",
+    "function_app_slot": "fas-0000-uat",
+    "hdinsight_hadoop_cluster": "hadoop-0000-uat",
+    "hdinsight_hbase_cluster": "hbase-0000-uat",
+    "hdinsight_interactive_query_cluster": "iqr-0000-uat",
+    "hdinsight_kafka_cluster": "kafka-0000-uat",
+    "hdinsight_ml_services_cluster": "mls-0000-uat",
+    "hdinsight_rserver_cluster": "rser-0000-uat",
+    "hdinsight_spark_cluster": "spark-0000-uat",
+    "hdinsight_storm_cluster": "storm-0000-uat",
+    "healthcare_dicom_service": "dicom-0000-uat-aue",
+    "healthcare_fhir_service": "fhir-0000-uat-aue",
+    "healthcare_medtech_service": "medtech-0000-uat-aue",
+    "healthcare_service": "hcasvc-0000-uat",
+    "healthcare_workspace": "hcw0000uat",
+    "image": "img-0000-uat-aue",
+    "integration_service_environment": "lappise-0000-uat-aue",
+    "iot_security_device_group": "iotdg-0000-uat-aue",
+    "iot_security_solution": "iotss-0000-uat-aue",
+    "iotcentral_application": "iotapp-0000-uat",
+    "iothub": "iot-0000-uat",
+    "iothub_certificate": "iotcert-0000-uat-aue",
+    "iothub_consumer_group": "iotcg-0000-uat-aue",
+    "iothub_dps": "dps-0000-uat-aue",
+    "iothub_dps_certificate": "dpscert-0000-uat-aue",
+    "iothub_dps_shared_access_policy": "dpssap-0000-uat-aue",
+    "iothub_shared_access_policy": "iotsap-0000-uat-aue",
+    "ip_group": "ipgr-0000-uat-aue",
+    "key_vault": "kv-0000-uat",
+    "key_vault_certificate": "kvc-0000-uat-aue",
+    "key_vault_key": "kvk-0000-uat-aue",
+    "key_vault_secret": "kvs-0000-uat-aue",
+    "kubernetes_cluster": "aks-0000-uat-aue",
+    "kubernetes_fleet_manager": "fleet-0000-uat-aue",
+    "kusto_cluster": "kc0000uat",
+    "kusto_database": "kdb-0000-uat-aue",
+    "kusto_eventhub_data_connection": "kehc-0000-uat-aue",
+    "lb": "lb-0000-uat-aue",
+    "lb_backend_address_pool": "adt-0000-uat-aue",
+    "lb_backend_pool": "adt-0000-uat-aue",
+    "lb_nat_pool": "adt-0000-uat-aue",
+    "lb_nat_rule": "lbnatrl-0000-uat-aue",
+    "lb_outbound_rule": "adt-0000-uat-aue",
+    "lb_probe": "adt-0000-uat-aue",
+    "lb_rule": "adt-0000-uat-aue",
+    "linux_virtual_machine": "vm-0000-uat-aue",
+    "linux_virtual_machine_scale_set": "vmss-0000-uat-aue",
+    "linux_web_app": "lwapp-0000-uat",
+    "load_test": "load-0000-uat",
+    "local_network_gateway": "lgw-0000-uat-aue",
+    "log_analytics_cluster": "logc-0000-uat-aue",
+    "log_analytics_storage_insights": "lasi-0000-uat-aue",
+    "log_analytics_workspace": "log-0000-uat-aue",
+    "logic_app_action_custom": "lappac-0000-uat-aue",
+    "logic_app_action_http": "lappah-0000-uat-aue",
+    "logic_app_integration_account": "lappia-0000-uat-aue",
+    "logic_app_trigger_custom": "lapptc-0000-uat-aue",
+    "logic_app_trigger_http_request": "lappth-0000-uat-aue",
+    "logic_app_trigger_recurrence": "lapptc-0000-uat-aue",
+    "logic_app_workflow": "lapp-0000-uat-aue",
+    "machine_learning_compute_instance": "amlci-0000-uat",
+    "machine_learning_workspace": "mlw-0000-uat-aue",
+    "maintenance_configuration": "mcf-0000-uat-aue",
+    "managed_disk": "dsk-0000-uat-aue",
+    "maps_account": "map-0000-uat-aue",
+    "mariadb_database": "mariadb-0000-uat-aue",
+    "mariadb_firewall_rule": "mariafw-0000-uat-aue",
+    "mariadb_server": "maria-0000-uat",
+    "mariadb_virtual_network_rule": "mariavn-0000-uat-aue",
+    "monitor_action_group": "amag-0000-uat-aue",
+    "monitor_activity_log_alert": "adfmysql-0000-uat-aue",
+    "monitor_autoscale_setting": "amas-0000-uat-aue",
+    "monitor_data_collection_endpoint": "dce-0000-uat-aue",
+    "monitor_diagnostic_setting": "amds-0000-uat-aue",
+    "monitor_metric_alert": "ma-0000-uat-aue",
+    "monitor_private_link_scope": "ampls-0000-uat-aue",
+    "monitor_scheduled_query_rules_alert": "schqra-0000-uat-aue",
+    "mssql_database": "sqldb-0000-uat-aue",
+    "mssql_elasticpool": "sqlep-0000-uat-aue",
+    "mssql_mi": "sqlmi-0000-uat",
+    "mssql_server": "sql-0000-uat",
+    "mysql_database": "mysqldb-0000-uat-aue",
+    "mysql_firewall_rule": "mysqlfw-0000-uat-aue",
+    "mysql_flexible_server": "mysqlf-0000-uat",
+    "mysql_flexible_server_database": "mysqlfdb-0000-uat-aue",
+    "mysql_flexible_server_firewall_rule": "mysqlffw-0000-uat-aue",
+    "mysql_server": "mysql-0000-uat",
+    "mysql_virtual_network_rule": "mysqlvn-0000-uat-aue",
+    "netapp_account": "ana-0000-uat-aue",
+    "netapp_pool": "anp-0000-uat-aue",
+    "netapp_snapshot": "ans-0000-uat-aue",
+    "netapp_volume": "anv-0000-uat-aue",
+    "network_interface": "nic-0000-uat-aue",
+    "network_security_group": "nsg-0000-uat-aue",
+    "network_security_group_rule": "nsgr-0000-uat-aue",
+    "network_security_rule": "nsgr-0000-uat-aue",
+    "network_watcher": "nw-0000-uat-aue",
+    "nginx_deployment": "nginx-0000-uat-aue",
+    "notification_hub": "nh-0000-uat-aue",
+    "notification_hub_authorization_rule": "dnsrec-0000-uat-aue",
+    "notification_hub_namespace": "dnsrec-0000-uat",
+    "point_to_site_vpn_gateway": "vpngw-0000-uat-aue",
+    "portal_dashboard": "dsb-0000-uat-aue",
+    "postgresql_database": "psqldb-0000-uat-aue",
+    "postgresql_firewall_rule": "psqlfw-0000-uat-aue",
+    "postgresql_flexible_server": "psqlf-0000-uat",
+    "postgresql_flexible_server_database": "psqlfdb-0000-uat-aue",
+    "postgresql_flexible_server_firewall_rule": "psqlffw-0000-uat-aue",
+    "postgresql_server": "psql-0000-uat",
+    "postgresql_virtual_network_rule": "psqlvn-0000-uat-aue",
+    "powerbi_embedded": "pbi0000uataue",
+    "private_dns_resolver": "dnspr-0000-uat-aue",
+    "private_dns_resolver_dns_forwarding_ruleset": "dnsfwrs-0000-uat-aue",
+    "private_dns_resolver_forwarding_rule": "dnsfwr-0000-uat-aue",
+    "private_dns_resolver_inbound_endpoint": "dnsprie-0000-uat-aue",
+    "private_dns_resolver_outbound_endpoint": "dnsproe-0000-uat-aue",
+    "private_dns_resolver_virtual_network_link": "dnsfwrsvnetl-0000-uat-aue",
+    "private_dns_zone": "pdns-0000-uat-aue",
+    "private_dns_zone_virtual_network_link": "pnetlk-0000-uat-aue",
+    "private_endpoint": "pe-0000-uat-aue",
+    "public_ip": "pip-0000-uat-aue",
+    "public_ip_prefix": "pippf-0000-uat-aue",
+    "purview_account": "purv-0000-uat-aue",
+    "recovery_services_vault": "rsv-0000-uat-aue",
+    "recovery_services_vault_backup_police": "rsvbp-0000-uat-aue",
+    "redhat_openshift_cluster": "aroc0000uataue",
+    "redhat_openshift_domain": "arod0000uataue",
+    "redis_cache": "redis-0000-uat",
+    "redis_firewall_rule": "redisfw0000uataue",
+    "relay_hybrid_connection": "rlhc-0000-uat-aue",
+    "relay_namespace": "rln-0000-uat",
+    "resource_group": "rg-0000-uat-aue",
+    "resource_group_policy_assignment": "argpa-0000-uat-aue",
+    "role_assignment": "ra-0000-uat-aue",
+    "role_definition": "rd-0000-uat-aue",
+    "route": "rt-0000-uat-aue",
+    "route_server": "rts-0000-uat-aue",
+    "route_table": "route-0000-uat-aue",
+    "search_service": "srch-0000-uat",
+    "service_fabric_cluster": "sf-0000-uat-aue",
+    "servicebus_namespace": "sb-0000-uat",
+    "servicebus_namespace_authorization_rule": "sbar-0000-uat-aue",
+    "servicebus_queue": "sbq-0000-uat-aue",
+    "servicebus_queue_authorization_rule": "sbqar-0000-uat-aue",
+    "servicebus_subscription": "sbs-0000-uat-aue",
+    "servicebus_subscription_rule": "sbsr-0000-uat-aue",
+    "servicebus_topic": "sbt-0000-uat-aue",
+    "servicebus_topic_authorization_rule": "sbtar-0000-uat-aue",
+    "shared_image": "si-0000-uat-aue",
+    "shared_image_gallery": "sig0000uataue",
+    "signalr_service": "sgnlr-0000-uat",
+    "snapshots": "snap-0000-uat-aue",
+    "sql_elasticpool": "sqlep-0000-uat-aue",
+    "sql_failover_group": "sqlfg-0000-uat",
+    "sql_firewall_rule": "sqlfw-0000-uat-aue",
+    "sql_server": "sql-0000-uat",
+    "static_site": "stapp-0000-uat-aue",
+    "storage_account": "st0000uat",
+    "storage_blob": "blob-0000-uat-aue",
+    "storage_container": "stct-0000-uat-aue",
+    "storage_data_lake_gen2_filesystem": "stdl-0000-uat-aue",
+    "storage_queue": "stq-0000-uat-aue",
+    "storage_share": "sts-0000-uat-aue",
+    "storage_share_directory": "sts-0000-uat-aue",
+    "storage_sync": "stsy-0000-uat-aue",
+    "storage_sync_group": "stsg-0000-uat-aue",
+    "storage_table": "stt-0000-uat-aue",
+    "stream_analytics_function_javascript_udf": "asafunc-0000-uat-aue",
+    "stream_analytics_job": "asa-0000-uat-aue",
+    "stream_analytics_output_blob": "asaoblob-0000-uat-aue",
+    "stream_analytics_output_eventhub": "asaoeh-0000-uat-aue",
+    "stream_analytics_output_mssql": "asaomssql-0000-uat-aue",
+    "stream_analytics_output_servicebus_queue": "asaosbq-0000-uat-aue",
+    "stream_analytics_output_servicebus_topic": "asaosbt-0000-uat-aue",
+    "stream_analytics_reference_input_blob": "asarblob-0000-uat-aue",
+    "stream_analytics_stream_input_blob": "asaiblob-0000-uat-aue",
+    "stream_analytics_stream_input_eventhub": "asaieh-0000-uat-aue",
+    "stream_analytics_stream_input_iothub": "asaiiot-0000-uat-aue",
+    "subnet": "snet-0000-uat-aue",
+    "subscription_policy_assignment": "aspa-0000-uat-aue",
+    "synapse_firewall_rule": "syfw-0000-uat-aue",
+    "synapse_integration_runtime_azure": "synira-0000-uat-aue",
+    "synapse_integration_runtime_self_hosted": "synirsh-0000-uat-aue",
+    "synapse_linked_service": "synls0000uataue",
+    "synapse_managed_private_endpoint": "synmpe-0000-uat-aue",
+    "synapse_private_link_hub": "synplh0000uataue",
+    "synapse_spark_pool": "sysp0000uataue",
+    "synapse_sql_pool": "synsp0000uataue",
+    "synapse_sql_pool ": "sysql0000uataue",
+    "synapse_sql_pool_vulnerability_assessment_baseline": "synspvab0000uataue",
+    "synapse_sql_pool_workload_classifier": "synspwc-0000-uat-aue",
+    "synapse_sql_pool_workload_group": "synspwg-0000-uat-aue",
+    "synapse_workspace": "syws0000uataue",
+    "template_deployment": "deploy-0000-uat-aue",
+    "traffic_manager_profile": "traf-0000-uat",
+    "user_assigned_identity": "msi-0000-uat-aue",
+    "virtual_desktop_application_group": "dag-0000-uat-aue",
+    "virtual_desktop_host_pool": "hpool-0000-uat-aue",
+    "virtual_desktop_workspace": "wvdws-0000-uat-aue",
+    "virtual_hub": "vhub-0000-uat-aue",
+    "virtual_hub_connection": "vhcon-0000-uat-aue",
+    "virtual_machine": "vm0000uataue",
+    "virtual_machine_portal_name": "vm-0000-uat-aue",
+    "virtual_machine_scale_set": "vmss0000uataue",
+    "virtual_network": "vnet-0000-uat-aue",
+    "virtual_network_gateway": "vgw-0000-uat-aue",
+    "virtual_network_peering": "vpeer-0000-uat-aue",
+    "virtual_wan": "vwan-0000-uat-aue",
+    "vm_windows_computer_name_prefix": "cn0000uat",
+    "vmware_cluster": "vwc-0000-uat-aue",
+    "vmware_express_route_authorization": "vwera-0000-uat-aue",
+    "vmware_private_cloud": "vwpc-0000-uat-aue",
+    "vpn_gateway_connection": "vcn-0000-uat-aue",
+    "vpn_site": "vst-0000-uat-aue",
+    "web_application_firewall_policy": "wafw0000uat",
+    "web_pubsub": "ps-0000-uat-aue",
+    "web_pubsub_hub": "pshub0000uataue",
+    "windows_virtual_machine": "vm0000uataue",
+    "windows_virtual_machine_scale_set": "vmss0000uataue",
+    "windows_web_app": "wwapp-0000-uat"
+}
+
+```
+
+## Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit pull requests. For major changes or questions, please open an issue first to discuss what you would like to change.
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
