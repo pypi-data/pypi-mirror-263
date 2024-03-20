@@ -1,0 +1,7 @@
+azure/functions/extension/fastapi/__init__.py,sha256=IaccsNvREGo0fm60MVQ9y4wJgMBx4CjHRj54pvppz6w,509
+azure/functions/extension/fastapi/web.py,sha256=MUFdgwuXPDfnqKgvet98M4aaPohWgNTZsFYg4w04cls,2736
+azure_functions_extension_fastapi-1.0.0a1.dist-info/LICENSE,sha256=kD31US99AmCf7Qx4CptwT1o-625NhOvkKimEXIGJmjw,1093
+azure_functions_extension_fastapi-1.0.0a1.dist-info/METADATA,sha256=cdTjnd_l8tDojME1TVv0lVRvI1woFulLHsFhB4wro3Y,1269
+azure_functions_extension_fastapi-1.0.0a1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+azure_functions_extension_fastapi-1.0.0a1.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
+azure_functions_extension_fastapi-1.0.0a1.dist-info/RECORD,,
