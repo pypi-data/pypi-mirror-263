@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dt_extra_sdk
+Version: 0.0.5
+Summary: Datatower web server extra plugin sdk
+Author: Datatower.ai
+Author-email: 
+Requires-Python: >=3.9
+Requires-Dist: aiohttp
+Requires-Dist: pycryptodome
+Requires-Dist: crypto
