@@ -1,0 +1,88 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-import-export-xml"
+version = "0.2.0"
+description = "An XML export format for django-import-export"
+authors = [{ name = "Maykin Media", email = "support@maykinmedia.nl" }]
+readme = "README.rst"
+license = { file = "LICENSE" }
+keywords = ["TODO"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Framework :: Django",
+    "Framework :: Django :: 3.2",
+    "Framework :: Django :: 4.2",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+requires-python = ">=3.9"
+dependencies = ["dicttoxml", "django-import-export"]
+
+[project.urls]
+Homepage = "https://github.com/maykinmedia/django-import-export-xml"
+"Bug Tracker" = "https://github.com/maykinmedia/django-import-export-xml/issues"
+"Source Code" = "https://github.com/maykinmedia/django-import-export-xml"
+
+[project.optional-dependencies]
+tests = [
+    "black",
+    "flake8",
+    "isort",
+    "pytest",
+    "pytest-django",
+    "tox",
+]
+coverage = ["pytest-cov"]
+release = ["bump-my-version", "twine"]
+
+[tool.setuptools.packages.find]
+include = ["import_export_xml*"]
+namespaces = false
+
+[tool.isort]
+profile = "black"
+combine_as_imports = true
+known_django = "django"
+known_first_party = "import_export_xml"
+sections = [
+    "FUTURE",
+    "STDLIB",
+    "DJANGO",
+    "THIRDPARTY",
+    "FIRSTPARTY",
+    "LOCALFOLDER",
+]
+skip = ["env", ".tox", ".venv"]
+
+[tool.pytest.ini_options]
+pythonpath = "."
+testpaths = ["tests"]
+DJANGO_SETTINGS_MODULE = "testapp.settings"
+
+[tool.bumpversion]
+current_version = "0.2.0"
+files = [
+    { filename = "pyproject.toml" },
+    { filename = "README.rst" },
+    { filename = "import_export_xml/__init__.py" },
+]
+
+[tool.coverage.report]
+exclude_also = [
+    "if (typing\\.)?TYPE_CHECKING:",
+    "@(typing\\.)?overload",
+    "class .*\\(.*Protocol.*\\):",
+    "@(abc\\.)?abstractmethod",
+    "raise NotImplementedError",
+    "\\.\\.\\.",
+    "pass",
+]

@@ -1,0 +1,17 @@
+dicttoxml
+django-import-export
+
+[coverage]
+pytest-cov
+
+[release]
+bump-my-version
+twine
+
+[tests]
+black
+flake8
+isort
+pytest
+pytest-django
+tox
