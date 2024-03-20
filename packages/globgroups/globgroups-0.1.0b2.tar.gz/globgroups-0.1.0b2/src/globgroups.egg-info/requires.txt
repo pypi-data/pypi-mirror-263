@@ -1,0 +1,2 @@
+funcparserlib==1.*
+typing_expansions>=4.4
