@@ -1,0 +1,11 @@
+dt_extra_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dt_extra_sdk/entry/__init__.py,sha256=CMww3GixNFdpbaUTbDidJTBi26ehBk7uOseK4oVQphE,433
+dt_extra_sdk/module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dt_extra_sdk/module/connector.py,sha256=9oeyQTYxFdZPdt_LEu1L7Ed1yRKh3QVJeMtlgy1wTos,4686
+dt_extra_sdk/module/error.py,sha256=Qnavmsp1tM_iXml2IHKFT07yJj24VbTcXeQZd6Vo9Gs,488
+dt_extra_sdk/module/kit.py,sha256=tqm0Pdwv6QaRtZteXVCQsRqQ6prvIY8YhHtAja7O9Hk,575
+dt_extra_sdk/module/model.py,sha256=PqVCMY9FrXgT5y21XupZJJeonGsOoHTfwhSBTzD3ofI,1305
+dt_extra_sdk-0.0.5.dist-info/METADATA,sha256=kFyRnMtNavSdoH_3ferN1lDTwvUgKRei4J9pgKnHf1w,236
+dt_extra_sdk-0.0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dt_extra_sdk-0.0.5.dist-info/top_level.txt,sha256=4Z3EZi0w9pHdK7JGTw4yntS8UCgbG6KSXn6QUVyDz04,13
+dt_extra_sdk-0.0.5.dist-info/RECORD,,
