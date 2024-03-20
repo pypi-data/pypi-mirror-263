@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+package/__init__.py
+package/time_zone.py
+time_zone_dict.egg-info/PKG-INFO
+time_zone_dict.egg-info/SOURCES.txt
+time_zone_dict.egg-info/dependency_links.txt
+time_zone_dict.egg-info/requires.txt
+time_zone_dict.egg-info/top_level.txt
