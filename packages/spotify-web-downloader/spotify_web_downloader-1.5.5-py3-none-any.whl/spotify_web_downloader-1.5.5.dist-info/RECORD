@@ -1,0 +1,10 @@
+spotify_web_downloader/__init__.py,sha256=esYGNsGD9vKJixN6-bSpcgYgxhAezxl29RgIysN60gg,22
+spotify_web_downloader/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+spotify_web_downloader/cli.py,sha256=amBCN50jkmAOhvdcfhoaHsSmsQRpNsftWdx0jJLCUaY,11641
+spotify_web_downloader/constants.py,sha256=-Sm896hRXYM6RVXWoSdCyxVJFiov5d8ITFjmGH1By5A,440
+spotify_web_downloader/downloader.py,sha256=xNrBhjcv03O_9SU9IoRzumxlDm6gwhIvE5Pa4viF7hg,16708
+spotify_web_downloader/hardcoded_wvd.py,sha256=cR3Hqa-lVeeaBVUfKEBm-qSPJvWNfBCBaOXXUCPwHXY,4015
+spotify_web_downloader-1.5.5.dist-info/entry_points.txt,sha256=S5V-c6zs3vW5UGkkFbs5fiQtqOWhcJFBe4oaNTKds6Q,74
+spotify_web_downloader-1.5.5.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+spotify_web_downloader-1.5.5.dist-info/METADATA,sha256=1w3V4R8ZQzs1JmTwGEjOAMJpz0TmgMJD-zGOqwbR9mg,7253
+spotify_web_downloader-1.5.5.dist-info/RECORD,,
