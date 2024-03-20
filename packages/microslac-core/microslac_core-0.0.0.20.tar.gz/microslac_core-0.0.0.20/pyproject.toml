@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "microslac-core"
+version = "0.0.0.20"
+description = ""
+authors = ["tanlda <ledinhanhtan.stack@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "core", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyjwt = "^2.8.0"
+pre-commit = "^3.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
