@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: yunetas
+Version: 0.1.1
+Summary: TUI (Terminal User Interface) of Yunetas
+Author-email: rmm <rosa.martinez@artgins.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: typer[all]>=0.9.0
+
+
