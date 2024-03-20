@@ -1,0 +1,9 @@
+nonebot_plugin_honor-0.2.0.dist-info/METADATA,sha256=iosvv-Jlj2YbtzMxTpnckQO3GJX0hFtGJpkT79swLxo,2444
+nonebot_plugin_honor-0.2.0.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+nonebot_plugin_honor/__init__.py,sha256=k8kNEyfhrnUh7Ebp7BV4GFjohG71FeB-gRglWK1jyxA,535
+nonebot_plugin_honor/constant.py,sha256=ik4ygNkTgUvqFsRptxBF3D1wnppnpp0AyS16MoRrbP8,1396
+nonebot_plugin_honor/draw.py,sha256=5Ow1k5a-mds0IwjWUrKeYiDDq7EcLFnURM2yStDagVw,2038
+nonebot_plugin_honor/main.py,sha256=NBksKhGYdZRWEC7tz2nq2xtbVS2fZZzzdUzCqX8mlFA,1262
+nonebot_plugin_honor/model.py,sha256=lIOkGdqPbZQxgpk2eJeQsiJZOJ2tR0eRnOC_ImHBfMY,359
+nonebot_plugin_honor/utils.py,sha256=xl49iZ2ytme3qwHy8vIGPI1BNr5_1vDLC5BnB2M7rDw,2449
+nonebot_plugin_honor-0.2.0.dist-info/RECORD,,
