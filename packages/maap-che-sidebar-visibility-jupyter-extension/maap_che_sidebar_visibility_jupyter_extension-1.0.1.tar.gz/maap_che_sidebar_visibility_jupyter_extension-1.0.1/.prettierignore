@@ -1,0 +1,6 @@
+node_modules
+**/node_modules
+**/lib
+**/package.json
+!/package.json
+maap_che_sidebar_visibility_jupyter_extension
