@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: backlink_checker
+Version: 0.0.1
+Summary: backlink checker
+Home-page: 
+Author: mr11robot
+Author-email: taha.youssef.fares@gmail.com
+License: MIT
+Keywords: backlinks
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+Requires-Dist: google-oauth2-tool
+Requires-Dist: google-api-python-client
+
+Backlink Checker
+
+
+Change Log
+==========
+
+0.0.1 (2024-03-19)
+-------------------
+- First Release
