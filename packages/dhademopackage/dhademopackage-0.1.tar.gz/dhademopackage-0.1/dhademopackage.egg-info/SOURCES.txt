@@ -1,0 +1,9 @@
+README.md
+setup.py
+dhademopackage/__init__.py
+dhademopackage/demopgm.py
+dhademopackage.egg-info/PKG-INFO
+dhademopackage.egg-info/SOURCES.txt
+dhademopackage.egg-info/dependency_links.txt
+dhademopackage.egg-info/not-zip-safe
+dhademopackage.egg-info/top_level.txt
