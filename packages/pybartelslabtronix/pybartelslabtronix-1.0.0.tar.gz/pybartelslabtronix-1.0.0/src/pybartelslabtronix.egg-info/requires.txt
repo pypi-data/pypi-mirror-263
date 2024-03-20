@@ -1,0 +1,7 @@
+pyserial
+
+[dev]
+black
+bumpver
+pytest
+mypy

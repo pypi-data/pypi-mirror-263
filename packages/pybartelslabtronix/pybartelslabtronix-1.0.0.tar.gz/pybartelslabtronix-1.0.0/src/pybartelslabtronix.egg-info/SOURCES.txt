@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/pybartelslabtronix/__init__.py
+src/pybartelslabtronix/bartelslabtronix.py
+src/pybartelslabtronix/classes.py
+src/pybartelslabtronix/py.typed
+src/pybartelslabtronix/version.py
+src/pybartelslabtronix.egg-info/PKG-INFO
+src/pybartelslabtronix.egg-info/SOURCES.txt
+src/pybartelslabtronix.egg-info/dependency_links.txt
+src/pybartelslabtronix.egg-info/requires.txt
+src/pybartelslabtronix.egg-info/top_level.txt
+tests/test_dummy.py
