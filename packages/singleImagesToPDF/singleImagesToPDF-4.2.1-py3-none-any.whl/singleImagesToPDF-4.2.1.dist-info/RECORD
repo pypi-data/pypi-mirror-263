@@ -1,0 +1,14 @@
+.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+singleImagesToPDF/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+singleImagesToPDF/__init__.py,sha256=3dqJXzdMoW1cpeHH1c5kM-gq6wFEp7UhJbnbnZprQjg,80
+singleImagesToPDF/pdfFromMultiImages.py,sha256=kFC1mCrgWi7XPblG7ZpcGUyzlWMfeGHNu1gqML3cMo4,6173
+singleImagesToPDF/pdfImgCrypt.py,sha256=nlSQBzZsOCw4zX6X7WafaLBup_cE-j1htSOsZDVA_Cs,969
+singleImagesToPDF/salt,sha256=-nNOraJy6DT_6Oe3yAnR_B5XXi30CHudtwHCJeyGfOM,23
+singleImagesToPDF/string1,sha256=D47ubXuR7iBJ5VihXKuaJPvv-OdQhCwIxvm17NbAmKA,14
+singleImagesToPDF/token1,sha256=utYioIxwvwos2nTyqehPm6gxEeXCHbOv0Mr_F7iL2Hk,127
+singleImagesToPDF-4.2.1.dist-info/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+singleImagesToPDF-4.2.1.dist-info/LICENSE.txt,sha256=ukEi8E0PKq1dQGTXHUflg3rppLymwAhr7il9x-0nPgg,1062
+singleImagesToPDF-4.2.1.dist-info/METADATA,sha256=CSOQcx8JT5c_XhThdptd-p9NghAinQ8yGwxRfZqAjIk,2672
+singleImagesToPDF-4.2.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+singleImagesToPDF-4.2.1.dist-info/top_level.txt,sha256=Vrj6vXNqLt8bXaQyzdH9H11Ojdcv5Sb-YYUgVfhjIVU,18
+singleImagesToPDF-4.2.1.dist-info/RECORD,,
