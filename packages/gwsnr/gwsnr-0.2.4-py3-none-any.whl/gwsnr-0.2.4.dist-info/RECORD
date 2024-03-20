@@ -1,0 +1,10 @@
+gwsnr/__init__.py,sha256=LGE6l_LVZxmJT0g4O09f8AyJWQFrUc5lApvIm-I8T1o,412
+gwsnr/gwsnr.py,sha256=llgIs1KX6U13QxAK5dTJ8CZYpd4h9swVQzjLA_KCfZM,58062
+gwsnr/multiprocessing_routine.py,sha256=RXQ8lChS5dfL8qayMFEcdwO1Mq-bl5Rs4sYiKhT1-j8,4085
+gwsnr/njit_functions.py,sha256=aCvO2QhNBQyY8CmIN5G3di7b0R3-l02AdadDylrsC7c,14642
+gwsnr/pdet.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gwsnr/utils.py,sha256=ITBRuuKAUQpXC1yX0d8YnAT7jzYrQ0xidCTGfhmGnHc,14481
+gwsnr-0.2.4.dist-info/METADATA,sha256=SvCGfALkS_MyT4s9SGkGtdqmjjn05PXsxzIH2KZWhoo,496
+gwsnr-0.2.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gwsnr-0.2.4.dist-info/top_level.txt,sha256=6egRRDKKlrJCor3cQWbs3PCvk8DCUczKZsfRBWMd3yw,6
+gwsnr-0.2.4.dist-info/RECORD,,
