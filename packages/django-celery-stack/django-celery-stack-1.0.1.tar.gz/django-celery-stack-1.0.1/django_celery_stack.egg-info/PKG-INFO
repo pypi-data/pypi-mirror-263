@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: django-celery-stack
+Version: 1.0.1
+Summary: A full stack solution for celery and Django compatibility. The merge of django-celery-beat, django-celery-result, django-celery-progress.
+Author-email: Sadam·Sadik <Haoke98@outlook.com>
+Maintainer-email: Sadam·Sadik <Haoke98@outlook.com>
+License: Open Source License (GPL v3)
+        
+        Copyright © Sadam·Sadik 2024
+        
+        This program is free software: you can redistribute it and/or modify it under 
+        the terms of the GNU General Public License as published by the Free Software
+        Foundation, either version 3 of the License, or (at your option) any later version.
+        
+        This program is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY;
+        without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+        See the GNU General Public License for more details.
+        
+        You should have received a copy of the GNU General Public License along with this program.
+        If not, see https://www.gnu.org/licenses/.
+        
+        
+        Commercial License
+        
+        For users who wish to use this software but do not want to comply with the terms of the GPL v3, 
+        Sadam·Sadik offers a commercial license. The commercial license allows the use, copying, modification,
+        and distribution of a closed-source version of this software. For more information on obtaining
+        a commercial license, please contact Haoke98@outlook.com or 1903249375@qq.com .
+        
+Project-URL: Homepage, https://github.com/Haoke98/django-celery-stack
+Project-URL: Documentation, https://github.com/Haoke98/django-celery-stack/README.md
+Project-URL: Repository, https://github.com/Haoke98/django-celery-stack.git
+Project-URL: Bug Tracker, https://github.com/Haoke98/django-celery-stack/issues
+Project-URL: Changelog, https://github.com/Haoke98/django-celery-stack/releases
+Keywords: celery,django,task-scheduler,django-celery-beat,django-celery,django-celery-result,task-distribution,django-celery-progress
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Framework :: Celery
+Classifier: Framework :: Django
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Django Celery Stack
+
+==================
+
+Django Celery Stack & Admin offers the following key features:
+
+
+
+* Asynchronous Task Queue :
+
+    Utilize Celery’s distributed message passing system to delegate CPU-bound tasks to the background, improving the responsiveness and performance of the application.
+
+* Scheduled Task Scheduler:
+
+    With the built-in Celery Beat scheduler, easily arrange periodic tasks such as data synchronization, report generation, etc.
+
+* Task Result Tracking:
+
+    Leverage Celery’s result backend to persist task execution results, making it easier to debug and monitor task status.
+
+* Progress Updates:
+
+    By integrating with django-celery-progress, provide real-time task progress updates to users for interactive feedback.
+
+* Optimized Management Interface:
+
+    Building on the foundation of the three projects, DjangoAsyncAdmin is used to optimize and enhance the interaction and management pages, making it more intuitive and convenient to manage tasks and monitor progress.
+
+* Easy to Integrate and Extend:
+
+    The design of Django Celery Stack & Admin is flexible, allowing for easy integration with other Django applications and Celery components to meet various requirements.
