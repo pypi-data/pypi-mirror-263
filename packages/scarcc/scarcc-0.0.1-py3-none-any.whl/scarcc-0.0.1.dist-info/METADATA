@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: scarcc
+Version: 0.0.1
+Home-page: https://github.com/TFwongw/scarccpy
+Author: Thomas Wong
+Author-email: wong0755@umn.edu
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cobra >=0.26.3
+Requires-Dist: cometspy >=0.4.18
+Requires-Dist: matplotlib >=3.7.1
+Requires-Dist: seaborn
+Requires-Dist: pandas
+
+
+# Simulation of Combined Antibiotics in Cross-feeding Communities (SCARCC)
+
+The documentation is browseable online at [readthedocs](https://scarccpy.readthedocs.io/en/latest/index.html)
