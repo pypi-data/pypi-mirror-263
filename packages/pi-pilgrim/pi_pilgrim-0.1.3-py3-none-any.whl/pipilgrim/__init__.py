@@ -1,0 +1,2 @@
+from pipilgrim.pilgrim_assembly import PilgrimAssembly
+from pipilgrim.file_resource import FileResource
