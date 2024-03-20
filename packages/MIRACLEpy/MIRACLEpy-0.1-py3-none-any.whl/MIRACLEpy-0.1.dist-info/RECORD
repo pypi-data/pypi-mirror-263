@@ -1,0 +1,16 @@
+MIRACLEpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MIRACLEpy/length.py,sha256=cflLp-KnxJCck11ic5deFFHgaDK1f8KsImaFyLsHdVg,3226
+MIRACLEpy/main.py,sha256=OBa8YYECeV_YrmwV1KsIoDdu6d2kgFoCWtX4uE3JrJw,681
+MIRACLEpy/model.py,sha256=IurKrN60p8hypkU9ZLHW5GHn1uwpJZz9oH5gKorsPDY,1680
+MIRACLEpy/paras.py,sha256=n6xf1C0MxFaHG_GpM_XKczuOSAU2Q8mChwSI67v32ns,1888
+MIRACLEpy/statistics.py,sha256=YOsiTXkP4z5fQcDLcaVnqAAKCoYIFaOlEU3Z7qDhLfQ,2633
+MIRACLEpy/units.py,sha256=0ZTH03jQ1R7-puHq-kH_vvSAnCnDZLv-ohEwb8H6sI8,608
+MIRACLEpy/Data/Invariable_Microsatellite_information.bed,sha256=vkSHNxw0rVxCbu7oaI5z1BOFbDJcY1CcN65NJPjeaNY,3708423
+MIRACLEpy/Data/Lengthlist_Reference_normal.txt,sha256=-oSwaXEBGimbRI7vNxUpIZ2NLVWHRdqFBQ9jhlqTtSY,24048028
+MIRACLEpy/Data/Training_data.txt,sha256=PaHRkLt72jRzbK7DzLXCvFx50ZT2Oo5YtiE0RQfoEQo,28496
+MIRACLEpy-0.1.dist-info/LICENSE,sha256=eubRHBwSdRURTKcZ4PYe3e-IGB7BQArCtj6uo_45y0Q,272
+MIRACLEpy-0.1.dist-info/METADATA,sha256=j8VPSsqiq0H4KzU7F2LMY1TuoK9Z9fyQuIaHq-A1YSs,398
+MIRACLEpy-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+MIRACLEpy-0.1.dist-info/entry_points.txt,sha256=pzR2YdZ73RXwr7TqHHsk4e9Hf9M4h6L9G7wtEcs39Og,48
+MIRACLEpy-0.1.dist-info/top_level.txt,sha256=8_BZqWkjle5-0BH52XO9VdpLoijnCVp5LQ4yzJnt-as,10
+MIRACLEpy-0.1.dist-info/RECORD,,
