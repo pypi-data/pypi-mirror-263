@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyeasy_crc"
+version = "0.0.4"
+authors = [
+  { name="Andrei Ruan Steffens", email="andreiruansteffens@gmail.com" },
+]
+description = "Implementação de easy-crc do npm em python"
+readme = "readme.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/olokorre/pyeasy_crc"
+Issues = "https://github.com/olokorre/pyeasy_crc/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pyeasy_crc"]
