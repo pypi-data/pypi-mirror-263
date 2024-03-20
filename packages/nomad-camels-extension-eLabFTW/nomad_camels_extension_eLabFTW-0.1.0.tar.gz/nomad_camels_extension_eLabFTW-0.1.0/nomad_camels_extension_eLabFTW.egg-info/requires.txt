@@ -1,0 +1,2 @@
+nomad-camels>=1.0.0
+elabftw>=0.1.0
