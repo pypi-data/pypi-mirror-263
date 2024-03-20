@@ -1,0 +1,6 @@
+README.txt
+setup.py
+Dvaliko.egg-info/PKG-INFO
+Dvaliko.egg-info/SOURCES.txt
+Dvaliko.egg-info/dependency_links.txt
+Dvaliko.egg-info/top_level.txt
