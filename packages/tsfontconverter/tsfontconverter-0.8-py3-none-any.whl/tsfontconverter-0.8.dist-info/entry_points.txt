@@ -1,0 +1,3 @@
+[tsfontconverter]
+tsfontconverter=tsfontconverter:TSFontConverter
+
