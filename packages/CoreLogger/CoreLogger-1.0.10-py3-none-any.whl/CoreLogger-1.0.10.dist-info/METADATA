@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: CoreLogger
+Version: 1.0.10
+Summary: A simple logger for sending logs to a Loki server for Internal use at IZBB.
+Home-page: https://pypi.org/project/CoreLogger
+Author: Ahmet Kıpkıp
+Author-email: ahmtkipkip@gmail.com
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: python-logging-loki
+
+# CoreLogger
+
+## Description
+
+CoreLogger is a package that provides a simple and flexible logging solution for your application. It allows you to easily log messages with different severity levels and customize the log output.
+
+## Features
+
+- Log messages with different severity levels (e.g., info, warning, error)
+- Customize log output format and destination
+- Easy integration with existing logging frameworks
+- Lightweight and efficient
+
+## Installation
+
+You can install CoreLogger using pip:
+
+```bash
+pip install corelogger
+```
