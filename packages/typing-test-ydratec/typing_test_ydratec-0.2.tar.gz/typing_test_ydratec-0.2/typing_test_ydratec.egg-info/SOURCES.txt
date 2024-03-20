@@ -1,0 +1,6 @@
+README.md
+setup.py
+typing_test_ydratec.egg-info/PKG-INFO
+typing_test_ydratec.egg-info/SOURCES.txt
+typing_test_ydratec.egg-info/dependency_links.txt
+typing_test_ydratec.egg-info/top_level.txt
