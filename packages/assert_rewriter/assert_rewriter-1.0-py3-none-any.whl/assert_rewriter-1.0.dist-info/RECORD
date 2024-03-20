@@ -1,0 +1,10 @@
+assert_rewriter/__init__.py,sha256=jarToSKksoX8pf8KcJTFw2gUvHHH45ZffjoXuhs7ENU,210
+assert_rewriter/compatibility.py,sha256=4W4g74X6x2mNWZLGbNQBlzNVqZLyVLNNGCds5hTpH-k,1296
+assert_rewriter/core.py,sha256=2P9El2r_5ZSqb3SD44v6P9RvUbyiieFZZobJWVZLrTM,11607
+assert_rewriter/samples.py,sha256=puXf6gH4FRFb9OTvveDaVnELEnJR8W8gHTU-XI5OOQU,1079
+assert_rewriter/tests.py,sha256=4DhDgy9wUyqDvBqpJWDPhECkqt9w6VRiOKLuR5o0sh4,3976
+assert_rewriter-1.0.dist-info/LICENSE,sha256=JWdLRaE2n-rDMAOGXpRde0TnltZSt7HFAx9wFraqbMs,1071
+assert_rewriter-1.0.dist-info/METADATA,sha256=Pl5fBrwgdeJl0wJfyqc8WaEraxcXnkARfwWdRnpqGZE,3898
+assert_rewriter-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+assert_rewriter-1.0.dist-info/top_level.txt,sha256=QojBpkXZNhJR6Xa1sqGH67QpK807FxlvOZossE4mfD0,16
+assert_rewriter-1.0.dist-info/RECORD,,
