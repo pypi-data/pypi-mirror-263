@@ -1,0 +1,3 @@
+PyMuPDF
+geopandas
+shapely
