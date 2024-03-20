@@ -1,0 +1,12 @@
+dnssplitter/DNSSplitter.py,sha256=bBD9yGE5TjASN4coR6OPibnk-u7KhSCXPAfxoLqtqrc,8941
+dnssplitter/__init__.py,sha256=8VTlS00z4a1WhHlIQZP-zKWOMVvwQvG7_YX7zGC9FEg,143
+dnssplitter/domains.py,sha256=IgnZJBzpXlPKmRLCMkYwOx5ZIbGOxFcv_0ob7UAeGTo,197015
+dnssplitter/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dnssplitter/scripts/dbdnssplit.py,sha256=bPiBxzL3OJBMO1J8JCil5WNbMx4T5RwT5IYqLY9uXRE,1261
+dnssplitter/scripts/dnssplit.py,sha256=6yZd90Aa3RFi-RGOUZrAbI1PsMhjBapraa7DCRwsMjE,804
+dnssplitter/tests/test_fsdb_splitter.py,sha256=WfbUbM17MVaQ_MzTJvaBq4IMERP6Ka6GhO4k61nGgIQ,864
+dnssplitter/tests/test_psl_parser.py,sha256=dtQwFQjJ-2Z993TJKNp6vp5cXSo-Y6msguiY4GN7EbQ,6928
+dnssplitter-1.1.1.dist-info/METADATA,sha256=YkNyFeADxLLbQb30SFJaluBWKrJbrnpTq246lIhV5t4,1289
+dnssplitter-1.1.1.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+dnssplitter-1.1.1.dist-info/entry_points.txt,sha256=q8tVoXnOY11errJSTFegp7Y4KuvT9XoViNBdYjLb-Ig,112
+dnssplitter-1.1.1.dist-info/RECORD,,
