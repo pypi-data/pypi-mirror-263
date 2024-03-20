@@ -1,0 +1,16 @@
+marscode_baas_sdk/__init__.py,sha256=LawTay4yoirT8FZXqMR2W5kGhxD_IzODuTHw9eFtrvc,52
+marscode_baas_sdk/file.py,sha256=wfoKohUFM4iZY_yLbp4Q8A0S0l8eApOeQyTeNi5I8A4,3324
+marscode_baas_sdk/redis.py,sha256=Iu4sA1rHZVz_juUsXh9fuGvuUE2d8ym__FTSNn50sqM,24694
+marscode_baas_sdk/remote/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+marscode_baas_sdk/remote/auth.py,sha256=1UTU1OvTYus2rstNNLtdtcA5Zl-4mwEiM3QrGI3Zljs,1201
+marscode_baas_sdk/remote/config.py,sha256=BIwo5dpziAJCAF5qP7rWUrRLsaLtm1XvaDLiO1nLnzk,1708
+marscode_baas_sdk/remote/const.py,sha256=LRsxyEgB_f2pSwbi6ylpclfXAetglysdxbrNSw1qNi4,97
+marscode_baas_sdk/remote/file_api.py,sha256=d_-LfP3AxGJ9x91ppoa5ZODGQe3rrIeyZiqqSVwwWhc,5994
+marscode_baas_sdk/remote/redis_api.py,sha256=AzzIF9S5w4YNSQ6rf7Zd6QdeWQ2Eqk2eTaru_37PSNg,1501
+marscode_baas_sdk/remote/utils.py,sha256=fvgs0I1MQ-RwO2eV8-qI23WxJe93HiAR0fNcXl12w2M,2608
+marscode_baas_sdk-0.1.0a5.dist-info/LICENSE,sha256=QYWGlpThBzExU5SnZetMUpNd9JrPUy0D5PJUI9PXTfk,1542
+marscode_baas_sdk-0.1.0a5.dist-info/METADATA,sha256=hkaJnCiQI9R_d6kDarxqzUxAcEHI0xzbNN3aoFxo52g,397
+marscode_baas_sdk-0.1.0a5.dist-info/NOTICE,sha256=68Gc3wJJ_pas3_IjGnblG3_ayb1sQ8bdtxhFMbe4C4E,37
+marscode_baas_sdk-0.1.0a5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+marscode_baas_sdk-0.1.0a5.dist-info/top_level.txt,sha256=es3kN5xsZiBOKEFrwPvtsbgpTBRrnNAmCijhwzY2Qd4,18
+marscode_baas_sdk-0.1.0a5.dist-info/RECORD,,
