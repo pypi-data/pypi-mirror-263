@@ -1,0 +1,9 @@
+simple_chatbot_lib/chatbots/models.py,sha256=oJYYqKIAa85qbJgHAKg-HJfc9BAmOQ6_OtP1N9oa1oE,10200
+simple_chatbot_lib/mappers/messages.py,sha256=AsfCZhg-2Kgm2CCij_GdtzyqyiBIwq2Mtp2dHhH5xfk,2497
+simple_chatbot_lib/services/models.py,sha256=Uvnb2bk696adKgkb_rY7AUfxbtZh_oZr1ZKUpnv7mnc,3460
+simple_chatbot_lib/third_parties/services/rag.py,sha256=aTsU4f8a_IRj_QEV1EUU9PksCj0dAHZkSrd9iySaywA,2272
+simple_chatbot_lib-0.0.5.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+simple_chatbot_lib-0.0.5.dist-info/METADATA,sha256=MunXp0nkAXF2y1qelnIJaq9ry3hk8dC9W-_a2JDYRHc,44484
+simple_chatbot_lib-0.0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+simple_chatbot_lib-0.0.5.dist-info/top_level.txt,sha256=7hJcMd1pZ-Bb2RmaKBktTnfSpKne4HidJEmZAIVknZE,19
+simple_chatbot_lib-0.0.5.dist-info/RECORD,,
