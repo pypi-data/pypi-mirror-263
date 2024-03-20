@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "approxscimate"
+version = "0.0.1"
+authors = [
+  { name="Lucian Negru", email="l.negru@student.tudelft.nl" },
+  { name="Eleni Papadopoulou", email="e.papadopoulou@student.tudelft.nl" },
+  { name="Yang Li", email="yli59@tudelft.nl" }
+]
+description = "A package for approximating SciPy functions"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "LGPL-3.0-only"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/MissingCurlyBracket/ApproxSciMate"
+Issues = "https://github.com/MissingCurlyBracket/ApproxSciMate/issues"
