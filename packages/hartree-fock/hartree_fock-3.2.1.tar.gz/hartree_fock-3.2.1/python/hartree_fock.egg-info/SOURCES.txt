@@ -1,0 +1,15 @@
+COPYING.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+python/hartree_fock.egg-info/PKG-INFO
+python/hartree_fock.egg-info/SOURCES.txt
+python/hartree_fock.egg-info/dependency_links.txt
+python/hartree_fock.egg-info/requires.txt
+python/hartree_fock.egg-info/top_level.txt
+python/triqs_hartree_fock/__init__.py
+python/triqs_hartree_fock/impurity.py
+python/triqs_hartree_fock/lattice.py
+python/triqs_hartree_fock/utils.py
+python/triqs_hartree_fock/version.py
