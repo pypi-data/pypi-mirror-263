@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: linearfit
+Version: 1.0.2
+Summary: python package that implements a general least-squares fit of a linear model using numpy matrix inversion
+Home-page: https://github.com/Johannes-Sahlmann/linearfit
+Author: Johannes Sahlmann
+Author-email: jsahlmann@stsci.edu
+License: BSD 3-Clause
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: numpy
+
+python package that implements a general least-squares fit of a linear model using numpy matrix inversion
