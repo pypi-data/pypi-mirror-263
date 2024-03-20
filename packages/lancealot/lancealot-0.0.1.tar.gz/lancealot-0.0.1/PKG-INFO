@@ -1,0 +1,25 @@
+Metadata-Version: 2.3
+Name: lancealot
+Version: 0.0.1
+Summary: Because I like LanceDB, a lot. 
+Project-URL: Documentation, https://github.com/unknown/lancealot#readme
+Project-URL: Issues, https://github.com/unknown/lancealot/issues
+Project-URL: Source, https://github.com/unknown/lancealot
+Author-email: vincent d warmerdam <vincentwarmerdam@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# lancealot
+Utils for LanceDB, because I like LanceDB, a lot.
