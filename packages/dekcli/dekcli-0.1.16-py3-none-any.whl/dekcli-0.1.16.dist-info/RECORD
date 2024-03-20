@@ -1,0 +1,12 @@
+dekcli-0.1.16.dist-info/METADATA,sha256=P3OKid_rFKZZpqikC6BXA7k4hdguzAItmpgBnzreG3k,561
+dekcli-0.1.16.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+dekcli-0.1.16.dist-info/entry_points.txt,sha256=nyniCEtYzeOUDxO6_lIXpxA-WgZvvjlsOlcSgoI60Mc,56
+dekcli/__init__.py,sha256=M4aeF9luO6lNlTHomP38cjhMhb0NfK7LdjRwQDNZYx4,732
+dekcli/click/__entry__.py,sha256=wZoXCwWy7LBIQnf9EyaBRI8iUlp1a2eloRSWvtd0-b4,118
+dekcli/click/__init__.py,sha256=p84Vh1d4rwvBtw0xk6nxNDBSda6yEhKTgjTKCR-zC9s,54
+dekcli/click/gitea.py,sha256=g4GqVfknlo2k8YlxjHxK5LvUYXr5CH6DlEH3zPEah68,4187
+dekcli/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dekcli/core/git/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dekcli/core/git/ref.py,sha256=a0KqH3le21YvCzcSlc5Gu-Lz1HSDliPABzQPyIFSR9E,209
+dekcli/core/git/repo.py,sha256=kU5ysK5NY8Swz6jzusywGDHuUfD-Qpe6OrpDv4Kx5o0,1513
+dekcli-0.1.16.dist-info/RECORD,,
