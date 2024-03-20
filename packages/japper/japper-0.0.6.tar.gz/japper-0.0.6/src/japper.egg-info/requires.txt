@@ -1,0 +1,12 @@
+setuptools
+pdoc3
+ipyvuetify
+ipywidgets
+ipykernel
+jinja2
+rich-click
+rich
+
+[runtime]
+voila
+jupyterlab
