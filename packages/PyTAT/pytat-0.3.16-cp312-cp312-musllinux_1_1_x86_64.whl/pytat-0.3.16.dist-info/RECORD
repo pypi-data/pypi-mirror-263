@@ -1,0 +1,10 @@
+TAT.cpython-312-x86_64-linux-musl.so,sha256=Svug3H2jobb6RGdAi5mUq4jG4cAu6ryBFzZUC2-Aqx4,21291361
+pytat.libs/libquadmath-1b17c16b.so.0.0.0,sha256=rFF-dkyIYN0bRtl4Gk381TnLbxaY1iifH_BmSbFwF6I,235681
+pytat.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
+pytat.libs/libopenblasp-r0-52d5fd6e.3.9.so,sha256=J8_tlKRVNogx1CHm2aS3Y2r8JTkn5_f2y6ephZRQCR8,29262177
+pytat.libs/libstdc++-a9383cce.so.6.0.28,sha256=Wy9UCdwS1rwI9GU5e7qE61S0AkRqqwti1q_adWSs-Rk,2447393
+pytat.libs/libgfortran-c4ef5775.so.5.0.0,sha256=ABEv63TdOq5kBx3poedlKfDkrZdvM08jGcNJpL4kUY8,1892577
+pytat-0.3.16.dist-info/RECORD,,
+pytat-0.3.16.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytat-0.3.16.dist-info/METADATA,sha256=tswAQLgFPOc0IXymjPd4c-ibA0E2YCL10t_uZE7s5TI,54883
+pytat-0.3.16.dist-info/WHEEL,sha256=Kzbh139TfJlDr6YiysYiOQmyTx5fL8rh3vVnPx5swMU,116
