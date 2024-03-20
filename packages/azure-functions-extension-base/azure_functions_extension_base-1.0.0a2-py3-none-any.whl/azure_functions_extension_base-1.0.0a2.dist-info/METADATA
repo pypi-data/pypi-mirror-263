@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: azure-functions-extension-base
+Version: 1.0.0a2
+Summary: Base Python worker extension for Azure Functions.
+Author: Azure Functions team at Microsoft Corp.
+Author-email: azurefunctions@microsoft.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Environment :: Web Environment
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.8
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: flake8 ~=4.0.1 ; extra == 'dev'
+Requires-Dist: flake8-logging-format ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: requests ==2.* ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: pytest-instafail ; extra == 'dev'
+
