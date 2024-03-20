@@ -1,0 +1,13 @@
+rpyc==4.1.5
+dill<=0.3.2
+plumbum<=1.6.9
+numpy
+
+[test]
+mypy
+black
+isort
+flake8
+bumpver
+pip-tools
+pytest
