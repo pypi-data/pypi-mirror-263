@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: calculator_auramila
+Version: 0.0.1
+Summary: Python package performing simple calculator functions
+Author-email: Aura Milasiute <milasiute.aura@gmail.com>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Homepage, https://github.com/auramila/calculator
+
+## Project Title
+
+Calculator is a Python package for performing simple calculator functions:
+
+addition (+)
+subtraction (-)
+multiplication (*)
+division (/)
+root of number (√)
+
+## Installation
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+# Prerequisites
+
+What things you need to install the software and how to install them
+
+## Authors
+
+**Aura Milasiute** - [GitHub](https://github.com/auramila)
+
+## License
+
+This project is licensed under the MIT License - https://choosealicense.com/licenses/mit/
+
+## Acknowledgments
+
+Thank you Turing College
+
