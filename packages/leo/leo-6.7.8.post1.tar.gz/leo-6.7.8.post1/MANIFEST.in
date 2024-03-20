@@ -1,0 +1,19 @@
+
+# Order matters!
+
+# Include *everything* in the leo folder.
+graft leo
+
+global-exclude *.py[cod] *.__pycache__ *.so
+global-exclude *.mypy_cache, *.mypy_stubs, *.gitattributes, *.htmlcov
+
+# Add files in the top-level leo-editor folder.
+
+include *.py
+include *.TXT
+
+# Tweaks
+
+prune leo/unittests/htmlcov
+prune leo/doc/html
+include leo/doc/html/conf.py
