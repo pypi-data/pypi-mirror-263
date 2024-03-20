@@ -1,0 +1,2 @@
+Version: 1.5.4
+Arguments: ['C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-n844rm_g\\cp310-win_amd64\\build\\venv\\Scripts\\delvewheel', 'repair', '--add-path', 'C:/vcpkg/installed/x64-windows/bin/', '--namespace-pkg', 'roseau', '-w', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-n844rm_g\\cp310-win_amd64\\repaired_wheel', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-n844rm_g\\cp310-win_amd64\\built_wheel\\roseau_load_flow_engine-0.13.0-cp310-cp310-win_amd64.whl']
