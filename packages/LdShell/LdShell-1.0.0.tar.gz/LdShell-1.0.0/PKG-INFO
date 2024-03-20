@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: LdShell
+Version: 1.0.0
+Summary: LdShell
+Author: Me
+Author-email: me@example.com
+Requires-Dist: requests
+Requires-Dist: json
