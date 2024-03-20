@@ -1,0 +1,6 @@
+database:
+  user: root
+  host: 127.0.0.1
+  database: data
+  password: India@123
+  port: 3306
