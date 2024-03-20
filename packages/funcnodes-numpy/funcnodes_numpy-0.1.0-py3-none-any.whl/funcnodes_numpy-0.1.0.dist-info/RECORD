@@ -1,0 +1,17 @@
+funcnodes_numpy/__init__.py,sha256=tIp4iZNy9dqkPQh5h-2S0OFG-q0W2eyIrBY2_eeD-v0,12661
+funcnodes_numpy/_array_creation.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funcnodes_numpy/_core/__init__.py,sha256=NP38Q8xqOin6lz-CeMsxTR1G2epsVrwaHgkDM5Q7mfk,146923
+funcnodes_numpy/_core/_datetime.py,sha256=pQPJEOQseXg95uA7OVvKICsWuKBrVRMlNhG9gBL0CyM,481
+funcnodes_numpy/_core/_defchararray.py,sha256=ILiXm5juMe0QyKhBFpyhN3kAhK7l_Bbtem2eAf72RhU,1183
+funcnodes_numpy/_core/_fromnumeric.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funcnodes_numpy/_core/_multiarray.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funcnodes_numpy/_dtypes.py,sha256=aXJsy7b173yq-Y7xY9khVEotl9kuQ6qeCL3Tf62Lha0,3816
+funcnodes_numpy/_lib/__init__.py,sha256=6s9UacaYWOp3n29yL0kUZYFiqVtoY2BaZKkTV8d1a8Q,93
+funcnodes_numpy/_lib/scimath.py,sha256=UUl4k2vT5qmqtqErsI793TKDhXPmpQGvVCNvKAtvLNQ,3016
+funcnodes_numpy/_linalg/__init__.py,sha256=rYJCLfsxgIi2mhNEzkxgFk1G2EzpntLlpyYAtnlzHzw,23
+funcnodes_numpy/_linalg/_linalg.py,sha256=pg-EqHKp7PZ9Ru8htE_zdCGIUkUdb8mszRWDRayC5Ro,9835
+funcnodes_numpy/_ndarray.py,sha256=UwyzH_D52Psn8C2DE86v1yuQDHWs60SrQEvBWAjLuuM,14523
+funcnodes_numpy/_types.py,sha256=ejQ8J8MzbrgUgz-UmqHt8FZ5Ti3Wb4cODhJBD7f2TEk,3332
+funcnodes_numpy-0.1.0.dist-info/METADATA,sha256=KIcAG0TJnfyN8ZcFXczB8DhAk1sEyX-pihpkoOl1AeU,478
+funcnodes_numpy-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+funcnodes_numpy-0.1.0.dist-info/RECORD,,
