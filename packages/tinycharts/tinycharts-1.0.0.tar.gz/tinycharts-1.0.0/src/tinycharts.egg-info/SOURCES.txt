@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+src/tinycharts/__init__.py
+src/tinycharts/tinycharts.py
+src/tinycharts.egg-info/PKG-INFO
+src/tinycharts.egg-info/SOURCES.txt
+src/tinycharts.egg-info/dependency_links.txt
+src/tinycharts.egg-info/top_level.txt
