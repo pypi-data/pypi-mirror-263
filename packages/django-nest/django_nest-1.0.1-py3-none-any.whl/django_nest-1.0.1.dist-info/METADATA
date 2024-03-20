@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: django-nest
+Version: 1.0.1
+Summary: DjangoNest: A Python CMS with the Elegance of Django DjangoNest is a Content Management System (CMS) built with a powerful combination of Python and Django, providing an agile and flexible development experience. The project was born from the need to create an intuitive solution for efficient content management in web environments.
+Home-page: https://github.com/TechFourGood/django_nest
+License: MIT
+Author: pratadaniel94
+Author-email: danielprata@outlook.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: gitpython (>=3.1.41,<4.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://github.com/TechFourGood/django_nest
+Description-Content-Type: text/markdown
+
+# 🚀 Project 🚀
+DjangoNest: A Python CMS with the Elegance of Django
+DjangoNest is a Content Management System (CMS) built with a powerful combination of Python and Django, providing an agile and flexible development experience. The project was born from the need to create an intuitive solution for efficient content management in web environments.
+# 🔧 Functionalities 🔧
+ [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=B200F7&multiline=true&random=&width=435&height=200&lines=+Intuitive+content+management;+Robust+API+for+integration;+Extensible+through+plugins;User-friendly+administrative+interface)](https://git.io/typing-svg)
+![logo](https://i.ibb.co/xsFqYxs/logo.png)
+
+## 📘 User Guide 📘
+
+### Installation
+To install Django Nest, use the following command:
+
+```bash
+🛠️ pip3 install django-nest
+```
+
+### Create a New Project
+To start a new Django Nest project, you can choose from the following options:
+
+1. Using the startproject command:
+
+```bash 
+🌟 python3 -m django_nest startproject "myproject"
+```
+
+2. Cloning an existing project from the repository:
+
+```bash
+🌟 git clone "https://github.com/TechFourGood/django_nest/" "my_project"
+```
+
+After creating the project, navigate to the project directory:
+
+```bash
+📁 cd "my_project"
+```
+
+#### Setting up the Database
+
+To start the database, use the following command with Docker Compose:
+```bash
+🗃️ docker-compose up db -d
+```
+### Starting the Application
+To start the application, use the following command with Docker Compose:
+
+```bash
+📱 docker-compose up app
+ ```
+
+**Note:**
+[Docker](https://docs.docker.com/engine/install/) and [Docker Compose](https://docs.docker.com/compose/) are required to run the application. Make sure to install them before starting the application.
+
+Now you're ready to begin working on your Django Nest project! If you have any questions or need more information, refer to the official documentation at [DjangoNest]().
+
+
+## 👥 Contributors 👥
+
+| Github User                                            | Face 🤭                                                                                          |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| [@pratadaniel94](https://www.github.com/pratadaniel94) | <img src="https://avatars.githubusercontent.com/u/27214522?v=4" height="30px" align="center"  /> |
+
+
+Contributions are welcome! Feel free to open issues and submit pull requests.
+
