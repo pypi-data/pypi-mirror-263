@@ -1,0 +1,6 @@
+include README.md
+include setup.py
+include package/*.py
+
+src.data.json
+src.requirements.txt

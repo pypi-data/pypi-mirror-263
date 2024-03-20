@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+package/__init__.py
+package/main.py
+package/src/birthdays.py
+package/src/check.py
+package/src/classes.py
+package/src/disk.py
+package/src/services.py
+package/src/validate.py
+terminaal.egg-info/PKG-INFO
+terminaal.egg-info/SOURCES.txt
+terminaal.egg-info/dependency_links.txt
+terminaal.egg-info/entry_points.txt
+terminaal.egg-info/requires.txt
+terminaal.egg-info/top_level.txt

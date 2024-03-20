@@ -1,0 +1,2 @@
+[console_scripts]
+terminaal = package.main:main
