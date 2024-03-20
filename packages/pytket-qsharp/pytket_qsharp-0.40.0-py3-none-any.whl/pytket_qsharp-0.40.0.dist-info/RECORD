@@ -1,0 +1,16 @@
+pytket/extensions/qsharp/__init__.py,sha256=OQbm4jEGg--whu8rNpcANag6l08An0hAxM1h942cUrs,975
+pytket/extensions/qsharp/_metadata.py,sha256=d6sckKWFGQxquF_HYKMSbCmvdtaiYVxzzcyCMVcwtPo,70
+pytket/extensions/qsharp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytket/extensions/qsharp/qsharp_convert.py,sha256=he_bw3eoDwQJBQ5680038Dfcroy7By93rRiNkNUBkGc,4890
+pytket/extensions/qsharp/backends/__init__.py,sha256=cqJs30nklzUoo1kzic9QE3UJx1nUw7IHsIjjxxsk_Tw,852
+pytket/extensions/qsharp/backends/azure_quantum.py,sha256=Ku4B__9SXICKtrzKT1hra7l6EkT8R2Ytiyj2D85vOQg,11525
+pytket/extensions/qsharp/backends/common.py,sha256=X6TFNQbmKy2CJeok78srQ6y5WaUUvKZmF7_JMWOVIpc,5921
+pytket/extensions/qsharp/backends/config.py,sha256=H2J2akgusQ9glBS2IW7DGh_MzKB4DFMdnB2i5MJWu0U,1841
+pytket/extensions/qsharp/backends/estimator.py,sha256=Y53mVqC3cdAoQUZZ72aBdusvngv6LgOeACuokjThD54,2400
+pytket/extensions/qsharp/backends/simulator.py,sha256=KYathA7Ak8cAFD0oQXacI73xhaZN1HF22Tc_2VitXfM,1638
+pytket/extensions/qsharp/backends/toffoli.py,sha256=1CtPAK5JxxsvBdJIWZRX8tliuEdceQPTDvzBS4wCDpo,2661
+pytket_qsharp-0.40.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pytket_qsharp-0.40.0.dist-info/METADATA,sha256=DIA0nxXrHL-cQkGlKm1Kx9AcobXVRRNhYUbYaid_TJk,5637
+pytket_qsharp-0.40.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pytket_qsharp-0.40.0.dist-info/top_level.txt,sha256=GsvCQQpJ7P8Vrx4ydtbjs36yufXiD59vSbbQFtFgcQ0,7
+pytket_qsharp-0.40.0.dist-info/RECORD,,
