@@ -1,0 +1,31 @@
+# pyproject.toml test file
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hciexport"
+
+# alpha: 1.4.4a1; beta: 1.4.4.b1; release candidate: 1.4.4rc1; final: 1.4.4; later fixes:: 1.4.4post1
+# <-- older -- release -- newer -->
+version = "0.4.0a2"
+description = "HCI configuration and workflow export; index backup/restore"
+readme = "README.rst"
+requires-python = ">=3.8"
+dependencies = ["httpx",
+               ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://hciexport.readthedocs.io/en/latest/"
+Issues = "https://gitlab.com/simont3/hciexport/issues"
+
+[options.packages.find]  # (always `find` even if `find_namespace:` was used before)
+where=["."]  # . by default
+
+[project.scripts]
+hciexport = "hcilib.__main__:main"
