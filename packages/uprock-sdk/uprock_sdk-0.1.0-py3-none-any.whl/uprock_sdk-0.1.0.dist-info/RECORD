@@ -1,0 +1,9 @@
+uprock_sdk/__init__.py,sha256=WiO4uvqY5oAn7GfL_p0R6cdohFWTM2QK1jn4TqgLSmM,105
+uprock_sdk/client.py,sha256=0DrxTjaUClw8qxz3rN0TixhvJy8ols2HO6AZzc1CBI0,122
+uprock_sdk/customers.py,sha256=qFHRlcCbXxAN4gcvlDekl3Qre2ePOfCBcoSlD_OGORs,1436
+uprock_sdk/messages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uprock_sdk/settings.py,sha256=aNPmOa9U7uVJNpVCNS6sGCptNiXz7YqERQRBScuWT6A,451
+uprock_sdk/telegram_bots.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uprock_sdk-0.1.0.dist-info/METADATA,sha256=lgVBQ7lvmxDpN5QDaifvHBmvUpzQijSV8qqVVnBUfNY,536
+uprock_sdk-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+uprock_sdk-0.1.0.dist-info/RECORD,,
