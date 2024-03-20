@@ -1,0 +1,7 @@
+README.md
+setup.py
+sophia_optim.egg-info/PKG-INFO
+sophia_optim.egg-info/SOURCES.txt
+sophia_optim.egg-info/dependency_links.txt
+sophia_optim.egg-info/requires.txt
+sophia_optim.egg-info/top_level.txt
