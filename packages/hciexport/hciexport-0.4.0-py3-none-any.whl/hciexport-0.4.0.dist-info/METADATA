@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: hciexport
+Version: 0.4.0
+Summary: HCI configuration and workflow export; index backup/restore
+Project-URL: Homepage, https://hciexport.readthedocs.io/en/latest/
+Project-URL: Issues, https://gitlab.com/simont3/hciexport/issues
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Requires-Dist: httpx
+
+HCI export
+==========
+
+Each and every IT system needs some sort of backup/restore, and Hitachi Content Intelligence (HCI)
+is not different. On one hand, system configuration needs to be secured, but also Workflow details need
+to be kept safe, and eventually even versioned. Indexes might need backup, as well - even if it's often
+possible to re-index the data sources.
+
+The **hciexport** tool wraps some of HCI's features related to these needs
+into a convenient automation tool.
+
+Features included are:
+
+    *   Configuration export:
+
+        *   Export a complete Workflow bundle (all Workflow-related *configuration* like DataSources,
+            Pipelines, Indexes, Content Classes, Workflows)
+
+        *   Export the complete System configuration (all system configuration, plugins, as well as the
+            Workflow configuration)
+
+    *   Control backup and restore of Indexes:
+
+        *   list existing indexes
+        *   start index backup, get backup status, list backup iterations, delete backups
+        *   start index restore, get restore status
+
+Dependencies
+------------
+
+You need to have at least Python 3.8 installed to run **hciexport**.
+
+It depends on the `httpx <https://www.python-httpx.org>`_ for
+communication with HCI.
+
+Documentation
+-------------
+
+To be found at `readthedocs.org <http://hciexport.readthedocs.org>`_
+
+Installation
+------------
+
+Install **hciexport** by running::
+
+    $ pip install hciexport
+
+
+-or-
+
+get the source from `gitlab.com <https://gitlab.com/simont3/hciexport>`_,
+unzip and run::
+
+    $ python setup.py install
+
+
+-or-
+
+Fork at `gitlab.com <https://gitlab.com/simont3/hciexport>`_
+
+Contribute
+----------
+
+- Source Code: `<https://gitlab.com/simont3/hciexport>`_
+- Issue tracker: `<https://gitlab.com/simont3/hciexport/issues>`_
+
+Support
+-------
+
+If you've found any bugs, please let me know via the Issue Tracker;
+if you have comments or suggestions, send an email to `<sw@snomis.eu>`_
+
+License
+-------
+
+The MIT License (MIT)
+
+Copyright (c) 2020-2024 Thorsten Simons (sw@snomis.eu)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
