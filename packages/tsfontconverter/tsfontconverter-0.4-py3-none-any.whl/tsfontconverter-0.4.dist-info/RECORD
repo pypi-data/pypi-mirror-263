@@ -1,0 +1,12 @@
+fontmodel/FontInfo.py,sha256=tsuW7aat-RcoEYFsfd7Icq_KXHMp98JqxbQrqfYbzK4,1350
+fontmodel/FontMetadata.py,sha256=VSz6y-Jc1XeSoHLrH8d0JK50dLLwle1dHZi3WpJFjgM,1736
+fontmodel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fontparser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fontparser/fontparser.py,sha256=x6Hb_pjmbhI95HLGZHQGsEqZknFqjp-fEZBL1Rh5nDE,3751
+tsfontconverter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tsfontconverter/tsfontconverter.py,sha256=5ayRdPWkS7Q_ba00GInoiDZSz0hot8aPcn8OiaDvulQ,465
+tsfontconverter-0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tsfontconverter-0.4.dist-info/METADATA,sha256=Lu1H30K2UfW4UJlAB-2L5y6hNHNrk2tQ23Nr64gweWc,563
+tsfontconverter-0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tsfontconverter-0.4.dist-info/top_level.txt,sha256=26kmCGl5U9Q2_dYOiFBFKueYRPxMNtP0ll6mV7hLxkg,37
+tsfontconverter-0.4.dist-info/RECORD,,
