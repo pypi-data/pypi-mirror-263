@@ -1,0 +1,24 @@
+[tool.ruff]
+extend = "C:/CUSTOM_ASSETS/pyproject.toml"
+[tool.ruff.format]
+quote-style = "single"
+indent-style = "space"
+
+[tool.poetry]
+name = "nekoweb"
+version = "0.1.1"
+description = "Nekoweb API wrapper"
+authors = ["TheCreatorrr333"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+requests = "^2.31.0"
+tcrutils = "^12.0.122"
+httpx = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
