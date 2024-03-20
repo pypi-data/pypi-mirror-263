@@ -1,0 +1,3 @@
+[console_scripts]
+crosstalk = crosstalk.crosstalk:main
+

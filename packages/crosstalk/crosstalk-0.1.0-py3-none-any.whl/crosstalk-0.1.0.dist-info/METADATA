@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: crosstalk
+Version: 0.1.0
+Summary: A package for exploring problems iteratively using OpenAI and local summarization.
+Home-page: UNKNOWN
+Author: David Condrey
+Author-email: davidcondrey@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: openai
+Requires-Dist: transformers
+
+UNKNOWN
+
+
