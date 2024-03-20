@@ -1,0 +1,12 @@
+gesture_recognition_tools/__init__.py,sha256=w3oSW7O-9j6F38KPuXdhxnPdHs-zarlt_Nmmtyua_OE,48
+gesture_recognition_tools/main.py,sha256=AYzP4aQwATzDRyMBmm4ynpUzaKw1K2xpTY22rUZO8z0,1013
+gesture_recognition_tools/recognition.py,sha256=PCn0PyXFJ-UiXY6ZLYVaUFDknAqqHEn9E8x5Ftjlaaw,7186
+gesture_recognition_tools/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gesture_recognition_tools/utils/action_recognizer.py,sha256=f7jx0buTjtP1N3odfuLksZ7zQ4doigDrL63FdkQbnDo,3358
+gesture_recognition_tools/utils/common.py,sha256=jFDJHD2yq3E_XipROjayaV0hqao6FPdd5K2YQ-k9bF4,3308
+gesture_recognition_tools/utils/person_detector.py,sha256=etqt5DDk20NtcTyLRKDfRags1sqVKeCYsKSiQ5nzAng,2896
+gesture_recognition_tools/utils/tracker.py,sha256=UXYOLCNcN356RYCR6wGZD-39rqs3lBbDa_rqtRJbgwo,8733
+gesture_recognition_tools-1.0.0.dist-info/METADATA,sha256=gLD8RYCHpa1Tfylef_R0LbV5ckLgocDKamjCc4R-b10,510
+gesture_recognition_tools-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gesture_recognition_tools-1.0.0.dist-info/top_level.txt,sha256=nkUaomQvAyaqi1Xcx7HbCKnqss6a93bacRdzHE2oWZ8,26
+gesture_recognition_tools-1.0.0.dist-info/RECORD,,
