@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pygac
+Version: 1.7.3
+Summary: NOAA AVHRR GAC/LAC reader and calibration
+Home-page: https://github.com/pytroll/pygac
+Author: The Pytroll Team
+Author-email: pytroll@googlegroups.com
+License: GPLv3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: docutils>=0.3
+Requires-Dist: numpy>=1.8.0
+Requires-Dist: pyorbital>=v0.3.2
+Requires-Dist: h5py>=2.0.1
+Requires-Dist: scipy>=0.8.0
+Requires-Dist: python-geotiepoints>=1.1.8
+Requires-Dist: bottleneck>=1.0.0
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+
+pygac
+=====
+
+[![Build](https://github.com/pytroll/pygac/actions/workflows/ci.yaml/badge.svg)](https://github.com/pytroll/pygac/actions/workflows/ci.yaml)
+[![Coverage](https://codecov.io/gh/pytroll/pygac/branch/main/graph/badge.svg?token=DQMgf2LxuM)](https://codecov.io/gh/pytroll/pygac)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5832775.svg)](https://doi.org/10.5281/zenodo.5832775)
+
+
+Pygac is a Python package to read, calibrate and navigate data from the AVHRR 
+instrument onboard NOAA and MetOp satellites in GAC and LAC format.
+
+The documentation is available at https://pygac.readthedocs.io/.
