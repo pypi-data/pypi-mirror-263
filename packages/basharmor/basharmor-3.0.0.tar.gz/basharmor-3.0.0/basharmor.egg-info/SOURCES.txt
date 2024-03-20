@@ -1,0 +1,5 @@
+setup.py
+basharmor.egg-info/PKG-INFO
+basharmor.egg-info/SOURCES.txt
+basharmor.egg-info/dependency_links.txt
+basharmor.egg-info/top_level.txt

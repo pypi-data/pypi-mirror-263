@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: basharmor
+Version: 3.0.0
+Summary: Bash Armor is a tool to encryption bash scripts with armor
+Home-page: https://github.com/Azigaming404
+Author: Aji permana
+Author-email: ajip51517@gmail.com
+License: MIT
+Description: basharmor adalah tools untuk melakukan enkripsi pada file bash. Ini cocok digunakan pada sistem operasi Ubuntu 20.04.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Security
+Classifier: Topic :: Utilities
