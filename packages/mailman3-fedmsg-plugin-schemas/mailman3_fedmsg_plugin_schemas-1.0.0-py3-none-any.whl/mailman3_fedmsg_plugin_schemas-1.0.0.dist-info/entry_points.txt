@@ -1,0 +1,3 @@
+[fedora.messages]
+mailman.messageV1=mailman3_fedmsg_plugin_schemas:MessageV1
+

@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mailman3-fedmsg-plugin-schemas
+Version: 1.0.0
+Summary: A schema describing fedora-messaging messages sent by mailman
+Home-page: http://github.com/fedora-infra/mailman3-fedmsg-plugin
+License: LGPL-3.0-or-later
+Keywords: fedora,fedora-messaging
+Author: Aurélien Bompard
+Author-email: aurelien@bompard.org
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Communications
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: fedora-messaging (>=3.4.1,<4.0.0)
+Project-URL: Repository, http://github.com/fedora-infra/mailman3-fedmsg-plugin
+Description-Content-Type: text/markdown
+
+This package contains the Fedora Messaging schema for messages emitted by Mailman 3.
+
