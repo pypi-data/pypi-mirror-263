@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: PyIPe
+Version: 0.1
+Summary: A library for retrieving public IP addresses
+Author: twinsszi
+Author-email: adhm90879@email.com
+Keywords: ip
+Requires-Dist: requests
