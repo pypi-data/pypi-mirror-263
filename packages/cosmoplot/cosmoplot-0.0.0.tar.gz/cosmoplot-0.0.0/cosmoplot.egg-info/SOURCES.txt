@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+cosmoplot.egg-info/PKG-INFO
+cosmoplot.egg-info/SOURCES.txt
+cosmoplot.egg-info/dependency_links.txt
+cosmoplot.egg-info/top_level.txt
