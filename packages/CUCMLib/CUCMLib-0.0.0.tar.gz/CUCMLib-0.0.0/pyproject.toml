@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "CUCMLib"
+version = "0.1.8"
+description = "CUCM ile etkileşim için bir kütüphane"
+authors = "Safa Başsemir"
+license = "MIT"
+include = ["*.wsdl", "*.xsd"]
+readme = "README.md"
+keywords=["Cisco", "Call Manager", "CUCM"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+zeep = "^4.1.0"
+requests = "^2.27.1"
+termcolor = "^1.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+black = "^22.3.0"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+coverage = "^6.3.2"
+bandit = "^1.7.4"
+python-decouple = "^3.6"
+ipykernel = "^6.13.0"
+notebook = "^6.4.11"
+mkdocstrings = "^0.19.0"
+
