@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+name = "PyBitgetApi"
+version = "3.0.0"
+description = "A sample Python project"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["sample", "setuptools", "development"]
+
+authors = [
+  {name = "Joseph barracuda", email = "joseph@gmail.com" }
+]
+
+maintainers = [
+  {name = "A. Great Maintainer", email = "maintainer@example.com" }
+]
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Build Tools",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.urls]
+"Source" = "https://github.com/joseph-team/bitget-api"
+
+[project.scripts]
+sample = "sample:master"
+
+[tool.setuptools]
+package-data = {"sample" = ["*.dat"]}
