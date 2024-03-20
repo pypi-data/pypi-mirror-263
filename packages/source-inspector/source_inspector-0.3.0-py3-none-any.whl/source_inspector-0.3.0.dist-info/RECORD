@@ -1,0 +1,13 @@
+source_inspector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+source_inspector/strings_xgettext.py,sha256=PeJx9pNfBTID17OOMzqzgaYJvyOYUlX_ANRNWC_w0l4,6579
+source_inspector/symbols_ctags.py,sha256=9Qn8kqFsEtRsIkKuwG_Ifp7APPGQL8eb1Teao147vmM,4049
+source_inspector-0.3.0.dist-info/AUTHORS.rst,sha256=zxpHODPI8F7JZYf83g8QFcjdTwpIpjkQYZQuIBuuDY0,125
+source_inspector-0.3.0.dist-info/CHANGELOG.rst,sha256=jiJeUDD_UB2t7YBwwKhXgeeh3YWlXJ6L1MhoXrOh7PE,677
+source_inspector-0.3.0.dist-info/CODE_OF_CONDUCT.rst,sha256=xXDTFpYY3Y7JoxrWADihieUvhGlwJc_oxsbmLJaBvE4,3422
+source_inspector-0.3.0.dist-info/METADATA,sha256=Zhe_LRgNTaLIXRRtNRPbcbLIdbEXbmHcdBCVjqT0lvY,2781
+source_inspector-0.3.0.dist-info/NOTICE,sha256=SM7ELF-ckyHeexaDSX7P2EqDbjYkb6S8c_CWcsdMyXM,752
+source_inspector-0.3.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+source_inspector-0.3.0.dist-info/apache-2.0.LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+source_inspector-0.3.0.dist-info/entry_points.txt,sha256=1bOzEFIrGhaMNlId_OpjOZeEXi0lLlhKvbN0rsjJ8mc,166
+source_inspector-0.3.0.dist-info/top_level.txt,sha256=14WXrcdoRZ72JGGeBcsPwg-cW_ctPYVL3SpAShDV9zk,17
+source_inspector-0.3.0.dist-info/RECORD,,
