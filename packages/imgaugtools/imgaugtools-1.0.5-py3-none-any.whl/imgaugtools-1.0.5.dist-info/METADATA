@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: imgaugtools
+Version: 1.0.5
+Summary: easy to use image augmentation tool
+Home-page: UNKNOWN
+Author: Abhinav Chaturvedi
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.0)
+Requires-Dist: opencv-python (>=4.5.1)
+Requires-Dist: scipy (>=1.8.0)
+
+UNKNOWN
+
