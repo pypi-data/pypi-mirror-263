@@ -1,0 +1,9 @@
+commitai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+commitai/cli.py,sha256=e6AxBnTBRW4yjl8lmzYBYWaVDdpZQ97UV3k81IvjLzY,4766
+commitai/git.py,sha256=XWAloZWQuLrFHUyfh3SkOgLsL4kfKRtgj3fzuJjcL2A,1649
+commitai/template.py,sha256=KlAhYUgea1rXpih6TyFeZ2rU8qN1H-VfZpMt7Wi8dZA,1137
+commitai-0.1.15.dist-info/METADATA,sha256=OY1TmzjiCPg6NAwFsGW25hFQ8an79s_Wo5Ug5W2a8ro,4382
+commitai-0.1.15.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+commitai-0.1.15.dist-info/entry_points.txt,sha256=KS-RBWo8XGrU1a11k6FgRCIwjGq8X5Zs-OuY8ri9BYU,116
+commitai-0.1.15.dist-info/top_level.txt,sha256=X76OfoBOic7IkaMkIgobuZxsVlsmcY_WMtBrtXtfn_w,9
+commitai-0.1.15.dist-info/RECORD,,
