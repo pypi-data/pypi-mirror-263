@@ -1,0 +1,6 @@
+setup.py
+pjsinghs_pypi_package.egg-info/PKG-INFO
+pjsinghs_pypi_package.egg-info/SOURCES.txt
+pjsinghs_pypi_package.egg-info/dependency_links.txt
+pjsinghs_pypi_package.egg-info/top_level.txt
+sample_project/__init__.py
