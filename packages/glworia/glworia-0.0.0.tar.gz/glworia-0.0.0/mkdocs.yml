@@ -1,0 +1,46 @@
+site_name: glworia
+site_url: "https://mhycheung.github.io/jaxqualin/"
+site_author: Mark Ho-Yeuk Cheung
+repo_url: https://github.com/mhycheung/glworia
+repo_name: GitHub
+
+theme: material
+
+nav:
+  - Home: index.md
+  - Tutorial:
+    - Computing the amplification factor: tutorial/example_amplification_minimal.ipynb
+    - Constructing an interpolation table: tutorial/interpolation_tutorial.md
+    - Loading an interpolation table: tutorial/example_load_interpolation.ipynb
+    - Parameter estimation: tutorial/PE_tutorial.md
+  - API:
+    - glworia.amp.amplification_factor: api/amp/amplification_factor.md
+    - glworia.amp.contour: api/amp/contour.md
+    - glworia.amp.interpolate: api/amp/interpolate.md
+    - glworia.amp.lens_functions: api/amp/lens_functions.md
+    - glworia.amp.lens_model: api/amp/lens_model.md
+    - glworia.amp.load_interp: api/amp/load_interp.md
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      ignore_h1_titles: True
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_submodules: true
+            show_source: false
+            heading_level: 4
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+
+extra_javascript:
+  - docs/javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
