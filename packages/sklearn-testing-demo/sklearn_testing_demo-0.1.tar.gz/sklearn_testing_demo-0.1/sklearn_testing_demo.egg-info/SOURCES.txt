@@ -1,0 +1,9 @@
+setup.py
+sklearn/__init__.py
+sklearn/datasets/__init__.py
+sklearn/datasets/make_regression.py
+sklearn_testing_demo.egg-info/PKG-INFO
+sklearn_testing_demo.egg-info/SOURCES.txt
+sklearn_testing_demo.egg-info/dependency_links.txt
+sklearn_testing_demo.egg-info/requires.txt
+sklearn_testing_demo.egg-info/top_level.txt
