@@ -1,0 +1,10 @@
+swiftrank/__init__.py,sha256=4M_ZwwrtC64Qf7q36IeAbsgGj3DgFNnaiaw5k--QpUs,77
+swiftrank/cli/__init__.py,sha256=SuV-zdH1dPgViS-qBVlO6IRQyp1o3-J7W4shMI8kfJ0,3766
+swiftrank/cli/utils.py,sha256=V1IIBN1TCNOmtrvGZZVo13zVRP7J5wnmwdCEzMXP6gs,1967
+swiftrank/ranker.py,sha256=T06BtgC--B7WLvemLmsvkFPjc1P9eLuNeBIr1SKDBTs,7745
+swiftrank/settings.py,sha256=xh4Zbx6PdmTBTR1Te6OvtYEDAqxgYak1n6tLEoki95k,1712
+swiftrank-1.2.0.dist-info/entry_points.txt,sha256=tjr5eR0bu2MXAHN7tlw6z18nT88rKIGTdAmMheBszSg,81
+swiftrank-1.2.0.dist-info/LICENSE,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+swiftrank-1.2.0.dist-info/METADATA,sha256=UhYtO4hF_GBwL_c8xA_1PUEr_Z9D0xLTzlj5gl5HeUo,25595
+swiftrank-1.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+swiftrank-1.2.0.dist-info/RECORD,,
