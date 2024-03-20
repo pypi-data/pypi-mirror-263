@@ -1,0 +1,7 @@
+llama_index/llms/bedrock/__init__.py,sha256=IIvF-Qjfu2c8ZzDYWQEgTCbBIlBdLEV5rYrG-59KEm8,216
+llama_index/llms/bedrock/base.py,sha256=7zIvMJNw_PUaMn9QbJg5JiQr1JBlLjyC8rETVMVbvCo,11323
+llama_index/llms/bedrock/llama_utils.py,sha256=0reg0Sy-KFQSqZry9kTY3q0E_omMb51EcX6DHMEVFfI,2248
+llama_index/llms/bedrock/utils.py,sha256=AxnDh43HaprNxtHurwGOlEss82RJ-iyzpimv1Ao_C_w,8224
+llama_index_llms_bedrock-0.1.5.dist-info/METADATA,sha256=LTRT7ssURO9_1GepbanmX0b674yewBEYM0ELrQAGNpo,687
+llama_index_llms_bedrock-0.1.5.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+llama_index_llms_bedrock-0.1.5.dist-info/RECORD,,
