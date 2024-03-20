@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "flask-exts"
+dynamic = ["version"]
+description = 'Flask extensions with babel, forms, fields, widgets, admin and so on.'
+readme = "README.rst"
+license = { file = "LICENSE.txt" }
+keywords = ["flask","extension","babel", "admin", "form", "widget"]
+authors = [
+  { name = "huadong", email = "david.dong.hua@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Build Tools",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "flask>=3.0",
+    "wtforms>=3.0",
+    "flask-babel>=4.0",
+    "Flask-SQLAlchemy>=3.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/ojso/flask-exts"
+Documentation = "https://github.com/ojso/flask-exts#readme"
+Issues = "https://github.com/ojso/flask-exts/issues"
+Source = "https://github.com/ojso/flask-exts"
+
+[tool.hatch.version]
+path = "src/flask_exts/__about__.py"
