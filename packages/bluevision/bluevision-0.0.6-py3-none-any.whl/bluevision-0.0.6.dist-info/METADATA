@@ -1,0 +1,145 @@
+Metadata-Version: 2.1
+Name: bluevision
+Version: 0.0.6
+Summary: Bluesignal Vision AI project
+Project-URL: Documentation, https://github.com/dh031200/bluevision#readme
+Project-URL: Issues, https://github.com/dh031200/bluevision/issues
+Project-URL: Source, https://github.com/dh031200/bluevision
+Author-email: dh031200 <imbird0312@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Keywords: AI,Bluesignal,computer-vision
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
+Requires-Dist: lapx>=0.5.2
+Requires-Dist: loguru
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: safetensors
+Requires-Dist: scipy
+Requires-Dist: supervision
+Requires-Dist: torch
+Requires-Dist: torchvision
+Description-Content-Type: text/markdown
+
+<div align=center>
+
+![logo](assets/logo.png)
+
+# bluevision
+
+[![PyPI - Version](https://img.shields.io/pypi/v/bluevision.svg)](https://pypi.org/project/bluevision)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/bluevision.svg)](https://pypi.org/project/bluevision)
+</div>
+
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Test](#test)
+- [License](#license)
+
+## Installation
+
+```console
+pip install bluevision
+```
+
+## Usage
+
+### Simple video demo
+```python
+from bluevision.demo import video_demo
+
+video_demo(
+    weights="yolov8s-coco.safetensors",
+    video_path="sample.mp4",
+    model_size="s",
+    track=True,
+    show=True,
+    save_path="output.mp4",
+)
+```
+
+### Video Inference Process
+
+```python
+import cv2
+import supervision as sv
+import bluevision as bv
+from bluevision.utils import to_supervision_detections, make_labels
+
+# Initialize
+detector = bv.solutions.Detector(model=bv.solutions.detector.models.Yolov8(size='s'),
+                                 nms=bv.utils.nms.soft_nms,
+                                 weights="yolov8s.safetensors")
+tracker = bv.utils.tracker.BYTETracker(track_thresh=0.15, match_thresh=0.9,
+                                       track_buffer=60, frame_rate=30)
+box_annotator = sv.BoundingBoxAnnotator(thickness=2)
+label_annotator = sv.LabelAnnotator(text_scale=0.5, text_padding=2)
+
+# Load sample video
+vid = cv2.VideoCapture('sample.mp4')
+
+# Start
+while True:
+    ret, original_image = vid.read()
+    if not ret:
+        break
+
+    detections = detector(original_image)
+    detections = tracker.update(detections)
+
+    # Draw bboxes using supervision
+    sv_detections = to_supervision_detections(detections)
+    annotated_frame = box_annotator.annotate(
+        scene=original_image,
+        detections=sv_detections,
+    )
+    annotated_frame = label_annotator.annotate(
+        scene=annotated_frame,
+        detections=sv_detections,
+        labels=make_labels(sv_detections)
+    )
+
+    cv2.imshow('annotated image', annotated_frame)
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+cv2.destroyAllWindows()
+```
+
+## BlueVision
+
+### Solution
+
+**[Object Detector](https://github.com/dh031200/BlueVision/tree/main/src/bluevision/solutions/detector)**
+
+## Utils
+
+**[NMS](https://github.com/dh031200/BlueVision/tree/main/src/bluevision/utils/nms)**
+**[Object Tracker](https://github.com/dh031200/BlueVision/tree/main/src/bluevision/utils/tracker)**
+
+## Test
+
+```text
+$ python test_with_time.py
+Using device: mps
+preprocess: 0.00225s, infer: 0.015508s, postprocess: 0.01313s, track: 0.00108s, draw: 0.000670s, total: 0.03462s, t-avg: 0.03576s
+total frame : 1050
+total elapsed time: 56.25610s
+total inference time: 37.55273s
+```
+
+## License
+
+`bluevision` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
