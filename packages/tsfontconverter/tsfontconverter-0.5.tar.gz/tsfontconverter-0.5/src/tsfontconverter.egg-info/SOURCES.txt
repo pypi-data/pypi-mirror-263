@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/fontmodel/FontInfo.py
+src/fontmodel/FontMetadata.py
+src/fontmodel/__init__.py
+src/fontparser/__init__.py
+src/fontparser/fontparser.py
+src/tsfontconverter/__init__.py
+src/tsfontconverter/tsfontconverter.py
+src/tsfontconverter.egg-info/PKG-INFO
+src/tsfontconverter.egg-info/SOURCES.txt
+src/tsfontconverter.egg-info/dependency_links.txt
+src/tsfontconverter.egg-info/requires.txt
+src/tsfontconverter.egg-info/top_level.txt

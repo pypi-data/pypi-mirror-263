@@ -1,0 +1,3 @@
+fonttools
+pytest
+python-dotenv
