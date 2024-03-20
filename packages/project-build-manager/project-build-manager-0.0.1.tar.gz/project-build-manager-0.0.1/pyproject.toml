@@ -1,0 +1,6 @@
+[project]
+name='project-build-manager'
+version='0.0.1'
+
+[project.scripts]
+cli-name = "src.app:cli"
