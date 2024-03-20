@@ -1,0 +1,2 @@
+carabiner-tools[pd]>=0.0.1.post2
+pandas
