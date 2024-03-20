@@ -1,0 +1,24 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+        args:
+          - "--markdown-linebreak-ext=md"
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.3.1
+    hooks:
+      - id: ruff-format
+      - id: ruff
+  - repo: local
+    hooks:
+      - id: mypy
+        name: mypy
+        types: [ python ]
+        language: system
+        entry: sh -c 'if which pipenv >/dev/null && pipenv run which mypy >/dev/null; then pipenv run type-check; else echo Skipping; fi'
+        pass_filenames: false
+
+default_language_version:
+  python: python3.11
