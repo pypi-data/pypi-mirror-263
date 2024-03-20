@@ -1,0 +1,15 @@
+grpcio-tools==1.50.0
+pandas
+protobuf==4.21.9
+snowflake-connector-python
+tabulate
+
+[mysql]
+mysql-connector-python
+pymysql
+
+[postgres]
+psycopg2-binary
+
+[redshift]
+psycopg2-binary
