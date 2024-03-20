@@ -1,0 +1,28 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "kirpi"
+authors = [{name = "Ali", email = "alisher.abdimuminov.2005@gmail.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = [
+    "psycopg",
+    "click"
+]
+
+[project.scripts]
+kirpi = "kirpi.cli:main"
+
+
+[project.urls]
+Home = "https://github.com/alisherabdimuminov/kirpi/"
+
+[tool.ruff]
+src = ["src"]
+fix = true
+show-fixes = true
+show-source = true
