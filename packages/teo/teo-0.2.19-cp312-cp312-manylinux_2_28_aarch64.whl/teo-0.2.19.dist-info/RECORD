@@ -1,0 +1,10 @@
+teo-0.2.19.dist-info/METADATA,sha256=OVI08Z-SeBwJ-k2bEr553Q8rJl98ukMMXxoWSYaCqhA,609
+teo-0.2.19.dist-info/WHEEL,sha256=4Gfvw96aK8ihUrCaEBslSHIkgF6dzxV9KClmna9FMO4,109
+teo-0.2.19.dist-info/entry_points.txt,sha256=o2q3ii7cRKw3dwifdwyQBipbxq_LRa_o3JJFIGN0__I,35
+teo-0.2.19.dist-info/license_files/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+teo/__init__.py,sha256=zyZ-H029UIUQTwyIE0WFhgCC1H4j6pLU83BHmPkYbC8,2713
+teo/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+teo/__init__.pyi,sha256=4Ad9kmS1d4HEPquqPprnQ1VJRJjdQmwlXVnU6uADids,15321
+teo/cli.py,sha256=IKEeFOaqCvTRD73O5fGxzkNc7ifVfsH9FiKhY1IJIFc,106
+teo/teo.cpython-312-aarch64-linux-gnu.so,sha256=cEfRF99VsOO3u-dfe9iBQjgI-m2tPvFCZdngKjfxZt4,51701472
+teo-0.2.19.dist-info/RECORD,,
