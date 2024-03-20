@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pellets
+Version: 0.1.1
+Summary: Pellets is a Python library for managing LLM prompts.
+Author: teleoflexuous
+Author-email: teleoflexuous@proton.me
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: orjson (>=3.9.15,<4.0.0)
+Requires-Dist: pydantic (>=2.6.2,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+Pellets is a Python library for managing LLM prompts.
