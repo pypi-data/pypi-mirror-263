@@ -1,0 +1,1 @@
+from adikfraction.module_a import Fraction

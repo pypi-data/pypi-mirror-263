@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+adikfraction/__init__.py
+adikfraction/module_a.py
+adikfraction.egg-info/PKG-INFO
+adikfraction.egg-info/SOURCES.txt
+adikfraction.egg-info/dependency_links.txt
+adikfraction.egg-info/top_level.txt
