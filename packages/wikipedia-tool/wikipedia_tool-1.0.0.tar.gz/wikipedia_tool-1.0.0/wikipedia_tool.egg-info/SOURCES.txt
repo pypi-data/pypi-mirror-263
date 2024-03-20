@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+wikipedia_tool/__init__.py
+wikipedia_tool.egg-info/PKG-INFO
+wikipedia_tool.egg-info/SOURCES.txt
+wikipedia_tool.egg-info/dependency_links.txt
+wikipedia_tool.egg-info/requires.txt
+wikipedia_tool.egg-info/top_level.txt

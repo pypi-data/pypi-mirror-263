@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: wikipedia_tool
+Version: 1.0.0
+Summary: API wrapper for wikipedia
+Home-page: https://github.com/spy404/wikipedia_tool
+Author: spy404
+Author-email: tahadaneshmand.2009@proton.me
+License: MIT
+Keywords: wikipedia,api,tool,spy404
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: requests
