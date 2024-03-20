@@ -1,0 +1,11 @@
+whitebox_workflows-1.2.5.dist-info/METADATA,sha256=hrgMk18azzDtjiDIVnE8honxzPtqW8cq5p_tdDpyqHU,11506
+whitebox_workflows-1.2.5.dist-info/WHEEL,sha256=xHx4MTFVGTioQqKTlQqO1-qdDr58L6Fx5_KoufP7tVc,94
+whitebox_workflows-1.2.5.dist-info/license_files/LICENSE.txt,sha256=uBmnn03dDa5bOiHwTs9qtqcTwrWnhNbulJZYGJUJGyc,163
+whitebox_workflows/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whitebox_workflows/scripts/horton_ratios.py,sha256=Xm3eBw_2sJXQEocEEYOOeqCLR4JkFQEUsT-WzovurDw,8129
+whitebox_workflows/scripts/scripts.py,sha256=B1t8uiSjyZc1JbLbeKCflhtSfF5JirVLhBk9LiTdtUk,1045
+whitebox_workflows/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whitebox_workflows/whitebox_workflows.pyi,sha256=09ql_Rmr7EN3Cv0haeF6QRL1Po7kRtKz-_JB146vN_8,90874
+whitebox_workflows/__init__.py,sha256=ZcBynVGOhE1cWGJ3zRF3nARtkCIFqO43QFcfrhUU9n0,4140
+whitebox_workflows/whitebox_workflows.pyd,sha256=awvoq9XfAbipzEy6Xi6i6CUfGPkoiLH3evGdG00oZTo,30513152
+whitebox_workflows-1.2.5.dist-info/RECORD,,
