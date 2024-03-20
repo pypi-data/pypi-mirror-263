@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "tangent-works"
+version = "0.0.3"
+description = "Tangent Works Python Client."
+authors = ["Tangent Works"]
+readme = "README.md"
+homepage = "https://tangent.works/"
+documentation = "https://docs.tangent.works/"
+packages = [{include = "tangent_works"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+pandas = "^2.2.0"
+multimethod = "^1.11.1"
+requests-mock = "^1.11.0"
+azure-identity = "^1.15.0"
+azure-keyvault-secrets = "^4.8.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+pytest-cov = "^4.1.0"
+pytest-dotenv = "^0.5.2"
+pylint = "^3.0.3"
+autopep8 = "^2.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
