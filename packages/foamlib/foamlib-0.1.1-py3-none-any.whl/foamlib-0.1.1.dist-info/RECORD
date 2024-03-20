@@ -1,0 +1,10 @@
+foamlib/__init__.py,sha256=hB5dMCjK4YASfpQtSQWgB0EA20i5tENVs0s1QdGFl_o,253
+foamlib/_cases.py,sha256=v9awebmvJsFPFCqlcJVZa21GwMNwx924Lxg22Tc-KV0,20669
+foamlib/_dictionaries.py,sha256=CYwcKK4aVSoTLoJsV5Pj-h-9_bL6QhDOREpr8lO8shs,9046
+foamlib/_subprocesses.py,sha256=5vqdQvpN_2v4GgDqxi-s88NGhZ6doFxkh0XY89ZWuHA,1926
+foamlib/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foamlib-0.1.1.dist-info/LICENSE.txt,sha256=5Dte9TUnLZzPRs4NQzl-Jc2-Ljd-t_v0ZR5Ng5r0UsY,35131
+foamlib-0.1.1.dist-info/METADATA,sha256=JU26FfS-17tbAKquXnEYsl3nVSPVaMB3MzlzIVNmY0g,4357
+foamlib-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+foamlib-0.1.1.dist-info/top_level.txt,sha256=ZdVYtetXGwPwyfL-WhlhbTFQGAwKX5P_gXxtH9JYFPI,8
+foamlib-0.1.1.dist-info/RECORD,,
