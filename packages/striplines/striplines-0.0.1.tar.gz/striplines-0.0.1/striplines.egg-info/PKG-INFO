@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: striplines
+Version: 0.0.1
+Summary: Calculates magnetic fields produced by striplines in real and fourier space
+Author: Will Henderson
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >3.0

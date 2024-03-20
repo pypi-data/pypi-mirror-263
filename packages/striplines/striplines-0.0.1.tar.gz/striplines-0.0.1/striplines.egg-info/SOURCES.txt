@@ -1,0 +1,8 @@
+setup.py
+./striplines/__init__.py
+./striplines/cpw.py
+./striplines/strip.py
+striplines.egg-info/PKG-INFO
+striplines.egg-info/SOURCES.txt
+striplines.egg-info/dependency_links.txt
+striplines.egg-info/top_level.txt
