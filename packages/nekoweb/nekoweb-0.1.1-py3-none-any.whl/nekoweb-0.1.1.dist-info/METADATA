@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nekoweb
+Version: 0.1.1
+Summary: Nekoweb API wrapper
+License: GPLv3
+Author: TheCreatorrr333
+Requires-Python: >=3.12,<3.13
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: httpx (>=0.27.0,<0.28.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: tcrutils (>=12.0.122,<13.0.0)
+Description-Content-Type: text/markdown
+
+# Nekoweb API wrapper
+
+- [ ] XSync
+- [x] Httpx
+- [ ] ask chat gpt for forwarding the self parameter to a dot-accessed thing
+
