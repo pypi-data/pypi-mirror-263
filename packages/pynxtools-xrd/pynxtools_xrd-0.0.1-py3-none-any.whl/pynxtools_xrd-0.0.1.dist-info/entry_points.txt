@@ -1,0 +1,2 @@
+[pynxtools.reader]
+srd = pynxtools_xrd.reader:XRDReader
