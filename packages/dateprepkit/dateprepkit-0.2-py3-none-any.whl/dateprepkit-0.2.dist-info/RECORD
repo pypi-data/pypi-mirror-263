@@ -1,0 +1,9 @@
+src/__init__.py,sha256=EezFs4N9qnygSK3wfYpXdVxGQaOXUh1WDeOD1isj_mo,101
+src/data_prep_kit.py,sha256=pEuF0c1Ocku7_DkKONNk_C-x7aKXBzsXdy557z7YhYs,1753
+src/example.py,sha256=yUo5ErvGJMV6hjzK6mfb9qNXo1oX8z_4TzJJplLR6Co,663
+dateprepkit-0.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+dateprepkit-0.2.dist-info/METADATA,sha256=ys1pAOWAy2f5N31JoMhl6Z85QDCO2D5AKFI2oUGqkPw,2911
+dateprepkit-0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dateprepkit-0.2.dist-info/entry_points.txt,sha256=jDgPrLOvrBWDkXjY2w9zwWhg8vqo_lepO8c30MBR_sI,45
+dateprepkit-0.2.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+dateprepkit-0.2.dist-info/RECORD,,
