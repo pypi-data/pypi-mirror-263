@@ -1,0 +1,7 @@
+README.md
+setup.py
+exocanoe.egg-info/PKG-INFO
+exocanoe.egg-info/SOURCES.txt
+exocanoe.egg-info/dependency_links.txt
+exocanoe.egg-info/top_level.txt
+pycanoe/__init__.py
