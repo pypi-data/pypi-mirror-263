@@ -1,0 +1,8 @@
+pyggle/__init__.py,sha256=WLJXz6CUkU2YVdQZ7EM3z8qGL4hXSjg1X92KkuVANQE,278
+pyggle/boggle.py,sha256=8isKzNYnDLyLKBTSDFuoLF2rNWnzBXQbF7rUxeRi8LA,6008
+pyggle/functions.py,sha256=z-EBFJdgL99P4iqTCqHzcRYGbdbVC4vCIH0oQgbOi4Y,456
+pyggle/data/words_alpha.txt,sha256=_h8qm_DYcvHINn_DSeSm-OgwCwa2KU6lFnSDsrxJYSc,4234917
+pyggle-1.1.311.dist-info/METADATA,sha256=Kp3StA8DPTsLyr2rw-lwUXy40JeUfC7JMBZWKvX-2og,3028
+pyggle-1.1.311.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyggle-1.1.311.dist-info/top_level.txt,sha256=kaKlpw75RW_2XPGCV8Vf2GOR642YQt1KTP6y2yOu2gc,14
+pyggle-1.1.311.dist-info/RECORD,,
