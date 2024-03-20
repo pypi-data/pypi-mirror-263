@@ -1,0 +1,15 @@
+numpy
+matplotlib
+scipy
+numpydoc
+scikit-image
+more_itertools
+pint<0.20
+pandas
+tqdm
+lazy_import
+rich
+gdown
+tensorflow<=2.10
+tensorflow-probability
+tensorflow-datasets<=4.8.3
