@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "xinfcli"
+version = "0.1"
+description = "A simple client for inference."
+authors = [{ name = "Kotenokov", email = "kotenokov@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["aiohttp>=3.8.4", "numpy>=1.22.2"]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.8",
+]
+
+[project.urls]
+Homepage = "https://github.com"
+Issues = "https://github.com"
+
+[tool.hatch.build.targets.sdist]
+include = ["api/", "config_classes/", "model_utils/", "utils/"]
+ignore-vcs = true
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/xinfcli"]
