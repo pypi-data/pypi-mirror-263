@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: prompt_graph
+Version: 0.1
+Summary: a python libray which supports many graph prompt models.
+Home-page: https://github.com/sheldonresearch/ProG
+Author: Chenyi Zi
+Author-email: barristan666@gmai.com
+License: MIT
+Requires-Python: >=3.9
+License-File: LICENSE.txt
