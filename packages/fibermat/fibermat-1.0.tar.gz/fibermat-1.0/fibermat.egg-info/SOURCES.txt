@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+fibermat/__init__.py
+fibermat/interpolation.py
+fibermat/mat.py
+fibermat/mesh.py
+fibermat/model.py
+fibermat/net.py
+fibermat/render.py
+fibermat/solver.py
+fibermat.egg-info/PKG-INFO
+fibermat.egg-info/SOURCES.txt
+fibermat.egg-info/dependency_links.txt
+fibermat.egg-info/top_level.txt
