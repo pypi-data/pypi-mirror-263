@@ -1,0 +1,2 @@
+[console_scripts]
+fmiprecice = fmiprecice.runner:main
