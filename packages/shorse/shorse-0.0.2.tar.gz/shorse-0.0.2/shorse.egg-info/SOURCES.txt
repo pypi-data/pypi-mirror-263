@@ -1,0 +1,8 @@
+setup.py
+shorse/__init__.py
+shorse/shorse.py
+shorse.egg-info/PKG-INFO
+shorse.egg-info/SOURCES.txt
+shorse.egg-info/dependency_links.txt
+shorse.egg-info/requires.txt
+shorse.egg-info/top_level.txt
