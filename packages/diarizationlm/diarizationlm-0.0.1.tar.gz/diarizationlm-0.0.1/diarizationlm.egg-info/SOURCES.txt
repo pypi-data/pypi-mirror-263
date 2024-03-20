@@ -1,0 +1,6 @@
+README.md
+setup.py
+diarizationlm.egg-info/PKG-INFO
+diarizationlm.egg-info/SOURCES.txt
+diarizationlm.egg-info/dependency_links.txt
+diarizationlm.egg-info/top_level.txt
