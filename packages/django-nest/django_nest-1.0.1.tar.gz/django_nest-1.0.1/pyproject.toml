@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "django-nest"
+license = "MIT"
+repository = "https://github.com/TechFourGood/django_nest"
+version = "1.0.1"
+description = "DjangoNest: A Python CMS with the Elegance of Django DjangoNest is a Content Management System (CMS) built with a powerful combination of Python and Django, providing an agile and flexible development experience. The project was born from the need to create an intuitive solution for efficient content management in web environments."
+authors = ["pratadaniel94 <danielprata@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+gitpython = "^3.1.41"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
