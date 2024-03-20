@@ -1,0 +1,11 @@
+globgroups/.gitignore,sha256=hOKKRaf1dNRLYY30fgIgh3ebcYpflxX_Hhh5VPsa6CY,69
+globgroups/__init__.py,sha256=89UF6NttQP5cVpmlKyYE6IQrnLTcuTcC0NcrXgo0PH0,4642
+globgroups/__main__.py,sha256=tdF_oV-mnGy-I_FPIUhRhDeku86WmJysfCM97F7FeTM,469
+globgroups/_parse.py,sha256=_Vh9of9Rom6E3TPIMOaPdnJ2npjGlSnD75rznbW6waI,1891
+globgroups/_version.py,sha256=Oyc9y0OASs6hclFyRSV74Z5QQbtBl8B7vmOzP0ghWLk,413
+globgroups/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+globgroups-0.1.0b2.dist-info/LICENSE.txt,sha256=j-cByzywZL3P4C26D-0fDDoJEGxZ-p12DCA5wYBZunc,1067
+globgroups-0.1.0b2.dist-info/METADATA,sha256=eyilFsRuwzoVL7j9gMEjl2NVMKMWA0O5NoVZ4tqkGeg,1162
+globgroups-0.1.0b2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+globgroups-0.1.0b2.dist-info/top_level.txt,sha256=WWQOOyeNLFv73gi3UP6ZVkoyAVeGVsrHkghDc95kSrc,11
+globgroups-0.1.0b2.dist-info/RECORD,,

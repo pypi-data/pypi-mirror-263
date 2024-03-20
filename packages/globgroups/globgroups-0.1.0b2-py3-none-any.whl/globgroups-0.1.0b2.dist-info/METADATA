@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: globgroups
+Version: 0.1.0b2
+Summary: Expands glob groups like foo{bar,baz} -> ["foobar", "foobaz"]
+Author: Techcable
+License: MIT License
+Project-URL: Bug Tracker, https://github.com/Techcable/globgroups.py/issues
+Project-URL: Source Code, https://github.com/Techcable/globgroups.py
+Keywords: glob,globset,globgroups,wildcard,expansion
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: System :: System Shells
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: funcparserlib ==1.*
+Requires-Dist: typing-expansions >=4.4
+
+# globgroups [![PyPI - Version](https://img.shields.io/pypi/v/globgroups)](https://pypi.org/projects/globgroups)
+Expands glob groups like `foo{bar,baz}` -> `["foobar", "foobaz"]`
+
+Does not (currently) support wildcards like `*.txt`, because those are context-sensitive.
+
+## Notes
+There is a rust version of this library [globgroups.rust](https://github.com/Techcable/globgroups.rust)
