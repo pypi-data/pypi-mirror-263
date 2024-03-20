@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cnp-make
+Version: 0.0.2
+Summary: Crea la estructura principal para el desarrollo de nuevos modulos
+Home-page: https://github.com/linuxivan
+Author: Ivan Perez Louzan
+Author-email: iperez@coninpe.es
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
