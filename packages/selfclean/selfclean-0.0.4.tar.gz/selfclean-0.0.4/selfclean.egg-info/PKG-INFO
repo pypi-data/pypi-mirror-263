@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: selfclean
+Version: 0.0.4
+Summary: A holistic self-supervised data cleaning strategy to detect irrelevant samples, near duplicates and label errors.
+Home-page: https://github.com/Digital-Dermatology/SelfClean
+Author: Fabian Groeger
+Author-email: fabian.groeger@unibas.ch
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
