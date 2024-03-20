@@ -1,0 +1,20 @@
+name: matbench-genmetrics
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.6
+  - pip
+  - ipython
+  - matplotlib
+  - plotly
+  - python-kaleido
+  - pip:
+     - -e .  # install git checkout of matbench-genmetrics in editable mode
+
+  # DEVELOPMENT ONLY PACKAGES
+  - pytest
+  - pytest-cov
+  - tox
+  - pre_commit
+  - sphinx
