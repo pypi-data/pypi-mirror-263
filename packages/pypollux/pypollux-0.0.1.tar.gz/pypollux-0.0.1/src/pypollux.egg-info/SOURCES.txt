@@ -1,0 +1,12 @@
+LICENSE
+README.md
+VERSION
+pyproject.toml
+requirements.txt
+src/pollux_env/__init__.py
+src/pollux_env/env_manager.py
+src/pypollux.egg-info/PKG-INFO
+src/pypollux.egg-info/SOURCES.txt
+src/pypollux.egg-info/dependency_links.txt
+src/pypollux.egg-info/requires.txt
+src/pypollux.egg-info/top_level.txt

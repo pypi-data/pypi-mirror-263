@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pypollux
+Version: 0.0.1
+Summary: Pollux.ai python package
+Author-email: Chang Oh <choh@pollux.ai>
+Maintainer-email: Chang Oh <choh@pollux.ai>
+License: 2024 pollux.ai inc all rights reserved.
+Project-URL: Homepage, https://pollux.ai
+Project-URL: Documentation, https://github.com/pollux-ai/pollux-llm
+Project-URL: Repository, https://github.com/pollux-ai/pollux-llm.git
+Project-URL: Issues, https://github.com/pollux-ai/pollux-llm/issues
+Project-URL: Changelog, https://github.com/pollux-ai/pollux-llm/blob/main/CHANGELOG.md
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-dotenv
+
+# pollux-llm
+pollux-llm library
