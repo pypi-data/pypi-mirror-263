@@ -1,0 +1,14 @@
+ncdata/__init__.py,sha256=3erP9l46EWibcCo-2Yg1MtAJQncWLYVoRlXE5gVsA_U,698
+ncdata/_core.py,sha256=DLL7IZIMFYopFgeOIfyDhbihT0t2WuG7WgmYh4pQF0A,18094
+ncdata/_version.py,sha256=PKIMyjdUACH4-ONvtunQCnYE2UhlMfp9su83e3HXl5E,411
+ncdata/dataset_like.py,sha256=9eV41Cx0olVTfeZC1SLSGSuGV0SNf9tDbgBDr-_hPCw,17453
+ncdata/iris.py,sha256=OpN7ZeoBmkxrA0wyZYoIZ7pGvVxWB0FN0gIojIT78r0,2133
+ncdata/iris_xarray.py,sha256=t3kij8AcBIJUd47RoVfQZFUkoyQgK1MSoAR9XJepul0,2814
+ncdata/netcdf4.py,sha256=wd-A8VbiuRXIW6T1W_CQ1rQwYDzA65TkArW1lKpSZlQ,10167
+ncdata/threadlock_sharing.py,sha256=TpGoMs2YmEZ3jwwNXhYeGGVvdn_XmV9cTmNHKqDZq3w,4488
+ncdata/xarray.py,sha256=gGbPpDzCXsms5hu9IsML81Sdln9-Lq7wTbBBouDLugk,6479
+ncdata-0.1.1.dist-info/LICENSE,sha256=T3JQ3XHfUjiNtWujtobkbOjGqvCqss4Qv2Z8pqSkuDQ,1501
+ncdata-0.1.1.dist-info/METADATA,sha256=LPCWxxovXT14JYlaKtAtc2Vfls3SMLby9AoHNgjWXDU,11999
+ncdata-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ncdata-0.1.1.dist-info/top_level.txt,sha256=8WCm4WTQKn_woEZuiAozVwJL6EkBGy1PNYuDAPzoazo,7
+ncdata-0.1.1.dist-info/RECORD,,
