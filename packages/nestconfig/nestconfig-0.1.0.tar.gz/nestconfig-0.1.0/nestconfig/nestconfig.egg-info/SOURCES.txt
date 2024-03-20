@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+nestconfig/nestconfig.egg-info/PKG-INFO
+nestconfig/nestconfig.egg-info/SOURCES.txt
+nestconfig/nestconfig.egg-info/dependency_links.txt
+nestconfig/nestconfig.egg-info/top_level.txt
