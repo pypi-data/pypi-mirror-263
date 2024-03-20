@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+adder_s/__init__.py
+adder_s/example.py
+adder_s.egg-info/PKG-INFO
+adder_s.egg-info/SOURCES.txt
+adder_s.egg-info/dependency_links.txt
+adder_s.egg-info/entry_points.txt
+adder_s.egg-info/requires.txt
+adder_s.egg-info/top_level.txt
