@@ -1,0 +1,11 @@
+data_downloader/__init__.py,sha256=x_DdYEURH9iLxIfBzzUeTjpzvYNzEFO-fhbVboquhWg,84
+data_downloader/downloader.py,sha256=tOmC776daLXN4jbS5EHr09hbqeTc1Hi23LIJa81aXSA,38258
+data_downloader/parse_urls/__init__.py,sha256=GIyMCDRrXZXwod7dc9uzjIURWcYVnS8ataA0Kn98Mag,183
+data_downloader/parse_urls/_core.py,sha256=DyN2wWa-vHLWlu3C-imAZ_iHYdvPvbM4iwGah7-1xtA,6982
+data_downloader/parse_urls/licsar.py,sha256=kMnOp06jxPeuvwP2i_KaR6I6vPS2QwRszzvX0_7J-t0,5067
+data_downloader/parse_urls/sentinel_aux.py,sha256=LQ32Y371wQPjqJvD_j-j6tw4TrxtDgpX5rqlIpjGd4k,3770
+data_downloader-1.0.dist-info/LICENSE,sha256=lpta99SWWpet1TJ5hXb8y23k9eWbDOouMZ-DhZNVW28,1088
+data_downloader-1.0.dist-info/METADATA,sha256=xMvd_oCvNDRp0AXIO-rM-U8b0Vi6bvX7zCYhTQPrgC4,2856
+data_downloader-1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+data_downloader-1.0.dist-info/top_level.txt,sha256=mcgfJHxBZjMsEdKIk-eSrSWuY_qH5UAyqmLS_k8W88A,16
+data_downloader-1.0.dist-info/RECORD,,
