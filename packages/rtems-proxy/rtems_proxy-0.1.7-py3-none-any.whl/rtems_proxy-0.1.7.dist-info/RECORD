@@ -1,0 +1,10 @@
+rtems_proxy/__init__.py,sha256=v-rRiDOgZ3sQSMQKq0vgUQZvpeOkoHFXissAx6Ktg84,61
+rtems_proxy/__main__.py,sha256=C9SrdJJUxhUTRElqTFc_R0N09kJwaxqCeunAPkJCD1A,328
+rtems_proxy/_version.py,sha256=0A08Kvw-SYs_CkLPEV1KmD8lb9IPH1psSxb5iQEGtI8,411
+rtems_proxy/telnet.py,sha256=1s5Es6zuju2-1w3Ol6InLo-dKAULESQP5rPZcuVx_rE,3454
+rtems_proxy-0.1.7.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+rtems_proxy-0.1.7.dist-info/METADATA,sha256=34O1DoW7W9gQ4pfnmneeTT-h86irGAiQd6hjjAq-ELY,15415
+rtems_proxy-0.1.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+rtems_proxy-0.1.7.dist-info/entry_points.txt,sha256=w5ku2CIbA9fBn8nzH6htFy7NocDDXcW8q1UfrTdxrxQ,58
+rtems_proxy-0.1.7.dist-info/top_level.txt,sha256=oLwzJQK4oB1AruU93UJ-6o_TBmFp4jKQTBBqhrkDsxc,12
+rtems_proxy-0.1.7.dist-info/RECORD,,
