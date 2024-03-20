@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: CoreLogger
+Version: 1.0.9
+Home-page: https://pypi.org/project/CoreLogger
+Author: Ahmet Kıpkıp
+Author-email: ahmtkipkip@gmail.com
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: python-logging-loki
+
