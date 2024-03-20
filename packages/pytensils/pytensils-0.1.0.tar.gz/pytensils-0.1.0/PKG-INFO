@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pytensils
+Version: 0.1.0
+Summary: A Python package that provides general utility functions for managing configuration, directories and data-types as well as a basic run-time profiler.
+Home-page: https://github.com/thomaseleff/pytensils
+Author: Tom Eleff
+Author-email: tome18@comcast.net
+Project-URL: Issues, https://github.com/thomaseleff/pytensils/issues
+Project-URL: Releases, https://github.com/thomaseleff/pytensils/releases
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pytensils
+`pytensils` is a Python package that provides general utility functions for managing configuration, directories and data-types as well as a basic run-time
+profiler.
+
+# Installation
+The source code is available on [GitHub](https://github.com/thomaseleff/pytensils).
+
+```
+# Via PyPI
+pip install pytensils
+```
