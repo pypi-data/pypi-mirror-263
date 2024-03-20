@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: gesture_recognition_tools
+Version: 1.0.0
+Summary: Packages for simple implementations of Gesture Recognition models.
+Home-page: https://github.com/suk-6/gesture-recognition-tools.git
+Author: suk-6
+Author-email: me@suk.kr
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: openvino
+Requires-Dist: openvino-dev
+Requires-Dist: scipy
+
+# Gesture Recognition Tools
+
+```bash
+pip install gradio==3.10.0 httpx==0.23.1
+```
