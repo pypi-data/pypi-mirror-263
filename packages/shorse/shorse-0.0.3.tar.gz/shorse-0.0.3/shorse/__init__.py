@@ -1,0 +1,1 @@
+from .shorse import Shorse
