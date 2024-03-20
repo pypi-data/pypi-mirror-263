@@ -1,0 +1,2 @@
+[console_script]
+support_sbk = support_sbk.cli:main
