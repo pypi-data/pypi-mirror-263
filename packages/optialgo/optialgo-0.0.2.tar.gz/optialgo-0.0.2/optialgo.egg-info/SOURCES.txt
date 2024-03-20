@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+optialgo/__init__.py
+optialgo/classification.py
+optialgo/parent.py
+optialgo/regression.py
+optialgo.egg-info/PKG-INFO
+optialgo.egg-info/SOURCES.txt
+optialgo.egg-info/dependency_links.txt
+optialgo.egg-info/requires.txt
+optialgo.egg-info/top_level.txt
