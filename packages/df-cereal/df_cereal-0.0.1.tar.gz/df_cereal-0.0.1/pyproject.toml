@@ -1,0 +1,199 @@
+[build-system]
+requires = [
+    "hatchling",
+    "jupyterlab~=3.0",
+]
+build-backend = "hatchling.build"
+
+[project]
+name = "df_cereal"
+description = "df_cereal - playing with dataframe serialization"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "Paddy Mullen" },
+]
+keywords = [
+    "IPython",
+    "Jupyter",
+    "Widgets",
+    "pandas",
+]
+classifiers = [
+    "Framework :: Jupyter",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = [
+    "ipywidgets>=7.6.0,<9",
+    "graphlib_backport>=1.0.0"
+]
+version = "0.0.1"
+
+[project.license]
+file = "LICENSE.txt"
+
+[project.optional-dependencies]
+
+test = [
+    "nbval>=0.9",
+    "pandas>=1.3.5",
+    "pytest-cov>=3",
+    "pytest>=6",
+    "hypothesis>=6.88.1",
+    "polars>=0.19.4",
+    "pydantic>=2.5.2",
+    "pyarrow"
+]
+polars = ["polars>=0.20.7"]
+jupyterlab = ["jupyterlab>=3.6.0"]
+notebook = ["notebook>=7.0.0"]
+
+
+docs = [
+    "sphinx>=1.5",
+    "graphviz>=0.20.1"
+]
+
+build = [
+"twine",
+"build",
+]
+    
+[project.urls]
+Homepage = "https://github.com/paddymul/df_cereal"
+
+[tool.hatch.build]
+artifacts = [
+    "df_cereal/nbextension/index.*",
+    "df_cereal/labextension",
+]
+
+[tool.hatch.build.targets.wheel.shared-data]
+"df_cereal/nbextension" = "share/jupyter/nbextensions/df_cereal"
+"df_cereal/labextension" = "share/jupyter/labextensions/df_cereal"
+"df_cereal.json" = "etc/jupyter/nbconfig/notebook.d/df_cereal.json"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+    ".github",
+    "examples",
+    "tests",
+    "ui-tests*",
+    "widget-examples",
+    "binder",
+    "*.yaml",
+    ".npmignore",
+    ".eslint*",
+    "__mocks__",
+    "*.yml",
+    "*.ini",
+    ".pre*",
+    "jest*",
+]
+
+[tool.hatch.build.hooks.jupyter-builder]
+
+ensured-targets = [
+    "df_cereal/nbextension/index.js",
+    "df_cereal/labextension/package.json",
+]
+dependencies = ["hatch-jupyter-builder>=0.8.1"]
+#dependencies = ["hatch-jupyter-builder@file:///Users/paddy/code/hatch-jupyter-builder"]
+
+build-function = "hatch_jupyter_builder.npm_builder"
+
+[tool.hatch.build.hooks.jupyter-builder.build-kwargs]
+path = "."
+build_cmd = "build"
+npm = [
+    "npm",
+]
+
+[tool.isort]
+profile = "black"
+known_first_party = [
+    "df_cereal",
+    "tests",
+]
+line_length = 80
+
+
+[tool.ruff]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
+
+# Same as Black.
+line-length = 88
+indent-width = 4
+
+# Assume Python 3.8
+target-version = "py38"
+
+[tool.ruff.lint]
+# Enable Pyflakes (`F`) and a subset of the pycodestyle (`E`)  codes by default.
+# Unlike Flake8, Ruff doesn't enable pycodestyle warnings (`W`) or
+# McCabe complexity (`C901`) by default.
+select = ["E4", "E7", "E9", "F"]
+ignore = []
+
+# Allow fix for all enabled rules (when `--fix`) is provided.
+fixable = ["F401"]
+unfixable = []
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.per-file-ignores]
+
+#__init__.py and widget utils does some bare excepts because it absolutely cannot error
+#and give a non displayable dataframe
+"df_cereal/__init__.py" = ["E722",
+		          "F401",  #it's an __init__.py,  it needs to import unused imports
+]
+
+"df_cereal/widget_utils.py" = ["E722"]
+
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"
+
+# Like Black, respect magic trailing commas.
+skip-magic-trailing-comma = false
+
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"

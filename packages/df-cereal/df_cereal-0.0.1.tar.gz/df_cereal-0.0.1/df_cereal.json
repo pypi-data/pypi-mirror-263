@@ -1,0 +1,5 @@
+{
+  "load_extensions": {
+      "df_cereal/extension":true
+  }
+}
