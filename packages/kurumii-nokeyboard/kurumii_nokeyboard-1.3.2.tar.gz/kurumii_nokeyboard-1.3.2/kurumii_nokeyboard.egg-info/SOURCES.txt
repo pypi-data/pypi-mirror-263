@@ -1,0 +1,14 @@
+README.md
+setup.py
+kurumii_nokeyboard/__init__.py
+kurumii_nokeyboard/additional_functions.py
+kurumii_nokeyboard/ascii.py
+kurumii_nokeyboard/id.py
+kurumii_nokeyboard/jsonify.py
+kurumii_nokeyboard/print_additions.py
+kurumii_nokeyboard/youtube.py
+kurumii_nokeyboard.egg-info/PKG-INFO
+kurumii_nokeyboard.egg-info/SOURCES.txt
+kurumii_nokeyboard.egg-info/dependency_links.txt
+kurumii_nokeyboard.egg-info/requires.txt
+kurumii_nokeyboard.egg-info/top_level.txt
