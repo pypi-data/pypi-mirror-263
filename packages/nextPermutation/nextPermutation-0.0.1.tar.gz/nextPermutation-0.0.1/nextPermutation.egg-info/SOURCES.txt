@@ -1,0 +1,7 @@
+setup.py
+nextPermutation/__init__.py
+nextPermutation/main.py
+nextPermutation.egg-info/PKG-INFO
+nextPermutation.egg-info/SOURCES.txt
+nextPermutation.egg-info/dependency_links.txt
+nextPermutation.egg-info/top_level.txt
