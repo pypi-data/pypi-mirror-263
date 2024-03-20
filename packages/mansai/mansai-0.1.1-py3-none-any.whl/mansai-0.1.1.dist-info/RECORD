@@ -1,0 +1,8 @@
+mansai/__init__.py,sha256=1_o5EI8rWRi5yKBKTwTwD0kBo2nCgb1o_M64P25wiDo,54
+mansai/hello.py,sha256=ORDnxNdPDkEl3yj1C3K-cVmGijeOC7MP_0O82S6MaB0,80
+mansai/cli/member.py,sha256=G7eYy0IWglfBxX6HNuXn38jaXD-5xp5JJ7MyUu26LEQ,192
+mansai-0.1.1.data/data/table.csv,sha256=GywMd_4V4DfInF9I8obxvhUEbiIeUH1G8skizaTkN98,15
+mansai-0.1.1.dist-info/entry_points.txt,sha256=ov5HrbUqtXU7_Ok43YHSm6qVHlMTpazOi-p14kjK39E,49
+mansai-0.1.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+mansai-0.1.1.dist-info/METADATA,sha256=ZzQiUhIdOilVWY7uSJ7rb6fn2HQKXgR5b7U-rXNbXnE,512
+mansai-0.1.1.dist-info/RECORD,,
