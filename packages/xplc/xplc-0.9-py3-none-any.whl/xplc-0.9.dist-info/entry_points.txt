@@ -1,0 +1,3 @@
+[console_scripts]
+xplc=xplc.__main__:main
+
