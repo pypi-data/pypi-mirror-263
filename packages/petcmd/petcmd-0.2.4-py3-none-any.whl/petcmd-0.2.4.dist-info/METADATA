@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: petcmd
+Version: 0.2.4
+Summary: Library for creating a command line tools
+Author-email: Maks Vinnytskyi <ownerofforest@gmail.com>
+Project-URL: Homepage, https://gitlab.com/Tullp/petcmd
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# petcmd
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/petcmd)
+![PyPI - Version](https://img.shields.io/pypi/v/petcmd)
+![Documentation Status](https://readthedocs.org/projects/petcmd/badge/?version=latest)
+![PyPI - License](https://img.shields.io/pypi/l/petcmd)
+![Downloads](https://static.pepy.tech/badge/petcmd)
+
+## Installation
+
+**petcmd** can be installed with [pip](http://pypi.python.org/pypi/pip):
+
+```bash
+python -m pip install petcmd
+```
+
+You can also download the project source and do:
+
+```bash
+pip install .
+```
+
+## Dependencies
+
+**petcmd** was created as a lightweight package, so there are no dependencies.
+
+## Usage
+
+Coming soon.
+
+## Examples
+
+Coming soon.
+
+### Documentation
+
+Documentation is available at https://petcmd.readthedocs.io/en/latest/
+
+## Testing
+
+```bash
+python -m tests
+```
