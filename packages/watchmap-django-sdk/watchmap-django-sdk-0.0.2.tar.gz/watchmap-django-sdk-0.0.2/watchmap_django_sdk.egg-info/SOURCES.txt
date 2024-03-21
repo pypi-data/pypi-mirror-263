@@ -1,0 +1,8 @@
+setup.py
+watchmap-django-sdk/__init__.py
+watchmap-django-sdk/watchmap_sdk.py
+watchmap_django_sdk.egg-info/PKG-INFO
+watchmap_django_sdk.egg-info/SOURCES.txt
+watchmap_django_sdk.egg-info/dependency_links.txt
+watchmap_django_sdk.egg-info/requires.txt
+watchmap_django_sdk.egg-info/top_level.txt
