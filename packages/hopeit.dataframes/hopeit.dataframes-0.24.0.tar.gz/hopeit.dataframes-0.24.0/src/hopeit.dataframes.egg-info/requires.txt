@@ -1,0 +1,6 @@
+hopeit.engine[fs-storage]==0.24.0
+pandas
+numpy
+
+[pyarrow]
+pyarrow
