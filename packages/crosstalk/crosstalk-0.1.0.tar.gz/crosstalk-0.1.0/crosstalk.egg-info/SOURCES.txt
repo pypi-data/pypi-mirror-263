@@ -1,0 +1,9 @@
+setup.py
+crosstalk/__init__.py
+crosstalk/crosstalk.py
+crosstalk.egg-info/PKG-INFO
+crosstalk.egg-info/SOURCES.txt
+crosstalk.egg-info/dependency_links.txt
+crosstalk.egg-info/entry_points.txt
+crosstalk.egg-info/requires.txt
+crosstalk.egg-info/top_level.txt
