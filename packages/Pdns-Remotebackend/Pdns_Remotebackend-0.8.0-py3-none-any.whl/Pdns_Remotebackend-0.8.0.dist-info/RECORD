@@ -1,0 +1,8 @@
+pdns/__init__.py,sha256=vCGBpnXOvxw2BvQUe53D7pZnNTXqDBzHspCeHhZiKbA,27
+pdns/remotebackend/__init__.py,sha256=NngnyeLXX5Tp1YwYYwc731gct-mUgbnCcrVrnssMOOw,7957
+pdns/remotebackend/unix.py,sha256=jaXIyr09G-Bw6_KyaawJUG4TAijesNBzs44N2erT52I,2080
+Pdns_Remotebackend-0.8.0.dist-info/LICENSE,sha256=Q76lUSVBv1-ZT423YZE2tfEFtgNV05zhendvnkLHF1E,1076
+Pdns_Remotebackend-0.8.0.dist-info/METADATA,sha256=ucWQAJ8teFnDeZ1yO-EsnTRSf7fYH75ILonlC_XfytU,842
+Pdns_Remotebackend-0.8.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Pdns_Remotebackend-0.8.0.dist-info/top_level.txt,sha256=6X4pAN1RaANC9xAPYXFKQoQJ0QxbSiS0BGVX3MNXcCE,5
+Pdns_Remotebackend-0.8.0.dist-info/RECORD,,
