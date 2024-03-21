@@ -1,0 +1,2 @@
+[console_scripts]
+yolov8_seg_annotator = yolo8_seg_annotator:execute
