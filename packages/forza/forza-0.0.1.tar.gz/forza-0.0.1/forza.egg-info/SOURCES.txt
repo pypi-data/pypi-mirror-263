@@ -1,0 +1,13 @@
+setup.py
+forza/__init__.py
+forza/core.py
+forza/lightspeed.py
+forza.egg-info/PKG-INFO
+forza.egg-info/SOURCES.txt
+forza.egg-info/dependency_links.txt
+forza.egg-info/requires.txt
+forza.egg-info/top_level.txt
+forza/modules/__init__.py
+forza/modules/inputs.py
+forza/modules/loaders.py
+forza/modules/text.py

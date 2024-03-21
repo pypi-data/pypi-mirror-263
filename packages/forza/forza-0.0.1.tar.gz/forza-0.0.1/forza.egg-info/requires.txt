@@ -1,0 +1,7 @@
+art
+libhammadpy-text
+prompt_toolkit
+wcwidth
+
+[ml]
+suzuka
