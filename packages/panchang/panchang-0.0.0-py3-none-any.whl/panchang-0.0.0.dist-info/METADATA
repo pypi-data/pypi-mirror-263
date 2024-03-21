@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: panchang
+Version: 0.0.0
+Summary: A python package that follows traditional units of Hindu timekeeping.
+Home-page: https://github.com/shankarlohar/panchang
+License: MIT
+Keywords: panchang,hindu time
+Author: shankarlohar
+Author-email: inbox.shankarlohar@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Repository, https://github.com/shankarlohar/panchang
+Description-Content-Type: text/markdown
+
+
