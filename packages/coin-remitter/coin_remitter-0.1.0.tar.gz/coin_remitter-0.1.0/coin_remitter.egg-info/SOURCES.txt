@@ -1,0 +1,9 @@
+README.md
+setup.py
+coin_remitter/__init__.py
+coin_remitter/main.py
+coin_remitter.egg-info/PKG-INFO
+coin_remitter.egg-info/SOURCES.txt
+coin_remitter.egg-info/dependency_links.txt
+coin_remitter.egg-info/requires.txt
+coin_remitter.egg-info/top_level.txt
