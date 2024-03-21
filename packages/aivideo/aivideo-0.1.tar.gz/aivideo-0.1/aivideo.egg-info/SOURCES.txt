@@ -1,0 +1,5 @@
+setup.py
+aivideo.egg-info/PKG-INFO
+aivideo.egg-info/SOURCES.txt
+aivideo.egg-info/dependency_links.txt
+aivideo.egg-info/top_level.txt
