@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+tests/test_shufflenetv2.py
+tgim.egg-info/PKG-INFO
+tgim.egg-info/SOURCES.txt
+tgim.egg-info/dependency_links.txt
+tgim.egg-info/requires.txt
+tgim.egg-info/top_level.txt
+tgim/common/blocks.py
+tgim/common/model.py
+tgim/models/fastvit.py
+tgim/models/focalnet.py
+tgim/models/ghostnetv2.py
+tgim/models/repvit.py
+tgim/models/shufflenetv2.py
+tgim/models/shvit.py
