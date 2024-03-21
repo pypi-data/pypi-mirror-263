@@ -1,0 +1,3 @@
+pycountry
+requests>=2.31.0
+xarg-python>=1.3.2
