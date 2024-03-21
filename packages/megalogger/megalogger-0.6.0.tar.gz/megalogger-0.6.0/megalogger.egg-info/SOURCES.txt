@@ -1,0 +1,12 @@
+README.md
+setup.py
+megalogger.egg-info/PKG-INFO
+megalogger.egg-info/SOURCES.txt
+megalogger.egg-info/dependency_links.txt
+megalogger.egg-info/requires.txt
+megalogger.egg-info/top_level.txt
+src/megalogger/__init__.py
+src/megalogger/abstract_logger.py
+src/megalogger/blueprints.py
+src/megalogger/megalogged.py
+src/megalogger/megalogging.py
