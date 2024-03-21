@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: yolov8-seg-annotator
+Version: 1.1
+License-File: LICENSE
+Requires-Dist: pillow==10.2.0
+Requires-Dist: ttkthemes==3.2.2

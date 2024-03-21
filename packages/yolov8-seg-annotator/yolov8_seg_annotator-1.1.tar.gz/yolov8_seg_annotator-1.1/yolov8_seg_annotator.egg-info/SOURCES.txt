@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+yolo8_seg_annotator/__init__.py
+yolo8_seg_annotator/main.py
+yolov8_seg_annotator.egg-info/PKG-INFO
+yolov8_seg_annotator.egg-info/SOURCES.txt
+yolov8_seg_annotator.egg-info/dependency_links.txt
+yolov8_seg_annotator.egg-info/entry_points.txt
+yolov8_seg_annotator.egg-info/requires.txt
+yolov8_seg_annotator.egg-info/top_level.txt
