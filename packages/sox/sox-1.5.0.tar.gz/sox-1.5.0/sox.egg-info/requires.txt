@@ -1,0 +1,14 @@
+numpy>=1.9.0
+typing-extensions>=3.7.4.2
+
+[docs]
+sphinx==1.2.3
+sphinxcontrib-napoleon
+sphinx_rtd_theme
+numpydoc
+
+[tests]
+pytest
+pytest-cov
+pytest-pep8
+soundfile>=0.11.0
