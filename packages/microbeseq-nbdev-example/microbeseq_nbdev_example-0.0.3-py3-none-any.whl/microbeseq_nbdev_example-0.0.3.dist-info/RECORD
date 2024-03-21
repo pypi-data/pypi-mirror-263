@@ -1,0 +1,12 @@
+microbeseq_nbdev_example/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+microbeseq_nbdev_example/_modidx.py,sha256=nGGcM7iHK1LOkklgT5LSQCbJRySZHEoCAnm9G_P3iRE,2355
+microbeseq_nbdev_example/core.py,sha256=k5po9ryLLYnx6ScJi01NJpDBni-zRMtoAWRKw4k-XYM,9959
+microbeseq_nbdev_example/hello_world.py,sha256=e5UfKaWei_BTJzA5ITmkeoKUto-C0WoNWoc4NAsC-cQ,1930
+microbeseq_nbdev_example/config/config.default.env,sha256=T0tnYclbydTn_ewH2dHUdKiiBUMpaUTH1veEPG3Vhik,1366
+microbeseq_nbdev_example/config/config.default.yaml,sha256=ZReiT1-Dr5R3Ag4V8TFDjPygZucL2Ch2BOtM7-wOfec,451
+microbeseq_nbdev_example-0.0.3.dist-info/LICENSE,sha256=p6aTb6QIfqyZ2Uux2VjV4F2zthdUSHZOjB4mfwGc7fo,1094
+microbeseq_nbdev_example-0.0.3.dist-info/METADATA,sha256=ua_JSzNGw9DbJHeBFKcO3CXGRePWS07IlOQxWykRjt4,1170
+microbeseq_nbdev_example-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+microbeseq_nbdev_example-0.0.3.dist-info/entry_points.txt,sha256=SzE2NvOmnBsibhxJLeTPbQuLWerORxv4sjg1kmDXgTU,201
+microbeseq_nbdev_example-0.0.3.dist-info/top_level.txt,sha256=pLm1JzvrCP4TvnZom5MnjuxlaWLKwplQHF6oZCZ1J6I,25
+microbeseq_nbdev_example-0.0.3.dist-info/RECORD,,
