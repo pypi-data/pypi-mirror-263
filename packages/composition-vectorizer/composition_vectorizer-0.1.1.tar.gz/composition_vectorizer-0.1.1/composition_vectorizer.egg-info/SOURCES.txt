@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+composition_vectorizer/__init__.py
+composition_vectorizer/d1.py
+composition_vectorizer/version.py
+composition_vectorizer.egg-info/PKG-INFO
+composition_vectorizer.egg-info/SOURCES.txt
+composition_vectorizer.egg-info/dependency_links.txt
+composition_vectorizer.egg-info/requires.txt
+composition_vectorizer.egg-info/top_level.txt
