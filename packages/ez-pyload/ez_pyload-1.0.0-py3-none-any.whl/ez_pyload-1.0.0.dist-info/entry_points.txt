@@ -1,0 +1,3 @@
+[console_scripts]
+pydl=ez_pyload.__main__:main
+
