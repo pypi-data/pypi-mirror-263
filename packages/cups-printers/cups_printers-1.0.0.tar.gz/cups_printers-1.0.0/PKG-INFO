@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: cups-printers
+Version: 1.0.0
+Summary: Tool to get the printers from a running CUPS instance
+Home-page: https://github.com/audiusGmbH/cups-printers
+License: MIT
+Keywords: printers,cups
+Author: Fabian Affolter
+Author-email: fabian.affolter@audius.de
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pycups (>=2.0.1,<3.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Requires-Dist: validators (>=0.23.2,<0.24.0)
+Project-URL: Repository, https://github.com/audiusGmbH/cups-printers
+Description-Content-Type: text/markdown
+
+# cups-printer
+
+Retrieve all printers from a CUPS server. It's a simple command-line tool that
+allows one to output the existing printers or write them to a file.
+
+## Installation
+
+It may require that the development package for CUPS is installed, e.g. 
+`$ sudo dnf -y install cups-devel`.
+
+### PyPI
+
+The package is hosted on [PyPI](https://pypi.org/project/cups_printers/).
+It depends on `typer` and `pycups`.
+
+```bash
+$ pip install cups_printer
+```
+
+### Manual setup
+
+```bash
+$ python3 -m venv 
+$ source bin/activate
+$ python3 setup.py
+```
+
+## Usage
+
+The default CUPS instance which is used is `localhost`.
+
+```bash
+$ cups-printers --help
+
+                                                                                                                           
+ Usage: cups-printers [OPTIONS] COMMAND [ARGS]...                                                                          
+                                                                                                                           
+╭─ Options ───────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ --server                    TEXT  The server URL of CUPS instance [env var: CUPS_SERVER] [default: localhost:631]       │
+│ --timeout                   TEXT  Timeout for network operations [env var: TIMEOUT] [default: 5]                        │
+│ --install-completion              Install completion for the current shell.                                             │
+│ --show-completion                 Show completion for the current shell, to copy it or customize the installation.      │
+│ --help                            Show this message and exit.                                                           │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─ Commands ──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ output                                                                                                                  │
+│ queue                                                                                                                   │
+│ state                                                                                                                   │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+```
+
+To get the details from a remote CUPS instance, use `--server`.
+
+```bash
+$ cups-printers --server 192.168.191.1:631 output json
+```
+
+## License
+
+`cups-printers` ìs license under MIT.
+
