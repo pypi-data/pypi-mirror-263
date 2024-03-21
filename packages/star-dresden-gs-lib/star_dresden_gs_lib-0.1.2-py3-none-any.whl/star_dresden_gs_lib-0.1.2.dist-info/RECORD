@@ -1,0 +1,12 @@
+star_dresden_gs_lib/__init__.py,sha256=2j4W-rm4iRBrtfolDB_XQhrRTm_E5BSgJKqQn8tmhgs,34
+star_dresden_gs_lib/main.py,sha256=KPYkZWZQi3I2VOjV2JjVvp6QDV5O2UryHCc1l67Cpvs,93
+star_dresden_gs_lib/components/__init__.py,sha256=16aTwd_hBTECCt6mz-_IuKP2ihXLdXXvPS2qRSTwa58,22
+star_dresden_gs_lib/components/getter.py,sha256=AIsSwcWpMZsSbOB9O_Ie7s6gpg3zzj2oBicGuO9OFeY,8060
+star_dresden_gs_lib/components/setter.py,sha256=6O4CymSS3HYAeZiMfgnkIP3JpzPQV7NdsEz6a2uMRh4,1568
+star_dresden_gs_lib/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+star_dresden_gs_lib/tools/async_tools.py,sha256=0jiFEtU2ynUTQDNh3RylIoOKGlbU1aohf-yj5m8o3Cw,361
+star_dresden_gs_lib-0.1.2.dist-info/LICENSE.txt,sha256=55ol2HDyTS3o4UX4WBaeRGt8VCGCmR3V0GB0HfEDbGw,1098
+star_dresden_gs_lib-0.1.2.dist-info/METADATA,sha256=Z3QVwwThCDknXdwua9Mj-SC7o5B-9cE1H6opwlW7Soo,2080
+star_dresden_gs_lib-0.1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+star_dresden_gs_lib-0.1.2.dist-info/top_level.txt,sha256=TGO6U7PhP4qpQsWOunU5KQ1YEqZgcGfP8Raj_76KwVQ,20
+star_dresden_gs_lib-0.1.2.dist-info/RECORD,,
