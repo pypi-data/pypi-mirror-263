@@ -1,0 +1,10 @@
+lexilang/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lexilang/detector.py,sha256=K6fXvhDCOhPRGiawUskr95wVhi6uB3dv6PZ6Geryr9s,1655
+lexilang/languages.py,sha256=OFyW39UHOUKOL_QgOggueW6MKzcHiq5iSEHnOiIf93s,2147
+lexilang/utils.py,sha256=P-zow5sr2sr-Gy8rn0vSiWrWz0i_y4nI8ZjPpc56bEI,983
+lexilang/data/words.pickle,sha256=mtyxrfpphAokSG3jatEPOUc7KuXs9jByGkEKQtIeeIM,5171693
+LexiLang-1.0.2.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+LexiLang-1.0.2.dist-info/METADATA,sha256=BZ4NPVYMaN7YzCjjjk2x0UTfR_rFhN3o9GM8cD0XNHI,2448
+LexiLang-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+LexiLang-1.0.2.dist-info/top_level.txt,sha256=zEUEeZfTLaRH2KnvbND8TLVAH4uRzlXKfmxcVpQyVBk,9
+LexiLang-1.0.2.dist-info/RECORD,,
