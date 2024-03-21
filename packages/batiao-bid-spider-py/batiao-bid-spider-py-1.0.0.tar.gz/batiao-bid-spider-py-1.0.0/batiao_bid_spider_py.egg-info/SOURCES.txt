@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+batiao_bid_spider_py.egg-info/PKG-INFO
+batiao_bid_spider_py.egg-info/SOURCES.txt
+batiao_bid_spider_py.egg-info/dependency_links.txt
+batiao_bid_spider_py.egg-info/top_level.txt
+bid/__init__.py
+bid/test_spider.py
