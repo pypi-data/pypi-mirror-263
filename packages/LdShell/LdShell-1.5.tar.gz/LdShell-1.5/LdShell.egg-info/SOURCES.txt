@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+LdShell.egg-info/PKG-INFO
+LdShell.egg-info/SOURCES.txt
+LdShell.egg-info/dependency_links.txt
+LdShell.egg-info/requires.txt
+LdShell.egg-info/top_level.txt
+ldshell_pkg/__init__.py
+ldshell_pkg/main.py
