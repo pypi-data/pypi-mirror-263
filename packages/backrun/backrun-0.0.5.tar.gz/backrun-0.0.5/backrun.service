@@ -1,0 +1,9 @@
+[Unit]
+Description=backrun: run whitelisted scripts in background
+
+[Service]
+ExecStart=/usr/local/bin/backrun
+# User=xenon
+
+[Install]
+WantedBy=multi-user.target
