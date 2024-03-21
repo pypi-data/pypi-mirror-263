@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: laniakea-utils
+Version: 0.2.0b2
+Summary: Utilities for Laniakea applications
+Author-email: Marco Antonio Tangaro <ma.tangaro@ibiom.cnr.it>
+Project-URL: Homepage, https://github.com/Laniakea-elixir-it/laniakea-utils
+Project-URL: Issues, https://github.com/Laniakea-elixir-it/laniakea-utils/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+Requires-Dist: flask==2.0.2
+Requires-Dist: flaat==0.14.7
+Requires-Dist: gunicorn==20.1.0
+Requires-Dist: hvac==0.11.2
+Requires-Dist: Werkzeug==2.0.2
+
+Laniakea Utils
+==============
+
+Laniakea utilites package
+
+Api
+---
+
+test
+
+start: gunicorn --workers 2 --bind 0.0.0.0:5001 --timeout 300 app:app
+
+curl: curl -H 'Accept: application/json' -H "Authorization: Bearer ${TOKEN}" http://90.147.102.14:5000/valid_user/${SUB}
+
+How to upload on pypi
+---------------------
+
+Create a new package:
+```
+python setup.py sdist
+```
+
+Upload on pypi with twine:
+```
+twine upload dist/*
+```
