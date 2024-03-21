@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/__init__.py
+src/app.py
+src/init.py
+src/run.py
+src/engines/__init__.py
+src/engines/base_engine.py
+src/engines/package_engine.py
+src/python_project_manager.egg-info/PKG-INFO
+src/python_project_manager.egg-info/SOURCES.txt
+src/python_project_manager.egg-info/dependency_links.txt
+src/python_project_manager.egg-info/entry_points.txt
+src/python_project_manager.egg-info/top_level.txt
