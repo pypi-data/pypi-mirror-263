@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/pyPowerSupplyController/__init__.py
+src/pyPowerSupplyController/emulated_instrument_serial.py
+src/pyPowerSupplyController/exceptions.py
+src/pyPowerSupplyController/manson_instrument.py
+src/pyPowerSupplyController/mi_commands.py
+src/pyPowerSupplyController/models.py
+src/pyPowerSupplyController/serializer.py
+src/pyPowerSupplyController.egg-info/PKG-INFO
+src/pyPowerSupplyController.egg-info/SOURCES.txt
+src/pyPowerSupplyController.egg-info/dependency_links.txt
+src/pyPowerSupplyController.egg-info/top_level.txt
+tests/test_manson_instrument.py
+tests/test_serializer_manson_instrument.py
