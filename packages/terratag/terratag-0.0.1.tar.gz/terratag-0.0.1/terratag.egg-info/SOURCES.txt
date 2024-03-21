@@ -1,0 +1,7 @@
+setup.py
+terratag.egg-info/PKG-INFO
+terratag.egg-info/SOURCES.txt
+terratag.egg-info/dependency_links.txt
+terratag.egg-info/entry_points.txt
+terratag.egg-info/requires.txt
+terratag.egg-info/top_level.txt
