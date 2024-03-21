@@ -1,0 +1,7 @@
+pyproject.toml
+herold/__init__.py
+herold.egg-info/PKG-INFO
+herold.egg-info/SOURCES.txt
+herold.egg-info/dependency_links.txt
+herold.egg-info/requires.txt
+herold.egg-info/top_level.txt
