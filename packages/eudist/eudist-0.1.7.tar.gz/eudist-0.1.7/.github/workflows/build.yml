@@ -1,0 +1,194 @@
+name: Build
+
+on: [push, pull_request]
+
+jobs:
+  build_wheels:
+    name: Build wheels on ${{ matrix.config.name }}
+    runs-on: ${{ matrix.config.os }}
+    strategy:
+      matrix:
+        config:
+          - name: "linux x86"
+            os: ubuntu-latest
+            arch: x86_64
+            build: "*"
+          - name: "linux x32"
+            os: ubuntu-latest
+            arch: i686
+            build: "*"
+          - name: "linux aarch64 36"
+            os: ubuntu-latest
+            arch: aarch64
+            build: "cp36* pp36*"
+            pyversion: 36
+          - name: "linux aarch64 37"
+            os: ubuntu-latest
+            arch: aarch64
+            build: "cp37* pp37*"
+            pyversion: 37
+          - name: "linux aarch64 38"
+            os: ubuntu-latest
+            arch: aarch64
+            build: "cp38* pp38*"
+            pyversion: 38
+          - name: "linux aarch64 39"
+            os: ubuntu-latest
+            arch: aarch64
+            build: "cp39* pp39*"
+            pyversion: 39
+          - name: "linux aarch64 310"
+            os: ubuntu-latest
+            arch: aarch64
+            build: "cp310* pp310*"
+            pyversion: 310
+          - name: "linux aarch64 311"
+            os: ubuntu-latest
+            arch: aarch64
+            build: "cp311* pp311*"
+            pyversion: 311
+          - name: "linux aarch64 312"
+            os: ubuntu-latest
+            arch: aarch64
+            build: "cp312* pp312*"
+            pyversion: 312
+          - name: "linux ppc64le 36"
+            os: ubuntu-latest
+            arch: ppc64le
+            build: "cp36* pp36*"
+            pyversion: 36
+          - name: "linux ppc64le 37"
+            os: ubuntu-latest
+            arch: ppc64le
+            build: "cp37* pp37*"
+            pyversion: 37
+          - name: "linux ppc64le 38"
+            os: ubuntu-latest
+            arch: ppc64le
+            build: "cp38* pp38*"
+            pyversion: 38
+          - name: "linux ppc64le 39"
+            os: ubuntu-latest
+            arch: ppc64le
+            build: "cp39* pp39*"
+            pyversion: 39
+          - name: "linux ppc64le 310"
+            os: ubuntu-latest
+            arch: ppc64le
+            build: "cp310* pp310*"
+            pyversion: 310
+          - name: "linux ppc64le 311"
+            os: ubuntu-latest
+            arch: ppc64le
+            build: "cp311* pp311*"
+            pyversion: 311
+          - name: "linux ppc64le 312"
+            os: ubuntu-latest
+            arch: ppc64le
+            build: "cp312* pp312*"
+            pyversion: 312
+          - name: "linux s390x 36"
+            os: ubuntu-latest
+            arch: s390x
+            build: "cp36*manylinux*"
+            pyversion: 36
+          - name: "linux s390x 37"
+            os: ubuntu-latest
+            arch: s390x
+            build: "cp37*manylinux*"
+            pyversion: 37
+          - name: "linux s390x 38"
+            os: ubuntu-latest
+            arch: s390x
+            build: "cp38*manylinux*"
+            pyversion: 38
+          - name: "linux s390x 39"
+            os: ubuntu-latest
+            arch: s390x
+            build: "cp39*manylinux*"
+            pyversion: 39
+          - name: "linux s390x 310"
+            os: ubuntu-latest
+            arch: s390x
+            build: "cp310*manylinux*"
+            pyversion: 310
+          - name: "linux s390x 311"
+            os: ubuntu-latest
+            arch: s390x
+            build: "cp311*manylinux*"
+            pyversion: 311
+          - name: "linux s390x 312"
+            os: ubuntu-latest
+            arch: s390x
+            build: "cp312*manylinux*"
+            pyversion: 312
+          - name: windoof
+            os: windows-latest
+            build: "*"
+          - name: mac intel
+            os: macos-13
+            build: "*"
+          - name: mac arm
+            os: macos-14
+            build: "*"
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up QEMU
+        if: ${{ contains(matrix.config.name, 'linux') }}
+        uses: docker/setup-qemu-action@v3
+        with:
+          platforms: ${{ matrix.config.arch }}
+
+      - name: Build wheels
+        uses: pypa/cibuildwheel@v2.17.0
+        env:
+          CIBW_BUILD: ${{ matrix.config.build }}
+          CIBW_SKIP: "pp*-win_amd64"
+          CIBW_ARCHS_LINUX: "${{ matrix.config.arch }}"
+          # CIBW_TEST_COMMAND: pip install pytest && pytest {package}
+        # with:
+        #   package-dir: .
+        #   output-dir: wheelhouse
+        #   config-file: "{package}/pyproject.toml"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: "dist-${{ matrix.config.os }}-${{ matrix.config.arch }}-${{ matrix.config.pyversion }}"
+          path: ./wheelhouse/*.whl
+
+
+  make_sdist:
+    name: Make SDist
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 100  # Optional, use if you use setuptools_scm
+        submodules: true  # Optional, use if you have submodules
+
+    - name: Build SDist
+      run: pipx run build --sdist
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: dist-sdist
+        path: dist/*.tar.gz
+
+
+  upload_all:
+    needs: [build_wheels, make_sdist]
+    environment: pypi
+    permissions:
+      id-token: write
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v')
+    steps:
+    - uses: actions/download-artifact@v4
+      with:
+        path: dist
+        pattern: dist-*
+        merge-multiple: true
+
+    - uses: pypa/gh-action-pypi-publish@release/v1
