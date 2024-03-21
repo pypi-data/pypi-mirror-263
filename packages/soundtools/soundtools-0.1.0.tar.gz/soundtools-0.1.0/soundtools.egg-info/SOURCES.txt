@@ -1,0 +1,6 @@
+README.md
+setup.py
+soundtools.egg-info/PKG-INFO
+soundtools.egg-info/SOURCES.txt
+soundtools.egg-info/dependency_links.txt
+soundtools.egg-info/top_level.txt
