@@ -1,0 +1,10 @@
+lightCV/infer/__init__.py,sha256=4NPHQA-2tyYpS_M-0ZbklA-G2f6NMSTSG9_WZ4NpQjY,29
+lightCV/infer/yolov5_openvino.py,sha256=mUddaZD66sc76ZvkhD7t1xZVZNbYlPmEKyEKzZfHHlw,8096
+lightCV/labels_tool/__init__.py,sha256=Ts0usDDcy98Ip-aIjJpKnAGk1rFYlqpL4RzhgHoRTko,48
+lightCV/labels_tool/auto_label.py,sha256=4vG_JygkcHYoKNlZgMH5a0OYxyUyBC03R0D3z7n0v1s,15042
+lightCV/labels_tool/py_tools.py,sha256=9MagLFbVzaNxAAkzs6yOwzXcIkE4DGytBUHN1RKRiv4,7128
+lightCV-0.0.1.dist-info/LICENSE.txt,sha256=gKrM2JuiKs-eyKSzlB-YIhvfYdyVtGEutMteJvCiWxQ,1091
+lightCV-0.0.1.dist-info/METADATA,sha256=suIQJME4KuiO8XrFLtS0bA1ZlbsL2L1jlPmYSWq1QU8,982
+lightCV-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+lightCV-0.0.1.dist-info/top_level.txt,sha256=2ZQh2rosPLBuiUHurx9F314eZiD_xvg6uGNnX4KmGO8,8
+lightCV-0.0.1.dist-info/RECORD,,
