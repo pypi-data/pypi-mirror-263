@@ -1,0 +1,3 @@
+[console_scripts]
+tsfontconverter=tsfontconverter:create_font_list
+
