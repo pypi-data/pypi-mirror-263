@@ -1,0 +1,3 @@
+[console_scripts]
+glxsh = glxshell.glxsh:main
+glxush = glxshell.glxush:main

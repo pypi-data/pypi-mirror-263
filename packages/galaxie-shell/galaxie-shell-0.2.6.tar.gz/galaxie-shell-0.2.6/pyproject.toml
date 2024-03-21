@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name="galaxie-shell"
+dynamic = [
+    "version",
+    "authors",
+]
+description = "Galaxie Shell is a autonomous shell ready for CI and low tech OS"
+readme = "README.md"
+requires-python = ">=3.0"
+keywords = [
+    "Galaxie",
+    "SHELL",
+    "POSIX",
+    "Micropython"
+]
+classifiers = [
+    "Environment :: Console",
+    "License :: Public Domain",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = [
+    "wheel",
+    "setuptools",
+]
+
+[project.optional-dependencies]
+tests = [
+    'coverage',
+    "setuptools",
+    "wheel",
+    'mock >= 1.0.1, < 4; python_version < "3.4"',
+]
+
+[project.urls]
+Homepage = "https://codeberg.org/Tuuux/galaxie-shell"
+Issues = "https://codeberg.org/Tuuux/galaxie-shell/-/issues"
+Readthedocs = "http://galaxie-shell.readthedocs.io"
+
+[project.scripts]
+glxsh = "glxshell.glxsh:main"
+glxush = "glxshell.glxush:main"
