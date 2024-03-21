@@ -1,0 +1,8 @@
+setup.py
+fragrance_api/__init__.py
+fragrance_api/core.py
+fragrantica_api.egg-info/PKG-INFO
+fragrantica_api.egg-info/SOURCES.txt
+fragrantica_api.egg-info/dependency_links.txt
+fragrantica_api.egg-info/requires.txt
+fragrantica_api.egg-info/top_level.txt
