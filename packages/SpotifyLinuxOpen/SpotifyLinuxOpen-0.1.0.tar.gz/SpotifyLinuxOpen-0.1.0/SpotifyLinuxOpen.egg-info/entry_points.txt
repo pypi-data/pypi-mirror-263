@@ -1,0 +1,2 @@
+[console_scripts]
+slopen = sllo.Main:main

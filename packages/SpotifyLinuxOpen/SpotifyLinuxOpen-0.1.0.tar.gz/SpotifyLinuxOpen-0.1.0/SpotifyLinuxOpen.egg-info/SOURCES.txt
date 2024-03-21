@@ -1,0 +1,10 @@
+README.md
+setup.py
+SpotifyLinuxOpen.egg-info/PKG-INFO
+SpotifyLinuxOpen.egg-info/SOURCES.txt
+SpotifyLinuxOpen.egg-info/dependency_links.txt
+SpotifyLinuxOpen.egg-info/entry_points.txt
+SpotifyLinuxOpen.egg-info/top_level.txt
+sllo/Classes.py
+sllo/Main.py
+sllo/__init__.py
