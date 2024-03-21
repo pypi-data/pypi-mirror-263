@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pythio
+Version: 0.0.1
+Summary: python library
+Home-page: https://github.com/metect/pythio
+Author: amirali irvany
+Author-email: dev.amirali.irvany@gmail.com
+License: MIT
+Keywords: api,telegram
+License-File: LICENSE
+Requires-Dist: requests
+
+# Pythio
+
+pythio is a async library based on telegram api for createing bots in telegram messanger

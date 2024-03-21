@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pythio.egg-info/PKG-INFO
+pythio.egg-info/SOURCES.txt
+pythio.egg-info/dependency_links.txt
+pythio.egg-info/requires.txt
+pythio.egg-info/top_level.txt
