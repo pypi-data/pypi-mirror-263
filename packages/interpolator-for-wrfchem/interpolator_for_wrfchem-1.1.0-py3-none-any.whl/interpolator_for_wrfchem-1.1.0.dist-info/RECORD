@@ -1,0 +1,15 @@
+interpolator_for_wrfchem/__init__.py,sha256=EIMVGYQoAA-8a31OpqKz_2QEIYUpnLGD6U55fBcsQ2o,7571
+interpolator_for_wrfchem/__main__.py,sha256=9lnHZYQgVB866DPfWBKGQC_k44ivBQvgRQgwJaiEJRg,50
+interpolator_for_wrfchem/global_model.py,sha256=M2jnQBbzLLw0O6mqaAcSJG2cRqaUPd1UNfx2Ca7TaRM,5120
+interpolator_for_wrfchem/interpolation.py,sha256=dxcDMRvjawrVn0dfYXlY5ZmGOog8qI9oikgj5r5jSy0,2888
+interpolator_for_wrfchem/met_em.py,sha256=4-hzDqWEglC6IAih9WSb0Wobhw7MZ6PnQafdBvqPAW0,2628
+interpolator_for_wrfchem/res/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+interpolator_for_wrfchem/res/cams_eac4_model_levels.csv,sha256=LP00QChp0X1LGt6xdG360IosRL9PCrwEonnSQ6AwjpA,4603
+interpolator_for_wrfchem/species_map.py,sha256=vd3M44m596rcopEcMIgsqdwgA9QZ9_6XQGu343rxY3Q,4175
+interpolator_for_wrfchem/utils.py,sha256=zdyicmV7H6a7JdXBTYKzHgoGNSqamuYd5rDp3HDvZQA,1212
+interpolator_for_wrfchem/wrf.py,sha256=UGFfgRHA1LaqA3eShAuwB8PFZcxADmHjpaDffzqrrqA,2857
+interpolator_for_wrfchem-1.1.0.dist-info/LICENSE,sha256=ikcpk-4IQM4LZag-HxOOS5ZOzOXE7TqSAoXzadez_nA,1074
+interpolator_for_wrfchem-1.1.0.dist-info/METADATA,sha256=vRfJKhHFbW8vO6ag9tEU2ys1Eyj05-H0asMJXZQe_jU,3367
+interpolator_for_wrfchem-1.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+interpolator_for_wrfchem-1.1.0.dist-info/entry_points.txt,sha256=H_rdwm74P3HWtEjYq7MEuyAyEaz6sPTLgS49_joo-IA,74
+interpolator_for_wrfchem-1.1.0.dist-info/RECORD,,
