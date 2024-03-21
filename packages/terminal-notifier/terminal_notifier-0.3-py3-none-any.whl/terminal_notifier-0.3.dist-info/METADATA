@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: terminal_notifier
+Version: 0.3
+Author: Anish Tipnis
+Requires-Python: >=3.6
+Requires-Dist: plyer
+Requires-Dist: playsound
+
