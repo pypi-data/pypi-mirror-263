@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: composio-crewai
+Version: 0.1.16
+Summary: Use Composio to get an array of tools with your CrewAI agent.
+Home-page: https://github.com/SamparkAI/composio_sdk
+Author: Himanshu
+Author-email: himanshu@composio.dev
+License: UNKNOWN
+Description: Composio <> CrewAI
+        Utilize Composio to integrate a suite of tools with your CrewAi projects.
+        
+        # Usage
+        Within your CrewAI project environment:
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
