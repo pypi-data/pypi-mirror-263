@@ -1,0 +1,9 @@
+vistudio_annotation/__init__.py,sha256=f26Ql4hxuoJpxZfUpP6ylwknt_Ne3rCMds79ugq_Cyk,214
+vistudio_annotation/client/__init__.py,sha256=f26Ql4hxuoJpxZfUpP6ylwknt_Ne3rCMds79ugq_Cyk,214
+vistudio_annotation/client/annotation_client.py,sha256=tuYB7FKlKLpiOjqDRXbbzMdrbZYiw_tUDxhUdZBcWoM,3966
+vistudio_annotation/client/paging.py,sha256=7PWb1gOEeM0W3VXjA6qfQkgjSK9WMo8p4pJGd-Isox0,1720
+vistudio_annotation/client/setup.py,sha256=s5BhwQVMhV-HyObhP3AJI4_TGizMTAkFg1KpJRl1Ljc,825
+vistudio_annotation-1.0.0.4.dist-info/METADATA,sha256=tcEHwfw1l5zo8bddjJdob4VXImw20TzG2CvxwkHqLak,695
+vistudio_annotation-1.0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vistudio_annotation-1.0.0.4.dist-info/top_level.txt,sha256=ZCLyWAL1UGcFQwGyyN7GNtw0mllQv21hNnAp-Nmpeo4,20
+vistudio_annotation-1.0.0.4.dist-info/RECORD,,
