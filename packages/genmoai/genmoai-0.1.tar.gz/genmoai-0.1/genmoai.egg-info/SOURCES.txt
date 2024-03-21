@@ -1,0 +1,5 @@
+setup.py
+genmoai.egg-info/PKG-INFO
+genmoai.egg-info/SOURCES.txt
+genmoai.egg-info/dependency_links.txt
+genmoai.egg-info/top_level.txt
