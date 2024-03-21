@@ -1,0 +1,86 @@
+# backrun
+Run other (whitelisted) programs/scripts in background (and maybe as another userid) and save stdout/stderr in log. You may need this when you want to start other long-running scripts (like sync databases) from web-UI.
+
+## Install
+~~~
+# for this user only
+pipx install backrun
+
+# for all users
+sudo PIPX_HOME=/opt/pipx PIPX_BIN_DIR=/usr/local/bin pipx install backrun
+
+# old fashioned way
+pip3 install backrun
+~~~~
+
+## Run background tasks
+
+Prepare config file `backrun.toml`, and run backrun. 
+
+When you need to start some background process, do this:
+~~~
+echo script1 > /var/backrun/task/123
+~~~
+
+This will create *task file* to run `script1` with id 123.
+
+Almost immediately backrun will start to execute script and write stdout/stderr to `/var/backrun/tasklog/123.log`.
+
+When script will finish, backrun will delete task file.
+
+## Details
+Script will be executed with uid of backrun script.
+
+Backrun reads only first like of taskfile, so you can put everything (any text, YAML, JSON) starting with 2nd line and script can read it.
+
+script will get environment of backrun. backrun will set two new environment variables for script:
+`TASKID` - if of task (e.g. "123"), `TASKFILE` - path to task file. If `user` is set, `HOME` variable is redefined too.
+
+
+## Example files
+
+### config file
+Config file name is either passed as first argument to backrun or first existing file in: `./backrun.toml`, `~/backrun.toml`, `/etc/backrun.toml`.
+
+~~~toml
+taskdir = "/var/backrun/task"
+logdir = "/var/backrun/tasklog"
+logfile = '/var/backrun/backrun.log'
+
+[scripts]
+    [scripts.script1]
+    path="/usr/local/bin/script1.sh"
+
+    [scripts.script2]
+    path="/usr/local/bin/script1.sh"
+    user="myuser"
+~~~
+
+### script file (script1.sh)
+~~~bash
+#!/bin/bash
+
+log(){
+    echo `date "+%Y-%m-%d %H:%M:%S"` $*
+}
+
+log started as user `whoami`
+sleep 10
+>&2 log "error"
+log finished
+~~~
+
+### systemd service file
+change `User` and `ExecStart` 
+
+~~~
+[Unit]
+Description=backrun: run whitelisted scripts in background
+
+[Service]
+ExecStart=/usr/local/bin/backrun
+# User=xenon
+
+[Install]
+WantedBy=multi-user.target
+~~~
