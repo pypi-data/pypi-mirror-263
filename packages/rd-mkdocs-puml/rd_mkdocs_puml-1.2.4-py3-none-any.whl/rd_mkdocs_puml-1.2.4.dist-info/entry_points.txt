@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+plantuml=rd_mkdocs_puml.plugin:PlantUMLPlugin
+
