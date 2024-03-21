@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ldshell.egg-info/PKG-INFO
+ldshell.egg-info/SOURCES.txt
+ldshell.egg-info/dependency_links.txt
+ldshell.egg-info/top_level.txt
+mypackage/__init__.py
+mypackage/__version__.py
+mypackage/core.py
