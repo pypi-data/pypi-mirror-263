@@ -1,0 +1,8 @@
+example_package_rompni/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example_package_rompni/example.py,sha256=fqBHyMhCxLH6WP-Ffv-F9aceSglnraoE6fv26iCFS1Q,784
+tests/tes.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example_package_rompni-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+example_package_rompni-0.0.1.dist-info/METADATA,sha256=pGAfe6LhBPD92GmqcbIhB0LEWd5Bo107etyXGOFL6Jw,698
+example_package_rompni-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+example_package_rompni-0.0.1.dist-info/top_level.txt,sha256=SV7jJUhTUSqqmUPVms90_7sVHOquaAbPMjXGOYc9znM,29
+example_package_rompni-0.0.1.dist-info/RECORD,,
