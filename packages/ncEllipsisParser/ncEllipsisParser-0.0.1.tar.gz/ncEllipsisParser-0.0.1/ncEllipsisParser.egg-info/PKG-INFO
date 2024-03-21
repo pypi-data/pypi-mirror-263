@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: ncEllipsisParser
+Version: 0.0.1
+Summary: Package to parse a netCDF to an Ellipsis Drive data structure
+Home-page: https://github.com/ellipsis-drive/ncEllipsisParser
+Author: Daniel van der Maas
+Author-email: daniel@ellipsis-drive.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rasterio
+Requires-Dist: xarray
+Requires-Dist: numpy
+Requires-Dist: ellipsis
+
+# ncEllipsisParser
+Parse netCDF files as Ellipsis Drive data structures
+
+### Install
+```python
+pip install ncEllipsisParser
+```
+
+### Example
+```python
+from ncEllipsisParser import parseNetCDF
+import ellipsis as el
+
+token = el.account.logIng('your username', 'your password')
+parseNetCDF(file ='is path to your file', token=token, epsg = 4326, folderId = None)

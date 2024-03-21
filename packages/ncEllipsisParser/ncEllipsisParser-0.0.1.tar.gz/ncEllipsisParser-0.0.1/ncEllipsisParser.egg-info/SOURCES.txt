@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ncEllipsisParser.egg-info/PKG-INFO
+ncEllipsisParser.egg-info/SOURCES.txt
+ncEllipsisParser.egg-info/dependency_links.txt
+ncEllipsisParser.egg-info/requires.txt
+ncEllipsisParser.egg-info/top_level.txt
