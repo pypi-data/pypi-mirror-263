@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+pycol_complexity.egg-info/PKG-INFO
+pycol_complexity.egg-info/SOURCES.txt
+pycol_complexity.egg-info/dependency_links.txt
+pycol_complexity.egg-info/top_level.txt
