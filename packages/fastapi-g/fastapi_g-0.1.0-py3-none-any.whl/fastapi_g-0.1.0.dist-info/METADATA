@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: fastapi-g
+Version: 0.1.0
+Summary: CLI generator tool for FastAPI Framework
+Author: Ashary Gartanto
+Author-email: ashary.gartanto@gmail.com
+Requires-Dist: pydantic
+Requires-Dist: fastapi
+Requires-Dist: tqdm
+
