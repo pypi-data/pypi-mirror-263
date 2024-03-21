@@ -1,0 +1,10 @@
+pandas
+numpy
+scipy
+alive_progress
+matplotlib-label-lines
+statsmodels
+matplotlib
+scikit-learn
+elementMass
+typing_extensions
