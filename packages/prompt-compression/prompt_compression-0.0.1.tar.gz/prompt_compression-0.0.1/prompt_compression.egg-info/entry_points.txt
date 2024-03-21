@@ -1,0 +1,2 @@
+[package_tools]
+prompt_compression_tool = prompt_compression.tools.utils:list_package_tools
