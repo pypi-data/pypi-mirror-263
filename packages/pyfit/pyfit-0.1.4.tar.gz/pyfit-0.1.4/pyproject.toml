@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pyfit"
+version = "0.1.4"
+description = "Helper functions for training Machine Learning models with PyTorch"
+authors = ["Baptiste Pesquet <bpesquet@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.7.1"
+seaborn = "^0.13.1"
+torch = "^2.2.0"
+
+[tool.poetry.group.dev.dependencies]  # Dependency group for editing code
+pylint = "^3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
