@@ -1,0 +1,11 @@
+prompt_compression.tools.prompt_compression_tool.prompt_compression_tool:
+  function: prompt_compression_tool
+  inputs:
+    prompt:
+      type:
+      - string
+  module: prompt_compression.tools.prompt_compression_tool
+  name: Prompt Compression Tool
+  description: This is prompt compression tool
+  type: python
+
