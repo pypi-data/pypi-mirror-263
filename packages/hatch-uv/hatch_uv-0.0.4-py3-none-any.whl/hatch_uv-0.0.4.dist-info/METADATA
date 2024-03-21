@@ -1,0 +1,43 @@
+Metadata-Version: 2.3
+Name: hatch-uv
+Version: 0.0.4
+Project-URL: Documentation, https://github.com/unknown/hatch-uv#readme
+Project-URL: Issues, https://github.com/unknown/hatch-uv/issues
+Project-URL: Source, https://github.com/unknown/hatch-uv
+Author-email: Evan Sadler <easadler@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Hatch
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# hatch-uv
+
+[![PyPI - Version](https://img.shields.io/pypi/v/hatch-uv.svg)](https://pypi.org/project/hatch-uv)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/hatch-uv.svg)](https://pypi.org/project/hatch-uv)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install hatch-uv
+```
+
+## License
+
+`hatch-uv` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

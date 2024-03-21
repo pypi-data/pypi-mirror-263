@@ -1,0 +1,2 @@
+[hatch]
+uv = hatch_uv.hooks
