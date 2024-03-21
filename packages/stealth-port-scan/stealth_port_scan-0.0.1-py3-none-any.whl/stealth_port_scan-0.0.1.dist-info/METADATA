@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: stealth-port-scan
+Version: 0.0.1
+Summary: Stealth Port Scan using TCP/SYN method
+Author: Sergey M
+License: You can use it as you wish as long as you credit the author.
+        
+Project-URL: Repository, https://github.com/s3rgeym/stealth-port-scan.git
+Classifier: Topic :: Internet
+Requires-Python: >=3.11.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Provides-Extra: test
+
+Stealth Port Scan using TCP/SYN method.
+
+```bash
+# install
+# also you can use pip
+pipx install stealth-port-scan
+
+# usage
+stealth-port-scan -h
+
+# requires sudo to send raw packets
+# you can specify hostname, ip adress, ip range or cidr
+sudo stealth-port-scan -a www.linux.org.ru
+
+# if you have problems with secure_path
+# sudo: stealth-port-scan: command not found
+sudo env "PATH=$PATH" stealth-port-scan ...
+
+sudo $(which stealth-port-scan) ...
+
+# or just clone repo and run
+sudo ./stealth_port_scan.py ...
+```
