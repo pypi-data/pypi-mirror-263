@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/vardelta/Delta.py
+src/vardelta/__init__.py
+src/vardelta.egg-info/PKG-INFO
+src/vardelta.egg-info/SOURCES.txt
+src/vardelta.egg-info/dependency_links.txt
+src/vardelta.egg-info/top_level.txt
+tests/test_Delta.py
