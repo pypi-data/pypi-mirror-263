@@ -1,0 +1,411 @@
+:root {
+    --blue-datalyo: #009C9D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 2%;
+}
+
+/* GENERAL */
+
+.bold {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2,
+h3,
+.uppercase {
+    text-transform: uppercase;
+}
+
+h2 {
+    padding-bottom: 13px;
+    color: var(--blue-datalyo);
+}
+
+h3 {
+    font-style: italic;
+    padding-bottom: 5px;
+    color: var(--blue-datalyo);
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section>div>ul>li::before {
+    content: "\2713";
+    /* HTML : &#10003; */
+    /* Arrow: */
+    /* content: "\002B9A";  HTML : &#11162; */
+    padding-right: 1vw;
+}
+
+li {
+    padding: 2px 0 2px 2vw;
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+    padding: 3px 0;
+}
+
+.topsect {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 25px 0;
+    color: var(--blue-datalyo);
+}
+
+.anonyme {
+    display: none;
+}
+
+mark {
+    color: var(--blue-datalyo);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+    background-color: transparent;
+}
+
+/* SPECIFIC INSIDE BODY */
+
+header .logo {
+    height: 100px;
+}
+
+#identity {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+#identity p {
+    margin-left: 1px;
+}
+
+#identity img {
+    height: 100%;
+}
+
+#identity #name {
+    align-self: center;
+}
+
+#certif>div:not([class]) {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#certif>div>ul {
+    padding-right: 20px;
+    width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    #certif>div>ul {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+
+    #certif div:not([class]) {
+        justify-content: center;
+    }
+}
+
+#certif #img_certif {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2vw;
+    align-content: center;
+}
+
+#certif #img_certif>img {
+    height: 80px;
+}
+
+#missions>div>ul>li {
+    padding: 25px 0 25px 2vw;
+}
+
+#missions>div>ul>li::before {
+    content: none;
+}
+
+#missions>div>ul>li>p:first-of-type {
+    padding: 0 0 15px 0;
+    font-weight: bold;
+}
+
+#missions>div>ul>li>p:has(mark) {
+    padding: 15px 0 0 0;
+}
+
+#missions>div>ul>li>ul li::before {
+    content: "\2713";
+    padding-right: 1vw;
+}
+
+#footer{
+    display: none;
+}
+
+footer {
+    font-size: 0.7em;
+    padding-top: 50px;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+    color: var(--blue-datalyo);
+    font-weight: bold;
+}
+
+footer ul li:first-child {
+    padding: 0;
+}
+
+footer span {
+    font-size: 1.2em;
+}
+
+/* ICONS FOR h2 */
+
+h2::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    margin-right: 7px;
+}
+
+#value-added h2::before {
+    background-image: url('icon_star.png');
+}
+
+#key-skills h2::before {
+    background-image: url('icon_skill.png');
+}
+
+#diplomas h2::before {
+    background-image: url("icon_diploma.png");
+}
+
+#certif h2::before {
+    background-image: url("icon_diploma.png");
+}
+
+#languages h2::before {
+    background-image: url("icon_chat.png");
+}
+
+#animations h2::before {
+    background-image: url("icon_person.png");
+}
+
+#missions h2::before {
+    background-image: url("icon_person.png");
+}
+
+@media print {
+
+    @page {
+        size: A4 portrait;
+        margin: 2.5cm 1cm 1.2cm 1cm;
+
+        @top-left {
+            content: element(header);
+        }
+
+        @bottom-center {
+            content: element(footer);
+        }
+    }
+
+    body {
+        background-color: white;
+        font-family: Calibri;
+        font-size: 10pt;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* GENERAL */
+
+    h1 {
+        font-size: 24pt;
+    }
+
+    h2 {
+        font-size: 14pt;
+        padding-bottom: 2.7mm;
+        padding-top: 5mm;
+    }
+
+    h3 {
+        font-size: 12pt;
+        padding-bottom: 1mm;
+    }
+
+    li {
+        padding: 0.7mm 0 0.7mm 5mm;
+    }
+
+    .check ul li::before {
+        padding-right: 3mm;
+    }
+
+    p {
+        padding: 1mm 0 1mm 0;
+    }
+
+    section {
+        break-inside: avoid;
+        padding-top: 5mm;
+    }
+
+    .topsect {
+        font-size: 12pt;
+        padding: 0;
+    }
+
+    mark {
+        font-size: 9pt;
+    }
+
+    /* SPECIFIC INSIDE BODY */
+
+    header {
+        height: 2.4cm;
+        position: running(header);
+    }
+
+    header .logo {
+        height: 2cm;
+        padding-top: 2mm;
+        padding-bottom: 2mm;
+    }
+
+    #identity {
+        height: 3cm;
+        padding: 0;
+    }
+
+    #identity #name {
+        padding-top: 7mm;
+        display: inline-block;
+    }
+
+    #identity .normal {
+        width: 5cm;
+        text-align: right;
+        display: inline-block;
+    }
+
+    #identity p {
+        font-size: 11pt;
+    }
+
+    #identity img {
+        height: 3cm;
+    }
+
+    #certif>div>ul {
+        padding-right: 3mm;
+        width: 100%;
+    }
+
+    #certif #img_certif {
+        padding: 0;
+        padding-top: 3mm;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    #certif #img_certif>img {
+        height: 2cm;
+    }
+
+    #missions {
+        break-inside: auto;
+    }
+
+    #missions>div>ul>li {
+        break-inside: avoid;
+        padding: 5mm 0 2mm 1cm;
+    }
+
+    #missions>div>ul>li>ul li::before {
+        padding-right: 3mm;
+    }
+
+    #missions>div>ul>li>p:first-of-type {
+        padding: 0 0 3mm 0;
+    }
+
+    #missions>div>ul>li>p:has(mark) {
+        padding-top: 3mm;
+    }
+
+    footer {
+        display: none;
+    }
+
+    #footer {
+        display: block;
+        position: running(footer);
+        padding: 0;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    #footer ul {
+        padding: 3mm 0;
+        text-align: center;
+    }
+
+    #footer ul li {
+        font-size: 8pt;
+        display: inline;
+        color: var(--blue-datalyo);
+        font-weight: bold;
+    }
+
+    #footer ul li:first-child {
+        padding: 0;
+    }
+
+    #footer span {
+        font-size: 10pt;
+    }
+
+    /* ICONs FOR h2 */
+
+    h2::before {
+        width: 5.5mm;
+        height: 5.5mm;
+        margin-right: 2mm;
+    }
+}
