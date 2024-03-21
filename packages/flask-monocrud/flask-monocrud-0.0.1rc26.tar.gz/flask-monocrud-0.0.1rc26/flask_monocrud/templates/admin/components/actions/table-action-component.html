@@ -1,0 +1,71 @@
+{% for action in data_model.table.actions() %}
+    {% if action.type == "action" %}
+        <a class="dropdown-item"
+                {% if not action.schema %}
+           href="#!"
+           data-hx-post="/mvlive/{{ resource }}"
+           data-hx-vals='{"method": "{{ action.name }}", "args": "{{ result.id }}", "data": "ACTION_DATA",  "csrf_token": "{{ csrf_token() }}"}'
+           data-hx-target="#result-{{ resource|lower }}-{{ result.id }}"
+           data-hx-select="#result-{{ resource|lower }}-{{ result.id }}"
+           data-hx-swap="outerHTML"
+                {% endif %}
+                {% if action.schema %}
+           data-bs-toggle="modal"
+           data-bs-target="#action-{{ action.name }}-resource-{{ result.id }}"
+                {% endif %}
+        >
+            {% if action.label %}
+                {{ render_dynamic_html(action.label, result=result)|safe }}{% else %}
+                {{ action.name }}{% endif %}
+        </a>
+        {% if action.schema %}
+            <div class="modal fade modal-{% if action.size %}{{ action.size }}{% else %}sm{% endif %}"
+                 id="action-{{ action.name }}-resource-{{ result.id }}"
+                 tabindex="-1"
+                 data-bs-backdrop="static"
+                 aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title"
+                                id="exampleModalLabel">
+                                {{ render_dynamic_html(action.label, result=result)|safe }}
+                            </h5>
+                            <button class="btn p-1" type="button"
+                                    data-bs-dismiss="modal"
+                                    aria-label="Close">
+                                <span class="fas fa-times fs--1"></span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form id="action-{{ action.name }}-resource-{{ result.id }}-form"
+                                  class='row'
+                                  data-hx-post="/mvlive/{{ resource }}"
+                                  data-hx-vals='js:{"method": "{{ action.name }}", "args": "{{ result.id }}",  "csrf_token": "{{ csrf_token() }}"}'
+                                  _="on htmx:afterOnLoad call hideModal('#action-{{ action.name }}-resource-{{ result.id }}')"
+                                  data-hx-target="#result-{{ resource|lower }}-{{ result.id }}"
+                                  data-hx-select="#result-{{ resource|lower }}-{{ result.id }}"
+                                  data-hx-swap="outerHTML"
+                            >
+                                {% for field in action.schema %}
+                                    {% if field.type != 'repeater' %}
+                                        {% include 'admin/components/forms/ReusableForm.html' with context %}
+                                    {% endif %}
+                                {% endfor %}
+                                <div class="col-12">
+                                    <button class="btn btn-primary float-end mt-5"
+                                            type="submit">
+                                        Run Action
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+    {% elif action.type == "horizontal-separator" %}
+        {% include action.view %}
+    {% endif %}
+{% endfor %}
