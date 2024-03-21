@@ -1,0 +1,103 @@
+[tool.poetry]
+name = "fuzzy-c-means"
+version = "1.7.2"
+description = "A simple python implementation of Fuzzy C-means algorithm."
+authors = ["Madson Dias <madsonddias@gmail.com>"]
+
+
+license = "MIT"
+readme = "README.md"
+documentation = "https://fuzzy-c-means.readthedocs.io/en/latest/"
+repository = "https://github.com/omadson/fuzzy-c-means"
+keywords = ["machine-learning", "data-science", "fuzzy-c-means", "clustering"]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+include = [
+    "LICENSE",
+]
+
+packages = [
+    { include = "fcmeans" }
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.21.1"
+tabulate = "^0.8.9"
+tqdm = "^4.64.1"
+joblib = "^1.2.0"
+pydantic = "^2.6.4"
+typer = "^0.9.0"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.6.2"
+matplotlib = "^3.8.3"
+jupyterlab = "^4.1.5"
+pytest = "^8.1.1"
+pytest-cov = "^4.1.0"
+flake8 = "^7.0.0"
+isort = "^5.13.2"
+mypy = "^1.9.0"
+python-semantic-release = "^9.2.0"
+black = "^24.3.0"
+interrogate = "^1.5.0"
+mkdocs = "^1.5.3"
+mkdocs-material = "^9.5.14"
+mkdocs-jupyter = "^0.24.6"
+mkdocstrings = "^0.24.1"
+mkdocstrings-python-legacy = "^0.2.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+fcm = 'fcmeans.cli:app'
+
+
+[tool.semantic_release]
+version_variables = [
+    'fcmeans/__init__.py:__version__',
+]
+version_toml = ["pyproject.toml:tool.poetry.version"]
+[tool.semantic_release.branches.main]
+match = "(main|master)"
+prerelease_token = "rc"
+prerelease = false
+build_command = "poetry build"
+
+[tool.semantic_release.publish]
+upload_to_vcs_release = true
+
+[tool.semantic_release.changelog]
+changelog_file = "docs/CHANGELOG.md"
+
+[mypy]
+plugins = ['numpy.typing.mypy_plugin']
+
+[tool.coverage.report]
+omit = ['fcmeans/my_typing.py', 'fcmeans/__init__.py', 'fcmeans/cli.py']
+fail_under = 70
+
+[tool.interrogate]
+ignore-init-method = true
+ignore-init-module = false
+ignore-magic = false
+ignore-semiprivate = true
+ignore-private = true
+ignore-property-decorators = true
+ignore-module = false
+ignore-nested-functions = false
+ignore-nested-classes = true
+ignore-setters = false
+fail-under = 95
+exclude = ["setup.py", "docs", "build"]
+ignore-regex = ["^get$", "^mock_.*", ".*BaseClass.*"]
+verbose = 2
+quiet = false
+whitelist-regex = []
+color = true
+omit-covered-files = false
