@@ -1,0 +1,2 @@
+[console_scripts]
+certificate_generator = certification.certificate_generator:main
