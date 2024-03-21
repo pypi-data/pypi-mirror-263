@@ -1,0 +1,8 @@
+.gitignore
+README.md
+mdrocr
+setup.py
+mdrocr.egg-info/PKG-INFO
+mdrocr.egg-info/SOURCES.txt
+mdrocr.egg-info/dependency_links.txt
+mdrocr.egg-info/top_level.txt
