@@ -1,0 +1,4 @@
+httpx
+nonebot_plugin_saa
+pil_utils
+pillow
