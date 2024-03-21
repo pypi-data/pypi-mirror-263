@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: saltext.vector
+Version: 0.0.6
+Summary: Salt engine to send events to Vector
+Home-page: https://gitlab.com/turtletraction/salt-grafana/
+Author: Max Arnold
+Author-email: max.arnold@turtletraction.com
+License: Apache Software License
+Project-URL: Source, https://gitlab.com/turtletraction/salt-grafana/
+Project-URL: Tracker, https://gitlab.com/turtletraction/salt-grafana/issues
+Keywords: salt-extension
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: salt>=3003
+
+# Salt Vector
+
+Salt engine to send events to [Vector](https://vector.dev).
+
+> Vector is a high-performance observability data pipeline. Collect, transform, and route all your logs, metrics, and traces to any vendors you want today and any other vendors you may want tomorrow. Open source and up to 10x faster than every alternative.
+
+The engine is a part of [Salt Grafana](https://turtletraction-oss.gitlab.io/salt-grafana/) project, but it can be used without it if you just want to send Salt events to any of the [destinations supported by Vector](https://vector.dev/docs/reference/configuration/sinks/).
+
+The installation guide is available at https://turtletraction-oss.gitlab.io/salt-grafana/installation.html#id2
+
+The source code and issue tracker are hosted at https://gitlab.com/turtletraction-oss/salt-grafana
