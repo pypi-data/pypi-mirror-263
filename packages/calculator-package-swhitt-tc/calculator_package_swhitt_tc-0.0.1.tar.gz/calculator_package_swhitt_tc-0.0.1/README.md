@@ -1,0 +1,30 @@
+# Calculator package
+
+This is a simple calculator application you can use in your projects to instantiate objects that behave like a basic calculators. The following Calculator() class methods accept a single integer. They perform a mathematical operation of your choice on a default value until you reset the object and initalize it to zero or a value of your choice:
+
+	.add(): computes the sum of the argument and the integer value in the object's memmory
+	.subtract(): computes the difference between the integer value in the object's memory and the argument
+	.multiply(): computes the product of the argument and the integer value in the object's memory
+	.divide(): computes the quotient of two integers; the argument serves as the divisor
+	.nth_root(): assign argument to n and finds the nth root of the integer value in the object's memory
+	.reset(): sets the value of the integer in the object's memory to 0 or the value of optional integer argument
+
+To view Calculator class methods please use the dir() function on the object.
+
+# Installation and Setup
+
+You must have pip and Python 3 or higher installed to use this package. Download the package from PyPi and use pip to install in the location of your choice. Import the calculator object from the calculator module in the package to your file.
+
+# Code structure
+
+The package includes an __init__.py file and a calculator.py file. The calculator.py file was created in a Jupyter Notebook. The calculator.py file contains a single class, Calculator, that includes one static variable, default_num, that serves as the initialized value for the calculator. Like a conventional calculator, when you instantiate a Calculator object, default_num will equal 0. Use the Calculator() class to create your own Calculator object in your project (eg. my_calc = Calculator()) and use the methods described above to perform operations on the default_num.
+
+# Future work
+
+The Calculator class included in this package can be improved upon by adding a try-except block to prevent Calculator objects from returning complex numbers when it attempts to divide by a negative number. Future developers could also raise exceptions when a developer attempts to pass non-integer arguments to the class methods. Precision could also be improved to prevent rounding errors when it performs operations. 
+
+Currently this package is designed to be used primarily by developers given that the package does not create calculator objects for the user. To make it more accessible to non-developers, the application could instantiate its own Calculator objects and a graphical user interface could be added, making the operations more explicit.
+
+# Ackowledgments
+
+Thank you to Turing College Team Leaders and program participants for troubleshooting, insight, encouragement and a plethora of reference resources that helped me develop this package.
