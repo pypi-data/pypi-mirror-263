@@ -1,0 +1,10 @@
+infer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+infer/yolov5_openvino.py,sha256=mUddaZD66sc76ZvkhD7t1xZVZNbYlPmEKyEKzZfHHlw,8096
+labels_tool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+labels_tool/auto_label.py,sha256=4vG_JygkcHYoKNlZgMH5a0OYxyUyBC03R0D3z7n0v1s,15042
+labels_tool/py_tools.py,sha256=9MagLFbVzaNxAAkzs6yOwzXcIkE4DGytBUHN1RKRiv4,7128
+cvtools_python-0.0.1.dist-info/LICENSE.txt,sha256=gKrM2JuiKs-eyKSzlB-YIhvfYdyVtGEutMteJvCiWxQ,1091
+cvtools_python-0.0.1.dist-info/METADATA,sha256=cw9nsCZDRnWcxb57MTliCrklJiFxuIJLsHLzNOYi_1o,1011
+cvtools_python-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cvtools_python-0.0.1.dist-info/top_level.txt,sha256=tcY-CY-TjaGBXfw8ufyTHG1Uw6ty6wG9KsyDIqqvYyQ,18
+cvtools_python-0.0.1.dist-info/RECORD,,
