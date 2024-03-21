@@ -1,0 +1,99 @@
+import msgpack
+from constants import EVERYONE
+from pydantic import BaseModel, ValidationError
+from typing import Any, Type, Optional
+import base64
+
+class BasePacket(BaseModel):
+    from_pid: bytes
+    # If to_pid is None, it is either from the client to its protocol or vice-versa
+    to_pid: Optional[bytes | list[Optional[bytes]]] = None
+    exclude_sender: Optional[bool] = False
+
+    def serialize(self) -> bytes:
+        data = {}
+        packet_name = self.__class__.__name__.removesuffix("Packet").title()
+        m_dump = self.model_dump()
+
+        data[packet_name] = m_dump
+        return msgpack.packb(data, use_bin_type=True)
+    
+    def __repr__(self) -> str:
+        TO_PID: str = "to_pid"
+        FROM_PID: str = "from_pid"
+        d: dict[str, Any] = self.__dict__.copy()
+        d[FROM_PID] = base64.b64encode(self.from_pid).decode()
+
+        if self.to_pid == EVERYONE:
+            d[TO_PID] = "EVERYONE"
+        elif self.to_pid is None:
+            d[TO_PID] = d[FROM_PID]
+        elif isinstance(self.to_pid, list):
+            d[TO_PID] = [
+                base64.b64encode(x).decode()
+                if x else 
+                f"{base64.b64encode(self.from_pid).decode()}'s client"
+                for x in self.to_pid
+            ]
+        else:
+            d[TO_PID] = base64.b64encode(self.to_pid).decode()
+        return f"{self.__class__.__name__}{d}"
+    
+    def __str__(self) -> str:
+        return self.__repr__()
+    
+class DisconnectPacket(BasePacket):
+    reason: str
+
+class MalformedPacketError(ValueError):
+    pass
+
+class UnknownPacketError(ValueError):
+    pass
+
+def register_packet(packet: Type[BasePacket]) -> None:
+    globals()[packet.__name__] = packet
+
+def deserialize(packet_: bytes) -> BasePacket:
+    try:
+        packet_dict: dict[str, Any] = msgpack.unpackb(packet_, raw=False)
+    except msgpack.StackError:
+        raise MalformedPacketError("Packet too nested to unpack")
+    except msgpack.ExtraData:
+        raise MalformedPacketError("Extra data was sent with the packet")
+    except msgpack.FormatError:
+        raise MalformedPacketError("Packet is malformed")
+    except msgpack.UnpackValueError:
+        raise MalformedPacketError("Packet has missing data")
+
+    if len(packet_dict) == 0:
+        raise MalformedPacketError("Empty packet")
+
+    packet_name: Any = list(packet_dict.keys())[0]
+    if not isinstance(packet_name, str):
+        raise MalformedPacketError(f"Invalid packet name (not a string): {packet_name}")
+
+    packet_data: dict = packet_dict[packet_name]
+    
+    # PIDs are sent as b64-encoded strings, but we need them as bytes
+    for _pid_key in ["to_pid", "from_pid"]:
+        if _pid_key in packet_data:
+            packet_data[_pid_key] = base64.b64decode(packet_data[_pid_key])
+
+
+    class_name: str = packet_name.title() + "Packet"
+
+    try:
+        packet_class: Type[BasePacket] = globals()[class_name]
+    except KeyError:
+        raise UnknownPacketError(f"Packet name not recognized: {packet_name}")
+    
+    try:
+        packet_class.model_validate(packet_data)
+    except ValidationError as e:
+        raise MalformedPacketError(f"Packet data {packet_data} does not match expected schema: {e}")
+
+    try:
+        return packet_class(**packet_data)
+    except TypeError as e:
+        raise MalformedPacketError(f"Packet data does not match expected signature: {e}")
