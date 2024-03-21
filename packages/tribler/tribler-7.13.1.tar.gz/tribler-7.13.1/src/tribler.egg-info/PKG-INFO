@@ -1,0 +1,344 @@
+Metadata-Version: 2.1
+Name: tribler
+Version: 7.13.1
+Summary: Privacy enhanced BitTorrent client with P2P content discovery
+Home-page: https://github.com/Tribler/tribler
+Author: Tribler Team
+Author-email: info@tribler.org
+Keywords: BitTorrent client,file sharing,peer-to-peer,P2P,TOR-like network
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Communications :: File Sharing
+Classifier: Topic :: Security :: Cryptography
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: aiohttp==3.9.0
+Requires-Dist: aiohttp-apispec==2.2.3
+Requires-Dist: anyio==3.7.1
+Requires-Dist: chardet==5.1.0
+Requires-Dist: configobj==5.0.8
+Requires-Dist: cryptography==42.0.5
+Requires-Dist: Faker==18.11.2
+Requires-Dist: libnacl==1.8.0
+Requires-Dist: lz4==4.3.2
+Requires-Dist: marshmallow==3.19.0
+Requires-Dist: networkx==3.1
+Requires-Dist: pony==0.7.17
+Requires-Dist: psutil==5.9.5
+Requires-Dist: pydantic==1.10.11
+Requires-Dist: PyOpenSSL==24.0.0
+Requires-Dist: pyyaml==6.0
+Requires-Dist: sentry-sdk==1.31.0
+Requires-Dist: yappi==1.4.0
+Requires-Dist: yarl==1.9.2
+Requires-Dist: bitarray==2.7.6
+Requires-Dist: pyipv8==2.13.0
+Requires-Dist: libtorrent==1.2.19
+Requires-Dist: file-read-backwards==3.0.0
+Requires-Dist: Brotli==1.0.9
+Requires-Dist: human-readable==1.3.2
+Requires-Dist: colorlog==6.7.0
+Requires-Dist: filelock==3.13.0
+Requires-Dist: ipv8-rust-tunnels==0.1.17
+Requires-Dist: Pillow==10.2.0
+Requires-Dist: PyQt5==5.15.1
+Requires-Dist: PyQt5-sip==12.8.1
+Requires-Dist: pyqtgraph==0.12.3
+Requires-Dist: PyQtWebEngine==5.15.2
+Requires-Dist: PyInstaller==5.13.1; sys_platform != "darwin"
+Requires-Dist: setuptools==65.5.1; sys_platform == "darwin"
+Requires-Dist: text-unidecode==1.3; sys_platform == "darwin"
+Requires-Dist: defusedxml==0.7.1; sys_platform == "linux2" or sys_platform == "linux"
+Requires-Dist: markupsafe==2.0.1; sys_platform == "linux2" or sys_platform == "linux"
+Requires-Dist: PyGObject==3.44.1; sys_platform == "linux2" or sys_platform == "linux"
+Requires-Dist: requests==2.31.0
+Provides-Extra: dev
+Requires-Dist: aiohttp==3.9.0; extra == "dev"
+Requires-Dist: aiohttp-apispec==2.2.3; extra == "dev"
+Requires-Dist: anyio==3.7.1; extra == "dev"
+Requires-Dist: chardet==5.1.0; extra == "dev"
+Requires-Dist: configobj==5.0.8; extra == "dev"
+Requires-Dist: cryptography==42.0.5; extra == "dev"
+Requires-Dist: Faker==18.11.2; extra == "dev"
+Requires-Dist: libnacl==1.8.0; extra == "dev"
+Requires-Dist: lz4==4.3.2; extra == "dev"
+Requires-Dist: marshmallow==3.19.0; extra == "dev"
+Requires-Dist: networkx==3.1; extra == "dev"
+Requires-Dist: pony==0.7.17; extra == "dev"
+Requires-Dist: psutil==5.9.5; extra == "dev"
+Requires-Dist: pydantic==1.10.11; extra == "dev"
+Requires-Dist: PyOpenSSL==24.0.0; extra == "dev"
+Requires-Dist: pyyaml==6.0; extra == "dev"
+Requires-Dist: sentry-sdk==1.31.0; extra == "dev"
+Requires-Dist: yappi==1.4.0; extra == "dev"
+Requires-Dist: yarl==1.9.2; extra == "dev"
+Requires-Dist: bitarray==2.7.6; extra == "dev"
+Requires-Dist: pyipv8==2.13.0; extra == "dev"
+Requires-Dist: libtorrent==1.2.19; extra == "dev"
+Requires-Dist: file-read-backwards==3.0.0; extra == "dev"
+Requires-Dist: Brotli==1.0.9; extra == "dev"
+Requires-Dist: human-readable==1.3.2; extra == "dev"
+Requires-Dist: colorlog==6.7.0; extra == "dev"
+Requires-Dist: filelock==3.13.0; extra == "dev"
+Requires-Dist: ipv8-rust-tunnels==0.1.17; extra == "dev"
+Requires-Dist: Pillow==10.2.0; extra == "dev"
+Requires-Dist: PyQt5==5.15.1; extra == "dev"
+Requires-Dist: PyQt5-sip==12.8.1; extra == "dev"
+Requires-Dist: pyqtgraph==0.12.3; extra == "dev"
+Requires-Dist: PyQtWebEngine==5.15.2; extra == "dev"
+Requires-Dist: pytest==7.4.3; extra == "dev"
+Requires-Dist: pytest-aiohttp==1.0.5; extra == "dev"
+Requires-Dist: pytest-asyncio==0.21.1; extra == "dev"
+Requires-Dist: pytest-randomly==3.15.0; extra == "dev"
+Requires-Dist: pytest-timeout==2.2.0; extra == "dev"
+Requires-Dist: pylint-pytest==1.1.7; extra == "dev"
+Requires-Dist: coverage==7.3.2; extra == "dev"
+Requires-Dist: looptime==0.2; sys_platform != "win32" and extra == "dev"
+Requires-Dist: pytest-qt==4.2.0; extra == "dev"
+
+*******
+Tribler
+*******
+|Pytest| |docs| |Codacy| |Coverage| |contributors| |pr_closed| |issues_closed|
+
+|python_3_8| |python_3_9|
+
+|downloads_7_0| |downloads_7_1| |downloads_7_2| |downloads_7_3| |downloads_7_4|
+|downloads_7_5| |downloads_7_6| |downloads_7_7| |downloads_7_8| |downloads_7_9|
+|downloads_7_10| |downloads_7_11| |downloads_7_12| |downloads_7_13| |downloads_7_13_1|
+
+|doi| |openhub| |discord|
+
+*Towards making Bittorrent anonymous and impossible to shut down.*
+
+We use our own dedicated Tor-like network for anonymous torrent downloading.
+We implemented and enhanced the `Tor protocol specifications <https://github.com/Tribler/tribler/wiki/Anonymous-Downloading-and-Streaming-specifications>`_.
+Tribler includes our own Tor-like onion routing network with hidden services based
+seeding and `end-to-end encryption <https://github.com/Tribler/tribler/wiki/Anonymous-Downloading-and-Streaming-specifications>`_.
+
+Tribler aims to give anonymous access to content. We are trying to make privacy, strong cryptography, and authentication the Internet norm.
+
+For the past 11 years we have been building a very robust Peer-to-Peer system.
+Today Tribler is robust: "the only way to take Tribler down is to take The Internet down" (but a single software bug could end everything).
+
+Obtaining the latest release
+============================
+
+Just click `here <https://github.com/Tribler/tribler/releases/latest>`__ and download the latest package for your OS.
+
+Obtaining support
+=================
+
+If you found a bug or have a feature request, please make sure you read `our contributing page <http://tribler.readthedocs.io/en/latest/contributing.html>`_ and then `open an issue <https://github.com/Tribler/tribler/issues/new>`_. We will have a look at it ASAP.
+
+Contributing
+============
+
+Contributions are very welcome!
+If you are interested in contributing code or otherwise, please have a look at `our contributing page <http://tribler.readthedocs.io/en/latest/contributing.html>`_.
+Have a look at the `issue tracker <https://github.com/Tribler/tribler/issues>`_ if you are looking for inspiration :).
+
+
+Running Tribler from the repository
+###################################
+
+We support development on Linux, macOS and Windows. We have written
+documentation that guides you through installing the required packages when
+setting up a Tribler development environment.
+
+* `Linux <http://tribler.readthedocs.io/en/latest/development/development_on_linux.html>`__
+* `Windows <http://tribler.readthedocs.io/en/latest/development/development_on_windows.html>`__
+* `macOS <http://tribler.readthedocs.io/en/latest/development/development_on_osx.html>`__
+
+
+
+Packaging Tribler
+=================
+
+We have written guides on how to package Tribler for distribution on various systems.
+
+* `Linux <http://tribler.readthedocs.io/en/latest/building/building.html>`__
+* `Windows <http://tribler.readthedocs.io/en/latest/building/building_on_windows.html>`__
+* `macOS <http://tribler.readthedocs.io/en/latest/building/building_on_osx.html>`__
+
+
+Docker support
+=================
+
+Dockerfile is provided with the source code which can be used to build the docker image.
+
+To build the docker image:
+
+.. code-block:: bash
+
+    docker build -t triblercore/triblercore:latest .
+
+
+To run the built docker image:
+
+.. code-block:: bash
+
+    docker run -p 20100:20100 --net="host" triblercore/triblercore:latest
+
+Note that by default, the REST API is bound to localhost inside the container so to
+access the APIs, network needs to be set to host (--net="host").
+
+To use the local state directory and downloads directory, the volumes can be mounted:
+
+.. code-block:: bash
+
+    docker run -p 20100:20100 --net="host" -v ~/.Tribler:/state -v ~/downloads/TriblerDownloads:/downloads triblercore/triblercore:latest
+
+
+The REST APIs are now accessible at: http://localhost:20100/docs
+
+
+**Docker Compose**
+
+Tribler core can also be started using Docker Compose. For that, a `docker-compose.yml` file is available
+on the project root directory.
+
+To run via docker compose:
+
+.. code-block:: bash
+
+    docker-compose up
+
+
+To run in detached mode:
+
+.. code-block:: bash
+
+    docker-compose up -d
+
+
+To stop Tribler:
+
+.. code-block:: bash
+
+    docker-compose down
+
+
+Get in touch!
+=============
+
+We like to hear your feedback and suggestions. To reach out to us, you can join `our Discord server <https://discord.gg/UpPUcVGESe>`_ or create a post on `our forums <https://forum.tribler.org>`_.
+
+License
+=======
+
+This file is part of Tribler, Copyright 2004-2023. Tribler is licensed under the GNU General Public License, version 3 (GPL-3.0), as published by the Free Software Foundation on 29 June 2007. Tribler is free software: you can redistribute it and/or modify it under the terms of this license. Tribler is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  For more details, see the full terms and conditions in the `LICENSE.txt <LICENSE.txt>`_ file at the root of this repository, or visit https://www.gnu.org/licenses/gpl-3.0.html.
+
+
+.. |jenkins_build| image:: http://jenkins-ci.tribler.org/job/Test_tribler_main/badge/icon
+    :target: http://jenkins-ci.tribler.org/job/Test_tribler_main/
+    :alt: Build status on Jenkins
+
+.. |pr_closed| image:: https://img.shields.io/github/issues-pr-closed/tribler/tribler.svg?style=flat
+    :target: https://github.com/Tribler/tribler/pulls
+    :alt: Pull Requests
+
+.. |issues_closed| image:: https://img.shields.io/github/issues-closed/tribler/tribler.svg?style=flat
+    :target: https://github.com/Tribler/tribler/issues
+    :alt: Issues
+
+.. |openhub| image:: https://www.openhub.net/p/tribler/widgets/project_thin_badge.gif?style=flat
+    :target: https://www.openhub.net/p/tribler
+
+.. |downloads_7_0| image:: https://img.shields.io/github/downloads/tribler/tribler/v7.0.2/total.svg?style=flat
+    :target: https://github.com/Tribler/tribler/releases
+    :alt: Downloads(7.0.2)
+
+.. |downloads_7_1| image:: https://img.shields.io/github/downloads/tribler/tribler/v7.1.3/total.svg?style=flat
+    :target: https://github.com/Tribler/tribler/releases
+    :alt: Downloads(7.1.3)
+
+.. |downloads_7_2| image:: https://img.shields.io/github/downloads/tribler/tribler/v7.2.2/total.svg?style=flat
+    :target: https://github.com/Tribler/tribler/releases
+    :alt: Downloads(7.2.2)
+
+.. |downloads_7_3| image:: https://img.shields.io/github/downloads/tribler/tribler/v7.3.2/total.svg?style=flat
+    :target: https://github.com/Tribler/tribler/releases
+    :alt: Downloads(7.3.2)
+
+.. |downloads_7_4| image:: https://img.shields.io/github/downloads/tribler/tribler/v7.4.1/total.svg?style=flat
+     :target: https://github.com/Tribler/tribler/releases
+     :alt: Downloads(7.4.1)
+
+.. |downloads_7_5| image:: https://img.shields.io/github/downloads/tribler/tribler/v7.5.1/total.svg?style=flat
+     :target: https://github.com/Tribler/tribler/releases
+     :alt: Downloads(7.5.1)
+
+.. |downloads_7_6| image:: https://img.shields.io/github/downloads/tribler/tribler/v7.6.1/total.svg?style=flat
+     :target: https://github.com/Tribler/tribler/releases
+     :alt: Downloads(7.6.1)
+
+.. |downloads_7_7| image:: https://img.shields.io/github/downloads/tribler/tribler/v7.7.0/total.svg?style=flat
+     :target: https://github.com/Tribler/tribler/releases
+     :alt: Downloads(7.7.0)
+
+.. |downloads_7_8| image:: https://img.shields.io/github/downloads/tribler/tribler/v7.8.0/total.svg?style=flat
+     :target: https://github.com/Tribler/tribler/releases
+     :alt: Downloads(7.8.0)
+
+.. |downloads_7_9| image:: https://img.shields.io/github/downloads/tribler/tribler/v7.9.0/total.svg?style=flat
+     :target: https://github.com/Tribler/tribler/releases
+     :alt: Downloads(7.9.0)
+
+.. |downloads_7_10| image:: https://img.shields.io/github/downloads/tribler/tribler/v7.10.0/total.svg?style=flat
+     :target: https://github.com/Tribler/tribler/releases
+     :alt: Downloads(7.10.0)
+
+.. |downloads_7_11| image:: https://img.shields.io/github/downloads/tribler/tribler/v7.11.0/total.svg?style=flat
+     :target: https://github.com/Tribler/tribler/releases
+     :alt: Downloads(7.11.0)
+
+.. |downloads_7_12| image:: https://img.shields.io/github/downloads/tribler/tribler/v7.12.1/total.svg?style=flat
+     :target: https://github.com/Tribler/tribler/releases
+     :alt: Downloads(7.12.1)
+
+.. |downloads_7_13| image:: https://img.shields.io/github/downloads/tribler/tribler/v7.13.0/total.svg?style=flat
+     :target: https://github.com/Tribler/tribler/releases
+     :alt: Downloads(7.13.0)
+
+.. |downloads_7_13_1| image:: https://img.shields.io/github/downloads/tribler/tribler/v7.13.1/total.svg?style=flat
+     :target: https://github.com/Tribler/tribler/releases
+     :alt: Downloads(7.13.1)
+
+.. |contributors| image:: https://img.shields.io/github/contributors/tribler/tribler.svg?style=flat
+    :target: https://github.com/Tribler/tribler/graphs/contributors
+    :alt: Contributors
+    
+.. |doi| image:: https://zenodo.org/badge/8411137.svg
+    :target: https://zenodo.org/badge/latestdoi/8411137
+    :alt: DOI number
+
+.. |docs| image:: https://readthedocs.org/projects/tribler/badge/?version=latest
+    :target: https://tribler.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+.. |discord| image:: https://img.shields.io/badge/discord-join%20chat-blue.svg
+    :target: https://discord.gg/UpPUcVGESe
+    :alt: Join Discord chat
+
+.. |python_3_8| image:: https://img.shields.io/badge/python-3.8-blue.svg
+    :target: https://www.python.org/
+
+.. |python_3_9| image:: https://img.shields.io/badge/python-3.9-blue.svg
+    :target: https://www.python.org/
+
+.. |Pytest| image:: https://github.com/Tribler/tribler/actions/workflows/pytest.yml/badge.svg?branch=main
+    :target: https://github.com/Tribler
+
+.. |Codacy| image:: https://app.codacy.com/project/badge/Grade/35785b4de0b84724bffdd2598eea3276
+   :target: https://www.codacy.com/gh/Tribler/tribler/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Tribler/tribler&amp;utm_campaign=Badge_Grade
+
+.. |Coverage| image:: https://app.codacy.com/project/badge/Coverage/35785b4de0b84724bffdd2598eea3276
+   :target: https://www.codacy.com/gh/Tribler/tribler/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Tribler/tribler&amp;utm_campaign=Badge_Coverage
