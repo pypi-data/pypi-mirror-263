@@ -1,0 +1,13 @@
+s3datasets/__init__.py,sha256=8RON8Y-Y-mABHwQdwndscR8Zp1u4pXkWnyk77h9UbiY,120
+s3datasets/s3_dataset.py,sha256=XVf0RguNH9-9qWPRJonpXLQZrho4a0j60GJBadDS-aw,9790
+s3datasets/s3_json_dataset.py,sha256=Lks_BlBY8538Di0EFBGh7nGKwybI-DQPUQ95i6BkF9c,450
+s3datasets/s3_text_dataset.py,sha256=1-jbdt43e5SBA8u4pk2X48FxCIANwiz8iilcrdzDrNU,426
+tokengenerators/__init__.py,sha256=aAbcZrcc2deMIopVvxxYY0sxn5Ahc7WKkXvGXBdbF34,177
+tokengenerators/text_ds_2_tokens_generator.py,sha256=4VVIoMQfHHFsYaZTlt_OWp2uAr8ZTBMX5-FoMzQhbA8,24991
+typedjson/__init__.py,sha256=VfouV2V0ErXDFG63gLJsGTOqIe74QFeJKqRsIlDIpcY,91
+typedjson/typedjson.py,sha256=5wjF1aBns4yi-y2aVko32g06eQJqqD7dokwQtGB6q1k,3822
+s3datasets-2.1.1.dist-info/LICENSE,sha256=Lxv21anF7lf3c5WBCgQmZMSG_ZxwblZdYmg0Ji5V-tQ,11411
+s3datasets-2.1.1.dist-info/METADATA,sha256=_k-ay_8er8GJYrE3e9Y0aJ6ZVM1ZlARy4V4X_Ka-kuo,8509
+s3datasets-2.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+s3datasets-2.1.1.dist-info/top_level.txt,sha256=dsunty3rcGQCpyMoiY-8L5pOAVMb6zkO7NX07j_zrDo,37
+s3datasets-2.1.1.dist-info/RECORD,,
