@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: continuing_education
+Version: 0.0.1a1
+Summary: System to ease incremental training of a Huggingface transformer model from a large S3-based dataset
+Author-email: Steve Madere <steve@stevemadere.com>
+Project-URL: Homepage, https://github.com/stevemadere/continuing-education
+Project-URL: Issues, https://github.com/stevemadere/continuing-education/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: s3datasets
+Requires-Dist: dataclasses
+Requires-Dist: typing; python_version < "3.5"
+Requires-Dist: peft
+
+# continuing-education
+Python module to ease the continuation of AI Model training in multiple sessions across distinct hosts.
