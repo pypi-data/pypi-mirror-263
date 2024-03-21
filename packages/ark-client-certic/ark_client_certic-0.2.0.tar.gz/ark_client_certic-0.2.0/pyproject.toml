@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ark-client-certic"
+version = "0.2.0"
+description = "Ark Python client library"
+authors = ["Mickaël Desfrênes <mickael.desfrenes@unicaen.fr>"]
+license = "CeCILL-C"
+readme = "README.md"
+packages = [{include = "ark_client"}]
+
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
