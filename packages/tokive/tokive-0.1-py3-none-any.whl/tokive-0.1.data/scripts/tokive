@@ -1,0 +1,22 @@
+from __future__ import absolute_import
+import click
+import importlib.metadata
+import pkg_resources
+from tokhelper.dao.tiktok_main import solve_captcha_auto
+
+VERSION = importlib.metadata.version("tokive")
+@click.group()
+@click.version_option(version=VERSION, prog_name='gbak')
+def tokive():  # pragma: no cover
+    pass
+
+@click.command()
+@click.option('--id', help='id user')
+@click.option('--room', help=' room')
+@click.option('--live_id', help=' live_id')
+def solve_auto(id, room, live_id):
+    if id != None :
+        print(f"solve:{id}- {room} - {live_id}")
+        solve_captcha_auto(id,room)
+    else:
+        print("{}")
