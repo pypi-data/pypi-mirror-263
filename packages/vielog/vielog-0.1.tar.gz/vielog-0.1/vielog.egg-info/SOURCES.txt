@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+vielog/__init__.py
+vielog/vielog.py
+vielog.egg-info/PKG-INFO
+vielog.egg-info/SOURCES.txt
+vielog.egg-info/dependency_links.txt
+vielog.egg-info/top_level.txt
