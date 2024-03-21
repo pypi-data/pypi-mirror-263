@@ -1,0 +1,9 @@
+{"ephysChoiceWorld": "EphysTrials",
+ "_biasedChoiceWorld": "BiasedTrials",
+ "_habituationChoiceWorld": "HabituationTrials",
+ "_trainingChoiceWorld": "TrainingTrials",
+ "_trainingPhaseChoiceWorld": "TrainingTrials",
+ "_imagingChoiceWorld": "BiasedTrials",
+ "_advancedChoiceWorld": "TrainingTrials",
+ "_neuromodulatorChoiceWorld": "TrainingTrials"
+}
