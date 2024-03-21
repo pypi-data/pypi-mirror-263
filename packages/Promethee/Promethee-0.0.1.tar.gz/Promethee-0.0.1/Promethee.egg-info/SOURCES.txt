@@ -1,0 +1,5 @@
+setup.py
+Promethee.egg-info/PKG-INFO
+Promethee.egg-info/SOURCES.txt
+Promethee.egg-info/dependency_links.txt
+Promethee.egg-info/top_level.txt
