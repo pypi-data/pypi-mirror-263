@@ -1,0 +1,10 @@
+lib64/libgrokj2k.a,sha256=LpCAby7aWwd8aD7HnN2TVFRTt0pCifAc_yRdNckHlhs,4870472
+blosc2_grok-0.3.1.dist-info/RECORD,,
+blosc2_grok-0.3.1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blosc2_grok-0.3.1.dist-info/METADATA,sha256=AT5VroQqUqi9p19R2f3Y_bjR_kj17CkYrTMTI78dBhc,5747
+blosc2_grok-0.3.1.dist-info/WHEEL,sha256=uMygFt19LwCk90x93Bq6l8XmRf0Inb9KxdZcgXvfPOA,151
+blosc2_grok-0.3.1.dist-info/licenses/LICENSE.txt,sha256=7A3rCSjj9QvtqxvQ2gGymvw0as1ItOLSmltTkar6sVY,34689
+blosc2_grok/libblosc2_grok.so,sha256=-ChjXBc7K17PNhlWHdmbH0hsPPX0QoXqxbddLyTJCiA,2190016
+blosc2_grok/__init__.py,sha256=J9vxAJ_cnn1HgxbvTVUJoFlKLQwA0pUImpfOP0H1OEE,8010
+include/grok-11.0/grk_config.h,sha256=j23fn7fQBuCgBYdqQ-uu7CNzdbb2U0oDozn3Q9GAdY0,104
+include/grok-11.0/grok.h,sha256=iF3y0SG1iLrlxFm5rn-90JbzEIlLUxYUdbaEYKGWNgc,49993
