@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyReqCheck/__init__.py
+src/pyReqCheck/mapping
+src/pyReqCheck/stdlib
+src/pyReqCheck.egg-info/PKG-INFO
+src/pyReqCheck.egg-info/SOURCES.txt
+src/pyReqCheck.egg-info/dependency_links.txt
+src/pyReqCheck.egg-info/top_level.txt
