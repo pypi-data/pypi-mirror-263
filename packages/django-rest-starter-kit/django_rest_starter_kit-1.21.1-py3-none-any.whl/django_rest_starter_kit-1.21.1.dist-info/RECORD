@@ -1,0 +1,10 @@
+config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+config/asgi.py,sha256=0qSOODtjLuVex0kpVjwd9K2c37sF7F290shdOZ8vrvQ,405
+config/settings.py,sha256=HGsEEOJW9I1qBeEhksnivkqonYcEkj23uv6kg3At800,5981
+config/urls.py,sha256=oWOYgvnJSeukx9MYtEcT-S6pjZW0fK1pDhNg5DbJoP4,1377
+config/wsgi.py,sha256=Fl69XzrV0M0Fgtuij4KvgN9N61wW2pGNYG6Sv9ivpuY,405
+django_rest_starter_kit-1.21.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+django_rest_starter_kit-1.21.1.dist-info/METADATA,sha256=IaX4IE7cbdtTWzL1Txv1EhHSvZxPQkKOeGjijEGLaqg,3639
+django_rest_starter_kit-1.21.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_rest_starter_kit-1.21.1.dist-info/top_level.txt,sha256=9hK4m828QBN59kTX5IVy40cPd9zUw5QWQF2AlSrXCJ4,7
+django_rest_starter_kit-1.21.1.dist-info/RECORD,,
