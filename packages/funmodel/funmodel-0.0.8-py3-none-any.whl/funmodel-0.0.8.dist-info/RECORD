@@ -1,0 +1,16 @@
+funmodel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funmodel/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funmodel/core/predict/__init__.py,sha256=oNSmCgkr6rXMrqUxpCVSS065pNj59YirszFxb93vINA,117
+funmodel/core/predict/base.py,sha256=vaWZvh5mjqukW3aP9LhdX3QnYH5hHxE4t2YAoxsmccM,483
+funmodel/core/predict/image.py,sha256=5VxLcbLdAAExCy4fSuCx1FEdP2ElOk08pGJX5PHGq4o,975
+funmodel/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funmodel/utils/predictor.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funmodel/utils/capture/__init__.py,sha256=xCbQ4jfGvRCMuXaBCf_4izAZKQQ-HucAlXJ-UVGQG2o,70
+funmodel/utils/capture/queue.py,sha256=4KL9GbmINXaN1syrkNgNbqLPMplPFiKhiyno0pepd7s,1463
+funmodel/utils/image/__init__.py,sha256=TYCBBw7OJXXX9zxONFbEuWTJ7jDtK3A4P-xG5-bozkA,132
+funmodel/utils/image/transform.py,sha256=Zf9El3fjS1nAswpL57FCH-SzJRfDp8rXRLHyVYD7vjM,553
+funmodel-0.0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+funmodel-0.0.8.dist-info/METADATA,sha256=VCiQGb8VW3BVCgX2eBDI6hoD4pe0WGQ4CbWd4oT9Lk4,285
+funmodel-0.0.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+funmodel-0.0.8.dist-info/top_level.txt,sha256=eBtK50ydF8dI9fGwLWHjVmYPECJUbttQx5DH2pPThmI,9
+funmodel-0.0.8.dist-info/RECORD,,
