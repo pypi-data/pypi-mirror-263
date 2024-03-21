@@ -1,0 +1,7 @@
+README.md
+setup.py
+gmail_message_processor.egg-info/PKG-INFO
+gmail_message_processor.egg-info/SOURCES.txt
+gmail_message_processor.egg-info/dependency_links.txt
+gmail_message_processor.egg-info/requires.txt
+gmail_message_processor.egg-info/top_level.txt
