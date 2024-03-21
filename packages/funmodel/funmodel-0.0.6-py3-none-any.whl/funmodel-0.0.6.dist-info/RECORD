@@ -1,0 +1,14 @@
+funmodel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funmodel/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funmodel/core/predict/__init__.py,sha256=oNSmCgkr6rXMrqUxpCVSS065pNj59YirszFxb93vINA,117
+funmodel/core/predict/base.py,sha256=trF12PybzzdupyEl0DR5y8Jg2_oqhVWMWVdqDjBtnRI,461
+funmodel/core/predict/image.py,sha256=5VxLcbLdAAExCy4fSuCx1FEdP2ElOk08pGJX5PHGq4o,975
+funmodel/uitls/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funmodel/uitls/predictor.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funmodel/uitls/capture/__init__.py,sha256=xCbQ4jfGvRCMuXaBCf_4izAZKQQ-HucAlXJ-UVGQG2o,70
+funmodel/uitls/capture/queue.py,sha256=4KL9GbmINXaN1syrkNgNbqLPMplPFiKhiyno0pepd7s,1463
+funmodel-0.0.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+funmodel-0.0.6.dist-info/METADATA,sha256=4gjoyh-LxUVevEHmGUYoO7u6sXPfzDzxXyeoSIdoK0w,285
+funmodel-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+funmodel-0.0.6.dist-info/top_level.txt,sha256=eBtK50ydF8dI9fGwLWHjVmYPECJUbttQx5DH2pPThmI,9
+funmodel-0.0.6.dist-info/RECORD,,
