@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+gnsmql/__init__.py
+gnsmql/gnsmql.py
+gnsmql.egg-info/PKG-INFO
+gnsmql.egg-info/SOURCES.txt
+gnsmql.egg-info/dependency_links.txt
+gnsmql.egg-info/top_level.txt
