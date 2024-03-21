@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: pyrato
+Version: 0.4.0
+Summary: Collection of functions commonly used in room acoustics
+Home-page: https://github.com/pyfar/pyrato
+Author: The pyfar developers
+Author-email: info@pyfar.org
+License: MIT license
+Keywords: pyrato
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: pyfar >=0.5.0
+Requires-Dist: numpy >=1.14.0
+Requires-Dist: scipy >=1.5.0
+Requires-Dist: matplotlib
+
+======
+pyrato
+======
+.. image:: https://badge.fury.io/py/pyrato.svg
+    :target: https://badge.fury.io/py/pyrato
+.. image:: https://readthedocs.org/projects/pyrato/badge/?version=stable
+    :target: https://pyrato.readthedocs.io/en/stable/?badge=stable
+    :alt: Documentation Status
+.. image:: https://circleci.com/gh/pyfar/pyrato.svg?style=shield
+    :target: https://circleci.com/gh/pyfar/pyrato
+.. image:: https://mybinder.org/badge_logo.svg
+    :target: https://mybinder.org/v2/gh/pyfar/pyrato/HEAD?filepath=examples%2Fenergy_decay_curves_and_reverberation_time.ipynb
+
+Python Room Acoustics Tools - A collection of functions for commonly used operations in room acoustics
+
+Installation
+============
+
+Use pip to install pyrato
+
+.. code-block:: console
+
+    $ pip install pyrato
+
+(Requires Python >= 3.8)
+
+
+Getting Started
+===============
+
+Check out the `examples notebook`_ for a tour of the
+functionality and `read the docs`_ for the complete documentation.
+
+Contributing
+============
+
+Refer to the `contribution guidelines`_ for more information.
+
+.. _contribution guidelines: https://github.com/pyfar/pyrato/blob/main/CONTRIBUTING.rst
+.. _examples notebook: https://mybinder.org/v2/gh/pyfar/pyrato/HEAD?filepath=examples%2Fenergy_decay_curves_and_reverberation_time.ipynb
+.. _read the docs: https://pyrato.readthedocs.io/en/stable
