@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tsfontconverter
+Version: 0.15
+Summary: Converts fonts to TypeScript objects
+Author-email: Thor Christopher Arisland <thor.arisland@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+# tsfontconverter
+Converts fonts to TypeScript objects
+
