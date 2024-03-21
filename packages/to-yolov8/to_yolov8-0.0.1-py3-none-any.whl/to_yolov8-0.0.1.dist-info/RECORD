@@ -1,0 +1,11 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli.py,sha256=51FqDl6SZm1-vzjuVRTzbbmG_19Tfmilldu4FXieBIU,2921
+to_yolov8/__init__.py,sha256=P4QrByVyqoE5f-jo5f9lctUMG_RhnsqlepxkyhOkyrY,80
+to_yolov8/converter.py,sha256=fZrmriva9udKou701n9UR-6M0MwG_UKMTcA4krrtw9c,407
+to_yolov8/yolo_to_yolov8_converter.py,sha256=purGcuOmf3ImQFmcIwQ-HNBw5Az57jIk6vU2n-blvuU,5716
+to_yolov8-0.0.1.dist-info/LICENSE.txt,sha256=DnIXyoJ1yRG6Rgk2okdDyCW652I5cUfww6uXggfF5Y8,1084
+to_yolov8-0.0.1.dist-info/METADATA,sha256=cHaXgsuG0NWfiPyIybDXwuXg9hNtwMxr0gUrj-fQ0Os,4646
+to_yolov8-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+to_yolov8-0.0.1.dist-info/entry_points.txt,sha256=KLrsr0IejW7zTPeVppuCU7UrUmyqPZ8xSyk4tpf_KFY,39
+to_yolov8-0.0.1.dist-info/top_level.txt,sha256=uhcyBN6hg93ZXVYyIFTKEt4VaU7E1bbiaGIoQA8uheM,23
+to_yolov8-0.0.1.dist-info/RECORD,,

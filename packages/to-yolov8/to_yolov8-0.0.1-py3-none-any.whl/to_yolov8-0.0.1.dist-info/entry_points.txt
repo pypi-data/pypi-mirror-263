@@ -1,0 +1,2 @@
+[console_scripts]
+to_yolov8 = cli:main
