@@ -1,0 +1,7 @@
+async_annoy/__init__.py,sha256=n0GIgN525Z52oVsW3i-2ssMspIersr6VsN0pdNCiGCw,43
+async_annoy/constants.py,sha256=QG93lJ6znElXwIGS5RaQctj9EeiSV82BHv3tXXuEnFA,468
+async_annoy/indexer.py,sha256=pIn6P1N0I0gkI_TrI-MGs2MQK6a4LVtE5yyFK8UgHoY,4073
+async_annoy-0.2.1.dist-info/LICENSE,sha256=A1NrF4ivmI-lbF--ZfVe9JfTKTjUf9_ouNtfmbA3QIY,1070
+async_annoy-0.2.1.dist-info/METADATA,sha256=93bWDLf5VB8wiYFZkXnHDELDkZMiVAWfD8y7FXlC5TM,4017
+async_annoy-0.2.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+async_annoy-0.2.1.dist-info/RECORD,,
