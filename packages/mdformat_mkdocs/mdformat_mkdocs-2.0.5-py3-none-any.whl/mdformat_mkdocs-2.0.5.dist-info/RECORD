@@ -1,0 +1,15 @@
+mdformat_mkdocs/__init__.py,sha256=6uxP7ZEMETSGfA6Orx0U_rqVjtjECztkeKrD7kpVAp0,303
+mdformat_mkdocs/_helpers.py,sha256=2-UZ4qfUmRKckjCYWwx_RKDAygoAm4N8uKLuuRsi4IA,914
+mdformat_mkdocs/_normalize_list.py,sha256=Wdkqt5-ouxSInTM31wKAacuyMHdH7IQ7L2SX5wM6yiY,11272
+mdformat_mkdocs/_postprocess_inline.py,sha256=1vfQsfI4oLTARXj2gi7yO6HwAnYetVPJ3dOkl09Wc48,2416
+mdformat_mkdocs/plugin.py,sha256=ckUKguvOzqlKKzcHCeXQH5vMFJ7s-kMJ4DMg-uOxrKc,4049
+mdformat_mkdocs/mdit_plugins/__init__.py,sha256=zwh70IFanLdXGVVWnGv3X-5BNXqAZS2HAqg-j49afB8,356
+mdformat_mkdocs/mdit_plugins/_content_tabs.py,sha256=71BbK6jonj-rdDHh6YHQvgb3XjhuIQmWNwRWGyicrpc,2368
+mdformat_mkdocs/mdit_plugins/_mkdocs_admon.py,sha256=vTFJcXWryLVhYC4juHCVcTxqOGJ7zmd3wqHfX3LYgA4,2843
+mdformat_mkdocs/mdit_plugins/_mkdocstrings_crossreference.py,sha256=pK7f7i_Mog9PcT1nQ8d1hqbMc4B9CXBrrvyz1yJ68qo,859
+mdformat_mkdocs/mdit_plugins/_wikilink.py,sha256=1UxuLVj7Ei28P5JB7kUvPZNFzmNjsgFVsAsVERdiRmU,835
+mdformat_mkdocs-2.0.5.dist-info/entry_points.txt,sha256=QBIhF5cafxBe1UfFjmYoGKp9Bv0l6hVSZr9wrEunU_I,52
+mdformat_mkdocs-2.0.5.dist-info/LICENSE,sha256=-voxTd2luDRUXIFkSXQRQGL3cHzC9AnnJkv3LJrla3o,1073
+mdformat_mkdocs-2.0.5.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+mdformat_mkdocs-2.0.5.dist-info/METADATA,sha256=kpRXvG-s5PK4RHpsaiXhVhKX8x1jUmYklVxrHBLD6V4,5889
+mdformat_mkdocs-2.0.5.dist-info/RECORD,,
