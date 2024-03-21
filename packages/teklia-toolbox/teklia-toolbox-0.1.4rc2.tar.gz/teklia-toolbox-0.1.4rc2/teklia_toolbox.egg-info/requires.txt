@@ -1,0 +1,3 @@
+arkindex-client==1.0.15
+PyYAML>=5.4.1
+tenacity==8.2.3
