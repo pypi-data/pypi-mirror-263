@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gender_based_ml"
+version = "0.5.0"
+description = "Library containing model to find the gender of a speaker through audio file"
+authors = ["Priya-begur <priya@shavik.ai>"]
+readme = "README.md"
+packages = [{include = "gender_based_ml"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+tensorflow = "^2.7.0"
+keras = "^2.7.0"
+librosa = "^0.8.1"
+
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
