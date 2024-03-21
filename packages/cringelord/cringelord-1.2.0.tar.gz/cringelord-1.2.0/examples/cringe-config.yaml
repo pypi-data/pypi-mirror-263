@@ -1,0 +1,14 @@
+# Example cringe-config.yaml.
+
+production:
+  setting1: "setting1_production_value"
+
+acceptance:
+  setting1: "setting1_acceptance_value"
+
+development:
+  setting1: "setting1_development_value"
+
+
+general_setting1: "general_setting1_value"
+general_setting2: "general_setting2_value"
