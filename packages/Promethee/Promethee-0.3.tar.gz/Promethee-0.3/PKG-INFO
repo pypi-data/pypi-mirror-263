@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Promethee
+Version: 0.3
+Summary: Promethee algorithm
+Home-page: UNKNOWN
+Author: Eduardo Teles, Wilson Freita, Vinícius Oliveira, Gabriel Monteiro, Josef Jaeger
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+Multi-decision criteria algorithm Promethee
+
