@@ -1,0 +1,2 @@
+[console_scripts]
+stealth-port-scan = stealth_port_scan:main
