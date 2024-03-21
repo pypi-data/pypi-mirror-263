@@ -1,0 +1,17 @@
+pycomfort>=0.0.15
+hybrid-search>=0.0.12
+more-itertools
+click
+python-dotenv
+tiktoken
+FlagEmbedding>=1.2.8
+langchain>=0.1.12
+langchain-community>=0.0.28
+openai
+Deprecated
+loguru
+qdrant-client>=1.8.0
+sentence_transformers
+datasets
+polars>=0.20.14
+beartype
