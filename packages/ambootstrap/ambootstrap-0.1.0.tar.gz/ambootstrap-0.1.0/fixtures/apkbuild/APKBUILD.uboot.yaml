@@ -1,0 +1,59 @@
+metadata:
+  Contributor:
+    - "He Yangxuan <yangxuan8282@gmail.com>"
+    - "Timo Teras <timo.teras@iki.fi>"
+  Maintainer:
+    - "Milan P. Stanić <mps@arvanta.net>"
+
+data:
+  pkgname: "u-boot"
+  pkgver: "2022.10"
+  pkgrel: "0"
+  pkgdesc: "u-boot bootloader common files"
+  url: "https://www.denx.de/wiki/U-Boot/"
+  arch: "all !s390x !ppc64le"
+  license:
+    - GPL-2.0-or-later
+    - OFL-1.1
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - eCos-2.0
+    - IBM-pibs
+    - ISC
+    - LGPL-2.0-only
+    - LGPL-2.1-only
+    - X11
+  options:
+    - "!check"
+  makedepends:
+    - bc
+    - bison
+    - dtc
+    - flex
+    - gnutls-dev
+    - linux-headers
+    - openssl-dev>3
+    - py3-setuptools
+    - python3-dev
+    - swig
+    - util-linux-dev
+    - arm-trusted-firmware
+  source:
+    - "https://ftp.denx.de/pub/u-boot/u-boot-2022.10.tar.bz2"
+    - "README.txt"
+    - "update-u-boot"
+    - "hifive-unmatched-ramdisk.patch"
+    - "fix-tools-build.patch"
+    - "fix-build-with-binutils-2.38.patch"
+  builddir: "/home/build/u-boot-2022.10"
+  subpackages:
+    - 'u-boot-all:_all'
+    - 'u-boot-apple'
+    - 'u-boot-thunderx'
+    - 'u-boot-raspberrypi'
+    - 'u-boot-odroid'
+    - 'u-boot-libretech'
+    - 'u-boot-rockchip'
+    - 'u-boot-qemu'
+    - 'u-boot-sunxi'
+    - 'u-boot-tools'

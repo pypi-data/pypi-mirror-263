@@ -1,0 +1,11 @@
+# Test that using simple tests for conditional dependencies work
+pkgname=conditional-depends
+arch="all"
+license="MIT"
+source="main.c Makefile"
+makedepends="gcc"
+
+[ "$CARCH" == "x86_64" ] && makedepends="$makedepends x86specificdepend"
+[ "$CARCH" == "aarch64" ] && makedepends="$makedepends aarchspecificdepend"
+
+makedepends="${makedepends} xz"

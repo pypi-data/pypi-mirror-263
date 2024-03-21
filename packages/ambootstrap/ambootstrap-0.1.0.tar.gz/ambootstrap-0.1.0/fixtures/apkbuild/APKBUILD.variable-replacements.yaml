@@ -1,0 +1,12 @@
+metadata: { }
+
+data:
+  pkgname: variable-replacements
+  pkgver: "1.0.0"
+  pkgrel: "0"
+  arch: armhf
+  pkgdesc: "this should not affect variable replacement"
+  url: "replacements variable string-replacements"
+  subpackages:
+    - "replacements"
+    - "test:test_subpkg_func"

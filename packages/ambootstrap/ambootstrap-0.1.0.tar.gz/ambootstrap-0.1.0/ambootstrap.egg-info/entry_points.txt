@@ -1,0 +1,2 @@
+[console_scripts]
+ambootstrap = amb.__main__:main

@@ -1,0 +1,8 @@
+metadata: { }
+
+data:
+  pkgname: depends-in-depends
+  depends:
+    - first
+    - second
+    - third

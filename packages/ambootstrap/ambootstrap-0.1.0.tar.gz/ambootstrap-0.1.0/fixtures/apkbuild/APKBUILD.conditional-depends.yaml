@@ -1,0 +1,8 @@
+metadata: { }
+
+data:
+  pkgname: conditional-depends
+  makedepends:
+    - gcc
+    - aarchspecificdepend
+    - xz
