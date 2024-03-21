@@ -1,0 +1,1 @@
+from .test_spider import test,get_succ
