@@ -1,0 +1,4 @@
+Django>=1.11.29
+Pygments>=2.5.2
+sqlparse>=0.4.2
+m3-django-compat>=1.10.2,<2
