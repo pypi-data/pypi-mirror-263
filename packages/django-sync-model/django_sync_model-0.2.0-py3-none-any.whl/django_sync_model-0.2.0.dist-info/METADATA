@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: django-sync-model
+Version: 0.2.0
+Project-URL: Documentation, https://github.com/ramwin/django-sync-model#readme
+Project-URL: Issues, https://github.com/ramwin/django-sync-model/issues
+Project-URL: Source, https://github.com/ramwin/django-sync-model
+Author-email: Xiang Wang <ramwin@qq.com>
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: django
+Description-Content-Type: text/markdown
+
+# django-sync-model
+a django reusable application to migrate data from source table to target table.
