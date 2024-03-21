@@ -1,0 +1,4 @@
+[console_scripts]
+claMLST = pymlst.cmd:cla
+pyMLST = pymlst.cmd:py
+wgMLST = pymlst.cmd:wg
