@@ -1,0 +1,14 @@
+colorlog
+astor
+six
+dataclasses
+mako
+pyverilog
+numpy
+graphviz
+hwtypes>=1.4.4
+ast_tools>=0.0.16
+staticfg
+networkx
+uinspect
+circt==1.66.0
