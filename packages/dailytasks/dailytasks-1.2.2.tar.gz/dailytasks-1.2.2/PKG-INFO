@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: dailytasks
+Version: 1.2.2
+Summary: A tasks manager for those who like work from shell.
+Home-page: https://github.com/LuisanaMTDev/dailytasks
+Author: LuisanaMTDev
+Author-email: luisanamartineztorres25@gmail.com
+License: Apache-2.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click>=8.1.7
+Requires-Dist: colorama>=0.4.6
+Provides-Extra: dev
+Requires-Dist: pylint>=3.1.0; extra == "dev"
+Requires-Dist: click>=8.1.7; extra == "dev"
+Requires-Dist: twine>=5.0.0; extra == "dev"
+
+# DailyTasks #
+A tasks manager for those who like work from shell.
+
+![PyPI - Version](https://img.shields.io/pypi/v/dailytasks?style=for-the-badge&label=Lastest%20version&color=008B8B)
+![GitHub issue custom search in repo](https://img.shields.io/github/issues-search/LuisanaMTDev/dailytasks?query=is%3Aopen&style=for-the-badge&label=Open%20issues&color=008B8B)
+
+## Installation ##
+**Requirements:**
+- Python >= 3.11
+
+**How install it:**
+
+`pip install dailytasks`
+
+## Contributing ##
+Read [Contributing file](https://github.com/LuisanaMT2005/DailyTasks/blob/main/CONTRIBUTING.md) and make whatever question in Discussions.
+
+### Thanks to: ###
+[Krishnag09](https://github.com/Krishnag09) for contributing closing [#2](https://github.com/LuisanaMTDev/dailytasks/issues/2) and [#8](https://github.com/LuisanaMTDev/dailytasks/issues/8) issues.
