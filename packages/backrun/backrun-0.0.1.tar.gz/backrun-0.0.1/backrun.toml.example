@@ -1,0 +1,11 @@
+taskdir = "/var/backrun/task"
+logdir = "/var/backrun/tasklog"
+sleep = 1
+logfile = '/var/backrun/backrun.log'
+
+[scripts]
+    [scripts.script1]
+    path="/usr/local/bin/script1.sh"
+
+
+
