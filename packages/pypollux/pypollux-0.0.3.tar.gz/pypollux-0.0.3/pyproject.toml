@@ -1,0 +1,62 @@
+# 작성자: choh@pollux.ai
+# 참고문헌 : https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
+
+# 빌드 시스템(빌드 백엔드) 지정
+# [build-system]
+# requires = ["setuptools", "setuptools-scm"]
+# build-backend = "setuptools.build_meta"
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+# 프로젝트 정보 작성
+[project]
+name = "pypollux"  # 패키지 이름
+requires-python = ">=3.9"  # 필요한 파이썬 버전 지정
+authors = [
+    {name = "Chang Oh", email = "choh@pollux.ai"}
+    ]
+maintainers = [
+    {name = "Chang Oh", email = "choh@pollux.ai"}
+    ]
+description = "Pollux.ai python package"  # 설명
+readme = "README.md"  # README 파일 지정
+license = {file = "LICENSE"}  # 라이센스 지정
+classifiers = [  # PyPI에 등록할 메타데이터 지정
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+    'Environment :: Console',
+    'Operating System :: OS Independent',
+    'License :: Other/Proprietary License',
+    'Programming Language :: Python :: 3.9'
+]
+dynamic = ["version","dependencies"]  # 동적 메타데이터 항목정의
+
+[project.urls]
+Homepage = "https://pollux.ai"
+Documentation = "https://github.com/pollux-ai/pollux-llm"
+Repository = "https://github.com/pollux-ai/pollux-llm.git"
+Issues = "https://github.com/pollux-ai/pollux-llm/issues"
+Changelog = "https://github.com/pollux-ai/pollux-llm/blob/main/CHANGELOG.md"
+
+[tool.setuptools.dynamic]
+version = {file = ["VERSION"]} # 버전 파일 지정
+dependencies = {file = ["requirements.txt"]} # 의존성 파일 지정
+
+[tool.setuptools.packages.find]
+where = ["src"]  # pyptoject.toml이 위치한 경로
+# include = ["pollux_llm.env"]  # 하위의 폴더를 모두 포함
+# exclude = ["pollux_llm.env.test*"]  # tests 폴더는 제외
+# namespaces = false
+
+# [tool.setuptools.package-data]
+# "*" = ["*.yml"]  # 설정 파일(yml) 포함
+
+# [project.scripts]
+# env_manager = "pollux-llm.env.env_manager:main"  # 실행 스크립트 지정, 엔트리포인트와 동일. env_manager.py의 main 함수를 실행
+
+# [tool.pytest.ini_options]  # pytest 설정
+# pythonpath = ["."] # sys.path에 추가할 경로 지정(테스트할 모듈 기본 경로)
+# testpaths = ["tests"]  # 테스트할 경로 지정
+# # addopts = ["--import-mode=prepend"]  # pytest에서 import할 때 sys.path에 추가할 경로를 정의(defalt)
+# addopts = ["--import-mode=importlib"]  # 테스트 코드를 import 하는 방식 정의
