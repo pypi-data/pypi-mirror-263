@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+.github/workflows/test_and_deploy.yml
+openbioglobe/__init__.py
+openbioglobe.egg-info/PKG-INFO
+openbioglobe.egg-info/SOURCES.txt
+openbioglobe.egg-info/dependency_links.txt
+openbioglobe.egg-info/requires.txt
+openbioglobe.egg-info/top_level.txt
