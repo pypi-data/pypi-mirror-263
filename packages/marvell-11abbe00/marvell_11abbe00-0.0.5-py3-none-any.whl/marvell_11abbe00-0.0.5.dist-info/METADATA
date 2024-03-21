@@ -1,0 +1,25 @@
+Metadata-Version: 2.3
+Name: marvell_11abbe00
+Version: 0.0.5
+Summary: A library for manipulating configuration in cisco/marvell switches integrated into ENCS54xx platform
+Project-URL: Homepage, https://github.com/yeyus/marvell-11abbe00
+Project-URL: Issues, https://github.com/yeyus/marvell-11abbe00/issues
+Author-email: yeyus <elyeyus@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: haralyzer==2.4.0
+Requires-Dist: requests==2.31.0
+Description-Content-Type: text/markdown
+
+A library for manipulating configuration in cisco/marvell switches integrated into ENCS54xx platform.
+
+# Running a known replay to set up the switch to default parameters
+```
+python replay.py --host="169.254.1.0" --har switch-capture.har
+```
+
+# Running a custom set of configs
+See and customize `run.py`

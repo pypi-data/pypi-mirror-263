@@ -1,0 +1,2 @@
+[console_scripts]
+marvell_11abbe00_replay = marvell_11abbe00.replay:main
