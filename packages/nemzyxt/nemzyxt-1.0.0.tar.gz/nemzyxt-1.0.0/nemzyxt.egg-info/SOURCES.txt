@@ -1,0 +1,8 @@
+README.md
+setup.py
+nemzyxt/__init__.py
+nemzyxt/hello.py
+nemzyxt.egg-info/PKG-INFO
+nemzyxt.egg-info/SOURCES.txt
+nemzyxt.egg-info/dependency_links.txt
+nemzyxt.egg-info/top_level.txt
