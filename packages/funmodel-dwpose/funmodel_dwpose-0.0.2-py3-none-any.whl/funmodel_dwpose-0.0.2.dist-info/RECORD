@@ -1,0 +1,13 @@
+funmodel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funmodel/dwpose/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funmodel/dwpose/predictor.py,sha256=nTOjXsXJtcKbVblFzjNfaxD5RkxbEkgpfwVmK9xPkD4,1663
+funmodel/dwpose/core/__init__.py,sha256=oJJaz1NaOo8k4zt6XecbPUj5YGOxXcyg8-eJyMBrA7w,1983
+funmodel/dwpose/core/onnxdet.py,sha256=TIKpKM7TKIO5pqz4mizpDOmiZquYyeASMesPjUpSdR0,4331
+funmodel/dwpose/core/onnxpose.py,sha256=Fvtpq1T14c6KWtGG6S81faAWL8LKLu7EzPHbcpSSkaI,11608
+funmodel/dwpose/core/util.py,sha256=-Mc9EgtZyD4clTj_8AJewcK95DA62E_D2hi6p9x1aHc,10551
+funmodel/dwpose/core/wholebody.py,sha256=RoLy32WsPrWX-4ntqfoZEn-Fs-ZBeHMMfSdWnbYMhWc,1716
+funmodel_dwpose-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+funmodel_dwpose-0.0.2.dist-info/METADATA,sha256=Uitc9dU-1Dm8JJtbFBWx_JoXXCymDB7v4q-n1e5z_S0,293
+funmodel_dwpose-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+funmodel_dwpose-0.0.2.dist-info/top_level.txt,sha256=eBtK50ydF8dI9fGwLWHjVmYPECJUbttQx5DH2pPThmI,9
+funmodel_dwpose-0.0.2.dist-info/RECORD,,
