@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: xontrib-dotdot
+Version: 0.1.0
+Summary: Better aliases['..'] = 'cd ..'
+Author-email: Konstantin Schukraft <dotdot@schukraft.org>
+License: Copyright (c) 2024, Konstantin Schukraft
+        
+        Permission to use, copy, modify, and/or distribute this software for any
+        purpose with or without fee is hereby granted, provided that the above
+        copyright notice and this permission notice appear in all copies.
+        
+        THE SOFTWARE IS PROVIDED “AS IS” AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+        REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+        FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+        INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+        LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+        OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+        PERFORMANCE OF THIS SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/yggdr/xontrib-dotdot
+Project-URL: Documentation, https://github.com/yggdr/xontrib-dotdot/blob/master/README.md
+Project-URL: Code, https://github.com/yggdr/xontrib-dotdot
+Project-URL: Issue tracker, https://github.com/yggdr/xontrib-dotdot/issues
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: System :: System Shells
+Classifier: Topic :: Terminals
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: xonsh >=0.12.5
+Provides-Extra: dev
+Requires-Dist: pytest >=7.0 ; extra == 'dev'
+
+<p align="center">
+Better aliases['..'] = 'cd ..'
+</p>
+
+
+## Installation
+
+To install use pip:
+
+```xsh
+xpip install xontrib-dotdot
+# or: xpip install -U git+https://github.com/yggdr/xontrib-dotdot
+```
+
+## Usage
+
+This xontrib will get loaded automatically for interactive sessions.
+To stop this, set
+
+```xsh
+$XONTRIBS_AUTOLOAD_DISABLED = {"dotdot", }
+```
+
+Now going up in directories can be simply done by chaining dots:
+
+```xsh
+% pwd
+/some/deep/nested/directory/structure/I/want/to/leave
+$ .....
+$ pwd
+/some/deep/nested/directory/structure/
+```
+
+The first two dots takes you to the parent, any further dot will go up one more.
+
+Dots and commas can be freely mixed, the above example could've also been
+achieved by typing `..,,.`. This behaviour can be changed by setting the
+`$XONTRIB_DOTDOT_COMMA` environment variable to False
+
+## Credits
+
+This package was created with [xontrib template](https://github.com/xonsh/xontrib-template).
