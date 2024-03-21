@@ -1,0 +1,10 @@
+item_matching/__init__.py,sha256=Uqw-Goi8R24pf0SFZVI6q4re7jzfIANzWIGA4RLQb-g,75
+item_matching/main.py,sha256=XHWQ5oUASYUibxIdjcAH6gyGb3O483-WYdmYfI86Xb8,3872
+item_matching/build_index/func.py,sha256=bZY81byWRl-tMvyTcq6KdgHPoo0v56KWiYL8o5MjxjA,1338
+item_matching/build_index/func_img.py,sha256=dFzJgJH8oPumVqE3po01lDJpiMP7-ELzgi2-PJljwqU,2869
+item_matching/build_index/matching.py,sha256=nZQx6meD7WR9uCzoZ75tQRVlN8mvqVsaAntYYFwrK1Y,8425
+item_matching/build_index/model.py,sha256=_W5Mo_kIs7nnK3J8pyNv7Gd0hbWBkAJlHsf8_ncYfZA,2126
+item_matching-0.0.13.dist-info/METADATA,sha256=btmO_nuE-EUclKkZTZTVYiiVwuXDSHeELuODlOKDGtg,2491
+item_matching-0.0.13.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+item_matching-0.0.13.dist-info/licenses/LICENSE,sha256=e52nUM7JfwNPEdg6TvBFl07OHaXfeQqSdQSsDPyRssE,1054
+item_matching-0.0.13.dist-info/RECORD,,
