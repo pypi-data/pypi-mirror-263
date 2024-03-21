@@ -1,0 +1,7 @@
+federated/__init__.py,sha256=IaGEWooc-9gwwakocuY0pOPu4Y6LPnW8-6ZWyOcF-Pc,31
+federated/common.py,sha256=0vASmpHl2F3MLPlfq-w_pRJT_ySApoW_8dq03dwJe0I,3222
+federated/fedarated_client.py,sha256=sNlaD4wFkhjEmz6LF7YCvy4SiM18FQpCMfkhH0dlQ04,1590
+federated_client-0.1.dist-info/METADATA,sha256=RxDMUvogKsdrQzzB7V0fNraF6MNHCNNlAODgw8s4PeU,167
+federated_client-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+federated_client-0.1.dist-info/top_level.txt,sha256=kGbgd-ovc9wg1lnSlSc0gYfQah9qXCYMeHe4X4djx2M,10
+federated_client-0.1.dist-info/RECORD,,

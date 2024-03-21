@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: federated-client
+Version: 0.1
+Summary: A python library for federated learning with a client-server architecture.
+Author: Anuj Bhor
+
