@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: camel-learn
+Version: 1.0.2
+Summary: The official implementation for CAMEL: Curvature Augmented Manifold Embedding and Learning
+Home-page: https://github.com/ymlasu/CAMEL
+Author: Yongming Liu
+Author-email: yongming.liu@asu.edu
+Project-URL: Bug Tracker, https://github.com/ymlasu/CAMEL/issues
+Keywords: CAMEL,dimension reduction,UMAP,tSNE,TriMap,PaCMAP,LargeVis,smallvis,manifold
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scikit-learn>=1.3.0
+Requires-Dist: numba>=0.59
+Requires-Dist: annoy>=1.17
+Requires-Dist: numpy>=1.24
+
+Curvature Augmented Manifold Embedding and Learning -- CAMEL
+=======================================
+
+CAMEL (/CAMEL-Learn/) is a Python tool for dimension reduction and data visualization. CAMEL can perform unsupervised learning, supervised learning, semi-supervised learning, metric learning, and inverse learning! CAMEL offers a simple and intuitive API.
+
+
+========================================
+
+Install:
+
+pip install camel-learn
+
+==========================================
+
+
+Simple code examples in test folder: (more coming)
+
+
