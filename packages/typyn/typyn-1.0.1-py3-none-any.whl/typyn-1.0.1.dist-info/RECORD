@@ -1,0 +1,10 @@
+typyn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typyn/main.py,sha256=cfiOqatVyAAjwsDXJwXk5SCoxTT_xpvA3KcvQSjXZAs,10461
+typyn/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typyn/resources/intro_animation.py,sha256=fSF4sh2QDwUZfLiRMYBMmLVDTPO5R7_WCs1nt_dHW20,958
+typyn-1.0.1.dist-info/LICENSE,sha256=Y_Q8Uy52Nqa5LVvoFX1WDCmS1oOVeqifMwtcQdPr18c,1097
+typyn-1.0.1.dist-info/METADATA,sha256=FN9K6hcbAbFW5IrU_zwy-03ckdZNrno8E5GZ2by6Tio,1094
+typyn-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+typyn-1.0.1.dist-info/entry_points.txt,sha256=Yy1XsovmWb2xyAwjmHaoijfaOtx_oWS_ICTSxDB0PRs,226
+typyn-1.0.1.dist-info/top_level.txt,sha256=233KFDCeovpu-V0BtoWZ7sgzEI-cC-LPuYTQ4o7dWtU,6
+typyn-1.0.1.dist-info/RECORD,,
