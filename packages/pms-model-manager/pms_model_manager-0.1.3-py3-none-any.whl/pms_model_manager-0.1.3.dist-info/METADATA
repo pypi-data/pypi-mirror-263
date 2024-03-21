@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pms-model-manager
+Version: 0.1.3
+Summary: lib for pms
+Author: HyeongSeok Kim
+Author-email: tiryul@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: boto3 (>=1.34.66,<2.0.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: mlflow (==2.11.1)
+Requires-Dist: onnx (>=1.15.0,<2.0.0)
+Requires-Dist: pytz (>=2024.1,<2025.0)
+Description-Content-Type: text/markdown
+
+# pms-model-manager
+lib for pms
+
