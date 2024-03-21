@@ -1,0 +1,16 @@
+kvfile/VERSION,sha256=WYVJhIUxBN9cNT4vaBoV_HkkdC-aLkaMKa8kjc5FzgM,6
+kvfile/__init__.py,sha256=TvhPJ2dSYn7jusYOES2jwNIgrl8Z0OsBKPIupTrzV6g,60
+kvfile/base.py,sha256=8sWFO5EMMExcen5fHZMQo-bC6MFOeoKJwS2TG4e1MTc,2804
+kvfile/cached.py,sha256=TRXU4UpIydxOcQjBW-Cipm8E0yhyF5U8_GmA2FUwnd8,2357
+kvfile/kvfile.py,sha256=yx5T405D7eTBQcYgpKl4YA5ux2NnEN8W7McL1e93Vlk,146
+kvfile/kvfile_leveldb.py,sha256=ZqKCl-PDTDG-yUywPIQSDcUD0tucImES53WKKznMmng,1797
+kvfile/kvfile_sqlite.py,sha256=_o-0jlUkQ96lLhS8MHu-7wov5kEAVYMF9GuB3DATk0w,2941
+kvfile/serializer.py,sha256=R8bhhvTpaIAjKINdbXFmviKak2NfYl4qXFPjQ_LHDi4,189
+kvfile/serializer_base.py,sha256=09K2pfXm2Oisij6septKpXyF54OdjcayufUDdOVKrj8,194
+kvfile/serializer_json.py,sha256=pPPvo3bAAQIPn1rC1YTnL16At6GHBWiAyimAcILTqkw,3042
+kvfile/serializer_pickle.py,sha256=98UCyWIJt8p5lM8zd7y-OIKcQ-gbzWZrwHaJXTzxUyE,261
+kvfile-1.0.0.dist-info/LICENSE.md,sha256=8Eca5jQyHC2rtAMP2F2Umvi3TjNtV3JXQJ9mSOXeeKI,1077
+kvfile-1.0.0.dist-info/METADATA,sha256=jZRFaqPSGuObWiamLpQLQTvx1B-uxYJZlqv8a0Kzakg,3877
+kvfile-1.0.0.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+kvfile-1.0.0.dist-info/top_level.txt,sha256=Ssq0PxA4EcSeBNtrPeG9QGg6fjPDGuTJH61vKsuXSyU,7
+kvfile-1.0.0.dist-info/RECORD,,
