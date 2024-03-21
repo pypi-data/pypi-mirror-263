@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ozon-api-client"
+version = "0.0.2"
+description = ""
+authors = ["letby3 <fvahit2@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+urllib3 = "^2.2.1"
+six = "1.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
