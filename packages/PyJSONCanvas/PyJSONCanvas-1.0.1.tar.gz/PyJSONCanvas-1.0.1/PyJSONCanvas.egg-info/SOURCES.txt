@@ -1,0 +1,10 @@
+README.md
+setup.py
+PyJSONCanvas.egg-info/PKG-INFO
+PyJSONCanvas.egg-info/SOURCES.txt
+PyJSONCanvas.egg-info/dependency_links.txt
+PyJSONCanvas.egg-info/top_level.txt
+pyjsoncanvas.egg-info/PKG-INFO
+pyjsoncanvas.egg-info/SOURCES.txt
+pyjsoncanvas.egg-info/dependency_links.txt
+pyjsoncanvas.egg-info/top_level.txt
