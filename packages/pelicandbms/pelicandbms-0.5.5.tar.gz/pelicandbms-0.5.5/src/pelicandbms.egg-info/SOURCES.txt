@@ -1,0 +1,11 @@
+LICENSE
+README.MD
+pyproject.toml
+src/__init__.py
+src/pelicandb.py
+src/example_package_dv1555/samples_pelican.py
+src/pelicandbms.egg-info/PKG-INFO
+src/pelicandbms.egg-info/SOURCES.txt
+src/pelicandbms.egg-info/dependency_links.txt
+src/pelicandbms.egg-info/requires.txt
+src/pelicandbms.egg-info/top_level.txt
