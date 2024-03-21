@@ -1,0 +1,42 @@
+[build-system]
+# requires = ["setuptools >= 40.6.0", "wheel"]
+requires = ["hatchling", "wheel"]
+
+# build-backend = "setuptools.build_meta"
+build-backend = "hatchling.build"
+
+[project]
+name="backrun"
+dynamic = [ "version" ]
+
+# how version managed by hatch
+# version="0.0.1"
+
+dependencies = [
+    'toml',
+    'loguru',
+    'inotify'
+]
+
+authors = [
+  { name="Yaroslav Polyakov", email="yaroslaff@gmail.com" },
+]
+description = "Run other programs in background"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/yaroslaff/backrun"
+Issues = "https://github.com/yaroslaff/backrun/issues"
+
+
+[project.scripts]
+backrun = "backrun:main"
+
+[tool.hatch.version]
+path = 'backrun/__init__.py'
