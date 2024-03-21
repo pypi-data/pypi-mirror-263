@@ -1,0 +1,28 @@
+{
+  "_lib-320a09b2.cjs": {
+    "file": "lib-320a09b2.cjs"
+  },
+  "_lib-98d0fe66.js": {
+    "file": "lib-98d0fe66.js"
+  },
+  "src/lib.ts": {
+    "file": "lib.cjs",
+    "imports": [
+      "_lib-320a09b2.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/lib.ts"
+  },
+  "src/main.tsx": {
+    "file": "main.cjs",
+    "imports": [
+      "_lib-320a09b2.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/main.tsx"
+  },
+  "style.css": {
+    "file": "style.css",
+    "src": "style.css"
+  }
+}
