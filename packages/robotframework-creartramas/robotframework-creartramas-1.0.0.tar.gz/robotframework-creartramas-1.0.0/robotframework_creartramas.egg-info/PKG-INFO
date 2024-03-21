@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: robotframework-creartramas
+Version: 1.0.0
+Summary: Creacion de tramas en hexadecimal
+Home-page: https://pypi.org/project/robotframework-creartramas
+Author: Anthony Arevalo
+Maintainer: Anthony Arevalo
+Requires-Python: >=3.8,<3.12
+License-File: LICENSE
+Requires-Dist: pip
+Requires-Dist: robotframework>=4

@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+TRAMAS/__init__.py
+TRAMAS/creartramas.py
+robotframework_creartramas.egg-info/PKG-INFO
+robotframework_creartramas.egg-info/SOURCES.txt
+robotframework_creartramas.egg-info/dependency_links.txt
+robotframework_creartramas.egg-info/requires.txt
+robotframework_creartramas.egg-info/top_level.txt
