@@ -1,0 +1,9 @@
+mogdevice/__init__.py,sha256=CBudJ582KrTXTnMWMGumBXITgWv5ZHI0JUQrSLwuFKA,129
+mogdevice/mogdevice.py,sha256=3cdB6J5gXlbN2Iqts1rn_GvtA_Wbp1CPASQ5ADL9-bE,10277
+mogdevice/qrf.py,sha256=M_OQEeceUh4Rd8xSfyhatzSTXTunKA4x-PvLfnIp6gA,14237
+mogdevice/utils.py,sha256=61xQxNsTvNsp9fp7DC5NKa9fqEDhWdLaRSuig0r0Q08,203
+mogdevice-1.2.1.dist-info/LICENSE,sha256=qytQUnLAPVywY279EkILHayZO6gBZesLCid1gM4LBUA,1089
+mogdevice-1.2.1.dist-info/METADATA,sha256=sH6rbyb0fwfjgMyfN8TEoT4N-SdmHNvou4ZBqFEfd08,3211
+mogdevice-1.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mogdevice-1.2.1.dist-info/top_level.txt,sha256=5VGJqfCLs7NqmiFaa5SIk4PiIy9l8NWvHnJ2gTDqLdM,10
+mogdevice-1.2.1.dist-info/RECORD,,
