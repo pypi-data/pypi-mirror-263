@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: tbm
+Version: 1
+Summary: telegram bot manager
+Author: https://github.com/pousay
+Author-email: pouryathesaymon@gmail.com
+Requires: watchdog
+Requires: inquirer
+
+use this package to manage your telegram bot projects
