@@ -1,0 +1,2 @@
+[console_scripts]
+gmail-processor = gmail_main_sc:main
