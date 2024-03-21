@@ -1,0 +1,3 @@
+[console_scripts]
+qmail-util=qmail_util:cli
+
