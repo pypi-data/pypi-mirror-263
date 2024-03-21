@@ -1,0 +1,17 @@
+arcGisFeatureCache/__init__.py,sha256=JRpsPh1z4yxme6F3yhe1R4QhgG4w3MQm-DPjzSeSKAg,286
+arcGisFeatureCache/arcGisScraper.py,sha256=t4EnfkPKRCLeOHTZ3L13pAr8ZMkCAEFu1kva6tk7MDs,6755
+arcGisFeatureCache/featureLayer.py,sha256=bPfYRtDrikYbYA1_IiTxy896_cvRvWl-a_eOd1R1VBY,3493
+arcGisFeatureCache/featureService.py,sha256=pWG1on4ppvDa8Z2ZYVsgXRXQAOei1OOF7_qruIAIEbw,4598
+arcGisFeatureCache/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arcGisFeatureCache/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arcGisFeatureCache/models/attributes.py,sha256=LPs2aH4UoYZtjLbHisMeNfbkNx9LjHjkGrPqwe7X-4s,6498
+arcGisFeatureCache/models/feature.py,sha256=G1pFoQTKCO7jT59VpGTW88YWQSmBjS2WQmWdHSNkVf8,5028
+arcGisFeatureCache/models/geometry.py,sha256=OK3LHhv6lMXmsTwgZz9LwLtaQjpGg4uys0GmCSUO0wc,3039
+arcGisFeatureCache/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arcGisFeatureCache/utils/helpers.py,sha256=Yn5ChTz_dGP0HMS87Rcefp2eE8zHLGhcMTDFcWO17LY,186
+arcGisFeatureCache/utils/immutableList.py,sha256=XLywiltsU_4SMxERdP_uXzZwUV4bgDuRkKVC9lSIQjQ,1677
+arcGisFeatureCache/utils/log.py,sha256=OVrQKbfJsXyIRtP33tnpNvZQD5VLbG4Wdu-GSHPFkkc,120
+arcgisfeaturecache-0.1.0a1.dist-info/METADATA,sha256=IDvyAPg6iXnfnusEVdJHHncRsTGVFB4rRs9TySjFUGs,2883
+arcgisfeaturecache-0.1.0a1.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+arcgisfeaturecache-0.1.0a1.dist-info/licenses/LICENSE.md,sha256=RrBGN3Y3XPs_INcC7Nnk0l7pQVf_1duuQb63f4cw1jE,1064
+arcgisfeaturecache-0.1.0a1.dist-info/RECORD,,
