@@ -1,0 +1,2 @@
+[nbdev]
+truco = truco._modidx:d

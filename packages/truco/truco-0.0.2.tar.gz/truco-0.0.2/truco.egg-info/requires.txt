@@ -1,0 +1,6 @@
+numpy
+fastcore
+polvo
+
+[dev]
+nbdev
