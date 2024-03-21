@@ -1,0 +1,13 @@
+taskdir = "dir/task"
+logdir = "dir/log"
+logfile = 'dir/backrun.log'
+
+[scripts]
+  [scripts.script1]
+  path="dir/bin/script1.sh"
+
+  [scripts.script2]
+  path="dir/bin/script1.sh"
+  # user="myuser"
+
+
