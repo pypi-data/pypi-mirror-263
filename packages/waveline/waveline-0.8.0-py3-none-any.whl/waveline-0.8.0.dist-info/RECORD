@@ -1,0 +1,10 @@
+waveline/__init__.py,sha256=d_HYxffILE14mAqViWGPDHUIEoaXmyr-oQshvzTfiHc,160
+waveline/_common.py,sha256=NE4C0CV3IIOxydTv9LoK5FbvfgxOqKQ_KTItMcyyGPM,6687
+waveline/datatypes.py,sha256=qeH9xzEUp4aPCF78Zgva4Ue3GFVlM_djaPdP-YItIdk,3197
+waveline/linwave.py,sha256=6P-MpFTBjb744qfmMY9ZtZ-pXtx1k5nKOBabvPyPXAY,27974
+waveline/spotwave.py,sha256=gLbGJJHN27u2krhS2SjInPcStqoCFpohA2KflBO5kjo,17899
+waveline/utils.py,sha256=p4AZ74DcUnVyrP6C_-HMCrQjbim9B40SioHRTOGZhTk,664
+waveline-0.8.0.dist-info/METADATA,sha256=NesuoR3QJhWb5ICxEpnt4CHdI9TkLndUZLpl42TaKo8,6136
+waveline-0.8.0.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+waveline-0.8.0.dist-info/licenses/LICENSE.txt,sha256=5ugRmhrYcJ7RnHdovsp4Qt58N4QzOxsGfnB4eRjtjoA,1074
+waveline-0.8.0.dist-info/RECORD,,
