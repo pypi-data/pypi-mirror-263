@@ -1,0 +1,25 @@
+[project]
+name = "slax"
+version = "0.0.1"
+authors = [
+  { name="Thomas Summe", email="tsumme@nd.edu" },
+]
+description = "An SNN/RNN training package in JAX"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+"flax >= 0.7.1",
+"optax",
+"scikit-learn",
+"matplotlib",
+"jax",
+]
+
+[project.urls]
+Homepage = "https://github.com/Intelligent-Microsystems-Lab/slax"
+Issues = "https://github.com/Intelligent-Microsystems-Lab/slax/issues"

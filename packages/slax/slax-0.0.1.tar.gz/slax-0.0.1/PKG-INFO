@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: slax
+Version: 0.0.1
+Summary: An SNN/RNN training package in JAX
+Author-email: Thomas Summe <tsumme@nd.edu>
+Project-URL: Homepage, https://github.com/Intelligent-Microsystems-Lab/slax
+Project-URL: Issues, https://github.com/Intelligent-Microsystems-Lab/slax/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flax>=0.7.1
+Requires-Dist: optax
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: jax
+
+# Slax
+
+Slax is a JAX library built on top of Flax. Its purpose is to provide many learning rules and gradient approximations, with a heavy focus on training spiking neural networks. Some of these algorithms, however, are also applicable to any recurrent network.
