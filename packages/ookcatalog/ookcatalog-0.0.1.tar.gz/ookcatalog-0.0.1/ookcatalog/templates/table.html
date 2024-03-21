@@ -1,0 +1,51 @@
+{% extends 'layout.html' %}
+
+{% block title %}{{ schema }}.{{ table }}{% endblock %}
+{% block content %}
+    <div class="block">
+        <h1 class="title is-1">{{ schema }}.{{ table }}</h1>
+        <p class="subtitle is-3">
+            {{ table_informations['description'] if table_informations['description'] else 'Pas de description courte' }}
+        </p>
+    </div>
+    <div class="block">
+        <article class="message is-info">
+            <div class="message-header">
+                Description longue
+            </div>
+            <div class="message-body">
+                {{ table_informations['description_long'] if table_informations['description_long'] else 'Pas de description longue' }}
+            </div>
+        </article>
+    </div>
+    <div class="block">
+        <h2 class="title is3">Liste des champs</h2>
+        <table class="table is-striped is-hoverable is-fullwidth">
+            <thead>
+            <tr>
+                <th>Champ</th>
+                <th>Type</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for column in columns %}
+                <tr>
+                    <td>{{ column['column_name'] }}</td>
+                    <td>{{ column['data_type'] }}</td>
+                    <td>{{ column['description'] }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="block">
+        <p class="column is-narrow">
+            🗓️ Mise à jour :
+            {% for month in table_informations['update_months'] %}
+                <span class="tag is-primary is-medium">{{ month.name }}</span>
+            {% endfor %}
+        </p>
+
+    </div>
+{% endblock %}
