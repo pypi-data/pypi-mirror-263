@@ -1,0 +1,3 @@
+[console_scripts]
+nllb-batch = nllb_serve.nllb_batch:main
+nllb-serve = nllb_serve.app:main

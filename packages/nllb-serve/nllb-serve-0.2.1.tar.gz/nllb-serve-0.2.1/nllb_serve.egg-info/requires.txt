@@ -1,0 +1,7 @@
+transformers>=4.21
+Flask==3.0.2
+Werkzeug>=3.0.0
+torch>=1.12
+gunicorn
+gevent
+sentence-splitter
