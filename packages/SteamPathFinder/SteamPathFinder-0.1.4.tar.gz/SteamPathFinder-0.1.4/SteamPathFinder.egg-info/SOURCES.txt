@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+SteamPathFinder.egg-info/PKG-INFO
+SteamPathFinder.egg-info/SOURCES.txt
+SteamPathFinder.egg-info/dependency_links.txt
+SteamPathFinder.egg-info/requires.txt
+SteamPathFinder.egg-info/top_level.txt
