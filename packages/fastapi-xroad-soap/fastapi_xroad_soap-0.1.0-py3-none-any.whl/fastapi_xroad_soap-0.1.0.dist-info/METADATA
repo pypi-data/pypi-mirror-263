@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: fastapi-xroad-soap
+Version: 0.1.0
+Summary: FastAPI Extension for X-Road SOAP
+License: EUPL-1.2
+Keywords: fastapi,xroad,soap
+Author: Zero Reports Team
+Author-email: zero.dev@rik.ee
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: FastAPI
+Classifier: Framework :: Pydantic :: 2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: fastapi (>=0.110.0,<0.111.0)
+Requires-Dist: lxml (>=5.1.0,<6.0.0)
+Requires-Dist: pydantic (>=2.6.4,<3.0.0)
+Requires-Dist: pydantic-xml (>=2.9.0,<3.0.0)
+Project-URL: Bug Tracker, https://github.com/rik-ee/fastapi-xroad-soap/issues
+Project-URL: Documentation, https://github.com/rik-ee/fastapi-xroad-soap/wiki
+Project-URL: Repository, https://github.com/rik-ee/fastapi-xroad-soap
+Description-Content-Type: text/markdown
+
+# fastapi-xroad-soap
+FastAPI Extension for X-Road SOAP
+
