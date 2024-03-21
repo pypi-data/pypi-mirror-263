@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+config/__init__.py
+config/asgi.py
+config/settings.py
+config/urls.py
+config/wsgi.py
+django_rest_starter_kit.egg-info/PKG-INFO
+django_rest_starter_kit.egg-info/SOURCES.txt
+django_rest_starter_kit.egg-info/dependency_links.txt
+django_rest_starter_kit.egg-info/requires.txt
+django_rest_starter_kit.egg-info/top_level.txt
