@@ -1,0 +1,2 @@
+include composition_vectorizer/orderings/1d_orderings.pkl
+include composition_vectorizer/Files_from_GTDL_paper/*
