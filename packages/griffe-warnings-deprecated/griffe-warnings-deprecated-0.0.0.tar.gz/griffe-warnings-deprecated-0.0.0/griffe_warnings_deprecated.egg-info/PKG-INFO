@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: griffe-warnings-deprecated
+Version: 0.0.0
+Summary: Griffe extension for `@warnings.deprecated` (PEP 702).
+Author-email: Timothée Mazzucotelli <dev@pawamoy.fr>
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# griffe-warnings-deprecated
+
+Griffe extension for `@warnings.deprecated` (PEP 702).
