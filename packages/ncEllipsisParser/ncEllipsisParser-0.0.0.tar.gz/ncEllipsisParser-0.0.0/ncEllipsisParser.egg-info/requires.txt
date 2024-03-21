@@ -1,0 +1,5 @@
+rasterio
+xarray
+os
+numpy
+ellipsis
