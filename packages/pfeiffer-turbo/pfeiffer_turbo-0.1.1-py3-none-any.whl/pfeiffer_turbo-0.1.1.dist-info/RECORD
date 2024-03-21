@@ -1,0 +1,9 @@
+pfeiffer_turbo/__init__.py,sha256=yfekshppYySfRYs5Vf5NWYrsZp3_v4zaaigDThnqc8k,84
+pfeiffer_turbo/device.py,sha256=douGiiuqlZo1UhyD7btPtVnIk--wdoMH_v1-ggkRIBI,5714
+pfeiffer_turbo/errors.py,sha256=l4Gm3o8DptJuNSY2suZokfAj59m0en_Oy5YdHTtYv1k,2422
+pfeiffer_turbo/parameters.py,sha256=xioY_M1om-1-c7cR3AgvWVGvail_yDGGsR9VjuAw1lQ,13283
+pfeiffer_turbo/telegram.py,sha256=V6Rvtn-EAADw5vQNj4svzBX4WKV7gln2HrjZSySL-EE,4772
+pfeiffer_turbo-0.1.1.dist-info/LICENSE,sha256=75hqeQPigbf0nXntNZ0NiVHZZeccddnZ2s3W3m6AEsM,1086
+pfeiffer_turbo-0.1.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+pfeiffer_turbo-0.1.1.dist-info/METADATA,sha256=iGtArPztKR-nerNfHPX-Mv3gz-LMz9f45aDPoqBNS9I,3327
+pfeiffer_turbo-0.1.1.dist-info/RECORD,,
