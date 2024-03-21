@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: next_dict
+Version: 0.2.1
+Summary: json dict and config file manager
+Home-page: https://github.com/Rymfader/next_dict
+Author: Albert
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+manager = NextConfigManager("config.json")
+
+即可得到配置文件管理对象,文件不存在自动创建
+
+存在则自动读取并解析json内容
+
+对manager.config对象的一切读写都会在python进程结束后自动保存
+
+可调用save()方法主动保存
+
+支持用[]和.访问以及修改属性
+
+支持get(键,默认值) 方法获取属性
+
+支持set(键,属性) 方法修改属性
+
+支持del删除属性
+
+支持迭代器获取key访问属性
+
+支持len()获取长度
+
+支持in语法判断值是否存在
+
+线程安全,save方法加锁
+
+不存在的属性连续访问返回新的空NextDict对象,
+
+空对象布尔判断返回false,如果对该对象添加新的属性
+
+那么该对象将会自动添加到父NextDict中,键为获取该对象时使用的键,例子:
+
+```python
+manager = NextConfigManager("config.json")
+config = manager.config
+print(config)
+test = config.hh
+test.bb = 1
+test2 = config.hh2
+print(config)
+```
+
+输出结果为:
+
+```
+{}
+{"hh": {"bb": 1}}
+```
+
+hh和hh2对象会在访问hh和hh2属性时创建,由于hh2没有做任何更改,则不会被添加到父对象实例中
+
+所有的键在传入时自动转换为字符串
+所有的不可被json序列化的值会被转换为字符串(NextDict对象除外)
+所有的dict对象的值会被自动转换为新的nextdict对象
+
+```python
+from next_dict import NextConfigManager, JsonDictManager, NextDict
+
+# NextConfigManager管理json配置
+
+
+manager = NextConfigManager("config.json")
+manager.config.a = 1
+manager.config.b = 4
+
+config = manager.config
+# 更改属性
+config.a = 'hh'
+config.b = 1
+# json不能序列化的对象会被转为字符串 {"a": "hh", "b": 1, "c": "<class '__main__.JsonDictManager'>"}
+config['c'] = JsonDictManager
+config[111] = '非常牛逼'
+config['111'] = '非常牛逼2'
+# 获取属性,可使用.或者[]
+print(config.c)  # 输出 <class '__main__.JsonDictManager'>
+print(config['c'])  # 输出 <class '__main__.JsonDictManager'>
+# 获取key为hh的值,为空返回1
+print(config.get('hh', 1))
+print(config)
+# ccc属性不存在,自动新建空字典
+config.ccc.ddd = 1
+config.arr = []
+config.arr.append(1)
+# 添加字典会被自动转换为另一个config对象,继承访问方式和修改方式
+config.obj = {}
+config.obj.c = 1
+print('objh', config.obj)
+config.obj.d = '牛逼不'
+# 不存在的属性连续调用不会报错，而是返回false
+if not config.xxx.bbb.ccc.ddd:
+    print('hh')
+print(config)
+# 迭代
+for key in manager.config:
+    print(f'key={key}', f'value={manager.config[key]}')
+# 删除键值对
+del manager.config.a
+del manager.config['a']
+
+#转为python dict对象
+manager.config.to_dict()
+
+# 获取长度
+print(len(manager.config))
+# 默认python进程关闭后自动save()
+# manager.save()
+
+# instant_save=True开启后，任何属性更改后立即自动save一次
+# manager = NextConfigManager("config.json", instant_save=True)
+
+
+```
