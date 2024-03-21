@@ -1,0 +1,64 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+requires_python = ">=3.4"
+
+
+
+[project]
+name = "qmail-util"
+version = "0.0.7"
+authors = [{name = "Matt Krueger", email = "mkrueger@rstms.net"}]
+readme = {file = "README.md", content-type = "text/markdown"}
+license = {file = "LICENSE"}
+keywords = ["qmail_util"]
+classifiers = [
+  "Intended Audience :: Developers",
+
+  "Natural Language :: English", 
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.4"
+]
+dynamic = ["description"] 
+
+dependencies = [
+  "click<8.0.0"
+]
+
+[tool.flit.module]
+name = "qmail_util"
+
+[project.optional-dependencies]
+dev = [
+  "bump2version",
+  "coverage",
+  "devtools",
+  "isort",
+  "flake8",
+  "flake8-length",
+  "pdbpp",
+  "pytest",
+  "python-box",
+  "toml",
+  "tox"
+]
+docs = [
+  "m2r2",
+  "sphinx",
+  "sphinx-click",
+  "pallets-sphinx-themes"
+]
+
+[project.urls]
+Home = "https://github.com/rstms/qmail_util"
+[tool.black]
+line-length = 79
+
+[tool.isort]
+profile = "black"
+[tool.pytest]
+collect_ignore = ['setup.py']
+
+
+[project.scripts]
+qmu = "qmail_util:cli"
