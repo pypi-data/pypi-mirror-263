@@ -1,0 +1,105 @@
+import argparse
+# import configparser
+import os
+import sys
+import toml
+import time
+import subprocess
+from loguru import logger
+import inotify.adapters
+
+__version__ = '0.0.1'
+
+config = None
+
+config_files = ['backrun.toml', os.path.expanduser('~/backrun.toml'), '/etc/backrun.toml']
+def_config = next((file for file in config_files if os.access(file, os.R_OK)), None)
+
+def read_config():
+    try:
+        config_path = sys.argv[1]
+    except IndexError:
+        config_path = def_config
+
+    with open(config_path) as fh:
+        config = toml.load(fh)
+
+    return config_path, config
+
+
+def run_script(script_path, output_file, taskid=None, taskfile=None):
+    with open(output_file, 'w') as f:
+
+        env = os.environ.copy()
+        if taskid:
+            env["TASKID"] = taskid
+        if taskfile:
+            env["TASKFILE"] = taskfile
+
+        rc = subprocess.run([script_path], stdout=f, stderr=subprocess.STDOUT, env=env)
+        return rc.returncode
+
+
+def process_task(taskid: str):
+        taskfile = os.path.join(config['taskdir'], taskid)
+        with open(taskfile) as fh:
+            script_name = fh.readline().strip()
+        
+        logger.info(f"task: {taskid} script: {script_name!r}")
+        script_path = config['scripts'][script_name]['path']
+        log_path = os.path.join(config['logdir'], f'{taskid}.log')
+
+        code = run_script(script_path, log_path, taskid=taskid, taskfile=taskfile)
+
+        logger.info(f"finished task {taskid} {script_name!r} code: {code}")
+        os.unlink(taskfile)
+
+def main():
+    global config
+    config_path, config = read_config()
+
+    logger.remove()
+    logger.add(sys.stdout, format="{message}")
+    logger.add(config['logfile'], format="{time:YYYY-MM-DD at HH:mm:ss} {message}")
+
+    sleeptime = config['sleep']
+
+    logger.info(f"Start polling {config['taskdir']}, config: {config_path}")
+
+    i = inotify.adapters.Inotify()
+    i.add_watch(config['taskdir'])
+
+    for event in i.event_gen(yield_nones=False):
+        (_, type_names, path, filename) = event
+
+        if not filename:
+            continue
+
+        if filename.startswith('.'):
+            continue
+
+        if not 'IN_CLOSE_WRITE' in type_names:
+            continue
+
+        logger.info("PATH=[{}] FILENAME=[{}] EVENT_TYPES={}".format(
+              path, filename, type_names))
+
+
+        process_task(filename)
+
+    while True:
+        for taskid in os.listdir(config['taskdir']):
+            taskfile = os.path.join(config['taskdir'], taskid)
+            with open(taskfile) as fh:
+                script_name = fh.readline().strip()
+            
+            logger.info(f"task: {taskid} script: {script_name!r}")
+            script_path = config['scripts'][script_name]['path']
+            log_path = os.path.join(config['logdir'], f'{taskid}.log')
+
+            code = run_script(script_path, log_path, taskid=taskid, taskfile=taskfile)
+
+            logger.info(f"finished task {taskid} {script_name!r} code: {code}")
+            os.unlink(taskfile)
+
+        time.sleep(sleeptime)
