@@ -1,0 +1,10 @@
+ookcatalog/__init__.py,sha256=XjSTjsdwtrk-BWzk_EOtDGKZXRvqhKyROZy9-D5Fg88,890
+ookcatalog/catalog.py,sha256=GcW52tUvhPgZ9evC5kz5YWJnYRZ-7o517LTrqJy7NCg,969
+ookcatalog/db.py,sha256=Wut2CiDiry9hn15M7daxx4kGrO5MD6XTaqkbHTxllOY,5872
+ookcatalog/templates/home.html,sha256=vhwk4UJllBlIsbAWntxxBj0gIW4EQMt7eSdEiBjpliA,788
+ookcatalog/templates/layout.html,sha256=Pp-xQeeE8lcH2WnafRa3KAR3UNUp1DQuZSSsj5z4F0A,1727
+ookcatalog/templates/search.html,sha256=03vgAuIVo5JV_BD1YtWVRxKifOyzzXgqINjjoOOLUik,781
+ookcatalog/templates/table.html,sha256=j8EZIGjf2H-HVRJQSmjj41XOFg9evo3Eu61dU3rpU3U,1724
+ookcatalog-0.0.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+ookcatalog-0.0.1.dist-info/METADATA,sha256=5OG0pOx7rbbvEb2E8f9GJBvE69I3nTHN5-WH5gvBBpY,6542
+ookcatalog-0.0.1.dist-info/RECORD,,
