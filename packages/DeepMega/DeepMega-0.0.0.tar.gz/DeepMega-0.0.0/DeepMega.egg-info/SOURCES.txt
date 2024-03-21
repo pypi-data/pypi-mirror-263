@@ -1,0 +1,5 @@
+setup.py
+DeepMega.egg-info/PKG-INFO
+DeepMega.egg-info/SOURCES.txt
+DeepMega.egg-info/dependency_links.txt
+DeepMega.egg-info/top_level.txt
