@@ -1,0 +1,164 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://liri.linguistik.uzh.ch/lcp_corpus_template.json",
+    "title": "LCP Corpus Template",
+    "description": "Configuration of a corpus as represented in LCP",
+    "type": "object",
+    "$defs": {
+        "attribute": {
+            "type": "object",
+            "properties": {
+                "isGlobal": {
+                    "description": "Whether the values of this attribute are globally defined (e.g. universal dependencies)",
+                    "type": "boolean"
+                },
+                "type": {
+                    "description": "The type of this attribute",
+                    "type": "string",
+                    "enum": [
+                        "text",
+                        "categorical",
+                        "jsonb"
+                    ]
+                },
+                "nullable": {
+                    "description": "Whether this attribute's value can be null",
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "type"
+            ]
+        }
+    },
+    "properties": {
+        "meta": {
+            "description": "Information about this corpus (name, authors, year, etc.)",
+            "type": "object",
+            "properties": {
+                "name": {
+                    "description": "The name of the corpus",
+                    "type": "string"
+                },
+                "author": {
+                    "description": "The author(s) of the corpus",
+                    "type": "string"
+                },
+                "date": {
+                    "description": "The date of the corpus",
+                    "type": "string"
+                },
+                "version": {
+                    "description": "The version of the corpus",
+                    "type": "integer"
+                },
+                "corpusDescription": {
+                    "description": "The description of the corpus",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "name",
+                "author",
+                "date",
+                "version",
+                "corpusDescription"
+            ]
+        },
+        "firstClass": {
+            "description": "The names/aliases of the three core entity types (token, segment, layer) needed in all corpora",
+            "type": "object",
+            "properties": {
+                "token": {
+                    "type": "string",
+                    "description": "The name of the token-level entity type in this corpus"
+                },
+                "segment": {
+                    "type": "string",
+                    "description": "The name of the segment-level entity type in this corpus"
+                },
+                "document": {
+                    "type": "string",
+                    "description": "The name of the document-level entity type in this corpus"
+                }
+            },
+            "required": [
+                "token",
+                "segment",
+                "document"
+            ]
+        },
+        "layer": {
+            "description": "The entity types defined in this corpus",
+            "type": "object",
+            "additionalProperties": {
+                "type": "object",
+                "properties": {
+                    "abstract": {
+                        "description": "Whether this entity type is just an abstract layer",
+                        "type": "boolean"
+                    },
+                    "layerType": {
+                        "description": "Spans contain other entity types whereas units are basic",
+                        "type": "string",
+                        "enum": ["span","unit"]
+                    },
+                    "contains": {
+                        "description": "Another entity type contained in this one",
+                        "type": "string"
+                    },
+                    "anchoring": {
+                        "description": "Whether this entity type is anchored to a character, audio or visual axis",
+                        "type": "object",
+                        "properties": {
+                            "stream": {
+                                "description": "Whether this entity type is anchored to a character axis",
+                                "type": "boolean"
+                            },
+                            "time": {
+                                "description": "Whether this entity type is anchored to a temporal axis",
+                                "type": "boolean"
+                            },
+                            "location": {
+                                "description": "Whether this entity type is anchored to a visual axis",
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "location",
+                            "stream",
+                            "time"
+                        ]
+                    },
+                    "attributes": {
+                        "description": "The attributes on this entity type",
+                        "type": "object",
+                        "properties": {
+                            "meta": {
+                                "description": "Attributes represented as meta attributes",
+                                "type": "object",
+                                "additionalProperties": {
+                                    "type": "object",
+                                    "$ref": "#/$defs/attribute"
+                                }
+                            }
+                        },
+                        "additionalProperties": {
+                            "type": "object",
+                            "$ref": "#/$defs/attribute"
+                        }
+                    }
+                },
+                "required": [
+                    "abstract",
+                    "layerType"
+                ]
+            }
+        }
+    },
+    "required": [
+        "meta",
+        "firstClass",
+        "layer"
+    ]
+}
