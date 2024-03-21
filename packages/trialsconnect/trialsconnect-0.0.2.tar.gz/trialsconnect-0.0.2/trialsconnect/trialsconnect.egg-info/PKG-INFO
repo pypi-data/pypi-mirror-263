@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: trialsconnect
+Version: 0.0.2
+Summary: Easy connecting and querying to clinical trials database from AACT
+Home-page: https://github.com/ineelhere/trialsconnect
+Author: ineelhere
+Author-email: 
+License: MIT
+Description: # Trials Connect
+        
+        Easy connecting and querying to clinical trials database from AACT
+        
+        Schema
+        
+        ![](https://aact.ctti-clinicaltrials.org/documentation/aact_schema.png)
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev
