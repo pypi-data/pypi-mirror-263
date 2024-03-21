@@ -1,0 +1,4 @@
+snqueue
+pydantic-settings
+mediqbox-download
+mediqbox-gptchat

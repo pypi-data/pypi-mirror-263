@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/muguobox/paper_prompt_finetune/__init__.py
+src/muguobox/paper_prompt_finetune/settings.py
+src/muguobox/paper_prompt_finetune/utils.py
+src/muguobox_paper_prompt_finetune.egg-info/PKG-INFO
+src/muguobox_paper_prompt_finetune.egg-info/SOURCES.txt
+src/muguobox_paper_prompt_finetune.egg-info/dependency_links.txt
+src/muguobox_paper_prompt_finetune.egg-info/requires.txt
+src/muguobox_paper_prompt_finetune.egg-info/top_level.txt

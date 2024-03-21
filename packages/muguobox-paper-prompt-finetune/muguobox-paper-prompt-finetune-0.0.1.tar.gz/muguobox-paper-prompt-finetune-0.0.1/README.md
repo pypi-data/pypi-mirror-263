@@ -1,0 +1,43 @@
+# muguobox-paper-prompt-finetune
+
+A muguo toolkit for finetuning AIGC prompts.
+
+**First of all, configure your AWS credential profile.** See [Configuration and credential file settings](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
+
+**Then configure your `.env` file with one line:**
+
+`AWS_PROFILE_NAME=your_aws_profile_name`
+
+You may also need to install `python-dotenv` in your virtual environment.
+
+## To Parse a PDF File
+
+```Python
+from dotenv import load_dotenv
+load_dotenv()
+
+from muguobox.paper_prompt_finetune import *
+
+if __name__ == "__main__":
+  filename = "/path/to/pdf/file"
+  output_dir = "/path/to/output_dir"
+  parsing_result = parse_pdf(filename, output_dir)
+  print(parsing_result)
+```
+
+The parsing results will be downloaded to `output_dir`. There will be two files: `texts.json` and `figures.zip`.
+
+## To Call GPT
+
+```Python
+from dotenv import load_dotenv
+load_dotenv()
+
+from muguobox.paper_prompt_finetune import *
+
+if __name__ == "__main__":
+  prompt = "Your prompt here"
+  content = "The content provided to GPT"
+  message = ask_gpt(prompt=prompt, content=content)
+  print(message)
+```
