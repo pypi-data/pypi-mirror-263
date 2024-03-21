@@ -1,0 +1,10 @@
+fast_cnum_converter-1.0.0.dist-info/METADATA,sha256=Cn_vzw2JnnAvB7kkK4ToZRSur2dNjkV_EWiopZ777ZI,3365
+fast_cnum_converter-1.0.0.dist-info/WHEEL,sha256=WuLbRyaSMdMTjFNlsacj_586rwqdeXYuJfsLbvjo8ck,94
+fast_cnum_converter-1.0.0.dist-info/license_files/LICENSE,sha256=xvgx3yXxrANOvLAMiPhtJq-xaKnyML-kpVKVCFe2a3U,1094
+fast_cnum_converter/exceptions.py,sha256=pgWqeVhD9iOIapjraEcbkOoiRd1OUlfHCiIrUoqNVKk,478
+fast_cnum_converter/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast_cnum_converter/_internal/exceptions.pyi,sha256=jWZA711bBFW3ByWW3Bml-RmbqYA6mUejUNELW5xR45o,668
+fast_cnum_converter/_internal/__init__.pyi,sha256=i7CM5td6xxNZnxx9bXspqIbt_MgK-vwI7ugYqrdfeDY,212
+fast_cnum_converter/__init__.py,sha256=CSaZDZTec4kLY11Q8ttjjz2hk0RbbyC65cCMbVrXKUA,169
+fast_cnum_converter/_internal.cp38-win_amd64.pyd,sha256=T-Bc_FqtG76qO68R8BP8AIKTxv3t5ptNGzUOHC0r6UM,271872
+fast_cnum_converter-1.0.0.dist-info/RECORD,,
