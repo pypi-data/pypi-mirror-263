@@ -1,0 +1,43 @@
+Metadata-Version: 2.3
+Name: picogram
+Version: 0.0.1
+Summary: small api library for telegram bot api
+Project-URL: Homepage, https://github.com/anorprogrammer/picogram
+Project-URL: Issues, https://github.com/anorprogrammer/picogram/issues
+Author-email: Shahobiddin Anorboyev <anorprogrammer1127@gmail.com>
+Maintainer-email: Shahobiddin Anorboyev <anorprogrammer1127@gmail.com>
+License-File: LICENSE
+Keywords: api,bot,library,small,telegram
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# picogram
+small api library for telegram bot api
+
+
+Installation:
+```shell
+pip install picogram
+```
+
+
+Example:
+
+```python
+from picogram import Bot
+
+bot = Bot(token='your_token')
+
+
+@bot.message()
+def start_message(message: dict):
+    bot.send_message(chat_id=message['chat']['id'], text='Hello!')
+
+
+if __name__ == '__main__':
+    bot.run_polling()
+```
