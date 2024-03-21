@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+minicrawl/__init__.py
+minicrawl/controller.py
+minicrawl/dungeon_master.py
+minicrawl/graph.py
+minicrawl/minicrawl.py
+minicrawl/minicrawl_alpha.py
+minicrawl/params.py
+minicrawl/utils.py
+minicrawl.egg-info/PKG-INFO
+minicrawl.egg-info/SOURCES.txt
+minicrawl.egg-info/dependency_links.txt
+minicrawl.egg-info/requires.txt
+minicrawl.egg-info/top_level.txt
