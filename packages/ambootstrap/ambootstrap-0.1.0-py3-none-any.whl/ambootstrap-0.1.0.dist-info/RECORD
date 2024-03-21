@@ -1,0 +1,14 @@
+amb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amb/__main__.py,sha256=qCzuXJB6GiIm3uqhEqSNpHCM_20KQ-R1kYD4DxF_Uyg,3029
+amb/apkbuild.py,sha256=oVO573-SZ_-LF7CRW6ifrPJ7qedicpPlvLr7AKlz9DY,14675
+amb/apkindex.py,sha256=rug3oZM694-hx3Xza6llQVk28bUOq6CbxqiDBV0VUjI,4440
+amb/architecture.py,sha256=MW7KUv-XyLhq16i5qH3gcpzuR677PvzRM2wqfZnWAWU,1305
+amb/cache.py,sha256=9lEPVh_DkF8NW3XsInXRpG0W_-aouAG55VHX-NNO5Zo,2407
+amb/chroot.py,sha256=wYB7jClXi5b9unXU-D6Zp5s7dJbrTmecGE-3CTNg8-Y,10566
+amb/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amb/logger.py,sha256=menVHJzAEi8_II1CXHKAKxiJg2q-_LVAFTufiUbTBdo,1057
+ambootstrap-0.1.0.dist-info/METADATA,sha256=aQV9PfDjKxidyBlv3O-sd9jANQTdr4ogk5raHBR5x5Y,425
+ambootstrap-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ambootstrap-0.1.0.dist-info/entry_points.txt,sha256=jnLWw0rLiqXxCSPu4awIjAauIDvCRi51BGZ3HwqpZ4s,50
+ambootstrap-0.1.0.dist-info/top_level.txt,sha256=Fvf5_weeT52qaKljLwfO3Ni_5-PgwSpo2geztXhc1Hs,4
+ambootstrap-0.1.0.dist-info/RECORD,,
