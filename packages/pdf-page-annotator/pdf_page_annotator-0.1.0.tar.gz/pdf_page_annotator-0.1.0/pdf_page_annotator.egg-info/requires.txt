@@ -1,0 +1,3 @@
+llama_index
+pypdf
+python-dotenv
