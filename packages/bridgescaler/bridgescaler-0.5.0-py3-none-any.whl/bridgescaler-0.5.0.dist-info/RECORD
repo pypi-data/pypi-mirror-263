@@ -1,0 +1,12 @@
+bridgescaler/VERSION,sha256=oK1QZAE5pST4ZZEVcUW_HUZ06pwGW_6iFVjw97BEMMg,6
+bridgescaler/__init__.py,sha256=T4ijSX5WHhvNJ6ATBZ4wwr_AL6yL-yRJv_lg7jxL7u8,307
+bridgescaler/backend.py,sha256=gaOZT8l4BLVnDh34MpOtjUCCxmXSjsAIX2OiLGtl1YA,4517
+bridgescaler/deep.py,sha256=MMD16v9t4nCegYmgvomDyFdoRwopKmyE0vi6ZDF0pkw,4469
+bridgescaler/distributed.py,sha256=DltTBny9ggJGcSR0UTVS_AT07imtCManYgk6e2f8LjI,21376
+bridgescaler/group.py,sha256=mGu16QQJe8U0lLaqpVGJfSdGtY1VH09eCARtiy9X87s,8695
+bridgescaler-0.5.0.dist-info/LICENSE,sha256=_hkV0FL4QBt7r3EMbv2IBZl2gTWkFcR50T4rNlHpqoE,1103
+bridgescaler-0.5.0.dist-info/METADATA,sha256=t8v6plx5N0YNcqSCzjEPsSgL-jpWMO72LA9V68DreTo,6001
+bridgescaler-0.5.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bridgescaler-0.5.0.dist-info/top_level.txt,sha256=qq5IhCCzDoXOLBHbQ9mHoqcQGbZ36IGwGGJrMsCqxmE,13
+bridgescaler-0.5.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+bridgescaler-0.5.0.dist-info/RECORD,,
