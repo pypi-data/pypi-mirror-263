@@ -1,0 +1,14 @@
+skyline2isocor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skyline2isocor/cli.py,sha256=dMXSmRwrITjtfJ9lb4TWp_x1mbzx0bc8RSKPX5vSXd0,2573
+skyline2isocor/test-data/manip_acetate/200324_LLE_TMG_AAdil100.txt,sha256=eGEksDPBFH4UWDoYpGFDN0dF1PM-ONmWzKmkVvh1taE,505940
+skyline2isocor/test-data/manip_acetate/isotopic_data_isocor.tsv,sha256=wEVctO1xYpjPSEnZTpKNlQy_f8-hCiN39m7RFG6-guo,480432
+skyline2isocor/test-data/maud_bug/isocor.tsv,sha256=wmMLSEUwM7zI5n2ZR35gMJdCOqJ9x0qGI0kl5UnyLxo,2068921
+skyline2isocor/test-data/maud_bug/PFPP_13C_POS_SK_results_LLE.csv,sha256=3FdHUDEr9sCOWWVPjv-vpLSFTMFbU-r6FKNxeXHCQSA,2166334
+skyline2isocor/test-data/output_test.tsv,sha256=UCTJyq2wuDs5SPKmghpMPmNxTuKExMlV_LkIrtX7blI,10294
+skyline2isocor/test-data/skyline_output.csv,sha256=rDLYdb6j7hFtklrV0wPTy2KX9mlXswnaXr4GPGOD_s4,17872
+skyline2isocor/test-data/tmp_amandine/Quantif.tsv,sha256=gYeijQs7U7PbCk9KLFBwFRkIBqPl7Rxgx0YUJOK1qTs,11677204
+skyline2isocor-1.0.0.dist-info/entry_points.txt,sha256=JjkPriSdVx5N-zmvrnhhV6YBXY2y8eCdQRDD4L7kJ1Q,63
+skyline2isocor-1.0.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+skyline2isocor-1.0.0.dist-info/METADATA,sha256=KhI5V1itZVbJnRUI9udQmXjvTlwgtMTULMoiiWynB_Y,604
+skyline2isocor-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+skyline2isocor-1.0.0.dist-info/RECORD,,
