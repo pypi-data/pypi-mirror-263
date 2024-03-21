@@ -1,0 +1,6 @@
+psycopg2>=2.9.9
+pandas>=2.0.3
+
+[dev]
+pytest>=7.0
+twine>=4.0.2
