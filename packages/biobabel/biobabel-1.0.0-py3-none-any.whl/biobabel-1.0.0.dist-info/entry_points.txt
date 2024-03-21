@@ -1,0 +1,6 @@
+[console_scripts]
+biobabel = biobabel:display
+bioinfo = biobabel:info
+biosplit = biobabel:split
+bioview = biobabel:view
+tohdf5 = biobabel:tohdf5
