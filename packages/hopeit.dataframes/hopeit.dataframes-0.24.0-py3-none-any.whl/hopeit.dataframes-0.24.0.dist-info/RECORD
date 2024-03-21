@@ -1,0 +1,8 @@
+hopeit/dataframes/__init__.py,sha256=1bVCxWn_zfUawcju8eQdtsBwwaOQhi0h7V-UuhNj4OA,3857
+hopeit/dataframes/dataframe.py,sha256=CV6NpwNT3CQwuSyc02SLTUw4b8qvMCxEVmoa4eQgY2o,7971
+hopeit/dataframes/dataframeobject.py,sha256=aBu4t8BBldM2g53ZAMjlsj94hgN6oScIn72AdaxMVgE,6154
+hopeit/dataframes/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hopeit.dataframes-0.24.0.dist-info/METADATA,sha256=XG5kEYytNKZtfXJ4eMbqWlNuq4hw5HFZeosFXniXojE,2531
+hopeit.dataframes-0.24.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+hopeit.dataframes-0.24.0.dist-info/top_level.txt,sha256=m-R472J_P82Xe5R09_jBDKP0kbMqrEHawwB90H1iWJI,7
+hopeit.dataframes-0.24.0.dist-info/RECORD,,
