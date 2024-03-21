@@ -1,0 +1,11 @@
+fastgedcom/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastgedcom/base.py,sha256=POTmac5qjX1lZaG8ZWwRafCFQTRRpmY10Vnpg1Ciz4E,11653
+fastgedcom/family_link.py,sha256=XQmVAzivHb8qUaPFscw89klh4ObyGmfOxF4t-FJFSXQ,13176
+fastgedcom/helpers.py,sha256=yBdPl66vPjNx0JtjSmYQwWdWUjiY-Ul_8jmF71a-8v4,11041
+fastgedcom/parser.py,sha256=LV40shxHaCLAc_OwzuVHpCuCSXCXYRXBcPtpMHZhCsM,6966
+fastgedcom/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastgedcom-1.1.1.dist-info/LICENSE,sha256=Qp9q_QcbscsuHn9pdET5fXV5RT6vxV8tZJnjokkmvuY,1090
+fastgedcom-1.1.1.dist-info/METADATA,sha256=q4ZezYE_T44alQZz5wl4G6qkt8qr3GdWfxwEN7wheTs,8390
+fastgedcom-1.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fastgedcom-1.1.1.dist-info/top_level.txt,sha256=WSy2OgUdvVJkmtdMOKu-tS57mMRG24Txsv0sdatRZds,11
+fastgedcom-1.1.1.dist-info/RECORD,,
