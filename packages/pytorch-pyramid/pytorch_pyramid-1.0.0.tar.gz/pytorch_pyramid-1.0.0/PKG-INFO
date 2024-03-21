@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pytorch-pyramid
+Version: 1.0.0
+Summary: A Gauss and Laplacian Pyramid implemented in pytorch.
+Home-page: https://github.com/Henry-GongZY/Image-Pyramid-pytorch
+License: MIT
+Author: Henry-GongZY
+Author-email: watershell@qq.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: torch (==1.10.0)
+Requires-Dist: torchvision (==0.11.0)
+Description-Content-Type: text/markdown
+
+# Image-Pyramid-Pytorch
+
+A Gauss and Laplacian Pyramid implemented in pytorch.
