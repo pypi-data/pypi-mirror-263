@@ -1,0 +1,2 @@
+from Minuit_newClass.extendedMinuit import ExtendedMinuit
+
