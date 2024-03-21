@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: nb_black_formatter
+Version: 1.0.0
+Summary: A simple extension for Jupyter Notebook and Jupyter Lab to beautify Python code automatically using Black.
+Home-page: https://github.com/dnanhkhoa/nb_black
+Author: Khoa Duong
+Author-email: dnanhkhoa@live.com
+License: MIT
+Keywords: black-formatter black-beautifier black jupyterlab-extension jupyter-notebook-extension
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ipython
+Requires-Dist: yapf >=0.28 ; python_version >= "3.6"
+Requires-Dist: black >=23.9 ; python_version >= "3.6"
+
+# nb_black
+
+[![PyPI](https://img.shields.io/pypi/v/nb_black.svg)](https://pypi.org/project/nb-black/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/nb_black.svg)](https://pypi.org/project/nb-black/)
+
+A simple extension for Jupyter Notebook and Jupyter Lab to beautify Python code automatically using **[Black](https://github.com/psf/black)**.
+
+Please note that since the **Black** package only supports Python 3.6+, so **[YAPF](https://github.com/google/yapf)** package will
+be used for the lower versions. If you edit the code while running the cell, the formatting is
+not submitted to the Jupyter notebook and instead silently suppressed, so you have to stick with
+the edited, but unformatted code.
+
+## Installation
+
+You can install this package using [pip](http://www.pip-installer.org):
+
+```sh
+[sudo] pip install nb_black
+```
+
+## Usage
+
+For Jupyter Notebook:
+
+```sh
+%load_ext nb_black
+```
+
+For Jupyter Lab:
+
+```sh
+%load_ext lab_black
+```
+
+Just put this code into the first cell in your Notebook, and that's all. :)
