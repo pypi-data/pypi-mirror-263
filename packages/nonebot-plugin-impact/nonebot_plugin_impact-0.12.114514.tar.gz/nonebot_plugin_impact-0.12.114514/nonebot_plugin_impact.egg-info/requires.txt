@@ -1,0 +1,6 @@
+pillow
+nonebot2
+nonebot-adapter-onebot
+sqlalchemy
+nonebot-plugin-apscheduler
+httpx
