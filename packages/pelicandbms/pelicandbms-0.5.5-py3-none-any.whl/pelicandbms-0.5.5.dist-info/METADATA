@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pelicandbms
+Version: 0.5.5
+Summary: Ultrafast binary JSON-oriented NoSQL
+Author-email: Dmitry Vorontsov <dv1555@hotmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: filelock
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
