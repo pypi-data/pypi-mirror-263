@@ -1,0 +1,2 @@
+[console_scripts]
+terminal_notifier = terminal_notifier.__main__:main
