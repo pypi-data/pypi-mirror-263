@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ctconnect_ineelhere
+Version: 0.0.0
+Summary: Easy connecting and querying to clinical trials database from AACT
+Home-page: https://github.com/ineelhere/trialsconnect
+License: MIT
+Author: ineelhere
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pandas (>=2.0.3)
+Requires-Dist: psycopg2[binary] (>=2.9.9)
+Description-Content-Type: text/markdown
+
+# Trials Connect
+
+Easy connecting and querying to clinical trials database from AACT
+
+Schema
+
+![](https://aact.ctti-clinicaltrials.org/documentation/aact_schema.png)
