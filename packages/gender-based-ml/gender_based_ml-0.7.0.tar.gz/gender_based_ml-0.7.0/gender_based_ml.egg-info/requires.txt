@@ -1,0 +1,3 @@
+tensorflow==2.7.0
+keras==2.7.0
+torch==0.8.1
