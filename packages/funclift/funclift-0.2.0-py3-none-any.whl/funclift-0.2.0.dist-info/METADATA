@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: funclift
+Version: 0.2.0
+Summary: 
+Author: Essentier
+Author-email: support@essentier.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+## funclift
+
+funclift is a package for doing functional programming in Python.
+
+Documentation, examples and tutorials of funclift: https://www.essentier.com/docs/index.html
+
+### Features
+
+- functors
+- applicatives
+- monads
+- do-notation
+- contravariant functors
+- bifunctors
+- profunctors
+- free monad
+- monad transformers
+- easy composition of asynchronous coroutines
+
+## Install
+
+`pip install funclift`
+
+## Tutorials
+
+https://github.com/essentier/funclift-tutorials
+
