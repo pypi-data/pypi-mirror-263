@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+next_dict.egg-info/PKG-INFO
+next_dict.egg-info/SOURCES.txt
+next_dict.egg-info/dependency_links.txt
+next_dict.egg-info/top_level.txt
+next_dict_package/__init__.py
+next_dict_package/next_config_manager.py
+next_dict_package/next_dict_obj.py
