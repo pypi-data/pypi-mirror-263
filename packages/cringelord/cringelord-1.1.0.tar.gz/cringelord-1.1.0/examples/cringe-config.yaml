@@ -1,0 +1,24 @@
+# Example cringe-config.yaml
+
+production:
+  database_pim_id: 1234
+  incident_priority: "2-High"
+
+acceptance:
+  database_pim_id: 5678
+  incident_priority: "3-Medium"
+
+development:
+  database_pim_id: 9012
+  incident_priority: "4-Low"
+
+
+# Number of consecutive error states for ticket creation.
+threshold: 3
+# Templates for ticket fields when creating a ticket for error state.
+ticket_templates:
+  summary: "Tenable scanner '{}' is not working."
+  description: >
+    Tenable scanner '{}' is currently on error status '{}'.
+    Please take the necessary actions to get it back to the working status.
+  ext_ref: "soc_creation@@scanner_state@@{}"
