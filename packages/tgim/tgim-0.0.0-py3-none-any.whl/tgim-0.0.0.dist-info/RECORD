@@ -1,0 +1,13 @@
+tgim/common/blocks.py,sha256=BRsBgHktIEIO9SFF53hRB8NUTA0sGE3gspjUow5Y5qU,3356
+tgim/common/model.py,sha256=A6gUF1XWg-cFIR5CIuIAObzmFc63iPK6c5IstMXem0E,460
+tgim/models/fastvit.py,sha256=N3U2w3pycv-24FQYwZQAmMsp7QSGolPwi3bJxaIg4Rw,6856
+tgim/models/focalnet.py,sha256=yfYMymyKtkNCliIyvlTkhmuCf2GJf_ueieO6c7x3xMs,5386
+tgim/models/ghostnetv2.py,sha256=rTpd8U-Pet9y-Te-uW5u3gUrQ7WS1d814jlt5p6Ssro,6454
+tgim/models/repvit.py,sha256=KUmQ3MwG4wG-MpWTju23SFwMqDMeKugY3LlWl4Z5MMA,5662
+tgim/models/shufflenetv2.py,sha256=RiM8Lib7WBE3JDPtdhTeDJaD8DCqLyWqqi84nms126M,7400
+tgim/models/shvit.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tgim-0.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tgim-0.0.0.dist-info/METADATA,sha256=pGJdINL5nL_nJUZ5QhpmzCIm025jee31lfvRWTnJyDs,1218
+tgim-0.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tgim-0.0.0.dist-info/top_level.txt,sha256=PReVHDwZxpDNAdzmgSAK5ZWazsz_HtQF0TXwYix9M_8,5
+tgim-0.0.0.dist-info/RECORD,,
