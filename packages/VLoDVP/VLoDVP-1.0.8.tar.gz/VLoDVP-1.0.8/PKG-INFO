@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: VLoDVP
+Version: 1.0.8
+Summary: Validating Licenses on Discord Validating Package
+Home-page: https://github.com/t-a-g-o/vlod
+Author: tago
+License: MIT
+License-File: LICENSE.txt
+Requires-Dist: cryptography
+Requires-Dist: requests
