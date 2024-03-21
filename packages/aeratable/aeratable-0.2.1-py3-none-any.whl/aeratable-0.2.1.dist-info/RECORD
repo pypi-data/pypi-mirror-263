@@ -1,0 +1,10 @@
+aeratable/__init__.py,sha256=Rf9Cyx5XdFKEPChaKQcjB8UiXDNOMoCq5VagFDs5X9s,118
+aeratable/__main__.py,sha256=h1QpgvR08tO6TfQHuySKKgQiQVXVIoQRKLEx5sVht_M,67
+aeratable/__version__.py,sha256=KyZuKgcEX_TCMII7fDsummHL3qmoY2nYwE9O1LlQ4s8,123
+aeratable/cli.py,sha256=Ji2sVnVaGOe4jfUo1KDGAu-D2-ai4rBi9j3WFilY2GE,3154
+aeratable-0.2.1.dist-info/LICENSE,sha256=nFlRnLMFmMpuz4bSaJlwiNVQbhxXF8XYTBe5zY9T5XE,1093
+aeratable-0.2.1.dist-info/METADATA,sha256=euzmo2rjKzYNgud1OeCHK0jXcKWUdQtnQpTuCRm5Pzs,3958
+aeratable-0.2.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+aeratable-0.2.1.dist-info/entry_points.txt,sha256=HNylhHRwje5rQBCacBPl-zwXeSTlxozr97J-eMO4qJ8,49
+aeratable-0.2.1.dist-info/top_level.txt,sha256=u3msQ34SaiqCw2ZsbzPEchds2emTR5lTx4QtaqMdgoI,10
+aeratable-0.2.1.dist-info/RECORD,,
