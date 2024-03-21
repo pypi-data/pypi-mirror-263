@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+src/__main__.py
+src/typing_test_ydratec.py
+src/typing_test_ydratec.egg-info/PKG-INFO
+src/typing_test_ydratec.egg-info/SOURCES.txt
+src/typing_test_ydratec.egg-info/dependency_links.txt
+src/typing_test_ydratec.egg-info/entry_points.txt
+src/typing_test_ydratec.egg-info/requires.txt
+src/typing_test_ydratec.egg-info/top_level.txt
