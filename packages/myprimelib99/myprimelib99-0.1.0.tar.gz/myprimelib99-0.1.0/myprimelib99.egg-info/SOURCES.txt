@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+myprimelib99/__init__.py
+myprimelib99/prime_numbers.py
+myprimelib99/prime_numbersNew.py
+myprimelib99.egg-info/PKG-INFO
+myprimelib99.egg-info/SOURCES.txt
+myprimelib99.egg-info/dependency_links.txt
+myprimelib99.egg-info/top_level.txt
+tests/test_prime.py
