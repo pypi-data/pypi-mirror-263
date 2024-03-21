@@ -1,0 +1,3 @@
+[console_scripts]
+cups-printers=cups_printers.main:app
+

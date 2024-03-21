@@ -1,0 +1,13 @@
+cups_printers/__init__.py,sha256=7wDerQ5gDf8WPTZRiVSSxXjLm7ZniJB60SJNe8aAFJA,53
+cups_printers/commands/__init__.py,sha256=tJPwjLK011S8zUMYSI61J_v4Ut92Wtc-p9YVR9qzSLY,59
+cups_printers/commands/output.py,sha256=-4kHvqTVg1N6HWRoLu3inJzL650-384pJ9ETNJTz0yk,2712
+cups_printers/commands/queue.py,sha256=7_cTSsO8rYl6-AWFBuUrOU1e00tY-CZwHDt6eDmzJ3o,246
+cups_printers/commands/state.py,sha256=uRgitCQST89K383Wie7sm4B-rr2gOIUdkDgkI-nr3Cg,1049
+cups_printers/constants.py,sha256=oLcdqqyRz2810Owp2ELDvOUOIjqrmk5gjbnoyJ_VsxY,116
+cups_printers/main.py,sha256=ZC15mdS5nuEs_sXrPWg3KlPfKCxJXZfv8H4SfisMqm0,1294
+cups_printers/maiqqqqqqn.py,sha256=cfpwFRtKzFkhaXfumO9TsVIG_yGjXRUpnqH7hMDdLic,1487
+cups_printers-1.0.0.dist-info/LICENSE,sha256=W3QcOl4mgzbZlHgM5m4XTa41qMTvsuZLcFWD2UjGRPw,1105
+cups_printers-1.0.0.dist-info/METADATA,sha256=0ZTymzdZs4jID24l5nnObsDzBOIcCAM7Q1l6E1RVmso,4414
+cups_printers-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cups_printers-1.0.0.dist-info/entry_points.txt,sha256=kepePD_av6zyRLD6H-A7W1lafcvzHboCapw9z3iMT7c,56
+cups_printers-1.0.0.dist-info/RECORD,,
