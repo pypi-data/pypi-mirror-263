@@ -1,0 +1,1 @@
+from cy_ai_trainer.redis_queue import TrainModels
