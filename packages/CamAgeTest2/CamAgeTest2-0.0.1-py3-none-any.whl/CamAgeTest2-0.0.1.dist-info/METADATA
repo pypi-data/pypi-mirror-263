@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: CamAgeTest2
+Version: 0.0.1
+Summary: Package for performing image segmentation
+Author: Sarthak Tyagi
+Author-email: <sarthak20540@iiitd.ac.in>
+Keywords: python,image,segmentation,image segmentation
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: keras
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: tensorflow
+
