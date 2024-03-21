@@ -1,0 +1,15 @@
+langconv/__init__.py,sha256=osc9Y3DLvyujmmxBJdggYkurbD7gL-2Ti0Qu4zkF5bs,92
+langconv/converter.py,sha256=BNzsA-5eFAAi33SDfG-sHmNMV5WAfqRXHQ1RZtI2QMI,8844
+langconv/data/zh/CN.json,sha256=GU6ralYVWiucoBFKoqfb5nar8UK7H0_DiQWd6TAkQKY,57716
+langconv/data/zh/HK.json,sha256=Xn9EXBp8qFCNZr2AwxPIz633dRBE7rQa08t-hQ5AsEI,67235
+langconv/data/zh/LICENSE.md,sha256=mSXr2-xctOnuRLFmJwKg_TkH6UJ1htPJlq6JzUEVOUE,975
+langconv/data/zh/TW.json,sha256=XfpyM3l5tfhvTjWiBRsPn6weDTUC-WisBdHAg_iIjHo,28427
+langconv/data/zh/hans.json,sha256=LWhgIPi6Yi69y_qVNBznAq6Tmt7farynQjIJCNBVnUw,80317
+langconv/data/zh/hant.json,sha256=hQ3IXc21MbsF1KA75jd-JXhj_W_iwCeGTGQzRJu4h3U,213639
+langconv/language/__init__.py,sha256=5hsFJO0CKPVhtUxGNsydjgvc5a3qe80j_JPO2Jv56Fw,827
+langconv/language/zh.py,sha256=KqnDRClpO26TC_h8_SBIRfmIO8rAVMuhXw42iQ4ufPo,538
+langconv/trie.py,sha256=q_H2fLDbtpMsZXRl-SmPTc7tFtv9F49admgcPePldic,2617
+langconv-0.3.0.dist-info/LICENSE,sha256=FCkZpT3dmychJuJA6ZUjJbrPHxvc-h5VmVGDQKBkRsI,1069
+langconv-0.3.0.dist-info/METADATA,sha256=b7bwkYSYe6b32Hn2qT6uLhvkf4t3LiAozLGJDmD7iVE,6030
+langconv-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+langconv-0.3.0.dist-info/RECORD,,
