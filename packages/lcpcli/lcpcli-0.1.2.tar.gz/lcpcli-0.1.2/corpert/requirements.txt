@@ -1,0 +1,5 @@
+lxml>=4.7.1
+lupa>=1.13
+xmltodict>=0.13
+jsonpickle>=3.0
+jsonschema>=4.21

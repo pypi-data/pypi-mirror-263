@@ -1,0 +1,10 @@
+lxml>=4.7.1
+lupa>=1.13
+xmltodict>=0.13
+jsonpickle>=3.0
+jsonschema>=4.21
+requests>=2.30.0
+py7zr>=0.20.5
+tqdm>=4.65.0
+types-tqdm>=4.65.0.1
+types-requests>=2.30.0.0
