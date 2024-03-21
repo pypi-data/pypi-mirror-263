@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/fourdfpy/__init__.py
+src/fourdfpy.egg-info/PKG-INFO
+src/fourdfpy.egg-info/SOURCES.txt
+src/fourdfpy.egg-info/dependency_links.txt
+src/fourdfpy.egg-info/top_level.txt
