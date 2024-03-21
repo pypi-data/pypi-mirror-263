@@ -1,0 +1,7 @@
+VERSION_MAJOR = 0
+VERSION_MINOR = 0
+VERSION_PATCH = 3
+
+
+def get_version():
+    return f"{VERSION_MAJOR}.{VERSION_MINOR}.{VERSION_PATCH}"
