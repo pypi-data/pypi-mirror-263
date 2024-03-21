@@ -1,0 +1,14 @@
+superconfig/__init__.py,sha256=GXVpB-GRmr8cmUL2gV00M05raL7KrOlASnyxUHxjLko,101
+superconfig/superconf.py,sha256=3fIrHMScrIJlEEhKPJnqXsQrPN9T8SBkzalyHvKUQhM,998
+superconfig/parsers/__init__.py,sha256=0KHG907LqknDpIyMw_HqY056Ve_j-ys6br9_MNZnVmo,563
+superconfig/parsers/env_parser.py,sha256=7B6DwhISa9V1_FwUcFpdlIwb1kxiGAbLBQXvxlJL8PU,609
+superconfig/parsers/ini_parser.py,sha256=_IZkBd-VFILovOi5t0e-Hd6LIbnvi9HWCE7dkjjExno,515
+superconfig/parsers/json_parser.py,sha256=RZ5ZarolOS5NTGg56yUyPrVAtEHbEepT7dNgp9ImUO4,423
+superconfig/parsers/yaml_parser.py,sha256=l1FK4jCbfFDOD744kecxVlDrN1dCkwiIrR9NE7_jVEc,427
+superconfig/utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+superconfig/utilities/dtypes.py,sha256=InpqhpOngAJVxQu45-FhnPNQBUEcq98VWodhXSe8Dh4,546
+superconfig/utilities/parser_utils.py,sha256=-CKboiGe3wauR00QXX_s0Jv-B9bWvJs02wyfHwNG5kA,785
+Super_Config-0.0.3.dist-info/METADATA,sha256=gk4DS8ky5HVqFRbV-bx8ZcnTWrx5rk4B2UPPZc9Kwf4,2660
+Super_Config-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+Super_Config-0.0.3.dist-info/top_level.txt,sha256=b3zJqEUwVDx8JhdOc_9PtEJO0MWYJehCGlDHZrzDEnI,12
+Super_Config-0.0.3.dist-info/RECORD,,
