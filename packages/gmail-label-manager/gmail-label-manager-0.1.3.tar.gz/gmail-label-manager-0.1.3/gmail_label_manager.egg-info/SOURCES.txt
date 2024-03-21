@@ -1,0 +1,7 @@
+README.md
+setup.py
+gmail_label_manager.egg-info/PKG-INFO
+gmail_label_manager.egg-info/SOURCES.txt
+gmail_label_manager.egg-info/dependency_links.txt
+gmail_label_manager.egg-info/requires.txt
+gmail_label_manager.egg-info/top_level.txt
