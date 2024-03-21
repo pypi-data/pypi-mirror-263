@@ -1,0 +1,13 @@
+iinit/__init__.py,sha256=WGcU138JwVIjHfa8oPD_uIsNuqTL9e81rJoH_660TFA,147
+iinit/_version.py,sha256=ac3tgjoOzsODOlacRPCwz99LbZv0NK7ZYAaBWulFo7E,171
+iinit-0.1.0.data/data/share/jupyter/labextensions/iinit/package.json,sha256=kGbB5aSF6JQbAL6bTpuWTqptlUSrwNrCH8OCsgMktgw,5233
+iinit-0.1.0.data/data/share/jupyter/labextensions/iinit/static/509.d42008e005f32180a399.js,sha256=1CAI4AXzIYCjmaGvX2ouBwgBRYPjLHZ9a_o7SiROvaY,1434
+iinit-0.1.0.data/data/share/jupyter/labextensions/iinit/static/728.063cf6f8a8ae471a75a3.js,sha256=Bjz2-KiuRxp1ow3TUpAS22M8gmztJmop-zc_TkOtZ6o,4087
+iinit-0.1.0.data/data/share/jupyter/labextensions/iinit/static/remoteEntry.f052ffb392497642be25.js,sha256=8FL_s5JJdkK-JRIqALaAs6tMUD1wNGTSRGbm9tuS00Y,6493
+iinit-0.1.0.data/data/share/jupyter/labextensions/iinit/static/style.js,sha256=jafwx6bdOKb6O5wtFH4GBaFXWd_DEFS2-43e-_3S6RU,148
+iinit-0.1.0.data/data/share/jupyter/labextensions/iinit/static/third-party-licenses.json,sha256=i4z96RB0T1_RGdmoFCyvPxH0skhEL5qSKT9D1EdclF8,2453
+iinit-0.1.0.data/data/share/jupyter/labextensions/iinit/install.json,sha256=ht0yPJyNSe4bTh6Y-8KahBwoZLekwziJ9fqzdwvAYxk,171
+iinit-0.1.0.dist-info/METADATA,sha256=5tLKGowziU2qZR4P4QADVFjUpAN4Hexe9xzlojajIcE,5565
+iinit-0.1.0.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+iinit-0.1.0.dist-info/licenses/LICENSE,sha256=54DCQpMBkR8BnILT5fXGAgZ_6sGZb6WKIhl9v6DGOxk,1514
+iinit-0.1.0.dist-info/RECORD,,
