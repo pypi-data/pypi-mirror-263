@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: kpisQueryGeneration
+Version: 0.1.6
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: jinjasql (==0.1.7)
+Requires-Dist: Jinja2 (==3.0.2)
+
+UNKNOWN
+
