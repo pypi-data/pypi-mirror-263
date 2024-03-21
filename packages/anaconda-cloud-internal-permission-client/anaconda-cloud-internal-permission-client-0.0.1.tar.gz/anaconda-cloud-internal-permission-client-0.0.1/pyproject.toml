@@ -1,0 +1,7 @@
+[build-system]
+build-backend = 'setuptools.build_meta'
+requires = ['setuptools']
+
+[project]
+name = 'anaconda-cloud-internal-permission-client'
+version = '0.0.1'

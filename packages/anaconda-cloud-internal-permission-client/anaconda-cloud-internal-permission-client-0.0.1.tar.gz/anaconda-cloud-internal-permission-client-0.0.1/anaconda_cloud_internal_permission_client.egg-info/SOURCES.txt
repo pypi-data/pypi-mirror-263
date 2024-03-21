@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+anaconda_cloud_internal_permission_client.egg-info/PKG-INFO
+anaconda_cloud_internal_permission_client.egg-info/SOURCES.txt
+anaconda_cloud_internal_permission_client.egg-info/dependency_links.txt
+anaconda_cloud_internal_permission_client.egg-info/top_level.txt
+permission_client/__init__.py
