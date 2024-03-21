@@ -1,0 +1,10 @@
+README.md
+setup.py
+terminal_notifier/__init__.py
+terminal_notifier/notifier.py
+terminal_notifier/sound.mp3
+terminal_notifier.egg-info/PKG-INFO
+terminal_notifier.egg-info/SOURCES.txt
+terminal_notifier.egg-info/dependency_links.txt
+terminal_notifier.egg-info/requires.txt
+terminal_notifier.egg-info/top_level.txt
