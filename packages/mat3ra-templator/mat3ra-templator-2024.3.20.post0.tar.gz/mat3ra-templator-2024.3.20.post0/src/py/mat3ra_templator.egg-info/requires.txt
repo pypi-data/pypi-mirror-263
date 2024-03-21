@@ -1,0 +1,13 @@
+numpy
+
+[dev]
+pre-commit
+black
+ruff
+isort
+mypy
+pip-tools
+
+[test]
+coverage
+mock
