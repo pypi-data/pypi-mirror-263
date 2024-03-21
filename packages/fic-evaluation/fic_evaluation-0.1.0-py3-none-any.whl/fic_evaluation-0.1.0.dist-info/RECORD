@@ -1,0 +1,9 @@
+fic_evaluation/__init__.py,sha256=1GwMeBv8lZBIdmxlD3JZ9BpX8c1gODMnlzBuTr8g19Y,158
+fic_evaluation/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fic_evaluation/src/highlights_coverage_evaluator.py,sha256=NU4Bxd1OhQ3C1GeR2sP3ojyEqLJXowWAAaYx7JfDx9E,3383
+fic_evaluation/src/highlights_faithfulness_evaluator.py,sha256=hSTl9qxd6H0gXW8q_eDozIezByvm4DeAO2ACf_yUs5M,5238
+fic_evaluation-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fic_evaluation-0.1.0.dist-info/METADATA,sha256=2vLpPxwy7YDAQm8WOkszFDa3-fPEHZxN4FQujXQGRts,1171
+fic_evaluation-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fic_evaluation-0.1.0.dist-info/top_level.txt,sha256=g3YkcfoRLobw_ReoAhuzXBgMgfD78itcfrvAgKQEnNA,15
+fic_evaluation-0.1.0.dist-info/RECORD,,
