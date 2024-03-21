@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+viecry/__init__.py
+viecry/viecry.py
+viecry.egg-info/PKG-INFO
+viecry.egg-info/SOURCES.txt
+viecry.egg-info/dependency_links.txt
+viecry.egg-info/requires.txt
+viecry.egg-info/top_level.txt
