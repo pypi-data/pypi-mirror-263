@@ -1,0 +1,7 @@
+gender_based_ml/__init__.py,sha256=QU-48vCBZlajfwmfaHucsvWhHkPs7CY83_CYS49jC-s,39
+gender_based_ml/get_gender.py,sha256=yrnD6AaUzFKY0nxIyTyrFIEegGXB3lFI8YlRbiOVKvg,926
+gender_based_ml/keras_model.h5,sha256=WMjLhTLTT77cRFI33dVGVSXoBVwgE-UXDBdB4OZIqbw,12828088
+gender_based_ml-0.8.2.dist-info/METADATA,sha256=K6pe7ef9bIQPzLGq_XWZQw3KS5Kd-CMur8FGUecC6SM,629
+gender_based_ml-0.8.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gender_based_ml-0.8.2.dist-info/top_level.txt,sha256=FLS3m9w2f6uhNkN2uVM9nXTFZ7PVyjPH-Qy5kHiCZNw,16
+gender_based_ml-0.8.2.dist-info/RECORD,,
