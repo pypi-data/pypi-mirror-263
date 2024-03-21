@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+SetCalcPy.egg-info/PKG-INFO
+SetCalcPy.egg-info/SOURCES.txt
+SetCalcPy.egg-info/dependency_links.txt
+SetCalcPy.egg-info/requires.txt
+SetCalcPy.egg-info/top_level.txt
+src/SetCalcPy/Set.py
+src/SetCalcPy/__init__.py
+src/SetCalcPy/powerSet/__init__.py
+src/SetCalcPy/powerSet/powerSetCalc.py
