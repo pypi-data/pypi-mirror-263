@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: fic_evaluation
+Version: 0.1.0
+Summary: PyTorch implementation of the highlights faithfulness and coverage metrics for the Fusion-in-Context task
+Home-page: https://github.com/fusereviews/fic_evaluation
+Author: Aviv Slobodkin, Ori Shapira, Ran Levy, Ido Dagan
+Author-email: lovodkin93@gmail.com
+License: Apache License (2.0)
+Keywords: fusion NLP deep learning metric
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch>=2.1.0
+Requires-Dist: tqdm>=4.66.1
+Requires-Dist: transformers>=4.34.1
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: tqdm>=4.31.1
+Requires-Dist: spacy>=3.7.2
+Requires-Dist: accelerate>=0.24.0
+Requires-Dist: packaging>=20.9
+
+# Evaluation Framework for the Multi-Review Fusion-in-Context Task
+After installing the package, please also install the required spaCy model: 
+
+```
+python -m spacy download en_core_web_sm
+```

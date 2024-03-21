@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+fic_evaluation/__init__.py
+fic_evaluation.egg-info/PKG-INFO
+fic_evaluation.egg-info/SOURCES.txt
+fic_evaluation.egg-info/dependency_links.txt
+fic_evaluation.egg-info/requires.txt
+fic_evaluation.egg-info/top_level.txt
+fic_evaluation/src/__init__.py
+fic_evaluation/src/highlights_coverage_evaluator.py
+fic_evaluation/src/highlights_faithfulness_evaluator.py

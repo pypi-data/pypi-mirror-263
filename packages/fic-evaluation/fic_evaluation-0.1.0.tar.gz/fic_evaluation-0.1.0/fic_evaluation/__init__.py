@@ -1,0 +1,2 @@
+from .src.highlights_coverage_evaluator import HighlightsCoverageEvaluator
+from .src.highlights_faithfulness_evaluator import HighlightsFaithfulnessEvaluator
