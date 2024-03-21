@@ -1,0 +1,15 @@
+README.md
+setup.py
+kurumii/__init__.py
+kurumii/additional_functions.py
+kurumii/ascii.py
+kurumii/id.py
+kurumii/jsonify.py
+kurumii/keyboard.py
+kurumii/print_additions.py
+kurumii/youtube.py
+kurumiiexedebug.egg-info/PKG-INFO
+kurumiiexedebug.egg-info/SOURCES.txt
+kurumiiexedebug.egg-info/dependency_links.txt
+kurumiiexedebug.egg-info/requires.txt
+kurumiiexedebug.egg-info/top_level.txt
