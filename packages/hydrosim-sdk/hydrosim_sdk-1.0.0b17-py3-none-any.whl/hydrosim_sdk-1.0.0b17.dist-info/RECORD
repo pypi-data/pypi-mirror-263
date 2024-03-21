@@ -1,0 +1,12 @@
+hydrosim_sdk/__init__.py,sha256=bZUyCEUbPsVW4Ci_lSiXn3NK5Ub7ejMn74jYYhY_f1o,39
+hydrosim_sdk/ctypes_json.py,sha256=u6E4g54TjTIQErDU1-kV6naENFvNc07r77mraXSXLXU,1536
+hydrosim_sdk/hydrosim_commands.py,sha256=mJDfXqQ81FcXZm47z3e750ovkqq4se4aff1qsCuigSU,2640
+hydrosim_sdk/hydrosim_file.py,sha256=B1fjr-TDqFvvLi-gviVZ_5HAAPB9qh5FX0Ib9v4wYd0,1345
+hydrosim_sdk/hydrosim_sdk.py,sha256=bo2qgBUcRPyUu2Dxg45PpIypDpau2h3rx5xQrUvxyNY,6332
+hydrosim_sdk/hydrosim_struct_base.py,sha256=aioXql1SeUBsXgIPMvLjZeY6D6zUfiubCfDeu9_htPg,4627
+hydrosim_sdk/hydrosim_structs.py,sha256=D2qQ07L0LNllwZHV9lQdQRnjyt6wJG_sHBgKhwtMgRw,8584
+hydrosim_sdk-1.0.0b17.dist-info/LICENSE,sha256=odsOR15_Y8n2k3sBJf9BQvW79pwAZgJTvDRgWn32sEI,1069
+hydrosim_sdk-1.0.0b17.dist-info/METADATA,sha256=c1CfvAOgctQwXWrw_lScKM1H3xfJCZOMl-gcKhHWdqU,3082
+hydrosim_sdk-1.0.0b17.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+hydrosim_sdk-1.0.0b17.dist-info/top_level.txt,sha256=E-H3YTBF3c53F7Rz6lVYot2xMPfFyYTxKJ_828_R3P8,13
+hydrosim_sdk-1.0.0b17.dist-info/RECORD,,
