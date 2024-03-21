@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "ParseWarning": {
+            "properties": {
+                "message": {
+                    "default": "",
+                    "type": "string"
+                },
+                "target": {
+                    "default": "OTHERS",
+                    "enum": [
+                        "CLL",
+                        "OTHERS",
+                        "TLL"
+                    ],
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    },
+    "properties": {
+        "sql": {
+            "default": "",
+            "type": "string"
+        },
+        "warnings": {
+            "default": [],
+            "items": {
+                "$ref": "#/definitions/ParseWarning"
+            },
+            "type": "array"
+        }
+    },
+    "type": "object"
+}
+
