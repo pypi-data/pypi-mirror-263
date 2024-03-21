@@ -1,0 +1,7 @@
+README.md
+setup.py
+xgeners.egg-info/PKG-INFO
+xgeners.egg-info/SOURCES.txt
+xgeners.egg-info/dependency_links.txt
+xgeners.egg-info/requires.txt
+xgeners.egg-info/top_level.txt
