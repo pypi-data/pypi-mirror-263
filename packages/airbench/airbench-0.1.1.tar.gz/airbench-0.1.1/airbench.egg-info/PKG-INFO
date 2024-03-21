@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: airbench
+Version: 0.1.1
+Summary: Utilities and baselines for fast neural network training on CIFAR-10
+Home-page: https://github.com/KellerJordan/cifar10-airbench
+Author: Keller Jordan
+Author-email: kjordan4077@gmail.com
+License: UNKNOWN
+Description: # CIFAR-10 Airbench 💨
+        
+        This repo contains utilities and baselines for fast neural network training on CIFAR-10.
+        
+        | Script | Mean accuracy | Time | PFLOPs |
+        | - | - | - | - |
+        | `airbench94_compiled.py` | 94.01% | 3.29s | 0.36 |
+        | `airbench94.py` | 94.01% | 3.83s | 0.36 |
+        | `airbench95.py` | 95.01% | 10.4s | 1.4 |
+        | `airbench96.py` | 96.05% | 46.3s | 7.5 |
+        
+        ## How to run
+        
+        ```
+        git clone https://github.com/KellerJordan/cifar10-airbench.git && cd airbench && python airbench94.py
+        ```
+        
+        or
+        
+        ```
+        pip install airbench && python -c "import airbench; airbench.train94()"
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
