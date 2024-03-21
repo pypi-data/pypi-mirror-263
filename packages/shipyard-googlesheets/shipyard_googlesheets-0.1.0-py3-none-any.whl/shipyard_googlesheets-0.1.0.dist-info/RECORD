@@ -1,0 +1,10 @@
+shipyard_googlesheets/__init__.py,sha256=EwpDJrIdcoMwzGu2Zi9hlkfsEeXO2h_NLU5uvXZoy0g,45
+shipyard_googlesheets/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shipyard_googlesheets/cli/authtest.py,sha256=0tgavjgCq0pzFT7DhRFJkBV13vlj-9Z8l7Lfnf1jeio,540
+shipyard_googlesheets/cli/clear_data.py,sha256=kEIL0Y6DTlQbfsSOy6OKKut1wtpUyYlbuxGlTVCAvvU,6332
+shipyard_googlesheets/cli/download.py,sha256=a_8jAGqGoR0lW9UxjYc5JgqyBnkXlxIDBmHUfr9jDio,9525
+shipyard_googlesheets/cli/upload.py,sha256=0jKPIB1n_BPD7Gk2Xmh7TLQsHyAk0cTAjKMHM21stR8,9944
+shipyard_googlesheets/googlesheets.py,sha256=XICOcoaQX2UdlsTj78JhKJwP6jQqHn-cDut7W0qGA9Y,1244
+shipyard_googlesheets-0.1.0.dist-info/METADATA,sha256=5OmdDlg8EpMQWPdIvRPSXzRbTO2HW3wW8lVxwrW8hTU,712
+shipyard_googlesheets-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+shipyard_googlesheets-0.1.0.dist-info/RECORD,,
