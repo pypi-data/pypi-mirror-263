@@ -1,0 +1,11 @@
+rfb_mn_manager/__init__.py,sha256=k9Eyyr_MIjnjnY7Y-iM6A3aa_xxk88qtUR5m8CqlLtI,267
+rfb_mn_manager/__version__.py,sha256=yBVOKdXLEcTVc7YV7ZPqRXhRDRt-pKrfXxcgHkgPY5g,411
+rfb_mn_manager/context.py,sha256=tkELplfzDUm-HZnNlmYlfWuTik4AxAS-4gRPhUiLJj8,1662
+rfb_mn_manager/mn_broker_client.py,sha256=nrQnwqhSopCMwqm7vYhkQYQZ0Y1cwFC7EY6cH4O2JKg,5416
+rfb_mn_manager/mn_db_facade.py,sha256=gISgpw6uydaWPaeUHyxzz3eyOzJ_HLBZgpnks_KtpjA,10004
+rfb_mn_manager/mn_manager_node.py,sha256=quvnAoN-DB4BF_bJHAWQq5losl4wrfLmNmLyRKTd52Q,7467
+rfb_mn_manager-0.0.4.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+rfb_mn_manager-0.0.4.dist-info/METADATA,sha256=Zjr0oTp0xwtHWjxod92oqMGELkGpgh5UPYQIFDMdIAk,43196
+rfb_mn_manager-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+rfb_mn_manager-0.0.4.dist-info/top_level.txt,sha256=l9i6-T8iFfdNvLOZ4MTtzWO-_uxHpubF-tfBXbs_gsc,15
+rfb_mn_manager-0.0.4.dist-info/RECORD,,
