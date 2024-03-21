@@ -1,0 +1,9 @@
+hatch_uv/__about__.py,sha256=-D8N76OVJqUkYX0q24XplgC1PIC_mgjvFvrDzu4X2jc,127
+hatch_uv/__init__.py,sha256=8NgCLGU61PVQwJR7dHZlL6j2suoFrlQ1hvvom4qRecI,105
+hatch_uv/hooks.py,sha256=4qZ2tFwqkwqjhAE46T6LICQoZ5aX1bWQrGsb9jU7oP0,144
+hatch_uv/plugin.py,sha256=BxtEYR2Bd6GA3Xtvt6tdUfOVKnJNjyVgtYrS45SfU8M,993
+hatch_uv-0.0.1.dist-info/METADATA,sha256=k21Susug3yEcbBlcQo5AYKaTlK3USS5z0TP8zaUP76g,1394
+hatch_uv-0.0.1.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+hatch_uv-0.0.1.dist-info/entry_points.txt,sha256=dVgf1n-Yi1IgBwaY0HaR_0NwPqjPqyXQMmYYrAQVieo,28
+hatch_uv-0.0.1.dist-info/licenses/LICENSE.txt,sha256=agcbnAEImCxxf2UOuXoylcloW2LIyGLlP9VbMzyNjGo,1097
+hatch_uv-0.0.1.dist-info/RECORD,,
