@@ -1,0 +1,8 @@
+README.md
+setup.py
+gmail_label_email_processor.egg-info/PKG-INFO
+gmail_label_email_processor.egg-info/SOURCES.txt
+gmail_label_email_processor.egg-info/dependency_links.txt
+gmail_label_email_processor.egg-info/entry_points.txt
+gmail_label_email_processor.egg-info/requires.txt
+gmail_label_email_processor.egg-info/top_level.txt
