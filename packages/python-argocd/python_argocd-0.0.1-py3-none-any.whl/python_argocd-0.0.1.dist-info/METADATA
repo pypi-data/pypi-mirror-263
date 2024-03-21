@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: python-argocd
+Version: 0.0.1
+Summary: Python client for ArgoCD
+Home-page: https://github.com/swaragade/argocd-python
+Author-email: suraj_waragade@live.com
+Keywords: Swagger,ArgoCD
+Requires-Dist: urllib3 >=1.15
+Requires-Dist: six >=1.10
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+Python implementation of the ArgoCD API
