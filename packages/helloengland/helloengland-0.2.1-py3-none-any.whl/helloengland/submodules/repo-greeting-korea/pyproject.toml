@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "hellokorea"
+description = "hello world!"
+authors = [{name = "Janghoo Lee", email = "dlwkdgn1@naver.com"}]
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.8"
