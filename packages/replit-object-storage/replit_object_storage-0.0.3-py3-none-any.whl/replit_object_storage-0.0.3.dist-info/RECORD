@@ -1,0 +1,8 @@
+replit/object_storage/__init__.py,sha256=BBgqEOUIe2udz6ZNiGrC2JGluULxeOjBj7s3OwL29E0,219
+replit/object_storage/client.py,sha256=-8_Z4-iJ4o7l20FMWz1B4OXO-wCGwmNsXZp5IJXK0A0,6778
+replit/object_storage/config.py,sha256=H6se6WMNqDjFlEYoV0VXpLx-IZpdBp2viSZsQAok_dM,635
+replit/object_storage/errors.py,sha256=r-g4bxQYplJtgtYZv038WfSLI2PidJkN-kzpPzwL7xg,1933
+replit/object_storage/object.py,sha256=O5PFJSHiDNcc-h0VZBCaEqEaos3xi49gh71E_3tpO2c,186
+replit_object_storage-0.0.3.dist-info/METADATA,sha256=FzjO_d89IX7Oxj7DfBJCvrHdXrEiJd-DMs5G2KaitoI,1526
+replit_object_storage-0.0.3.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+replit_object_storage-0.0.3.dist-info/RECORD,,
