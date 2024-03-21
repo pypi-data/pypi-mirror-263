@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: cj-package
+Version: 1.0.5
+Summary: cj package
+Author: cj
+Author-email: chenxing@cjdropshipping.co
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aliyun-log-python-sdk (>=0.8.15)
+Requires-Dist: pandas (>=2.1.4)
+Requires-Dist: requests (>=2.31.0)
+
+[TOC]
+# 功能
+
+## 阿里云
+> 1.杭州和美国ingress日志相关
+
+
+## excel
+> 1.将字典列表写入excel中
+
+## 企业微信通知
+> 企业微信通知
