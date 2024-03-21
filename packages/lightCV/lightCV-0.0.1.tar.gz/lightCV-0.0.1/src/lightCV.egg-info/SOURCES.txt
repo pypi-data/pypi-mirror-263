@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/lightCV.egg-info/PKG-INFO
+src/lightCV.egg-info/SOURCES.txt
+src/lightCV.egg-info/dependency_links.txt
+src/lightCV.egg-info/top_level.txt
+src/lightCV/infer/__init__.py
+src/lightCV/infer/yolov5_openvino.py
+src/lightCV/labels_tool/__init__.py
+src/lightCV/labels_tool/auto_label.py
+src/lightCV/labels_tool/py_tools.py
