@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "outerop-instrumentation"
+version = "0.1.1"
+description = ""
+authors = ["Alexander <alex@outerop.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.14.2"
+opentelemetry-sdk = "^1.23.0"
+opentelemetry-exporter-otlp = "^1.23.0"
+outerop = "^0.1.6"
+opentelemetry-instrumentation = "^0.44b0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
