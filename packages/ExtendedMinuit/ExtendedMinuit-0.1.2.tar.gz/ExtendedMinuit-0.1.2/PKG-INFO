@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ExtendedMinuit
+Version: 0.1.2
+Summary: Extension library for Minuit Class
+Home-page: UNKNOWN
+Author: Yehan Edirisinghe
+Author-email: yehan278@gmail.com
+License: None
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Extension library for Minuit Class
+Developed by Yehan Edirisinghe
+
