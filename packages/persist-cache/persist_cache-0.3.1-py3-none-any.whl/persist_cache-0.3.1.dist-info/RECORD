@@ -1,0 +1,11 @@
+persist_cache/__init__.py,sha256=5Y3qUntE3zYb8jNAz1RxRadx17WF2Kmb99jFzi7tetY,119
+persist_cache/caching.py,sha256=Yuro7aVRdmFTY0ObEXORtBXeh3PXVD-rqSezhpKS1a0,3170
+persist_cache/helpers.py,sha256=bqLKrjUBluMG7fu5miargSFer9DDo3D-QkLgZAqw7t8,3396
+persist_cache/persist_cache.py,sha256=w4Wbfd1lw6_ssq5Z7HaJHm-vksZL6yaHbG03fw5rvzA,7955
+persist_cache/pickle.py,sha256=_zFmTmS_jmOlApOGHokbzAHJH8G66rwax3pVE5oevOY,302
+persist_cache/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+persist_cache/serialization.py,sha256=H-VmagNnW7Mmw1ZqK9azOE67ZugO7nIpeomycl-K7MI,7078
+persist_cache-0.3.1.dist-info/METADATA,sha256=ZAQXTHesQDrq8EAJeHAzp8BwVMT2Vq_8hljOGkucxjM,6144
+persist_cache-0.3.1.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+persist_cache-0.3.1.dist-info/licenses/LICENCE,sha256=JBM5pSyUClrmwqEeDkThlI24Sh2b7M6NGWSWSoot2Q8,1072
+persist_cache-0.3.1.dist-info/RECORD,,
