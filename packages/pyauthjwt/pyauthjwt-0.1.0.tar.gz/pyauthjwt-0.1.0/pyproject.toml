@@ -1,0 +1,39 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyauthjwt"
+version = "0.1.0"
+description = "Class provides mechanisms for JSON Web Token (JWT) based authentication"
+readme = "README.md"
+authors = [{ name = "Ioannis D (devcoons)", email = "support@devcoons.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: PyPy",    
+]
+keywords = ["jwt","auth"]
+dependencies = [
+    "PyJWT==2.8.0",
+]
+
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["pip-tools"]
+
+[project.urls]
+Homepage = "https://github.com/devcoons/py-auth-jwt"
+Issues = "https://github.com/devcoons/py-auth-jwt/issues"

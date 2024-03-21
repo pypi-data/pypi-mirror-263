@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/__init__.py
+src/pyauthjwt.py
+src/pyauthjwt.egg-info/PKG-INFO
+src/pyauthjwt.egg-info/SOURCES.txt
+src/pyauthjwt.egg-info/dependency_links.txt
+src/pyauthjwt.egg-info/requires.txt
+src/pyauthjwt.egg-info/top_level.txt
