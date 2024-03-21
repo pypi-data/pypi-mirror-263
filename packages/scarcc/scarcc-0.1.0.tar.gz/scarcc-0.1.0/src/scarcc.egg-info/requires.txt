@@ -1,0 +1,5 @@
+pandas<2.5
+matplotlib
+seaborn>0.11
+cobra
+cometspy
