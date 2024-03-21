@@ -1,0 +1,9 @@
+README.md
+setup.py
+pbi_local_connector/__init__.py
+pbi_local_connector/main.py
+pbi_local_connector.egg-info/PKG-INFO
+pbi_local_connector.egg-info/SOURCES.txt
+pbi_local_connector.egg-info/dependency_links.txt
+pbi_local_connector.egg-info/top_level.txt
+test/test.py
