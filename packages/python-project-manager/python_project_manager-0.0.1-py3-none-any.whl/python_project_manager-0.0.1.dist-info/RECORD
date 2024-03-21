@@ -1,0 +1,14 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app.py,sha256=H8T2GqT55hMedsX74C4wWWnLyfoyEFvGQuaYGRnWi2I,979
+init.py,sha256=gbYfoNwmKrAbjg8J14deSR778ha2Te2WkDsjs9V2d2w,927
+run.py,sha256=sFruDTMdzZCubfUK14_Awd706O5S9S4z84PMjuu6K6Q,1396
+engines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+engines/engines.py,sha256=UxjC56Gct6MZM5htq8Xsr03bfUUvuUlqNacnyHju_Jo,420
+engines/package_engine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+engines/package_engine/package_engine.py,sha256=JXdqms0qcfJcNTKxCfDu1peD97iic8GDWFPb8bu1138,229
+python_project_manager-0.0.1.dist-info/LICENSE.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+python_project_manager-0.0.1.dist-info/METADATA,sha256=h60pR2WuDDff890EkD3GO2GnIekZsYAcmFc-8XC2Jmc,98
+python_project_manager-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+python_project_manager-0.0.1.dist-info/entry_points.txt,sha256=nq1rL4oT3lgCjvU910foesmD7OU2b2e4dDzFcAhq3ys,36
+python_project_manager-0.0.1.dist-info/top_level.txt,sha256=HkwgF9oJSRGVwJ1VUZLwR5FjvuNI75gw23s2S8DVGHs,30
+python_project_manager-0.0.1.dist-info/RECORD,,
