@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+myaiotgm/__init__.py
+myaiotgm/client.py
+myaiotgm/json_manager.py
+myaiotgm.egg-info/PKG-INFO
+myaiotgm.egg-info/SOURCES.txt
+myaiotgm.egg-info/dependency_links.txt
+myaiotgm.egg-info/requires.txt
+myaiotgm.egg-info/top_level.txt
