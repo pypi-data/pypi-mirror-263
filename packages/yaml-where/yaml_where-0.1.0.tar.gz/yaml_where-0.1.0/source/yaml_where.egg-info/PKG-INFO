@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: yaml_where
+Version: 0.1.0
+Summary: Source map for YAML files
+Home-page: https://github.com/sixty-north/yaml-where
+Author: Sixty North AS
+Author-email: systems+yaml-where@sixty-north.com
+License: MIT License
+Keywords: yaml source-map
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: ruamel.yaml
+Provides-Extra: dev
+Requires-Dist: bumpversion; extra == "dev"
+Provides-Extra: doc
+Requires-Dist: sphinx; extra == "doc"
+Requires-Dist: sphinx_rtd_theme; extra == "doc"
+Requires-Dist: better_apidoc; extra == "doc"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: coverage; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+
+# YAML Where?
+
+`yaml_where` calculates source maps for YAML files, allowing you to correlate file locations with elements in
+YAML documents.
+
+![CI](https://github.com/sixty-north/yaml-where/actions/workflows/actions.yml/badge.svg)
+
+## Installation
+
+    $ pip install yaml-where
+
+
+## Examples
+
+### Mappings
+
+Find the range containg the the key and value of a map entry:
+
+```python
+source_map = YAMLWhere.from_string("a: 1\nb: 42")
+assert source_map.get("b") == Range(Position(1, 0), Position(1, 5))
+```
+
+Or get the range of just the key:
+```python
+source_map = YAMLWhere.from_string("a: 1\nb: 42")
+assert source_map.get_key("a") == Range(Position(0, 0), Position(0, 1))
+```
+
+Or just the value:
+```python
+source_map = YAMLWhere.from_string("a: 1\nbb: 42")
+assert source_map.get_value("bb") == Range(Position(1, 4), Position(1, 6))
+```
+
+You can also look up nested locations:
+```python
+yaml = """a:
+    b: 42
+    c:
+        doo: hola
+"""
+source_map = YAMLWhere.from_string(yaml)
+assert source_map.get_key("a", "b") == Range(Position(1, 4), Position(1, 5))
+assert source_map.get_key("a", "c") == Range(Position(2, 4), Position(2, 5))
+assert source_map.get_key("a", "c", "doo") == Range(Position(3, 8), Position(3, 11))
+```
+
+### Sequences
+
+You can also find ranges for sequence elements:
+```python
+yaml = """[1,
+ a, foo,
+ 
+     indented]
+"""
+source_map = YAMLWhere.from_string(yaml)
+assert source_map.get(0) == Range(Position(0, 1), Position(0, 2))
+assert source_map.get(1) == Range(Position(1, 1), Position(1, 2))
+assert source_map.get(2) == Range(Position(1, 4), Position(1, 7))
+assert source_map.get(3) == Range(Position(3, 5), Position(3, 13))
+```
+
+## CI/CD
+
+Bump the version like this:
+
+```
+$ bumpversion patch
+$ git push --follow-tags
+```
+
+MIT License
+
+Copyright (c) 2024 Sixty North AS
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
