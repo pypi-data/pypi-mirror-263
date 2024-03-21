@@ -1,0 +1,9 @@
+README.md
+msgpickle.py
+pyproject.toml
+msgpickle.egg-info/PKG-INFO
+msgpickle.egg-info/SOURCES.txt
+msgpickle.egg-info/dependency_links.txt
+msgpickle.egg-info/requires.txt
+msgpickle.egg-info/top_level.txt
+tests/test_basic.py
