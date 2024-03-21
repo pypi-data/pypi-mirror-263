@@ -1,0 +1,8 @@
+src/exact_cover_samples/data/pentominos-5-12-solutions.csv,sha256=jd6C11-ebSZGwtuia1fca3BvH2rvBQGGRn3u4f8U8AI,220920
+src/exact_cover_samples/data/pentominos-5-12.csv,sha256=KLGR9YlF3SSC8FVczRP3mthqtJwq4-4NBu_q-Sbwl_g,278784
+src/exact_cover_samples/data/pentominos-chessboard-solutions.csv,sha256=T_mMHlRDGq2jrGfJ2nya3q43ZNkkacvfRwQo1bj54FU,102155
+src/exact_cover_samples/data/pentominos-chessboard.csv,sha256=BkcVJA_GXf5lC_gnfRLdul629Xei3_KGjQPWtGnpwmY,239162
+exact_cover_samples-0.0.3.dist-info/METADATA,sha256=EjEkHf4_53wpx4FlUnc2tx1IiGJCo6BbuRlemQ5sego,2850
+exact_cover_samples-0.0.3.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+exact_cover_samples-0.0.3.dist-info/licenses/LICENSE,sha256=gJHQQERpGYA8iHwcGi20fPiI0L6gqj6JKxBr8GYzru8,70
+exact_cover_samples-0.0.3.dist-info/RECORD,,
