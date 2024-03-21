@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/__init__.py
+src/cli.py
+src/to_yolov8/__init__.py
+src/to_yolov8/converter.py
+src/to_yolov8/yolo_to_yolov8_converter.py
+src/to_yolov8.egg-info/PKG-INFO
+src/to_yolov8.egg-info/SOURCES.txt
+src/to_yolov8.egg-info/dependency_links.txt
+src/to_yolov8.egg-info/entry_points.txt
+src/to_yolov8.egg-info/requires.txt
+src/to_yolov8.egg-info/top_level.txt
+tests/test_yolov8_cli.py
+tests/test_yolov8_converter.py
