@@ -1,0 +1,8 @@
+cloud_accelerator_diagnostics/__init__.py,sha256=YqF6ejE2-9dfwge6cr99IN_psvhOMKJGg3-id9XfBCo,155
+cloud_accelerator_diagnostics/src/tensorboard_uploader/tensorboard.py,sha256=PK4PRc06qQUHnxiqP0CtEflfA_J42H3fPs5jHw07RiY,6017
+cloud_accelerator_diagnostics/src/tensorboard_uploader/uploader.py,sha256=im9ihZ-p7ZfY3x3e32mEN1RMPe3XkhEz2LQN1wXiBEc,4931
+cloud_accelerator_diagnostics/tests/tensorboard_uploader/tensorboard_test.py,sha256=2Qz1sX-LqLrEaabE1UCCOYF7S_iYVkxoR1KASWHxduk,9569
+cloud_accelerator_diagnostics/tests/tensorboard_uploader/uploader_test.py,sha256=54UZrzFZJhRgl9OeqcYyjbHRgzG9FwcwAz3nn4uFQIg,3421
+cloud_accelerator_diagnostics-0.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+cloud_accelerator_diagnostics-0.1.0.dist-info/METADATA,sha256=Hdj3iUvrwYwz1HUV0IatDf1ChbSomsmHoRs7ekMQe3w,5346
+cloud_accelerator_diagnostics-0.1.0.dist-info/RECORD,,
