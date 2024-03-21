@@ -1,0 +1,13 @@
+im2geojson/__init__.py,sha256=_7bqH4jeUDW9MY_1-a5ywURJilBYPG8E3DrCiONONM0,89
+im2geojson/__main__.py,sha256=00Imza1a2Lo5QJORjQR_eduLl77P-e7jOvGcb0xWoXQ,85
+im2geojson/cli.py,sha256=W9A22bcDB59ILtATrEe8V2dv5KNecrRm9WrrisjMaQY,1323
+im2geojson/dms_conversion.py,sha256=cHSxRPlkUB4ATycWrx_eBTW1NEdR-V7T8X-ybgDxF5E,2090
+im2geojson/exif_reader.py,sha256=GooZhzbXPR2Z0gq1tXJrScSLpIYJOIhWMZm-t0jRHjM,2528
+im2geojson/geojson_parser.py,sha256=HsfxLKSL3hEMx0GYF7erm2QY3Ied4KGIU6t4nuRnqj8,1259
+im2geojson/im2geojson.py,sha256=66kwNWOUbJAKw643pinsLwqxMwJcKYaBFCnqS34Cjmw,6741
+im2geojson/timer.py,sha256=VNFrtZqK_kdQ90DSpp-4jBj1jZMtvMvaig8fxzOwuZk,1339
+im2geojson-0.1.2.dist-info/LICENCE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+im2geojson-0.1.2.dist-info/METADATA,sha256=SqCxNxz3Yyj0XUxotnJnUeRkM3gCV63XAAZy-qZRlXc,1848
+im2geojson-0.1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+im2geojson-0.1.2.dist-info/top_level.txt,sha256=iMutRaEUPSHwKkfYyKacZyJJQhQGn5pCaGjeNUDlOTI,11
+im2geojson-0.1.2.dist-info/RECORD,,
