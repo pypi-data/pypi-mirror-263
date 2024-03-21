@@ -1,0 +1,21 @@
+[project]
+name = "pyPowerSupplyController"
+version = "0.0.8"
+authors = [
+  { name="Joar Gjersund", email="joar@nofence.no" },
+]
+description = "Lab Power Supply Python Library for Serial Programming"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pyserial"
+]
+
+[project.urls]
+Homepage = "https://github.com/JoarGjersund/manson_ps_serial_lib"
+Issues = "https://github.com/JoarGjersund/manson_ps_serial_lib/issues"
