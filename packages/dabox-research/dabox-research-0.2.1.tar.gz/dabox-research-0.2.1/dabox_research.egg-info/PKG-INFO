@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: dabox-research
+Version: 0.2.1
+Summary: Research repository for the DaBox project.
+License: MIT
+Project-URL: GitHub, https://github.com/jefequien/dabox-research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dabox-project
+Requires-Dist: netron
+Requires-Dist: onnx
+Requires-Dist: onnxconverter-common
+Requires-Dist: onnxruntime
+Requires-Dist: onnxsim
+Requires-Dist: opencv-python
+Requires-Dist: rich
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: ultralytics
+Provides-Extra: dev
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+
+# dabox-research
+
+Research repository for the DaBox project.
+
+For converting and hosting open-source models that would be fun to run in real-time.
+
+```bash
+# Install pytorch
+pip install torch==2.2.1 torchvision==0.17.1 --index-url https://download.pytorch.org/whl/cu121
+```

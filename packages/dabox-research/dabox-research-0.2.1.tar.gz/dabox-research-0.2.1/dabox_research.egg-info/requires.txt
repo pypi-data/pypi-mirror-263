@@ -1,0 +1,17 @@
+dabox-project
+netron
+onnx
+onnxconverter-common
+onnxruntime
+onnxsim
+opencv-python
+rich
+torch
+torchvision
+ultralytics
+
+[dev]
+mypy
+pre-commit
+pytest
+ruff
