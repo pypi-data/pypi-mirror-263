@@ -1,0 +1,5 @@
+setup.py
+video_ai.egg-info/PKG-INFO
+video_ai.egg-info/SOURCES.txt
+video_ai.egg-info/dependency_links.txt
+video_ai.egg-info/top_level.txt
