@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "ecr_sync"
+version = "2.0.0"
+license = "MIT"
+description = "Mirror and synchronize OCI Docker images to ECR repositories"
+authors = ["Tom Forbes <tom.forbes@onfido.com>", "Konstantin Krastev <grizmin@gmail.com>"]
+readme = "README.md"
+keywords = ["docker", "ecr", "mirror", "sync"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "*"
+boto3 = "*"
+boto3-stubs = { extras = ["ecr", "ecr-public"], version = "*" }
+
+[tool.poetry.dev-dependencies]
+pylint = "*"
+pytest = "*"
+pytest-black = "*"
+black = "*"
+pytest-pythonpath = "*"
+pytest-mock = "*"
+pytest-randomly = "*"
+pytest-xdist = "*"
+pytest-watch = "*"
+taskipy = "*"
+bumpversion = "*"
+
+[tool.poetry.scripts]
+ecr-sync = "ecr_sync:cli"
