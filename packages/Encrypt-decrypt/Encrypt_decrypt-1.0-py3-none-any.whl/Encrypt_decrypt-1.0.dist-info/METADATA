@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: Encrypt_decrypt
+Version: 1.0
+Summary: A Python package for simple encryption and decryption of messages using an algorithm.
+Author: Wahid Hussain
+Author-email: wahidhussain643@gmail.com
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Development Status :: 3 - Alpha
+Classifier: Development Status :: 4 - Beta
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Development Status :: 6 - Mature
+Classifier: Development Status :: 7 - Inactive
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Environment :: Console
+Requires-Python: >=3.10,<3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
