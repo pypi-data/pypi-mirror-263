@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/gender_based_ml/__init__.py
+src/gender_based_ml/get_gender.py
+src/gender_based_ml/test.py
+src/gender_based_ml.egg-info/PKG-INFO
+src/gender_based_ml.egg-info/SOURCES.txt
+src/gender_based_ml.egg-info/dependency_links.txt
+src/gender_based_ml.egg-info/top_level.txt
