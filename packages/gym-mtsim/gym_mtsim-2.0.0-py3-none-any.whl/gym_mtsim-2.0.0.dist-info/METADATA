@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: gym-mtsim
+Version: 2.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: AminHP
+Author-email: mdan.hagh@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: gymnasium (>=0.29.1)
+Requires-Dist: numpy (>=1.25.2)
+Requires-Dist: scipy (>=1.11.2)
+Requires-Dist: pandas (>=2.0.3)
+Requires-Dist: matplotlib (>=3.8.2)
+Requires-Dist: plotly (>=5.16.1)
+Requires-Dist: nbformat (>=5.9.2)
+Requires-Dist: pathos (>=0.3.1)
+Requires-Dist: MetaTrader5 (>=5.0.45) ; platform_system == "Windows"
+
+UNKNOWN
+
