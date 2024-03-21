@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "yostate"
+version = "0.2.0"
+description = "Toolset to construct State Machines"
+authors = ["Evgeny Evseev <pelid80@gmail.com>"]
+license = "GNU GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.12"
+pydantic = "^1.10.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = {version = "7.4.3", extras = ["anyio"]}
+trio = "0.23.1"
+anyio = "4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
