@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tea-xyz-killcl2
+Version: 1.0.6
+Summary: A simple package for https://app.tea.xyz/. Example tea-xyz - https://github.com/lewatkanO9/tea-xyz-killcl2
+Home-page: https://github.com/lewatkanO9/tea-xyz-killcl2
+Author: lewatkanO9
+Author-email: kilingmeinside031@gmail.com
+Project-URL: Homepage, https://github.com/lewatkanO9/tea-xyz-killcl2
+Project-URL: Source, https://github.com/lewatkanO9/tea-xyz-killcl2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: requests>=2.20.0
+Requires-Dist: tea-xyz-killcl2
