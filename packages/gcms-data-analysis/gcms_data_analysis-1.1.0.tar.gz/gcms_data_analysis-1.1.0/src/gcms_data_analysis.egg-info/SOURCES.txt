@@ -1,0 +1,12 @@
+LICENSE
+README.md
+license
+pyproject.toml
+src/gcms_data_analysis/__init__.py
+src/gcms_data_analysis/main.py
+src/gcms_data_analysis.egg-info/PKG-INFO
+src/gcms_data_analysis.egg-info/SOURCES.txt
+src/gcms_data_analysis.egg-info/dependency_links.txt
+src/gcms_data_analysis.egg-info/requires.txt
+src/gcms_data_analysis.egg-info/top_level.txt
+tests/test_gcms_data_analysis.py
