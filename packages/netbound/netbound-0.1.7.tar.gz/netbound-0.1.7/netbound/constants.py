@@ -1,0 +1,1 @@
+EVERYONE: bytes = (0).to_bytes(16, "big")
