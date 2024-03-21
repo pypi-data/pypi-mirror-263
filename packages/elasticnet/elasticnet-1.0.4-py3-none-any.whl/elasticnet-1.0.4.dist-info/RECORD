@@ -1,0 +1,11 @@
+elasticnet/__init__.py,sha256=8kg0W5PnnqrbgHH3ZYkqq9wtBQNbQf8sIk3VNQKLTm8,451
+elasticnet/__main__.py,sha256=M8IZL2Lb2rCbY9k-ibnm9KraVXhjeO-VguDu4z1OLiM,138
+elasticnet/ann.py,sha256=mYZIIDbktfFEFu3OfDZjjT6vCrFObSiRnO3ZR9siMkQ,9850
+elasticnet/lib.py,sha256=tkjezGDKx4fF6wuwYGpDW7ZSiWDWSGFNlhScRWNgvRc,30870
+elasticnet/main.py,sha256=uutu76QQvgh0YpDZUYgMJ3KlIXAxPV_DWoLgbSk4Wbw,479
+elasticnet/prepare_input.py,sha256=__s2jE_hbFVUsDy_hcbwU-qqmmYgBQ5fazBYBd5nwmo,8186
+elasticnet-1.0.4.dist-info/LICENSE,sha256=hBFNBcydRehAfF6lUxPsWPuvfBgzL5pFm5TOQkpwwO8,1084
+elasticnet-1.0.4.dist-info/METADATA,sha256=_wUmI2hYIs0IDvJDPI4blfo4-Um3cw9D6xEXUXrfQtQ,15300
+elasticnet-1.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+elasticnet-1.0.4.dist-info/top_level.txt,sha256=6EUoct4qDQ0GzGw7NDyFIZPLJWWIud1ibx6jcTOGIos,11
+elasticnet-1.0.4.dist-info/RECORD,,
