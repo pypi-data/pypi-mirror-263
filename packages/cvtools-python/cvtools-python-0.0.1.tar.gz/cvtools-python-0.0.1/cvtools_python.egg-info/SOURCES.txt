@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+cvtools_python.egg-info/PKG-INFO
+cvtools_python.egg-info/SOURCES.txt
+cvtools_python.egg-info/dependency_links.txt
+cvtools_python.egg-info/top_level.txt
+infer/__init__.py
+infer/yolov5_openvino.py
+labels_tool/__init__.py
+labels_tool/auto_label.py
+labels_tool/py_tools.py
