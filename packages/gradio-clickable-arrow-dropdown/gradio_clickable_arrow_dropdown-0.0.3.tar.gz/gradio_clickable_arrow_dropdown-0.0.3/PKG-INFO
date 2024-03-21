@@ -1,0 +1,66 @@
+Metadata-Version: 2.3
+Name: gradio_clickable_arrow_dropdown
+Version: 0.0.3
+Summary: Dropdown component where clicking arrow on the side displays dropdown options
+Author: ncstiles
+License-Expression: MIT
+Keywords: gradio-custom-component,gradio-template-Dropdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.8
+Requires-Dist: gradio<5.0,>=4.0
+Provides-Extra: dev
+Requires-Dist: build; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Description-Content-Type: text/markdown
+
+
+# `gradio_clickable_arrow_dropdown`
+Dropdown component where clicking arrow on the side displays dropdown options
+
+## Installation
+
+```bash
+pip install gradio_clickable_arrow_dropdown
+```
+
+## Usage
+
+```python
+
+import gradio as gr
+from gradio_clickable_arrow_dropdown import ClickableArrowDropdown
+
+def handle_inputs(reg_dropdown_val, custom_dropdown_val):
+    res = f"""
+    Regular dropdown value: {reg_dropdown_val}
+    Custom dropdown value: {custom_dropdown_val}
+    """
+
+    return res
+
+choices = ["Option 1", "Option 2", "Option 3"]
+
+demo = gr.Interface(
+    handle_inputs,
+    [
+        gr.Dropdown(choices=choices, value=choices[0], filterable=False), 
+        ClickableArrowDropdown(choices=choices, value=choices[0], filterable=False)
+    ],
+    gr.Textbox(),
+)
+
+if __name__ == "__main__":
+    demo.launch()
+
+```
