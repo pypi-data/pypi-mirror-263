@@ -1,0 +1,15 @@
+py3rijndael
+python-dateutil
+tzlocal
+websocket-client
+
+[develop]
+jsbeautifier
+argparse
+docker
+black
+isort
+flake8
+flake8-docstrings
+flake8-pyproject
+pyright
