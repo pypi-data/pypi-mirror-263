@@ -1,0 +1,15 @@
+ez_wikidata/__init__.py,sha256=m6kyaNpwBcP1XYcqrelX2oS3PJuOnElOcRdBa9pEb8c,22
+ez_wikidata/prefixes.py,sha256=fgVgr8PhpswzeS32pt-edx7X3fUChM1F_G5mNBvZjtc,2449
+ez_wikidata/trulytabular.py,sha256=8zOUMCYcwNpHdySbXkr0367CDuGPhS2iIkb-jQsKRxc,16036
+ez_wikidata/version.py,sha256=QHGISRfj26WM3tE9XfoLLH0tk5kELxeLZ5wGEiM2TEM,1044
+ez_wikidata/wbquery.py,sha256=8Bi97LH0x9vDDhzszn0Reowdc09Pa6ARpWUnhj5x0rA,10806
+ez_wikidata/wdproperty.py,sha256=2yy4elzOUv2lsTwPYA6nJhMH8myU9i6OduTvys2jY28,19827
+ez_wikidata/wdsearch.py,sha256=ztJ_UdioK2mHjKCOq5QapWBLQMcA5XARQ3TGG6hMz3E,2683
+ez_wikidata/wikidata.py,sha256=2M7x4AfGoJiqDavFCOT6pJlvHdX88bhqTuTHYgbUy7Q,35151
+ez_wikidata/resources/sb_props.yaml,sha256=aJdOCWkA2vuBRI4dP6h1RXk8FoMePGKG_czeewiYxPQ,914
+ez_wikidata/resources/wdprops.json,sha256=QNEDXu5GbXw1v8bCmK5CUTB7_9ISGM4mQF76t991U1c,372586
+py_ez_wikidata-0.2.2.dist-info/METADATA,sha256=BqKUio4xvQJ6RwYbfaLmQXuVAQ98CDQTLHDaUqhpgN4,2519
+py_ez_wikidata-0.2.2.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+py_ez_wikidata-0.2.2.dist-info/entry_points.txt,sha256=veAOMh0ogh33Hg35DJHUSgfOUCWx-CNLVivKoeayqbI,51
+py_ez_wikidata-0.2.2.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+py_ez_wikidata-0.2.2.dist-info/RECORD,,
