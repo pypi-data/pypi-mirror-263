@@ -1,0 +1,10 @@
+pycountries/__init__.py,sha256=I4KSHfwy2EykdO6Z-AoWsgf5djVH2eUsZz_0YE8PsAM,587
+pycountries/_base.py,sha256=lF5hhGsdcUhQ2o2eCcxoUSMcEZqLoYyO-10-Ad9fEIo,584
+pycountries/countries.py,sha256=GpPVzWl_I4V0p38hDjJl_lP4FYGoGmVmltd_M8UZiRY,44381
+pycountries/currencies.py,sha256=KJqehiplNpAQILQZcG9sg-R6iLbHxkEk9Y9kog8J3aE,28253
+pycountries/phones.py,sha256=XqVTyzYyE_nrUasPNM0oU3YzGZjrXyMPlj3jxeSL5TY,43052
+pycountries-0.0.19.dist-info/LICENSE.md,sha256=3Ti7zIecO7y1NJP_cu1onuqCszlnRyaK7T_CbDnCfJQ,1070
+pycountries-0.0.19.dist-info/METADATA,sha256=jJyzOnmTi7FvVEVh6dHpm1l-CcP0seSZHgxkYIgt51M,5669
+pycountries-0.0.19.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pycountries-0.0.19.dist-info/top_level.txt,sha256=n85R-l8jYWeKX2aYrNRaDHVib15T9pvPEwOMrn9Awmo,12
+pycountries-0.0.19.dist-info/RECORD,,
