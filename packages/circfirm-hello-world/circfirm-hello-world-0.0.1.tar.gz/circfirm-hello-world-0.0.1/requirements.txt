@@ -1,0 +1,5 @@
+# SPDX-FileCopyrightText: 2024 Alec Delaney
+# SPDX-License-Identifier: MIT
+
+click~=8.0
+circfirm~=3.1
