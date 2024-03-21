@@ -1,0 +1,7 @@
+README.md
+setup.py
+gmail_api_auth.egg-info/PKG-INFO
+gmail_api_auth.egg-info/SOURCES.txt
+gmail_api_auth.egg-info/dependency_links.txt
+gmail_api_auth.egg-info/requires.txt
+gmail_api_auth.egg-info/top_level.txt
