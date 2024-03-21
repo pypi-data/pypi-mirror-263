@@ -1,0 +1,6 @@
+pyproject.toml
+openactions/__init__.py
+openactions.egg-info/PKG-INFO
+openactions.egg-info/SOURCES.txt
+openactions.egg-info/dependency_links.txt
+openactions.egg-info/top_level.txt

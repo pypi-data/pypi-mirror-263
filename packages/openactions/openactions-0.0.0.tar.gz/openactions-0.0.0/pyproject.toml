@@ -1,0 +1,7 @@
+[project]
+name = "openactions"
+authors = [
+    {name = "openactions", email = "contact@openactions.ai"},
+]
+version = "0.0.0"
+description = "Coming soon"
