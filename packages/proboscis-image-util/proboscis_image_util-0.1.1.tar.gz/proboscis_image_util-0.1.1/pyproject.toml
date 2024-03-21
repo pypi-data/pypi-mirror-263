@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "proboscis-image-util"
+version = "0.1.1"
+description = ""
+authors = ["Kento Masui <nameissoap@gmail.com>"]
+readme = "README.md"
+packages = [{include = "proboscis_image_rules"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
