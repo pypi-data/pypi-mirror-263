@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+os_xml_handler/xml_handler.py
+os_xml_handler.egg-info/PKG-INFO
+os_xml_handler.egg-info/SOURCES.txt
+os_xml_handler.egg-info/dependency_links.txt
+os_xml_handler.egg-info/top_level.txt
