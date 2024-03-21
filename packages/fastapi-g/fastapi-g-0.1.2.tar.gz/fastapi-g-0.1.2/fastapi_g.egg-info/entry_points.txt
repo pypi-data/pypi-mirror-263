@@ -1,0 +1,2 @@
+[console_scripts]
+fastapi-g = fastapi_g.main:main
