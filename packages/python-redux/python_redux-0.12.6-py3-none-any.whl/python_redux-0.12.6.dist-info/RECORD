@@ -1,0 +1,13 @@
+redux/__init__.py,sha256=1kO_H8c6J1g6Wj7IDFqnhsnhm8cs1Rk1x7kdpSsLgFM,1455
+redux/autorun.py,sha256=Jq11H_7EAHeRP0DCly4eVX54Xyq0n4QeX8lizqbaDFk,7643
+redux/basic_types.py,sha256=WXBFd2sgSX8PNEsFI-fmHa1oqfnZ7nUqcRP3NkXtqTw,5588
+redux/combine_reducers.py,sha256=wyarnRXpC13YQPe1crQBZWiuZynZ57qVGTbsrjl8HdE,5488
+redux/main.py,sha256=JuR7OJIAwJPxe6chOinBmfEenI5zi8CqgvckFwqvr7U,9798
+redux/serialization_mixin.py,sha256=gvcCCDOHJ6L5KvwDqqN24Gpsfs54xHPPqJ3HfC1PhS8,1293
+redux/side_effect_runner.py,sha256=zPxci3RO-QauJ1k9CF3i1hwZzhOCbzhrczyOyJRj1XA,1517
+redux/test.py,sha256=j_858WWCp58UOL_7sh4OUVFWo_XkO1mamQum9PPgEd0,4274
+python_redux-0.12.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+python_redux-0.12.6.dist-info/METADATA,sha256=dJTS3Q295BiwBeUgqx7ZMcoRovflQv7t87e_ZPx6V0I,8661
+python_redux-0.12.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+python_redux-0.12.6.dist-info/entry_points.txt,sha256=OsO-Hc649LsNhnIyKEFqi9GybSOqvqm9ruyArfK91_4,59
+python_redux-0.12.6.dist-info/RECORD,,
