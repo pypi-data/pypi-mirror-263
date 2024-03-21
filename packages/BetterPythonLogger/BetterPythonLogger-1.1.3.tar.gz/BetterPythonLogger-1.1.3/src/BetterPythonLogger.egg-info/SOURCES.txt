@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/BetterPythonLogger/Logger.py
+src/BetterPythonLogger/NoLoggerException.py
+src/BetterPythonLogger/__init__.py
+src/BetterPythonLogger.egg-info/PKG-INFO
+src/BetterPythonLogger.egg-info/SOURCES.txt
+src/BetterPythonLogger.egg-info/dependency_links.txt
+src/BetterPythonLogger.egg-info/top_level.txt
