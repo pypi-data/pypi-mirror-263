@@ -1,0 +1,4 @@
+
+      [console_scripts]
+      tf_wrapper=tf_wrapper.main:main
+      
