@@ -1,0 +1,7 @@
+README.md
+setup.py
+coingecko_module.egg-info/PKG-INFO
+coingecko_module.egg-info/SOURCES.txt
+coingecko_module.egg-info/dependency_links.txt
+coingecko_module.egg-info/requires.txt
+coingecko_module.egg-info/top_level.txt
