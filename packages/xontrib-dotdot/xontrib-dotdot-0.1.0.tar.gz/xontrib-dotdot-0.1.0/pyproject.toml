@@ -1,0 +1,49 @@
+[project]
+name = "xontrib-dotdot"
+version = "0.1.0"
+license = {file = "LICENSE"}
+description = "Better aliases['..'] = 'cd ..'"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: ISC License (ISCL)",
+    "Operating System :: OS Independent",
+    "Topic :: System :: Shells",
+    "Topic :: System :: System Shells",
+    "Topic :: Terminals",
+]
+requires-python = ">=3.8"
+dependencies = ["xonsh>=0.12.5"]
+authors = [
+    { name = "Konstantin Schukraft", email = "dotdot@schukraft.org" },
+]
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.entry-points."xonsh.xontribs"]
+"dotdot" = "xontrib_dotdot.main"
+
+[project.urls]
+Homepage = "https://github.com/yggdr/xontrib-dotdot"
+Documentation = "https://github.com/yggdr/xontrib-dotdot/blob/master/README.md"
+Code = "https://github.com/yggdr/xontrib-dotdot"
+"Issue tracker" = "https://github.com/yggdr/xontrib-dotdot/issues"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+
+[build-system]
+requires = [
+    "setuptools>=62",
+    "wheel",               # for bdist package distribution
+]
+build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools]
+platforms = ["any"]
+include-package-data = false
+
+[tool.setuptools.package-data]

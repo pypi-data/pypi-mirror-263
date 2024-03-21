@@ -1,0 +1,2 @@
+[xonsh.xontribs]
+dotdot = xontrib_dotdot.main
