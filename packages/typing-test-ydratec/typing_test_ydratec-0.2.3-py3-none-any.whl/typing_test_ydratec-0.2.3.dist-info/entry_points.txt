@@ -1,0 +1,2 @@
+[console_scripts]
+typing_test = typing_test_ydratec.__main__:main
