@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+next_json/__init__.py
+next_json/next_config_manager.py
+next_json/next_json_obj.py
+next_json.egg-info/PKG-INFO
+next_json.egg-info/SOURCES.txt
+next_json.egg-info/dependency_links.txt
+next_json.egg-info/top_level.txt

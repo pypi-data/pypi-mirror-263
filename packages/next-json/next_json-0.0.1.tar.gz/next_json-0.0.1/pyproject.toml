@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "next_json"
+version = "0.0.1"
+authors = [
+  { name="Rymfader"},
+]
+description = "Json and config file manage system"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Rymfader/next_json"
+Issues = "https://github.com/Rymfader/next_json/issues"
