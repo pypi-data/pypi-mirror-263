@@ -1,0 +1,8 @@
+helloengland/__init__.py,sha256=UTcgBqjTIlKRRSF48ysv4bNI9U3WPoYF5l9Kku7RV2Y,1183
+helloengland/greeting.py,sha256=g5yURlRENd5IXl68S5K0i53g7X1BWOf8gwmfaRVTR5A,134
+helloengland/cli/sayhelloto.py,sha256=d3L0rAshel0DcBtTRw6F1nK9fHIdC3AMxNBhPqbGvtI,526
+helloengland/subpackage/humble_greeting.py,sha256=tw_Rn_dJr3pfwo2EmOmZrrY_74MWJTxU8ap8heZ6Dh8,166
+helloengland-0.1.9.dist-info/entry_points.txt,sha256=K7_X26SoNPiRr7m7d7fbI1kt8pse0FovVTMHFnuQMgs,63
+helloengland-0.1.9.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+helloengland-0.1.9.dist-info/METADATA,sha256=xwcejc5zDHSPrtplieTq5uQz9wjPOVfX7rnJpZdxOMk,488
+helloengland-0.1.9.dist-info/RECORD,,

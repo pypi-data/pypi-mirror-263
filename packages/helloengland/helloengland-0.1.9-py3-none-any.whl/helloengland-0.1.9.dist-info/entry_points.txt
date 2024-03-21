@@ -1,0 +1,3 @@
+[console_scripts]
+sayhelloto=helloengland.cli.sayhelloto:main
+
