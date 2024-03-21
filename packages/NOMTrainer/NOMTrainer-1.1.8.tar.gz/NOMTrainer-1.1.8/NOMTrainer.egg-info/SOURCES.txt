@@ -1,0 +1,7 @@
+setup.py
+NOMTrainer/NOMTrainer.py
+NOMTrainer/__init__.py
+NOMTrainer.egg-info/PKG-INFO
+NOMTrainer.egg-info/SOURCES.txt
+NOMTrainer.egg-info/dependency_links.txt
+NOMTrainer.egg-info/top_level.txt
