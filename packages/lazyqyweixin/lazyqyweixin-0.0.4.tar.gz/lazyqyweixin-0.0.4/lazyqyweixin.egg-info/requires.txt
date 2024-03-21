@@ -1,0 +1,2 @@
+lazysdk>=0.1.88
+chardet==5.2.0
