@@ -1,0 +1,8 @@
+dynamic_storage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dynamic_storage/models.py,sha256=gSqB_gm6FwA1yb7f5jZk0Jtqp_AThUVi6kRYlPuMfDQ,6237
+dynamic_storage/signals.py,sha256=_cinyw89d1BAU8NtcbamkbvO8-AVWfgNX1ZP2LH60fU,120
+dynamic_storage/storage.py,sha256=q1iSRykF_0gpRkNzLgHDq5MlvJJxYdTJ6a3l_yhjxoQ,1995
+dynamic_storage/test/storage.py,sha256=_HwD6Cn-VVZNGK1sw0eroyzoe_DK-mj0dKyNcqqDPb0,1330
+django_dynamic_storage-1.0.0.dist-info/METADATA,sha256=SYRbH-5xPAQCSVzgb8VF01QtVukzpFzezYea4HkLVV0,6269
+django_dynamic_storage-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+django_dynamic_storage-1.0.0.dist-info/RECORD,,
