@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: phuego
+Version: 1.2.0
+Summary: Propagation of phosphoproteomics signals
+Home-page: https://github.com/haoqichen20/phuego
+License: GPL-3.0-only
+Keywords: Phosphoproteomics,network propagation
+Author: Girolamo Giudice
+Author-email: Girolamo.Giudice@gmail.com
+Maintainer: Haoqi Chen
+Maintainer-email: haoqichen20@gmail.com
+Requires-Python: >=3.8,<3.13
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3)
+Requires-Dist: igraph (>=0.10.2)
+Requires-Dist: leidenalg (>=0.9.0)
+Requires-Dist: numpy (>=1.24.3)
+Requires-Dist: pandas (>=2.0.1)
+Requires-Dist: requests (>2.29.0)
+Requires-Dist: scikit-learn (>=1.2.2)
+Requires-Dist: scipy (>=1.10.1)
+Project-URL: Documentation, https://phuego.readthedocs.io/en/latest/index.html
+Project-URL: Repository, https://github.com/haoqichen20/phuego
+Description-Content-Type: text/markdown
+
+[![Read the Docs](https://img.shields.io/readthedocs/phuego)](https://phuego.readthedocs.io/en/latest/index.html)
+[![PyPI - Version](https://img.shields.io/pypi/v/phuego)](https://pypi.org/project/phuego/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/phuego)](https://pypi.org/project/phuego/)
+[![PyPI - Wheel](https://img.shields.io/pypi/wheel/phuego)](https://pypi.org/project/phuego/)
+
+# phuEGO: a network-based method to reconstruct active signalling pathways
+
+phuEGO is a network-based method to reconstruct active signalling pathways from phosphoproteomics datasets. It combines three-layer network propagation with ego network decomposition to provide small networks comprising active functional signalling modules. PhuEGO boosts the signal-to-noise ratio from global phosphoproteomics datasets, enriches the resulting networks for functional phosphosites and allows the improved comparison and integration across datasets.
+
+Refer to [documentation](https://phuego.readthedocs.io/en/latest/) for details on installation and executation.
+The package is currently distributed with [PyPI](https://pypi.org/project/phuego/). 
+Check the [Zenodo](https://zenodo.org/records/8094690) page for the premade support dataset, which contains processed reference network with semantic similarity,
+or the [Nextflow pipeline](https://github.com/haoqichen20/phuego_support) to generate your customized support dataset.
+
+
+## Citation
+
+Please cite phuEGO if you use it in your analysis.
+
+> **phuEGO: A network-based method to reconstruct active signalling pathways from phosphoproteomics datasets** <br> _Girolamo Giudice, Haoqi Chen, Evangelia Petsalaki_ <br>
+> bioRxiv, 2023 <br>
+> doi: [10.1101/2023.08.07.552249](https://doi.org/10.1101/2023.08.07.552249) <br>
+
+
+## Contributors
+
+The algorithm and initial scripts of phuEGO are developed by Girolamo Giudice ([@girolamogiudice](https://github.com/girolamogiudice)) and Evangelia Petsalaki at [EMBL-EBI](https://www.ebi.ac.uk/).
+
+The Python package and command line interface are developed by Haoqi Chen ([@haoqichen20](https://github.com/haoqichen20)) at [EMBL-EBI](https://www.ebi.ac.uk/).
+
