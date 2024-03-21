@@ -1,0 +1,13 @@
+hyperbee/__init__.py,sha256=El3xUboSFtD2Zdi006h1VNvU6U5OhVw5Ax7J6tyW4XQ,6631
+hyperbee/_client.py,sha256=0Ilhp-_5M0VJbeMMyMwYueVbYLRMhvtu8gRNJufWsqU,16721
+hyperbee/_version.py,sha256=c1L52brw0JS2cEsBnH-KOB9kFQojwG5HSNPu3AtSUNw,73
+hyperbee/version.py,sha256=r7uecLeCdFw-I6ZmygRaD88FbLY0tm7LnGk07IXXy5g,61
+hyperbee/resources/__init__.py,sha256=-Fq9Id_uW4CnQuVPzwg152PkWX1rvw5eoyvmKhpP6E4,1169
+hyperbee/resources/completions.py,sha256=tBCufLaozOJvoUpLt7J64jQJxVBn2R0xQJ6wl3xTlYU,29864
+hyperbee/resources/models.py,sha256=DQWl5TBndWUtpJff3QWFWXU3aHvOWs7DPtVtEjToX_4,10189
+hyperbee/resources/chat/__init__.py,sha256=yw-K4s1SJvB5uI_5bbK0J9LUYe4cBhhVXd107RdzGvg,816
+hyperbee/resources/chat/chat.py,sha256=BACtLboF4i4TYtkfSX4cxgliWWVDYe5bueHwW8aIP-o,2317
+hyperbee/resources/chat/completions.py,sha256=V-gPimO59N13WJ1CIv0guVGCEp1HU8vo6lO-VjMalZE,33650
+hyperbee-0.0.1.1.dist-info/METADATA,sha256=O9C7lwW04JwcKftvBwUw7LIz8mDbn6qoeul-15m-mio,12901
+hyperbee-0.0.1.1.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+hyperbee-0.0.1.1.dist-info/RECORD,,
