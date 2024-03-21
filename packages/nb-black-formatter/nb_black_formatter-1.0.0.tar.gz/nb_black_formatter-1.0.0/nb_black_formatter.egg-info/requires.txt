@@ -1,0 +1,5 @@
+ipython
+
+[:python_version >= "3.6"]
+yapf>=0.28
+black>=23.9

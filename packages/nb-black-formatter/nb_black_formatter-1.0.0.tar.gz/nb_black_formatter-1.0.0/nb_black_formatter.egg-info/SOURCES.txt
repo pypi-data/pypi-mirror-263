@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+lab_black.py
+nb_black.py
+setup.cfg
+setup.py
+nb_black_formatter.egg-info/PKG-INFO
+nb_black_formatter.egg-info/SOURCES.txt
+nb_black_formatter.egg-info/dependency_links.txt
+nb_black_formatter.egg-info/not-zip-safe
+nb_black_formatter.egg-info/requires.txt
+nb_black_formatter.egg-info/top_level.txt
