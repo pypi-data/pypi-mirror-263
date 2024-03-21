@@ -1,0 +1,11 @@
+requtests/__init__.py,sha256=kvH5xSG_1tjbjXAFpOygtjxfFa_bTXDzDMQWJesmsFM,608
+requtests/fake_adapter.py,sha256=4lV9dibghGIPQEPSUdjmVemkHbuqg9DE-eNjezjVRlY,960
+requtests/fake_request.py,sha256=ZxR-ANqrwXqGRB1nlAcciEEESxMVBgjjZ2FaDfVFPUU,2046
+requtests/fake_response.py,sha256=X931uoDAhyo73Y-pVvXAeg5EcIPDWk0XmgOhP7ilmrI,729
+requtests/parsed_request.py,sha256=BvrPrC0QpNtR4ZBjHTpeq-87vgEqrjJqFw-357y4Jqo,2039
+requtests/protocols.py,sha256=Vj79J2Q6sOd2-8Rn8CTdvrxhYsX2BL85WVXnQzQK988,504
+requtests-1.2.0.dist-info/LICENSE,sha256=CtaLzafy_dvEu4k8yNndPnmSLeQQSx8jluW9eawT9cg,1068
+requtests-1.2.0.dist-info/METADATA,sha256=MhllsvP9RbP-KWLkYkzZHRXP3y3228TjPlNpLkX0Ts8,5818
+requtests-1.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+requtests-1.2.0.dist-info/top_level.txt,sha256=sR0cJ4cAE7hyOln3xU5U0h0BkmMsyQ_mMvdTdPN0DaA,10
+requtests-1.2.0.dist-info/RECORD,,
