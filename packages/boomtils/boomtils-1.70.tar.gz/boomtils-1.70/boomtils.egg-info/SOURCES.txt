@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+boomtils.egg-info/PKG-INFO
+boomtils.egg-info/SOURCES.txt
+boomtils.egg-info/dependency_links.txt
+boomtils.egg-info/top_level.txt
