@@ -1,0 +1,2 @@
+[console_scripts]
+craeved = craeved.__main__:main
