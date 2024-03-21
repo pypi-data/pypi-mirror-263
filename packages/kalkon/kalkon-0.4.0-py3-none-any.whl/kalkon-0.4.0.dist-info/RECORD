@@ -1,0 +1,12 @@
+kalkon/__init__.py,sha256=gYRztKXfeoKp1noaK9XZ2JpFF2T6_UJvoh9gjHxSYU4,126
+kalkon/__main__.py,sha256=a67hWjANQr71oegTWFY4FVV9P5FXCL9RlmuwKxdnFgo,164
+kalkon/gui.py,sha256=EE_aB3BYsA9voHjjTgHZolcMSWWT4HMeNhl81ORjrLo,7226
+kalkon/kalkon.py,sha256=Mx3_LUkCIOFhU7koj3eSPp4At02gFxkD1tk9qj8yx00,8895
+kalkon/main.py,sha256=RMh2GIifIUUTer1ie5BobvyLVGRPbJj-O3yL168oYDo,1069
+kalkon/images/kalkon.png,sha256=Ie2ERgBHoleqgpl2VWaeWi4e2YrV3kgmHEA9ux-E4YQ,50178
+kalkon-0.4.0.dist-info/LICENSE,sha256=MloROlrO8pHM3d38p8k26z_IP6UhKNQ8E9yBKH_qeVQ,1509
+kalkon-0.4.0.dist-info/METADATA,sha256=Y7a9rh9P4jSA84fyZgl8pyTEvTGzd70nBhFzul1-0lg,5504
+kalkon-0.4.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+kalkon-0.4.0.dist-info/entry_points.txt,sha256=25L1JYeamzwXzjyGvagX2GWLzP4alfKtV2_jFvcQgrg,39
+kalkon-0.4.0.dist-info/top_level.txt,sha256=XsvNyjjF1cLTZgEYrnqJpAedIKb6gb_c4cfvZMHA9pM,7
+kalkon-0.4.0.dist-info/RECORD,,
