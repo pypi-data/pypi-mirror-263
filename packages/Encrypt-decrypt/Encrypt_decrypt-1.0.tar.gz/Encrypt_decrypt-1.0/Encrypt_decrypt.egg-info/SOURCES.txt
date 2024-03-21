@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+ENCRYPT_DECRYPT/__init__.py
+Encrypt_decrypt.egg-info/PKG-INFO
+Encrypt_decrypt.egg-info/SOURCES.txt
+Encrypt_decrypt.egg-info/dependency_links.txt
+Encrypt_decrypt.egg-info/top_level.txt
