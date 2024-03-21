@@ -1,0 +1,12 @@
+jptax/__about__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+jptax/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jptax/insurance/__init__.py,sha256=AmQz7F19cRhd4QBXCW-lhLRsYN6Ekv5YZAAz09FLFJI,1448
+jptax/insurance/dataframe.py,sha256=-pOnblMV_nSOFeg_L1La-7dwdeNj9F51o9JWeagmZyY,1860
+jptax/insurance/deduction.py,sha256=uMP3LtnzBbv8umhUWwHZ8GqZiC4ODgbOJjSRFirutAA,7455
+jptax/insurance/definitions.py,sha256=0-pbwS8qGBYsptQRL60OHRlQKueiadEt6PmtvWVJ01w,1778
+jptax/insurance/tables/r5ippan3.xlsx,sha256=i267yDzWvkdty4f6aOGHoazSmH4IRz708C5NiwNccdI,406507
+jptax/insurance/tables/r6ippan3.xlsx,sha256=UxQ66edEfcXuCpAKazJMQe8woVaZGFnlQ3boRuwQpFk,405862
+jptax-0.0.1.dist-info/METADATA,sha256=2X1HMw9RQ-iayoeFc2MSaadakeZ79-bi1LiOFzt7J0s,2658
+jptax-0.0.1.dist-info/WHEEL,sha256=LL0B1KxSLwaTWceo7tT-0aDLd-qq9dmbnsnk1DnXlg8,87
+jptax-0.0.1.dist-info/licenses/LICENSE.txt,sha256=ktu-97Fa2V4zBgB-qhqe2mnzsznai_Z8j5L8hLp_Tf0,1117
+jptax-0.0.1.dist-info/RECORD,,
