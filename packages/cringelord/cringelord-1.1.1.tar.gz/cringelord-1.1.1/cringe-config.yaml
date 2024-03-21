@@ -1,0 +1,19 @@
+production:
+  database1_pim_id: 1234
+  database2_pim_id: 5678
+  instance_list:
+    - "production"
+    - "values"
+
+local:
+  database1_pim_id: 4321
+  database2_pim_id: 8765
+  instance_list:
+    - "local"
+    - "values"
+
+database_schema: "soc"
+refresh_rate: 60
+database_config:
+  port: 11433
+  driver: postgresql
