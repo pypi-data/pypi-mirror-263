@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+trialsconnect/trialsconnect.egg-info/PKG-INFO
+trialsconnect/trialsconnect.egg-info/SOURCES.txt
+trialsconnect/trialsconnect.egg-info/dependency_links.txt
+trialsconnect/trialsconnect.egg-info/requires.txt
+trialsconnect/trialsconnect.egg-info/top_level.txt
