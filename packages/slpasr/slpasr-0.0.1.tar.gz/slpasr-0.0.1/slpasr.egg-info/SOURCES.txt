@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+slpasr/__init__.py
+slpasr/hello.py
+slpasr.egg-info/PKG-INFO
+slpasr.egg-info/SOURCES.txt
+slpasr.egg-info/dependency_links.txt
+slpasr.egg-info/top_level.txt
