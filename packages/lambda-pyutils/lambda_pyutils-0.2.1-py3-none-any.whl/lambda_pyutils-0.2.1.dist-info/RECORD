@@ -1,0 +1,11 @@
+test.py,sha256=w0ygLPV8eYRpWgIMOc_vKaMS9FFHhBp56LDezlZaOnU,497
+pyutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyutils/cvfacedetector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyutils/cvfacedetector/face_detection_yunet_2023mar.onnx,sha256=jyOD5N08-7RVPqhxgQf8BCMhDclk-fQoBgSATtJVL6Q,232589
+pyutils/cvfacedetector/facedetector.py,sha256=x0ayKugtSFXDkaY0zTUgtaRqM6DOXFeoQ3KuZGIPcMM,3042
+pyutils/cvfacedetector/yunet.py,sha256=KBZAWXI0C3eybSusibwBAiGOxBmfPlNYLAdYYdN6S1U,2334
+lambda_pyutils-0.2.1.dist-info/LICENSE,sha256=KdWqWCAvr3JmihxBWlQjNXDgcpYGESOnNG761wHygoI,1087
+lambda_pyutils-0.2.1.dist-info/METADATA,sha256=IBrjCYHc0OOTaPTR1ze6AuKZAQ06NrJA_zFYWkfQalo,1604
+lambda_pyutils-0.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+lambda_pyutils-0.2.1.dist-info/top_level.txt,sha256=n6GPe-aPlnU_4W1iNeC3T9loc94z-0ZxrY6FhEE6Ugw,13
+lambda_pyutils-0.2.1.dist-info/RECORD,,
