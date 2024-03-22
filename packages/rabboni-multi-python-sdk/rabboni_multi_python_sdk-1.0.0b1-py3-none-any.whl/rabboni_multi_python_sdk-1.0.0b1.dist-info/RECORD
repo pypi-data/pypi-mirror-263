@@ -1,0 +1,16 @@
+example/rab_demo.py,sha256=2ysHCJbg3Tuomi0mLqpMjVQGnbXskdpJem5SO5M3ma0,3093
+example/rab_example.py,sha256=M5a5wY9z6Tb8PYOUnU2mFBcmcdddVyvRjrm6YMDuXmk,1189
+example/rabboni_connect.py,sha256=yxKeAHNVfqymABrhRAtYvHef5q0auVdYjDgzTGRS5e0,814
+example/rabboni_get_battery.py,sha256=sL3fwAUe2PAsD3N4omAe8pYSZSZ9fePKnKrbXGSKSJs,822
+example/rabboni_read_config.py,sha256=lsDzrQkxEhsfMBfmAi3I-3cust3yZFBZWCRJG5OJqq0,932
+example/rabboni_reset_count.py,sha256=6K9fzFkIgYyc8l0QZLbDIIxGHQ6iIZO5nVwV591tzgA,1057
+example/rabboni_set_config.py,sha256=oFdecCV8K0lAlws-CQYNeuR5Js27Tm-nDyAt6zQyUWw,1396
+rabboni_multi_python_sdk-1.0.0b1.dist-info/METADATA,sha256=c8JKHqsRWShRsEU4nei-_O6GmWhvyshI64S1cN7bYMg,2965
+rabboni_multi_python_sdk-1.0.0b1.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+rabboni_multi_python_sdk/__init__.py,sha256=UrBT0_O4qGAEC_6DZsyHq2gQ1izQH9X1udts5Pvo-wc,15081
+rabboni_multi_python_sdk/command.py,sha256=-9ec-p6eC0LRDG7Y8BKxcKlXb9NaTTNnGlaJQxzuaBQ,3125
+rabboni_multi_python_sdk/constants.py,sha256=Q64jibWX9PWYe_QwmR3XdSKL8qZ3OqeX4O6lpQyPObc,699
+rabboni_multi_python_sdk/errors.py,sha256=-ASAjn9UGP1X1KuNU7hlmlNePECqsvNkmIf6FI2rofA,267
+rabboni_multi_python_sdk/muls.pkl,sha256=t5qRJgk2MjPMC0WBAm5mLVZdkUJbAI_iIDf7irJMpSk,271153
+setup.py,sha256=PzbpjeATk-m0zsFnlthWqojOrA_Jgx5yNiSGgOqsznQ,675
+rabboni_multi_python_sdk-1.0.0b1.dist-info/RECORD,,
