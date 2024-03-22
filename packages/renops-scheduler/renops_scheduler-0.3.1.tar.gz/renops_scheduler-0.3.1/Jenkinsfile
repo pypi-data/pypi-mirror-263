@@ -1,0 +1,88 @@
+pipeline {
+    agent {
+        node {
+            label 'Agent01'
+        }
+    }
+    options {
+        // Ensures job runs to completion even with minor non-fatal errors 
+        skipDefaultCheckout() 
+    }
+
+    environment {
+        BRANCH_NAME = "main"
+        timeout(time: 20, unit: 'MINUTES')    
+        // Create credentials in Jenkins for security
+        TWINE_PASSWORD = credentials('gitlab-pypi-token')
+        CI_API_V4_URL = "https://gitlab.com/api/v4"
+        CI_PROJECT_ID = "2476"
+        CI_DEPLOY_TOKEN = credentials('gitlab-deploy-token')
+        CI_DEPLOY_TOKEN_USER = credentials('gitlab-deploy-token-user')
+        RENOPSAPI_KEY = credentials('RENOPSAPI_KEY')
+    }
+
+    stages {
+        
+        stage('Checkout') {
+          steps {
+              echo 'Checkout SCM'
+              checkout scm
+            }
+        }
+
+
+        stage("Build"){
+            steps{
+                script {
+                    echo "Building"
+                    sh "ls -all"
+                    sh "python -V"
+                    sh "pip install virtualenv"
+                    sh "virtualenv venv"
+                    sh "source venv/bin/activate"
+                    sh "pip install build"
+                    sh "python -m build"
+                }
+            }
+        }
+
+        stage('Publish') {
+            steps {
+                sh '''
+                    python -m twine upload \
+                        --verbose \
+                        --repository-url ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi \
+                        --username gitlab-ci-token \
+                        --password ${TWINE_PASSWORD} \ 
+                        dist/* 
+                '''
+            }
+        } 
+        stage('Test') {
+            parallel {
+                stage('Python 3.8') {
+                    agent { label 'python-3.8' } 
+                    steps {
+                        runTest() 
+                    }
+                }
+                stage('Python 3.9') {
+                    agent { label 'python-3.9' } 
+                    steps {
+                        runTest() 
+                    }
+                }
+                
+        }
+        // Reusable function 
+        def runTest() {
+            sh '''
+                pip install renops-scheduler --index-url https://${CI_DEPLOY_TOKEN_USER}:${CI_DEPLOY_TOKEN}@${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi/simple
+                echo 'print("hello world!")' > test.py
+                // renops-scheduler test.py -la -r 1 -d 1 # Test renewable potential
+                renops-scheduler test.py -la -r 1 -d 1 --optimise-price # Test prices
+            ''' 
+            }
+        }   
+    }
+}
