@@ -1,0 +1,242 @@
+# 说明文档
+  
+  [![GitHub stars][github-stars-badge]][github-stars-link]
+  [![GitHub forks][github-forks-badge]][github-forks-link]
+  [![GitHub issues][github-issues-badge]][github-issues-link]
+  [![GitHub license][github-license-badge]][github-license-link]
+  [![Documentation Status][rtd-badge]][rtd-link]
+  [![PyPI][pypi-badge]][pypi-link]
+  [![PyPI - Downloads][install-badge]][install-link]
+
+
+## 项目简述
+
+```shell
+
+
+```
+
+## 代办清单
+
+```shell
+# 1. pyproject.toml配置
+# 2. 文档配置
+3. test编写?
+# 4. src目录是否必要?
+# 5. 编码规范确定?
+```
+
+## 使用说明
+
+```shell
+# python版本要求
+    依赖python3.6+版本, 默认centos7环境yum安装的python3可以使用
+    
+# pip仓库配置示例(网速慢建议更换为镜像仓库)
+    # unix: ~/.pip/pip.conf
+    # win: %APPDATA%\pip\pip.ini
+    
+    [global]
+    index-url = http://pypi.douban.com/simple
+    trusted-host = pypi.douban.com
+
+# 安装方式
+    pip3 install mini-toolbox
+    
+# 发布地址
+    Download: https://pypi.org/project/mini-toolbox
+    Document: https://mini-toolbox.readthedocs.io/latest
+```
+
+## 贡献说明
+
+```shell
+1. 格式规范
+    1. 遵循Google编码风格
+    2. 使用yapf插件自动化格式化代码  # pip3 install yapf
+    3. 手动格式化: 
+        yapf -ir --style "{based_on_style: google, column_limit: 120}" ./
+    4. vscode配置:
+        "editor.formatOnSave": true,
+        "python.formatting.provider": "yapf",
+        "python.formatting.yapfArgs": [
+            "--style={based_on_style: google, column_limit: 120}"
+        ],
+    
+2. 命名大小写
+    1. 类: 单词首字母大写
+    2. 全局变量: 字母大写, 下划线分隔
+    3. 内部函数/方法/对象/变量/模块: 单下划线开头, 小写字母, 下划线分隔
+    4. 其它函数/方法/对象/变量/模块: 小写字母, 下划线分隔
+    
+3. 文档编写
+    需要遵循附录中的`Google风格文档编写示例`
+    
+4. 版本说明
+    1. 版本采用三段式 x.y.z
+    2. x 表示主版本 - 当产生重大变更或重大里程碑时, x+1, y=z=0
+    3. y 表示增量版本 - 当z版本大于9时, y+1, z=0
+    4. z 表示补丁版本 - 当涉及变更时, z+1, z<=9
+
+5. 其它约定
+    1. 兼容性 - 相同x版本, 应该做到向后兼容, 尽量做到向前兼容
+    2. 更新日志 - 提供y版本的详细变更日志和时间, 尽量做到描述简练，做到分类正确
+    3. 实现范围 - 不涉及业务代码, 保证相对的独立性和通用性
+    4. 冗余代码 - 删除冗余代码，删除无效注释
+    
+6. 需要尽量提供代码类型注释
+    1. int/float/str/bool/None
+    2. from typing import Dict, List, Tuple, Optional, Union, Any
+    
+7. 模块调试方法示例
+    python3 -m jjscm_tools.alpha.code_block
+```
+
+## 打包说明
+
+``` shell
+# 安装文档依赖
+pip3 install -r docs/requirements.txt
+
+# 编译文档
+./build.sh doc
+
+# 编译全部
+./build.sh
+
+# 更新版本 - x/y/z
+./build.sh z
+
+# 开启文档调试
+cd docs/www/ ; python3 -m http.server 6601
+```
+
+
+
+## 附录
+
+### Google风格文档编写示例
+
+```shell
+"""Example Google style docstrings(One line summary).
+
+This module demonstrates documentation as specified by the `Google Python
+Style Guide`_. Docstrings may extend over multiple lines. Sections are created
+with a section header and a colon followed by a block of indented text.
+
+Example:
+    Sections support any reStructuredText formatting, including literal 
+    blocks::
+
+        $ python example_google.py
+        
+    >>> print([i for i in example_generator(4)])
+    [0, 1, 2, 3]
+
+Attributes:
+    likes_spam: A boolean indicating if we like SPAM or not.
+    eggs: An integer count of the eggs we have laid.
+    
+Args:
+    param1 (int): The first parameter.
+    param2 (str): The second parameter.
+    keys (str): A sequence of strings representing the key of each table \
+    row to fetch.  String keys will be UTF-8 encoded.
+
+Returns:
+    bool: The return value. True for success, False otherwise.
+
+Raises:
+    IOError: An error occurred accessing the smalltable.
+
+Todo:
+    * For module TODOs, need ``sphinx.ext.todo`` extension
+    * This is colorful block
+    
+Note:
+    This is colorful block
+
+Warning:
+    This is colorful block
+    
+See Also:
+    This is colorful block. `PEP 484`_ type annotations are supported.
+    
+.. _Google Python Style Guide:
+   http://google.github.io/styleguide/pyguide.html
+   
+.. _PEP 484:
+    https://www.python.org/dev/peps/pep-0484/
+"""
+```
+
+### Pypi官方打包说明
+
+```shell
+1. 注册账户, 配置token  # https://pypi.org/
+    # cat ${HOME}/.pypirc
+    [pypi]
+        username = __token__
+        password = pypi-xxxxxxxxxxxxxxxxxxxxxxxxxx
+    
+2. 安装依赖
+    python3 -m pip install --upgrade pip setuptools wheel
+    pip3 install build virtualenv twine
+
+3. 执行打包
+    python3 -m build
+
+4. 执行上传
+    python3 -m twine upload --repository pypi dist/*
+    
+5. 本地调试
+    pip3 install -e .  # 将本地目录作为库安装
+
+```
+
+### 3. 更新日志模版
+#### v1.0.0
+**Release date: 2024-03-31**
+```shell
+# Deprecated
+    - 已经废弃, 不建议调用, 即将删除
+# Changed
+    - 不兼容变更
+# Added
+    - 新增功能
+# Fixed
+    - 修复缺陷
+```
+
+## 参考链接
+
+- [[官方] Python项目打包](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+- [[官方] Read the Docs简明文档](https://docs.readthedocs.io/en/stable/)
+- [[官方] Sphinx文档](https://www.sphinx-doc.org/en/master/index.html)
+- [[官方] Sphinx Read the Docs主题](https://sphinx-rtd-theme.readthedocs.io/en/stable/index.html)
+- [[官方] Sphinx Google编码风格支持](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/)
+- [[官方] Google开源项目风格指南-中文版](https://zh-google-styleguide.readthedocs.io/en/latest/)
+- [[官方] Python PEP-8](https://peps.python.org/pep-0008)
+- [[官方] Python Cookbook](https://python3-cookbook.readthedocs.io/zh_CN/latest/copyright.html)
+
+
+[github-stars-badge]: https://img.shields.io/github/stars/gnzhoutian/mini_toolbox.svg
+[github-stars-link]: https://github.com/gnzhoutian/mini_toolbox/stargazers
+
+[github-forks-badge]: https://img.shields.io/github/forks/gnzhoutian/mini_toolbox.svg
+[github-forks-link]: https://github.com/gnzhoutian/mini_toolbox/network
+
+[github-issues-badge]: https://img.shields.io/github/issues/gnzhoutian/mini_toolbox.svg
+[github-issues-link]: https://github.com/gnzhoutian/mini_toolbox/issues
+
+[github-license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+[github-license-link]: https://raw.githubusercontent.com/gnzhoutian/mini_toolbox/main/LICENSE
+
+[rtd-badge]: https://readthedocs.org/projects/mini-toolbox/badge/?version=latest
+[rtd-link]: https://mini-toolbox.readthedocs.io/latest/?badge=latest
+
+[pypi-badge]: https://img.shields.io/pypi/v/mini-toolbox.svg
+[pypi-link]: https://pypi.org/project/mini-toolbox
+
+[install-badge]: https://img.shields.io/pypi/dw/mini-toolbox?label=pypi%20installs
+[install-link]: https://pypistats.org/packages/mini-toolbox
