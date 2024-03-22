@@ -1,0 +1,10 @@
+hotjax/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hotjax/__main__.py,sha256=ZsjmmdiJgvsMYriga5gudsg-mC8lfyYE7azM139KFyA,138
+hotjax/base.py,sha256=N7YbePwHCQT5zs70x9GYtpzdxSx4kS-783hjFJG-SuU,73
+hotjax/cli.py,sha256=BsS7rwGESaHCxI5prTP6aumiUTcKUow00iCJin2A9y0,737
+hotjax-0.0.1.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+hotjax-0.0.1.dist-info/METADATA,sha256=mnheYKKcZhbKpugh2Urc8FXdtfqr6eufGYnL3ooV_P8,1285
+hotjax-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+hotjax-0.0.1.dist-info/entry_points.txt,sha256=y1xJHRZhuAwofKXPojNIaysAnVtUsRtGAwnOqonw4kA,48
+hotjax-0.0.1.dist-info/top_level.txt,sha256=qVyAG1cNP_ekIiv57Gu6i615NsDbC6oQJ_4y8p4Nqfw,7
+hotjax-0.0.1.dist-info/RECORD,,
