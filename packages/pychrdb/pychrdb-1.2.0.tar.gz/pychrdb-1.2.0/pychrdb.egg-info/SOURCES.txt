@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+chrdb/__init__.py
+chrdb/database.py
+chrdb/utils.py
+pychrdb.egg-info/PKG-INFO
+pychrdb.egg-info/SOURCES.txt
+pychrdb.egg-info/dependency_links.txt
+pychrdb.egg-info/requires.txt
+pychrdb.egg-info/top_level.txt
