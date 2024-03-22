@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+kgl/graph.py
+kgl.egg-info/PKG-INFO
+kgl.egg-info/SOURCES.txt
+kgl.egg-info/dependency_links.txt
+kgl.egg-info/requires.txt
+kgl.egg-info/top_level.txt
