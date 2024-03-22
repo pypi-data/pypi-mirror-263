@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+CognexNativePy.egg-info/PKG-INFO
+CognexNativePy.egg-info/SOURCES.txt
+CognexNativePy.egg-info/dependency_links.txt
+CognexNativePy.egg-info/top_level.txt
