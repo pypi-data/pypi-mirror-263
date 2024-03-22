@@ -1,0 +1,3 @@
+include rlogfi/requirements.txt
+include rlogfi/thirdparty.json
+include rlogfi/README.MD
