@@ -1,0 +1,11 @@
+vlcishared/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vlcishared/logging/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vlcishared/logging/setup.py,sha256=8Y69IzMkHB4ZFl_I5spP6k_5-1IyytYdT_vSaK0Fp_o,665
+vlcishared/mail/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vlcishared/mail/mail.py,sha256=voXgXRMrpD8DyOzW5wNCZfJPXD_0fpATJycwm-yzhOI,1592
+vlcishared/sftp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vlcishared/sftp/sftp.py,sha256=ijJN_mhdKtjD5l4U4UYTF_7mGerHCWTRlvJ2yrA5ht4,2537
+vlcishared-0.3.0.dist-info/LICENSE,sha256=wMdtKXFPbpwdxvCJ-iKCZyzw9_CTGs8qdWy_8cNOIoo,14090
+vlcishared-0.3.0.dist-info/METADATA,sha256=A0WzJGiFOuQf1PyIT3isd_EwH4rhP1ECe2dOgSU0muk,6859
+vlcishared-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+vlcishared-0.3.0.dist-info/RECORD,,
