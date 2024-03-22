@@ -1,0 +1,19 @@
+# Tooling files
+.vscode/
+.idea/
+.mypy_cache/
+.python-version
+
+# Generated python files
+**/*.egg-info/
+**/*.pyc
+**/__pycache__/
+
+# Build artifacts
+/build/
+/dist/
+/public/
+
+# Example outputs
+f16.jpeg
+nonlinear.jpeg
