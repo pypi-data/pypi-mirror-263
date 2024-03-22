@@ -1,0 +1,10 @@
+
+{% if _tdata["config_data"]["server_security_lax"] %}
+
+<div>server_debug={{_tdata["config_data"]["server_debug"]}}</div>
+<div>server_security_lax={{_tdata["config_data"]["server_security_lax"]}}</div>
+<div>NoM v{{_tdata["nom_version"]}}</div>
+<div>Database v{{_tdata["database_version"]}}</div>
+<div>time={{_tdata["time"]}}</div>
+
+{% endif %}
