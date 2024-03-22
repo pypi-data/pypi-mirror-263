@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+em_util.egg-info/PKG-INFO
+em_util.egg-info/SOURCES.txt
+em_util.egg-info/dependency_links.txt
+em_util.egg-info/requires.txt
+em_util.egg-info/top_level.txt
+test/test_html.py
+test/test_io.py
+test/test_ng.py
+test/test_seg.py
+test/test_skel.py
+test/test_vast.py
