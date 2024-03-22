@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: promethee_ROC
+Version: 0.2
+Summary: Uma biblioteca para realizar análises de problema multicritérios com o método PROMETHEE utilizando pesos substitutos com o método ROC
+Home-page: https://github.com/roboberto1403/promethee_ROC
+Author: Luiz Roberto, Penélope Araújo, Luana Cristina, Gabrielle Almeida, João Felipe
+Author-email: lrbf@cin.ufpe.br, pmpa@cin.ufpe.br, lccb@cin.ufpe.br, gao2@cin.ufpe.br, jfbs@cin.ufpe.br
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
