@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: RuneArtist
+Version: 1.0.7
+Author: kekwak
+Author-email: kekwak@mail.ru
+Keywords: python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
