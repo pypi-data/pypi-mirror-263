@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: filecacher
+Version: 0.0.0
+Summary: 
+Author: tim
+Author-email: timotheeheller@yahoo.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Description-Content-Type: text/markdown
+
+# Template for python project
+
+Use this template for python projects (apps or libraries).
+
+## Testing
+[write here how to test the repo]
+
+## Logging
+- Use `loguru`
+
