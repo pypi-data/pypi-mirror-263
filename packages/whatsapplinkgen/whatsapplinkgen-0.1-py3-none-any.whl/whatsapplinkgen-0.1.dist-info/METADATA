@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: whatsapplinkgen
+Version: 0.1
+Summary: An efficient utility for swiftly generating WhatsApp direct links from contact numbers stored in .csv files or Excel spreadsheets!
+Author: Daivik Karbhari
+Author-email: Daivik Karbhari <daivikkarbhari01@gmail.com>
+Keywords: Whatsapp,whatsapp link genration,Link,Generation,Message without saving contacts,chat
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+# WhatsappLinkGen
+
+## Overview
+The WhatsappLinkGen Python package is designed to facilitate the generation of WhatsApp links from a .csv file. This tool is particularly useful for managing large contact lists obtained from services like Google Forms, enabling users to easily send messages, particularly for publicity purposes.
+
+## Installation
+You can install this package via pip:
+
+## Usage
+The package provides two main functions:
+
+1. `generateLinkFromCsv(input_csv, column_num, output_file_txt=None, country_code=None)`: This function takes a .csv file, an optional output text file, and a country code, and returns directly clickable WhatsApp links.
+
+```python
+from whatsapplinkgen import generateLinkFromCsv
+
+generateLinkFromCsv('contacts.csv', 0, 'output.txt', '91')
+```
+
+In this example:
+- `'contacts.csv'` is the input .csv file.
+- `0` is the column number containing the contact numbers.
+- `'output.txt'` is the optional output file where the generated links will be stored.
+- `'91'` is the country code.
+
+2. `generateLinkFromNumber(contact_no, country_code=None)`: This function takes a contact number and an optional country code, and prints the directly clickable WhatsApp link.
+
+```python
+from whatsapplinkgen import generateLinkFromNumber
+
+generateLinkFromNumber('1234567890', '91')
+```
+
+In this example:
+- `'1234567890'` is the contact number.
+- `'91'` is the country code.
+
+## Author
+This package was created by Daivik Karbhari.
+
+For any queries, you can reach out to [daivikkarbhari01@gmail.com](mailto:daivikkarbhari01@gmail.com).
