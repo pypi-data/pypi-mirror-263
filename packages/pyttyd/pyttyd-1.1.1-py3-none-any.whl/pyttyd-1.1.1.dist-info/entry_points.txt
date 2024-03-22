@@ -1,0 +1,2 @@
+[console_scripts]
+pyttyd = pyttyd.__main__:main
