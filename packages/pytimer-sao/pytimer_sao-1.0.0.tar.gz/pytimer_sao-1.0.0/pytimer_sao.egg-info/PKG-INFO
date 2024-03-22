@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pytimer-sao
+Version: 1.0.0
+Summary: Helps to measure the time it takes for a function or method to run
+Author: Samuel Oyewoade
+Author-email: samueladebare1010@gmail.com
