@@ -1,0 +1,7 @@
+lightning>=2.2.1
+
+[test]
+pytest>=7.3
+flake8>=6.1.0
+black>=23.10.1
+mypy>=1.6.0
