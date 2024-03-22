@@ -1,0 +1,50 @@
+[build-system]
+requires = [ "maturin>=1.4,<2.0",]
+build-backend = "maturin"
+
+[project]
+name = "pyparamo"
+dynamic = [ "version",]
+description = "Paramo stands for: PArticles and RAdiation MOnitor. In a few words: this code solves que Fokker-Planck equation and calculates synchrotron and inverse Compton emission."
+license = "GPL-3.0-only"
+requires-python = ">=3.9"
+classifiers = [ "Programming Language :: Rust", "Programming Language :: Python :: Implementation :: CPython", "Programming Language :: Python :: Implementation :: PyPy",]
+dependencies = [ "astropy >= 6.0.0", "matplotlib >= 3.8.2", "numpy >= 1.26.4", "pytest >= 8.1.1", "toml >= 0.10.2",]
+[[project.authors]]
+name = "Jesus M Rueda-Becerril"
+email = "jm.ruebe@gmail.com"
+
+[[project.authors]]
+name = "Zachary Davis"
+email = "zachkdavis00@gmail.com"
+
+[tool.maturin]
+features = [ "pyo3/extension-module",]
+module-name = "paramo"
+python-source = "pysrc"
+
+[tool.poetry]
+name = "pyparamo"
+version = "0.4.2"
+description = "Paramo stands for: PArticles and RAdiation MOnitor. In a few words: this code solves que Fokker-Planck equation and calculates synchrotron and inverse Compton emission."
+authors = [ "Jesus M Rueda-Becerril <jm.ruebe@gmail.com>", "Zachary Davis <zachkdavis00@gmail.com>",]
+license = "GPL-3.0-only"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+astropy = "6.0.0"
+matplotlib = "3.8.3"
+numpy = "1.26.4"
+pytest = "8.1.1"
+toml = "0.10.2"
+ebltable = "0.5.2"
+tqdm = "4.66.2"
+maturin = "1.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.1.1"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [ "tests",]
