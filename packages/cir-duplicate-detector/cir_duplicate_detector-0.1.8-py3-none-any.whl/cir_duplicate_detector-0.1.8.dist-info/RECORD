@@ -1,0 +1,10 @@
+cir_duplicate_detector/__init__.py,sha256=BV2__cWfb1fohObVQhMkOHQLrct9JhIPwJQXKOB1DUg,4856
+cir_duplicate_detector/pdq_dup_detect_algorithms/bk_tree.py,sha256=KloN4fZt95OWTSJqe2WEqrLzxTWixho2daSyxkXOByY,3647
+cir_duplicate_detector/pdq_dup_detect_algorithms/naive_duplicate_detector.py,sha256=cBKJQxgrqjGo_5JezeRvheiJNdruLEcKrJjyByKwcnw,2972
+cir_duplicate_detector/pdq_dup_detect_algorithms/utils.py,sha256=vBbDAPtxqF3TmZhW__2BRY034hD--X7ZG8ySjHAUYME,5518
+cir_duplicate_detector/pdq_hash.py,sha256=ifkAYAYVph8Rl5MERWgAevAjSrjN1OY3EwXuCG3qgHU,13249
+cir_duplicate_detector/url.py,sha256=XML5q3GZZzlDaiX29GM_VODLgMdnVcc6UtgpKAzgftY,4942
+cir_duplicate_detector-0.1.8.dist-info/LICENSE,sha256=QSRm_OLUudySjVmx8NGIuoDe_8Jz5shcAUN_Jbo3seg,1532
+cir_duplicate_detector-0.1.8.dist-info/METADATA,sha256=Z2CatanTWkGkvF90wSoqvcLqEQoBTcWxeWZUC-8b9Q4,9458
+cir_duplicate_detector-0.1.8.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cir_duplicate_detector-0.1.8.dist-info/RECORD,,
