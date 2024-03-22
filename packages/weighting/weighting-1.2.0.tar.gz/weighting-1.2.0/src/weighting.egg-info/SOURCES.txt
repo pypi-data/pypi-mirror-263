@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/weighting/__init__.py
+src/weighting.egg-info/PKG-INFO
+src/weighting.egg-info/SOURCES.txt
+src/weighting.egg-info/dependency_links.txt
+src/weighting.egg-info/top_level.txt
