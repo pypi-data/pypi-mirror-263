@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: html-elements
+Version: 0.1.0
+Summary: HTML element objects to use in pure Python server side rendering
+Author: Anton De Meester
+Author-email: antondemeester@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# HTML Elements
+
+HTML Elements allows you to write HTML website while staying completely in Python. This will allow you to create SPA-like components, but keep your presentation layer in Python.
+
+Because it is in pure Python, it allows to use all the Python goodies such as functions, linting, type checking.
+
+Check out the complete documentation [here](https://antondemeester.github.io/html-elements/)
+
+## Example 
+
+To create this form (made with [Bulma](https://bulma.io/))
+
+```html
+--8<-- "docs_code/index/index.html"
+```
+
+You write
+
+```python
+--8<-- "docs_code/index/index.py"
+```
