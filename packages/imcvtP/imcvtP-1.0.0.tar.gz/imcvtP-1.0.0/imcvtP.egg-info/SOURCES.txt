@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+imcvtP/__init__.py
+imcvtP/converter.py
+imcvtP.egg-info/PKG-INFO
+imcvtP.egg-info/SOURCES.txt
+imcvtP.egg-info/dependency_links.txt
+imcvtP.egg-info/not-zip-safe
+imcvtP.egg-info/requires.txt
+imcvtP.egg-info/top_level.txt
