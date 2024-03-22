@@ -1,0 +1,9 @@
+amarillo/plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amarillo/plugins/metrics/__init__.py,sha256=Jk4ODFvbeCgS9ecmD1lftfaRNoL72q4Ek8VvWr5Nw6k,22
+amarillo/plugins/metrics/metrics.py,sha256=x_MGRM71nW7eI_dPhOp42CaVdRRPbsQL9tmULlRu1LE,4217
+amarillo/plugins/metrics/secrets.py,sha256=GP9wxPvcVErDd6qE3Hk5Avk3aaqLBXUTA1iu5kYFR2o,384
+amarillo_metrics-0.0.6.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+amarillo_metrics-0.0.6.dist-info/METADATA,sha256=JdwVpZIfDJFPj9xGRKfjiPuzwJ3vg8Lprz-VT6m3lOQ,40164
+amarillo_metrics-0.0.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+amarillo_metrics-0.0.6.dist-info/top_level.txt,sha256=GTM3rS4-9QeebEKqEvEXLpmkyJJQLiuiPjXQOfZt9Yg,9
+amarillo_metrics-0.0.6.dist-info/RECORD,,
