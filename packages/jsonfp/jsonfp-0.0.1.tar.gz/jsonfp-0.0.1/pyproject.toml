@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=41.6","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jsonfp"
+version = "0.0.1"
+authors = [
+    { name="4d", email="4d@tumbleweeds.xyz"}
+]
+description = "TBD"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "setuptools >= 41.6"
+]
+
+[tool.setuptools]
+packages = ["jsonfp"]
+package-dir = {""="src"} 

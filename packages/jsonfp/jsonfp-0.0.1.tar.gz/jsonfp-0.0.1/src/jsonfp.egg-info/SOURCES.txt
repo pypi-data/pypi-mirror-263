@@ -1,0 +1,7 @@
+pyproject.toml
+src/jsonfp/__init__.py
+src/jsonfp.egg-info/PKG-INFO
+src/jsonfp.egg-info/SOURCES.txt
+src/jsonfp.egg-info/dependency_links.txt
+src/jsonfp.egg-info/requires.txt
+src/jsonfp.egg-info/top_level.txt
