@@ -1,0 +1,8 @@
+setup.py
+fagr/__init__.py
+fagr/fagr.py
+fagr.egg-info/PKG-INFO
+fagr.egg-info/SOURCES.txt
+fagr.egg-info/dependency_links.txt
+fagr.egg-info/entry_points.txt
+fagr.egg-info/top_level.txt
