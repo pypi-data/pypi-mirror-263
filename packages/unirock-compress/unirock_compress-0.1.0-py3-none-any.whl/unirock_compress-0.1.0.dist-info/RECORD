@@ -1,0 +1,8 @@
+compress/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compress/__main__.py,sha256=tVT76NJdWRA3H1BN60jIrbvFotSTd_Gz_N6GIByWcR8,1072
+compress/core.py,sha256=RNQyqyZc3Nu0z3J88fAYzjDIAOzTN9LMpROoPI1QFTM,940
+compress/main.py,sha256=tZtYecxK5X8KOUH_Pgf3VjwYE0DNFmSe5ASkgJarvmc,2011
+compress/setup.py,sha256=WgzdhQbx_YeoixHcgFyd1TYittR2FnE8JxNA6y2QW0g,172
+unirock_compress-0.1.0.dist-info/METADATA,sha256=acE8M7TukAWJQTA8ML5mET9MqqKZNcTDgN27Mjd4030,427
+unirock_compress-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+unirock_compress-0.1.0.dist-info/RECORD,,
