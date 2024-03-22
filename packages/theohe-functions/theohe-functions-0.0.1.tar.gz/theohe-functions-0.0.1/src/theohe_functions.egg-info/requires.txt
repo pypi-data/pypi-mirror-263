@@ -1,0 +1,8 @@
+bs4
+datetime
+numpy
+pandas
+plotly
+requests
+yfinance
+ta
