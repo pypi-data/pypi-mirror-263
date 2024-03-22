@@ -1,0 +1,10 @@
+src/__init__.py,sha256=nVwknZ7FH3lrzYtFR31IqloPzAFxBuSVcaGXK67ewdE,663
+src/db.sqlite3,sha256=cieHiOwvXHE2yRxMos0ZFTmJ-atOKH6jNzR7LnS1MeM,131072
+src/djangor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/djangor/asgi.py,sha256=TI4iQ5j4jGE-auloaIA-nYzmLev0RfQVlc0mlRg2lew,391
+src/djangor/settings.py,sha256=o3jXpwKV_DKbyJpG-9otc9LBp9HqjSATAKcGkdSbX4Q,3240
+src/djangor/urls.py,sha256=tW7_KbmQvB7yGjuIeFwL_K1SpJ-hSCUeuOCN4tfh5G8,749
+src/djangor/wsgi.py,sha256=LVS6p0leuVXX4GyfUy6kkfpemXlW7klGLPJltQpubpk,391
+testdj_project-0.1.0.dist-info/METADATA,sha256=-qaS5z0k0QX3nhffVPADPsIMlXj6bYPxsPDPa0ou3QA,235
+testdj_project-0.1.0.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+testdj_project-0.1.0.dist-info/RECORD,,
