@@ -1,0 +1,11 @@
+uxsim/__init__.py,sha256=ixz7XW6Xn-ovoRlA0dE0Sh_CM-ZD_M-Pwz-zh8OeQUA,168
+uxsim/utils.py,sha256=XhtFJwg7GhAHGeDe56OZaCvmFjHNXe1tsjqaLCKHWaQ,3093
+uxsim/uxsim.py,sha256=ZSMfh2aZNNjGS8cqdxcsf-H70DFz3PcPpcrR9g0L-88,138145
+uxsim/utils/Inconsolata.otf,sha256=FWHmFsQUobgtbm370Y5XJv1lAokTreGR5fo4tuw3Who,58464
+uxsim/utils/Licence_of_Inconsolata.otf.txt,sha256=vUyBqFaIx-IynU49We-nob9PY9cUGd5wb5onJVu-rCc,4486
+uxsim/utils/README.md,sha256=IxyIs7Gq8resjrpTQ_6fvwxEbcwLBr-A1iKEABkcsuA,47
+uxsim-1.0.8.dist-info/LICENSE,sha256=AHb6Rlb-dtlDacHkz2WxQ2f4e51JMUuxdmnVX9tFnAw,1086
+uxsim-1.0.8.dist-info/METADATA,sha256=r8HeEsWolP5HYP4IcblJczbj9TS_gPemsnkk4-oNa0E,12652
+uxsim-1.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+uxsim-1.0.8.dist-info/top_level.txt,sha256=ENr7XbPnTJbjMTcDUz_go9qwkrgLmHZzUOIb7Z_rq2k,6
+uxsim-1.0.8.dist-info/RECORD,,
