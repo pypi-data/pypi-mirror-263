@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/warlocksfx.py
+src/warlockSFX.egg-info/PKG-INFO
+src/warlockSFX.egg-info/SOURCES.txt
+src/warlockSFX.egg-info/dependency_links.txt
+src/warlockSFX.egg-info/requires.txt
+src/warlockSFX.egg-info/top_level.txt
