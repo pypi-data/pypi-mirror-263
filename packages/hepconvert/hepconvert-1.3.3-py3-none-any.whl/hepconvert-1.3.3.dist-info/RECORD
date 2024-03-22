@@ -1,0 +1,17 @@
+hepconvert/__init__.py,sha256=kHZM6t6rfW7SsYXb766oz5R6kcWxNsj8ulasvtOkiQs,566
+hepconvert/__main__.py,sha256=8LA81IAUcxkkqHh_ITgE9Ubmb0mWSsUB6LPWOaPHVq8,16933
+hepconvert/_utils.py,sha256=Pp6XeFyqNNPlos2wMvbD7z8zuVFLVj5AeMDtY80xYrg,3795
+hepconvert/_version.py,sha256=VriGPi1kVXIBM0YGAuhpE803XR-FNq1JvTW1Kz2us08,411
+hepconvert/_version.pyi,sha256=j5kbzfm6lOn8BzASXWjGIA1yT0OlHTWqlbyZ8Si_o0E,118
+hepconvert/copy_root.py,sha256=z9XnLgWWSDxnF_-pavVmLAhoWGjV7hWouHPcUxx-_Ew,12768
+hepconvert/histogram_adding.py,sha256=f4MOxWnXNTRSPRf3j3c6rnVf-4u9nz5XKk31bhLcsvY,34327
+hepconvert/merge.py,sha256=aKV7b1xS1bagBQS7-hDO7a4wFBMaQMVX-S9zLZJpXJM,16169
+hepconvert/parquet_to_root.py,sha256=0Pfs3QAh22K99v2n6LNrbwOTIrA7aHp7UGkTaIFixzo,4781
+hepconvert/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hepconvert/root_to_parquet.py,sha256=UxPfVYykplPmMCRnyXosh2ME-5jWRnxJIwNnam8sLVs,15763
+hepconvert/write_root.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hepconvert-1.3.3.dist-info/METADATA,sha256=mZZ-eocIi-3O9XLMmHzqvxAwR6PPxjIe5PrcVpsQJnI,4252
+hepconvert-1.3.3.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+hepconvert-1.3.3.dist-info/entry_points.txt,sha256=_B7eMKzNNhU_-dhhhZ8NRvIUA71yNvWHWlyY_7EBPcA,56
+hepconvert-1.3.3.dist-info/licenses/LICENSE,sha256=GOaGDfU4p4Fs1LEzXcFi5ydjdSMeWkICZFjs96yTTkE,1523
+hepconvert-1.3.3.dist-info/RECORD,,
