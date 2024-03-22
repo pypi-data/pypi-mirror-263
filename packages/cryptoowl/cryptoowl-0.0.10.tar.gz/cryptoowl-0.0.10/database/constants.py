@@ -1,0 +1,6 @@
+# Read these from env as well
+REGION_NAME = 'abcd'
+SOCIAL_INTELLIGENCE_DB_SECRET_ID = 'abcd'
+SOCIAL_INTELLIGENCE_READ_DB_SECRET_ID = 'abcd'
+CACHE_QUERY_SECRET_ID = 'abcd'
+
