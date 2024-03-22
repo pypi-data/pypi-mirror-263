@@ -1,0 +1,3 @@
+[console_scripts]
+ld-flag-lookup=ld_flag_lookup.main:main
+
