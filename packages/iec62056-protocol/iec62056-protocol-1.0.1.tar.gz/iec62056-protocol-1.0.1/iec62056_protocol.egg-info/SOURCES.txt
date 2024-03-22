@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+iec62056_protocol.egg-info/PKG-INFO
+iec62056_protocol.egg-info/SOURCES.txt
+iec62056_protocol.egg-info/dependency_links.txt
+iec62056_protocol.egg-info/requires.txt
+iec62056_protocol.egg-info/top_level.txt
