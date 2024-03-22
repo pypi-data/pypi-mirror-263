@@ -1,0 +1,13 @@
+bibtexparser
+requests
+tqdm
+pandas
+titlecase
+orgparse
+
+[dev]
+black
+pytest
+build
+twine
+flake8
