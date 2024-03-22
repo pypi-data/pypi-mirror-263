@@ -1,0 +1,71 @@
+[tool.poetry]
+# Poetry configuration.
+# Some configuration options here could be moved to [project] once Poetry adds full
+# support for PEP 621.
+name = "virushostinteractionpredictor"
+version = "1.0.0"
+description = ""
+packages = [{ include = "vhip", from = "src" }]
+authors = ["Eric Bastien <gbastien@umich.edu>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+biopython = "*"
+numpy = "*"
+pandas = "*"
+scikit-learn = "*"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "*"
+matplotlib = "*"
+seaborn = "*"
+
+[tool.poetry.group.test.dependencies]
+coverage = { version = "==7.4.4", extras = ["toml"] }
+pytest = "==8.1.1"
+pyright = "==1.1.354"
+ruff = "==0.3.3"
+pandas-stubs = "==2.2.1.240316"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+# Ruff configuration
+
+# Allow imports relative to the "src" directory
+src = ["src"]
+
+# Specify a minimum Python version to target
+target-version = "py39"
+
+[tool.ruff.lint]
+# On top of the default `select` (E, F), enable pydocstyle (D), isort (I), pycodestyle Warning (W).
+extend-select = ["D", "I", "W"]
+
+# Ignore redundant rules when using formatter
+ignore = ["D206", "D300", "W191"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.pyright]
+typeCheckingMode = "strict"
+
+[tool.pytest.ini_options]
+## pytest configuration
+
+# Specify test directory so pytest does not have to search
+testpaths = ["tests"]
+
+[tool.coverage]
+## Coverage.py configuration
+
+branch = true
+concurrency = "multiprocessing"
+
+[tool.coverage.run]
+source = ["src"]
