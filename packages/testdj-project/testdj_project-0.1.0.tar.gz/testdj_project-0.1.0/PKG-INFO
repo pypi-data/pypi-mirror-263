@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: testdj_project
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.8
+Requires-Dist: djangoprojectstest>=0.1.0
+Description-Content-Type: text/markdown
+
+# testdj
+
+Describe your project here.

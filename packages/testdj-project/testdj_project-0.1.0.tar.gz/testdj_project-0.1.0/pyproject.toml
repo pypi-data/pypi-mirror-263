@@ -1,0 +1,29 @@
+[project]
+name = "testdj_project"
+version = "0.1.0"
+description = "Add your description here"
+dependencies = [
+    "djangoprojectstest>=0.1.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.rye.scripts]
+runserver = { cmd= "python src/__init__.py runserver 0.0.0.0:8000" }
+shell = { cmd= "python src/__init__.py shell" }
+makemigrations = { cmd= "python src/__init__.py makemigrations" }
+migrate = { cmd= "python src/__init__.py migrate" }
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
