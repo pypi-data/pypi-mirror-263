@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+FakeFarsi/__init__.py
+FakeFarsi/fakefarsi.py
+fakefarsi.egg-info/PKG-INFO
+fakefarsi.egg-info/SOURCES.txt
+fakefarsi.egg-info/dependency_links.txt
+fakefarsi.egg-info/top_level.txt
