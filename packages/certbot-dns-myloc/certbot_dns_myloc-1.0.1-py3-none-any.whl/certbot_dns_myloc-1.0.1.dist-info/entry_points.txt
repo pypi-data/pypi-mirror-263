@@ -1,0 +1,2 @@
+[certbot.plugins]
+dns-myloc = certbot_dns_myloc.dns_myloc:Authenticator

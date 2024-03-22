@@ -1,0 +1,9 @@
+certbot_dns_myloc/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+certbot_dns_myloc/dns_myloc.py,sha256=4_Gdl56zpsaqPUeeWvKONqRg605jL11ahTjglYvq4OY,6059
+certbot_dns_myloc/version.py,sha256=3KXfAcA5rzzQXMtfwpHphgbJNZdA0XWaW96kdWVSZJw,22
+certbot_dns_myloc-1.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+certbot_dns_myloc-1.0.1.dist-info/METADATA,sha256=YlW3syL3J50V6yFtJtIk8SP5z_DjD8nwgKP82SQcwU4,1280
+certbot_dns_myloc-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+certbot_dns_myloc-1.0.1.dist-info/entry_points.txt,sha256=vqSUOK_M4l2rRMI9WfZb6DoTtVh2qluyDu8BuLsBW-Y,72
+certbot_dns_myloc-1.0.1.dist-info/top_level.txt,sha256=OMGgRMZ04fuQsreeOF35pFPHjv7g-RMSLDeYTr2QYUU,18
+certbot_dns_myloc-1.0.1.dist-info/RECORD,,
