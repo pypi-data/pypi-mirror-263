@@ -1,0 +1,8 @@
+numpy
+scipy
+
+[test]
+flake8
+pytest
+opencv-python
+pandas
