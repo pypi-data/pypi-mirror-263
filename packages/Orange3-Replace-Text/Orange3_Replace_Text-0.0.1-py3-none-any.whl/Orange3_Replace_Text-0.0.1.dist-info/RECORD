@@ -1,0 +1,11 @@
+Orange3_Replace_Text-0.0.1-py3.9-nspkg.pth,sha256=UYCZtLWueceGiAlmXKRJUZ0TWQEubpPoQ1pVnAAsME0,502
+orangecontrib/replace_text/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orangecontrib/replace_text/widgets/__init__.py,sha256=l3tQMZpsMe8zO1QBPXbcuB2dB60jKXqPvsfKMkxjK4I,965
+orangecontrib/replace_text/widgets/owreplace_text.py,sha256=1cRg2fGZCCPeGrEe03v2ornxezy9OXl3i_ZzQZb6joM,7479
+orangecontrib/replace_text/widgets/icons/replace_text.svg,sha256=YrM1xd5S6cuIKvUkZRUY9cJbfwnfwDYVhJFM3Hv8QgA,3666
+Orange3_Replace_Text-0.0.1.dist-info/METADATA,sha256=4VAg94DpPipodkTgBNUuz78rt2iMkzMGmNNaVFtOydE,1270
+Orange3_Replace_Text-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+Orange3_Replace_Text-0.0.1.dist-info/entry_points.txt,sha256=1fdmJsfKPDnePCiBHgTx8fpOHRg4S7yBwgAB8nQoL2E,221
+Orange3_Replace_Text-0.0.1.dist-info/namespace_packages.txt,sha256=Iut-JTfT11SZHHm77_ZeszD7pZDWXcTweCbvrJpqDyQ,14
+Orange3_Replace_Text-0.0.1.dist-info/top_level.txt,sha256=Iut-JTfT11SZHHm77_ZeszD7pZDWXcTweCbvrJpqDyQ,14
+Orange3_Replace_Text-0.0.1.dist-info/RECORD,,

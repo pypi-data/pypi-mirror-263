@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: Orange3-Replace-Text
+Version: 0.0.1
+Summary: Orange3 add-on for replacing text.
+Home-page: https://github.com/chrislee35/orange3-replace-text
+Author: Chris Lee
+Author-email: github@chrislee.dhs.org
+License: GPL3+
+Keywords: orange3 add-on
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+Requires-Dist: AnyQt
+Requires-Dist: Orange3 >=3.36.0
+Requires-Dist: orange-canvas-core >=0.1.1
+Requires-Dist: orange-widget-base >=4.22.0
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: recommonmark ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+# Orange3-Replace-Text
+
+This simple widget allows you to replace words in a Corpus with alternatives.
+
+Within the Add-ons installer, click on "Add more..." and type in Orange3-Replace-Text
+
+![Installation Screenshot](https://github.com/chrislee35/orange3-replace-text/blob/main/imgs/install_orange3_replace_text.png?raw=true)

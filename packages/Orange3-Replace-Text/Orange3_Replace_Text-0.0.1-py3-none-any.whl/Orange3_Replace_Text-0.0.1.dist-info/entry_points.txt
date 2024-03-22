@@ -1,0 +1,8 @@
+[orange.canvas.help]
+html-index = orangecontrib.replace_text.widgets:WIDGET_HELP_PATH
+
+[orange.widgets]
+Replace Text = orangecontrib.replace_text.widgets
+
+[orange3.addon]
+Orange3-Replace-Text = orangecontrib.replace_text
