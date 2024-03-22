@@ -1,0 +1,36 @@
+
+[:python_version > "3.7.0"]
+numpy
+scipy
+ngsolve
+configparser
+pyparsing
+
+[all]
+
+[all:python_version > "3.7"]
+pytest
+pytest-xdist
+tabulate
+edt
+
+[edt]
+
+[edt:python_version > "3.7"]
+edt
+
+[tab]
+
+[tab:python_version > "3.7"]
+tabulate
+
+[test]
+
+[test:python_version > "3.7"]
+pytest
+
+[test_ext]
+
+[test_ext:python_version > "3.7"]
+pytest
+pytest-xdist
