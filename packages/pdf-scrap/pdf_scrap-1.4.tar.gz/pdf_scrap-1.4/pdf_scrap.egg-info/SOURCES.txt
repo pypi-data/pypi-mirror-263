@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+pdf_scrap/__init__.py
+pdf_scrap.egg-info/PKG-INFO
+pdf_scrap.egg-info/SOURCES.txt
+pdf_scrap.egg-info/dependency_links.txt
+pdf_scrap.egg-info/requires.txt
+pdf_scrap.egg-info/top_level.txt
