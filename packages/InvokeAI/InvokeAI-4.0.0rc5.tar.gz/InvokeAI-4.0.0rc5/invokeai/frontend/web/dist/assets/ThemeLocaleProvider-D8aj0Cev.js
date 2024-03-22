@@ -1,0 +1,1 @@
+import{h as s,A as n,kr as i,ks as c,C as o,kt as u,ku as d,kv as m}from"./index-DXNGCV-2.js";function x({children:t}){const{i18n:r}=n(),e=r.dir(),a=s.useMemo(()=>i({...c,direction:e}),[e]);return s.useEffect(()=>{document.body.dir=e},[e]),o.jsx(u,{theme:a,toastOptions:d,children:o.jsx(m,{children:t})})}const h=s.memo(x);export{h as default};
