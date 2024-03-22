@@ -1,0 +1,16 @@
+odoo/addons/ssi_fleet_work_order_stock/README.rst,sha256=3Me_KV8q4f6Bm3oF0Ik6-syYwVyPz8K-mBxAdWRngpA,1308
+odoo/addons/ssi_fleet_work_order_stock/__init__.py,sha256=FbIBhTxE0B9t4Qy2J-JOW-Fc0f1Xz43AL15wmxKbCO4,172
+odoo/addons/ssi_fleet_work_order_stock/__manifest__.py,sha256=ve_IvAodR0wYThwuHMju7rywAf0nV822ob_2-idw6lI,627
+odoo/addons/ssi_fleet_work_order_stock/models/__init__.py,sha256=8AJlJhS_3Q2CMuRigelllh0xPybUps6nMlOi6L7XSzQ,268
+odoo/addons/ssi_fleet_work_order_stock/models/fleet_work_order.py,sha256=EK8_eY5nBa_FJ02Qg-Gq3FCRO7LRXTV6g8HfG0gCQvQ,3254
+odoo/addons/ssi_fleet_work_order_stock/models/fleet_work_order_manifest.py,sha256=4oPLlnjsxQUr5s_0EcOXEyDxpP7_OjOGKX4M6oddaiA,748
+odoo/addons/ssi_fleet_work_order_stock/models/fleet_work_order_type.py,sha256=GxNs0lBcEOOIomduFizFHhALTHpRTnhxPCSdpog_M3I,1699
+odoo/addons/ssi_fleet_work_order_stock/models/stock_picking.py,sha256=NQeaeEDjmDaUpeeUydnorqigDz3vYmTIzFXJhEhW5Is,392
+odoo/addons/ssi_fleet_work_order_stock/security/ir.model.access.csv,sha256=3Yj6itxA0nqwypsn5lLkxaMwXJ1qStyq25tZkOxbbl0,237
+odoo/addons/ssi_fleet_work_order_stock/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo/addons/ssi_fleet_work_order_stock/views/fleet_work_order_type_views.xml,sha256=PMJdf-T6P9nbuFNqzrUjFwic4MF6OrJEAwO1tnz6OIU,2075
+odoo/addons/ssi_fleet_work_order_stock/views/fleet_work_order_views.xml,sha256=Aa6nN2HpkJ8Vi-Yd72vLU1AKRFxSfAJCAzVbHrziZIw,2617
+odoo14_addon_ssi_fleet_work_order_stock-14.0.2.5.0.dist-info/METADATA,sha256=ePcuFGq90J-P91Lwo4zkfsnYoutBLv56kXVwcGb__nI,1912
+odoo14_addon_ssi_fleet_work_order_stock-14.0.2.5.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+odoo14_addon_ssi_fleet_work_order_stock-14.0.2.5.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_fleet_work_order_stock-14.0.2.5.0.dist-info/RECORD,,
