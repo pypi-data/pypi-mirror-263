@@ -1,0 +1,11 @@
+django_projects/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_projects/djangos/db.sqlite3,sha256=FXbf52-Ci8q3naIroPwouU8ubE1Yxx-9uBpSEBGGOAg,131072
+django_projects/djangos/manage.py,sha256=SHl2zfUlhlGY7x9jLsu5UlB9qhvjfQchp_c8fpMarek,663
+django_projects/djangos/djangos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_projects/djangos/djangos/asgi.py,sha256=c8pFRayVq9ia0D0qwPwM5wZZlqP3nBJh2ROtKE1q4BY,391
+django_projects/djangos/djangos/settings.py,sha256=CWzTe3uLglUQHfUu6E_a09EtM216Z1EzkcJz4vqZ4I4,3243
+django_projects/djangos/djangos/urls.py,sha256=2gTBDaMWkOvdntH49SykAn6hjfylIUyICHnOI5-mn2s,749
+django_projects/djangos/djangos/wsgi.py,sha256=-qPeE7GfUjP-B6lqDZAbozB1PHtTA9W-qjzKNiAS4aw,391
+djangoprojectstest-0.1.0.dist-info/METADATA,sha256=QLjdEGycRPdyj99vuHfQAU4xtKN9S1MFkcaBMQEx2XE,296
+djangoprojectstest-0.1.0.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+djangoprojectstest-0.1.0.dist-info/RECORD,,

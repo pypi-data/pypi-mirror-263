@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: djangoprojectstest
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.8
+Requires-Dist: django==3.2
+Requires-Dist: ipython>=8.12.3
+Requires-Dist: keyring>=24.3.1
+Description-Content-Type: text/markdown
+
+# django-projects
+
+Describe your project here.
