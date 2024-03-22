@@ -1,0 +1,6 @@
+torch>=2.0.0
+scikit-learn
+matplotlib
+torchdiffeq==0.2.3
+UMNN
+wandb
