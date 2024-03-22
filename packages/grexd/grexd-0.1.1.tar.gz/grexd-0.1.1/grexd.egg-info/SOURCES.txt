@@ -1,0 +1,16 @@
+AUTHORS
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+grexd.egg-info/PKG-INFO
+grexd.egg-info/SOURCES.txt
+grexd.egg-info/dependency_links.txt
+grexd.egg-info/requires.txt
+grexd.egg-info/top_level.txt
+src/bin/grexd
+src/grexd/__init__.py
+src/grexd/py.typed
+tests/test_grexd.py
