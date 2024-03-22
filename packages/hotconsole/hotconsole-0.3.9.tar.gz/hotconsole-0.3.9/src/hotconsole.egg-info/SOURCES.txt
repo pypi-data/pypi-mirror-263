@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/hotconsole.egg-info/PKG-INFO
+src/hotconsole.egg-info/SOURCES.txt
+src/hotconsole.egg-info/dependency_links.txt
+src/hotconsole.egg-info/requires.txt
+src/hotconsole.egg-info/top_level.txt
