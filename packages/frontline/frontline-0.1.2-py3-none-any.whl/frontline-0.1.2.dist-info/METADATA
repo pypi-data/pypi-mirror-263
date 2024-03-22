@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: frontline
+Version: 0.1.2
+Summary: Rapid factory testing with comprehesive output.
+Keywords: testing ict iot embedded
+Home-page: https://github.com/JaagupAverin/frontline
+Author-Email: Jaagup Averin <jaagup.averin@gmail.com>
+License: LICENSE.md
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Typing :: Typed
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Framework :: AnyIO
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Acceptance
+Classifier: Intended Audience :: Manufacturing
+Project-URL: Repository, https://github.com/JaagupAverin/frontline
+Project-URL: Homepage, https://github.com/JaagupAverin/frontline
+Requires-Python: <4.0,>=3.12
+Requires-Dist: litestar[jinja,opentelemetry,pydantic,sqlalchemy,standard,structlog]~=2.6
+Requires-Dist: aiosqlite~=0.19
+Requires-Dist: anyio~=4.2
+Requires-Dist: opentelemetry-api~=1.23.0
+Requires-Dist: opentelemetry-sdk~=1.23.0
+Requires-Dist: opentelemetry-exporter-otlp~=1.23.0
+Requires-Dist: opentelemetry-instrumentation-system-metrics==0.44b0
+Requires-Dist: opentelemetry-instrumentation-jinja2==0.44b0
+Requires-Dist: pydantic-settings~=2.2
+Description-Content-Type: text/markdown
+
+# frontline
+Rapid factory testing with comprehesive output.
+
+*Work in progress.*
