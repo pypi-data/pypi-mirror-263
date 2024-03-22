@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "trustplutusmr"
+version = "1.6"
+description = "Entity Market Research"
+authors = ["Rolf Lobo"]
+license = "OSI Approved :: GNU General Public License v3 (GPLv3)"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.13"
+python-iso639 = "^2024.2.7"
+beautifulsoup4 = "^4.9.3"
+langdetect = "^1.0.9"
+loga = "^1.0.0"
+lxml = "^5.1.0"
+newspaper3k = "^0.2.8"
+nlpretext = "^1.2.2"
+xhtml2pdf = "^0.2.15"
+huggingface-hub = "^0.21.4"
+safetensors = "^0.4.2"
+tokenizers = "^0.15.2"
+transformers = "^4.38.2"
+justext = "^3.0.0"
+courlan = "^1.0.0"
+torch = "^2.2.1"
+torchvision = "^0.17.1"
+torchaudio = "^2.2.1"
+gnews = "^0.3.6"
+urllib3 = "^1.26.18"
+chardet = "^5.2.0"
+requests = "^2.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
