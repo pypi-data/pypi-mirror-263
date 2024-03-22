@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: GoodEnoughFor
+Version: 0.0.0a0
+Summary: Various software libraries and algorithms that are good enough for us.
+Author: Doug McGeehan
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+License-File: LICENSE.txt

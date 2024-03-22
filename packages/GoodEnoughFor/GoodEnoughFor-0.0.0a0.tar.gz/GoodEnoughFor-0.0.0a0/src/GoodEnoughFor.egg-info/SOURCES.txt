@@ -1,0 +1,8 @@
+LICENSE.txt
+pyproject.toml
+setup.cfg
+src/GoodEnoughFor.egg-info/PKG-INFO
+src/GoodEnoughFor.egg-info/SOURCES.txt
+src/GoodEnoughFor.egg-info/dependency_links.txt
+src/GoodEnoughFor.egg-info/top_level.txt
+src/goodenoughfor/__init__.py
