@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: CrypGuge
+Version: 0.0.1
+Summary: a text tic tac toe game, special game for tea https://app.tea.xyz/
+Home-page: https://github.com/CryptoGu1/Guge.git
+Author: CryptoGu
+Author-email: Kriptoairdrop9@gmail.com
+Project-URL: Homepage, https://github.com/CryptoGu1/Guge.git
+Project-URL: Source, https://github.com/CryptoGu1/Guge.git
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Requires-Dist: CryptoGuCrypDorytea

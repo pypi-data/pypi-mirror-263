@@ -1,0 +1,8 @@
+README.md
+setup.py
+CrypGuge.egg-info/PKG-INFO
+CrypGuge.egg-info/SOURCES.txt
+CrypGuge.egg-info/dependency_links.txt
+CrypGuge.egg-info/entry_points.txt
+CrypGuge.egg-info/requires.txt
+CrypGuge.egg-info/top_level.txt
