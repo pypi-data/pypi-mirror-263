@@ -1,0 +1,8 @@
+laspy>=2.1.2
+numpy>=1.19.5
+matplotlib>=3.0.3
+opencv-python>=4.8.1
+scipy>=1.5.4
+numba>=0.53.1
+logging>=0.5.1
+prettytable>=2.5.0
