@@ -1,0 +1,2 @@
+recursive-include weeeTest *.txt *.py *.rst *.html *.json *.yaml *.csv *.md *.xlsx *.ini
+exclude docs, test, reports, .gitignore, .gitlab-ci.yml, .git, .gitlab, __pycache__, .pytest_cache, .coverage, .DS_Store, .vscode, .idea, .mypy_cache, .tox, .venv, .mypy_cache, .pytest

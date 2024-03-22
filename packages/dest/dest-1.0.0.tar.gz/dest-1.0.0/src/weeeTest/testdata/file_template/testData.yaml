@@ -1,0 +1,16 @@
+server:
+  age: 10
+  name: zhangsan
+spring:
+  datasource:
+    - lest:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://dev2.qa.sayweee.net:3307/lest
+        username: root
+        password: 1Password123@mysql1
+    - ms:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://dev2.qa.sayweee.net:3307/metersphere
+        username: root1
+        password: Password123@mysql1
+

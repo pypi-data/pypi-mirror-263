@@ -1,0 +1,91 @@
+# pdm publish -r https://maven.sayweee.net/repository/pypi-repo/ -u deployment -P deployment@123
+# 打包命令
+[project]
+name = "dest"
+description = "weeeTest automation testing framework based on pytest."
+keywords = [
+    "dest",
+]
+authors = [
+    { name = "Yingqing Shan", email = "yingqing.shan@sayweee.com" },
+    { name = "jialing chen", email = "jialing.chen@sayweee.com" },
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "MIT" }
+
+package-dir = "src"
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+dependencies = [
+    "PyMySQL~=1.0.2",
+    "redis~=4.5.5",
+    "PyYAML~=6.0",
+    "requests~=2.31.0",
+    "openpyxl~=3.1.2",
+    "pytest~=7.4.0",
+    "deepdiff~=6.3.0",
+    "Jinja2~=3.1.2",
+    "loguru~=0.7.0",
+    "click~=8.1.3",
+    "jmespath~=1.0.1",
+    "jsonschema~=4.17.3",
+    "python-dateutil~=2.8.2",
+    "rptree~=0.1.1",
+    "boto3~=1.26.130",
+    "parameterized~=0.9.0",
+    "genson~=1.2.2",
+    "Faker~=18.7.0",
+    "sshtunnel~=0.4.0",
+    "asyncio~=3.4.3",
+    "aiofiles~=23.1.0",
+    "aiocsv~=1.2.4",
+    #    "spring-config-client>=1.0.0",
+]
+
+dynamic = ["version"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "src/weeeTest/__init__.py"
+
+#[tool.setuptools_scm]
+#write_to = "src/weeeTest/__init__.py"
+
+# 排除文件
+[tool.hatch.build.targets.sdist]
+exclude = [
+    "/.github",
+]
+
+
+[project.scripts]
+weeeTest = "weeeTest.cli:main"
+
+[project.entry-points.pytest11]
+weeetest_pytest = "weeeTest.pytest_plugin"
+
+
+[tool.mypy]
+python_version = "3.11"
+show_error_codes = true
+strict = true

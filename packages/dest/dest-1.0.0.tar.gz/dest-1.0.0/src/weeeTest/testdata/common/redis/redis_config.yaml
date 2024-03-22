@@ -1,0 +1,25 @@
+redis:
+  local:
+    host: 'localhost'
+    password: '123456'
+    user: ""
+    db: 0
+    port: 6379
+  dev:
+    host: 'dev2.qa.sayweee.net'
+    password: 'Password123@redis'
+    user:
+    db: 1
+    port: 6379
+
+
+
+
+
+
+
+
+
+
+
+

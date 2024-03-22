@@ -1,0 +1,31 @@
+mysql:
+  local:
+    host: 'localhost'
+    user: 'root'
+    password: '123456'
+    db: 'test_db'
+    port: 3306
+  dev:
+    host: 'dev2.qa.sayweee.net'
+    user: 'root'
+    password: 'Password123@mysql'
+    db: 'lest'
+    port: 3307
+  tb1:
+    host: 'weee.db.tb1.sayweee.net'
+    user: 'yingqing.shan'
+    password: 'VtXmZT^36stRk##E'
+    db: 'weee'
+    port: 3306
+
+
+
+
+
+
+
+
+
+
+
+
