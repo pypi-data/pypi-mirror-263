@@ -1,0 +1,2 @@
+[console_scripts]
+tbm = tbm.main:main
