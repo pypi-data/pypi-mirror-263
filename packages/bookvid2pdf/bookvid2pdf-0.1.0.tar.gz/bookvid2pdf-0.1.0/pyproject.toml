@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "bookvid2pdf"
+version = "0.1.0"
+description = "Convert a video of the pages of a book being flipped to a PDF."
+authors = ["Dilith Jayakody"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+opencv-python-headless = "^4.9.0.80"
+scipy = "^1.12.0"
+fpdf2 = "^2.7.8"
+tqdm = "^4.66.2"
+pytesseract = "^0.3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
