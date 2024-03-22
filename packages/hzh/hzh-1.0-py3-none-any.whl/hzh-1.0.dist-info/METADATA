@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: hzh
+Version: 1.0
+Summary: Get the high-frequency words in the paper to the local txt file, which is convenient to pass the word book to recite
+Home-page: UNKNOWN
+Author: leander
+Author-email: 1034235826@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Requires-Dist: pypdf
+Requires-Dist: tqdm
+Requires-Dist: nltk
+
+# Get the high-frequency words in the paper to the local txt file, which is convenient to pass the word book to recite
+'''
+sample:
+pip install hzh
+hzh.get_words_from_pdf(pdf_path, output_path)
+'''
+
