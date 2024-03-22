@@ -1,0 +1,14 @@
+kernel_install/__init__.py,sha256=V9foy1uozdxV8nKaHPVYjbxRHucppFxG-rWshx7aYas,1651
+kernel_install/cli.py,sha256=rzDYEklawGrqdOhLFlngL06TAsJ5Bvio7dLdW57GV10,2260
+kernel_install/install.py,sha256=C4AgU7rZymYaJYlj4D-3_ITDXpKrYx8nwxFvxzZrjlI,5845
+kernel_install/logger.py,sha256=1XwgG8NrH_GQT5r_O7AEcA9u_uNQsMYhQncBWV2l4Jg,497
+kernel_install/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kernel_install/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kernel_install/tests/conftest.py,sha256=s9vw8mdRFNgRAZArYOUWB-mHWAyu5maXjNhet6xmZnY,764
+kernel_install/tests/test_kernel_cli.py,sha256=cB8VZbPPE2LcxAsPx33T_JZTswOTyGaGg1WT1uYCv7k,269
+kernel_install/tests/test_kernel_creation.py,sha256=0qgRJgm6IxD3n6wo6n0z2TI-UVDYVq_JAHVbjpL2kz8,1476
+kernel_install-2404.0.0.dist-info/entry_points.txt,sha256=kI4eCJbdY88ewboBgDxIrQJzxa3fkjtqKd6hVzsI5sk,65
+kernel_install-2404.0.0.dist-info/LICENSE,sha256=nf1y313jEbsJ_XivVqrOdYz2DoFe6HDzC1RS8MpQJns,1531
+kernel_install-2404.0.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+kernel_install-2404.0.0.dist-info/METADATA,sha256=FlF5zqnK0Z-XUm5DS5x3yaoK28ZB7QDkPWrKfKv5SH8,3874
+kernel_install-2404.0.0.dist-info/RECORD,,

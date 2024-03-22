@@ -1,0 +1,3 @@
+[console_scripts]
+jupyter-kernel-install=kernel_install.cli:cli
+
