@@ -1,0 +1,8 @@
+pyyaml
+pyaml-env
+python-dotenv
+
+[dev]
+build
+black
+bumpver
