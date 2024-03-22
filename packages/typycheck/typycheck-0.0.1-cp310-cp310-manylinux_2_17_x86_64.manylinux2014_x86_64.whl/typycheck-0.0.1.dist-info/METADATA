@@ -1,0 +1,21 @@
+Metadata-Version: 2.3
+Name: typycheck
+Version: 0.0.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: typer[all]
+Summary: An extremely fast static type checker for Python, written in Rust.
+Keywords: type-checking,type-hints,type-annotations,mypy,pyright,pytype,pyre,rust
+Home-Page: https://github.com/rohaquinlop/typycheck
+Author: Robin Quintero <rohaquinlop301@gmail.com>
+Author-email: Robin Quintero <rohaquinlop301@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/rohaquinlop/typycheck
+
+# 🦦 typycheck
+
+An extremely fast static type checker for Python, written in Rust.
+
