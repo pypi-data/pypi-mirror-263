@@ -1,0 +1,9 @@
+bribrain/__init__.py,sha256=IKVAwPqNxhBpfWQo5gg3UV2b9ajXG37uu0ejPcVdgo0,90
+bribrain/config.py,sha256=DWMdjY9p7UhJ8SVO96RfYmZS1iEw0dsZQeOmLvYoDjE,2456
+bribrain/function.py,sha256=Ixgsp9X1dFqX6ZUbONywvSNkBuGEnZQmXK_aNMhKrrI,6702
+bribrain/ingestion.py,sha256=m_pjaECEJgPRZvrlBwOClyPVuzXuzfvsJzwwdBJKyYM,79822
+bribrain/load.py,sha256=uoSV0TwA_AbePNlPkKpbDv9vCPu4MzINjTQRV5pYLQc,16610
+bribrain-1.0.0.dist-info/METADATA,sha256=thHV4CFcUdd9WghxlS0MCaRduHM1FdYYoWwZSIp8Y4s,522
+bribrain-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bribrain-1.0.0.dist-info/top_level.txt,sha256=MGjGhEY0p_f5iC2nI0Jgc6dULyhrVNlxitjJvFbBaJs,9
+bribrain-1.0.0.dist-info/RECORD,,
