@@ -1,0 +1,8 @@
+README.md
+setup.py
+mailcheck/__init__.py
+mailcheck/mailcheck.py
+mailcheck.egg-info/PKG-INFO
+mailcheck.egg-info/SOURCES.txt
+mailcheck.egg-info/dependency_links.txt
+mailcheck.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mailcheck
+Version: 0.1.2
+Summary: Python wrapper for the MailCheck.ai API
+Author: Nemuel Wainaina
+Description-Content-Type: text/markdown
+
+# mailcheck
+
+Python wrapper for the MailCheck.ai API
