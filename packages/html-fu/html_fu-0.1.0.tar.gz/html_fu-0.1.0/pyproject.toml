@@ -1,0 +1,37 @@
+[project]
+name = "html-fu"
+version = "0.1.0"
+authors = [
+    { name="Don Parakin", email="don@weaddvalue.ca" },
+]
+description = "Generate HTML with Python code (no templating)"
+keywords = ["html", "generate", "templating"]
+license = {file = "LICENSE"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing :: Markup :: HTML",
+    "Framework :: Django"
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/weaddvalue/html-fu"
+Issues = "https://github.com/weaddvalue/html-fu/issues"
+Documentation = "https://html-fu.readthedocs.org"
+Repository = "https://github.com/weaddvalue/html-fu.git"
+# Changelog = ""
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+#[pypi]
+#username = "__token__"
+
+#[tool.flit.sdist]
+# include = ["doc/"]
+#exclude = ["docs/", "x-dev/"]

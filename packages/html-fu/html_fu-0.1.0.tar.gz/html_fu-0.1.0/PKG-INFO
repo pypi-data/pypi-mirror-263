@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: html-fu
+Version: 0.1.0
+Summary: Generate HTML with Python code (no templating)
+Keywords: html,generate,templating
+Author-email: Don Parakin <don@weaddvalue.ca>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Framework :: Django
+Project-URL: Documentation, https://html-fu.readthedocs.org
+Project-URL: Homepage, https://github.com/weaddvalue/html-fu
+Project-URL: Issues, https://github.com/weaddvalue/html-fu/issues
+Project-URL: Repository, https://github.com/weaddvalue/html-fu.git
+
+# html-fu
+Generate HTML with Python code (not templating)
+
+# image-shrinker
+
+Go directly to the [DOCUMENTATION](https://image-shrinker.readthedocs.io/).
+
+## Description
+Generate HTML with Python code (not templating)
+
+## Documentation
+For instructions on how to install and use *image-shrinker*,
+see [html-fu.readthedocs.io](https://image-shrinker.readthedocs.io/).
+
+## Support
+Open an issue [HERE](https://github.com/weaddvalue/html-fu/issues).
+
+## Contributing
+Contributions welcome.
+
+## Acknowledgment
+Inspired by these libraries: (coming soon)
+
+## License
+MIT Licensed. See [LICENSE](LICENSE).
+
+## Project status
+Actively but lightly maintained by Don Parakin.
+
