@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: Emanbells12ElectropiProject
+Version: 0.3
+Summary: This is my project for the python course of Electro Pi initiative code is provided in github:https://github.com/emanbell12/dataprepkitElectroPi.git
+Requires-Dist: pandas
+Requires-Dist: numpy
+
