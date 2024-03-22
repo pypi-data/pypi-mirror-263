@@ -1,0 +1,9 @@
+score.asyncio-0.3.0-py3.7-nspkg.pth,sha256=Sc8n-AjC4efQEM9N970YYvqthmC_oBMk9MryXA8wB9c,534
+score/asyncio/__init__.py,sha256=p5sKVi-AqJZ1IghiolYq0nxsI7BruYMxr3wdXWhljvQ,1551
+score/asyncio/_init.py,sha256=naZSgW8O-F6uBMhJJ0G65Uut0kFnpxAUvoa0syX98ro,11198
+score/asyncio/worker.py,sha256=OBALmrb64E3q1HkcJB65wo4NUvooC2LQD3icwlVUSXg,6312
+score.asyncio-0.3.0.dist-info/METADATA,sha256=Tq8QYyfoyG2SC8U_ySbAZx0TWLoTDYiilUatYMxNgsE,2505
+score.asyncio-0.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+score.asyncio-0.3.0.dist-info/namespace_packages.txt,sha256=ombXQcxxoHXkOBjIMIwHIdXOU_bRR6fxpkmCd_LLxCQ,6
+score.asyncio-0.3.0.dist-info/top_level.txt,sha256=ombXQcxxoHXkOBjIMIwHIdXOU_bRR6fxpkmCd_LLxCQ,6
+score.asyncio-0.3.0.dist-info/RECORD,,
