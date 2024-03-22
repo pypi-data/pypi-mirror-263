@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pyDXHR
+Version: 1.0.0
+Summary: Collection of tools for working with Deus Ex: Human Revolution's game files
+Author: Vardonir
+License-File: LICENSE
+
+See pydxhr.vardonir.com for more information
