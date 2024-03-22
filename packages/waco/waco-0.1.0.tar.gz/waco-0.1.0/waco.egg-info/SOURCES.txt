@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+waco/__init__.py
+waco/analyzer.py
+waco/sim.py
+waco.egg-info/PKG-INFO
+waco.egg-info/SOURCES.txt
+waco.egg-info/dependency_links.txt
+waco.egg-info/requires.txt
+waco.egg-info/top_level.txt
