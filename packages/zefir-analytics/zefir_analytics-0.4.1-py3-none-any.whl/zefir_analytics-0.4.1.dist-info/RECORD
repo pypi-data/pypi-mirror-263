@@ -1,0 +1,16 @@
+zefir_analytics/__init__.py,sha256=9cpxXc-hXiO179Lkvr4HrYpmjdmcrEdqg5ul7spqxH0,846
+zefir_analytics/zefir_engine.py,sha256=EOjJvPNaBul8-9shRvjK2qco88tkphhnFt6uwwYef1o,6157
+zefir_analytics/_engine/__init__.py,sha256=jmYB90CSMlMIerAEOAPM_ayyP38WpDYp6JceIjNWfpA,1474
+zefir_analytics/_engine/constants.py,sha256=l-8GviM87GPrylS9NG4SwT1QlcbmqxQZLzQxGhiT-Mo,1103
+zefir_analytics/_engine/data_loader.py,sha256=Z4lAEUjqHsEk8XFG_0J9brBAVtIKS0OCEEcDbS2N9_4,3133
+zefir_analytics/_engine/data_queries/__init__.py,sha256=HwS2DT39x4XEUq1jIronrdf0UqM-yKRehXuzYfpJyxs,735
+zefir_analytics/_engine/data_queries/aggregated_consumer_parameters_over_years.py,sha256=Kqkz2bpSPecrmDuY5zUISm1luqmfa4Vuw_JqyZdK9-g,3659
+zefir_analytics/_engine/data_queries/lbs_parameters_over_years.py,sha256=DicGJqkMJr8by4VxI43RnVZCQqZDdhc0YN5_x4K-TOE,4598
+zefir_analytics/_engine/data_queries/line_parameters_over_years.py,sha256=o10KPs1wLo6pf_aim7Eh5q8ob56wV3rLHpxHnemXJ1I,4246
+zefir_analytics/_engine/data_queries/source_parameters_over_years.py,sha256=WLhSmozfDj91NEdUWXizeKpL_idoK_wyOxJ1cd-hplk,27713
+zefir_analytics/_engine/data_queries/utils.py,sha256=1cuB1W3ToqExtXKnEbjosF0M2mEQu7Storsb6HxmJbY,1380
+zefir_analytics-0.4.1.dist-info/LICENSE.txt,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+zefir_analytics-0.4.1.dist-info/METADATA,sha256=oCzgSRPnoh51rsAcatywInqwtX2stKvIkBuAKBV5Qks,42405
+zefir_analytics-0.4.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+zefir_analytics-0.4.1.dist-info/top_level.txt,sha256=Sq5zf-CHRaCBnNcndutqeuB31UURiGYNdpCPkZaZAto,16
+zefir_analytics-0.4.1.dist-info/RECORD,,
