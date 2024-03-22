@@ -1,0 +1,11 @@
+logilab-common<3.0.0,>=2.0.0
+logilab-database<3.0.0,>=2.0.0
+yapps2-logilab>=2.2.1
+logilab-constraint<2.0.0,>=1.0.0
+setuptools
+
+[:python_version < "3.10"]
+importlib_metadata
+
+[:python_version < "3.8"]
+typing-extensions
