@@ -1,0 +1,5 @@
+llama_index/embeddings/alephalpha/__init__.py,sha256=A6aJQhsy-TGuHsTq81-8MFkaAsmAA1T9_po_l31rNWk,106
+llama_index/embeddings/alephalpha/base.py,sha256=NNfzg7-ZVz8KZyrRPOgMFUnIjonHZliwnm56dChDyJI,8616
+llama_index_embeddings_alephalpha-0.1.0.dist-info/METADATA,sha256=Bst1pPG1Cc8TLkmd1nfBQTbjQPyPhhCfnoNeHJU0syc,2812
+llama_index_embeddings_alephalpha-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+llama_index_embeddings_alephalpha-0.1.0.dist-info/RECORD,,
