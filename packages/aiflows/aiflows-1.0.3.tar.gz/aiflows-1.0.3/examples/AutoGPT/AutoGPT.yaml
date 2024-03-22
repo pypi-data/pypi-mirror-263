@@ -1,0 +1,63 @@
+_target_: flow_modules.aiflows.AutoGPTFlowModule.AutoGPTFlow.instantiate_from_default_config
+max_rounds: 30
+name: "AutoGPT"
+
+### Subflows specification
+subflows_config:
+  #ControllerFlow Configuration
+  Controller:
+    _target_: flow_modules.aiflows.ControllerExecutorFlowModule.ControllerAtomicFlow.instantiate_from_default_config
+    commands:
+      wiki_search:
+        description: "Performs a search on Wikipedia."
+        input_args: ["search_term"]
+      ddg_search:
+        description: "Query the search engine DuckDuckGo."
+        input_args: ["query"]
+      finish:
+        description: "Signal that the objective has been satisfied, and returns the answer to the user."
+        input_args: ["answer"]
+    backend:
+      api_infos: ???
+    human_message_prompt_template:
+      template: |2-
+        Here is the response to your last action:
+        {{observation}}
+        Here is the feedback from the user:
+        {{human_feedback}}
+      input_variables:
+        - "observation"
+        - "human_feedback"
+    input_interface_initialized:
+      - "observation"
+      - "human_feedback"
+
+    previous_messages:
+      last_k: 1
+      first_k: 2
+  
+  HumanFeedback:
+    name: HumanFeedbackFlow
+    description: "A flow that requests feedback from a human."
+
+  wiki_search:
+    _target_: flow_modules.aiflows.ControllerExecutorFlowModule.WikiSearchAtomicFlow.instantiate_from_default_config
+  
+  ddg_search:
+    _target_: flow_modules.aiflows.LCToolFlowModule.LCToolFlow.instantiate_from_default_config
+    user_id: "local"
+    name: "DuckDuckGo"
+    description: "Query the search engine DuckDuckGo."
+    flow_endpoint: DuckDuckGo
+    flow_class_name: flow_modules.aiflows.LCToolFlowModule.LCToolFlow
+    backend:
+      _target_: langchain.tools.DuckDuckGoSearchRun
+
+  #MemoryFlow Configuration
+  Memory:
+    name: MemoryFlow
+    description: "A flow that stores and retrieves information from memory."
+    persist_directory: ./data/demo_db_dir
+    backend:
+      model_name: none
+      api_infos: ???

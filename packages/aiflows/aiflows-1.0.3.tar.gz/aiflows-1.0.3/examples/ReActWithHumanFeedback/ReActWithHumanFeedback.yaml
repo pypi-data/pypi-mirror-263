@@ -1,0 +1,79 @@
+max_rounds: 30
+name: "ReActWithHumanFeedback"
+description: "A flow that interacts with a user and a backend, and asks for feedback."
+_target_: ReActWithHumanFeedback.ReActWithHumanFeedback.instantiate_from_default_config
+
+### Subflows specification
+subflows_config:
+  Controller:
+    _target_: flow_modules.aiflows.ControllerExecutorFlowModule.ControllerAtomicFlow.instantiate_from_default_config
+    max_rounds: 1
+    backend:
+      api_infos: ???
+    commands:
+      wiki_search:
+        description: "Performs a search on Wikipedia."
+        input_args: ["search_term"]
+      ddg_search:
+        description: "Query the search engine DuckDuckGo."
+        input_args: ["query"]
+      finish:
+        description: "Signal that the objective has been satisfied, and returns the answer to the user."
+        input_args: ["answer"]
+    human_message_prompt_template:
+      template: |2-
+        Here is the response to your last action:
+        {{observation}}
+        Here is the feedback from the user:
+        {{human_feedback}}
+      input_variables:
+        - "observation"
+        - "human_feedback"
+    input_interface_initialized:
+      - "observation"
+      - "human_feedback"
+
+    previous_messages:
+      first_k: 2 # keep the system prompt and the original goal
+      last_k: 1 # keep only the last message
+
+
+  wiki_search:
+    _target_: flow_modules.aiflows.ControllerExecutorFlowModule.WikiSearchAtomicFlow.instantiate_from_default_config
+  ddg_search:
+    _target_: flow_modules.aiflows.LCToolFlowModule.LCToolFlow.instantiate_from_default_config
+    backend:
+      _target_: langchain.tools.DuckDuckGoSearchRun
+
+  HumanFeedback:
+    name: HumanFeedbackFlow
+    _target_: flow_modules.aiflows.HumanStandardInputFlowModule.HumanStandardInputFlow.instantiate_from_default_config
+    request_multi_line_input_flag: False
+    query_message_prompt_template:
+      template: |2-
+        Please provide feedback on the last step.
+
+        Relevant information:
+        == Goal ==
+        {{goal}}
+
+        == Last Command ==
+        {{command}}
+
+        == Args
+        {{command_args}}
+
+        == Result
+        {{observation}}
+      input_variables:
+        - "goal"
+        - "command"
+        - "command_args"
+        - "observation"
+    input_interface:
+      - "goal"
+      - "command"
+      - "command_args"
+      - "observation"
+
+
