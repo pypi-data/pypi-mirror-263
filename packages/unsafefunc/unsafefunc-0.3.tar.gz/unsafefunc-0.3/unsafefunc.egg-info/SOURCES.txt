@@ -1,0 +1,7 @@
+README.txt
+setup.py
+unsafefunc/__init__.py
+unsafefunc.egg-info/PKG-INFO
+unsafefunc.egg-info/SOURCES.txt
+unsafefunc.egg-info/dependency_links.txt
+unsafefunc.egg-info/top_level.txt
