@@ -1,0 +1,12 @@
+AnyQt
+Orange3>=3.36.0
+orange-canvas-core>=0.1.1
+orange-widget-base>=4.22.0
+
+[doc]
+sphinx
+recommonmark
+sphinx_rtd_theme
+
+[test]
+coverage

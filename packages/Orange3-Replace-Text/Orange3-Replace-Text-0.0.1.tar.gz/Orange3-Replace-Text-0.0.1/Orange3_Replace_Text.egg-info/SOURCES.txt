@@ -1,0 +1,14 @@
+README.md
+setup.py
+Orange3_Replace_Text.egg-info/PKG-INFO
+Orange3_Replace_Text.egg-info/SOURCES.txt
+Orange3_Replace_Text.egg-info/dependency_links.txt
+Orange3_Replace_Text.egg-info/entry_points.txt
+Orange3_Replace_Text.egg-info/namespace_packages.txt
+Orange3_Replace_Text.egg-info/requires.txt
+Orange3_Replace_Text.egg-info/top_level.txt
+orangecontrib/__init__.py
+orangecontrib/replace_text/__init__.py
+orangecontrib/replace_text/widgets/__init__.py
+orangecontrib/replace_text/widgets/owreplace_text.py
+orangecontrib/replace_text/widgets/icons/replace_text.svg
