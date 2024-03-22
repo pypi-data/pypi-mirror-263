@@ -1,0 +1,15 @@
+jupyterlab_favorites/__init__.py,sha256=3nYgnXmETqLV1F6YQzF9c2fKGN5qmUKJiJ_hVuLbWck,602
+jupyterlab_favorites/_version.py,sha256=b85M9nvL0xZzjQzPy_ujlLgQuG6_rL7ta-1Zo7qMqcM,171
+jupyterlab_favorites-3.2.2.data/data/share/jupyter/labextensions/@jlab-enhanced/favorites/package.json,sha256=Zpbj2FjqMhSo1oeIDHsQ60xYbCbLLBM0kX9vsODBtq8,6265
+jupyterlab_favorites-3.2.2.data/data/share/jupyter/labextensions/@jlab-enhanced/favorites/schemas/@jlab-enhanced/favorites/favorites.json,sha256=hdClHtMRPFXoeXxvBOOXzLTfUoeg4mDCfT58yx_hodY,1892
+jupyterlab_favorites-3.2.2.data/data/share/jupyter/labextensions/@jlab-enhanced/favorites/schemas/@jlab-enhanced/favorites/package.json.orig,sha256=1zmjoP0ZaS9xrfXoqNqTwY3ye0gPtxCTc6OUqgJQRDw,7071
+jupyterlab_favorites-3.2.2.data/data/share/jupyter/labextensions/@jlab-enhanced/favorites/static/427.2f75256a7337bf241d2b.js,sha256=L3UlanM3vyQdK37IMis-DihZeeStgYAJfu_GWG5HIhk,10779
+jupyterlab_favorites-3.2.2.data/data/share/jupyter/labextensions/@jlab-enhanced/favorites/static/747.8cc5e67a888cb47602a1.js,sha256=jMXmeoiMtHYCoWnq-OEPuuwJu2yauTmXmeugvJSYo2I,5389
+jupyterlab_favorites-3.2.2.data/data/share/jupyter/labextensions/@jlab-enhanced/favorites/static/remoteEntry.73761fcf1c8b85719711.js,sha256=c3YfzxyLhXGXERnak_ibEpVqbWdp5lc1zHg2i-04pmU,6949
+jupyterlab_favorites-3.2.2.data/data/share/jupyter/labextensions/@jlab-enhanced/favorites/static/style.js,sha256=B-jCPxwg1Cw-UlVr3mDft-GjupfgH2IwhbzewnoGz4A,167
+jupyterlab_favorites-3.2.2.data/data/share/jupyter/labextensions/@jlab-enhanced/favorites/static/third-party-licenses.json,sha256=5z5gY0sStbT_P2WqbrAlmEtTHDPn0-v6dtp4O8CCBTs,2452
+jupyterlab_favorites-3.2.2.data/data/share/jupyter/labextensions/@jlab-enhanced/favorites/install.json,sha256=qkTdAqLVc7PhfG91p8aVF0qYZT0WxBIp2traZ6ExwOU,201
+jupyterlab_favorites-3.2.2.dist-info/METADATA,sha256=5IWCozCm4Tjqm66FtuyEjb7ZFQbNy97lGCMFWlpraZo,6447
+jupyterlab_favorites-3.2.2.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+jupyterlab_favorites-3.2.2.dist-info/licenses/LICENSE,sha256=OGtrNWW8Ki_B6whKEk3fdGVOYm5mLgXt0CZpA6IEYng,1678
+jupyterlab_favorites-3.2.2.dist-info/RECORD,,
