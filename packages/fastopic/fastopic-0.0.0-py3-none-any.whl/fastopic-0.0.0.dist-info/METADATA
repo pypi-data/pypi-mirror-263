@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fastopic
+Version: 0.0.0
+Summary: Fastopic
+Author: Xiaobao Wu
+Author-email: xiaobao002@e.ntu.edu.sg
+License: Apache 2.0 License
+Keywords: topic model,neural topic model
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+Fastopic.
