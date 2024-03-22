@@ -1,0 +1,11 @@
+mkdocs_asciinema_player/plugin.py,sha256=GJkgfAGIwWREuwCBnQXYx07NSeIJEc46l9gZPDXG3IE,8617
+mkdocs_asciinema_player/assets/asciinema-player.css,sha256=GMIhu5Hnb2yvE2Ap29EPBTncrR45rZV4dFJ67VY37oY,53739
+mkdocs_asciinema_player/assets/asciinema-player.min.js,sha256=8g8yb8wXjiBBKvarPwu7uvukKNwHxlvIbMCNGOGsepU,158715
+mkdocs_asciinema_player/assets/terminal-player.css,sha256=pqJCf1SWd_P2Et7-L2ujijHijgmzp3tVAMhi1Nehbu0,1009
+mkdocs_asciinema_player/templates/asciinema_player.html.j2,sha256=NLoBsBxyGDXYtKGU8o69B1q8fdPqFc6kSG-0Vzh9ii4,1374
+mkdocs_asciinema_player-0.7.1.dist-info/LICENSE,sha256=w88kfUaEWOpmWEJL3LQznCBO4mCZNuNgIsv27QD_dbE,1084
+mkdocs_asciinema_player-0.7.1.dist-info/METADATA,sha256=utZGf9j7i5yQ7ZPrHNJkRhYBZ6tNBh1HwO4D_lXDiMc,4457
+mkdocs_asciinema_player-0.7.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mkdocs_asciinema_player-0.7.1.dist-info/entry_points.txt,sha256=HYtnO5fzViWahxx3d3KmPwhdRZdVlivbh6ozKltMrWk,89
+mkdocs_asciinema_player-0.7.1.dist-info/top_level.txt,sha256=ZOAKLWALaWbKihxIyqpjczamIGYouKX6Y39lGoWHl20,24
+mkdocs_asciinema_player-0.7.1.dist-info/RECORD,,
