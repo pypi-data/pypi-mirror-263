@@ -1,0 +1,11 @@
+README.md
+setup.py
+promethee_ROC.egg-info/PKG-INFO
+promethee_ROC.egg-info/SOURCES.txt
+promethee_ROC.egg-info/dependency_links.txt
+promethee_ROC.egg-info/top_level.txt
+promethee_roc/__init__.py
+promethee_roc/algoritmo/__init__.py
+promethee_roc/algoritmo/main.py
+promethee_roc/algoritmo/output.py
+promethee_roc/algoritmo/promethee.py
