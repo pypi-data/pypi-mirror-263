@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: fortran_binary
+Version: 1.0.8
+Summary: Utility for reading Fortran binary files
+Home-page: https://github.com/vahtras/fortran-binary
+Author: Olav Vahtras
+Author-email: olav.vahtras@gmail.com
+License: GPLv3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![CircleCI](https://circleci.com/gh/vahtras/fortran-binary.svg?style=svg)](https://circleci.com/gh/vahtras/fortran-binary)
+[![Coverage
+Status](https://coveralls.io/repos/github/vahtras/fortran-binary/badge.svg?branch=master)](https://coveralls.io/github/vahtras/fortran-binary?branch=master)
+
+# Fortran binary file I/O

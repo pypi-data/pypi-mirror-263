@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+fortran_binary.py
+requirements-dev.txt
+requirements.txt
+setup.cfg
+setup.py
+fortran_binary.egg-info/PKG-INFO
+fortran_binary.egg-info/SOURCES.txt
+fortran_binary.egg-info/dependency_links.txt
+fortran_binary.egg-info/top_level.txt
+tests/test_fb.py
