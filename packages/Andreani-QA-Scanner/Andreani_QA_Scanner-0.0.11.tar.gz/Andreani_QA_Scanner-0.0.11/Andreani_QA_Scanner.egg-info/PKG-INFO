@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: Andreani_QA_Scanner
+Version: 0.0.11
+Summary: SeleniumFramework para ejecución de casos automatizados
+Home-page: 
+Author: AndreaniTesting
+Author-email: user_appglatest@andreani.com
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: blinker==1.7.0
+Requires-Dist: bottle==0.12.25
+Requires-Dist: clr-loader==0.2.6
+Requires-Dist: Flask==3.0.0
+Requires-Dist: Flask-Cors==4.0.0
+Requires-Dist: libretranslatepy==2.1.1
+Requires-Dist: mtranslate==1.8
+Requires-Dist: openpyxl==3.1.2
+Requires-Dist: pillow==10.2.0
+Requires-Dist: proxy-tools==0.1.0
+Requires-Dist: pynput==1.7.6
+Requires-Dist: PySocks==1.7.1
+Requires-Dist: pythonnet==3.0.1
+Requires-Dist: pywebview==4.3.3
+Requires-Dist: requests==2.31.0
+Requires-Dist: requests-file==1.5.1
+Requires-Dist: screeninfo==0.8.1
+Requires-Dist: selenium==4.11.2
+Requires-Dist: trio==0.22.2
+Requires-Dist: trio-websocket==0.10.3
