@@ -1,0 +1,11 @@
+datedetective/BiLSTMTagger.py,sha256=CTX1RL1Evj3_L45rkHRDVFGKTVJpQK94yWLdmhwZPNo,529
+datedetective/DateDetective.py,sha256=Fd9FjFu7WZXhZeS5axbCMsVI9oBBelTf7e4ZJKJ6sJQ,2782
+datedetective/Encoding.py,sha256=6b_5Au_oCQZjqgJIj4qqh01iWetykgMMWLc3CXxKoHQ,1479
+datedetective/ModelHandler.py,sha256=11g0D-73z2L_4Hcso7AB6m1z2tm94922a9nPJmfeiEA,4019
+datedetective/__init__.py,sha256=CT9I4UJC2W_fkK55g_6BIajiqKEV0APT0j_0u6HNU6k,42
+datedetective/model_Ms_Zoey_Fadel_MD_state_dict.pth,sha256=jYP_AGBOs5VTzwwaZAIu498etJupawiUTD9AocuJ3-8,2443872
+datedetective-1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+datedetective-1.0.dist-info/METADATA,sha256=BZMmPZUu4KsKboYyD5NUoWurHzhkDZgD-Zd74fxUT_g,3477
+datedetective-1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+datedetective-1.0.dist-info/top_level.txt,sha256=PZC2R818--c-fXvDCVtv_cdA-epy3tgOpEGHDxy85sk,14
+datedetective-1.0.dist-info/RECORD,,
