@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: pycount_a5
+Version: 0.1.0
+Summary: Assignment 5 for UBC's DSCI310 course. Creating a toy python package.
+License: MIT
+Author: Jade Bouchard
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: docutils (>=0.20.1,<0.21.0)
+Requires-Dist: matplotlib (>=3.8.3)
+Requires-Dist: myst-nb (>=1.0.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# pycount_a5
+
+Assignment 5 for UBC's DSCI310 course. Creating a toy python package.
+
+## Installation
+
+```bash
+$ pip install pycounts
+```
+
+## Usage
+
+`pycounts` can be used to count words in a text file and plot results
+as follows:
+
+```python
+from pycounts.pycounts import count_words
+from pycounts.plotting import plot_words
+import matplotlib.pyplot as plt
+
+file_path = "test.txt"  # path to your file
+counts = count_words(file_path)
+fig = plot_words(counts, n=10)
+plt.show()
+```
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. 
+Please note that this project is released with a Code of Conduct. 
+By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`pycounts` was created by Tomas Beuzen. It is licensed under the terms
+of the MIT license.
+
+## Credits
+
+`pycounts` was created with 
+[`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and 
+the `py-pkgs-cookiecutter` 
+[template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
+
+
