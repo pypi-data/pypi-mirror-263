@@ -1,0 +1,8 @@
+setup.py
+django_network_field/__init__.py
+django_network_field/field.py
+django_network_field.egg-info/PKG-INFO
+django_network_field.egg-info/SOURCES.txt
+django_network_field.egg-info/dependency_links.txt
+django_network_field.egg-info/requires.txt
+django_network_field.egg-info/top_level.txt
