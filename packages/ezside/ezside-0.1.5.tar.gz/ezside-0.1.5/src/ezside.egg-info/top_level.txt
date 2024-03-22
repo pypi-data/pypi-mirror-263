@@ -1,0 +1,4 @@
+eznum
+ezqt
+moreutils
+settings
