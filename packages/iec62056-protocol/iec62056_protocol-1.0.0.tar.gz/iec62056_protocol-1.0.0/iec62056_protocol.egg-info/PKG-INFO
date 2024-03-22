@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: iec62056_protocol
+Version: 1.0.0
+Summary: Package for communicate with iec62056-21 Meters
+Author-email: Adrien Delhaye <adrien.delhaye@memoco.eu>
+Project-URL: Homepage, https://pypi.org/manage/project/iot-protocols
+Keywords: python,iiot,protocols
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyserial>=3.5
+Requires-Dist: pytest>=7.0.0
+
+# Python IEC62056 Meter Tools
+
+## How to use ?
+
+### Install
+
+```shell
+pip install py-iec62056
+```
+
+### Create SerialClient
+
+```python
+client = SerialClient(
+    baudrate=19200,
+    port="COM3",
+    transport="serial",
+    parity="E",
+    bytesize=7,
+    stopbits=1
+)
+```
+
+### Read A meter identification
+
+This return an identification message from the meter.
+You must set the ack_stop to True if you don't want to meter to give the default table.
+
+```python
+result = client.read_tariff_identification("5987893", ack_stop=True)
+```
+
+### Read Table dataset
+
+This will return a list of DataSet instance.
+Raise error if Timeout.
+
+```python
+result = client.request(meter_address="5987893", table=7, timeout=30)
+assert isinstance(result, TariffResponse)
+for dataset in result.data:
+    logging.info(f"{dataset}")
+```
