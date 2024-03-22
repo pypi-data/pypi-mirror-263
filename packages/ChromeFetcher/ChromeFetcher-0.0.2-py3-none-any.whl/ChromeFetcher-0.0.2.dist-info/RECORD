@@ -1,0 +1,9 @@
+ChromeFetcher/__init__.py,sha256=_92tnpdD-NAaPh4Kg2xGy6rm7hW9qD96pSf_DBXMz_s,40
+ChromeFetcher/chrome_fetcher.py,sha256=QHbhw75KeFSsmn9mf9LJ3MA-V6F9iIlZ07hLExIqC58,1629
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_chrome_fetcher.py,sha256=2MUBM4Q9vNwWGugJkdIOyAtQH8jYY2AjrnIsajzsRe8,1046
+ChromeFetcher-0.0.2.dist-info/LICENSE,sha256=cwX2O7io2lQvGjZ9m2516bspjt1vGfTJlZF_4a0lyc8,1073
+ChromeFetcher-0.0.2.dist-info/METADATA,sha256=VTLv-W7mH4HXVgC8kADAxoUlX7ZijmSLR_W159F2J78,1913
+ChromeFetcher-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ChromeFetcher-0.0.2.dist-info/top_level.txt,sha256=gBo-gp5WhzJH9lchlncI6VMAeUIs8aSgHDprCCT0hGc,20
+ChromeFetcher-0.0.2.dist-info/RECORD,,
