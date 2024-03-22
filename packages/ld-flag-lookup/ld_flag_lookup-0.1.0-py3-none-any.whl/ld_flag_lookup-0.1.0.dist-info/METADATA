@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: ld-flag-lookup
+Version: 0.1.0
+Summary: Lookup LaunchDarkly feature flags by key and return their values.
+Home-page: https://github.com/chkpwd/ld-flag-lookup
+License: MIT
+Author: Bryan Jones
+Author-email: unix.chkpwd@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7)
+Requires-Dist: launchdarkly-server-sdk (>=9.0.0)
+Project-URL: Repository, https://github.com/chkpwd/ld-flag-lookup
+Description-Content-Type: text/markdown
+
+## Usage
+
+#### In your shell:
+```sh
+export LAUNCHDARKLY_SERVER_KEY="some-random-key"
+export LAUNCHDARKLY_FLAGS="foo"
+```
+
+This script provides several command-line options:
+
+- `-f` or `--flag`: This option is used to specify the flag key to evaluate. This option is required and can be used multiple times. The value for this option can also be provided through the `LAUNCHDARKLY_FLAGS` environment variable.
+
+- `--sdk-key`: This option is used to specify the LaunchDarkly SDK server key. The value for this option can also be provided through the `LAUNCHDARKLY_SERVER_KEY` environment variable.
+
+- `-v` or `--verbose`: This option is used to increase logging verbosity. The more times this option is used, the more verbose the logging.
+
+> :warning: You can specify either environment variables or command-line options.
+
+For example, to run the script with a flag key of "foo" and an SDK key of "sdk-34324dfd-fake-ke5", you would use the following command:
+```py
+ld-flag-lookup -f "foo" --sdk-key "sdk-34324dfd-fake-key" -vv
+```
+
