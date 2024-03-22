@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: clinicaltrialsconnect
+Version: 0.0.0
+Summary: Easy connecting and querying to clinical trials database from AACT
+Home-page: https://github.com/ineelhere/clinicaltrialsconnect
+License: MIT
+Author: Indraneel Chakraborty
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pandas (>=2.0.3)
+Requires-Dist: psycopg2[binary] (>=2.9.9)
+Description-Content-Type: text/markdown
+
+# clinicaltrialsconnect
+Easy connecting and querying to clinical trials database from AACT
+
