@@ -1,0 +1,8 @@
+README.md
+setup.py
+DeletionSort.egg-info/PKG-INFO
+DeletionSort.egg-info/SOURCES.txt
+DeletionSort.egg-info/dependency_links.txt
+DeletionSort.egg-info/top_level.txt
+deletionSort/__init__.py
+deletionSort/deletionSorter.py
