@@ -1,0 +1,10 @@
+axaremote/__init__.py,sha256=dHcnsC-AmAbm5XZHPB_d-qvsuUCgE-cMOuDG_WDvx4g,276
+axaremote/__main__.py,sha256=SzVevJwMykZ5wJKzn6wV6ET1WL_jl0iHk0LARRC4blo,3669
+axaremote/axaconnection.py,sha256=9LT9KAeMAjzwIUOJTn9oevT8aC7U8HG-bhDntNig_yg,6053
+axaremote/axaremote.py,sha256=x-NIRaPLAXU38GUpZwRfvbpqFBH0rf4FMl5A3YZMlWM,19991
+axaremote/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+axaremote-0.0.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+axaremote-0.0.6.dist-info/METADATA,sha256=XaSuQ8mpByqbYgimkOohXnHKiP9c528jwQJ58_EURJA,2831
+axaremote-0.0.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+axaremote-0.0.6.dist-info/top_level.txt,sha256=PyfCq3z2ybD1brXh5M9tQwNpTgjNPkOFpMHXtZsyy9o,10
+axaremote-0.0.6.dist-info/RECORD,,
