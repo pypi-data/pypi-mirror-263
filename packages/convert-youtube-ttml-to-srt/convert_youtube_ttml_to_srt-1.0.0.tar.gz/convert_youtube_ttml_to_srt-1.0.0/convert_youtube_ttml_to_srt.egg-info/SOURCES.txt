@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+convert_youtube_ttml_to_srt/__init__.py
+convert_youtube_ttml_to_srt/convert_subtitle_ttml_to_srt.py
+convert_youtube_ttml_to_srt.egg-info/PKG-INFO
+convert_youtube_ttml_to_srt.egg-info/SOURCES.txt
+convert_youtube_ttml_to_srt.egg-info/dependency_links.txt
+convert_youtube_ttml_to_srt.egg-info/top_level.txt
