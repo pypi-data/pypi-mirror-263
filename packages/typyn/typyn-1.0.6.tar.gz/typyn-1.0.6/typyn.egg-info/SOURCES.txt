@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+typyn/__init__.py
+typyn/main.py
+typyn.egg-info/PKG-INFO
+typyn.egg-info/SOURCES.txt
+typyn.egg-info/dependency_links.txt
+typyn.egg-info/entry_points.txt
+typyn.egg-info/requires.txt
+typyn.egg-info/top_level.txt
+typyn/data/__init__.py
+typyn/data/quotes/__init__.py
+typyn/data/words/__init__.py
+typyn/resources/__init__.py
+typyn/resources/intro_animation.py
+typyn/user_data/__init__.py
