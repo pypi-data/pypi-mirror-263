@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: papamanadjango
+Version: 0.2.2
+Summary: Module Django and Environtment
+Requires-Python: >=3.10
+Requires-Dist: django==3.2
+Requires-Dist: ipython>=8.12.3
+Description-Content-Type: text/markdown
+
+# papamana-django
+
+Describe your project here.
