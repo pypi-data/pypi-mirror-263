@@ -1,0 +1,22 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+
+[tool.maturin]
+bindings = "cffi"
+compatibility = "linux"
+
+
+
+[project]
+name = "svg_to_pdf"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+]
+
+dependencies = [
+    "cffi",
+]
