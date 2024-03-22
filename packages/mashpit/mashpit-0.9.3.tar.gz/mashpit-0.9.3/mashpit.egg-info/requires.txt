@@ -1,0 +1,11 @@
+sourmash~=4.6.1
+ncbi-datasets-pylib~=14.6.2
+pandas
+biopython
+ete3
+PyQt5
+scikit-bio
+python-dotenv
+tqdm
+flask
+dask
