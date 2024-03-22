@@ -1,0 +1,13 @@
+lambdafaker/__init__.py,sha256=JN49yMipay19IMyX_XbJUaFsxStYxCAT15vAYMVUIh4,38
+lambdafaker/aws.py,sha256=7OZTjaHvrqHa2RAJaZFmhiHZIwZ_0Pit7mBEw4u162E,275
+lambdafaker/awslambda.py,sha256=BMjVI1OXaIOw1_P5tRyo_yf-pSyVJz8r0G9oNlQTOtU,704
+lambdafaker/cli.py,sha256=Z0_86OlDijoyZvCwhQT8amjVFlyJ6zX-BxV81LkLwMc,616
+lambdafaker/config.py,sha256=YiBz6VWM1KhbZLkp_4aMaeVcnfUNxHFoQP9XXW-fD-A,4088
+lambdafaker/lambdafaker.py,sha256=VzhwULEEUw57_838fduIT-Wi0E_8Pni2oVmI22-cXuU,3304
+lambdafaker/util.py,sha256=KRgobxeJH5ekVMQ9lodCO9qTiJ90usCNSYTDaoMGGKg,2248
+lambdafaker-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+lambdafaker-1.0.0.dist-info/METADATA,sha256=s6VMs3FXV1gh1VJ0FCRt3fVJvp0C7oRa7By7ZaLjkVU,5158
+lambdafaker-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+lambdafaker-1.0.0.dist-info/entry_points.txt,sha256=KU0BJ0MgokdZnR3SX7yEgodQSZRlXF98i0_Mjo8z8j4,53
+lambdafaker-1.0.0.dist-info/top_level.txt,sha256=MvqjQmnI6cJS8r2E-Yc-15kX1YWxameg3qIkJ14OPlc,12
+lambdafaker-1.0.0.dist-info/RECORD,,

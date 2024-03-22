@@ -1,0 +1,1 @@
+from .lambdafaker import invoke_lambda
