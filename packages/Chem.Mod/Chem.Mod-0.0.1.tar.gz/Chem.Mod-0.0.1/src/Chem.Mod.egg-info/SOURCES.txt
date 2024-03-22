@@ -1,0 +1,8 @@
+COPYING.txt
+LICENSE.txt
+README.md
+pyproject.toml
+src/Chem.Mod.egg-info/PKG-INFO
+src/Chem.Mod.egg-info/SOURCES.txt
+src/Chem.Mod.egg-info/dependency_links.txt
+src/Chem.Mod.egg-info/top_level.txt
