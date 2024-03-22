@@ -1,0 +1,12 @@
+napari_dab_cellcount/__init__.py,sha256=zDzqh-EeuB-gQn_XolN2BXMRi-CtgVKxrjI8C_dhFPE,218
+napari_dab_cellcount/_dock_widget.py,sha256=cf00q7JJBX2QA9WlNqmZgJuQHH0qsEj-FfTugJeRth8,7170
+napari_dab_cellcount/_model.py,sha256=wjmORppHYF7E77sfUIitfk8LyKmF3Ht9UvarSnxGntQ,5086
+napari_dab_cellcount/_pred.py,sha256=JoR8vmNB7hk1SUwPQsCaUlPq_Gv3CpiHjE4V0Y8XOD0,10041
+napari_dab_cellcount/_utils.py,sha256=TIgT_bfAzP5FIPzZZinc5bvRjc2pNfawoG3Vqbz2wJM,750
+napari_dab_cellcount/napari.yaml,sha256=9KIzZZ0VyrO1NafgC7ApcDmDpD1f63Hgi9CKpz1GG0c,334
+napari_dab_cellcount-0.1.4.dist-info/LICENSE,sha256=wg_A_9Mw89pEmmoKMWg_QAUB-npy2qxelHGbXDrdsmE,1068
+napari_dab_cellcount-0.1.4.dist-info/METADATA,sha256=dW8q6824dH9QbxZkl5rIyckDci2Lv5HdN_Af6Jub58A,1968
+napari_dab_cellcount-0.1.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+napari_dab_cellcount-0.1.4.dist-info/entry_points.txt,sha256=0D4ZPWPQhD3CXbWsHCWH3uM2wgni0AKN8S_thGM8U_U,60
+napari_dab_cellcount-0.1.4.dist-info/top_level.txt,sha256=7wRf11nPLWui4e0kmAw3tSgOn34fsRs0xf5PElswf8c,21
+napari_dab_cellcount-0.1.4.dist-info/RECORD,,
