@@ -1,0 +1,36 @@
+[project]
+name = "djangoprojectstest"
+version = "0.1.0"
+description = "Add your description here"
+dependencies = [
+    "django==3.2",
+    "ipython>=8.12.3",
+    "keyring>=24.3.1",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "twine>=5.0.0",
+]
+
+[tool.rye.scripts]
+runserver = { cmd = "python ./src/django_projects/djangos/manage.py runserver 0.0.0.0:8000" }
+makemigrations = { cmd = "python ./src/django_projects/djangos/manage.py makemigrations" }
+migrate = { cmd = "python ./src/django_projects/djangos/manage.py migrate" }
+shell = { cmd = "python ./src/django_projects/djangos/manage.py shell" }
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/django_projects"]
+
+[tool.rye.workspace]
+members = [".", "module_*"]
