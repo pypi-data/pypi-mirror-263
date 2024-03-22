@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "shipyard-redshift"
+version = "0.1.0"
+description = "A local client for connecting and working with Redshift Databases"
+authors = ["wrp801 <wespoulsen@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+packages = [{include = "shipyard_redshift"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+pandas = "1.5.3"
+redshift-connector = "2.0.913"
+shipyard-templates = "0.4.3"
+sqlalchemy-redshift = "0.8.14"
+shipyard-bp-utils = "0.1.1"
+
+[tool.poetry.group.dev.dependencies]
+#shipyard-bp-utils = {path = "../shipyard-bp-utils"}
+pytest = "^8.1.1"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
