@@ -1,0 +1,7 @@
+reflex>=0.4.2
+bcrypt
+httpx
+
+[dev]
+build
+twine
