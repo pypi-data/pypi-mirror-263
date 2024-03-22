@@ -1,0 +1,16 @@
+dg_face_tracking/DataFace.py,sha256=LYkFlMd944AB-gSjocKLcMk430obsL0_YsYkYeTcCGY,575
+dg_face_tracking/DataFaceApp.py,sha256=v4w12XC8tXZcHT9L_A93ceXCIf8h0clWDBZ10Jzd21Y,617
+dg_face_tracking/__init__.py,sha256=219VLoiHiBVPJfIAnumow5zxSXRAorQYiekXc4jDftQ,107
+dg_face_tracking/_version.py,sha256=2kox2gXYRzATobt1VDethZtwmfHL0_5ssUZlHywsaSE,216
+dg_face_tracking/config_rt.py,sha256=8JOzltmwFMyVkeiBnmTfx0Vs0celAKnjjWte_dPHdSw,2470
+dg_face_tracking/controller.py,sha256=fW8hqArMxmPmCbqH_hCCjyT-5yxrtTno-GxUhIaTvh4,6059
+dg_face_tracking/embeds_compare.py,sha256=ZdpoURTW9YlP8g0vFp7VB4C0gcunY-XFC2YoP9DCJ8o,1931
+dg_face_tracking/embeds_estimate.py,sha256=FRqmQsZTfm80kusa3HtjS1H3POK3q2pGXpdvi-Es42k,2579
+dg_face_tracking/estimate_accuracy.py,sha256=wSKDra0b8Ticmb_vLAtsheyknfBbnC1QOAoJJEqQU_Y,3473
+dg_face_tracking/mytools.py,sha256=_SY_1WFSDkr3vVGz4S8i3BFUxQMSfeDQcsK9lr7h5VM,23607
+dg_face_tracking/pubsub.py,sha256=--NTWL4W6HOPjrAfrrNFQiN_QoWiyCQ2RNccWj0Kze8,2458
+dg_face_tracking-0.0.1.dist-info/METADATA,sha256=rwXa6f49Sszc8ooBXEP9nInF8jxdmaSOQHAgie0aojc,3277
+dg_face_tracking-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dg_face_tracking-0.0.1.dist-info/entry_points.txt,sha256=ovgHU9wCkHRnHpdbwJosT_GZGHaoSIA6qUvn6gk_88U,74
+dg_face_tracking-0.0.1.dist-info/top_level.txt,sha256=a-hi1DQ_XruLP9Xm7BYdiR_88Vf2hlg9WabZkO1qJKQ,17
+dg_face_tracking-0.0.1.dist-info/RECORD,,
