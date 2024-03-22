@@ -1,0 +1,16 @@
+methscan/__init__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+methscan/cli.py,sha256=iYpgTtjZjmXVc327ckLpzojVYapCgt7biJQiu8f90HI,20531
+methscan/diff.py,sha256=QnLNSvKvMgZDLgXawFFWIFBbBfdOrKL8nJt5IKszhT0,20047
+methscan/filter.py,sha256=O0BR9ReEZaTZtQZIfhBUY6rEVRqX4JYKRhSimCdN4CQ,6149
+methscan/matrix.py,sha256=wf0pMyNTBRvTbqrVWsFvMzQ8e965diXhoVmaRY6Zu7E,10232
+methscan/numerics.py,sha256=hKakjxVxkkAO5-ORvjwit7fUyUziVk-45vvbJGYER-A,5817
+methscan/prepare.py,sha256=DtqTzX0L8e968q5fef5CEKE8Rb3eDa4k-hhmyEqkd-o,14493
+methscan/profile.py,sha256=aWpJ4V57Wmj0hKhWDIMCjL6xck56HEWFp4UTVeYlEfQ,6074
+methscan/scbs.py,sha256=zAjd4D-1YZHhzTDsqfIDw1WgTGo2cAkQLBlYYhvUMFE,7179
+methscan/smooth.py,sha256=_AGJ4ey2rK3q-PgfGJ_4hO_3yGzHTwtbwJaBcqSyOaw,3480
+methscan/utils.py,sha256=bOTOnR3623HRRgTQ__RcIz2P2XnkNr04dhan-kW6JTk,4315
+methscan-1.0.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+methscan-1.0.0.dist-info/METADATA,sha256=kJoSgqPOqm8CrH3a7ewGcrMUAAEicrMyMN6BB23RXRY,6177
+methscan-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+methscan-1.0.0.dist-info/entry_points.txt,sha256=45Adm0cWOrgTpd9bLeosmMiM0l3jnJcvKCcrEGEbI3Y,45
+methscan-1.0.0.dist-info/RECORD,,
