@@ -1,0 +1,239 @@
+Metadata-Version: 2.1
+Name: pyedbglib
+Version: 2.24.2.18
+Summary: Low-level protocol library for communicating with Microchip CMSIS-DAP based debuggers
+Author: Microchip Technology
+Author-email: support@microchip.com
+License: MIT
+Keywords: Microchip,AVR,EDBG,protocol
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pyserial >=3.5
+Requires-Dist: cython <0.29.8 ; python_version <= "2.7"
+Requires-Dist: hidapi ==0.7.99.post21 ; python_version <= "2.7"
+Requires-Dist: cython ; python_version >= "3"
+Requires-Dist: hidapi ; python_version >= "3"
+Provides-Extra: dev
+Requires-Dist: pylint >=2.15 ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: mock ; extra == 'doc'
+Requires-Dist: sphinx ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: mock ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+
+# pyedbglib - Python EDBG protocol library
+pyedbglib is a low-level protocol library for communicating with Microchip CMSIS-DAP based debuggers
+
+![PyPI - Format](https://img.shields.io/pypi/format/pyedbglib)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyedbglib)
+![PyPI - License](https://img.shields.io/pypi/l/pyedbglib)
+
+## Overview
+pyedbglib is available:
+
+* install using pip from pypi: https://pypi.org/project/pyedbglib
+* browse source code on github: https://github.com/microchip-pic-avr-tools/pyedbglib
+* read API documentation on github: https://microchip-pic-avr-tools.github.io/pyedbglib
+
+## Usage
+pyedbglib is a library which can be used by Python applications to communicate with Microchip microcontrollers via Microchip CMSIS-DAP based debuggers.
+
+The protocol is documented in the [EDBG communication protocol](https://onlinedocs.microchip.com/pr/GUID-33422CDF-8B41-417C-9C31-E4521ADAE9B4-en-US-2/index.html).
+
+## Supported debuggers
+pyedbglib supports:
+* PKOB nano (nEDBG) - on-board debugger on Curiosity Nano
+* MPLAB PICkit 4 In-Circuit Debugger (when in 'AVR mode')
+* MPLAB Snap In-Circuit Debugger (when in 'AVR mode')
+* Atmel-ICE
+* Power Debugger
+* EDBG - on-board debugger on Xplained Pro/Ultra
+* mEDBG - on-board debugger on Xplained Mini/Nano
+* JTAGICE3 (firmware version 3.0 or newer)
+
+Note: Each debugger may implement a subset of protocols and commands.
+
+## Example
+```python
+"""
+Example usage of pyedbglib to read debugger firmware version and target voltage
+"""
+from pyedbglib.hidtransport.hidtransportfactory import hid_transport
+from pyedbglib.protocols.housekeepingprotocol import Jtagice3HousekeepingProtocol
+from pyedbglib import __version__ as pyedbglib_version
+
+# Report library version
+print("pyedbglib version {}".format(pyedbglib_version))
+
+# Make a connection using HID transport
+transport = hid_transport()
+transport.connect()
+
+# Create a housekeeper
+housekeeper = Jtagice3HousekeepingProtocol(transport)
+housekeeper.start_session()
+
+# Read out debugger firmware version
+major = housekeeper.get_byte(Jtagice3HousekeepingProtocol.HOUSEKEEPING_CONTEXT_CONFIG,
+                             Jtagice3HousekeepingProtocol.HOUSEKEEPING_CONFIG_FWREV_MAJ)
+minor = housekeeper.get_byte(Jtagice3HousekeepingProtocol.HOUSEKEEPING_CONTEXT_CONFIG,
+                             Jtagice3HousekeepingProtocol.HOUSEKEEPING_CONFIG_FWREV_MIN)
+build = housekeeper.get_le16(Jtagice3HousekeepingProtocol.HOUSEKEEPING_CONTEXT_CONFIG,
+                             Jtagice3HousekeepingProtocol.HOUSEKEEPING_CONFIG_BUILD)
+print ("Debugger firmware is version {}.{}.{}".format(major, minor,build))
+
+# Read out target voltage
+target_voltage = housekeeper.get_le16(Jtagice3HousekeepingProtocol.HOUSEKEEPING_CONTEXT_ANALOG,
+                                      Jtagice3HousekeepingProtocol.HOUSEKEEPING_ANALOG_VTREF)
+print ("Target voltage is {:.02f}V".format(target_voltage/1000.0))
+
+# Tear down
+housekeeper.end_session()
+transport.disconnect()
+```
+
+## Notes for Linux® systems
+HIDAPI needs to build using packages: libusb-1.0.0-dev, libudev-dev
+
+USB devices need udev rules to be added to a file in /etc/udev/rules.d
+
+Example of udev rules for supported debuggers:
+```bash
+# HIDAPI/libusb:
+
+# JTAGICE3
+SUBSYSTEM=="usb", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="2140", MODE="0666"
+# Atmel-ICE
+SUBSYSTEM=="usb", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="2141", MODE="0666"
+# Power Debugger
+SUBSYSTEM=="usb", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="2144", MODE="0666"
+# EDBG - debugger on Xplained Pro
+SUBSYSTEM=="usb", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="2111", MODE="0666"
+# EDBG - debugger on Xplained Pro (MSD mode)
+SUBSYSTEM=="usb", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="2169", MODE="0666"
+# mEDBG - debugger on Xplained Mini
+SUBSYSTEM=="usb", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="2145", MODE="0666"
+# PKOB nano (nEDBG) - debugger on Curiosity Nano
+SUBSYSTEM=="usb", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="2175", MODE="0666"
+# PKOB nano (nEDBG) in DFU mode - bootloader of debugger on Curiosity Nano
+SUBSYSTEM=="usb", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="2fc0", MODE="0666"
+# MPLAB PICkit 4 In-Circuit Debugger
+SUBSYSTEM=="usb", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="2177", MODE="0666"
+# MPLAB Snap In-Circuit Debugger
+SUBSYSTEM=="usb", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="2180", MODE="0666"
+```
+
+pyedbglib also provides helper functions for accessing serial ports.  The user has to be part of the 'dialout' group to allow this.  This can be done by executing:
+```bash
+sudo adduser $USER dialout
+```
+
+It may also be necessary to grant read+write permission to the port, for example:
+```bash
+sudo chmod a+rw /dev/ttyACM0
+```
+
+# Changelog
+
+## [2.24.2] - March 2024
+
+### Added
+- DSG-7090 Added support for converting Intel(R) Hex to UF2 format
+
+### Changed
+- DSG-6539 Migrated pyedbglib to new project configuration format
+
+## [2.23.0] - September 2023
+
+### Added
+- DSG-6057 Added support for Boot Row memory type
+
+## [2.22.0] - October 2022
+
+### Changed
+- DSG-5445 Added metadata tag for Python 3.10
+- DSG-5542 Removed metadata tag for Python 3.6
+
+### Fixed
+- DSG-4403 Fixed detection of configurable endpoint size for Atmel-ICE and Power Debugger
+- DSG-5624 Fixed detection of serial ports, using pyserial for all operating systems (updated pyserial requirement)
+
+## [2.20.3] - May 2022
+
+### Added
+- DSG-3994 Added more ATmega328P AVR ISP protocol commands (beta)
+- DSG-4533 Added TPI protocol (alpha) for test purposes
+- DSG-3934 Added PID for EDBG in mass-storage mode
+- DSG-4291 Added Curiosity Nano DFU to udev rules
+- DSG-4864 Raise exception on HID write error
+
+## [2.19.3] - October 2021
+
+### Added
+- DSG-3270 Added argument range checks for LE16, LE32
+- DSG-3804 Added py39 to setup metadata
+
+### Fixed
+- DSG-3327 Fixed crash caused by logging device ID 'None'
+- DSG-3817 Fixed SAM D21 user row programming
+
+### Changed
+- DSG-3272 Removed makefile
+- DSG-3319 Documentation tweaks
+- DSG-3324 Removed readthedocs yaml
+- DSG-3816 Device detection filters by Atmel VID and 'CMSIS-DAP' string
+
+## [2.18.3] - April 2021
+
+### Changed
+- DSG 3317 Tweaks to docstrings
+
+## [2.18.2] - March 2021
+
+### Added
+- DSG-3109 Added missing constants
+
+### Fixed
+- DSG-2997 Typo fix in function name: find_matching_tools_ports
+- DSG-2998 Removed blanket exception catches
+
+### Changed
+- DSG-3145 Switched from proprietary to MIT license
+
+## [2.17.7] - December 2020
+
+### Added
+- DSG-2496 Added serial port test function
+- DSG-2519 Added hint at missing udev rules
+- DSG-2575 Added help for dialout group
+- DSG-2775 Added requirements.txt
+
+### Fixed
+- DSG-2230 Naming consistency
+- DSG-2596 Improved documentation
+- DSG-2838 Docstring escape character
+
+## [2.15.2] - October 2020
+
+### Fixed
+- DSG-2046 Python 3.8 support
+- DSG-2233 Logging improvements - correct usage of logging module
+
+## [2.10.0] - June 2020
+- First public release to PyPi
