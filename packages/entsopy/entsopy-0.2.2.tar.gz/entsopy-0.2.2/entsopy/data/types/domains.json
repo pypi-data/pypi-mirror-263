@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Load",
+    "code": "L",
+    "key": "1",
+    "is_available": true
+  },
+  {
+    "name": "Generation",
+    "code": "G",
+    "key": "4",
+    "is_available": true
+  }
+]
