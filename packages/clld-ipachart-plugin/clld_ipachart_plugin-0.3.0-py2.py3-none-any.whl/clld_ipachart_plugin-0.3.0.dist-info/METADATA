@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: clld-ipachart-plugin
+Version: 0.3.0
+Summary: Render IPA charts in clld apps.
+Home-page: https://github.com/clld/clld-ipachart-plugin
+Author: Robert Forkel
+Author-email: dlce.rdm@eva.mpg.de
+Project-URL: Bug Tracker, https://github.com/clld/clld-ipachart-plugin/issues
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: clld (>=7)
+Requires-Dist: pyclts
+Requires-Dist: pycldf
+Requires-Dist: sqlalchemy
+Requires-Dist: zope.interface
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-mock ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: tox ; extra == 'test'
+
+# clld-ipachart-plugin
+
+[![Build Status](https://github.com/clld/clld-ipachart-plugin/workflows/tests/badge.svg)](https://github.com/clld/clld-ipachart-plugin/actions?query=workflow%3Atests)
+[![PyPI](https://img.shields.io/pypi/v/clld-ipachart-plugin.svg)](https://pypi.org/project/clld-ipachart-plugin)
+
+A plugin for the [`clld`](https://pypi.org/project/clld) package.
+
+
+## Usage
+
+`clld-ipachart-plugin` provides
+- A model mixin [`clld_ipachart_plugin.models.InventoryMixin`](src/clld_ipachart_plugin/models.py)
+  providing functionality to render IPA chart components.
+- Utility functions [`clld_ipachart_plugin.util.*`](src/clld_ipachart_plugin/util.py)
+  to load inventory data from segmented forms of a CLDF Wordlist.
