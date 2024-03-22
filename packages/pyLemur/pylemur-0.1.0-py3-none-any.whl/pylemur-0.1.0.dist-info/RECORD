@@ -1,0 +1,17 @@
+pylemur/__init__.py,sha256=ryWa9mXYNxOdEo_-e1jBrBtDvKIMqsynMRPr07CCdoA,129
+pylemur/pl/__init__.py,sha256=g_jqZU__0iwnzcwtIbek7kErpWEOBA0kkLDHs5SJFtM,42
+pylemur/pl/basic.py,sha256=qzJCTtvoT5byHnxxoBX-lDLSXXByuWutUotc0gKW4vI,1212
+pylemur/pp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylemur/pp/basic.py,sha256=QkFfQClma7nUzchoowWd2KGVcmU1YQWJ_ucCka-XVXI,906
+pylemur/tl/__init__.py,sha256=DnXyWN_4bgVWwt7vE8Mv97sIZXGpKpWr60vUP1Lrk7M,123
+pylemur/tl/_design_matrix_utils.py,sha256=xqmqDDfTknTm5031H-Q50KEwf3V6pbgb79d_YiaNdJk,2704
+pylemur/tl/_grassmann.py,sha256=T4xReGkF-BdKJwoLaA9ojBiMXg55oR7fG_3It7blu8Y,1625
+pylemur/tl/_grassmann_lm.py,sha256=ZJMYVPZxsVGiD5fAHW494pFE5Hetqdev4Fy6aPDwDhY,3906
+pylemur/tl/_lin_alg_wrappers.py,sha256=VbJqSG1nXgwVqeAa59qqb0jlUb-XpJ4Mowk_MiQFrOY,2796
+pylemur/tl/alignment.py,sha256=Q1PY0Lfn8oSvYEfLtwlJ3zVjkt93_xqmQni7vN5_t9U,9553
+pylemur/tl/lemur.py,sha256=mvs_OUTg7CrrGHC5HlWPC51G8gObkp3tWGhwmlreJyg,4429
+pylemur/tl/predict.py,sha256=b7Q87f-V5pwK84ju8dVz99lkH5LgPMKArwjJpBnvC20,5648
+pylemur-0.1.0.dist-info/METADATA,sha256=9zoSR-I7d1xKJZPMfkhPF1UxfEqH6Gj5KVLfPGdq82g,5005
+pylemur-0.1.0.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+pylemur-0.1.0.dist-info/licenses/LICENSE,sha256=msc3zOhLE8eocwY6-Wsez9l6XTL-genk4Grx0DMv_6g,1067
+pylemur-0.1.0.dist-info/RECORD,,
