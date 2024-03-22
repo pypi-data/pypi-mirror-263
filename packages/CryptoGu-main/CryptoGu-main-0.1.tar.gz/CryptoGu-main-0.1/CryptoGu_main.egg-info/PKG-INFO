@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: CryptoGu-main
+Version: 0.1
+Summary: that app was creater for tea protocol web site
+Home-page: https://github.com/CryptoGu1/CryptoGu.git
+Author: CryptoGu
+Author-email: Kriptoairdrop9@gmail.com
+Requires-Dist: package1
+Requires-Dist: package2
