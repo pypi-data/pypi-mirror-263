@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+ApiTools_for_aiyoloAPI/__init__.py
+ApiTools_for_aiyoloAPI/_config.py
+ApiTools_for_aiyoloAPI/api.py
+ApiTools_for_aiyoloAPI/pillow_custom.py
+ApiTools_for_aiyoloAPI.egg-info/PKG-INFO
+ApiTools_for_aiyoloAPI.egg-info/SOURCES.txt
+ApiTools_for_aiyoloAPI.egg-info/dependency_links.txt
+ApiTools_for_aiyoloAPI.egg-info/requires.txt
+ApiTools_for_aiyoloAPI.egg-info/top_level.txt
+test/test.py
