@@ -1,0 +1,7 @@
+scikit-learn>=0.22
+numpy>=1.20.0
+pandas
+torch
+
+[dev]
+twine>=4.0.2
