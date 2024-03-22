@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hzh"
+version = "0.0.1"
+authors = [
+  { name="hzh", email="1034235826@qq.com"},
+]
+description = "Get the high-frequency words in the paper to the local txt file, which is convenient to pass the word book to recite"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+        "pypdf=4.1.0",
+        "tqdm=4.66.2",
+        "nltk=3.8.1"
+    ]
+
+[project.urls]
+"Homepage" = "https://github.com/hziheng"

@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+hzh/__init__.py
+hzh/pdf2txt.py
+hzh.egg-info/PKG-INFO
+hzh.egg-info/SOURCES.txt
+hzh.egg-info/dependency_links.txt
+hzh.egg-info/requires.txt
+hzh.egg-info/top_level.txt
