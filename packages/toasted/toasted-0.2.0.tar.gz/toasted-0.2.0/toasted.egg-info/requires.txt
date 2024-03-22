@@ -1,0 +1,5 @@
+httpx~=0.25.0
+Pillow~=10.2.0
+
+[:platform_system == "Windows"]
+winsdk~=1.0.0b6
