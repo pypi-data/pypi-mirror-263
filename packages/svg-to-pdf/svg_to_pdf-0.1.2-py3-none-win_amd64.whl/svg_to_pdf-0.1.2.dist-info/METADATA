@@ -1,0 +1,7 @@
+Metadata-Version: 2.3
+Name: svg_to_pdf
+Version: 0.1.2
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Dist: cffi
+Requires-Python: >=3.8
