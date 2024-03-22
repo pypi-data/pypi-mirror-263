@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dock-cli
+Version: 0.1.2
+Summary: CLI for manage container applications
+Author: Posen
+Author-email: posen2101024@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click ==8.1.7
+
+# dock
