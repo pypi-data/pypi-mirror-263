@@ -1,0 +1,5 @@
+platform_binary/cpython-3.11.8-linux-x86_64.tar.gz,sha256=ovRojRjlwvguD7jcdSCo5ACnoW3J1RHgmA_uQhXG5OM,86750721
+platform_binary/hello.py,sha256=k5M447arZSBD2T3_nB6OqmmgqWmkoN5QhwpsutfzwRc,20
+platform_binary-0.0.2.dist-info/METADATA,sha256=tI0Xq0fjlDt06NhBOwXJAOQcHL56coM4bKCNJxHllFE,290
+platform_binary-0.0.2.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+platform_binary-0.0.2.dist-info/RECORD,,
