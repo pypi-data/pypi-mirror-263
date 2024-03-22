@@ -1,0 +1,6 @@
+inflect
+numpy
+pandas
+scikit-learn
+seaborn
+statsmodels

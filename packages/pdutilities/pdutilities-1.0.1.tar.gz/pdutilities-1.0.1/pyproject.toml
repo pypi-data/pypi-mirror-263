@@ -1,0 +1,17 @@
+[project]
+name = "pdutilities"
+authors = [
+    {name = "techds", email = "chet_singh@berkeley.edu"},
+]
+version = "1.0.1"
+description = "Coming soon"
+dependencies = [
+    "inflect",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "seaborn",
+    "statsmodels",
+]
+[tools.setuptools]
+packages = ["src"]
