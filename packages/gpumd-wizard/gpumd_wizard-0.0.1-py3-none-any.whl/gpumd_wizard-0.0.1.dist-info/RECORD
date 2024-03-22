@@ -1,0 +1,12 @@
+wizard/__init__.py,sha256=07NzQXBgNlnw5kSN6ZYxE9By-_RuH3Jyy58Z74sIio0,21
+wizard/atoms.py,sha256=9JbnMP92joLprupcD4Q715bw_R2n6yBqvp8jk9PQoqE,10340
+wizard/calculator.py,sha256=36VWRzbcLIQ0jwUDrxdAokh_2goVAFoRk7CQygjO2MA,57522
+wizard/frames.py,sha256=8hciTGOSEYJa-qbV67CmuK1MTy_hkMKjZS0DvMAX3UU,8891
+wizard/io.py,sha256=_cuxFZZZLoGvLFl5RKQliWH0J4Vf9pvGPk-5OuDgl2E,27216
+wizard/molecular_dynamics.py,sha256=gvMRVKEOtqLMLxPeSvAQuRbAIG6baz1cyQAFRXGnleA,2828
+wizard/phono.py,sha256=XXP5zt49zzoEUM3raLm2fyh3GzFPEudodmpiC_gKxlM,3714
+gpumd_wizard-0.0.1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+gpumd_wizard-0.0.1.dist-info/METADATA,sha256=LAPiiKr-96HNZXHL0f0XSe7UpZ2XL3-Me6mCmV5on1I,5598
+gpumd_wizard-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gpumd_wizard-0.0.1.dist-info/top_level.txt,sha256=axZHE0dri9GpkglzdxIZJINFcTwUA5_9Vm988KQpFuY,7
+gpumd_wizard-0.0.1.dist-info/RECORD,,
