@@ -1,0 +1,2 @@
+[console_scripts]
+arweave = infernet_ml.utils.arweave:cli
