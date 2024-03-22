@@ -1,0 +1,12 @@
+andromeda_torch/README.md,sha256=13roapkU3Eg1xhqwnYiHoCeGZPxaWvUIvJj9WRGMxYY,7031
+andromeda_torch/__init__.py,sha256=tXDZ70l8koen27zbNiJQe0PZ9tW4SkNS3kS3K65qlBE,141
+andromeda_torch/configs.py,sha256=07XNur2M3TIUNPueBp8q2b0SG7BWNzvHlTKXzShNh00,2142
+andromeda_torch/helpers.py,sha256=e2Vpy22LFLl0JqRmCoGsJfi5ULI2QqbsyHE9Q_gEJ7g,504
+andromeda_torch/inference.py,sha256=SQL1lyxd6ZXwjoggK2uHubDewQfIRRmxT19zFjUYhic,2303
+andromeda_torch/model.py,sha256=erpXkQxdwfn3XTBLDlaBryYESUT-NHJqxzCAE-mYEXI,4195
+andromeda_torch/tokenizer.py,sha256=unRjJOxnbZ_f7WN6fr9cRLXIwhIX9zpmEgbL2ch-nXM,3255
+andromeda_torch-0.0.9.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+andromeda_torch-0.0.9.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+andromeda_torch-0.0.9.dist-info/entry_points.txt,sha256=C209aYEYGazl55S-ghRpKu4Uwh-s7UxVsAFPzolblrA,47
+andromeda_torch-0.0.9.dist-info/METADATA,sha256=yUC29jNX4j0Vl15JMNJaBv5N-7Qf5Yi9etcPK-FQ17E,6235
+andromeda_torch-0.0.9.dist-info/RECORD,,
