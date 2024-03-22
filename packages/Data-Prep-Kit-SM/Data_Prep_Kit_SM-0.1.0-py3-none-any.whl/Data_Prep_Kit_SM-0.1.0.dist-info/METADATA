@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: Data_Prep_Kit_SM
+Version: 0.1.0
+Summary: A Python package for data preprocessing tasks
+Author: Sama
+Requires-Python: >=3.10
+Requires-Dist: pandas
+Requires-Dist: numpy
+
