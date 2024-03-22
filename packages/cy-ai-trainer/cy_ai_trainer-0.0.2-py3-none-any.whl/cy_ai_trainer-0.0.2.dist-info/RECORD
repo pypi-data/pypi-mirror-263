@@ -1,0 +1,8 @@
+cy_ai_trainer/__init__.py,sha256=fyRgQLY9-DodwPcpM23luG48B22V3CL6okdvBZJl1VY,50
+cy_ai_trainer/model_trainer.py,sha256=yIXSxIp04FR16U8fgkLEfwwQNd4dcnnDjAm_o_Avy9U,6612
+cy_ai_trainer/redis_queue.py,sha256=tCFo1B-zAfOrGwYir38NcEnh9aI3JASkQAVf5tZjXeE,7408
+cy_ai_trainer-0.0.2.dist-info/LICENSE.txt,sha256=b8YkGrGe7dUwPode_uUhiDsweRZtpyMWpjbEBeN-J44,1559
+cy_ai_trainer-0.0.2.dist-info/METADATA,sha256=9UY7EQ101ZAKhV5aWNqput0nc2csNBybWelvGD6lXEo,1080
+cy_ai_trainer-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cy_ai_trainer-0.0.2.dist-info/top_level.txt,sha256=ayHqZ4RLCf0XGWkdkA1nNmHfqLVMMzX834yeQuPg5zY,14
+cy_ai_trainer-0.0.2.dist-info/RECORD,,
