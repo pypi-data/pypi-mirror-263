@@ -1,0 +1,16 @@
+LICENCE
+README.md
+pyproject.toml
+src/geopagos/__init__.py
+src/geopagos/sdk.py
+src/geopagos.egg-info/PKG-INFO
+src/geopagos.egg-info/SOURCES.txt
+src/geopagos.egg-info/dependency_links.txt
+src/geopagos.egg-info/top_level.txt
+src/geopagos/client/__init__.py
+src/geopagos/client/client.py
+src/geopagos/schemas/__init__.py
+src/geopagos/schemas/order.py
+src/geopagos/schemas/payment.py
+tests/test_order.py
+tests/test_payments.py
