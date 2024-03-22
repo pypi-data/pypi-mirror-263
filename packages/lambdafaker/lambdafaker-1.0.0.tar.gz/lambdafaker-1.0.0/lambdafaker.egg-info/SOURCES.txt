@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+lambdafaker/__init__.py
+lambdafaker/aws.py
+lambdafaker/awslambda.py
+lambdafaker/cli.py
+lambdafaker/config.py
+lambdafaker/lambdafaker.py
+lambdafaker/util.py
+lambdafaker.egg-info/PKG-INFO
+lambdafaker.egg-info/SOURCES.txt
+lambdafaker.egg-info/dependency_links.txt
+lambdafaker.egg-info/entry_points.txt
+lambdafaker.egg-info/requires.txt
+lambdafaker.egg-info/top_level.txt
+tests/test_lambdafaker.py

@@ -1,0 +1,2 @@
+[console_scripts]
+lambdafaker = lambdafaker.cli:main
