@@ -1,0 +1,12 @@
+geopagos/__init__.py,sha256=n_clE8Yzw_A-X9aYPyd5egZesghzhu94UrhFiDJGloM,21
+geopagos/sdk.py,sha256=-9L0rzeluKsk9zXlH8OEGiRmpSlAvKxu95te-z8rSqI,1446
+geopagos/client/__init__.py,sha256=MF64bwUCd4sm3dvcxZnkb4ujHtxT_KeuXdD0nVieEt4,27
+geopagos/client/client.py,sha256=AI_ER5pMmwTnqQrJCAgIkWIKiDrsrNcN6pm-4px8qqc,2768
+geopagos/schemas/__init__.py,sha256=nPsQQaaP3YSxBxkzGWdPyYjUtRtLqgf4eM57IcmF7qo,54
+geopagos/schemas/order.py,sha256=Sk-qVAxr0gyqrCy48-tMWndn1FkWH3GzubMf51hD5dQ,2420
+geopagos/schemas/payment.py,sha256=JiEqYuzG8K0driBPPszZR-E4oEWJLOxJRdTIc-RZiks,4040
+geopagos-0.0.1.dist-info/LICENCE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+geopagos-0.0.1.dist-info/METADATA,sha256=EXV2sqBv8a5_ExdZWd6k8mXDzV8MckG7_3UyzEhdMF4,2630
+geopagos-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+geopagos-0.0.1.dist-info/top_level.txt,sha256=5tyaC5aQ_abwyFRbnSZ_QtP65S8AFzWJyeiEWVQl4x4,9
+geopagos-0.0.1.dist-info/RECORD,,
