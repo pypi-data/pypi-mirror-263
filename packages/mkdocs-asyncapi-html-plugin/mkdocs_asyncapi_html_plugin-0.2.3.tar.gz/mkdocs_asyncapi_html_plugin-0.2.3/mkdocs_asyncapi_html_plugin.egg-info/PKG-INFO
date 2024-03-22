@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mkdocs-asyncapi-html-plugin
+Version: 0.2.3
+Summary: mkdocs plugin to generate pages from asyncapi spec files
+Home-page: https://github.com/hani-deriv/mkdocs-asyncapi-plugin
+Author: hani
+Author-email: hani@regentmarkets.com
+License: MIT
+Keywords: mkdocs,asyncapi,plugin,python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+mkdocs plugin to generate pages from asyncapi spec files
+
