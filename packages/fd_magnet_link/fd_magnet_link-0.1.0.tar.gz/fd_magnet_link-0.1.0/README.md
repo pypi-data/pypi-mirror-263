@@ -1,0 +1,64 @@
+# Command-line magnet search tool
+
+This is a powerful command-line utility that enables users to seamlessly query databases using command-like formats, efficiently retrieving the desired outcomes.
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+### Prerequisites
+
+- Python (v3.9 or higher)
+
+### Installation
+
+1. Clone the repository:
+
+``` shell
+git clone https://github.com/Alexstrasza03/magnet-Command_line_tool
+```
+
+2. Installing a Python package:
+
+``` shell
+pip install glitter-sdk 
+```
+
+3. Navigate to the project directory:
+
+``` shell
+cd /path/to/directory
+```
+
+4. Adding execution permissions to the File:
+
+``` shell
+chmod +x fdmgnt 
+```
+5. Move the file to a file in $Path:
+
+``` shell
+sudo mv fdmgnt /usr/bin
+```
+
+### Usage
+
+`fdmgnt` takes two parameters: the first is the desired filename for searching, and the second specifies the number of search results to be exhibited.
+
+For example:I would like to conduct a search for a file named "Freelance" and subsequently present the top five search results.
+
+```shell
+fdmgnt Freelance 5
+```
+
+## Built With
+
+- [glitter-sdk-py](https://github.com/glitternetwork/glitter-sdk-py) a blockchain-based data platform to help applications store, manage and elevate the world’s data in Web3 way.
+
+## Contributing
+
+If you would like to contribute to this project, feel free to fork the repository and submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
