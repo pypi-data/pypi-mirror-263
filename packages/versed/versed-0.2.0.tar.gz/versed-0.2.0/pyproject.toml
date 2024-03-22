@@ -1,0 +1,22 @@
+[project]
+name = "versed"
+version = "0.2.0"
+authors = [
+  { name="Josh Spratt", email="jspratt02@icloud.com" },
+]
+description = "A command line app to aid in scripture memorization. 'I have stored up your word in my heart, that I might not sin against you.' Psalm 119:11"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/josh-spratt/versed"
+Issues = "https://github.com/josh-spratt/versed/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
