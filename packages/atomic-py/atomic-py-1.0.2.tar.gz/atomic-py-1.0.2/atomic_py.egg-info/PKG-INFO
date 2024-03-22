@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: atomic-py
+Version: 1.0.2
+Summary: Atomic Architecture Framework
+Home-page: https://atomicarchitecture.hotaka.io
+Author: Sergio.Bermudez
+Author-email: sergio@hotaka.io
+License: GPL
+Requires-Dist: pika
