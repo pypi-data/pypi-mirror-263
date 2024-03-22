@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: streamlit-current-location
+Version: 0.0.1
+Summary: Streamlit component to get current position
+Home-page: https://github.com/misogihagi/streamlit-current-location
+Author: misogihagi
+Author-email: hagimiso@gmail.com
+License: MIT
+Description: # streamlit-current-location
+        
+        Streamlit component to tell the current coordinaate
+        
+        ## Installation instructions
+        
+        ```sh
+        pip install streamlit-current-location
+        ```
+        
+        ## Usage instructions
+        
+        ```python
+        import streamlit as st
+        
+        from streamlit_current_location import current_position
+        
+        # it returns dict of GeolocationCoordinates
+        # see https://developer.mozilla.org/ja/docs/Web/API/GeolocationCoordinates
+        position = current_position()
+        
+        st.write("altitude: " + position["altitude"])
+        st.write("longitude: " + position["longitude"])
+        ```
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: devel
