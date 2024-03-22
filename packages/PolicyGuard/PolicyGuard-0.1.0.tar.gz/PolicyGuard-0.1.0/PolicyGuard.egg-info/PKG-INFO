@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: PolicyGuard
+Version: 0.1.0
+Summary: An automated tool for managing OPA policies.
+Home-page: https://github.com/apratimshukla6/PolicyGuard
+Author: Apratim Shukla
+Author-email: apratimshukla6@gmail.com
+License: Apache
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: docker
+
+# PolicyGuard
