@@ -1,0 +1,7 @@
+Version Log
+==========
+
+3.2.0 (14/03/2024)
+-------------------
+- Implemented profile response handling fixes
+
