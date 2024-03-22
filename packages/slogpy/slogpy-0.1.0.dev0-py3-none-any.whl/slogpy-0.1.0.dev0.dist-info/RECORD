@@ -1,0 +1,11 @@
+slogpy/__init__.py,sha256=AFREdZlzPD5qR9nSf8R9ec1KvA4Dm5nNuN7w-R0JG9g,73
+slogpy/__main__.py,sha256=usj8O4KRzFVrqm7DmWznp2mCQXxhirxor3Yur6C7GkQ,2340
+slogpy/progress.py,sha256=PvnO2uiPk8dpqrpiDzD0xeYfkK6RDq3kQTOfdv_ATpE,2284
+slogpy/section.py,sha256=DDBWb73Tul5ATigz-tg_mGrc7_yHD683UYdt1xOTRcs,1488
+slogpy/slog.py,sha256=V1d8WuU8THxvLg1KMw8TZWbxXyWRyNPTjC-2oS0-PeQ,15657
+slogpy/syslogger.py,sha256=Fuc9ccJ52G_T5Tgw0q_TL8fGYDeOePioDFsyFqziqNQ,467
+slogpy/util.py,sha256=H1EJ_RCo07QK5Bm_S_ihT0NBEVTz1ixhXdiglSvTsa8,281
+slogpy-0.1.0.dev0.dist-info/LICENSE,sha256=rFASykwbZ9Edr9ZdqGmC-xy4tEohEtoZ0A69p40E7BQ,1063
+slogpy-0.1.0.dev0.dist-info/METADATA,sha256=_2oKIsqvhvOwBhhSyXYop19nBNlXdy_kdG273VOPoGw,7054
+slogpy-0.1.0.dev0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+slogpy-0.1.0.dev0.dist-info/RECORD,,
