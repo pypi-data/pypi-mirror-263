@@ -1,0 +1,2 @@
+[console_scripts]
+fagr = fagr.fagr:run
