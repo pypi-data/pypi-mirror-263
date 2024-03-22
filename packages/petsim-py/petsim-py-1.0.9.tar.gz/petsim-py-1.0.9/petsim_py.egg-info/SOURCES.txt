@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+petsim_api/__init__.py
+petsim_api/api/__init__.py
+petsim_api/subclasses/__init__.py
+petsim_py.egg-info/PKG-INFO
+petsim_py.egg-info/SOURCES.txt
+petsim_py.egg-info/dependency_links.txt
+petsim_py.egg-info/top_level.txt
