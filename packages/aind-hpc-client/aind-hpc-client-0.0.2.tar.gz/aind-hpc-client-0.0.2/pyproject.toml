@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aind-hpc-client"
+description = "Utility methods to interface with the HPC. Auto-generated from openapi tools"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+authors = [
+    {name = "Allen Institute for Neural Dynamics"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+readme = "README.md"
+dynamic = ["version"]
+
+dependencies = [
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+version = {attr = "aind_hpc_client.__version__"}
