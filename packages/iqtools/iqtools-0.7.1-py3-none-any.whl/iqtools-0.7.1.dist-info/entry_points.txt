@@ -1,0 +1,5 @@
+[console_scripts]
+generateCW=IQtools.CLI:generateCW
+getPeaks=IQtools.CLI:getPeaks
+getSpectrum=IQtools.CLI:getSpectrum
+
