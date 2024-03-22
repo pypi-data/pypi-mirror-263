@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+idev-zwpy/idev_zwpy.egg-info/PKG-INFO
+idev-zwpy/idev_zwpy.egg-info/SOURCES.txt
+idev-zwpy/idev_zwpy.egg-info/dependency_links.txt
+idev-zwpy/idev_zwpy.egg-info/entry_points.txt
+idev-zwpy/idev_zwpy.egg-info/requires.txt
+idev-zwpy/idev_zwpy.egg-info/top_level.txt
+idev-zwpy/zwpy/__init__.py
+idev-zwpy/zwpy/zwpy.py

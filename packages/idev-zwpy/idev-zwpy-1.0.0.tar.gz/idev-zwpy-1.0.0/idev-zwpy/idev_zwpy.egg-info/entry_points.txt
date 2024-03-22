@@ -1,0 +1,2 @@
+[console_scripts]
+zwpy = zwpy:run
