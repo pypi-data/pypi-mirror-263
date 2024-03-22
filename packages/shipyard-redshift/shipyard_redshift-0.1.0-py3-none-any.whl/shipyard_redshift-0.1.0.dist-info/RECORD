@@ -1,0 +1,10 @@
+shipyard_redshift/__init__.py,sha256=8Ba_cqIsrv8rf1Evp1L8CBLlDr62oqThGZFrGezr8Tg,37
+shipyard_redshift/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shipyard_redshift/cli/authtest.py,sha256=j6fat_MUjP0_1Orw7Q5cMzB46M-65Oyel-xIqtxjQ8w,1021
+shipyard_redshift/cli/download.py,sha256=CnjjIBDhQTgx0ECzPgQhP0QbN4LU9wA1JOVN3jvrl30,5322
+shipyard_redshift/cli/execute_query.py,sha256=DKPO7PMVjkbIawKkRUCTvGTYmBr6LwcPnS5wEWGXNLQ,3154
+shipyard_redshift/cli/upload.py,sha256=DhykpIZiQye_UpmijaQ1qcng_cL1CwJjUBTQFp1W5rQ,7144
+shipyard_redshift/redshift.py,sha256=lhk8h5RvEzHkSQrrXx3gOYYcb9Zh-2bay174UCU5dFk,1186
+shipyard_redshift-0.1.0.dist-info/METADATA,sha256=VJIH1LPmKTl1hUwwic0lQFlNVhqZPLJhCKHSH_hvsIk,635
+shipyard_redshift-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+shipyard_redshift-0.1.0.dist-info/RECORD,,
