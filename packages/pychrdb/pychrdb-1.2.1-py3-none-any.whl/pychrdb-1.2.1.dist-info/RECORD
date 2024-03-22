@@ -1,0 +1,8 @@
+chrdb/__init__.py,sha256=AmLLc84Xg0_p6E9fxG572SMyCV8FIZZ7iq1UFeq_ytQ,214
+chrdb/database.py,sha256=mKUkLizTjCeMTlWYGImod8EUcPoURh0yQXT7RPBZV7E,3402
+chrdb/utils.py,sha256=wIYHoDjNzsVZVin91QSdMBidnuct3fPsiElU5pAwzK4,868
+pychrdb-1.2.1.dist-info/LICENSE,sha256=c0fBMOROPXVgA63jCbx4JB9vzh3hyW_FM__Q_F9cs78,1085
+pychrdb-1.2.1.dist-info/METADATA,sha256=gRjLWYoZaLKks3mwIAPiDYdckW8BXuIqKYJH0RHu-vE,1617
+pychrdb-1.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pychrdb-1.2.1.dist-info/top_level.txt,sha256=sYqhAX9VFvf50ImkEVCN0ibfRIWs2Q6T-eNQcrFTyl4,6
+pychrdb-1.2.1.dist-info/RECORD,,
