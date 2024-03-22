@@ -1,0 +1,9 @@
+ndvi_trends/__init__.py,sha256=5YdTwwQoP6maFB-_aV12Jf5cZJMLoUeunz-pb1XWKV0,14
+ndvi_trends/calc.py,sha256=sPDXGDn3H6fvD0i4LcEtsyrfdYnJEyfC7IcR7ix_-h4,260
+ndvi_trends/data.py,sha256=pGbIXAmAV8vCKEWgmriZgF5PxCKgg3wb9muqh-vsXfU,11571
+ndvi_trends/smoothing.py,sha256=R-ldtEO0z3bl9MuiUOZeyQob1SI1hYhRP1xBS-0rCsk,20525
+ndvi_trends-0.0.4.dist-info/LICENSE.md,sha256=d_oZCLiKBI7j0VHZoPS8LVgeiSXK-it9pa4QphxXhFI,2193
+ndvi_trends-0.0.4.dist-info/METADATA,sha256=ejp7p9_zK3xjStSkoN2Rjo6hFEx2TsqdFBCkiHaxkEA,2677
+ndvi_trends-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ndvi_trends-0.0.4.dist-info/top_level.txt,sha256=A_Axh3IaqL7t80LqhbYPtRn73aGdB81RDsHSr72Jq8U,12
+ndvi_trends-0.0.4.dist-info/RECORD,,
