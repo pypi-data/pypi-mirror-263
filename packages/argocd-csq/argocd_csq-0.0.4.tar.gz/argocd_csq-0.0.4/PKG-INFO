@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: argocd_csq
+Version: 0.0.4
+Summary: CS tool to manage ArgoCD
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: colorama==0.4.6
+Requires-Dist: inquirer==3.2.4
+Requires-Dist: PyJWT==2.8.0
+Requires-Dist: Requests==2.31.0
+Requires-Dist: structlog==24.1.0
