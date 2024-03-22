@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pygymformat
+Version: 0.0.2
+Summary: Base classes for making games that comply with Openai Gym environment creation standards
+Home-page: https://github.com/Bassneptun/PyGymFormat
+Author: Jeremy Neumann
+Author-email: jeremytaylorneumann@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: pygame
+Requires-Dist: numpy
+Requires-Dist: vectormath
+
+## Install
+
+- via pip: pip install PyGymFormat
+- from source: git clone PATH \n pip install .
+
+## Use
+
+PyGymFormater creates widgets for everything which are latter combined to a 
+game class. Those widgets are sorted into submodules named after their 
+properties, like invisible and visible. When creating new entities like the 
+player, another submodule with multiple base  class options, you create a
+class that inherits from the correct abstract base class.
