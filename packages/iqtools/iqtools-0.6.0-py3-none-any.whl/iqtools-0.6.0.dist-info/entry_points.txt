@@ -1,0 +1,4 @@
+[console_scripts]
+getPeaks=IQtools.CLI:getPeaks
+getSpectrum=IQtools.CLI:getSpectrum
+
