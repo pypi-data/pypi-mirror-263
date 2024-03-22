@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: clld-audio-plugin
+Version: 1.1.0
+Summary: Render linked audio files in clld apps.
+Home-page: https://github.com/clld/clld-audio-plugin
+Author: Robert Forkel
+Author-email: dlce.rdm@eva.mpg.de
+Project-URL: Bug Tracker, https://github.com/clld/clld-audio-plugin/issues
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: clld (>=7)
+Requires-Dist: sqlalchemy
+Requires-Dist: zope.interface
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-mock ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: tox ; extra == 'test'
+Requires-Dist: webtest ; extra == 'test'
+
+# clld-audio-plugin
+
+[![Build Status](https://github.com/clld/clld-audio-plugin/workflows/tests/badge.svg)](https://github.com/clld/clld-audio-plugin/actions?query=workflow%3Atests)
+[![PyPI](https://img.shields.io/pypi/v/clld-audio-plugin.svg)](https://pypi.org/project/clld-audio-plugin)
+
+A plugin for the [`clld`](https://pypi.org/project/clld) package.
+
+
+## Usage
+
+`clld-audio-plugin` provides
+- A model class [`clld_audio_plugin.models.Counterpart`](src/clld_audio_plugin/models.py) augmented with an `audio` column to store the URL to an audio file.
+- A column for a `DataTable` [`clld_audio_plugin.datatables.AudioCol`](src/clld_audio_plugin/datatables.py) to display objects with an `audio` attribute as audio player.
+- A map class [`clld_audio_plugin.maps.ParamMap`](src/clld_audio_plugin/maps.py) specifying a parameter map integrating clld audioplayer functionality.
+- Static resources for the configuration/layout of the UI elements contributed by the plugin.
+
+To use map and static resources, include the plugin in your app's `main` function:
+```python
+    config.include('clld_audio_plugin')
+```
+
+To use model and column, just import in your app's `datatables.py` or `models.py` as needed.
