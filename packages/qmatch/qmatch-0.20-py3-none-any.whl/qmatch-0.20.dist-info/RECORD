@@ -1,0 +1,13 @@
+qmatch/__init__.py,sha256=bNubZ3VhltqiXLNVxGS_rDNWTmD2NqaA8uf0e3ioBnE,326
+qmatch/_match_fast_.py,sha256=Tl2P9idkQmLCCdkI3cMJADVGlPeOLNpq24KNtB419v4,4165
+qmatch/_match_simple_.py,sha256=4Us9DD_Q0PEe3PGr3ZY-r48TWr2ReOoaUkPwer9e7nc,1852
+qmatch/_match_triang_.py,sha256=V_JBsvzvwKEvUvntFWmB27euVCr6mvWTMnx99dQa5C8,4220
+qmatch/_mean_offset_.py,sha256=rOArrZF8cF5iF45bpQGgaJMZ4qdopDgYRKKvXtzwIZw,5239
+qmatch/match_fast.py,sha256=gZ45VEl1xM_qGa93vw0kDsUNG56esbFmPV5slP1Zzuo,4155
+qmatch/match_simple.py,sha256=4Us9DD_Q0PEe3PGr3ZY-r48TWr2ReOoaUkPwer9e7nc,1852
+qmatch/match_triang.py,sha256=t0jxGEVCD7TH51zsow2fdEjJpizqbJY7p4UTD_gDD_4,4218
+qmatch-0.20.dist-info/LICENSE,sha256=WM5uB0cjCdjeLNlk0dwqJC6Q-wu8JRRkSCsNx6RZQMQ,1069
+qmatch-0.20.dist-info/METADATA,sha256=HikS2SqV3yWskPZmeUt5OxsihJcZ1hL5Y7rsXRPQDN0,1633
+qmatch-0.20.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+qmatch-0.20.dist-info/top_level.txt,sha256=UJ4usvDqSeYpbEtAc52Ku2viZTEkpx_EqtjDZcUePuc,7
+qmatch-0.20.dist-info/RECORD,,
