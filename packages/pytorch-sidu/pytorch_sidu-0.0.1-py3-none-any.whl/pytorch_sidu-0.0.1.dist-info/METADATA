@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pytorch-sidu
+Version: 0.0.1
+Summary: SIDU: SImilarity Difference and Uniqueness method for explainable AI
+Home-page: https://github.com/MarcoParola/pytorch-sidu
+Author: Marco Parola
+Author-email: marcoparola96@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: torch
+
+# pytorch-sidu
+SIDU: SImilarity Difference and Uniqueness method for explainable AI
