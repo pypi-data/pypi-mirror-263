@@ -1,0 +1,15 @@
+README.md
+setup.py
+Detection/ExcelInspector.py
+Detection/FileInspector.py
+Detection/ImageInspector_fast.py
+Detection/ImageInspector_precise.py
+Detection/PDFInspector.py
+Detection/WordInspector.py
+Detection/__init__.py
+ErrorFile.egg-info/PKG-INFO
+ErrorFile.egg-info/SOURCES.txt
+ErrorFile.egg-info/dependency_links.txt
+ErrorFile.egg-info/requires.txt
+ErrorFile.egg-info/top_level.txt
+Repair/__init__.py
