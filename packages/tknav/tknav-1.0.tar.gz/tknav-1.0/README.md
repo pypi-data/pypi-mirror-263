@@ -1,0 +1,80 @@
+# TKNav
+Tknav (short for tkinter navigation) offers a simple API for you to manage navigation in your tkinter projects. 
+
+To use tknav, install the package from the pypi repository using the command
+
+`pip install tknav`
+
+In your tkinter project, import the navigator object and create an instance of it.
+
+```
+import Navigator from tknav
+from tkinter import * as tk
+...
+navigator = Navigator()
+...
+```
+
+To Create a page, instance a tkinter frame and assign it to a variable. Pass in the root object as the master to the frame
+
+```
+my_page = Tk.frame(root)
+```
+
+All the widgets existing in this page must have the variable, in this case `my_page` as their master.
+
+```
+my_label = tk.Label(my_page, text="Hello world! Welcome home!", padx=10, pady=10)
+
+my_button = tk.Button(my_page, text="I am a button", padx=10, pady=10)
+```
+
+Pack all the widgets in `my_page`. <b>DO NOT</b> pack the `my_page` frame since that will be handled by the navigator
+
+```
+my_label.pack()
+my_button.pack()
+```
+
+Alternatively, you can use the place and grid functions as well to position these widgets to your liking.
+
+```
+my_label.grid(column=1, row=1)
+my_button.place(x=20, y=15)
+```
+
+After placing the widgets, add the frame, in this case `my_page` to the navigator using the `navigator.add_page()` function, passing in the page name of your liking and the frame object, `my_page`
+
+```
+navigator.add_page("hello_world_page", my_page)
+```
+
+To navigate to a particular page, use the `navigator.navigate_to()` function, passing in the name of the page you want to navigate to. This should be the same name that was passed to the `add_page()` function. 
+```
+navigator.navigate_to("hello_world_page")
+```
+
+This function can be called from tkinter events such as button clicks
+
+```
+button = Tk.Button (
+  ...
+  command=lambda:navigator.navigate_to("my_page")
+)
+```
+
+The `navigator.get_history()` returns an array containing the navigation history. The most recent page will be at index `0`, and the oldest page will be at index `-1`
+
+For example, if the user visited the home page first, then the products page, come back to the home page and visit the about page, the history will look something like this:
+
+```
+print(navigator.get_history())
+> ["about", "home", "products", "home"]
+```
+
+Lastly, inorder to remove a page from the navigator, use `navigator.remove_page()`, passing in the name of the page you want to remove
+
+```
+navigator.remove_page("hello_world_page")
+# this will remove the hello_world_page
+```
