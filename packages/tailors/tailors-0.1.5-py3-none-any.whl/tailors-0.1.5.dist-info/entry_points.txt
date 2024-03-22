@@ -1,0 +1,5 @@
+[console_scripts]
+tailors-dataset-from-eb=tailors.trainer.dataset_from_eb:process
+tailors-train=tailors.trainer.train:train
+tailors-ui=tailors.trainer.ui.app:run
+

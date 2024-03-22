@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: tailors
+Version: 0.1.5
+Summary: 
+Home-page: https://github.com/orctom/tailors
+License: Apache-2.0
+Author: orctom
+Author-email: orctom <orctom@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: hao>=3.8.6
+Requires-Dist: torch>=2.0.0
+Requires-Dist: transformers>=4.27.2
+Requires-Dist: numpy
+Requires-Dist: einops
+Requires-Dist: seqeval
+Requires-Dist: scikit-learn
+Requires-Dist: peft
+Requires-Dist: deepspeed
+Requires-Dist: accelerate
+Requires-Dist: torch-optimizer~=0.3.0
+Requires-Dist: tensorboard
+Requires-Dist: torchinfo
+Requires-Dist: rocksdb-py
+Requires-Dist: lmdb
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: websockets
+Requires-Dist: passlib[bcrypt]
+Requires-Dist: itsdangerous
+Requires-Dist: python-multipart
+Requires-Dist: python-jose[cryptography]
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: fabric
+Requires-Dist: gpustat
+Requires-Dist: editdistance
+Requires-Dist: apscheduler
+Requires-Dist: shapely ; extra == "cv"
+Requires-Dist: opencv-python-headless ; extra == "cv"
+Project-URL: homepage, https://github.com/orctom/tailors
+Provides-Extra: cv
+
+# tailors
+
+abstract base models
+
