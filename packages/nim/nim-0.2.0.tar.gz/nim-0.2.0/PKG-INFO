@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nim
+Version: 0.2.0
+Summary: python to nim interfacing
+Author: Anthon van der Neut
+Author-email: a.van.der.neut@ruamel.eu
+License: Copyright Ruamel bvba 2007-2024
+Project-URL: Home, https://sourceforge.net/p/nim/
+Project-URL: Source, https://sourceforge.net/p/nim/code/ci/default/tree/
+Project-URL: Tracker, https://sourceforge.net/p/nim/tickets/
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Python: >=3
+Description-Content-Type: text/x-rst
+
+
+python to nim interfacing
