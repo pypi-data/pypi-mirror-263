@@ -1,0 +1,16 @@
+attrs
+requests
+slumber
+
+[dev]
+build
+coverage
+tox
+mypy
+check-manifest
+types-requests
+types-slumber
+
+[test]
+pytest
+pytest-cov
