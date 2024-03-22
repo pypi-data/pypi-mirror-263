@@ -1,0 +1,3 @@
+[console_scripts]
+fml=fd_magnet_link:main
+
