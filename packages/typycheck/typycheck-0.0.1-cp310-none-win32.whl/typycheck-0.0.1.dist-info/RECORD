@@ -1,0 +1,7 @@
+typycheck-0.0.1.dist-info/METADATA,sha256=liEFIDWNCuEYfOnjyn0EM1TcZj_6y81qcGnPvk0Z0Uw,838
+typycheck-0.0.1.dist-info/WHEEL,sha256=9RmYUj-esIKQx6TApE6-yhBl_9k8cOHeP1-5vFYOkbg,91
+typycheck-0.0.1.dist-info/entry_points.txt,sha256=enDU_yLmCmTrHO424IAr7T0hwzyS3bTj29btkJpJGjo,47
+typycheck/main.py,sha256=N91A-Bedizlo2zdCRwzMnReiqLEZrgMzeIpBmn2Hrgg,343
+typycheck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typycheck/rust.cp310-win32.pyd,sha256=Q7NI9taAER2OOGEz42wlbn3oU_BE97wZFsEl520trZU,199168
+typycheck-0.0.1.dist-info/RECORD,,

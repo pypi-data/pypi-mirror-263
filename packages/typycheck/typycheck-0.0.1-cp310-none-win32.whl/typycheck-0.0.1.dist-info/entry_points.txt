@@ -1,0 +1,2 @@
+[console_scripts]
+typycheck=typycheck.main:app
