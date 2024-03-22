@@ -1,0 +1,14 @@
+hook_extension/__init__.py,sha256=oIaxsc2m40zn_0uAlhu5KqQrSoQB0ZrrJ1DiXWxLxn8,101
+hook_extension/configure_hook.py,sha256=OybFvGBX2Ny_qKQp_MaJAgvHe9AgEEJRWn12gPcwYYY,3571
+hook_extension/describe_hook.py,sha256=5NYslSYxyHt6UgB5eg8ZviuWXl9ns6rw-__FnMMveTE,15954
+hook_extension/enable_lambda_hook.py,sha256=hRC5AMUQhi3_oLuLnum2qfVIbFWZ6cww18YCpI-tYso,7699
+hook_extension/entry.py,sha256=U3dJDijNAK8PvsoSM485EBScve_STPF80SswR1g91gY,1500
+hook_extension/set_default_hook_version.py,sha256=-b3KxUAndpHIP50k--MGHczTEsMWw6zX25p6Faw5Q6Y,2958
+cloudformation_cli_hooks_extension-0.2.0.dist-info/LICENSE,sha256=CeipvOyAZxBGUsFoaFqwkx54aPnIKEtm9a5u2uXxEws,10142
+cloudformation_cli_hooks_extension-0.2.0.dist-info/METADATA,sha256=bwXPc1ccHzbxhPNrSHhE3lldt_567jSvzkxC-V8JxjU,8231
+cloudformation_cli_hooks_extension-0.2.0.dist-info/NOTICE,sha256=1CkO1kwu3Q_OHYTj-d-yiBJA_lNN73a4zSntavaD4oc,67
+cloudformation_cli_hooks_extension-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cloudformation_cli_hooks_extension-0.2.0.dist-info/entry_points.txt,sha256=Z0EWjdtZuQUjbgXnHC4mEJ0VDYj5lB0Rf9gvrFQ8b4g,64
+cloudformation_cli_hooks_extension-0.2.0.dist-info/top_level.txt,sha256=rDL8zxYBYgCwCL19H5n9uzNRfMsSnBG5geiRiy9hmTY,15
+cloudformation_cli_hooks_extension-0.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cloudformation_cli_hooks_extension-0.2.0.dist-info/RECORD,,
