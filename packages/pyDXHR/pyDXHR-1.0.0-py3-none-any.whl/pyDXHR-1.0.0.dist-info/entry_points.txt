@@ -1,0 +1,6 @@
+[console_scripts]
+bigfile = pyDXHR.entrypoints:bigfile
+drm = pyDXHR.entrypoints:drm
+gltf = pyDXHR.entrypoints:gltf
+unit = pyDXHR.entrypoints:unit
+usm = pyDXHR.entrypoints:usm
