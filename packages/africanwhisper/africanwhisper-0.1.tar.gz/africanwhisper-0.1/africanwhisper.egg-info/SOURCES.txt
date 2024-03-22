@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+africanwhisper.egg-info/PKG-INFO
+africanwhisper.egg-info/SOURCES.txt
+africanwhisper.egg-info/dependency_links.txt
+africanwhisper.egg-info/requires.txt
+africanwhisper.egg-info/top_level.txt
