@@ -1,0 +1,11 @@
+mantelo/__init__.py,sha256=vjH9vKBzV66onGFn1MzR4tb46Kex3pi7BWfZRcnD_K0,252
+mantelo/client.py,sha256=1zYu2x5C77beQEKkSARiCC58mRA0ghLJfyvxQ8RimMM,3612
+mantelo/connection.py,sha256=y9H61qxVFFKQJ7r5smNUitafzkBfNx9pYB_7YkDG6fY,5132
+mantelo/exceptions.py,sha256=W7Iu8Tb5uijaZL5kcX6idoanW9dOR8oeRvH0RwPgqm0,655
+mantelo/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mantelo/version.py,sha256=o9XMlNC6GoiUn7mwoOOgJdijgp3B_2fLdgizcKs1i2o,411
+mantelo-2.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mantelo-2.0.0.dist-info/METADATA,sha256=lllLH7E2-mQTyaMMcz-oVmLU3R68jrg_5XnajNDTLkU,25727
+mantelo-2.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mantelo-2.0.0.dist-info/top_level.txt,sha256=tSMJ-as2buIDE7Qn2lPag_6_dCzfuv7tbQtKAfKtDNo,8
+mantelo-2.0.0.dist-info/RECORD,,
