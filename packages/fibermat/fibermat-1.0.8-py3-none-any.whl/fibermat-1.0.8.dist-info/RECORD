@@ -1,0 +1,13 @@
+fibermat/__init__.py,sha256=t_a-1Exp-jm-1MojiXuBnHGlDK8tmvqZBoUYAoMg2SU,5189
+fibermat/interpolation.py,sha256=X1_NMs5xGxpigSg-x8vNpWgROqpGoKBVje4jI_pyJac,3460
+fibermat/mat.py,sha256=Q1mbD-tITvwPldTyKGaNULsLeP0_biXspghBOSuJXOE,10659
+fibermat/mesh.py,sha256=fo6q9c8D4BFd_j458h1SfQ378OXJIgVzHFi1RipeUUA,10361
+fibermat/model.py,sha256=gL6XLUtWOkkVw8Py51zCALvVhSUQgBmplngClT2cPq8,9908
+fibermat/net.py,sha256=6uzwUnRdYGwKtQkSsMCzT65adRi-xRfDGODG--wMHm8,23138
+fibermat/render.py,sha256=QYcw4fnB1z20psa596tB5UhmFl9su6KGKi04Zxodp5A,9113
+fibermat/solver.py,sha256=i3dUGI5PBAX4-KqBUSHnIb_UUU3zGC4CRYO9n5Np0gk,6526
+fibermat/widgets.py,sha256=Yuj_jbpBq273HKsr7zFjLG34iaw_vZMuODl0YHfx4_A,10142
+fibermat-1.0.8.dist-info/METADATA,sha256=pSIMb9Y2VaOFb0Y8_7QldjIASm-gyeDSettXOapFmEE,7262
+fibermat-1.0.8.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+fibermat-1.0.8.dist-info/licenses/LICENSE,sha256=RHlLe6gMnmES1QOEKYJSPiOYtydbNHpiW4iulsGKYLA,1072
+fibermat-1.0.8.dist-info/RECORD,,
