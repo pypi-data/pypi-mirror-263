@@ -1,0 +1,15 @@
+django_auth_ipwhitelist/__init__.py,sha256=sQkWUpUiSo90oSUb3DMB1f-cYJpsUgovRbDvRnDzuj8,910
+django_auth_ipwhitelist/admin.py,sha256=Humw0zM3U_sBJp5Ibg2BRvFniysq8B5MFbTtBUkEP9I,225
+django_auth_ipwhitelist/backends.py,sha256=p_0XjDVs3q9qwdQeKxBfkZDRd58cmNnySzltQhAf96k,2656
+django_auth_ipwhitelist/middleware.py,sha256=ET2NvdaKAcpE9DwJupP_kBgzulpEQINJRsuG3QGx-0k,1782
+django_auth_ipwhitelist/models.py,sha256=HKeLKcMo4oHCsQxiashBccLisksnL73GpV9oNY1zz5c,725
+django_auth_ipwhitelist/serializers.py,sha256=Drvc72XT3JXNz2M_TSxhw0pHJE3Utr9pH2jV0Ocb9YM,2913
+django_auth_ipwhitelist/settings.py,sha256=A2M1gIyA3qRFqcL27Sc3IwFZoIx1xO_R3QuqeZ4ZS1c,1995
+django_auth_ipwhitelist/migrations/0001_initial.py,sha256=ACQ5gGCGRF0LOM-V8v274w6TRPPNLAm3XAgL4V-IR0E,612
+django_auth_ipwhitelist/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_auth_ipwhitelist-0.1.0.dist-info/AUTHORS.rst,sha256=r4GFkBbUkVG51_vgCFg4R0rk_Xvbcunte3eScQUt07Q,158
+django_auth_ipwhitelist-0.1.0.dist-info/LICENSE,sha256=0ywOpiAfyNmm_yIwH_tS9uh8cLCx1y9Q_n3iS_pOG9c,1505
+django_auth_ipwhitelist-0.1.0.dist-info/METADATA,sha256=Cenyrozo6xaSEl5Mjou6eNtvvpfrdSblG06X2iUEO9s,4415
+django_auth_ipwhitelist-0.1.0.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+django_auth_ipwhitelist-0.1.0.dist-info/top_level.txt,sha256=idBtEskLj8ET5e6UdC7sXrSD2b0ij0nAAQmgmIY4wNA,24
+django_auth_ipwhitelist-0.1.0.dist-info/RECORD,,
