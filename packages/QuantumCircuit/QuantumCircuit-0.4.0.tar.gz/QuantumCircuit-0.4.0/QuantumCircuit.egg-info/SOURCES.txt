@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+QuantumCircuit.egg-info/PKG-INFO
+QuantumCircuit.egg-info/SOURCES.txt
+QuantumCircuit.egg-info/dependency_links.txt
+QuantumCircuit.egg-info/requires.txt
+QuantumCircuit.egg-info/top_level.txt
+simulator_tgq/QuantumCircuit.py
+simulator_tgq/__init__.py
+simulator_tgq/draw_circuit_tools.py
