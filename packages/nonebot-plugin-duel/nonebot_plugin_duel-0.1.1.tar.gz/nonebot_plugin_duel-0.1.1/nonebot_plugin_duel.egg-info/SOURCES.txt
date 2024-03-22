@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+nonebot_plugin_duel/__init__.py
+nonebot_plugin_duel/config.py
+nonebot_plugin_duel/dule_sesion.py
+nonebot_plugin_duel/matcher.py
+nonebot_plugin_duel/rule.py
+nonebot_plugin_duel.egg-info/PKG-INFO
+nonebot_plugin_duel.egg-info/SOURCES.txt
+nonebot_plugin_duel.egg-info/dependency_links.txt
+nonebot_plugin_duel.egg-info/requires.txt
+nonebot_plugin_duel.egg-info/top_level.txt
