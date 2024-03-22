@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: VGAtil
+Version: 1.5.4
+Summary: VGAtil is a Python module for getting the GPU status from NVIDA GPUs using nvidia-smi.
+Home-page: https://github.com/
+Download-URL: https://github.com/
+Author: Anders Krogh Mortensen
+Author-email: anderskroghm@gmail.com
+License: MIT
+Keywords: gpu,utilization,load,memory,available,usage,free,select,nvidia
+
