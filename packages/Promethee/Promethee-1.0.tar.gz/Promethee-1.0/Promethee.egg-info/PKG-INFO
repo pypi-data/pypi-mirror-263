@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: Promethee
+Version: 1.0
+Summary: Promethee algorithm
+Home-page: UNKNOWN
+Author: Eduardo Teles, Wilson Freita, Vinícius Oliveira, Gabriel Monteiro, Josef Jaeger
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Promethee
+
+Multi-decision criteria algorithm Promethee
+
+# Usage:
+
+# install with pip:
+
+`pip install Promethee==1.0`
+
+# Import on your code:
+
+`from Promethee import promethee`
+
+# Paramethers:
+
+`promethee(df,pesos,objetivos,tipo,q,p)`  
+
+**df**  = pandas dataframe with de Criterias, the problems and their values as the example: <br> 
+|__|C1|C2|C3| <br> |D1| 6 | 7 |10| <br> |D2| 9 | 8 | 9 | <br> |D3| 8 | 2 | 8 | <br> |D4| 7 | 8 | 5 | <br> |D5| 1 |10|10| <br> |D6| 8 | 3 | 8 | <br> |D7| 6 |10| 9 | <br> |D8| 1 | 2 | 6 | <br>
+
+**pesos**  = list with the respective wheights of each criteria <br>
+**objetivos**  = list with the respectives values if the criteria is for maximization or minimization. True = minimization False = maximization  <br>
+**tipo**  = int that determines the type of the function used:
+
+1.  Usual Criterion<br>
+2.  U-shape Criterion<br>
+3.  V-shape Criterion<br>
+4.  Level Criterion<br>
+5.  V-Shape with indiference criterion<br>
+6.  Gaussion Criterion<br>
+
+**q and p**  = int that is necessarie in some types of function, if not informed, their default value is 0 (functions type 4 and 5 requires 'q' and 'p', in that case, 'q' is the intermediary value and 'p' is the higher value).
+
