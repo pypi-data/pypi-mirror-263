@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=67.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "hyperetes"
+version = "0.0.1"
+authors = [
+    {name="Alexander Fedotov", email="alex.fedotov@aol.com"},
+]
+description = "Any person who acted as the assistant of another."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+]
+[project.urls]
+"Homepage" = "https://github.com/hyperetes/package_name"
+"Bug Tracker" = "https://github.com/hyperetes/hyperetes/issues"

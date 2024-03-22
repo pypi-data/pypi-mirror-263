@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hyperetes
+Version: 0.0.1
+Summary: Any person who acted as the assistant of another.
+Author-email: Alexander Fedotov <alex.fedotov@aol.com>
+Project-URL: Homepage, https://github.com/hyperetes/package_name
+Project-URL: Bug Tracker, https://github.com/hyperetes/hyperetes/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Hyperetes
+ὑπηρέτης was an Ancient Greek title, it was applied to any person who acted as the assistant of another, and performed manual labour for him, whether in sacred or profane things, whence the word is sometimes used as synonymous with slave.
