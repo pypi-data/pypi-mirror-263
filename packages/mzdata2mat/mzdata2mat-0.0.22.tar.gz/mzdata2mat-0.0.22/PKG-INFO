@@ -1,0 +1,85 @@
+Metadata-Version: 2.3
+Name: mzdata2mat
+Version: 0.0.22
+Summary: Package used to convert mzData.xml files into matlab files.
+Author-email: CORDELLA Maxime <maxime.cordella911@gmail.com>
+License: MIT License
+License-File: LICENSE.txt
+Keywords: .mat,.mzData.xml,.xml,convert,matlab,mzData
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Requires-Dist: mat4py>=0.6.0
+Requires-Dist: pydantic>=2.6.4
+Requires-Dist: pyexecjs==1.5.1
+Description-Content-Type: text/markdown
+
+# mzData2Mat
+Welcome ! mzData2Mat is a Python package which converts mzData.xml files (version 1.05) into mat files which matlab can load and use.
+
+## Compatible hardware
+### macOS
+mzdata2mat has been developped with a macOS environment. At this time, `macOS Sonoma 14.0` is officially supported, other macOS versions could be supported as long as they follow the requirements listed below.
+
+## Windows
+madata2mat has not been tested yet on any Windows machine for now. Support will soon be added (if applicable).
+
+## Requirements
+### Other than Python
+This packages __requires a javascript interpreter__ such as __node.js__. We recommand downloading it and installing it a [nodejs.org](https://nodejs.org/en), this package has been tested with node.js only. There is no official support for other interpreters at this time.
+
+### Python version
+This package has been developped with Python `3.12.1` however, other python versions are actively being tested to add other versions as soon as possible.
+
+### Python packages
+To be able to use this package, the following packages need to be also installed on the target environment :
+```python 
+    pydantic>=2.6.4
+    PyExecJS==1.5.1
+    mat4py>=0.6.0
+```
+# Installation
+From your terminal run the following command to install mzdata2mat into your environment :
+```python
+pip install mzdata2mat
+```
+If you have multiple instances of Python installed, run this command with the chosen Python interpreter to install mzdata2mat in the corresponding Python installation :
+```python
+<pathToPythonApp> -m pip install mzdata2mat
+```
+When the command terminates, you have successfully installed mzdata2mat !
+
+To verfiy if the installation was successful, run in your terminal this command :
+```python
+$ mzdata2mat-verify
+```
+This command will attempt to convert an example .mzdata.xml file into a .mat file. If everything goes right, you will get this message :
+```
+$ mzdata2mat - Ready to use !
+```
+The example file (.mzdata.xml) will be copied in the current working directory and the converted file (.mat) will be added as soon as the conversion finishes.
+
+If an error occurs, this probably means that you do not have __node.js__ installed on your machine.
+# Usage
+To use mzdata2mat, import it like follows:
+```python
+from mzdata2mat import mzDataManager
+```
+Here we import the main class used for the conversion.
+Now we initilize the class :
+
+```python
+converterAgent = mzDataManager(useDirectory=False)
+```
+If all mzData files are stored in the same directory, we can specify the parameter `mzDataPath` instead of `useDirectory`.
+
+From now we can call the `mzDataXMLread`function to read the `.mzData.xml' file:
+```python
+data = converterAgent.mzDataXMLread(fileName=path2mzDataFile)
+```
+We can now save this file with the function `saveMatfile`:
+```python
+converterAgent.saveMatfile(mzData=data, dir2save=someDirectory)
+```
+You have now successfully converted a mzData file into mat files ! 
+Congratulations !

@@ -1,0 +1,27 @@
+[project]
+name = "mzdata2mat"
+version = "0.0.22"
+authors = [
+  { name="CORDELLA Maxime", email="maxime.cordella911@gmail.com" },
+]
+description = "Package used to convert mzData.xml files into matlab files."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+dependencies = [
+  "PyExecJS==1.5.1",
+  "pydantic>=2.6.4",
+  "mat4py>=0.6.0"
+]
+keywords = ["mzData", "matlab", "convert", ".mat", ".mzData.xml", ".xml"]
+license = {text = "MIT License"}
+
+[project.scripts]
+mzdata2mat-verify = "mzdata2mat:verify"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
