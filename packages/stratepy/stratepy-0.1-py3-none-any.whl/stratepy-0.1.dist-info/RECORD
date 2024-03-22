@@ -1,0 +1,14 @@
+auction_systems/__init__.py,sha256=mqhj0LyiuMNmKXgMtewxCNMWgBimqk3V8KrK-cct-xg,178
+auction_systems/auction_models.py,sha256=Wm_yDuFQEKjDewEQ-6w0unxXWW0zlOjX9y2TMY3KXjI,329
+auction_systems/auction_sim.py,sha256=U7ucjeS5pCBiEaPA5taZpUDMq0ZAb9U7lGyb67mpyCo,822
+prisoners_dilemma/__init__.py,sha256=Q4FgtyPX1PHspuAPCQc9LZuVk3T2lZA2YU_WcwfIGJs,200
+prisoners_dilemma/game.py,sha256=lo2QTrprb1-oUemQWpf5jWcHdbY2oOh_hunbOUv9Cnw,2718
+prisoners_dilemma/strategies.py,sha256=n_DlNe6MLTftFpusrOtUzp7goRbS1Tiswp2cNot6wHM,2816
+voting_systems/__init__.py,sha256=YBSpxqs-zpGUWgwiAqrp6LoaDivYfTEiJSh2oezj_0s,76
+voting_systems/voting_models.py,sha256=mS68WJ2pEvhTfKeN4UuLd2yYlZL8nQaptzm625MYsS8,1368
+voting_systems/voting_sim.py,sha256=Zcc61JqSQKKC5wMBLWLrR4SFBBzKdT9konhrAudhygg,318
+stratepy-0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+stratepy-0.1.dist-info/METADATA,sha256=Rp8fJmlF7uuJtXhO4Cfo3tOf9tqQ45LmhJjmHnCmHlE,470
+stratepy-0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+stratepy-0.1.dist-info/top_level.txt,sha256=qcknFFVac7Pg_i36j1ejbKPejXDxyXu_oKcOWzcRUCk,49
+stratepy-0.1.dist-info/RECORD,,
