@@ -1,0 +1,17 @@
+basisgen/__init__.py,sha256=w69j6AI5mtb2dhdDL2QvN8YvtQDR4vmIBXnmbXyDUgQ,380
+basisgen/algebras.py,sha256=3jSmmw2Fl6M8XO8SaBASrKfB7iHX2qLZwU8FrRPab0E,11850
+basisgen/containers.py,sha256=HuJGeuaGLdQjjw3BQcPxByLfISGLOLJqus9SiPj10Pc,671
+basisgen/eft.py,sha256=d2LJP1xyYTsI_fBIInioFNV17nOjpZUNyDtXE7xT0tw,20902
+basisgen/lorentz.py,sha256=jZj92WmsPKtu4vmKqT2WS2kfFTm8_Xlyp-vZToBMBpk,543
+basisgen/parsing.py,sha256=lPTpNkBLYuWGEuGQ663VWncRo4P8h9YJTnjHIoPlhEY,1806
+basisgen/partitions.py,sha256=jNMJlib5nLi3EIeFzSSj9cLaLMSgv0BgDo_zIpp_Ktw,341
+basisgen/representations.py,sha256=gY16uPGIw-urAqrGPdEL-4cMMcOOu9CaiUn-5hi1EdM,9832
+basisgen/shortcuts.py,sha256=2q8jpBjlf7TWQ3poABUGIUsjYy1Yd1IZvQnlIP3MeDs,334
+basisgen/smeft.py,sha256=3yfW1My6ovw2YEieEuXn5VAUgV8vYuBfMYfStZhV2nM,3123
+basisgen/statistics.py,sha256=VuIKwLzUUADdPlR1OwkNRt98bktVwnMjxSZRUAd1WA8,73
+basisgen/weights.py,sha256=wZpDYy0-GkFVBOcyGXB7rhIaAiX5GBq-Zx0r7TRwuzU,1101
+basisgen-1.0.3.dist-info/LICENSE,sha256=8MjOiYR0rgr2j5Oj0jvALPhFjV5nG9RsCU_QEEbit54,1075
+basisgen-1.0.3.dist-info/METADATA,sha256=8z7OQ6UqLyd4oSi8h5UofB-39Kv7F10aesS189NV1OU,612
+basisgen-1.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+basisgen-1.0.3.dist-info/top_level.txt,sha256=rNt2tBGSuCfsxUpGttylyx2fn_fCKF0Ko2-Q-zeHsv8,9
+basisgen-1.0.3.dist-info/RECORD,,
