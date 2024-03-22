@@ -1,0 +1,12 @@
+Detection/ExcelInspector.py,sha256=WClYSvWu5GUc39-4Yvy33S0aw4hcTYZ2iYAP8pzb8n4,1442
+Detection/FileInspector.py,sha256=sOZvMJ4KuVCBh0uc8XFup52x5DGhNu3hEB-4S-15BLo,2253
+Detection/ImageInspector_fast.py,sha256=wsEyqxJ-BLqYcWQu209mHSchc82AkUJKlXLomVQNsYQ,4053
+Detection/ImageInspector_precise.py,sha256=i_UTWUITF4UaBY4Nlx0ZAYN3mkP-wu_Q2L1eraydPUY,684
+Detection/PDFInspector.py,sha256=Lm_iwV8JdqN1wHq3mcUip5jfrQNXKp00QczqHLZMnw8,1548
+Detection/WordInspector.py,sha256=6GqPO6aQUbZ0gdl7Fp_uhkLjJlxI1gUE99H5E9CnUdU,738
+Detection/__init__.py,sha256=JAvj-bMZ0xepVAbJ2V3-DFoXttAqn37sZf3359H67hw,67
+Repair/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ErrorFile-0.1.1.dist-info/METADATA,sha256=2IHjm5avGYLC4mhZFtxLxXgxysa9WEcpOUeUSPz4XUg,2796
+ErrorFile-0.1.1.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+ErrorFile-0.1.1.dist-info/top_level.txt,sha256=1-msWDbnxj9K3x_71VcokUb7MuXx0xz15smJB0kX-Q8,17
+ErrorFile-0.1.1.dist-info/RECORD,,
