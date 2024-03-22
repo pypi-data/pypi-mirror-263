@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: py_iec62056
+Version: 1.1.0
+Summary: Package for communicate with iec62056-21 Meters
+Author-email: Adrien Delhaye <adrien.delhaye@memoco.eu>
+Project-URL: Homepage, https://pypi.org/manage/project/iot-protocols
+Keywords: python,iiot,protocols
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: py-iec62056>=1.0.0a1
+Requires-Dist: pyserial>=3.5
+Requires-Dist: pytest>=7.0.0
+
+# Python IEC62056 Meter Tools
