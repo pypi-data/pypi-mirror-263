@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: poonia
+Version: 0.1.37
+Summary: Collection of small utilities
+Author: proteus
+License: AGPLv3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Utilities
+License-File: LICENSE.txt
+Requires-Dist: Click
