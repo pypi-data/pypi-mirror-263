@@ -1,0 +1,14 @@
+policyguard/Dockerfile,sha256=qamrts8ngrhuSHkFP1Mied6pP6GH-G-sPwffaaD-cBU,539
+policyguard/__init__.py,sha256=Rv0jSLgl0xMrw65hyHJja6vmoiEsff-FlMN6dTFEGlE,36
+policyguard/policyguard.py,sha256=aK5kW4i9anz3BQqRmnYMvKOkJBgzxVY_lBEYD76zzqM,5793
+policyguard/default/access_policy.rego,sha256=ovyBYDik3vYwhPKJKM_GqB1EEwo0LezCKroEXN3-A_E,1656
+policyguard/default/backup_policy.rego,sha256=r2vBvczCj-drVwLmqyiGam0MXEdVDJUTpGqd-UZ-Ws8,1081
+policyguard/default/encryption_policy.rego,sha256=WW0jd_GqTRfTNVklYHxSNdaenVxAVKismTcMPvHqKjo,898
+policyguard/default/network_policy.rego,sha256=qrcQNr2GI9iO8t2pkHGajlQq_uybvtEtkp_TdlJfSHA,1014
+policyguard/default/password_policy.rego,sha256=FiK_WGY8FV4hQ2QyCDutIXcCK4ih7BhmFzSFciHFlVA,1282960
+PolicyGuard-0.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+PolicyGuard-0.1.0.dist-info/METADATA,sha256=Uvkzxea5w9XItGrFra-pLRjCOAqpjizsyzL0m27xV4E,339
+PolicyGuard-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+PolicyGuard-0.1.0.dist-info/entry_points.txt,sha256=WLHYTmlRtNNyoxsbySZ690lvJzvpu16LpA_Lxfr5kyc,69
+PolicyGuard-0.1.0.dist-info/top_level.txt,sha256=kGzIaeKRPdd02LdqTorTaJaK8NJySNYidTLFtNb55w4,12
+PolicyGuard-0.1.0.dist-info/RECORD,,
