@@ -1,0 +1,10 @@
+setup.py
+nrm_distributions/Binomialdistribution.py
+nrm_distributions/Gaussiandistribution.py
+nrm_distributions/Generaldistribution.py
+nrm_distributions/__init__.py
+nrm_distributions.egg-info/PKG-INFO
+nrm_distributions.egg-info/SOURCES.txt
+nrm_distributions.egg-info/dependency_links.txt
+nrm_distributions.egg-info/not-zip-safe
+nrm_distributions.egg-info/top_level.txt
