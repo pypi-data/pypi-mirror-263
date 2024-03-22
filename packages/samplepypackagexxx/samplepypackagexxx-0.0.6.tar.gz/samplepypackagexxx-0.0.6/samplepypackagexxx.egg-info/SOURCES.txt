@@ -1,0 +1,11 @@
+setup.py
+samplepypackagexxx/__init__.py
+samplepypackagexxx/add.py
+samplepypackagexxx/subtract.py
+samplepypackagexxx.egg-info/PKG-INFO
+samplepypackagexxx.egg-info/SOURCES.txt
+samplepypackagexxx.egg-info/dependency_links.txt
+samplepypackagexxx.egg-info/top_level.txt
+samplepypackagexxx/extras/__init__.py
+samplepypackagexxx/extras/divide.py
+samplepypackagexxx/extras/multiply.py
