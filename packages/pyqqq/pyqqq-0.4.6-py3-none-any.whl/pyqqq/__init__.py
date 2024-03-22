@@ -1,0 +1,32 @@
+from pyqqq.config import Config
+import os
+
+c = config = Config()
+
+_api_key = None
+
+
+def set_api_key(api_key: str):
+    global _api_key
+
+    assert api_key is not None, "API key must not be None"
+    assert len(api_key) >= 32, "API key must be at least 32 characters long"
+
+    _api_key = api_key
+
+
+def get_api_key() -> str | None:
+    if _api_key:
+        return _api_key
+
+    elif c.PYQQQ_API_KEY:
+        return c.PYQQQ_API_KEY
+
+    elif os.path.exists(c.CREDENTIAL_FILE_PATH):
+        with open(c.CREDENTIAL_FILE_PATH, "r") as f:
+            return f.read().strip()
+
+    return None
+
+
+all = ["config", "get_api_key", "set_api_key"]
