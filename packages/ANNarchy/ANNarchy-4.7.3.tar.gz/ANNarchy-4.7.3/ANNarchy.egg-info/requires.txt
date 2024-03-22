@@ -1,0 +1,5 @@
+cython
+numpy
+sympy>=1.6
+scipy>=0.19
+matplotlib
