@@ -1,0 +1,116 @@
+[project]
+name = "tailors"
+description = ""
+authors = [{name = "orctom", email = "orctom@gmail.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+dynamic = ["version"]
+requires-python = ">=3.10"
+dependencies = [
+    "hao>=3.8.6",
+    "torch>=2.0.0",
+    "transformers>=4.27.2",
+    "numpy",
+    "einops",
+    "seqeval",
+    "scikit-learn",
+    "peft",
+    "deepspeed",
+    "accelerate",
+    "torch-optimizer~=0.3.0",
+    "tensorboard",
+    "torchinfo",
+    "rocksdb-py",
+    "lmdb",
+    "fastapi",
+    "uvicorn",
+    "websockets",
+    "passlib[bcrypt]",
+    "itsdangerous",
+    "python-multipart",
+    "python-jose[cryptography]",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "fabric",
+    "gpustat",
+    "editdistance",
+    "apscheduler",
+]
+
+[project.urls]
+homepage = "https://github.com/orctom/tailors"
+
+[project.scripts]
+tailors-train = "tailors.trainer.train:train"
+tailors-dataset-from-eb = "tailors.trainer.dataset_from_eb:process"
+tailors-ui = "tailors.trainer.ui.app:run"
+
+[project.optional-dependencies]
+cv = [
+    "shapely",
+    "opencv-python-headless",
+]
+[build-system]
+requires = ["flit_core>=3.8.0,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.pi]
+license-expression = "Apache-2.0"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q -s"
+testpaths = [
+    "tests",
+]
+
+[tool.autopep8]
+max_line_length = 135
+in-place = true
+recursive = true
+aggressive = 3
+
+[tool.ruff]
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+    "data",
+    ".vscode",
+    ".ipynb_checkpoints",
+    "miniconda3",
+]
+line-length = 135
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+ignore = []
+fixable = ["ALL"]
+unfixable = []
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
