@@ -1,0 +1,1 @@
+thanosql_magic
