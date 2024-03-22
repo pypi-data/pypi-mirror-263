@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+myfuncx/__init__.py
+myfuncx/client.py
+myfuncx/json_manager.py
+myfuncx.egg-info/PKG-INFO
+myfuncx.egg-info/SOURCES.txt
+myfuncx.egg-info/dependency_links.txt
+myfuncx.egg-info/requires.txt
+myfuncx.egg-info/top_level.txt
