@@ -1,0 +1,27 @@
+[project]
+name = "papamanadjango"
+version = "0.2.1"
+description = "Module Django and Environtment"
+dependencies = [
+    "django==3.2",
+    "ipython>=8.12.3"
+]
+readme = "README.md"
+requires-python = ">= 3.10"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.rye.scripts]
+app = { cmd = "python src/papamana_django/__init__.py" }
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/papamana_django"]
