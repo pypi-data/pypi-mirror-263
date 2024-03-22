@@ -1,0 +1,17 @@
+clld>=7
+pyclts
+pycldf
+sqlalchemy
+zope.interface
+
+[dev]
+flake8
+twine
+wheel
+build
+
+[test]
+pytest
+pytest-mock
+pytest-cov
+tox
