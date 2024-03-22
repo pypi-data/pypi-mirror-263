@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+momomail/__init__.py
+momomail.egg-info/PKG-INFO
+momomail.egg-info/SOURCES.txt
+momomail.egg-info/dependency_links.txt
+momomail.egg-info/requires.txt
+momomail.egg-info/top_level.txt
+momomail/gmail/__init__.py
+momomail/gmail/client.py
+momomail/gmail/exceptions.py
+momomail/gmail/label.py
+momomail/gmail/message.py
+momomail/gmail/thread.py
+tests/test.py
