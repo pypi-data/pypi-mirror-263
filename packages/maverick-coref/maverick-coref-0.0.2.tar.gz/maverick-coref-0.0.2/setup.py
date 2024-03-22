@@ -1,0 +1,30 @@
+from setuptools import setup
+
+setup(
+    name="maverick-coref",
+    version="0.0.2",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
+    url="https://github.com/g185/maverick-coref",
+    packages=["maverick", "maverick.models", "maverick.data", "maverick.utils", "maverick.common"],
+    install_requires=[
+        "pytorch-lightning==2.0.9",
+        "hydra-core==1.3",
+        "hydra_colorlog==1.2",
+        "wandb==0.15",
+        "rich==13.6",
+        "pandas==2.1",
+        "transformers==4.34",
+        "datasets==2.14",
+        "spacy==3.7",
+        "jsonlines==4.0.0",
+        "scipy==1.11.3",
+        "sentencepiece==0.1.99",
+        "protobuf==3.20",
+        "nltk==3.8.1",
+    ],
+    python_requires=">=3.8.0",
+    author="Giuliano Martinelli",
+    author_email="giuliano.martinelli97@gmail.com",
+    zip_safe=False,
+)
