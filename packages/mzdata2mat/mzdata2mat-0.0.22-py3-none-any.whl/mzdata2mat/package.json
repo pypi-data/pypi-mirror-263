@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mzdata": "^2.3.1"
+  },
+  "type" : "module"
+}
