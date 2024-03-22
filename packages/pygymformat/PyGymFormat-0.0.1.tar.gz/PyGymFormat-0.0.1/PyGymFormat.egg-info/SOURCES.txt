@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+PyGymFormat/ModuleContainers.py
+PyGymFormat/ModuleGame.py
+PyGymFormat/ModuleInvisible.py
+PyGymFormat/ModulePlayer.py
+PyGymFormat/ModuleRule.py
+PyGymFormat/ModuleVisibles.py
+PyGymFormat/__init__.py
+PyGymFormat.egg-info/PKG-INFO
+PyGymFormat.egg-info/SOURCES.txt
+PyGymFormat.egg-info/dependency_links.txt
+PyGymFormat.egg-info/requires.txt
+PyGymFormat.egg-info/top_level.txt
