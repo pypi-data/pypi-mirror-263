@@ -1,0 +1,12 @@
+momomail/__init__.py,sha256=lQdMsTPRdhZpFSa7PDfskmfBGOn8QN4tw4nuE1bLmC0,22
+momomail/gmail/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+momomail/gmail/client.py,sha256=qbOYPLP8iz3x4z2Q39JZjH2J-5LhoPnbK26fwlrjyuk,2404
+momomail/gmail/exceptions.py,sha256=hSHq1Tw-VPVnjApai8-3T5_oAXFSZd62hZX5DaR9eXY,513
+momomail/gmail/label.py,sha256=VLGww8WBb69mIP5HG8JXpUNzj9izkUEAx_x3MF9gLdU,6992
+momomail/gmail/message.py,sha256=dALuTve7ybVj5uJQM-UwNLPUSngIKF4iRatog_MA08k,12840
+momomail/gmail/thread.py,sha256=1iDTQ6lMtC4zetXCjFTolPSvTof3DydaQZw4Y7Ttc-4,6128
+momomail-2024.3.22.dist-info/LICENSE,sha256=tmckw8Btn0tHxd7h5EjqpixhHZgmUfzWwCb9SohghTM,1063
+momomail-2024.3.22.dist-info/METADATA,sha256=6P4kcRcyhLnctRFBymI0-d87l2XiC-bt99l7vAUN4C8,1827
+momomail-2024.3.22.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+momomail-2024.3.22.dist-info/top_level.txt,sha256=TiSPoiXbYPKDifsGbvVIkfO2x-xzwLuc0c95qY9Syjc,9
+momomail-2024.3.22.dist-info/RECORD,,
