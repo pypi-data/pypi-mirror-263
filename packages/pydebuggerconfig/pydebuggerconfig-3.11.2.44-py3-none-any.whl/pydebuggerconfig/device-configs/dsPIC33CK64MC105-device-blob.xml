@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<deviceconf name="dsPIC33CK64MC105">
+    <register name="DEVICE_CONFIG_MAJOR" value="1"/>
+    <register name="DEVICE_CONFIG_MINOR" value="8"/>
+    <register name="DEVICE_CONFIG_BUILD" value="60"/>
+    <register name="CONTENT_LENGTH" value="0"/>
+    <register name="CONTENT_CHECKSUM" value="0"/>
+    <register name="INSTANCE" value="1"/>
+    <register name="INTERFACE_TYPE" value="0x03"/>
+    <register name="DEVICE_VARIANT" value="0x02"/>
+    <register name="BLOB" value="">
+        <blob>
+            <token>LIST</token>
+            <entry>
+                <type>SCRIPT</type>
+                <id>0</id>
+                <!-- STORED_SCRIPT_ENTER_TMOD_LV -->
+                <!-- harvested and modified from PK4-->
+                <!-- with addition tweaks to match the prog spec and after input from MCU16 -->
+
+                <!-- added manually: call to SET_SPEED to use a 1500ns period instead of specified 200ns -->
+                <data>0xEC</data> <!-- SET_SPEED = 1538ns (from PK4) -->
+                <data>0x02</data>
+                <data>0x06</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0xB1</data> <!-- SET_VPP_OFF -->
+                <data>0xB2</data> <!-- SET_ICSP_PINS -->
+                <data>0x00</data>
+                <data>0x94</data> <!-- DELAY_MS: 25ms stabilisation of MCLR-->
+                <data>0x19</data>
+                <data>0x00</data>
+                <data>0xB0</data> <!-- SET_VPP_ON -->
+                <data>0xA0</data> <!-- DELAY_US: P21=500us -->
+                <data>0xF4</data>
+                <data>0x01</data>
+                <data>0xB1</data> <!-- SET_VPP_OFF -->
+                <data>0xA0</data> <!-- DELAY_US: P18=1000us -->
+                <data>0xE8</data>
+                <data>0x03</data>
+                <data>0xB4</data> <!-- WRITE_LITERAL_32_LSB: 'MCHQ' -->
+                <data>0xB2</data>
+                <data>0xC2</data>
+                <data>0x12</data>
+                <data>0x8A</data>
+                <data>0xA0</data> <!-- DELAY_US: P19=1us-->
+                <data>0x01</data>
+                <data>0x00</data>
+                <data>0xB0</data> <!-- SET_VPP_ON -->
+                <data>0x94</data> <!-- DELAY_US: P7+5P1=50ms+1ms -->
+                <data>0x33</data> 
+                <data>0x00</data>
+                <data>0xB5</data> <!-- WRITE_BITS_LITERAL: 00000 -->
+                <data>0x05</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+            </entry>
+            <entry>
+                <type>SCRIPT</type>
+                <id>1</id>
+                <!-- STORED_SCRIPT_GET_ID -->
+                <!-- Manually ported to GEN4 format from devicesupportscripts repo, as used in MPLAB/pymcuprog -->
+                <data>0xE1</data> <!-- NOP24 (exit reset vector procedure) -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 040200 -->
+                <data>0x00</data>
+                <data>0x02</data>
+                <data>0x04</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0x95</data> <!-- SET_UPLOAD -->
+                <data>0xE0</data> <!-- COREINST24 0x200FF0: # MOV #<Address23:16>, W0 -->
+                <data>0xF0</data>
+                <data>0x0F</data>
+                <data>0x20</data>
+                <data>0xE0</data> <!-- COREINST24 0x20FCC7: # MOV #VISI, W7 -->
+                <data>0xC7</data>
+                <data>0xFC</data>
+                <data>0x20</data>
+                <data>0xE0</data> <!-- COREINST24 0x8802A0: # MOV W0, TBLPAG -->
+                <data>0xA0</data>
+                <data>0x02</data>
+                <data>0x88</data>
+                <data>0xE0</data> <!-- COREINST24 0x200006: # MOV #<Address15:0>, W6 -->
+                <data>0x06</data>
+                <data>0x00</data>
+                <data>0x20</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 0xBA0B96: # TBLRDL [W6], [W7]] -->
+                <data>0x96</data>
+                <data>0x0B</data>
+                <data>0xBA</data>
+                <data>0xE1</data> <!-- NOP24 (5 NOPs after table read) -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE2</data> <!-- VISI24 -->
+            </entry>
+            <entry>
+                <type>SCRIPT</type>
+                <id>2</id>
+                <!-- STORED_SCRIPT_ERASE_CHIP -->
+                <!-- Manually ported to GEN4 format from devicesupportscripts repo, as used in MPLAB/pymcuprog. Prog spec compliant. -->
+                <data>0xE1</data> <!-- NOP24 (exit reset vector procedure) -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 040200 -->
+                <data>0x00</data>
+                <data>0x02</data>
+                <data>0x04</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 0x2400EA: # MOV #0x400E, W10 -->
+                <data>0xEA</data>
+                <data>0x00</data>
+                <data>0x24</data>
+                <data>0xE0</data> <!-- COREINST24 88468A: # MOV W10, NVMCON -->
+                <data>0x8A</data>
+                <data>0x46</data>
+                <data>0x88</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 200551: # MOV #0x55, W1 -->
+                <data>0x51</data>
+                <data>0x05</data>
+                <data>0x20</data>
+                <data>0xE0</data> <!-- COREINST24 8846B1: # MOV W1, NVMKEY -->
+                <data>0xB1</data>
+                <data>0x46</data>
+                <data>0x88</data>
+                <data>0xE0</data> <!-- COREINST24 200AA1: # MOV #0xAA, W1 -->
+                <data>0xA1</data>
+                <data>0x0A</data>
+                <data>0x20</data>
+                <data>0xE0</data> <!-- COREINST24 8846B1: # MOV W1, NVMKEY -->
+                <data>0xB1</data>
+                <data>0x46</data>
+                <data>0x88</data>
+                <data>0xE0</data> <!-- COREINST24 A8E8D1: # BSET NVMCON, #WR -->
+                <data>0xD1</data>
+                <data>0xE8</data>
+                <data>0xA8</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xA2</data> <!-- SETMARKER -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 804680: # MOV NVMCON, W0 -->
+                <data>0x80</data>
+                <data>0x46</data>
+                <data>0x80</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 887E60: # MOV W0, VISI  -->
+                <data>0x60</data>
+                <data>0x7E</data>
+                <data>0x88</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE2</data> <!-- VISI24 -->
+                <data>0xE1</data> <!-- NOP24 (exit reset vector procedure) -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 040200 -->
+                <data>0x00</data>
+                <data>0x02</data>
+                <data>0x04</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xA5</data> <!-- LOOP_ON_RETURN_VAL -->
+                <data>0x00</data>
+                <data>0x80</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x02</data>
+            </entry>
+            <entry>
+                <type>SCRIPT</type>
+                <id>3</id>
+                <!-- STORED_SCRIPT_PROGRAM_FLASH -->
+                <!-- Manually ported to GEN4 format from devicesupportscripts repo, as used in MPLAB/pymcuprog. Prog spec compliant. -->
+                <data>0x91</data> <!-- LD_PARAM32 => 0-->
+                <data>0x00</data>
+                <data>0x91</data> <!-- LD_PARAM32 => 1-->
+                <data>0x01</data>
+                <data>0x93</data> <!-- DIV_PARAM 1/6 -->
+                <data>0x01</data>
+                <data>0x06</data>
+                <data>0x00</data>
+                <data>0xE1</data> <!-- NOP24 (exit reset vector procedure) -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 040200 -->
+                <data>0x00</data>
+                <data>0x02</data>
+                <data>0x04</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 200FAC: # MOV #0xFA, W12  -->
+                <data>0xAC</data>
+                <data>0x0F</data>
+                <data>0x20</data>
+                <data>0xE0</data> <!-- COREINST24 8802AC: # MOV W12, TBLPAG -->
+                <data>0xAC</data>
+                <data>0x02</data>
+                <data>0x88</data>
+                <data>0xAD</data> <!-- DO PARAM 1 -->
+                <data>0x01</data>
+                <data>0xE6</data> <!-- WRITE_BUF_WORD16_toW 0 -->
+                <data>0x00</data>
+                <data>0xE6</data> <!-- WRITE_BUF_WORD16_toW 1 -->
+                <data>0x01</data>
+                <data>0xE6</data> <!-- WRITE_BUF_WORD16_toW 2 -->
+                <data>0x02</data>
+                <data>0xE0</data> <!-- COREINST24 EB0300: # CLR W6 -->
+                <data>0x00</data>
+                <data>0x03</data>
+                <data>0xEB</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 EB0380: # CLR W7 -->
+                <data>0x80</data>
+                <data>0x03</data>
+                <data>0xEB</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 BB0BB6: # TBLWTL [W6++], [W7] -->
+                <data>0xB6</data>
+                <data>0x0B</data>
+                <data>0xBB</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 BBDBB6: # TBLWTH.B [W6++], [W7++] -->
+                <data>0xB6</data>
+                <data>0xDB</data>
+                <data>0xBB</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 BBEBB6: # TBLWTH.B [W6++], [++W7] -->
+                <data>0xB6</data>
+                <data>0xEB</data>
+                <data>0xBB</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 BB0B96: # TBLWTL.W [W6], [W7] -->
+                <data>0x96</data>
+                <data>0x0B</data> <!-- <data>0x1B</data> -->
+                <data>0xBB</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE5</data> <!-- WRITE_PARAM_LOWWORD_toW 0, 3 -->
+                <data>0x00</data>
+                <data>0x03</data>
+                <data>0xE4</data> <!-- WRITE_PARAM_3RDBYTE_toW 0, 4 -->
+                <data>0x00</data>
+                <data>0x04</data>
+                <data>0xE0</data> <!-- COREINST24 884693: # MOV W3, NVMADR -->
+                <data>0x93</data>
+                <data>0x46</data>
+                <data>0x88</data>
+                <data>0xE0</data> <!-- COREINST24 8846A4: # MOV W4, NVMADRU -->
+                <data>0xA4</data>
+                <data>0x46</data>
+                <data>0x88</data>
+                <data>0xE0</data> <!-- COREINST24 24001A: # MOV #0x4001, W10 -->
+                <data>0x1A</data>
+                <data>0x00</data>
+                <data>0x24</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 88468A: # MOV W10, NVMCON -->
+                <data>0x8A</data>
+                <data>0x46</data>
+                <data>0x88</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 200551: # MOV #0x55, W1 -->
+                <data>0x51</data>
+                <data>0x05</data>
+                <data>0x20</data>
+                <data>0xE0</data> <!-- COREINST24 8846B1: # MOV W1, NVMKEY -->
+                <data>0xB1</data>
+                <data>0x46</data>
+                <data>0x88</data>
+                <data>0xE0</data> <!-- COREINST24 200AA1: # MOV #0xAA, W1 -->
+                <data>0xA1</data>
+                <data>0x0A</data>
+                <data>0x20</data>
+                <data>0xE0</data> <!-- COREINST24 8846B1: # MOV W1, NVMKEY -->
+                <data>0xB1</data>
+                <data>0x46</data>
+                <data>0x88</data>
+                <data>0xE0</data> <!-- COREINST24 A8E8D1: # BSET NVMCON, #WR -->
+                <data>0xD1</data>
+                <data>0xE8</data>
+                <data>0xA8</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xA2</data> <!-- SETMARKER -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 804680: # MOV NVMCON, W0 -->
+                <data>0x80</data>
+                <data>0x46</data>
+                <data>0x80</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 887E60: # MOV W0, VISI -->
+                <data>0x60</data>
+                <data>0x7E</data>
+                <data>0x88</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE2</data> <!-- VISI24 -->
+                <data>0xE1</data> <!-- NOP24 (exit reset vector procedure) -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE0</data> <!-- COREINST24 040200 -->
+                <data>0x00</data>
+                <data>0x02</data>
+                <data>0x04</data>
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xE1</data> <!-- NOP24 -->
+                <data>0xA5</data> <!-- LOOP_ON_RETURN_VAL -->
+                <data>0x00</data>
+                <data>0x80</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x02</data>
+                <data>0x92</data> <!-- INC_PARAM 0 by 4 -->
+                <data>0x00</data>
+                <data>0x04</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0x00</data>
+                <data>0xAE</data> <!-- LOOP_PARAM -->
+            </entry>
+            <entry>
+                <type>SCRIPT</type>
+                <id>4</id>
+                <!-- STORED_SCRIPT_WRITE_CONFIG_MEM -->
+                <!-- null script to keep FW checks happy -->
+            </entry>
+            <entry>
+                <type>SCRIPT</type>
+                <id>5</id>
+                <!-- STORED_SCRIPT_EXIT_TMOD -->
+                <!-- harvested and modified from PK4 -->
+                <data>0xB2</data> <!-- SET_ICSP_PINS 0x00-->
+                <data>0x00</data>
+                <data>0xB1</data> <!-- SET_VPP_OFF -->
+                <data>0x94</data> <!-- DELAY_MS: 1ms -->
+                <data>0x01</data>
+                <data>0x00</data>
+                <data>0x42</data> <!-- SET_VPP_VOLTAGE_OPERATIONAL -->
+            </entry>
+            <entry>
+                <type>D_ICSP</type>
+                <!-- Flash starts at zero -->
+                <data type="PIC_FLASH_BASE_W">0x00000000</data>
+                <!-- This part has no user ID memory -->
+                <data type="PIC_USER_ID_BASE_W">0x00000000</data>
+                <!-- Config is within flash -->
+                <data type="PIC_CONFIG_BASE_W">0x00000000</data>
+                <!-- This part has no eeprom -->
+                <data type="PIC_EEPROM_BASE_W">0x00000000</data>
+                <!-- user flash including config section -->
+                <data type="PIC_FLASH_SIZE_W">0x0000B000</data>
+                <!-- This part has no eeprom -->
+                <data type="PIC_EEPROM_SIZE_B">0</data>
+                <!-- This part has no user ID memory -->
+                <data type="PIC_USER_ID_SIZE_W">0</data>
+                <!-- Config bytes are really just flash  -->
+                <data type="PIC_CONFIG_SIZE_W">0</data>
+                <!-- 8 byte blocks are written in 6-byte packed frames -->
+                <data type="PIC_FLASH_WRITE_BLOCK_B">8</data>
+                <!-- This part has no eeprom -->
+                <data type="PIC_EEPROM_WRITE_BLOCK_B">0</data>
+                <!-- This part has no user ID memory -->
+                <data type="PIC_USER_ID_WRITE_BLOCK_B">0</data>
+                <!-- Config bytes are just flash -->
+                <data type="PIC_CONFIG_WRITE_BLOCK_B">0</data>
+                <data type="PIC_DEVICE_ID">0x9912</data>
+            </entry>
+        </blob>
+    </register>
+</deviceconf>

@@ -1,0 +1,3 @@
+[console_scripts]
+extension-id-tool = pydebuggerconfig.extension_id_tool:main
+pydebuggerconfig = pydebuggerconfig.pydebuggerconfig:main
