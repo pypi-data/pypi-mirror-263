@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fmlcli"
+version = "1.0.1"
+description = ""
+authors = ["Alexstrasza03 <77481463+Alexstrasza03@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+argparse = "^1.4.0"
+glitter-sdk = "^1.0.2"
+rich = "^13.7.1"
+
+[tool.poetry.scripts]
+fml = "fmlcli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
