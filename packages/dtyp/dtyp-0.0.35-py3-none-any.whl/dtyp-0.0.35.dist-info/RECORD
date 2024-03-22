@@ -1,0 +1,13 @@
+dtyp/__init__.py,sha256=iFzDDDO6wZpQRVVJaBmxnh917puFKfvbRmd4Gq1X9so,471
+dtyp/_modidx.py,sha256=JzVP_3H7W2wLLO_COOQrEbRuTzJcLXiVi3Swvv_xsAc,9831
+dtyp/atyp.py,sha256=BHOZsEn3TkndzhjZJAlhr-_kpJVgFvwrhKiQ4UGhFCg,1209
+dtyp/cons.py,sha256=09MKMW08bVoa_BwFN8Er2wvaNBm86DC0VfTcy-dqhQE,847
+dtyp/dcls.py,sha256=peetr0TYtegbt4XJQcNuSCJfg9zr8_mzEp9JrQSC0uY,12068
+dtyp/grds.py,sha256=XjyWVr_r72qHxxIxElTsR8jkEtyVoENB2zPZYu-prdU,4533
+dtyp/util.py,sha256=HSGYhe6x8svGwM5H_CDjxYJobrS9f2lfG4gOloqb6Z0,29373
+dtyp-0.0.35.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+dtyp-0.0.35.dist-info/METADATA,sha256=cmthQzZrmKyf5AOygcUQj0YU7sdszJnPK7yrUqNmMHU,2240
+dtyp-0.0.35.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+dtyp-0.0.35.dist-info/entry_points.txt,sha256=3dX2qmJofdyCy3jrq0H6tTPkQphKtKPF3fzEwG67uRM,30
+dtyp-0.0.35.dist-info/top_level.txt,sha256=p7ci-H2AO6SxFa8FxWRssYSP_Ba-GsGiQg9ixJ_GuF4,5
+dtyp-0.0.35.dist-info/RECORD,,
