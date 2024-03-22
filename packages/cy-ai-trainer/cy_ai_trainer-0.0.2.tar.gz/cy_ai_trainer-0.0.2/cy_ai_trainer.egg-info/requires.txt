@@ -1,0 +1,6 @@
+psycopg2-binary>=2.8.0
+vanna==0.0.30
+rq==1.16.0
+psutil
+cryptography>=3.4.8
+requests

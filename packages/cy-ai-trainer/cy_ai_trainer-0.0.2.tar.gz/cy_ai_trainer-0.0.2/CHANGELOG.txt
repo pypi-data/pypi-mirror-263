@@ -1,0 +1,6 @@
+Change Log
+==========
+
+0.0.2 (22/03/2024)
+__________________
+- Bug Fix -- the worker is not starting
