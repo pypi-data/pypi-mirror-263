@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: unsafefunc
+Version: 0.4
+Summary: Better not use on main pc. For education purposes only!
+Author: TheDanDev
+Description-Content-Type: text/markdown
+
+Welcome to unsafefunc library!
+
+Firstly you need install library. You can use command ``pip install unsafefunc``.
+
+Run scripts only on VM!
+Author not responding for any damage caused by this library!
+Run scripts as admin.
+
+Here are library functions:
+
+MBR overwrite:
+```
+import unsafefunc as unsafe
+
+buffer = bytes([
+    # New MBR Here
+])
+
+unsafe.MBR.overwrite(buffer)
+```
+
+BSOD:
+```
+import unsafefunc as unsafe
+
+unsafe.System.bsod()
+```
