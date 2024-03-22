@@ -1,0 +1,7 @@
+README.md
+setup.py
+CrypDorytea.egg-info/PKG-INFO
+CrypDorytea.egg-info/SOURCES.txt
+CrypDorytea.egg-info/dependency_links.txt
+CrypDorytea.egg-info/entry_points.txt
+CrypDorytea.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: CrypDorytea
+Version: 0.0.1
+Summary: A guess number game - is a best game to develop your intuition skills and also your ability to navigate thanks to hints, special game for tea https://app.tea.xyz/
+Home-page: https://github.com/CryptoGu1/CrypDorytea.git
+Author: CryptoGu
+Author-email: Kriptoairdrop9@gmail.com
+Project-URL: Homepage, https://github.com/CryptoGu1/CrypDorytea.git
+Project-URL: Source, https://github.com/CryptoGu1/CrypDorytea.git
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
