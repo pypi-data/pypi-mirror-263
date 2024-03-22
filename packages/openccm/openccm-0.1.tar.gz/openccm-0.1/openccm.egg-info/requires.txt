@@ -1,0 +1,39 @@
+
+[:python_version > "3.7.0"]
+numpy
+scipy
+sympy
+numba
+configparser
+pyparsing
+
+[all]
+
+[all:python_version > "3.7"]
+pytest
+pytest-xdist
+matplotlib
+networkX
+opencmp
+
+[network_vis]
+
+[network_vis:python_version > "3.7"]
+matplotlib
+networkX
+
+[opencmp]
+
+[opencmp:python_version > "3.7"]
+opencmp
+
+[test]
+
+[test:python_version > "3.7"]
+pytest
+
+[test_ext]
+
+[test_ext:python_version > "3.7"]
+pytest
+pytest-xdist
