@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+BSL_Fingerspelling_test.egg-info/PKG-INFO
+BSL_Fingerspelling_test.egg-info/SOURCES.txt
+BSL_Fingerspelling_test.egg-info/dependency_links.txt
+BSL_Fingerspelling_test.egg-info/top_level.txt
