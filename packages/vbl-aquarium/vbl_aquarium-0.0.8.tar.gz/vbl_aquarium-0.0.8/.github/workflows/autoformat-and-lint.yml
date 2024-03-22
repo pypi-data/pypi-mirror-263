@@ -1,0 +1,45 @@
+name: Autoformat and Lint
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  merge_group:
+
+jobs:
+  autoformat-and-lint:
+    name: Autoformat and Lint
+    if: github.actor != 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 🛎 Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          token: ${{ secrets.WORKFLOW_COMMIT_TOKEN }}
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: 📦 Install Hatch
+        run: pip install hatch
+
+      - name: 📝 Format Code
+        run: hatch fmt -f
+
+      - name: ✅ Commit code format changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Autoformat code"
+          skip_fetch: true
+          skip_checkout: true
+
+      - name: 🔍 Lint
+        run: hatch fmt --check
