@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+bsl_spelling.egg-info/PKG-INFO
+bsl_spelling.egg-info/SOURCES.txt
+bsl_spelling.egg-info/dependency_links.txt
+bsl_spelling.egg-info/top_level.txt
