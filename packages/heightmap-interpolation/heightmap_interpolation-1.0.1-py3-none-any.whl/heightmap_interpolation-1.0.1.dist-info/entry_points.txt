@@ -1,0 +1,2 @@
+[console_scripts]
+interpolate_netcdf4 = heightmap_interpolation.apps.interpolate_netcdf4:main
