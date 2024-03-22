@@ -1,0 +1,107 @@
+[project]
+name = "frontline"
+dynamic = []
+description = "Rapid factory testing with comprehesive output."
+authors = [
+    { name = "Jaagup Averin", email = "jaagup.averin@gmail.com" },
+]
+readme = "README.md"
+keywords = [
+    "testing",
+    "ict",
+    "iot",
+    "embedded",
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.12",
+    "Typing :: Typed",
+    "Intended Audience :: Developers",
+    "Operating System :: POSIX :: Linux",
+    "Framework :: AnyIO",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Software Development :: Testing :: Acceptance",
+    "Intended Audience :: Manufacturing",
+]
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "litestar[standard,opentelemetry,sqlalchemy,structlog,pydantic,jinja]~=2.6",
+    "aiosqlite~=0.19",
+    "anyio~=4.2",
+    "opentelemetry-api~=1.23.0",
+    "opentelemetry-sdk~=1.23.0",
+    "opentelemetry-exporter-otlp~=1.23.0",
+    "opentelemetry-instrumentation-system-metrics==0.44b0",
+    "opentelemetry-instrumentation-jinja2==0.44b0",
+    "pydantic-settings~=2.2",
+]
+version = "0.1.1"
+
+[project.license]
+text = "LICENSE.md"
+
+[project.urls]
+repository = "https://github.com/JaagupAverin/frontline"
+homepage = "https://github.com/JaagupAverin/frontline"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.ruff]
+select = [
+    "ALL",
+]
+ignore = [
+    "ANN10",
+    "RUF012",
+    "FBT",
+    "PD",
+    "D",
+    "TD",
+]
+fixable = [
+    "ALL",
+]
+unfixable = [
+    "ERA001",
+    "F401",
+]
+exclude = [
+    ".git",
+    ".venv",
+    "__pypackages__",
+]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.pylint]
+max-args = 10
+
+[tool.ruff.pydocstyle]
+convention = "pep257"
+
+[tool.ruff.flake8-quotes]
+docstring-quotes = "double"
+inline-quotes = "double"
+multiline-quotes = "double"
+
+[tool.pdm.version]
+source = "file"
+path = "src/frontline/version.py"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "ruff~=0.3",
+    "pydeps~=1.12",
+]
+
+[tool.pdm.build]
+package-dir = "src"
+includes = [
+    "src/frontline",
+]
