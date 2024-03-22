@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mkdocs-asyncapi-html-plugin
+Version: 0.2.1
+Summary: generate html file from asyncapi yml file
+Home-page: UNKNOWN
+Author: Hani
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+generate html file from asyncapi yml file
+
