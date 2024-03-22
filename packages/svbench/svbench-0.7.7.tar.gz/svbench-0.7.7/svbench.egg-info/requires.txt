@@ -1,0 +1,7 @@
+numpy
+pandas
+networkx>=2.4
+ncls
+vcfpy
+matplotlib
+click
