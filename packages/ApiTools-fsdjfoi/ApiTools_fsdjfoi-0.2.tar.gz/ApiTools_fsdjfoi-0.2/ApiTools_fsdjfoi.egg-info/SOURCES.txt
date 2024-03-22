@@ -1,0 +1,13 @@
+setup.cfg
+setup.py
+ApiTools_fsdjfoi/__init__.py
+ApiTools_fsdjfoi/api.py
+ApiTools_fsdjfoi/config.py
+ApiTools_fsdjfoi/model.py
+ApiTools_fsdjfoi/os_custom.py
+ApiTools_fsdjfoi/pillow_custom.py
+ApiTools_fsdjfoi.egg-info/PKG-INFO
+ApiTools_fsdjfoi.egg-info/SOURCES.txt
+ApiTools_fsdjfoi.egg-info/dependency_links.txt
+ApiTools_fsdjfoi.egg-info/requires.txt
+ApiTools_fsdjfoi.egg-info/top_level.txt
