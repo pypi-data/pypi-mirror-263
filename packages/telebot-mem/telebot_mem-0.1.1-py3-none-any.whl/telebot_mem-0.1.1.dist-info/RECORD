@@ -1,0 +1,7 @@
+telebot_mem/__init__.py,sha256=MMa3bDOo6-AlSZMsuDgmI8bGa93h1hDOmZJvxF5mlQk,430
+telebot_mem/db.py,sha256=-1tXskJp438b3apX8mlr-pY_RIxxyzsQGoWEnXOyInE,362
+telebot_mem/mongo_db.py,sha256=nligp6t0vBrofSxcAi2G0n8rD6vQlNRtePv1DpMIdNU,1027
+telebot_mem-0.1.1.dist-info/METADATA,sha256=dIGrYVMcSOWcC9KmJTtdQCeG3P8BK6WApU-1dI2FriA,1269
+telebot_mem-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+telebot_mem-0.1.1.dist-info/top_level.txt,sha256=p3AMjf1q_MTCEtZWpFanNH6M3rqDKMHwvQSuLBrlLV0,12
+telebot_mem-0.1.1.dist-info/RECORD,,
