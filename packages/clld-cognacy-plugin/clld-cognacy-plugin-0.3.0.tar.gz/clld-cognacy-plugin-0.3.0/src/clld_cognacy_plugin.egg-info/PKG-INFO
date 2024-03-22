@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: clld-cognacy-plugin
+Version: 0.3.0
+Summary: Render cognacy relations in clld apps.
+Home-page: https://github.com/clld/clld-cognacy-plugin
+Author: Robert Forkel
+Author-email: dlce.rdm@eva.mpg.de
+Project-URL: Bug Tracker, https://github.com/clld/clld-cognacy-plugin/issues
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE
+
+# clld-cognacy-plugin
+
+[![Build Status](https://github.com/clld/clld-cognacy-plugin/workflows/tests/badge.svg)](https://github.com/clld/clld-cognacy-plugin/actions?query=workflow%3Atests)
+[![PyPI](https://img.shields.io/pypi/v/clld-cognacy-plugin.svg)](https://pypi.python.org/pypi/clld-cognacy-plugin)
+
+
+clld plugin providing functionality for lexical data with cognacy judgements
