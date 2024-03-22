@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: userinterface
+Version: 0.0.8
+Summary: userinteface description
+Author-email: Ruud van der Ham <rt.van.der.ham@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+userinterface
+-------------
+user interface
