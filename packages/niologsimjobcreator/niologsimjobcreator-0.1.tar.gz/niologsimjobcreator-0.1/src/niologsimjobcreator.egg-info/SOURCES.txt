@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/niologsimjobcreator.egg-info/PKG-INFO
+src/niologsimjobcreator.egg-info/SOURCES.txt
+src/niologsimjobcreator.egg-info/dependency_links.txt
+src/niologsimjobcreator.egg-info/top_level.txt
