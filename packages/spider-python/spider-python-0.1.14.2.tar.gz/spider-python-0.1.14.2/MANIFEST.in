@@ -1,0 +1,7 @@
+include *.pyx
+include ./spider/README.md
+recursive-include spider *.pyx
+prune *.bak
+prune *.txt
+prune *.pt
+prune *.pth
