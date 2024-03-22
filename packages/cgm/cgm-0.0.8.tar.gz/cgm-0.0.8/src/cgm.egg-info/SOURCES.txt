@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/cgm/__init__.py
+src/cgm/core.py
+src/cgm/example_graphs.py
+src/cgm.egg-info/PKG-INFO
+src/cgm.egg-info/SOURCES.txt
+src/cgm.egg-info/dependency_links.txt
+src/cgm.egg-info/requires.txt
+src/cgm.egg-info/top_level.txt
+src/cgm/inference/__init__.py
+src/cgm/inference/belief_propagation.py
+src/cgm/inference/forward_sampling.py
+src/cgm/inference/variable_elimination.py
+tests/test_core.py
+tests/test_inference.py
