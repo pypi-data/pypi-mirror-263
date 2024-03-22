@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: stencila_types
+Version: 2.0.0a26
+Summary: Python types for Stencila
+Keywords: programmable reproducible interactive documents python SDK
+Author-Email: Nokome Bentley <nokome@stencila.io>
+License: Apache-2.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: Apache Software License
+Project-URL: Homepage, https://github.com/stencila/stencila/tree/main/python#readme
+Project-URL: Repository, https://github.com/stencila/stencila
+Requires-Python: >=3.10
+Requires-Dist: cattrs>=23.2.3
+Requires-Dist: beartype>=0.17.2
+Requires-Dist: strenum>=0.4.15; python_version < "3.11"
+Description-Content-Type: text/markdown
+
+# stencila_types
