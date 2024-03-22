@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: EnhancedDockerMake
+Version: 0.8.0
+Summary: Build manager for docker images
+Home-page: https://github.com/b32147/dockermake
+Author: b32147
+Author-email: avirshup@gmail.com
+License: Apache 2.0
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: termcolor
+Requires-Dist: docker>=4
+Requires-Dist: pyyaml>=5
+Requires-Dist: jinja2

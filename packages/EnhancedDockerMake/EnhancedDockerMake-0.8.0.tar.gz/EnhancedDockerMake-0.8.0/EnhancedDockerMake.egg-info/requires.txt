@@ -1,0 +1,4 @@
+termcolor
+docker>=4
+pyyaml>=5
+jinja2
