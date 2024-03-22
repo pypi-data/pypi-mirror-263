@@ -1,0 +1,3 @@
+[flake8.extension]
+MXL = flake8_max_lines:MaxLinesPlugin
+
