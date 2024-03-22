@@ -1,0 +1,6 @@
+svg_to_pdf-0.1.1.dist-info/METADATA,sha256=5jSlJX7r15wCjXbrco--YA7igizgnQ2DxMPjhTjyHyk,210
+svg_to_pdf-0.1.1.dist-info/WHEEL,sha256=jZfbH5RrJxZIjwsw3ZZ_fbyahquRFiOMpGu1ZZltpjU,93
+svg_to_pdf/__init__.py,sha256=7Mj88srX1U5lKsWe6ulGrqkwrVgTvnkpSFNi7JLMdpE,140
+svg_to_pdf/ffi.py,sha256=7uy869Yu6c2a2MYJk-Ki0vC3pD0mfEsuH1JjQs-CEw8,125
+svg_to_pdf/svg_to_pdf.so,sha256=NpYg60boU6Dbpa5LwY6GRZtS8fikW38MizYw70Vcm8U,2272768
+svg_to_pdf-0.1.1.dist-info/RECORD,,
