@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyqqq-cli
+Version: 0.1.5
+Summary: CLI tool for controlling strategies deployed on the PyQQQ platform.
+License: MIT
+Author: PyQQQ team
+Author-email: pyqqq.cs@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: google-cloud-storage (>=2.8.0,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: websockets (>=12.0,<13.0)
+Project-URL: Documentation, https://qupiato-sdk-18secs-cf54ebea1b14b422537daf0462fb86d68f4582d064a4.gitlab.io
+Description-Content-Type: text/markdown
+
+
