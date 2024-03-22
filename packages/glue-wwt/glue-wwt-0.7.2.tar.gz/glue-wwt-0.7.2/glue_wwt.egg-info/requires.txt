@@ -1,0 +1,19 @@
+numpy
+glue-core>=1.13.1
+echo
+astropy
+pywwt>=0.21.0
+packaging
+
+[qt]
+qtpy
+glue-qt
+
+[qt:python_version >= "3"]
+PyQt5
+PyQtWebEngine
+
+[test]
+pytest
+pytest-cov
+mock
