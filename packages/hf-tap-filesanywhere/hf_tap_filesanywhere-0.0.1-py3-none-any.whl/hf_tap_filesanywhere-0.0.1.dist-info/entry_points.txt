@@ -1,0 +1,3 @@
+[console_scripts]
+tap-filesanywhere=tap_filesanywhere.tap:TapFilesAnywhere.cli
+
