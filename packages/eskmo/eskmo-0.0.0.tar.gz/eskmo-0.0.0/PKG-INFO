@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: eskmo
+Version: 0.0.0
+Summary: eskmo
+Home-page: https://github.com/ProjectEskmo/eskmo
+Author: eskmo
+Author-email: fatfingererr@gmail.com
+Platform: Windows
+Classifier: Development Status :: 1 - Planning
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Chinese (Traditional)
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# Eskmo
