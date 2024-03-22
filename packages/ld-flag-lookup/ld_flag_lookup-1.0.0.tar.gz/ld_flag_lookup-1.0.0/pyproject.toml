@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ld-flag-lookup"
+version = "1.0.0"
+description = "Lookup LaunchDarkly feature flags by key and return their values."
+authors = ["Bryan Jones <unix.chkpwd@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/chkpwd/ld-flag-lookup"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+launchdarkly-server-sdk = ">=9.0.0"
+click = ">=8.1.7"
+
+[tool.poetry.scripts]
+ld-flag-lookup = 'ld_flag_lookup.main:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
