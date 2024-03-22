@@ -1,0 +1,6 @@
+README.md
+setup.py
+onebusaway.egg-info/PKG-INFO
+onebusaway.egg-info/SOURCES.txt
+onebusaway.egg-info/dependency_links.txt
+onebusaway.egg-info/top_level.txt
