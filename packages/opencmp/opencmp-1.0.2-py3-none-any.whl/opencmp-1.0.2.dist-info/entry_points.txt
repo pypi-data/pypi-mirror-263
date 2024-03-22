@@ -1,0 +1,3 @@
+[console_scripts]
+opencmp = opencmp.entry_points:run_opencmp
+pytesting = opencmp.entry_points:pytest_tests
