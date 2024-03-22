@@ -1,0 +1,52 @@
+[project]
+name = "rabboni-multi-python-sdk"
+version = "1.0.0.b1"
+description = "Rabboni Python SDK"
+authors = [
+    { name = "Bobson Lin", email = "bobson801104@gmail.com" },
+]
+dependencies = [
+    "bleak==0.20.2",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.pdm.build]
+package-dir = "src"
+includes = [
+    "setup.py",
+    "src",
+    "example",
+]
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.4.4",
+    "pytest-asyncio>=0.21.1",
+]
