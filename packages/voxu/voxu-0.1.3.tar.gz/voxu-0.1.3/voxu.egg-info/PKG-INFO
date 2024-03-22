@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: voxu
+Version: 0.1.3
+Home-page: https://github.com/yorubadeveloper/voxu
+Author: Yoruba Developer
+Keywords: Python,Flask,Logging,SQLAlchemy,PostgreSQL
+License-File: LICENSE
