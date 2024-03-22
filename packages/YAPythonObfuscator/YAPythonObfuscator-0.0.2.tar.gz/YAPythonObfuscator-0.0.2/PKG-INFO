@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: YAPythonObfuscator
+Version: 0.0.2
+Summary: Yet another python obfuscator
+Home-page: https://github.com/FunDan3/PythonObfuscator/
+Author: Fun_Dan3
+Author-email: dfr34560@gmail.com
+Project-URL: Bug Tracker, https://github.com/FunDan3/PythonObfuscator/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PythonObfuscator
+Probably not the best obfuscator you wanna use. I just saw it as a fun project to do
