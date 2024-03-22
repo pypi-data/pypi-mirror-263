@@ -1,0 +1,13 @@
+vhip/__init__.py,sha256=2DpcGqE-C0G785KJpkdZBg_em4jPuutiiIXgIVtLDvc,17
+vhip/mlmodel/__init__.py,sha256=2DpcGqE-C0G785KJpkdZBg_em4jPuutiiIXgIVtLDvc,17
+vhip/mlmodel/build.py,sha256=NwXAqRN0IYR9vPb_oAkTRlk1Qotl6V-QqIhJV7fLvOo,3598
+vhip/mlmodel/compute_ml_features.py,sha256=4UoYvPg2acLN3umHTh0tcLFotew53loUNYL4gbyEHNs,12377
+vhip/mlmodel/genomes_features.py,sha256=OUZ7E75f6yQBg6Mn-DZVnHhgIFYfF_xL8cch4a5TAoE,10113
+vhip/mlmodel/ml_input.csv,sha256=m30J-wHFqzNugXvC16NJNefjE0KVDaf8LcgkmdClON8,1366700
+vhip/mlmodel/read_sequence.py,sha256=Zex8mG5jJQPZ6foO0wTOJgI7ZguRFeg52Me4NnY3q7o,1256
+vhip/network/properties.py,sha256=hirvkBGpViGrNwRbd0_B7ziyNZJ3-R-Bb5yGNOmxEh0,3623
+vhip/predict_interactions.py,sha256=1t04MjGepLgdBD5nX8L5E0XNun2Zu9yZXEwD05HSZWA,1814
+virushostinteractionpredictor-1.0.0.dist-info/LICENSE,sha256=R7HA0dlSF6swrJUGNVePdMFyETn508s-MVrQe2_1VVE,1069
+virushostinteractionpredictor-1.0.0.dist-info/METADATA,sha256=kaYJwgznhD4_AbQtoH4fPefAhOtCSECDB9nPh-tqMDY,2453
+virushostinteractionpredictor-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+virushostinteractionpredictor-1.0.0.dist-info/RECORD,,
