@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NoM</title>
+    <link rel="stylesheet" href="{{ url_for('.static', filename='style.css') }}">
+    <link rel="icon" href="{{ url_for('.static', filename='favicon.ico') }}" />
+</head>
+<body>
+
+<img src="{{ url_for('.static', filename='nom-logo.png') }}">
+
+
+{% if _tdata["server_security_lax"] %}
+<div>server_security_lax</div>
+<div>NoM v{{_tdata["version"]}}</div>
+<div>{{_tdata["time"]}}</div>
+{% endif %}
+
+    {% include("navigation.html") %}
+    <section>
+        <header>
+        <h2>{% block title %}{% endblock title %}</h2>
+        </header>
+        <main>
+        {% block main %}<p></p>{% endblock main %}
+        </main>
+    </section>
+</body>
+</html>
