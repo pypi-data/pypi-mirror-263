@@ -1,0 +1,31 @@
+Metadata-Version: 2.3
+Name: pyparamo
+Version: 0.3.11
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: astropy >=6.0.0
+Requires-Dist: matplotlib >=3.8.2
+Requires-Dist: numpy >=1.26.4
+Requires-Dist: pytest >=8.1.1
+Requires-Dist: toml >=0.10.2
+License-File: LICENSE.md
+Summary: Paramo stands for: PArticles and RAdiation MOnitor. In a few words: this code solves que Fokker-Planck equation and calculates synchrotron and inverse Compton emission.
+Author-email: Jesus M Rueda-Becerril <jm.ruebe@gmail.com>, Zachary Davis <zachkdavis00@gmail.com>
+License: GPL-3.0-only
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Requirements
+
+The following Python packages are used in this project:
+
+- astropy 6.0.0
+- matplotlib 3.8.3
+- numpy 1.26.4
+- pytest 8.1.1
+- toml 0.10.2
+#### Python Version
+
+This project requires Python >=3.9.
+
