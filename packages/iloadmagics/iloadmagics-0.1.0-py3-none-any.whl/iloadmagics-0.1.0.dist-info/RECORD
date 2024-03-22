@@ -1,0 +1,17 @@
+iloadmagics/__init__.py,sha256=JrRxp9hoXodmI0RNB8YkEnx1J-H-xz4dghQ45I2CYx8,424
+iloadmagics/_version.py,sha256=ac3tgjoOzsODOlacRPCwz99LbZv0NK7ZYAaBWulFo7E,171
+iloadmagics/iloadmagics.py,sha256=alu2aiYAg6LFtzMBYTU9P14eiSGTOHGZsNYBwulNAKY,1021
+iloadmagics-0.1.0.data/data/share/jupyter/labextensions/iloadmagics/build_log.json,sha256=qQ2ESrvHPBdzsOPRNJsi4_UvQ8m2nYlviMU-nOZu3mw,21893
+iloadmagics-0.1.0.data/data/share/jupyter/labextensions/iloadmagics/package.json,sha256=b93PJGkGXbHInYB-RieHpoKJQ9DjCHFTEJGpa9LRn0s,5337
+iloadmagics-0.1.0.data/data/share/jupyter/labextensions/iloadmagics/static/lib_index_js.14ef966552e82335a53e.js,sha256=71BSacScCI6A9ntdUCkd6AQAAQ_X-1gGhGEcQdCR3G8,7762
+iloadmagics-0.1.0.data/data/share/jupyter/labextensions/iloadmagics/static/lib_index_js.14ef966552e82335a53e.js.map,sha256=KdE0cpplMBf7m1HGPOGUaYTkZVo1QFKdo7cCC6RCyt8,8320
+iloadmagics-0.1.0.data/data/share/jupyter/labextensions/iloadmagics/static/remoteEntry.b2f321db59888c552eef.js,sha256=uAGUJ_7SnUqQHCC3fIBu7kex14DENbi6WG87Hw_caO4,27980
+iloadmagics-0.1.0.data/data/share/jupyter/labextensions/iloadmagics/static/remoteEntry.b2f321db59888c552eef.js.map,sha256=JGCkdpMWmC71tKAjRFQZCZclaI4PjWivAr9iIFq9w5M,26629
+iloadmagics-0.1.0.data/data/share/jupyter/labextensions/iloadmagics/static/style.js,sha256=IIzq-O_qhyfCyQ89CiV3_kQRyK4DWNxDWJIRPmktyMM,154
+iloadmagics-0.1.0.data/data/share/jupyter/labextensions/iloadmagics/static/style_index_js.cbb38d857f7eea2f9446.js,sha256=J49Hnff5U5yodHPAks4T_glrvzd-QSvlGGPXxnSf428,19929
+iloadmagics-0.1.0.data/data/share/jupyter/labextensions/iloadmagics/static/style_index_js.cbb38d857f7eea2f9446.js.map,sha256=7_74agL2fLe6D1bpiC0jAR-2UdIDXGwQ1yMzswiEJnM,15522
+iloadmagics-0.1.0.data/data/share/jupyter/labextensions/iloadmagics/install.json,sha256=9vqIqA9ihlWJbqcEWP24xZT_YQEqpXt3AdG99sS-YHE,183
+iloadmagics-0.1.0.dist-info/METADATA,sha256=9iwwvS3hk7KKyA8uwxQMVof6xhxQ4JaU6hfyXBDwysM,5691
+iloadmagics-0.1.0.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+iloadmagics-0.1.0.dist-info/licenses/LICENSE,sha256=54DCQpMBkR8BnILT5fXGAgZ_6sGZb6WKIhl9v6DGOxk,1514
+iloadmagics-0.1.0.dist-info/RECORD,,
