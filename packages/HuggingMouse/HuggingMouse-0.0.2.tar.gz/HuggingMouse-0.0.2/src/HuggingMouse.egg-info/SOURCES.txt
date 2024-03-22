@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/HuggingMouse/__init__.py
+src/HuggingMouse/allen_api_utilities.py
+src/HuggingMouse/custom_exceptions.py
+src/HuggingMouse/make_embeddings.py
+src/HuggingMouse/regressors.py
+src/HuggingMouse/trial_averaged_data.py
+src/HuggingMouse/utils.py
+src/HuggingMouse/visualizers.py
+src/HuggingMouse.egg-info/PKG-INFO
+src/HuggingMouse.egg-info/SOURCES.txt
+src/HuggingMouse.egg-info/dependency_links.txt
+src/HuggingMouse.egg-info/requires.txt
+src/HuggingMouse.egg-info/top_level.txt
