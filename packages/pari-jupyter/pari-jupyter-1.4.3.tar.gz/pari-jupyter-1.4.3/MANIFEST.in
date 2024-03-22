@@ -1,0 +1,2 @@
+recursive-include PARIKernel *.py *.pyx *.pxd
+recursive-exclude PARIKernel *.c
