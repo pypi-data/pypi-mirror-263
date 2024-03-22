@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+petsim_py.egg-info/PKG-INFO
+petsim_py.egg-info/SOURCES.txt
+petsim_py.egg-info/dependency_links.txt
+petsim_py.egg-info/top_level.txt
