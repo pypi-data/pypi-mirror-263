@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+setup.py
+jsdoc2json/__init__.py
+jsdoc2json/main.py
+jsdoc2json.egg-info/PKG-INFO
+jsdoc2json.egg-info/SOURCES.txt
+jsdoc2json.egg-info/dependency_links.txt
+jsdoc2json.egg-info/entry_points.txt
+jsdoc2json.egg-info/top_level.txt
+jsdoc2json/modules/__init__.py
+jsdoc2json/modules/jsdoc_data.py
+jsdoc2json/modules/lexical_parser.py
+jsdoc2json/modules/lexical_regex.py
+jsdoc2json/modules/lexical_tokens.py
+jsdoc2json/modules/syntax_parser.py
