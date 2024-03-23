@@ -1,0 +1,12 @@
+sbvt/__init__.py,sha256=5ekbVNsANFFsn8x7lm9_wFYIwDXNMZyFtfwH4mz3gK4,121
+sbvt/api.py,sha256=GC_gdF_1zMDu84-N5sSs8PB1pXfqz8VSo-sxC_Fbzeo,12158
+sbvt/app.py,sha256=paiEpFIf03wGo1RKkwFehlj-N28vGDFFSqTwk6e6Aro,10229
+sbvt/browser.py,sha256=hJmXUk4tQ6hzive2tf5z0ldeoqW5Qd0IKm6ALK3YQN4,48182
+sbvt/imagetools.py,sha256=Gtbq9yAyv42Hh8yS60zIK50RfKcJTMUknnmrq64VGTM,7465
+sbvt/timer.py,sha256=ciQJQUYSTChdIbsLiYiEzPa6yw8YwSqaeWc7DU4gSrE,548
+sbvt/visualtest.py,sha256=9w-_mc2iNt8WNJBEF2HxdDrj3LieZv01mNaKEEIym2c,21344
+visualtest_python-1.8.0.dist-info/LICENSE,sha256=8vhEBNg7g2MxrQdwP-_ugxe3PDk5EbsBeMa--tc1xEA,1073
+visualtest_python-1.8.0.dist-info/METADATA,sha256=fHdt8iLyTwyHg6uAcoSQ7Tn9WGoVj0TAQ9y6191wSo4,3898
+visualtest_python-1.8.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+visualtest_python-1.8.0.dist-info/top_level.txt,sha256=t2tNJSI9vPU6KzikQCU2NYIJmbBaVTvOSJajc6IoRD0,5
+visualtest_python-1.8.0.dist-info/RECORD,,
