@@ -1,0 +1,13 @@
+pyarc2/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyarc2/pyarc2.cp39-win_amd64.pyd,sha256=lIzVgyX1K23bIK6uTM2r-U54666ajcS7Upsy5gcGK9Q,802304
+pyarc2/pyarc2.pyi,sha256=tzhzAT1YYaGqZvdc7UKHrL-4ouVSypgYKvDic81UAmo,5807
+pyarc2/_types.py,sha256=noglvuprUpTgGTCPtZ-hjs4TdDgWk3xN2LI2KR2cBlc,220
+pyarc2/__init__.py,sha256=S7mkM_Nif49v5f4UgIHmfsMg2uPM0hyB9havQJnh95w,11365
+pyarc2-0.4.0.dist-info/DELVEWHEEL,sha256=au_yhmIEsAji-q_sihFj9YDFK79K7gCVwXf1K8bEEW8,258
+pyarc2-0.4.0.dist-info/METADATA,sha256=Ycv6T732XKPOvxrGUJkjaRvlriLK94Y3t1LxRLOVdIs,2937
+pyarc2-0.4.0.dist-info/RECORD,,
+pyarc2-0.4.0.dist-info/WHEEL,sha256=7Ui73pGgidyUA-5snShG0g3e0MxNIiYlCeND1YtcadQ,94
+pyarc2-0.4.0.dist-info/license_files/LICENSE,sha256=JoTeFzAOCkNGhvHsf4r2BFIHpLRXo_4EsrnOZV58XVA,17098
+pyarc2.libs/.load-order-pyarc2-0.4.0,sha256=QanMZ_K_IZGSZxDpnUSzDeTCvCbvfA1vSlpZLt_hwnI,53
+pyarc2.libs/beastlink-1.0-x86_64-b1777f08.dll,sha256=sXd_CBaW1sCAdZtYoXfIp_--_pSDkxxnWEM92pfSJoA,496640
+pyarc2.libs/vcruntime140.dll,sha256=nStA8DlcxdG01eoXuElwwplx1EjDcQRnbbV3WG1K0bE,98224
