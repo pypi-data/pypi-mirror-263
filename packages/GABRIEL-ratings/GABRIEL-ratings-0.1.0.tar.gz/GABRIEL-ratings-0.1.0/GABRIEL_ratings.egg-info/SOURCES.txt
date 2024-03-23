@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+GABRIEL/__init__.py
+GABRIEL/combined_assistant.py
+GABRIEL/decorators.py
+GABRIEL/foundational_functions.py
+GABRIEL/openai_api_calls.py
+GABRIEL/prompt_wrapping.py
+GABRIEL/Prompts/__init__.py
+GABRIEL_ratings.egg-info/PKG-INFO
+GABRIEL_ratings.egg-info/SOURCES.txt
+GABRIEL_ratings.egg-info/dependency_links.txt
+GABRIEL_ratings.egg-info/requires.txt
+GABRIEL_ratings.egg-info/top_level.txt
