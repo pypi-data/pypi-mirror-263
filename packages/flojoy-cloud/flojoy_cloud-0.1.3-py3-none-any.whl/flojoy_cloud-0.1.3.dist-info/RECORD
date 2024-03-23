@@ -1,0 +1,9 @@
+flojoy_cloud/__init__.py,sha256=Acc68b00M2G_Ob_NFjmWhWUJazk6CF6zXluH4WuMkbw,205
+flojoy_cloud/client.py,sha256=m_Z96JI0eZLDhnrQeoTHN9aEeDTUBQx-Z2d1IK3rSHc,11450
+flojoy_cloud/dtypes.py,sha256=gkQT3YTEUJU_cFckm1vvgqXa2zLXtNmU4B4T8bCSmsg,2100
+flojoy_cloud/measurement.py,sha256=o826W3UKeEUPc7l9ciFoAmrL2OeWpiOs2_RttEjyu6I,757
+flojoy_cloud/test_sequencer.py,sha256=Tpx0_7-u7SkKZ_3HvFNDWkg8FxtJtxt8wcKqxMc4wRA,3600
+flojoy_cloud/watch.py,sha256=T7b6a9y4XuNDs3tGHaCd7zGBMPlBo-_Mv6gjLsUlLsE,2471
+flojoy_cloud-0.1.3.dist-info/METADATA,sha256=ziOwmg8tYXbyYETkwjlqef8S9cW-phj0npGVWJ89L5s,575
+flojoy_cloud-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+flojoy_cloud-0.1.3.dist-info/RECORD,,
