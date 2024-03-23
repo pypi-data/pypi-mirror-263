@@ -1,0 +1,16 @@
+GABRIEL/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GABRIEL/combined_assistant.py,sha256=d_w9wujjUhs-6OdZh7ULDV9NtiREBIkh5526m7qcoT8,4773
+GABRIEL/decorators.py,sha256=TxwqggaVF2BOOwgX2ZdDhE4HnFd22fgh9beqrhxRXiU,2244
+GABRIEL/foundational_functions.py,sha256=hkvtVeJ6J9wayq6PMeANBKd8oGFaZ-q3fVnfafehxRM,4208
+GABRIEL/openai_api_calls.py,sha256=YXbgUQVHDkDOjfkpZ_QZt8MoY4yXEZjOetQYRPEAp_s,5206
+GABRIEL/prompt_wrapping.py,sha256=7gidMio0uCP7vVQ9MDSANfRTbE0aZsg5W0aAVL-zJT8,1116
+GABRIEL/Prompts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GABRIEL/Prompts/attribute_description_prompt.j2,sha256=eUZC8SnzUQNBu7hLRneaT3dqZ8nbd4xqgAKp5MP9im0,169
+GABRIEL/Prompts/classification_prompt.j2,sha256=Ce4d6Ep5SJyq06GdUaIHqzfamqYzFSS488uZhAAxPxs,3839
+GABRIEL/Prompts/list_generation_prompt.j2,sha256=ywQBrcs0nI470KhLpeF2rFQDk9TNJ8Xg3Y6NXEdlrwE,1061
+GABRIEL/Prompts/ratings_prompt.j2,sha256=EKm40Vn9m8jG_j5hlNaxlLaB5bOve_EJRX0Ho9yv9kM,2344
+GABRIEL_ratings-0.1.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+GABRIEL_ratings-0.1.0.dist-info/METADATA,sha256=v7dT34MFssp09ycJTkyo6xbFoVVyI_pUXWlhM84LfgY,884
+GABRIEL_ratings-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+GABRIEL_ratings-0.1.0.dist-info/top_level.txt,sha256=cR9hgG316HxSqpJlWPou_sSRH4tDpD7O_FswhxOqgD0,8
+GABRIEL_ratings-0.1.0.dist-info/RECORD,,
