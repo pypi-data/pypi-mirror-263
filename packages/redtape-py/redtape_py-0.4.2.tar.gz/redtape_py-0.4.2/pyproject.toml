@@ -1,0 +1,78 @@
+[tool.poetry]
+name = "redtape-py"
+version = "0.4.2"
+description = "A permission management tool for AWS Redshift."
+authors = ["Tomás Farías Santana <tomas@tomasfarias.dev>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["redshift", "database", "privileges"]
+
+packages = [
+  { include = "redtape" },
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Database",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyYAML = "^6.0"
+rich = "^13.7"
+psycopg2-binary = "^2.9.3"
+typer = "^0.9"
+attrs = "^23.2"
+cattrs = "^23.2"
+environ-config = "^23.2"
+aenum = "^3.1"
+
+[tool.poetry.dev-dependencies]
+black = "^24.3"
+flake8 = "^7.0"
+isort = "^5.13"
+mypy = "^1.9"
+pytest = "^8.1"
+pre-commit = "^3.6"
+pytest-cov = "^4.1"
+
+[tool.poetry.scripts]
+redtape = "redtape.cli:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+py_version = 38
+profile = "black"
+line_length = 88
+
+[tool.mypy]
+ignore_missing_imports = true
+strict_optional = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_unused_configs = true
