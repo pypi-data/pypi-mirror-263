@@ -1,0 +1,5 @@
+[project]
+name = "oliver-codegen"
+description = "项目代码框架快速生成脚手架"
+version = "0.1.5"
+debug = "False"
