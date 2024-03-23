@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: twaxs
+Version: 2.0.0
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: ipywidgets
+Requires-Dist: IPython
+Requires-Dist: plotly
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: python-dateutil
+Requires-Dist: openpyxl
+Requires-Dist: ipykernel
+Requires-Dist: pathlib
+
