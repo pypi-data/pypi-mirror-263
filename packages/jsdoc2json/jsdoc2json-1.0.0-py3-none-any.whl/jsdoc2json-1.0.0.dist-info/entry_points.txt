@@ -1,0 +1,2 @@
+[console_scripts]
+jsdoc2json = jsdoc2json.main:convert_command_line
