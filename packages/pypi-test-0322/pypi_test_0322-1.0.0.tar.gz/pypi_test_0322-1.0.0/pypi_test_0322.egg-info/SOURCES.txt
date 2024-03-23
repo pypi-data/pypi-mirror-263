@@ -1,0 +1,7 @@
+setup.py
+pypi_test_0322/__init__.py
+pypi_test_0322/main.py
+pypi_test_0322.egg-info/PKG-INFO
+pypi_test_0322.egg-info/SOURCES.txt
+pypi_test_0322.egg-info/dependency_links.txt
+pypi_test_0322.egg-info/top_level.txt
