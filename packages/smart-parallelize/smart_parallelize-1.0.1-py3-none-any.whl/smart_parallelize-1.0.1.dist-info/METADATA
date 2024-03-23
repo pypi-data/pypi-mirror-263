@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: smart-parallelize
+Version: 1.0.1
+Summary: 
+Author: Truman DeWalch
+Author-email: trumandewalch@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: ray (>=2.10.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+<!-- write a heading for describing this -->
+## Description
+
+This is a simply python package for easily parallelizing functions using.
