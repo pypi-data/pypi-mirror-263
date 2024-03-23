@@ -1,0 +1,16 @@
+autocut/__init__.py,sha256=UNM4FFgq8gDukvQYq1mvOZPUm9UiHXbdudfApJn-S_E,225
+autocut/__main__.py,sha256=Vdhw8YA1K3wPMlbJQYL5WqvRzAKVeZ16mZQFO9VRmCo,62
+autocut/cut.py,sha256=50yEv1FVAM0yXswJL4QMQkQXsIaG2nhlglxtchpgluM,6030
+autocut/daemon.py,sha256=fgYQBe2vyH0E5AtwOunjUarG4yU9_3FMgvqtSi5R0Os,1928
+autocut/main.py,sha256=fhDbXS_R9aN8fPCA9d-zi8ukKx2dx7bmMH1thaY1PcY,5574
+autocut/package_transcribe.py,sha256=7k1DukPiSjjJKxaZ4PuX5IH-7pRai2ZYc8p0jK2Hfck,3640
+autocut/transcribe.py,sha256=2iiIvxUEMRN4hPJnBowS20gWtLg2Zs8maZxtm4M8750,5186
+autocut/type.py,sha256=unf7r3eEKzMWKdJ0Ax_fc2DEhuQoMNhhOvUSI_pc8CE,1442
+autocut/utils.py,sha256=nfEhozNAy_cbkTVNFWlpaVwyeMcsxm2e_PpC-85r8wg,6962
+autocut/whisper_model.py,sha256=755sL0G03xeM7cW8NPm45hdFEdiWpsBxmgiqFYEhdEU,12804
+autocut_sub-1.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+autocut_sub-1.0.2.dist-info/METADATA,sha256=HoR_EsxREKVNFCKnWiNa0clq74_dDjS2HMbZ0Lavlqk,11354
+autocut_sub-1.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+autocut_sub-1.0.2.dist-info/entry_points.txt,sha256=XnZxyi1neRBI7NcunYUXf6-l00zObp-h-OwK1m_IyBk,46
+autocut_sub-1.0.2.dist-info/top_level.txt,sha256=vYz5M_3IU1_Tz4HpZA9VquUsWH7zOiU3oBOSdjGHB0E,8
+autocut_sub-1.0.2.dist-info/RECORD,,
