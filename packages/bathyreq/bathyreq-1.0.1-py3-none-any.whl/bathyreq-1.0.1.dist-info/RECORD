@@ -1,0 +1,12 @@
+bathyreq/__init__.py,sha256=fwCu-pvymk2ZvgwhyIro2ZrW3iBoaVmQS5Vxii4USo8,117
+bathyreq/request.py,sha256=fx0CwRB82aWMQwlHoyILZDtpL3xJ_CDghrGpe5Y39i0,10247
+bathyreq/sources/__init__.py,sha256=5toopx2GHRGA6BPwsAcMMDEoWfOeNBQy2Mn5w4iYzyU,48
+bathyreq/sources/blue_topo.py,sha256=G30fqX-kTUmK2e5KMMVP2JeGe6pMjcyavOF4t9W12iY,1366
+bathyreq/sources/factory.py,sha256=96orKcpOCRtvckKaNO-g-R63ZPgvkIi-W-H64h1M9RA,3908
+bathyreq/sources/gebco.py,sha256=r70RJJqiAsHzSB1fLZG4WqmhzMXFoga0W3TvVxK30zU,2575
+bathyreq/sources/ncei.py,sha256=YGGGboPtNodUsPN_DRBNadKv44U038bDFo8s7CI8rzU,5661
+bathyreq-1.0.1.dist-info/LICENSE,sha256=CuzNp8EGwmvuRi1ZWvs1LTrcUubd8PfVPyo0JG4mK2Y,1072
+bathyreq-1.0.1.dist-info/METADATA,sha256=R9w4Z04HJiI8m7Z2SZwxJEEztOtXl1GlZKiG4W03mQ0,2925
+bathyreq-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bathyreq-1.0.1.dist-info/top_level.txt,sha256=21yobKgewBq49gbaQ9W39Brhs3UeJP1DMEmpoxCqbgU,9
+bathyreq-1.0.1.dist-info/RECORD,,
