@@ -1,0 +1,15 @@
+dbflows/__init__.py,sha256=QGeniW0XcLArDNrwZ5uR8sbKbJz8WKSsitu_Wh5fi4k,195
+dbflows/cli.py,sha256=pPoKqD3urK9cD8QmuRC3WCKlY23ejA1_tQj1sk28_64,6003
+dbflows/compare.py,sha256=_b6Fn2jk5DfJ6N97kzixrTYeHBCBGk6uT3CD7gKzAro,9488
+dbflows/export.py,sha256=rIkbjhU4YbRGE2SYLXI9r2U9aS6C6ODE2s9EjtTUGGE,7889
+dbflows/files.py,sha256=JXfR1tpgi5QZ7qBdp2JgeHZSSUd7mSzrrejKtHytmfc,3228
+dbflows/load.py,sha256=cSiTi-C2GeZji4m15LQalVkIJRqHABsqDdVZZWMUxqw,20163
+dbflows/meta.py,sha256=9kZJdJ0gs4zPZ3rCihaqTwh9IYJ44x1hl1gwKBYdsZQ,19886
+dbflows/read.py,sha256=ufQdu9ielSPP32OINy2rHa9vuylEszdzZ3uDcPQb4SE,1003
+dbflows/transfer.py,sha256=yiusztDnQ8V8MWhlADCJDULDaNO6pRukGWV2oyN9dg8,12673
+dbflows/utils.py,sha256=aZ9zO5YBoGUq420VDi6H4dHrNSwsv83BIeZGJaw4trY,9970
+dbflows-0.1.5.dist-info/METADATA,sha256=gTpr8luursGl2rWirY0u7oelbsD1j-XQ2g-tGBRqAvo,5951
+dbflows-0.1.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dbflows-0.1.5.dist-info/entry_points.txt,sha256=c2uKFaDR_1HMI7ZNiFsWEDOXJsSO7K21r2Z19v3d1Ao,39
+dbflows-0.1.5.dist-info/top_level.txt,sha256=4IumG8LIRT3tck0sOkVknUPit3CPNMzCgUJ-s1IZL_k,8
+dbflows-0.1.5.dist-info/RECORD,,
