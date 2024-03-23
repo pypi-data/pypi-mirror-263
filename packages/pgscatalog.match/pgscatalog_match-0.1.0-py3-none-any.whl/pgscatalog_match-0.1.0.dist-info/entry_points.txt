@@ -1,0 +1,4 @@
+[console_scripts]
+pgscatalog-match=pgscatalog.match.cli.match_cli:run_match
+pgscatalog-matchmerge=pgscatalog.match.cli.merge_cli:run_merge
+
