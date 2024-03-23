@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: drf-dynamicfieldserializer
+Version: 0.3.1
+Summary: Django Rest Framework DynamicFieldSerializer
+Home-page: https://github.com/bzdvdn/drf-dynamicfieldserializer.git
+Author: bzdvdn
+Author-email: bzdv.dn@gmail.com
+License: MIT
+Requires-Python: >=3.9
+Requires-Dist: Django>=1.11
+Requires-Dist: djangorestframework>=3.8.2
