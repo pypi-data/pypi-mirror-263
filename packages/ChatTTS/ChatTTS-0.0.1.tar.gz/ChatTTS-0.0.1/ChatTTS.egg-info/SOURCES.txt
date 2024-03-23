@@ -1,0 +1,7 @@
+setup.py
+ChatTTS/__init__.py
+ChatTTS.egg-info/PKG-INFO
+ChatTTS.egg-info/SOURCES.txt
+ChatTTS.egg-info/dependency_links.txt
+ChatTTS.egg-info/requires.txt
+ChatTTS.egg-info/top_level.txt
