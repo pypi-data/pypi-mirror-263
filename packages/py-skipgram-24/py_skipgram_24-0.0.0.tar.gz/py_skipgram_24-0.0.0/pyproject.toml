@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "py_skipgram_24"
+version = "0.0.0"
+description = "Implementing my own skipgram model"
+authors = ["Bill"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^8.1.1"
+pytest-cov = "^4.1.0"
+torch = "^2.2.1"
+numpy = "^1.26.4"
+nltk = "^3.8.1"
+sphinx = "^7.2.6"
+sphinx-rtd-theme = "^2.0.0"
+myst-nb = "^1.0.0"
+sphinx-autoapi = "^3.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.semantic_release]
+version_toml = [
+    "pyproject.toml:tool.poetry.version",
+]                                                    # version location
+branch = "main"                                      # branch to make releases of
+changelog_file = "CHANGELOG.md"                      # changelog file
+build_command = "pip install poetry && poetry build" # build dists 
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
