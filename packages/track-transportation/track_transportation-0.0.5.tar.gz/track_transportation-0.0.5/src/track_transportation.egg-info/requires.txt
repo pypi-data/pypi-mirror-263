@@ -1,0 +1,9 @@
+numpy
+opencv-python
+torch
+matplotlib
+ultralytics
+cvzone
+tqdm
+filterpy
+scikit-image
