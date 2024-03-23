@@ -1,0 +1,7 @@
+fastapi_auth_sqlalchemy_models/__init__.py,sha256=DommDliYbU78fQp0kMeaeyFxrRWh08hYiPmoGzABTuk,305
+fastapi_auth_sqlalchemy_models/models.py,sha256=zilLC0Dt6hOPDHrG6oqpNDSu9DdUHGlnkb5p8KH7h9k,4759
+fastapi_auth_sqlalchemy_models/repositories.py,sha256=YPbiYhAkty2DA6DpwNTpOvarTbTtCng0wEFn6f8xYis,2764
+fastapi_auth_sqlalchemy_models-0.0.5.dist-info/METADATA,sha256=wZ3gUfWMoxVFkEkTssahGrrArUobkT3-oGfo5j_1hKA,590
+fastapi_auth_sqlalchemy_models-0.0.5.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+fastapi_auth_sqlalchemy_models-0.0.5.dist-info/licenses/LICENSE,sha256=PiqrVEIeO253s33bcxIUJDSuPblFu05K0wcoTuj-2Nk,1065
+fastapi_auth_sqlalchemy_models-0.0.5.dist-info/RECORD,,
