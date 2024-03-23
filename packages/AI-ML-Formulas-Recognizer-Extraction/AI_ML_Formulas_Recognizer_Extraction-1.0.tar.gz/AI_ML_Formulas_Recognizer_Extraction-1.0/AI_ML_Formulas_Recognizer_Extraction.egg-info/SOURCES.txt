@@ -1,0 +1,6 @@
+setup.py
+AI_ML_Formulas_Recognizer_Extraction.egg-info/PKG-INFO
+AI_ML_Formulas_Recognizer_Extraction.egg-info/SOURCES.txt
+AI_ML_Formulas_Recognizer_Extraction.egg-info/dependency_links.txt
+AI_ML_Formulas_Recognizer_Extraction.egg-info/requires.txt
+AI_ML_Formulas_Recognizer_Extraction.egg-info/top_level.txt
