@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "JovQueue"
+version = "0.0.1"
+authors = [
+  { name="John Burke", email="jwburke2002@gmail.com" },
+]
+description = "An easy to use module for turning functions into daemons with queueing capabilities."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/jwburke02/JovQueue"
+Issues = "https://github.com/jwburke02/JovQueue/issues"
