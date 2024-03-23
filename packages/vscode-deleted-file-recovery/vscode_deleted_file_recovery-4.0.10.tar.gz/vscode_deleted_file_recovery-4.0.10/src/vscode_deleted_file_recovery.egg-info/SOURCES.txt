@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/vscode_deleted_file_recovery/__init__.py
+src/vscode_deleted_file_recovery.egg-info/PKG-INFO
+src/vscode_deleted_file_recovery.egg-info/SOURCES.txt
+src/vscode_deleted_file_recovery.egg-info/dependency_links.txt
+src/vscode_deleted_file_recovery.egg-info/requires.txt
+src/vscode_deleted_file_recovery.egg-info/top_level.txt

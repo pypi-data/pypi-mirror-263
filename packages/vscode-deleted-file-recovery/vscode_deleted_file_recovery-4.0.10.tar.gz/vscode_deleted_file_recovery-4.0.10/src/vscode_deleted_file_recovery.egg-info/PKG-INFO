@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: vscode_deleted_file_recovery
+Version: 4.0.10
+Summary: This handy tool helps you recover deleted files within your VSCode History. 
+Home-page: https://github.com/omkarcloud/vscode_deleted_file_recovery
+Author: Chetan Jain
+Author-email: chetan@omkar.cloud
+License: MIT
+Project-URL: Bug Reports, https://github.com/omkarcloud/vscode_deleted_file_recovery/issues
+Project-URL: Say Thanks!, https://github.com/omkarcloud/vscode_deleted_file_recovery
+Project-URL: Source, https://github.com/omkarcloud/vscode_deleted_file_recovery/
+Keywords: vscode file recovery,recover vs code files
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == "dev"
+Provides-Extra: test
+Requires-Dist: coverage; extra == "test"
+
+
+**VSCode Deleted File Recovery Tool**
+
+This handy tool helps you recover deleted files within your VSCode History. 
+
+**Features:**
+
+* **File Search:** Scans vscode history for traces of deleted files.
+* **Recovery:** Restores deleted files to a designated `_recovery` folder, organized to match original file structure.
+
+**Usage**
+
+1. **Install:**
+```bash
+pip install vscode_deleted_file_recovery
+```
+
+2. Create a Python file anywhere on your PC and run the following code to search for files:
+```python
+from vscode_deleted_file_recovery import Recover
+Recover.print_files(search_term="/Chetan/Documents/tasks")  # Replace with your desired search path
+```
+
+3. Run the following code to restore deleted files. A folder named `_recovery` will be created in the same directory where you run it:
+```python
+from vscode_deleted_file_recovery import Recover
+Recover.restore_files(search_term="/Chetan/Documents/tasks")  # Replace with your desired search path
+```
+
+You can find restored files in the `Recovery` folder where you ran the command.
+
+## Love It Star It!
