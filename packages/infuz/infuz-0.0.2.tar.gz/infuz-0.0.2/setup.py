@@ -1,0 +1,20 @@
+from setuptools import setup, find_packages
+from pathlib import Path
+
+
+REQUIREMENTS_PATH = Path(__file__).resolve().parent / "requirements.txt"
+
+with open(str(REQUIREMENTS_PATH), "r", encoding="utf-8") as f:
+    requirements = f.read().splitlines()
+
+setup(
+    name="infuz",
+    packages=find_packages(include=["infuz"]),
+    version="0.0.2",
+    license="MIT License",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
+    install_requires=requirements,
+    # extras_require={},
+    include_package_data=True,
+)
