@@ -1,0 +1,21 @@
+requests>=2.31.0
+BeautifulSoup4>=4.12.2
+
+[:os_name != "nt"]
+winreg
+
+[data]
+PySide6>=6.6.1
+Pillow>=10.1.0
+aiohttp>=3.9.3
+opencv-python>=4.9.0.80
+
+[dev]
+pytest
+
+[utils]
+rich>=13.7.0
+pycryptodome>=3.19.0
+
+[web]
+duckduckgo_search>=3.9.6

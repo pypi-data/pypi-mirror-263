@@ -1,0 +1,4 @@
+[console_scripts]
+pype = aplustools.cli:pype_command
+run_apt_tests = aplustools.cli:run_tests
+upype = aplustools.cli:upype_command
