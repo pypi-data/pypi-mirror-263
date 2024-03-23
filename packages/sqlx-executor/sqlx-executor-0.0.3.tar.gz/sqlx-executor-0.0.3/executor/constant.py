@@ -1,0 +1,4 @@
+
+MYSQL_PORT, POSTGRESQL_PORT = 3306, 5432
+
+PARAM_DRIVER, PARAM_DEBUG, PARAM_POOL_SIZE, PARAM_PORT = 'driver', 'debug', 'pool_size', 'port'
