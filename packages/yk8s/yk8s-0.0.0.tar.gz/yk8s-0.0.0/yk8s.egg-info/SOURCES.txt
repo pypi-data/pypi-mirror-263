@@ -1,0 +1,6 @@
+pyproject.toml
+yk8s/__init__.py
+yk8s.egg-info/PKG-INFO
+yk8s.egg-info/SOURCES.txt
+yk8s.egg-info/dependency_links.txt
+yk8s.egg-info/top_level.txt

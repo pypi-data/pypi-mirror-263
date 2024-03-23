@@ -1,0 +1,8 @@
+[project]
+name = "yk8s"
+authors = [
+    {name = "Cloud&Heat", email = "info@cloudandheat.com"},
+]
+version = "0.0.0"
+description = "Coming soon"
+
