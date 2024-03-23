@@ -1,0 +1,71 @@
+Metadata-Version: 2.3
+Name: django-walrus
+Version: 0.1.0
+Summary: Add assignment expressions (walrus operator) to Django templates
+Project-URL: Homepage, https://github.com/bmispelon/django-walrus
+Project-URL: Issues, https://github.com/bmispelon/django-walrus/issues
+Author-email: Baptiste Mispelon <bmispelon@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2020 Baptiste Mispelon
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: assignment expression,django,walrus
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Provides-Extra: dev
+Requires-Dist: pytest; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# django-walrus
+
+![Dr. Walruss K-M](walfreakboy3742.jpg)
+
+## Installation
+
+1) `pip install django-walrus`
+2) Add `walrus` to your settings's `INSTALLED_APPS`
+3) That's it. Now you can go for a swim in ice-cold water, or maybe hunt a penguin.
+
+## Usage
+
+Once `django-walrus` is installed, you can use the power of the
+[walrus operator](https://docs.python.org/3/reference/expressions.html?highlight=walrus#assignment-expressions)
+in your template's `{% if %}` statements:
+
+```django
+{% if result := my_mode.some_expensive_method %}
+    Wow, check out this result: {{ result }}.
+{% else %}
+    Nothing to see here.
+{% endif %}
+```
+
+## Is this real?
+
+As real as a two ton polar mammal.
+
+## Optimized
+
+You can activate some optimizations by setting `WALRUS_OPTIMIZED=1` in your shell
+environment.
