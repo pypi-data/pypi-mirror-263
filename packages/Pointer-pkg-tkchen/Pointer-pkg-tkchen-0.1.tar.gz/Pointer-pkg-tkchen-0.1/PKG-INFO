@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: Pointer-pkg-tkchen
+Version: 0.1
+Summary: A Package that can use the pointers just like in C!
+Home-page: https://github.com/chen-tk/Pointer-on-Python
+Author: TkChen
+Author-email: cccyyyhhh135@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+## Pointer Package ReadMe
+
+### Main class
+
+- pointer.Pointer(object)
+> Create a new pointer to the given object.
+
+- - Pointer.get()
+>> Get the object the pointer points to.
+
+- - Pointer.set(object)
+>> Set the object the pointer points to.
+
+- - Pointer.address()
+>> Get the memory address of the pointer points to.
+
+*You don't need to free the pointer, because method __ del __ will help you to free the pointer automatically.*
+
+### Methods
+
+- pointer.sizeof(Pointer)
+> Return the size of the object pointed to by the pointer.
