@@ -1,0 +1,53 @@
+[build-system]
+build-backend = 'maturin'
+requires = [ 'maturin>=0.13,<0.14' ]
+
+
+[project]
+classifiers = [
+  'Programming Language :: Rust',
+  'Programming Language :: Python :: Implementation :: CPython',
+  'Programming Language :: Python :: Implementation :: PyPy',
+]
+name = 'alcedo'
+requires-python = '>=3.8'
+readme = 'README.md'
+
+
+[tool.poetry]
+authors = [ 'Sitt Guruvanich <aekazitt+github@gmail.com>' ]
+description = 'Oxidized HTTP Client for Python'
+name = 'alcedo'
+version = '0.1.0'
+packages = [{include='alcedo.pyi'}]
+
+
+[tool.poetry.dependencies]
+python = '^3.8'
+
+
+[tool.poetry.group.dev]
+optional = true
+
+
+[tool.poetry.group.dev.dependencies]
+fastapi = '^0.110.0'
+httpx = '^0.27.0'
+maturin = '^0.13.1'
+orjson = '^3.9.15'
+pytest = '^8.1.1'
+ruff = '^0.3.3'
+uvicorn = '^0.29.0'
+
+
+[tool.pytest.ini_options]
+addopts = '--durations=0 --strict-markers --tb=short'
+python_files = '*.py'
+pythonpath = [ 'alcedo.pyi' ]
+testpaths = [ 'tests' ]
+
+
+[tool.ruff]
+indent-width = 2
+line-length = 100
+target-version = 'py38'
