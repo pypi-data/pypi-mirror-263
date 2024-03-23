@@ -1,0 +1,13 @@
+cefi/__init__.py,sha256=sRkU31JDBLnhQGesvOkh_XmQvJFHbt9rpQ68M7LbHZs,87
+cefi/config.py,sha256=VHwglGCEihe-obUn0ePb0mkGajj5eg4BaTNrU5YMA0s,439
+cefi/default_settings.toml,sha256=aF6vyc5etOQA_n7kdAuAhY1Yt1AAR8B_clwe0IJNOgI,3547
+cefi/main.py,sha256=siKBP43IaXtlQI3ls54Vv7j_MAfDL5XlHggkUa7j6Es,5759
+cefi/protocol/__init__.py,sha256=E5AEcBZRElKnTG8fQwlT4C81y87yU64LJTR-Nz7Mwhc,134
+cefi/protocol/capitalcom.py,sha256=EDtlZK_1xHGB2kHbRGoYq6I09-AqEDfjr7xyBtlgFRU,4288
+cefi/protocol/ccxt.py,sha256=i592n3_NMNVfua0KifG6y3UbKt_Ks6zN92IlF2NxKXs,4734
+cefi/protocol/client.py,sha256=18-JpZr1C0sA_y-n0aSMJ6JfcZtYNsdMv2W1o8OBwak,7099
+cefi/protocol/ib_sync.py,sha256=e8uLDuLmey8CLFiYbwnwlOroTxOFT2OJzVrTv7cB2u8,6918
+cefi-3.4.1.dist-info/LICENSE,sha256=Ym-WJCFdWfn0XKn-qLQI-u5nxBJX6F2kl-hPeRJp1fI,1064
+cefi-3.4.1.dist-info/METADATA,sha256=X6nRVSl9QDAREHWL-lIQkcysuK2LJBmVryKlabuPP8Q,3296
+cefi-3.4.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cefi-3.4.1.dist-info/RECORD,,
