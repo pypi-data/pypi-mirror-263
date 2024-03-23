@@ -1,0 +1,15 @@
+pyproject.toml
+src/pt_pump_up_orms/Author.py
+src/pt_pump_up_orms/CRUD.py
+src/pt_pump_up_orms/Dataset.py
+src/pt_pump_up_orms/Link.py
+src/pt_pump_up_orms/Model.py
+src/pt_pump_up_orms/NLP_Task.py
+src/pt_pump_up_orms/ResourceStats.py
+src/pt_pump_up_orms/Result.py
+src/pt_pump_up_orms/__init__.py
+src/pt_pump_up_orms.egg-info/PKG-INFO
+src/pt_pump_up_orms.egg-info/SOURCES.txt
+src/pt_pump_up_orms.egg-info/dependency_links.txt
+src/pt_pump_up_orms.egg-info/requires.txt
+src/pt_pump_up_orms.egg-info/top_level.txt
