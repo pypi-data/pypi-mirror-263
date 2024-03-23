@@ -1,0 +1,16 @@
+pyproject.toml
+src/pt_pump_up_orms/CRUD.py
+src/pt_pump_up_orms/__init__.py
+src/pt_pump_up_orms.egg-info/PKG-INFO
+src/pt_pump_up_orms.egg-info/SOURCES.txt
+src/pt_pump_up_orms.egg-info/dependency_links.txt
+src/pt_pump_up_orms.egg-info/requires.txt
+src/pt_pump_up_orms.egg-info/top_level.txt
+src/pt_pump_up_orms/cruds/Author.py
+src/pt_pump_up_orms/cruds/Dataset.py
+src/pt_pump_up_orms/cruds/Link.py
+src/pt_pump_up_orms/cruds/Model.py
+src/pt_pump_up_orms/cruds/NLP_Task.py
+src/pt_pump_up_orms/cruds/ResourceStats.py
+src/pt_pump_up_orms/cruds/Result.py
+src/pt_pump_up_orms/cruds/__init__.py
