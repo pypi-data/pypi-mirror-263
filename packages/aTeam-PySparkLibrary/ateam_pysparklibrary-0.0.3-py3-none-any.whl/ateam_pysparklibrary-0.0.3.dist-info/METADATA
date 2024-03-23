@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: aTeam-PySparkLibrary
+Version: 0.0.3
+Project-URL: Homepage, https://github.com/EgdeConsulting/aTeam-PySparkLibrary
+Project-URL: Issues, https://github.com/EgdeConsulting/aTeam-PySparkLibrary/issues
+Author-email: Egde A-team <ludvig.loite@egde.no>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# aTeam-PySparkLibrary
