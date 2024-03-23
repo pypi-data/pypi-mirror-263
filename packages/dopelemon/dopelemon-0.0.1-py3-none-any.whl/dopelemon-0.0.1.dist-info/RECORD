@@ -1,0 +1,13 @@
+service_sdk/cli.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+service_sdk/client.py,sha256=8_8dttKAvuQZ1YPwKt57EtLcUVRMXrpFB3lc3nLnKrU,1801
+service_sdk/exceptions.py,sha256=q9ucmQGpbYnsjqbFg6jt5MKjXX5zDD1e48CDALL2g3w,116
+service_sdk/manager/controller.py,sha256=DAod80jZPsMGhQNfYbGgFiF1hgqORp-GGUvYyhohf00,1441
+service_sdk/manager/registry.py,sha256=t2JVHjSI6gO6jaPNMwMAxgOjrxplHhWkfe9MVdV0stM,775
+service_sdk/manager/work_manager.py,sha256=pgQRK_V-jFl5Bd4EcxbHUmUCLJD78Yvc8lYL-ig-JDI,3090
+service_sdk/service.py,sha256=FLAZ6NBnn_qPsyLPEPsLvQ_tOSOq_-HL6n51JCnkdHQ,2740
+service_sdk/utils.py,sha256=LIoybhr_m74GXJQTtiUXAQsTCdtItsPSJTS2ZBuHu-M,989
+service_sdk/worker/ex_thread.py,sha256=oSdf9MX6MsCBz0kVpa6Pge_65KB3t3Xmo5kKJT5btg4,1179
+service_sdk/worker/worker.py,sha256=L-4QjXycWUKM4v9kmC9Na1nYSA-0JsThKtOXZ67vibw,1476
+dopelemon-0.0.1.dist-info/METADATA,sha256=GhWoGOtkjIt6MqwodCHevPCztH9Fb7JniPnZ5qYgqno,653
+dopelemon-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dopelemon-0.0.1.dist-info/RECORD,,
