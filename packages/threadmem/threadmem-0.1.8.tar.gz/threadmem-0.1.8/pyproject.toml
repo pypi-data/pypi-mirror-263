@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "threadmem"
+version = "0.1.8"
+description = "Thread memory for AI agents"
+authors = ["Patrick Barker <patrickbarkerco@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+packages = [{include = "threadmem"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.27"
+pydantic = "^2.6.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
