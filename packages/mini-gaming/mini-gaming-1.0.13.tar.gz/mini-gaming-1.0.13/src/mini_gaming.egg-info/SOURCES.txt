@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/game.py
+src/mini_gaming.egg-info/PKG-INFO
+src/mini_gaming.egg-info/SOURCES.txt
+src/mini_gaming.egg-info/dependency_links.txt
+src/mini_gaming.egg-info/top_level.txt
