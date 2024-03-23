@@ -1,0 +1,58 @@
+[project]
+name = "alicebot-adapter-mirai"
+version = "0.10.0"
+description = "Mirai adapter for AliceBot."
+authors = [
+    { name = "st1020", email = "stone_1020@qq.com" },
+]
+readme = "README.md"
+keywords = [
+    "bot",
+    "chatbot",
+    "qq",
+    "qqbot",
+    "mirai",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Framework :: AsyncIO",
+    "Framework :: Robot Framework",
+    "Framework :: Robot Framework :: Library",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Communications :: Chat",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "alicebot==0.10.0",
+]
+
+[project.license]
+text = "AGPL-3.0-or-later"
+
+[project.urls]
+Homepage = "https://docs.alicebot.dev/"
+Documentation = "https://docs.alicebot.dev/"
+Repository = "https://github.com/AliceBotProject/alicebot"
+Changelog = "https://docs.alicebot.dev/changelog.html"
+
+[tool.ruff]
+extend = "../../pyproject.toml"
+
+[tool.ruff.lint]
+ignore = [
+    "N815",
+]
+
+[tool.pdm.build]
+excludes = [
+    "alicebot/__init__.py",
+    "alicebot/adapter/__init__.py",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
