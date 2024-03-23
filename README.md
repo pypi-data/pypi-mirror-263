@@ -3,10 +3,10 @@
 This repository is part of a project to make all code in PyPI as accessible as possible. For more information 
 on the project and to find out how to utilise this data, see the website: https://py-code.org/
 
-This repo contains 46271 packages uploaded to PyPI between 
-2024-03-18 16:54 and 2024-03-22 22:19.
+This repo contains 49662 packages uploaded to PyPI between 
+2024-03-18 16:54 and 2024-03-23 10:22.
 
-The repo is 99% (45930/46271) complete.
+The repo is 95% (47422/49662) complete.
 
 Package contents can be found [in the code branch](https://github.com/pypi-data/pypi-mirror-263/tree/code/packages).
 
