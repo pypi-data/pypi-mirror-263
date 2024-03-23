@@ -1,0 +1,20 @@
+Metadata-Version: 2.3
+Name: gitgather
+Version: 0.0.1
+Summary: A simple tool to gather source code from a local repo or folder into a single file for LLM context windows.
+Project-URL: Homepage, https://github.com/claysauruswrecks/gitgather
+Project-URL: Issues, https://github.com/claysauruswrecks/gitgather/issues
+Author-email: claysauruswrecks <44852834+claysauruswrecks@users.noreply.github.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Provides-Extra: test
+Requires-Dist: build; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest>=8.1.1; extra == 'test'
+Requires-Dist: twine; extra == 'test'
+Description-Content-Type: text/markdown
+
+# gitgather

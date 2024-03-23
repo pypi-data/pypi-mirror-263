@@ -1,0 +1,8 @@
+gitgather/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitgather/__main__.py,sha256=8nh4kBklzdARbDZ3eW5O_OxklSk0MN6HA5h1lc-XaJ8,1573
+gitgather/gather.py,sha256=HUp67TAl15bcxJXCPtL_ErmfWApgtWtXwOpCwIjvU60,10655
+gitgather-0.0.1.dist-info/METADATA,sha256=yc6aesmro5pudDL91d13_-1PRpFFvAyepSanyG6pk80,838
+gitgather-0.0.1.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+gitgather-0.0.1.dist-info/entry_points.txt,sha256=2HbrbfpiDClWv2sYgS61Mnkekq4q2eHL3Jd_00G09vg,54
+gitgather-0.0.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gitgather-0.0.1.dist-info/RECORD,,
