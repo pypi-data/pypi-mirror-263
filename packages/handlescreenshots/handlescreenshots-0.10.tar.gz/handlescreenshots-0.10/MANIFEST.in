@@ -1,0 +1,3 @@
+include handlescreenshots/requirements.txt
+include handlescreenshots/thirdparty.json
+include handlescreenshots/README.MD

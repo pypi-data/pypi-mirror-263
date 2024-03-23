@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+handlescreenshots/README.MD
+handlescreenshots/__init__.py
+handlescreenshots/requirements.txt
+handlescreenshots/thirdparty.json
+handlescreenshots.egg-info/PKG-INFO
+handlescreenshots.egg-info/SOURCES.txt
+handlescreenshots.egg-info/dependency_links.txt
+handlescreenshots.egg-info/requires.txt
+handlescreenshots.egg-info/top_level.txt
