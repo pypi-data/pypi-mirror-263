@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: argel1200
+Version: 1.0.1
+Summary: My utility functions
+Home-page: https://github.com/argel1200/argel1200-python
+Author: argel1200
+Author-email: argel@msn.com
+License: MIT
+Requires-Dist: click>=7.1.2
+Requires-Dist: dumper>=0.10.2
+Requires-Dist: haggis>=0.9.1
