@@ -1,0 +1,9 @@
+[console_scripts]
+correct-separate = icesat2waves.analysis_db.B06_correct_separate_var:correct_separate_app
+define-angle = icesat2waves.analysis_db.B05_define_angle:define_angle_app
+icesat2waves = icesat2waves.app:app
+load-file = icesat2waves.analysis_db.B01_SL_load_single_file:load_file_app
+make-b04-angle = icesat2waves.analysis_db.B04_angle:make_b04_angle_app
+make-iowaga-threads-prior = icesat2waves.analysis_db.A02c_IOWAGA_thredds_prior:make_iowaga_threads_prior_app
+make-spectra = icesat2waves.analysis_db.B02_make_spectra_gFT:make_spectra_app
+plot-spectra = icesat2waves.analysis_db.B03_plot_spectra_ov:plot_spectra
