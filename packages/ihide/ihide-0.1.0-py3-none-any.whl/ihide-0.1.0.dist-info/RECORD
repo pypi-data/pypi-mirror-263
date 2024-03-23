@@ -1,0 +1,13 @@
+ihide/__init__.py,sha256=q8xYdc4TNUhliihK1q2eR2Svp3CPeLMMrut76l0GeUo,147
+ihide/_version.py,sha256=ac3tgjoOzsODOlacRPCwz99LbZv0NK7ZYAaBWulFo7E,171
+ihide-0.1.0.data/data/share/jupyter/labextensions/ihide/package.json,sha256=ORM24JW5oMLXNE799LQR5q2DLdEr3-ZOnx3iXuiI9dg,5262
+ihide-0.1.0.data/data/share/jupyter/labextensions/ihide/static/509.c2f1d5fd00fdc39aeee6.js,sha256=wvHV_QD9w5ru5lHf8oTqlrGVcV2Koua0h_r9T3cO7ZY,940
+ihide-0.1.0.data/data/share/jupyter/labextensions/ihide/static/728.511b79b861aa0f77a57a.js,sha256=URt5uGGqD3eleu1ti5DToerxGAh4HmcGetOGgpPhNN4,4040
+ihide-0.1.0.data/data/share/jupyter/labextensions/ihide/static/remoteEntry.ac29b875040507b5b619.js,sha256=rCm4dQQFB7W2GWPKYrZso_CdokNgx9uQG5YPaB_fWJ8,6913
+ihide-0.1.0.data/data/share/jupyter/labextensions/ihide/static/style.js,sha256=2W-NYJ29gEhvgrsLIHyIvrT4Q_3ha99p-yohVxBvaig,148
+ihide-0.1.0.data/data/share/jupyter/labextensions/ihide/static/third-party-licenses.json,sha256=i4z96RB0T1_RGdmoFCyvPxH0skhEL5qSKT9D1EdclF8,2453
+ihide-0.1.0.data/data/share/jupyter/labextensions/ihide/install.json,sha256=I6oDwwv6r2xftrm-s4K_qShTp0zHctT7tHoRXZ-NNUc,171
+ihide-0.1.0.dist-info/METADATA,sha256=jnGdi1wdKeg0jjIStNuifLpdLH1uBkelKhS6ygTO2Bs,5619
+ihide-0.1.0.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+ihide-0.1.0.dist-info/licenses/LICENSE,sha256=54DCQpMBkR8BnILT5fXGAgZ_6sGZb6WKIhl9v6DGOxk,1514
+ihide-0.1.0.dist-info/RECORD,,
