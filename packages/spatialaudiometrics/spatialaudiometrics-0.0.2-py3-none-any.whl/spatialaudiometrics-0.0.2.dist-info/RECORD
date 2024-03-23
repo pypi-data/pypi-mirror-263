@@ -1,0 +1,17 @@
+spatialaudiometrics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spatialaudiometrics/angular_metrics.py,sha256=4_n7cSBNmxflJL_nOht7-JkjC9o4NUNcYAV-ra2nVGs,3268
+spatialaudiometrics/example_data_1.csv,sha256=yWGwuchPBq3arBpHw8Ql228j8dpXxqLjsFnHGTAe9kQ,59698
+spatialaudiometrics/example_sofa_1.sofa,sha256=34rWjFCFTICbmaYz4mWt2q-XqCfICSdeLB9wiM7AUbI,2835501
+spatialaudiometrics/example_sofa_2.sofa,sha256=WlrDkYb5PsE8nEhDH1wuZi2m_l24dfEDnFc1aAWkrkw,2969993
+spatialaudiometrics/hrtf_metrics.py,sha256=G915CkkbcJNgrqfoDV45PQ8a1_OvVorDeA5OeLXCw4k,5954
+spatialaudiometrics/lap_challenge.py,sha256=KqZmz_F8qH8b2dhFiBrmwsY-lxmoXpTr19-IeeRBZY8,1698
+spatialaudiometrics/load_data.py,sha256=MIhrPElzf9BnFR14FRYRqUQb4O8P4HbSCENqJRIpwzM,5777
+spatialaudiometrics/localisation_metrics.py,sha256=6uPCUPuYPcJcFCD2Hw9I0fLpRjkUOAoqgvtzLfUKrg4,6240
+spatialaudiometrics/signal_processing.py,sha256=thTm5fH30PmIddaBCB3tfEaVfm2VYu9Er-QUtjvGj-Y,1261
+spatialaudiometrics/statistics.py,sha256=EeGe4HGuiOv58exYcVFsqll7DvsTNOboXV-LME8Xq2I,7462
+spatialaudiometrics/visualisation.py,sha256=R0rJWamHMobZQPbslGbesOseieiSfJLaFYqFiPRkoi4,8399
+spatialaudiometrics-0.0.2.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+spatialaudiometrics-0.0.2.dist-info/METADATA,sha256=Ko_83uM8K3nS7R3hjnqBLysPURB_9dCcI20O_cuHBro,43574
+spatialaudiometrics-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+spatialaudiometrics-0.0.2.dist-info/top_level.txt,sha256=ZYJ91vSHEpQJuGq64pXQtePG-Mp96nRiE7rsg-YkuJI,20
+spatialaudiometrics-0.0.2.dist-info/RECORD,,
