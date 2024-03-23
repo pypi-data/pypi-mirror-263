@@ -1,0 +1,148 @@
+Metadata-Version: 2.1
+Name: echoshader
+Version: 0.1.0
+Summary: Open Source Python package for building ocean sonar data visualizations.
+Home-page: https://github.com/OSOceanAcoustics/echoshader
+Author: Dingrui Lei
+Author-email: leidingrui426@gmail.com
+Maintainer: Dingrui Lei
+Maintainer-email: leidingrui426@gmail.com
+License: MIT
+Platform: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: echopype
+Requires-Dist: hvplot
+Requires-Dist: geoviews
+Requires-Dist: pyvista
+Requires-Dist: ipykernel
+Requires-Dist: pandas <2.0.0
+Provides-Extra: all
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Requires-Dist: pytest-flake8 ; extra == 'all'
+Requires-Dist: pytest-xdist ; extra == 'all'
+Requires-Dist: pytest-mock ; extra == 'all'
+Requires-Dist: black ; extra == 'all'
+Requires-Dist: check-manifest ; extra == 'all'
+Requires-Dist: flake8 ; extra == 'all'
+Requires-Dist: flake8-builtins ; extra == 'all'
+Requires-Dist: flake8-comprehensions ; extra == 'all'
+Requires-Dist: flake8-mutable ; extra == 'all'
+Requires-Dist: flake8-print ; extra == 'all'
+Requires-Dist: isort ; extra == 'all'
+Requires-Dist: mypy ; extra == 'all'
+Requires-Dist: numpydoc ; extra == 'all'
+Requires-Dist: pre-commit ; extra == 'all'
+Requires-Dist: codespell ; extra == 'all'
+Requires-Dist: pylint ; extra == 'all'
+Requires-Dist: sphinx ; extra == 'all'
+Requires-Dist: sphinx-automodapi ; extra == 'all'
+Requires-Dist: sphinx-rtd-theme ; extra == 'all'
+Requires-Dist: sphinxcontrib-mermaid ; extra == 'all'
+Requires-Dist: jupyter-book ; extra == 'all'
+Requires-Dist: docutils <0.18 ; extra == 'all'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-automodapi ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinxcontrib-mermaid ; extra == 'docs'
+Requires-Dist: jupyter-book ; extra == 'docs'
+Requires-Dist: numpydoc ; extra == 'docs'
+Requires-Dist: docutils <0.18 ; extra == 'docs'
+Provides-Extra: lint
+Requires-Dist: black ; extra == 'lint'
+Requires-Dist: check-manifest ; extra == 'lint'
+Requires-Dist: flake8 ; extra == 'lint'
+Requires-Dist: flake8-builtins ; extra == 'lint'
+Requires-Dist: flake8-comprehensions ; extra == 'lint'
+Requires-Dist: flake8-mutable ; extra == 'lint'
+Requires-Dist: flake8-print ; extra == 'lint'
+Requires-Dist: isort ; extra == 'lint'
+Requires-Dist: mypy ; extra == 'lint'
+Requires-Dist: numpydoc ; extra == 'lint'
+Requires-Dist: pre-commit ; extra == 'lint'
+Requires-Dist: codespell ; extra == 'lint'
+Requires-Dist: pylint ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-flake8 ; extra == 'test'
+Requires-Dist: pytest-xdist ; extra == 'test'
+Requires-Dist: pytest-mock ; extra == 'test'
+
+# Welcome to echoshader
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/OSOceanAcoustics/echoshader/HEAD)
+
+Open Source Python package for building ocean sonar data visualizations based on the HoloViz suite of Python tools.
+
+## What are ocean sonar systems?
+
+Ocean sonar systems, such as echosounders, are the [workhorse to study life in the ocean](https://storymaps.arcgis.com/stories/e245977def474bdba60952f30576908f). They provide continuous observations of fish and zooplankton by transmitting sounds and analyzing the echoes bounced off these animals, just like how medical ultrasound images the interior of human body. In recent years these systems are widely deployed on ships, autonomous vehicles, or moorings, bringing in a lot of data that allow scientists to study the change of the marine ecosystem.
+
+## What is echoshader?
+
+Echoshader aims to enhance the capability to interactively visualize large volumes of ocean sonar data to accelerate the data exploration and discovery process. The project will go hand-in-hand with ongoing development of the [echopype](https://echopype.readthedocs.io/en/stable/) package that handles the standardization, pre-processing, and organization of these data.
+
+By providing an accessible and customizable platform for echo data visualization, the project can accelerate advancements in oceanographic research for the benefit of conservation and sustainable resource management like fishery.
+
+## Installation
+
+First it is best to create a new environment:
+
+```bash
+mamba create -c conda-forge -n echoshader --yes python=3.10
+
+mamba activate echoshader
+```
+
+To install from PyPi:
+
+```bash
+pip install echoshader
+```
+
+The latest branch can be installed via the following:
+
+```bash
+pip install git+https://github.com/OSOceanAcoustics/echoshader.git
+```
+
+To run in development mode, fork and clone the repository at [Echoshader](https://github.com/OSOceanAcoustics/echoshader):
+
+```bash
+mamba create -c conda-forge -n echoshader-dev --yes python=3.10 --file requirements.txt --file requirements-dev.txt
+pip install -e
+```
+
+We recommend use [mamba](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html) to manage conda's environments, which is a re-implementation of conda offering additional benefits.
+
+## Creating a development environment
+
+This section is intended for those who are actively developing this package.
+
+```bash
+mamba create -n echoshader-dev -c pyviz -c conda-forge echopype hvplot geoviews pyvista ipykernel
+```
+
+Note: Users may already have `echopype` installed, but it should be at a version greater than or equal to `0.7.1`.
+
+To link this environment with a Jupyter kernel:
+
+```bash
+conda activate echoshader-dev
+python -m ipykernel install --user --name echoshader-dev --display-name "echoshader-dev"
+```

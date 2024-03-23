@@ -1,0 +1,2 @@
+_echoshader_version
+echoshader
