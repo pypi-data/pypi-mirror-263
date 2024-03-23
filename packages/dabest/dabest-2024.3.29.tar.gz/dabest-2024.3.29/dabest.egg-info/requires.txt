@@ -1,0 +1,13 @@
+fastcore
+pandas~=1.5.0
+numpy~=1.23.5
+matplotlib~=3.6.3
+seaborn~=0.12.2
+scipy~=1.9.3
+datetime
+statsmodels
+lqrt
+
+[dev]
+pytest~=7.2.1
+pytest-mpl~=0.16.1
