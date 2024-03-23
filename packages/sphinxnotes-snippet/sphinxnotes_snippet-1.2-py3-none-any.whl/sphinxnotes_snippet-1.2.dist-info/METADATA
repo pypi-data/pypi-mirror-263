@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: sphinxnotes-snippet
+Version: 1.2
+Summary: Sphinx documentation snippets manager
+Author: Shengyu Zhang
+Maintainer: Shengyu Zhang
+Project-URL: homepage, https://sphinx.silverrainz.me/snippet
+Project-URL: documentation, https://sphinx.silverrainz.me/snippet
+Project-URL: repository, https://github.com/sphinx-notes/snippet
+Project-URL: changelog, https://sphinx.silverrainz.me/snippet/changelog.html
+Project-URL: tracker, https://github.com/sphinx-notes/snippet/issues
+Keywords: sphinx,extension,documentation
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Framework :: Sphinx
+Classifier: Framework :: Sphinx :: Extension
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: Sphinx >=4
+Requires-Dist: langid
+Requires-Dist: jieba
+Requires-Dist: python-pinyin
+Requires-Dist: pyxdg
+Requires-Dist: stopwordsiso
+Requires-Dist: wcwidth
+Requires-Dist: wordsegment
+Provides-Extra: dev
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: cruft ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: furo ; extra == 'docs'
+Requires-Dist: sphinxnotes-any ; extra == 'docs'
+Requires-Dist: sphinx-design ; extra == 'docs'
+Requires-Dist: sphinx-copybutton ; extra == 'docs'
+Requires-Dist: sphinxcontrib-gtagjs ; extra == 'docs'
+Requires-Dist: sphinxcontrib.asciinema ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+.. This file is generated from sphinx-notes/cookiecutter.
+   You need to consider modifying the TEMPLATE or modifying THIS FILE.
+
+===================
+sphinxnotes-snippet
+===================
+
+.. image:: https://img.shields.io/github/actions/workflow/status/sphinx-notes/snippet/pages.yml
+   :target: https://sphinx.silverrainz.me/snippet
+   :alt: Documentation Status
+
+.. image:: https://img.shields.io/github/license/sphinx-notes/snippet
+   :target: https://github.com/sphinx-notes/snippet/LICENSE
+   :alt: Open Source License
+
+.. image:: https://img.shields.io/pypi/v/sphinxnotes-snippet.svg
+   :target: https://pypi.python.org/pypi/sphinxnotes-snippet
+   :alt: PyPI Package
+
+.. image:: https://img.shields.io/pypi/dm/sphinxnotes-snippet
+   :target: https://pypi.python.org/pypi/sphinxnotes-snippet
+   :alt: PyPI Package Downloads
+
+Sphinx documentation snippets manager.
+
+* Documentation: https://sphinx.silverrainz.me/snippet
+* Source: https://github.com/sphinx-notes/snippet
+* Changelog: https://sphinx.silverrainz.me/snippet/changelog.html
+* Tracker: https://github.com/sphinx-notes/snippet/issues
+* Download: https://pypi.org/project/sphinxnotes-snippet/#files
