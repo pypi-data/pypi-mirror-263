@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: triton-xpu
+Version: 0.0.2
+Summary: A language and compiler for custom Deep Learning operations
+Home-page: https://github.com/intel/intel-xpu-backend-for-triton/
+Author: Philippe Tillet
+Author-email: phil@openai.com
+Keywords: Compiler,Deep Learning
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: filelock
+Provides-Extra: build
+Requires-Dist: cmake >=3.20 ; extra == 'build'
+Requires-Dist: lit ; extra == 'build'
+
