@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: django_community_playground
+Version: 1.0.0
+Summary: A place to test things out
+Author-email: Tim Schilling <schillingt@better-simple.com>
+Project-URL: Homepage, https://github.com/django-community/django-community-playground
+Project-URL: Issues, https://github.com/django-community/django-community-playground/issues
+Keywords: django,django community
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# django-community-playground
+A sample project to test things out
+
+
+## Running tests
+
+```shell
+python -m unittest
+```
