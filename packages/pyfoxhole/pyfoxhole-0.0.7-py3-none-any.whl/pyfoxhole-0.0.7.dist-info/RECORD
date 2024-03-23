@@ -1,0 +1,9 @@
+pyfoxhole/__init__.py,sha256=HMQqJhOzdBgnb1_IP1tqT2RGXxT3O9nlanW9hznIhZs,483
+pyfoxhole/_version.py,sha256=1x2l5NC4KnPwn52IZhOb4SxcqgOz1V8xTkVQJmzMUzw,427
+pyfoxhole/api.py,sha256=h6INBoMlCQuTMBgcv_2byYaaBZlWW-WnqOfVwMvWjj4,1730
+pyfoxhole/models.py,sha256=fM9IRiQTJXyu1mL7r-QYYRthNjOp8sKysqMdBwFoRv4,2162
+pyfoxhole-0.0.7.dist-info/LICENSE,sha256=2AxPT675XZDB5XXsE7-S9xst2DhsveuwIbcttHuiaEE,1064
+pyfoxhole-0.0.7.dist-info/METADATA,sha256=xmhvYpA12ZVSip3Ja7RJto5l_15zzXSHgoX8YAYjp3I,1031
+pyfoxhole-0.0.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyfoxhole-0.0.7.dist-info/top_level.txt,sha256=vec1P8UDmuD0YK1ULDqnspYj6_xUwWjOg17QAIbBLNU,10
+pyfoxhole-0.0.7.dist-info/RECORD,,
