@@ -1,0 +1,24 @@
+tg_model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tg_model/cli.py,sha256=aeQDtYOAyZpAaJUnT3-5w8z7ZFt_oIv8wS51Fe3WJ5A,8196
+tg_model/collection.py,sha256=27Gl5aydQcBlqBBZVWBvL5XT7kKDxAVt1fJ0wmpV83o,5204
+tg_model/tei.py,sha256=sqhpzjhbLjHIXgbcTL1EU85846fPTjOmZJrWRSgrTDs,23748
+tg_model/util.py,sha256=Kdr9B1XRF7eQMIu2jbJ4GLebxQnpfjNFuw89G2u7r0A,4873
+tg_model/util_eltec.py,sha256=8JHp384Rf1xj8SP91VdposNSSb7zepsDR_5xsstcKcg,2169
+tg_model/xml.py,sha256=xfyOo42C0xfo-ME_S8AaNCDx9-bwSRZpwVH6rXMFpgA,2704
+tg_model/yaml.py,sha256=iedk0qDzQQ3UqloPL9PTnP_jb2BHEWKUGCc1ZjWJfsE,13729
+tg_model/templates/collection.yaml,sha256=kdbBsx_y81wCON9W5ehrjcerbcxNxtxrnjn5zXmWnpM,4954
+tg_model/templates/main.yaml,sha256=MbfOlVGWdCBbwGBgqNoI5tjFajXz-FE7uBrEokEXweQ,38
+tg_model/templates/synergy.yaml,sha256=5lm3b1RR4rTJg0BVUeWtD2_6duQgLdcB0zpBLTeEjN8,701
+tg_model/templates/{{ collection }}.collection,sha256=NzozcrWqHzhmHJKjCac5jVg_wVZxSyiOWZROl0hVmFQ,623
+tg_model/templates/{{ collection }}.collection.meta,sha256=kzl1jM_tqIaUq--1ZQijDjkVPh3QeE055VqP_N4M9Ek,536
+tg_model/templates/collection/{{ id }}.edition,sha256=78lYT-feZdnNT_TkdoBKU4bMgLYY7xcf8SW3UQxtRQU,536
+tg_model/templates/collection/{{ id }}.edition.meta,sha256=f86eViV7igTqSK59edt3KjI696XQrGm7ntPGxONIT1U,1593
+tg_model/templates/collection/id/{{ id }}.work,sha256=MToDEQtq_lPTOlRmDedFt3rJgBbx-bdvUVkzUjprQUk,40
+tg_model/templates/collection/id/{{ id }}.work.meta,sha256=dJxTkGGSh__0tINv92uL75U9HUQ1EO7ejmOMv7qQmTA,2107
+tg_model/templates/collection/id/{{ id }}.xml.meta,sha256=QXGDLmb0vsljlaSrAxrpOXg0DJOJakUNFzn_AzlJXaw,525
+tg_model-0.3.6.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+tg_model-0.3.6.dist-info/METADATA,sha256=mpV2tZ7Ub5Tei6iRi1HNoAMbaqVVX4PHSyiWQlGvU0o,8540
+tg_model-0.3.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tg_model-0.3.6.dist-info/entry_points.txt,sha256=Vfs9D4Y45cRjYb99LOxTUkZSbW08oXjzHCV0VSDLh8c,125
+tg_model-0.3.6.dist-info/top_level.txt,sha256=4DJ4QZuW1lfNw3VCLswbfpXN0m7DOgVhE60_THObfRY,9
+tg_model-0.3.6.dist-info/RECORD,,
