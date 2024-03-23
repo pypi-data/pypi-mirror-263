@@ -1,0 +1,7 @@
+logging_prometheus/__init__.py,sha256=xDw2eKGSU2CXLazrSdAjtUW2Qg7mZYtgnhPvmD7yeEw,157
+logging_prometheus/handlers.py,sha256=iPL_pUXOBwNREw1bUw1j0CThF7MA6oSQ6L4yvkDmoI8,1158
+logging_prometheus/setup.py,sha256=vebYvskzQSUfGz-ms2WmyCUyMCO5afN-j6tKNOJgdiE,223
+logs_prometheus-1.0.1.dist-info/LICENSE,sha256=yRVkPunIe9omt6gkqO5laI3FD2kFmXzL428ANGsA9mY,1056
+logs_prometheus-1.0.1.dist-info/METADATA,sha256=OTGELaRtuoJfndHsqgBQkDKbX_kf3f_yn7tTFPSOMX8,3767
+logs_prometheus-1.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+logs_prometheus-1.0.1.dist-info/RECORD,,
