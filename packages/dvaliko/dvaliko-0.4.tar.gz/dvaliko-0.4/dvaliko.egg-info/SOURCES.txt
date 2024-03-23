@@ -1,0 +1,6 @@
+README.txt
+setup.py
+dvaliko.egg-info/PKG-INFO
+dvaliko.egg-info/SOURCES.txt
+dvaliko.egg-info/dependency_links.txt
+dvaliko.egg-info/top_level.txt
