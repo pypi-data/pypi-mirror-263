@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "mkdocs_asyncapi_html_plugin"
+version = "0.3.1"
+description = "mkdocs plugin to generate pages from asyncapi spec files"
+authors = ["hani <hani@regentmarkets.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/hani-deriv/mkdocs-asyncapi-plugin"
+repository = "https://github.com/hani-deriv/mkdocs-asyncapi-plugin"
+documentation = "https://github.com/hani-deriv/mkdocs-asyncapi-plugin"
+keywords = ["mkdocs", "asyncapi", "plugin", "python"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."mkdocs.plugins"]
+"asyncapi_html" = "mkdocs_asyncapi_html_plugin:AsyncAPIPlugin"
