@@ -1,0 +1,21 @@
+{
+  "template": "https://github.com/sphinx-notes/template",
+  "commit": "1701bf78ca498d756ce4502aa1712cfe23ed35af",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "namespace": "sphinxnotes",
+      "name": "snippet",
+      "full_name": "sphinxnotes-snippet",
+      "author": "Shengyu Zhang",
+      "description": "Sphinx documentation snippets manager",
+      "version": "1.2",
+      "github_owner": "sphinx-notes",
+      "github_repo": "snippet",
+      "pypi_name": "sphinxnotes-snippet",
+      "pypi_owner": "SilverRainZ",
+      "_template": "https://github.com/sphinx-notes/template"
+    }
+  },
+  "directory": null
+}
