@@ -1,0 +1,18 @@
+
+[all]
+pyyaml
+json-five
+
+[all:python_version < "3.11"]
+toml
+
+[json5]
+json-five
+
+[toml]
+
+[toml:python_version < "3.11"]
+toml
+
+[yaml]
+pyyaml
