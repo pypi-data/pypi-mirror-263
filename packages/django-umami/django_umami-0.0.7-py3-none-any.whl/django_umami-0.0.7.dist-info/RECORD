@@ -1,0 +1,14 @@
+django_umami/__init__.py,sha256=R9xOYoYrWKcfO5zvTeGC3m_eDNOvxMd8CocQs2tLufo,22
+django_umami/apps.py,sha256=TibnRlCRKFYlzJUm6mzupO3OjxeghB2fEOFP6BrT6KE,175
+django_umami/core.py,sha256=n56lbf8Zmuj_i1-uib5JMn3NYnIxjfezG8k8gDbzVPQ,3513
+django_umami/decorators.py,sha256=CPoeDLkTR2lhA0IflUo7YiHxTP87KwfZvLv-MHmjDfg,365
+django_umami/settings.py,sha256=8BMpCykpWXpepfmKdyCTLe5bVFKORtszVJ6DueQ3lu4,3323
+django_umami/tests.py,sha256=ha3oqxjXQCgu097B99snlX_oiDhWq6PYdoy7Jt_vWvo,2213
+django_umami/urls.py,sha256=iXVMxBfvn-3T_7epx4JLF6z32DiZsDLZQbvo3w-7yCk,769
+django_umami/utils.py,sha256=VijBPKZ4v5oY_sjogj0g26_g7dee9yOJMirjxWfF5_g,121
+django_umami/wsgi.py,sha256=ApmbPh1VMVFHMcsjCpORoTZrEq9y4bjWhDC4Jx0zYPI,401
+django_umami-0.0.7.dist-info/LICENSE,sha256=iLRXDNiKWN7MPBYcD6hDlkwWL9uZaEioPSakJuES90E,1063
+django_umami-0.0.7.dist-info/METADATA,sha256=jZjytlmHPTyGTc3mtuOJ3ZEoVVW_-C3JyqszrpXcReY,2195
+django_umami-0.0.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_umami-0.0.7.dist-info/top_level.txt,sha256=TEsavE2rvNF2t88kcDuVt3aU75ybXOQ8q7aRkFwV2GM,13
+django_umami-0.0.7.dist-info/RECORD,,
