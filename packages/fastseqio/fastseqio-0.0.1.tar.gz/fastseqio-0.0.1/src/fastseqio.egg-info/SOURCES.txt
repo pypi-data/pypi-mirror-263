@@ -1,0 +1,8 @@
+setup.py
+src/fastseqio.egg-info/PKG-INFO
+src/fastseqio.egg-info/SOURCES.txt
+src/fastseqio.egg-info/dependency_links.txt
+src/fastseqio.egg-info/top_level.txt
+src/seqio/__init__.py
+src/seqio/_seqio.py
+src/seqio/lib/_seqio.cpython-311-x86_64-linux-gnu.so
