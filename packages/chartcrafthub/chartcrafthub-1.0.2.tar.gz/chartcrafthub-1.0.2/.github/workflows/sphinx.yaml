@@ -1,0 +1,47 @@
+name: "Sphinx: Render docs"
+
+on:
+  push:
+    paths:
+      - "docs/**"
+    branches:
+      - trunk
+
+concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - uses: actions/setup-python@v5
+      with:
+        python-version: "3.12.x"
+        cache: "pip"
+
+    - name: Install dependencies
+      run: |
+        make install_docs
+    - name: Sphinx build
+      run: |
+        cd docs
+        make html
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: html-docs
+        path: docs/build/html/
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/trunk'
+      with:
+        publish_branch: gh-pages
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: docs/build/html
