@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: PyIPe
+Version: 0.9
+Summary: A library for retrieving every thing about location
+Author: twinsszi
+Author-email: adhm90879@email.com
+Keywords: ip
+Requires-Dist: requests
