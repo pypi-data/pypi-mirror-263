@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: iam-minify
+Version: 0.0.1
+Summary: Minify IAM actions using wildcards to save up as many characters as possible without granting unintended permissions
+Home-page: https://github.com/imduchy/truncate-iam-actions
+Author: imduchy
+Author-email: jakub@duchy.sk
+License: MIT
+License-File: LICENSE
+Requires-Dist: requests
