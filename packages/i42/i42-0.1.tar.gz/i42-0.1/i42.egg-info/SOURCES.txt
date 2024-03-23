@@ -1,0 +1,9 @@
+README.md
+setup.py
+i42/__init__.py
+i42/main.py
+i42.egg-info/PKG-INFO
+i42.egg-info/SOURCES.txt
+i42.egg-info/dependency_links.txt
+i42.egg-info/entry_points.txt
+i42.egg-info/top_level.txt
