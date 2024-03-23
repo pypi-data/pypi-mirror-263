@@ -1,0 +1,14 @@
+SMdRQA/Extract_from_RP.py,sha256=1zT4ZagImyexZ0uR3tlYLH0HMax3rKc_4x0bxv5tEJc,10372
+SMdRQA/RP_maker.py,sha256=Zv_be-rKIHIqp5Ga8DUsFBcXabCqqqwgNSBF-9Qa9Wo,5873
+SMdRQA/RP_maker_diagnose.py,sha256=cNmHxeHjmMd2vE0IEjJg3QCEUNldxrjCqpj3hLUR960,7611
+SMdRQA/RQA_functions.py,sha256=pDrTDsBCAMSc4Rj0Wi80lP52fPxCoPfyblXtuPcXtYY,11178
+SMdRQA/__init__.py,sha256=mBPrrLc1YHRfP4d1dVLgOvQd3XgylckCLH8Xz2qHjpk,1167
+SMdRQA/cross_validation.py,sha256=Lv5e26odC9oEtiXcAQWITBQdwwB9Phq_fGaj3Vr91tQ,9701
+SMdRQA/window_size.py,sha256=kfCphZFHZt0RfHGLmaLoYHP8uIa1OLDIaIPyKH2uoFA,7152
+SMdRQA/tests/__init__.py,sha256=NNc6DYQpflH_fzUYXzq0oak34xv3xhfxgZ_DkNFkYEQ,55
+SMdRQA/tests/test_RQA_functions.py,sha256=Fx3XFBGvIjXtQJ3kdI_Xgx3qNf0SUKUdb34e1T54gM8,3193
+SMdRQA-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+SMdRQA-0.1.0.dist-info/METADATA,sha256=yIuZ-hfdog8p9GwI_U1JIxSVcwwHfGr5SHB1n_4qmFw,1015
+SMdRQA-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+SMdRQA-0.1.0.dist-info/top_level.txt,sha256=RQ9cKEFDN4RMi0wll46fwN7Q4rbqjyumPfa1HWqZUZE,7
+SMdRQA-0.1.0.dist-info/RECORD,,

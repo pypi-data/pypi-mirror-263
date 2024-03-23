@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: SMdRQA
+Version: 0.1.0
+Summary: A Python implementation of MdRQA
+Home-page: https://github.com/SwaragThaikkandi/Sliding_MdRQA
+Author: Swarag Thaikkandi, K.M. Sharika, Miss Nivedita
+Author-email: tsk4at@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: operator-courier
+Requires-Dist: contextlib2
+Requires-Dist: pytest-warnings
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: memory-profiler
+Requires-Dist: kuramoto
+Requires-Dist: networkx
+Requires-Dist: p-tqdm
+
+# SMdRQA
+
+[![Python package](https://github.com/SwaragThaikkandi/SMdRQA/actions/workflows/python-package.yml/badge.svg)](https://github.com/SwaragThaikkandi/SMdRQA/actions/workflows/python-package.yml)
+
+
