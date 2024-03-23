@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyVMO
+Version: 0.0.1
+Summary: A test python toolkit for variant site analysis
+Home-page: https://github.com/SouthernCD/pyVMO
+Author: Yuxing Xu
+Author-email: xuyuxing@mail.kib.ac.cn
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: toolbiox>=0.0.44
+Requires-Dist: scikit-allel>=1.3.7
+Requires-Dist: cyvcf2>=0.30.28
+Requires-Dist: h5py>=3.10.0
+
+# pyVMO
+A test python toolkit for variant site analysis
