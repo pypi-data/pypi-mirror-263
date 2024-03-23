@@ -1,0 +1,9 @@
+pyyaml
+matplotlib
+statsmodels
+deap>=1.3
+scikit-learn
+numpy
+torch
+tqdm
+scikit-image

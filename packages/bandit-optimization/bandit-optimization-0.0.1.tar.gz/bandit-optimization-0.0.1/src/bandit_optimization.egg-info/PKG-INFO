@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: bandit-optimization
+Version: 0.0.1
+Summary: Bandit optimization algorithms for microscopy
+Author-email: Anthony Bilodeau <anthony.bilodeau.1@ulaval.ca>, Albert Michaud-Gagnon <albert.michaud-gagnon@cervo.ulaval.ca>
+Maintainer-email: Anthony Bilodeau <anthony.bilodeau.1@ulaval.ca>
+Project-URL: Homepage, https://github.com/FLClab/bandit-optimization
+Project-URL: Issues, https://github.com/FLClab/bandit-optimization/issues
+Keywords: microscopy,sted,bandit,optimization
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: matplotlib
+Requires-Dist: statsmodels
+Requires-Dist: deap>=1.3
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: scikit-image
+
+# Bandit Optimization
+
+The bandit optimization package implements the algorithms, models and objectives that are used for the optimization of microscopy images. 
+
+The algorithms provided within this repository are used the optimization of STED microscopy. The repository of STED microscopy optimization is available [here](https://github.com/FLClab/optim-sted).
+
+---
+
+## Installation 
+
+You can install `banditopt` via [pip](https://pypi.org/project/pip/).
+
+```bash
+pip install bandit-optimization
+```
+
+*Note. When importing the module, bandit will raise a warning about not being able to load the microscope interface. This warning can be ignored.*
+
+## License
+
+Distributed under the terms of the [CC-By v4.0](https://creativecommons.org/licenses/by/4.0/) license.
