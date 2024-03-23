@@ -1,0 +1,87 @@
+#!/usr/bin/env python3
+import argparse
+from glitter_sdk.client.lcd import LCDClient
+from glitter_sdk.core import Numeric, Coins
+from glitter_sdk.key.mnemonic import MnemonicKey
+from glitter_sdk.util.parse_sql import prepare_sql
+from glitter_sdk.util.parse_query_str import *
+from rich.console import Console
+from rich.table import Table
+from rich.align import Align
+from rich.tree import Tree
+from glitter_sdk.util.highlight import *
+import time
+
+
+def format_file_size(size_bytes):
+    if size_bytes < 1024:
+        return f"{size_bytes} B"
+    elif size_bytes < 1024 * 1024:
+        return f"{size_bytes // 1024} KB"
+    elif size_bytes < 1024 * 1024 * 1024:
+        return f"{size_bytes // (1024 * 1024)} MB"
+    else:
+        return f"{size_bytes / (1024 * 1024 * 1024):.2f} GB"
+
+def get_icon(c):
+    icons = {
+        'ads': ':speaker_medium_volume:',
+        'video': ':movie_camera:',
+        'document': ':green_book:',
+        'music': ':musical_note:',
+        'software': ':laptop_computer:',
+        'image': ':art:'
+    }
+    return icons.get(c, ':rocket:')
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-f', '--file', type=str, required=True,
+                        help='Please enter the desired file name for searching.')
+    parser.add_argument('-n', '--number', type=int, default=100,
+                        help='The number of results you would like to display.')
+    args = parser.parse_args()
+
+    mnemonic = ""
+    mk = MnemonicKey(mnemonic)
+    client = LCDClient(
+        chain_id="glitter_12000-2",
+        url="https://api.xian.glitter.link",
+        gas_prices=Coins.from_str("1agli"),
+        gas_adjustment=Numeric.parse(1.5))
+    glitter_db_client = client.db(mk)
+    query = args.file
+    queries = [MatchQuery("file_name", query, 1.0)]
+    query_str = query_string_prepare(queries)
+    highlight = highlight_prepare(["file_name"])
+    sql = prepare_sql(
+        "select {} _id ,category ,file_name ,firstadd_utc_timestamp ,filesize ,total_count from library.dht where query_string_recency(%s) order by total_count desc limit 0,{}".format(
+            highlight, args.number), [query_str])
+    rst = glitter_db_client.query(sql)
+
+    console = Console()
+    table = Table(show_header=True, header_style="bold magenta", expand=True)
+    table_centered = Align.center(table)
+    link = "The method of download via magnet link ([blue]https://anybt.eth.limo/#/guide[/blue])"
+    table.add_column(link, no_wrap=True)
+    table.add_column("ext", style="dim", no_wrap=True)
+
+    for row in rst:
+        category = get_icon(row["category"]) + "  " + row["category"]
+        ext = Tree(category)
+        ext.add(format_file_size(row["filesize"]))
+        ext.add("{} Hot".format(int(row["total_count"])))
+        ext.add(time.strftime("%Y-%m-%d", time.localtime(row["firstadd_utc_timestamp"])))
+
+        content = Tree(row["_highlight_file_name"].replace("<mark>", "[red]").replace("</mark>", "[/red]"))
+        magnet_link = "magnet:?xt=urn:btih:{}".format(row["_id"])
+        content.add(magnet_link)
+
+        table.add_row(content, ext)
+
+    console.print(table)
+
+
+if __name__ == '__main__':
+    main()
+
