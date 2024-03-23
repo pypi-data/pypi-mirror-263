@@ -1,0 +1,2 @@
+include src/talkingclock/*.txt
+include src/talkingclock/mp3/*.mp3
