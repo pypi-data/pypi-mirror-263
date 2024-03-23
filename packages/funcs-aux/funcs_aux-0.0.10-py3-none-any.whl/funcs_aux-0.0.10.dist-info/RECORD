@@ -1,0 +1,10 @@
+funcs_aux/__init__.py,sha256=gEPnF0K3SPvrevJNiUDHcAxdR0AU6CukbvqWr6JWzlI,195
+funcs_aux/arrays.py,sha256=_sET7Bw6ozocaZ1WIL3kT0vSbjHcSutZGyb8NzJrbUM,1894
+funcs_aux/iterables.py,sha256=hvmiG1UH1zA0QKANVxwoyyY43zA7bb7W-Ck38LDyKcI,5211
+funcs_aux/results.py,sha256=US32rYe6XcmQEehV--onWdOAJdWfh27LKda5i_CiFHM,8973
+funcs_aux/strings.py,sha256=aAxOHgvCfFHOfOAptjzLHJRCquHW7xbEjDgovN2mRmY,1920
+funcs_aux-0.0.10.dist-info/LICENSE,sha256=1aYUrsI8JgP7U2jnJSaksxIUGbynNUEqOQCKRBp3qNI,1180
+funcs_aux-0.0.10.dist-info/METADATA,sha256=TODwBKG54GI4twQFjEILDNJ64qFvACEGBx8Nz3xKjqg,1885
+funcs_aux-0.0.10.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+funcs_aux-0.0.10.dist-info/top_level.txt,sha256=wUcZwT-yuVBq71L_fYlH-VQhnue1BNlJ_Nkw1qffX1w,10
+funcs_aux-0.0.10.dist-info/RECORD,,
