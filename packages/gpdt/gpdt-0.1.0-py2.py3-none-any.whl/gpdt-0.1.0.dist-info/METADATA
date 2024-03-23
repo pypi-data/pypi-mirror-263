@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: gpdt
+Version: 0.1.0
+Summary: General Purpose Digital Twin
+Home-page: https://github.com/asteriogonzalez/gpdt
+Author: Asterio Gonzalez
+Author-email: asterio.gonzalez@gmail.com
+License: UNKNOWN
+Keywords: gpdt
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: Click
+Requires-Dist: agptools
+Requires-Dist: aiocache
+Requires-Dist: aiohttp
+Requires-Dist: datamodel-code-generator
+Requires-Dist: datamodel-code-generator[graphql]
+Requires-Dist: datamodel-code-generator[http]
+Requires-Dist: faker
+Requires-Dist: fastapi
+Requires-Dist: geopy
+Requires-Dist: glom
+Requires-Dist: jmespath
+Requires-Dist: pydantic
+Requires-Dist: requests
+Requires-Dist: rich
+Requires-Dist: surrealdb
+Requires-Dist: syncmodels
+Requires-Dist: uvicorn
+Requires-Dist: uvicorn[watchgodreload]
+Requires-Dist: uvloop
+Requires-Dist: watchfiles
+
+====
+GPDT
+====
+
+
+
+
+
+
+General Purpose Digital Twin
+
+
+
+Features
+----------------
+
+* TODO
+
+Before Coding
+----------------
+
+* create a virtual env
+
+.. code-block:: 
+  
+  python3 -m venv .venv
+  source .venv/bin/activate
+  make install-testing-requisites
+
+Credits
+----------------
+
+This package was created with Cookiecutter_ .
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+
+
+=======
+History
+=======
+
+0.1.0 (2024-03-23)
+------------------
+
+* First release on PyPI.
+
+
