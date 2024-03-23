@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tumblrdotcom"
+version = "0.3.1"
+description = "Tumblr API wrapper with support for Polls"
+keywords = ["Tumblr", "API"]
+
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT License"}
+classifiers = [
+    "Topic :: Utilities",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dynamic = ["dependencies"]
+
+[project.urls]
+repository = "https://github.com/James-Ansley/tumblr-dot-com"
+documentation = "https://tumblr-dot-com.rtfd.io"
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.setuptools.packages.find]
+where = ["src"]
