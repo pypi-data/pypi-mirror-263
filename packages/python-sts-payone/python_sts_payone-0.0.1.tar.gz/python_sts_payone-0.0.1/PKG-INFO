@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: python_sts_payone
+Version: 0.0.1
+Summary: A package that provides utility functions to send payment requests to STS PayOne and interpret the responses
+Author-email: Kamruzzaman Tauhid <tmakpk@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+Requires-Dist: requests>2
+Description-Content-Type: text/markdown
+
+# STS PayOne
+
+A package that provides utility functions to send payment requests to STS PayOne and interpret the responses
+Documentation coming soon
+
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
