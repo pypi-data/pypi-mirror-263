@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: baltimorestrings.argparse.showhelp
+Version: 0.1.0
+Summary: Argparse Personal Defaults
+Home-page: https://github.com/baltimorestrings/argparse_showhelp
+Author: baltimorestrings
+License: LICENSE
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: pycodestyle ; extra == 'test'
+
+A simple ArgParse that displays help on error, and uses a saner default formatter
