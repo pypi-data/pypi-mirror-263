@@ -1,0 +1,8 @@
+applechess/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+applechess/chess_agent.py,sha256=aX4rKddVj1PvjE5ZlGXpk87sLqlrMGieBCNKlgi2laU,16689
+applechess/lichess_bot.py,sha256=rGmnfhEBoguoljU-SXxmfTlEL6JW_wLhuM2gKHTP-qw,7441
+applechess-0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+applechess-0.1.dist-info/METADATA,sha256=yi2JpHer5U03QdWyu9g62YfcYLjUeLK7L-dhJv_LtgI,3916
+applechess-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+applechess-0.1.dist-info/top_level.txt,sha256=yhM5YEo_JVyBRUzzMPKq8jVNZc4z8LWH0HqVCXXoSBc,11
+applechess-0.1.dist-info/RECORD,,
