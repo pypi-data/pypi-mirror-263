@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: jsminify_rs
+Version: 0.1.1
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+Author-email: "Oskar Manhart, CM Wedding GmbH" <me@oskar.global>
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: source, https://github.com/cmwedding-it/jsminify-rs
+
+# jsminify_rs
+
+A simple library for minifying JavaScript code.  
+Uses rust and https://github.com/wilsonzlin/minify-js under the hood.
