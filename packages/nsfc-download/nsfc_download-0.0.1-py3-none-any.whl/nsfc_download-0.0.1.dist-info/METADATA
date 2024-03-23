@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nsfc-download
+Version: 0.0.1
+Summary: NSFC download.
+Author: Brief
+Author-email: brf2053@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: img2pdf
+
+For National Natural Science Foundation final report download.
