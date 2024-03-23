@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/baltimorestrings.argparse_showhelp.egg-info/PKG-INFO
+src/baltimorestrings.argparse_showhelp.egg-info/SOURCES.txt
+src/baltimorestrings.argparse_showhelp.egg-info/dependency_links.txt
+src/baltimorestrings.argparse_showhelp.egg-info/requires.txt
+src/baltimorestrings.argparse_showhelp.egg-info/top_level.txt
+src/baltimorestrings/argparse_showhelp/__init__.py
+src/baltimorestrings/argparse_showhelp/argparse_help_on_error.py
+src/baltimorestrings/argparse_showhelp/quick_args.py
+tests/test_stuff.py
