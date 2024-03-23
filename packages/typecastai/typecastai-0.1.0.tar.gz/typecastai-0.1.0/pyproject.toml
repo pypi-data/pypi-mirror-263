@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "typecastai"
+version = "0.1.0"
+description = "typecast.ai api"
+authors = ["Juncheol Cho <zironycho@neosapience.com>"]
+readme = "README.md"
+packages = [
+    { include = "typecastai", from = "src"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
