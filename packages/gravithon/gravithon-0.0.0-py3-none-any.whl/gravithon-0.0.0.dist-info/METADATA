@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gravithon
+Version: 0.0.0
+Summary: d
+Home-page: https://github.com/YehudaElyasaf/gravithon
+Author: Yehuda Elyasaf
+Author-email: 30yehuda26@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+TODO: readme
+
+
