@@ -1,0 +1,71 @@
+#https://peps.python.org/pep-0621/#example
+
+[project]
+name = "chartcrafthub"
+version = "1.0.1"
+description = "Code, debug, reuse this chart, workshop materials and more."
+license = {file = "LICENSE", name = "MIT"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["matplotlib", "visuzlization", "tutorial"]
+readme = "README.md"
+dependencies = [
+    "jupyter==1.0.0",
+    "matplotlib==3.8.3",
+    "numpy==1.26.4",
+    "aquarel==0.0.6",
+    "seaborn==0.13.2",
+    "rich==13.7.1"
+]
+
+authors = [
+    {name = "Artem Kislovskiy", email = "artem.kislovskiy@gmail.com"},
+    {name = "Teresa Kubacka", email = "teresa@xurce.ch"}
+]
+
+[project.urls]
+Homepage = "https://github.com/Kislovskiy/ChartCraftHub"
+Documenation = "https://kislovskiy.github.io/ChartCraftHub/"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+cch = "chartcrafthub.__main__:fundamentals"
+
+[project.optional-dependencies]
+build = ["build", "twine"]
+dev = [
+    "pytest==8.0.2",
+    "ruff==0.3.4",
+    "bumpver==2023.1129"
+]
+docs = [
+    "sphinx==7.2.6",
+    "furo==2024.01.29",
+]
+
+[tool.bumpver]
+current_version = "1.0.1"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message  = "bump version {old_version} -> {new_version}"
+commit          = false
+tag             = false
+push            = false
+
+    [tool.bumpver.file_patterns]
+    "pyproject.toml" = [
+        'current_version = "{version}"',
+        'version = "{version}"',
+    ]
+    "src/chartcrafthub/__init__.py" = ["{version}"]
+    "docs/source/conf.py" = ["{version}"]
+
+[tool.ruff]
+extend-include = [
+    "*.ipynb"
+]

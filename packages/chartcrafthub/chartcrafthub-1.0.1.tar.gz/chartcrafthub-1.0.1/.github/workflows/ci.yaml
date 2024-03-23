@@ -1,0 +1,39 @@
+name: "ChartCraftHub Lint"
+on:
+  pull_request:
+    paths:
+      - "**.py"
+      - "**.ipynb"
+  push:
+    paths:
+      - "**.py"
+      - "**.ipynb"
+    branches:
+      - trunk
+
+concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
+
+env:
+  PYTHON_VERSION: 3.12.1
+
+jobs:
+  ci:
+    name: 🛠️ Setup Python environment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Python environment
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+      - name: Install dependencies
+        run: make install
+      - name: Lint
+        run: make lint
+      - name: Test
+        run: make test
