@@ -1,0 +1,2 @@
+[console_scripts]
+colore = colore.__main__:main
