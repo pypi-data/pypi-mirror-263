@@ -1,0 +1,11 @@
+terminalpoint/__init__.py,sha256=q9QgJCnv3MKp0wGY1qQObbjsJDteJnmv67ILssYRbi0,166
+terminalpoint/__main__.py,sha256=4ZU0b0xNSHqbfIX-TiseU8nAIN3-IU5bWvrycc3Z79c,876
+terminalpoint/_version.py,sha256=H-qsvrxCpdhaQzyddR-yajEqI71hPxLa4KxzpP3uS1g,411
+terminalpoint/app.py,sha256=Nf-LxgR60r-VkAQdBZG0os49MrKeQmgAUMgkpdKxpX4,2684
+terminalpoint/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+terminalpoint-0.2.0.dist-info/LICENSE,sha256=EJLr1lK_GPK2fvbV1exOp5fqcZTU9lSusCtUH5tp-Wo,1085
+terminalpoint-0.2.0.dist-info/METADATA,sha256=cf1T2n-M8ywo4k36QL4sJDv3wbC8_SG-pKTAmV_1TUM,2761
+terminalpoint-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+terminalpoint-0.2.0.dist-info/entry_points.txt,sha256=ZSa7-d1Poerqi6ZNi20OJh-VbpzSf6kfSCdl00ZG2pE,61
+terminalpoint-0.2.0.dist-info/top_level.txt,sha256=2pL22dOgdAI5lQPf7OpaFCREVP5tkYTggRqfDr1RCMA,14
+terminalpoint-0.2.0.dist-info/RECORD,,
