@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: CoinPaca-lib
+Version: 1.0.0
+Summary: Common library for the CoinPaca project
+Home-page: https://gitlab.com/CoinPaca/core/lib
+Author: Patrik Katrenak
+Author-email: patrik@katryapps.com
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CP-lib
+
+Common library for the CoinPaca project.
+
+
+## Installation
+
+Install package from PYPI repository
+```sh
+python -m pip install CoinPaca-lib
+```
+
+## Contains
+- Simple templating validator for complex `dict` and `list` stuctures
+
+## License
+
+Created by Patrik Katreňák and released under General Public License v3.0.
