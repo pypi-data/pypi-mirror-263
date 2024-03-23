@@ -1,0 +1,10 @@
+AUTHORS
+LICENSE
+README.md
+pyproject.toml
+gpgdo/gpgdo.py
+gpgdo.egg-info/PKG-INFO
+gpgdo.egg-info/SOURCES.txt
+gpgdo.egg-info/dependency_links.txt
+gpgdo.egg-info/entry_points.txt
+gpgdo.egg-info/top_level.txt
