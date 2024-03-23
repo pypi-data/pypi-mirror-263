@@ -1,0 +1,13 @@
+cysimdjson/cysimdjson.cpython-311-x86_64-linux-gnu.so,sha256=PCBN6nn7wFn0IASR2y2sKDf0oPgPr54zQDmmWdrA5Go,6707960
+cysimdjson/cysimdjsonc.h,sha256=ji5xySLt0gk2m2d0pthP5Yji8mCoLoYmHOkkpFBFfOk,1514
+cysimdjson/jsoninter.h,sha256=cKhwt0WBqOOgZGLTaQ985t8brkJNnrXQRTejTs9zCXU,1044
+cysimdjson/cysimdjson.h,sha256=4CODXpoRwkNkNmxNDzuzpYH_Xcg5eghjbxGrQ3E_Q-4,2174
+cysimdjson/__init__.py,sha256=Ora_NP32XYDFccCk-9U5abSrwhouZXSA6i_y83h7d70,801
+cysimdjson/cysimdjson.pyx,sha256=-U6I9aGX9xqnHstcIOA0UM6xGhQdfyKhJlAHDyce51Q,11769
+cysimdjson/pysimdjson/errors.h,sha256=ZfnJq7WLmB_-HUsLxoTkfz3hG49fjvM0hJGpm2mGPG8,178
+cysimdjson/simdjson/simdjson.h,sha256=DvLufMVe4mm0UHwXd04kKbCkw12mHeshdcapdUJ-el8,3840839
+cysimdjson-24.12.dist-info/top_level.txt,sha256=bC3MaMWnnlRAYF-jTpyn6QTc6V6pFYF7MijKU8HDwM4,11
+cysimdjson-24.12.dist-info/METADATA,sha256=D9KOsk7Pxv1VEqKzGnvzSenwVUJxBgN_aCXxtR5SzlE,7855
+cysimdjson-24.12.dist-info/WHEEL,sha256=-7Vwsd-KuPOtdyxdAC8drxF7lN4th9mKINh8g6MaZ9k,152
+cysimdjson-24.12.dist-info/RECORD,,
+cysimdjson-24.12.dist-info/LICENSE,sha256=cgQWE2f3y867-YFXvCe_PfHKA-bTxx7XxCwFA-UcYTc,11343
