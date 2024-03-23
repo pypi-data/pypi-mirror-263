@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+SinchanNinjaa.egg-info/PKG-INFO
+SinchanNinjaa.egg-info/SOURCES.txt
+SinchanNinjaa.egg-info/dependency_links.txt
+SinchanNinjaa.egg-info/top_level.txt
+sinchanjee/__init__.py
+sinchanjee/sinchanpg1.py
