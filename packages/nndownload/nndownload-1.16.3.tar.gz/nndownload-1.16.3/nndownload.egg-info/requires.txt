@@ -1,0 +1,11 @@
+aiohttp
+aiohttp-socks
+beautifulsoup4
+ffmpeg-python
+gevent
+mutagen
+requests
+rich
+setuptools
+tqdm
+urllib3
