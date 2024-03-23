@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+dbt-redshift-dryrun/__init__.py
+dbt-redshift-dryrun/dryrun.py
+dbt_redshift_dryrun.egg-info/PKG-INFO
+dbt_redshift_dryrun.egg-info/SOURCES.txt
+dbt_redshift_dryrun.egg-info/dependency_links.txt
+dbt_redshift_dryrun.egg-info/top_level.txt
