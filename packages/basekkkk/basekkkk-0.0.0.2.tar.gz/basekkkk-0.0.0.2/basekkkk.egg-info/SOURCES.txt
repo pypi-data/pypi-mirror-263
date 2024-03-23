@@ -1,0 +1,10 @@
+README.md
+setup.py
+basekkkk/__init__.py
+basekkkk/player.py
+basekkkk/team.py
+basekkkk/team_wl.py
+basekkkk.egg-info/PKG-INFO
+basekkkk.egg-info/SOURCES.txt
+basekkkk.egg-info/dependency_links.txt
+basekkkk.egg-info/top_level.txt
