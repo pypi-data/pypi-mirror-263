@@ -1,0 +1,2 @@
+[console_scripts]
+get-grib = dwd_opendata_get_grib:main

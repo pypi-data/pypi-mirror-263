@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/dwd_opendata_get_grib.py
+src/dwd_opendata_get_grib.egg-info/PKG-INFO
+src/dwd_opendata_get_grib.egg-info/SOURCES.txt
+src/dwd_opendata_get_grib.egg-info/dependency_links.txt
+src/dwd_opendata_get_grib.egg-info/entry_points.txt
+src/dwd_opendata_get_grib.egg-info/requires.txt
+src/dwd_opendata_get_grib.egg-info/top_level.txt

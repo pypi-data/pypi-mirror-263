@@ -1,0 +1,15 @@
+eccodes
+httpx
+numpy
+pandas
+
+[conda]
+tox-conda
+
+[dev]
+coverage>=7
+isort>=5
+pandas-stubs
+pylint>=3
+pytest>=7
+tox>=3
