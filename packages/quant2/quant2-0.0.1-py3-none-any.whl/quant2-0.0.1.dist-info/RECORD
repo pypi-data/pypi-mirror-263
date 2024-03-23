@@ -1,0 +1,10 @@
+quant/README.md,sha256=huMGDBfjav-XhdJmqQuCinYGjvDoedzT29zVvK7415M,1841
+quant/__init__.py,sha256=qV9rihgWj8dJPFobDeMg35JruDjd1bps6DI8OaF2xTY,559
+quant/__main__.py,sha256=CvNzFepgCoingJCoI__8EArulpnfKTCYWWjxCTPSi9s,67
+quant/football/__init__.py,sha256=GrrLQOm8iV6whheSbxl49AaYrjJszjpi-4BvNSCHoNg,422
+quant/football/etk_titan.py,sha256=gAY0qul31qhWePEKqSsVQQ39ikkTja0TwkL3NwUamAU,8967
+quant2-0.0.1.dist-info/entry_points.txt,sha256=umrmn_pk7yz790OfbJZdRTfGIUhqgLoRhi1a4_4ZKyk,65
+quant2-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+quant2-0.0.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+quant2-0.0.1.dist-info/METADATA,sha256=vwvWSFeE-PiICU_4Izd1D6ftp5HutpuB_ahZF_8X2Oo,2173
+quant2-0.0.1.dist-info/RECORD,,
