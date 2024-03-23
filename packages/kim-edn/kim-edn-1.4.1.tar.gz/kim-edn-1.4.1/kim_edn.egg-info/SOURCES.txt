@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+kim_edn/__init__.py
+kim_edn/_version.py
+kim_edn/decoder.py
+kim_edn/encoder.py
+kim_edn/scanner.py
+kim_edn/tool.py
+kim_edn.egg-info/PKG-INFO
+kim_edn.egg-info/SOURCES.txt
+kim_edn.egg-info/dependency_links.txt
+kim_edn.egg-info/top_level.txt
