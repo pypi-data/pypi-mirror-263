@@ -1,0 +1,6 @@
+uvicorn
+fastapi
+zhipuai
+gradio
+requests
+numpy
