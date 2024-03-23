@@ -1,0 +1,29 @@
+[project]
+name = "jsonservice"
+version = "1.0.0"
+authors = [
+  { name="kougen", email="info@kou-gen.net" },
+]
+
+maintainers = [
+  { name="Joshua Hegedus", email="josh.hegedus@outlook.com" },
+]
+
+description = "A simple and easy to use JSON service for Python."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/kougen/jsonservice"
+Issues = "https://github.com/kougen/jsonservice/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
