@@ -1,0 +1,125 @@
+Metadata-Version: 2.1
+Name: avfilters
+Version: 0.0.1
+Summary: Common Audio and Video filters
+Author-email: Jérome Eertmans <jeertmans@icloud.com>
+License: MIT
+Project-URL: Changelog, https://github.com/jeertmans/avfilters/releases
+Project-URL: Documentation, https://avfilters.readthedocs.io/
+Project-URL: Founding, https://github.com/sponsors/jeertmans
+Project-URL: Homepage, https://github.com/jeertmans/avfilters
+Project-URL: Repository, https://github.com/jeertmans/avfilters
+Keywords: libav,ffmpeg,audio,video,filters
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Sound/Audio :: Conversion
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Multimedia :: Video :: Conversion
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: av >=9.0.0
+Provides-Extra: dev
+Requires-Dist: pre-commit >=3.5.0 ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx >=6 ; extra == 'docs'
+Requires-Dist: sphinx-book-theme >=1 ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints >=1 ; extra == 'docs'
+Requires-Dist: sphinx-copybutton >=0.5.2 ; extra == 'docs'
+Requires-Dist: sphinxext-opengraph >=0.9.1 ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: numpy >=1.24.4 ; extra == 'test'
+Requires-Dist: pytest >=8.1.1 ; extra == 'test'
+Requires-Dist: pytest-cov >=4.1.0 ; extra == 'test'
+
+# avfilters
+
+[![Latest Release][pypi-version-badge]][pypi-version-url]
+[![Python version][pypi-python-version-badge]][pypi-version-url]
+[![Documentation][documentation-badge]][documentation-url]
+[![Codecov][codecov-badge]][codecov-url]
+[![PDM][pdm-badge]][pdm-url]
+
+Curated list of common Audio/Video filters.
+
+This library wraps the relatively complex PyAV bindings to provide
+easy to use audio and video manipulation filters, such as files
+concatenation, video reversing or video to GIF.
+
+## Motivation
+
+FFMPEG is a **powerful** tool for media files manipulation. Many
+Python libraries already wrap the `ffmpeg` executable to
+easily perform audio and video processing in Python.
+
+**However**, most of those libraries call `ffmpeg`
+through *subprocesses*. While this is fine in many
+use cases, this has two major drawbacks:
+
+1. you must have `ffmpeg` installed on your computer,
+   and know the executable path;
+2. and repeatedly calling subprocesses in a hot loop can
+   be *quite* slow.
+
+For performances reasons, a solution is to use
+bindings to the FFMPEG C libraries, e.g.,
+[PyAV](https://github.com/PyAV-Org/PyAV). Moreover,
+PyAV ships (by default) with pre-built binary wheels
+linking against FFMPEG C libraries, so you do not need
+to rely on a *possible* local installation of `ffmpeg`.
+
+Unfortunately, using PyAV can be quite complex,
+especially as `ffmpeg` usually does a lot of
+auto-corrections that PyAV does not automatically
+perform.
+
+This library aims at providing a straighforward
+`ffmpeg`-like API for some very common use cases.
+
+If you feel like a feature is missing, please
+use the
+[GitHub issues](https://github.com/jeertmans/avfilters/issues)
+and detail your feature request.
+
+## Getting started
+
+First, add `avfilters` to you project's dependencies.
+
+```python
+from avfilters import reverse
+
+
+reverse("original.mp4", "expected.mp4")
+```
+
+For more examples, take a look at the documentation.
+
+## Getting help
+
+You have a question or want to report a bug?
+
+Please use the
+[GitHub issues](https://github.com/jeertmans/avfilters/issues).
+
+[pypi-version-badge]: https://img.shields.io/pypi/v/avfilters?label=avfilters&color=blueviolet
+[pypi-version-url]: https://pypi.org/project/avfilters/
+[pypi-python-version-badge]: https://img.shields.io/pypi/pyversions/avfilters?color=orange
+[documentation-badge]: https://readthedocs.org/projects/avfilters/badge/?version=latest
+[documentation-url]: https://avfilters.readthedocs.io/latest/?badge=latest
+[codecov-badge]: https://codecov.io/gh/jeertmans/avfilters/branch/main/graph/badge.svg?token=8P4DY9JCE4
+[codecov-url]: https://codecov.io/gh/jeertmans/avfilters
+[pdm-badge]: https://img.shields.io/badge/pdm-managed-blueviolet
+[pdm-url]: https://pdm-project.org
