@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyiron_gui
+Version: 0.0.12
+Summary: Repository for GUI plugins to the pyiron IDE.
+Home-page: https://github.com/pyiron/pyiron_gui
+Author: Max-Planck-Institut für Eisenforschung GmbH - Computational Materials Design (CM) Department
+Author-email: siemer@mpie.de
+License: BSD
+Keywords: pyiron
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+Requires-Dist: pyiron-base >=0.7.7
+Requires-Dist: pyiron-atomistics >=0.4.17
+Requires-Dist: ipywidgets >=8.1.2
+Requires-Dist: matplotlib >=3.8.3
+Requires-Dist: nbconvert >=7.16.2
+Requires-Dist: nbformat >=5.10.3
+Requires-Dist: numpy >=1.26.4
+Requires-Dist: pandas >=2.2.0
+
+http://pyiron.org
