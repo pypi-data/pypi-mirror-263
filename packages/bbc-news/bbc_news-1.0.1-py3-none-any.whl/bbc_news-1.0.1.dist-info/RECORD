@@ -1,0 +1,10 @@
+bbc/BBC-News-Wrapper.md,sha256=MjmdPDeDnLZ38JdLXqcugXUE3KHFwsQh39a1Rk8PXVI,14486
+bbc/__init__.py,sha256=_nsrFDFove-DOmhtpTb_b0xn8zib2Y9yYiFTxNnTs5E,472
+bbc/exceptions.py,sha256=JOn4DH6mTEw7_YiBot19Qo7Uy1s9tn0lRJgYSv_mSv8,187
+bbc/languages.py,sha256=TzktpDzoXBQJ_Fd83-etpesDUCPXFTrez8ZF-05-qVc,1589
+bbc/news.py,sha256=bMCv3mPiNONumxZHe13j0TqWi-BLuMW0UCYIQLUrpzA,3639
+bbc_news-1.0.1.dist-info/LICENSE,sha256=N8-l3KhCjdXiEvp9HDXL1hFviXen262q1g8vuCSbg1M,1075
+bbc_news-1.0.1.dist-info/METADATA,sha256=mn5p0iNMsTtTW9lAfIRJoqbxT6d9rCBzEtnfJwY_wxk,15517
+bbc_news-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bbc_news-1.0.1.dist-info/top_level.txt,sha256=gCHB8sAFveZg8_zownyp8rnknpY1X8ctoOJquABgkic,4
+bbc_news-1.0.1.dist-info/RECORD,,
