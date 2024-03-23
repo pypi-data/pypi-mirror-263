@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: public_invest_api
+Version: 1.0.1
+Summary: Unofficial Public.com Invest API
+Home-page: https://github.com/NelsonDane/public-invest-api
+Author: Nelson Dane
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+
+# public-invest-api
