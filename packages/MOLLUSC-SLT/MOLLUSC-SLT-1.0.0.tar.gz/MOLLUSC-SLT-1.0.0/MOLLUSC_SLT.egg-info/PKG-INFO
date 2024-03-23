@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: MOLLUSC-SLT
+Version: 1.0.0
+Summary: Maximum Likelihood Phylogeographic Inference of Cell Motility and Cell Division from Spatial Lineage Tracing Data
+Author: ['Uyen Mai', 'Gary Hu', 'Ben Raphael']
+License: GNU General Public License, version 3
+Keywords: Spatial Lineage Tracing,Cell motility,Cell division,Maximum likelihood,Phylogeography
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+License-File: LICENSE
+Requires-Dist: scipy>=1.3.1
+Requires-Dist: cvxpy>=1.4
+Requires-Dist: treeswift>=1.1.39
+Requires-Dist: Mosek>=10.1.16
+Requires-Dist: setuptools
+
+Maximum Likelihood Estimation Of Lineage and Location Using Single Cell Spatial Lineage tracing Data
