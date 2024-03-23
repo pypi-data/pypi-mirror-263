@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bit-common"
+version = "0.1.1"
+description = "Bit common types and utilities."
+authors = ["Yury Sokov <me@yurzs.dev>"]
+readme = "README.md"
+packages = [
+    { include = "bit", from = "." },
+]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.6.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
