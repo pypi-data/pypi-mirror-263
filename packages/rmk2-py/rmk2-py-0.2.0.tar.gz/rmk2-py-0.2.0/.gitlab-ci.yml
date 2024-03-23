@@ -1,0 +1,81 @@
+default:
+  image: python:3.11-slim
+
+variables:
+  GIT_STRATEGY: clone
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  REPOSITORY_URL: ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi
+
+.setup_git: &setup_git |
+  apt update
+  apt install -y git
+
+.setup_virtualenv: &setup_virtualenv |
+  pip install virtualenv
+  virtualenv --system-site-packages venv
+  source venv/bin/activate
+
+cache:
+  paths:
+    - .cache/pip
+    - venv
+
+stages:
+  - test
+  - build
+  - publish
+
+test:
+  stage: test
+  before_script:
+    - *setup_git
+    - *setup_virtualenv
+  script:
+    - python3 -m pip install -r test-requirements.txt
+    - pytest -v --junitxml=test_report.xml --cov=. --cov-report xml --cov-report term tests/
+  coverage: '/(?i)total.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/'
+  artifacts:
+    paths:
+      - .coverage
+      - coverage.xml
+    reports:
+      junit: test_report.xml
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
+
+build:
+  stage: build
+  before_script:
+    - *setup_git
+    - *setup_virtualenv
+  script:
+    - pip3 install build
+    - python3 -m build
+  artifacts:
+    paths:
+      - dist/*.tar.gz
+      - dist/*.whl
+  only:
+    - master
+    - tags
+
+publish_gitlab:
+  stage: publish
+  before_script:
+    - *setup_virtualenv
+  script:
+    - pip3 install twine
+    - TWINE_PASSWORD=${CI_JOB_TOKEN} TWINE_USERNAME=gitlab-ci-token python -m twine upload --repository-url ${REPOSITORY_URL} dist/*
+  only:
+    - tags
+
+publish_pypi:
+  stage: publish
+  before_script:
+    - *setup_virtualenv
+  script:
+    - pip3 install twine
+    - TWINE_PASSWORD=${PYPI_PASSWORD} TWINE_USERNAME=__token__ python -m twine upload dist/*
+  only:
+    - tags

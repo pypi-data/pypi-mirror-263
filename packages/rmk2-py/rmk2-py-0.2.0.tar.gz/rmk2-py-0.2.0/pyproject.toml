@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+exclude = ["tests"]
+
+[tool.coverage.run]
+omit = ["tests/*"]
+
+[project]
+name = "rmk2-py"
+description = "rmk2's Python Toolbox"
+readme = "README.md"
+license = { text = "GPLv3+" }
+requires-python = ">=3.11"
+dynamic = ["version"]
+dependencies = []
+
+[options.package_data]
+
+[tool.black]
+line-length = 88
+
+[tool.flake8]
+max-line-length = 88
+
+[tool.yapf]
+based_on_style = "pep8"
+spaces_before_comment = 4
+column_limit = 88
+
+[tool.setuptools_scm]
