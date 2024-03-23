@@ -1,0 +1,15 @@
+signposting/__init__.py,sha256=5AUz0LYG6djFBJ28ezOUm97dUczpSktWLM7SWBY4U_w,2367
+signposting/__main__.py,sha256=B95kM47-3U_s2osLg2dmvAeWgcpP6_rxeVoy1ZX5DWU,905
+signposting/cli.py,sha256=pVJWtE7btIzYywmsjs-7zXrEnmYGBEliYKyb-gK4tr4,9804
+signposting/htmllinks.py,sha256=I8-0blhwlO7qloaw2lYkRZdL8mz0CO-cidJiJIHvcms,6610
+signposting/linkheader.py,sha256=ISV2df9wmoOriEOLYbmZsXZq4tOWv4HsIDko9Tbw7sY,7122
+signposting/linkset.py,sha256=zqpVz6_XIhlCOwxLXOlz0SvPK0a7ibv8KZlyZtwOQxk,6975
+signposting/resolver.py,sha256=8QdLgjWYd4ocWRBQQ1keL1XM_1UZY-lqeGn5semm7hM,2456
+signposting/signpost.py,sha256=f0xTqCxwW9NI7-fRvXN-yNDUo5vKml-ITq6nmR4UUtM,36610
+signposting-0.9.8.dist-info/LICENSE,sha256=pS9dXNJI5eb99XkRV9JRB4vL7bUk3iia6ZYSrrxo9Bc,11945
+signposting-0.9.8.dist-info/METADATA,sha256=K5WsWUdbVX5p-bqlSf5F2uqBzd-G4m9GrYF3FaFRJmA,15892
+signposting-0.9.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+signposting-0.9.8.dist-info/entry_points.txt,sha256=2SmoyV-AMQSywHqDrr0hC4H0tNRstjyxiWzccocug0o,53
+signposting-0.9.8.dist-info/top_level.txt,sha256=hYgVi0__dWlb0TOqVWJpIM2MFC1sfIoXS4y-Ipk3uXw,12
+signposting-0.9.8.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+signposting-0.9.8.dist-info/RECORD,,
