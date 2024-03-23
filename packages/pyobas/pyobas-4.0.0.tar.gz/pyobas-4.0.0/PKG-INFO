@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: pyobas
+Version: 4.0.0
+Summary: Python API client for OpenBAS.
+Home-page: https://github.com/OpenBAS-Platform/client-python
+Author: Filigran
+Author-email: contact@filigran.io
+Maintainer: Filigran
+License: Apache
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Natural Language :: French
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dataclasses-json~=0.6.4
+Requires-Dist: pika~=1.3.1
+Requires-Dist: prometheus-client~=0.20.0
+Requires-Dist: python_json_logger~=2.0.4
+Requires-Dist: pyyaml~=6.0
+Requires-Dist: requests~=2.31.0
+Requires-Dist: requests-toolbelt~=1.0.0
+Requires-Dist: setuptools~=69.2.0
+Provides-Extra: dev
+Requires-Dist: black~=24.3.0; extra == "dev"
+Requires-Dist: build~=1.1.1; extra == "dev"
+Requires-Dist: isort~=5.13.0; extra == "dev"
+Requires-Dist: types-pytz~=2024.1.0.20240203; extra == "dev"
+Requires-Dist: pre-commit~=3.6.0; extra == "dev"
+Requires-Dist: types-python-dateutil~=2.9.0; extra == "dev"
+Requires-Dist: wheel~=0.43.0; extra == "dev"
+Provides-Extra: doc
+Requires-Dist: autoapi~=2.0.1; extra == "doc"
+Requires-Dist: sphinx-autodoc-typehints~=2.0.0; extra == "doc"
+Requires-Dist: sphinx-rtd-theme~=2.0.0; extra == "doc"
+
+# OpenBAS client for Python
+
+[![Website](https://img.shields.io/badge/website-openbas.io-blue.svg)](https://openbas.io)
+[![CircleCI](https://circleci.com/gh/OpenBAS-Platform/client-python.svg?style=shield)](https://circleci.com/gh/OpenBAS-Platform/client-python/tree/main)
+[![readthedocs](https://readthedocs.org/projects/openbas-client-for-python/badge/?style=flat)](https://openbas-client-for-python.readthedocs.io/en/latest/)
+[![GitHub release](https://img.shields.io/github/release/OpenBAS-Platform/client-python.svg)](https://github.com/OpenBAS-Platform/client-python/releases/latest)
+[![Number of PyPI downloads](https://img.shields.io/pypi/dm/pyobas.svg)](https://pypi.python.org/pypi/pyobas/)
+[![Slack Status](https://img.shields.io/badge/slack-3K%2B%20members-4A154B)](https://community.filigran.io)
