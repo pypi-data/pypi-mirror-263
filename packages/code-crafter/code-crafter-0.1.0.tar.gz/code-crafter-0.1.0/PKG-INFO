@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: code-crafter
+Version: 0.1.0
+Summary: Edit Python code with ease.
+Author-email: Ben Dichter <ben.dichter@catalystneuro.com>
+License: MIT License
+        
+        Copyright (c) 2020 Ben Dichter
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Keywords: ast,refactoring,code-generation,python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: black
+Requires-Dist: astor
+
+# Code Crafter
+
+Code Crafter is a Python library designed for manipulating Python source code through Abstract Syntax Tree (AST) transformations. This tool simplifies the process of programmatically editing Python code, allowing developers to find and modify specific data structures such as lists, dictionaries, and sets within their code. Whether you're building code generation tools, refactoring code, or creating dynamic Python scripts, Code Crafter offers a clean and intuitive API to achieve your goals.
+
+## Features
+
+- **Easy Navigation**: Navigate through your Python code's AST with ease, thanks to intuitive methods like `find_list`, `find_dict`, and `find_set`.
+- **In-Place Modification**: Directly modify lists, dictionaries, and sets within your source code through simple method calls.
+- **Automatic File Handling**: Use the `File` context manager to automatically read, modify, and write back changes to your Python files.
+- **Support for Common Data Structures**: First-class support for manipulating lists, dictionaries, and sets, with potential for future expansion.
+
+## Installation
+
+Install Code Crafter using pip:
+
+```bash
+pip install code-crafter
+```
+
+## Quick Start
+
+Here's a quick example to get you started with Code Crafter:
+
+```python
+import code_crafter as cc
+
+# Automatically apply changes to 'my_file.py'
+with cc.File("my_file.py") as file:
+    # Append an element to a list named 'my_list'
+    file.find_list("my_list").append(4)
+    # Add a new key-value pair to a dictionary named 'my_dict'
+    file.find_dict("my_dict").update(my_new_key="my_new_value")
+    # Add a new element to a set named 'my_set'
+    file.find_set("my_set").add(42)
+```
+
+`cc.List` supports the following methods:
+* append
+* extend
+* insert
+* remove
+* pop
+* clear
+* reverse
+
+`cc.Dict` supports the following methods:
+* update
+* clear
+* pop
+* get
+
+`cc.Set` supports the following methods:
+* add
+* remove
+* update
+* discard
+
+## Contributing
+
+Contributions to Code Crafter are welcome! Whether it's bug reports, feature requests, or code contributions, please feel free to open an issue or a pull request on our GitHub repository.
+
+## License
+
+Code Crafter is released under the MIT License. See the LICENSE file for more details.

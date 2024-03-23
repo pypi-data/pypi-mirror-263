@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+code_crafter.egg-info/PKG-INFO
+code_crafter.egg-info/SOURCES.txt
+code_crafter.egg-info/dependency_links.txt
+code_crafter.egg-info/requires.txt
+code_crafter.egg-info/top_level.txt
