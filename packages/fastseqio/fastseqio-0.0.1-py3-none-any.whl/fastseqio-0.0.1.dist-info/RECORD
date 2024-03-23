@@ -1,0 +1,7 @@
+seqio/__init__.py,sha256=M8p6FGRQLo7eod7xofO7x6MbCSnzicqxAhraO6pv4oc,178
+seqio/_seqio.py,sha256=lydgTgEfv_gK4RixePRuOLepGCpBsC5HoOspff4aZD0,2246
+seqio/lib/_seqio.cpython-311-x86_64-linux-gnu.so,sha256=LYiq78PHzNBpo5NhXT7D-JBneP4NjZt-fKUwf98tBjo,332216
+fastseqio-0.0.1.dist-info/METADATA,sha256=0Ds4UeIX-IypS-LkXz0YmIJwzEE-RrO8WA8kpka6mqg,162
+fastseqio-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fastseqio-0.0.1.dist-info/top_level.txt,sha256=o_0IjVxpNNT40LSQwm_XSxHufxkNOFTShX65Y_UBW_4,10
+fastseqio-0.0.1.dist-info/RECORD,,
