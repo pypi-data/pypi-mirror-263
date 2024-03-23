@@ -1,0 +1,12 @@
+from setuptools import setup, find_packages
+
+
+setup(
+    name='mdvalo',
+    version='0.7',
+    author='A.B',
+    author_email='alika.bitsadze@gmail.com',
+    description='wish my friend a happy birthday',
+    packages=find_packages(),
+    # other setup parameters
+)
