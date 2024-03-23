@@ -1,0 +1,2 @@
+[console_scripts]
+dryrun = dbt_redshift_dryrun.app:cli
