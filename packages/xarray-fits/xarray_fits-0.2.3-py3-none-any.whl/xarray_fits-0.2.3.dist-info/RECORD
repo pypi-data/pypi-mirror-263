@@ -1,0 +1,7 @@
+xarrayfits/__init__.py,sha256=E9H6vb5w9fQlwuix5K11bbBqzm2nYwpP76ikEMUCtNA,211
+xarrayfits/fits.py,sha256=r93pEuxKsVXc49r2PJpT_0CB5VsNbOGTuqDRKhyWMhI,6903
+xarrayfits/fits_proxy.py,sha256=BZjH0vgv4Ic9WntYIrxUJcDCmhRw1hc3c_j7duhGkew,1916
+xarray_fits-0.2.3.dist-info/LICENSE,sha256=Zvx6WXi5bFq_FVncdvxA_M9duOwd8Y3UFaP6Ns0lviU,1565
+xarray_fits-0.2.3.dist-info/METADATA,sha256=zGpHqePIcUZYi1Na7K4LkB_ZnrkdU2qxolj6cGbxCMc,2377
+xarray_fits-0.2.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+xarray_fits-0.2.3.dist-info/RECORD,,
