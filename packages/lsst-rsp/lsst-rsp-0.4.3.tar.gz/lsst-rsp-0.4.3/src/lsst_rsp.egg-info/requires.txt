@@ -1,0 +1,12 @@
+Deprecated<2
+IPython<9
+pyvo<2,>=1.5.0
+
+[dev]
+types-deprecated
+types-requests
+coverage[toml]
+pytest
+pytest-asyncio
+mypy
+scriv
