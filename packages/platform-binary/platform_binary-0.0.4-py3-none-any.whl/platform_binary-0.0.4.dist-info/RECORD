@@ -1,0 +1,5 @@
+platform_binary/hello.py,sha256=k5M447arZSBD2T3_nB6OqmmgqWmkoN5QhwpsutfzwRc,20
+platform_binary/platform_binary.tar.xz,sha256=kFUbKQ7m0ljALVQKWMLynON34GlkSGuTQhEb4vtYOPY,48336468
+platform_binary-0.0.4.dist-info/METADATA,sha256=TI9iz0nJbNom7fcp72VJ08Z2hkNizQUavwHcr-bl91Y,290
+platform_binary-0.0.4.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+platform_binary-0.0.4.dist-info/RECORD,,
