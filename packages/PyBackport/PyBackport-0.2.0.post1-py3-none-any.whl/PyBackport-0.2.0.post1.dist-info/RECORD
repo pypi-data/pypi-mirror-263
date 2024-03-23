@@ -1,0 +1,13 @@
+py_back/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_back/_version.py,sha256=VPJUUYvLsNQdmdQvWWT1gJcrEHHPhs7ElBZ4JXu3aP4,61
+py_back/colors/__init__.py,sha256=bDSJJ_RPTedulQ6mTVhWo3rNYsyeTflguILImxS9E2c,113
+py_back/constants/__init__.py,sha256=vIGGBqjziKIE0Mjuo20XbfRbj379P3A7fBtEuykpzD8,104
+py_back/constants/_generate_color_enums.py,sha256=lq9CPgCejPwbYSIOfSxwZsDPL1hMsE1mYZQKsywTz6g,2970
+py_back/constants/colors.py,sha256=T7BWyOoGQEU82hEb24MPWQYlX6XRtVj5rG7ANKHQe7Y,1225
+py_back/enum/__init__.py,sha256=hLQcqYqfo6TQtqG1nsfAGyqfox-M8aFLuzS42oZF9kw,291
+py_back/enum/_types.py,sha256=AaP1GZDs2thMUlne0ov-1QsalhJNvCOQsRwx3jJ0b2w,2060
+PyBackport-0.2.0.post1.dist-info/LICENSE,sha256=Dli6y2oyABCnxfgjpiunybnU6lEitIzXvxbiECXfwp0,1064
+PyBackport-0.2.0.post1.dist-info/METADATA,sha256=dMkSPv1hczTZb9GvIydHqYh3wgTBbMKaRcNev6bKpEU,2096
+PyBackport-0.2.0.post1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+PyBackport-0.2.0.post1.dist-info/top_level.txt,sha256=Z-0az96iDfhFF0GJ073iVq9RDQE5WcOM_Gx42xXrtaw,8
+PyBackport-0.2.0.post1.dist-info/RECORD,,
