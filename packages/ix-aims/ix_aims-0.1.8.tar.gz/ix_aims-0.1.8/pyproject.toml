@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "ix-aims"
+version = "0.1.8"
+description = "iX Capture automation with AIMS data"
+authors = ["Taylor Denouden <taylor.denouden@hakai.org>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "ix_aims"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.7.0.72"
+PyAutoGUI = "^0.9.53"
+hakai-api = "^1.4.1"
+arrow = "^1.2.3"
+typer = "^0.9.0"
+rich = "^13.3.5"
+pillow = "^9.5.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.264"
+black = "^23.3.0"
+
+[tool.poetry.scripts]
+autoix = 'ix_aims.cli:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
