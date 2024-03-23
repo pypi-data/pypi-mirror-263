@@ -1,0 +1,2 @@
+[console_scripts]
+run_mollusc = run_mollusc:main
