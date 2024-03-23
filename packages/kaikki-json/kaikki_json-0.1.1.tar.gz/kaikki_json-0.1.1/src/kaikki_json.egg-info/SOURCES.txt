@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/kaikki_json/__init__.py
+src/kaikki_json/__main__.py
+src/kaikki_json.egg-info/PKG-INFO
+src/kaikki_json.egg-info/SOURCES.txt
+src/kaikki_json.egg-info/dependency_links.txt
+src/kaikki_json.egg-info/requires.txt
+src/kaikki_json.egg-info/top_level.txt
+src/kaikki_json/_private/config.py
+src/kaikki_json/_private/download.py
+src/kaikki_json/_private/read.py
