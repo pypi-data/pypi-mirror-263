@@ -1,0 +1,7 @@
+# Include all template files
+recursive-include boilersaas/templates *.html
+
+# Include all translation files
+recursive-include boilersaas/translations *
+
+# You can add more patterns as needed
