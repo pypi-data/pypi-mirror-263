@@ -1,0 +1,16 @@
+tsfontconverter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tsfontconverter/tsfontconverter.py,sha256=P3_1XZdSABNXio-3B9i22ATTcYzecBChFq0voa4hiO8,413
+tsfontconverter/fontmodel/CharacterMap.py,sha256=UX7WlqfWNTvGeD665fSdEMXZzWTcHg2QENKRWe6bohY,456
+tsfontconverter/fontmodel/Font.py,sha256=LkgH8jEvCTF8oR3aez1lsHjvFlo5H-831wpRPDLN4XA,659
+tsfontconverter/fontmodel/Glyph.py,sha256=Ap0m7u0mlKNkOeOKfZNSnSgzBQ_rHtsgHQ6hQcNwbLY,106
+tsfontconverter/fontmodel/Meta.py,sha256=nEqRjjnfMYOOUcurZQC0qt9dHdT3fZry6ynR604fDiA,194
+tsfontconverter/fontmodel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tsfontconverter/fontparser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tsfontconverter/fontparser/fontparser.py,sha256=M-BBpahk1FZOY3ztdr36viOlp0ZMetjWFwjrLpK0ecA,3396
+tsfontconverter/fontparser/reflectionutils.py,sha256=e5KPdr7ZSKBo6XL3SRCnIAwUevFUrqYfjwb6iZtr3MU,1382
+tsfontconverter/typescript/pytsconverter.py,sha256=dCDo-T5uFYyQFiKNCQXSz0136spWARtBeZa0nASEufA,776
+tsfontconverter-0.27.dist-info/entry_points.txt,sha256=sk4JxrZ3WOHiN4FUtizg6tcxaJP8esPxZnCxnaZkBiE,56
+tsfontconverter-0.27.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tsfontconverter-0.27.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+tsfontconverter-0.27.dist-info/METADATA,sha256=-nXhcsIopF1nyUzxK6TKJE8AXG62u3fNtzC4m2aAGLA,1417
+tsfontconverter-0.27.dist-info/RECORD,,
