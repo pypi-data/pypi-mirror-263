@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["animeSexAnalyzer"]
+
+[tool.hatch.build.targets.app]
+
+
+[tool.hatch.build]
+exclude = ["/.conda", "/.idea"] 
+
+[project]
+name = "anime-character-sex-analyzer"
+description = "Determines the sex of a character"
+version = "1.0.3"
+authors = [
+    { name = "Andreas Schreiner", email = "fearvel@proton.me" }
+]
+dependencies = [
+    "dghs-imgutils"
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License"
+]
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://git.fearvel.de/tools/python/anime-character-sex-analyzer"

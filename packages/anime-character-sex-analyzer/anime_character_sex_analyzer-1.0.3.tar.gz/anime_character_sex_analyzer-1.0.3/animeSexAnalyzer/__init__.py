@@ -1,0 +1,1 @@
+from animeSexAnalyzer.animeSexAnalyzer import sex_rating_score, sex_rating

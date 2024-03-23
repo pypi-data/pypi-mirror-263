@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: anime-character-sex-analyzer
+Version: 1.0.3
+Summary: Determines the sex of a character
+Project-URL: Homepage, https://git.fearvel.de/tools/python/anime-character-sex-analyzer
+Author-email: Andreas Schreiner <fearvel@proton.me>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: dghs-imgutils
+Description-Content-Type: text/markdown
+
+# anime-character-sex-analyzer
+
+Classification Library which provides the functions sex_rating and sex_rating_score, which were missing in the Library dghs-imgutils
