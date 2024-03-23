@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+python_state_manager/__init__.py
+python_state_manager/state.py
+python_state_manager/statemanager.py
+python_state_manager.egg-info/PKG-INFO
+python_state_manager.egg-info/SOURCES.txt
+python_state_manager.egg-info/dependency_links.txt
+python_state_manager.egg-info/top_level.txt
