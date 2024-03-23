@@ -1,0 +1,6 @@
+numpy
+pint
+setuptools
+
+[test]
+pytest
