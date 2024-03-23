@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sgr-demo-v0.0.4
+Version: 0.0.25
+Summary: SGr demo
+Author: zupeuc(CLEMAP)
+Author-email: <daniel@clemap.ch>
+Keywords: python,SGr
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: Jinja2 <4.0.0,>=3.0.0
+Requires-Dist: jmespath <2.0.0,>=1.0.0
+Requires-Dist: numpy >=1.20.3
+Requires-Dist: pymodbus <4.0.0,>=3.0.0
+Requires-Dist: setuptools <69.0.0,>=68.0.0
+Requires-Dist: xsdata <23.0.0,>=22.0.0
+Requires-Dist: aiohttp <4.0.0,>=3.0.0
+Requires-Dist: certifi
+Requires-Dist: cachetools <6.0.0,>=5.0.0
+
