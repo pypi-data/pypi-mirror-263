@@ -1,0 +1,7 @@
+KEYS_FILENAME = "keys.yaml"
+STRATEGY_DIRECTORY = "strategies"
+CONFIG_DIRECTORY = "config"
+USER_CONFIG_DIRECTORY = "user_configurations"
+CONFIG_FILE = "configuration.json"
+STRFTIME = "%Y-%m-%d"
+DEFAULT_HOME_DIRECTORY = ".cryptobots"
