@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: jsonservice
+Version: 1.0.0
+Summary: A simple and easy to use JSON service for Python.
+Author-email: kougen <info@kou-gen.net>
+Maintainer-email: Joshua Hegedus <josh.hegedus@outlook.com>
+Project-URL: Homepage, https://github.com/kougen/jsonservice
+Project-URL: Issues, https://github.com/kougen/jsonservice/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# JSON Service for Python
+
+Makes it easy to read and write JSON files in Python.
+It supports complex nested data structures and is very easy to use.
+
+## Installation
+
+```bash
+pip install jsonservice
+```
+
+## Usage
+
+```py
+from jsonservice import JSONService
+
+```
