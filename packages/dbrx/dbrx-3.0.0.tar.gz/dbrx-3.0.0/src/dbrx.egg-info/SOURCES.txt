@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/dbrx.egg-info/PKG-INFO
+src/dbrx.egg-info/SOURCES.txt
+src/dbrx.egg-info/dependency_links.txt
+src/dbrx.egg-info/entry_points.txt
+src/dbrx.egg-info/requires.txt
+src/dbrx.egg-info/top_level.txt
+src/sample/__init__.py
+src/sample/package_data.dat
+src/sample/simple.py
+tests/test_simple.py
