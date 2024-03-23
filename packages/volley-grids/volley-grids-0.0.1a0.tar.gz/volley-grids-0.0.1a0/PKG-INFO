@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: volley-grids
+Version: 0.0.1a0
+Summary: Competition grids for volleyball tournaments
+Author-email: Oleh Perlovskyi <mupastir@gmail.com>
+Project-URL: Homepage, https://github.com/mupastir/volley-grids
+Project-URL: Documentation, https://docs.volley-grids.dev
+Project-URL: Funding, https://github.com/sponsors/mupastir
+Project-URL: Source, https://github.com/mupastir/volley-grids
+Project-URL: Changelog, https://docs.volley-grids.dev/latest/changelog/
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Framework :: Hypothesis
+Classifier: Framework :: Pydantic
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Other/Nonlisted Topic
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic==2.6.3
+
+# Volley-grids
+
+**Please note:** Volley-grids is still an active work in progress, do not expect it to be complete.
+
+
+## Description
+
+Volley-grids is a simple python library that allows you to create tournaments brackets for beach volleyball.
+
+
+## Installation
+
+Install using `pip install -U volley-grids`.
+
+## Usage
+
+```python
+from pprint import pprint
+from volley_grids.models.players import WomenPlayer, MenPlayer
+from volley_grids.seeders.king_of_the_beach import KingOfTheBeachSeeder
+
+
+# Create players
+rebecca = WomenPlayer(name='Rebecca', surname='Silva')
+melissa = WomenPlayer(name='Melissa', surname='Hummel')
+john = MenPlayer(name='John', surname='Doe')
+cristian = MenPlayer(name='Cristian', surname='Pereira')
+
+# seed games
+matches = KingOfTheBeachSeeder(participants=(rebecca, melissa, john, cristian,), match_type='full').seed()
+pprint(matches)
+#> [Silva R./Hummel M. VS Doe J./Pereira C.,
+# Silva R./Doe J. VS Hummel M./Pereira C.,
+# Silva R./Pereira C. VS Hummel M./Doe J.]
+```
