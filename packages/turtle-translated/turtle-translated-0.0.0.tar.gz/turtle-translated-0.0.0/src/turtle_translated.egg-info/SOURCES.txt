@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/fudo/__init__.py
+src/fudo/fudo.py
+src/fudu/__init__.py
+src/fudu/fudu.py
+src/tortoise/__init__.py
+src/tortoise/tortoise.py
+src/turtle_translated.egg-info/PKG-INFO
+src/turtle_translated.egg-info/SOURCES.txt
+src/turtle_translated.egg-info/dependency_links.txt
+src/turtle_translated.egg-info/top_level.txt
