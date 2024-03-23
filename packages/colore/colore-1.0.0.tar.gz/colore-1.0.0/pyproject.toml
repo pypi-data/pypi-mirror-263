@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools",  "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "colore"
+dynamic = ["version"]
+authors = [
+    {name = "Allan Psicobyte", email = "psicobyte@gmail.com"},
+]
+description = "CLI filter that looks for regular expressions in stdin and highlights matching lines using ANSI colors"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["cli", "color", "filter", "regex"]
+license = {file = "LICENSE"}
+classifiers = [
+    "Environment :: Console",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://bitbucket.org/psicobyte/colore"
+Documentation = "https://bitbucket.org/psicobyte/colore/src/master/README.md"
+Repository = "https://bitbucket.org/psicobyte/colore.git"
+
+[project.scripts]
+colore = "colore.__main__:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "colore.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+

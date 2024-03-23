@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/colore/__init__.py
+src/colore/__main__.py
+src/colore/colors.py
+src/colore/filter.py
+src/colore/help.py
+src/colore.egg-info/PKG-INFO
+src/colore.egg-info/SOURCES.txt
+src/colore.egg-info/dependency_links.txt
+src/colore.egg-info/entry_points.txt
+src/colore.egg-info/top_level.txt
+tests/test_colors.py
+tests/test_filter.py
