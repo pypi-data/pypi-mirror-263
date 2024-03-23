@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+sageball/__init__.py
+sageball.egg-info/PKG-INFO
+sageball.egg-info/SOURCES.txt
+sageball.egg-info/dependency_links.txt
+sageball.egg-info/top_level.txt

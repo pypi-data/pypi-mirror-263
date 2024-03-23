@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sageball
+Version: 1.0.4
+Summary: A small extension package for SageMath
+Home-page: https://github.com/pikaball/Sageball
+Author: pikaball
+Author-email: whitesworder@gmail.com
+License: BSD License
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+Sageball
+========
+
+Sageball is an extension of SageMath with additional functionalities.
+
+It should be imported in a sagemath script.
+
+Author: pikaball (whitesworder@gmail.com)
+
+Currently Implemented Functionalities:
+---------------------------------------
+- hensel_solve(f,p,r): solve polynomial roots on GF(p^r)
