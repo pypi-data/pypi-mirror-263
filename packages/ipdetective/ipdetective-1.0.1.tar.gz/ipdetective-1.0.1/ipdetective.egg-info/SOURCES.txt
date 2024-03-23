@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ipdetective.egg-info/PKG-INFO
+ipdetective.egg-info/SOURCES.txt
+ipdetective.egg-info/dependency_links.txt
+ipdetective.egg-info/requires.txt
+ipdetective.egg-info/top_level.txt
