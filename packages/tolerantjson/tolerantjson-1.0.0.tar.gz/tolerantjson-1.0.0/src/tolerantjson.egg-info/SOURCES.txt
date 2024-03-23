@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/tolerantjson/__init__.py
+src/tolerantjson/parser.py
+src/tolerantjson.egg-info/PKG-INFO
+src/tolerantjson.egg-info/SOURCES.txt
+src/tolerantjson.egg-info/dependency_links.txt
+src/tolerantjson.egg-info/requires.txt
+src/tolerantjson.egg-info/top_level.txt
