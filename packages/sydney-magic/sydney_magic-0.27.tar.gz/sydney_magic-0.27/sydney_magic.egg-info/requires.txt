@@ -1,0 +1,4 @@
+IPython
+sydney-py
+nest_asyncio
+ipynbname
