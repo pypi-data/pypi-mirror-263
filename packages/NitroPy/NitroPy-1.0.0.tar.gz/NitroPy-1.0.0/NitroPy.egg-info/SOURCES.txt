@@ -1,0 +1,7 @@
+README.md
+setup.py
+NitroPy.egg-info/PKG-INFO
+NitroPy.egg-info/SOURCES.txt
+NitroPy.egg-info/dependency_links.txt
+NitroPy.egg-info/requires.txt
+NitroPy.egg-info/top_level.txt
