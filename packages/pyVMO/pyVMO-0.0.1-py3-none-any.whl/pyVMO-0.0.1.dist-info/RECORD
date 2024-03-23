@@ -1,0 +1,12 @@
+pyvmo/__init__.py,sha256=JmFr2PdP02v-ILnStaPF7YdX-LOUH-u8PvV3Ut_HNfA,26
+pyvmo/format.py,sha256=_ngAQ_lmjA54ltnfo0hZBdJ5NF9ahYGKebVm_b4hzFA,6497
+pyvmo/operation.py,sha256=7PPQZbWLIRCPZrYNp-6FmKtADWD-qFWiydVRisFsK2o,6944
+pyvmo/versions.py,sha256=Ocg7_RtGGhNydHTigmNPomiGE1XhkQOUiUrWsnsNXk0,500
+pyvmo/vmo.py,sha256=59-eFLHcxWgReYCCXPwTbor2h8RknRo5DME03z5-BPA,3189
+pyvmo/distance/__init__.py,sha256=fYhX2BgdraCyzADzN-f6PUFOFm0A7ux9mLFxcWRK_Mg,91
+pyvmo/distance/ibs.py,sha256=gNRF6RHbQGleVwuppKf4KQpLkykWFsKqw8LIxjG4Gi8,9662
+pyVMO-0.0.1.dist-info/LICENSE,sha256=pkV8wZUh1utciI2To1_j55qBRAq6Dh4oRSLMJBMs-UI,1066
+pyVMO-0.0.1.dist-info/METADATA,sha256=YO6WjBFDuMEce8kmaESUbtrpTb59YpHZf4iOv7tJIB4,481
+pyVMO-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pyVMO-0.0.1.dist-info/top_level.txt,sha256=JRjG0AeatEKdFBP_JlQYVCEeWCRqOESszmg9ScBVclI,6
+pyVMO-0.0.1.dist-info/RECORD,,
