@@ -1,0 +1,9 @@
+voice2text_deltabot/__init__.py,sha256=V3M-HynBYCY-xIhvMMoW8WKgOC0G4gDFT2lSdzSDNnQ,189
+voice2text_deltabot/__main__.py,sha256=g1i1HUavRziEp3Tg1EXeI8nyPv0PfogSdBP2ONPUJ8E,90
+voice2text_deltabot/hooks.py,sha256=XrBN5EZfHr0edWWRGwanyr6OkVbzEbQLDOvCgpcJTeU,3407
+voice2text_deltabot-1.0.0.dist-info/LICENSE.txt,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+voice2text_deltabot-1.0.0.dist-info/METADATA,sha256=o3bjP2TIMFnlAYnjdE4pa9dZsSwtYgj6glh1N_X4dkQ,1971
+voice2text_deltabot-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+voice2text_deltabot-1.0.0.dist-info/entry_points.txt,sha256=dtqShJ1sA3S5h8YeDANeLXSYdgiJe8vigqW5zAwUNgM,60
+voice2text_deltabot-1.0.0.dist-info/top_level.txt,sha256=AW27YphDHHkb8Iivk0RFGzKXxDSMSDVsiWmMQ-W3jv8,20
+voice2text_deltabot-1.0.0.dist-info/RECORD,,
