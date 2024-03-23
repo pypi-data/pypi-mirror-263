@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+merida/__init__.py
+merida/lightcurves_cls.py
+merida/server_for_lightcurves.py
+merida/zones_for_lightcurves.py
+merida.egg-info/PKG-INFO
+merida.egg-info/SOURCES.txt
+merida.egg-info/dependency_links.txt
+merida.egg-info/not-zip-safe
+merida.egg-info/requires.txt
+merida.egg-info/top_level.txt
