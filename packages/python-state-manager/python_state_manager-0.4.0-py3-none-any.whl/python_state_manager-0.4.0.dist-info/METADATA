@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: python-state-manager
+Version: 0.4.0
+Summary: A simple state machine to handle states of programs.
+Home-page: https://github.com/ChinmayShrivastava/pdf-page-annotator
+Author: Chinmay Shrivastava
+Author-email: cshrivastava99@gmail.com
+License: GPLv3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# python-state-manager
+A simple state machine to handle states of programs.
+
+# Usage
+
+Example:
+
+```python
+from python_state_manager import StateManager
+stateids = ["state1", "state2", "state3"]
+statevalues = [1, 2, 3]
+metadatas = [{"a": 1}, {"b": 2}, {"c": 3}]
+sm = StateManager(stateids, statevalues, metadatas, currentstateid="state1")
+print(sm.get_current_state().stateid)
+# output: state1
+sm.complete_state()
+print(sm.is_finished())
+# output: False
+print(sm.get_current_state().stateid)
+# state2
+```
+
+Enjoy!
