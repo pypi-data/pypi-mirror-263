@@ -1,0 +1,36 @@
+Metadata-Version: 2.3
+Name: openinference-instrumentation-mistralai
+Version: 0.0.1
+Summary: OpenInference Mistral AI Instrumentation
+Project-URL: Homepage, https://github.com/Arize-ai/openinference/tree/main/python/instrumentation/openinference-instrumentation-mistralai
+Author-email: OpenInference Authors <oss@arize.com>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: <3.13,>=3.8
+Requires-Dist: openinference-semantic-conventions
+Requires-Dist: opentelemetry-api
+Requires-Dist: opentelemetry-instrumentation
+Requires-Dist: opentelemetry-semantic-conventions
+Requires-Dist: wrapt
+Provides-Extra: dev
+Requires-Dist: pytest; extra == 'dev'
+Provides-Extra: instruments
+Requires-Dist: mistralai; extra == 'instruments'
+Provides-Extra: test
+Requires-Dist: mistralai; extra == 'test'
+Requires-Dist: opentelemetry-instrumentation-httpx; extra == 'test'
+Requires-Dist: opentelemetry-sdk; extra == 'test'
+Requires-Dist: respx; extra == 'test'
+Description-Content-Type: text/markdown
+
+# OpenInference Mistral AI Instrumentation
