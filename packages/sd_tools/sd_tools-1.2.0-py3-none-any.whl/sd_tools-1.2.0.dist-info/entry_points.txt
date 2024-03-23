@@ -1,0 +1,6 @@
+[console_scripts]
+pt2st=sd_tools.misc:pt2st
+sd=sd_tools.sd:main
+sdxl=sd_tools.sdxl:main
+st-inspect=sd_tools.misc:st_inspect
+
