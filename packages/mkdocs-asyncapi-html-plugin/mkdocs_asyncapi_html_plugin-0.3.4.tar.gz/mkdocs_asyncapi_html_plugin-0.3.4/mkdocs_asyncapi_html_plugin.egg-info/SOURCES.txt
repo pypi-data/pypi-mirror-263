@@ -1,0 +1,10 @@
+LICENSE
+README.md
+mkdocs_asyncapi_html_plugin.py
+pyproject.toml
+setup.py
+mkdocs_asyncapi_html_plugin.egg-info/PKG-INFO
+mkdocs_asyncapi_html_plugin.egg-info/SOURCES.txt
+mkdocs_asyncapi_html_plugin.egg-info/dependency_links.txt
+mkdocs_asyncapi_html_plugin.egg-info/entry_points.txt
+mkdocs_asyncapi_html_plugin.egg-info/top_level.txt

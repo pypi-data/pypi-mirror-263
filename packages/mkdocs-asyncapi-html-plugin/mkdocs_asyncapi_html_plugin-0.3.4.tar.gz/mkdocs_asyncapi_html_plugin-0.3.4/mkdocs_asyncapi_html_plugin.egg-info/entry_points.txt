@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+asyncapi_html = mkdocs_asyncapi_html_plugin:AsyncAPIPlugin
+
