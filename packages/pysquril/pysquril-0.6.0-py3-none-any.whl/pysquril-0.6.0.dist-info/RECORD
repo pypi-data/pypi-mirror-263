@@ -1,0 +1,10 @@
+pysquril/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysquril/backends.py,sha256=cpBcRqFr4mxxZbOP8-ctUK-0MR_-_6SKuglYKSbh50c,33941
+pysquril/exc.py,sha256=ehbLAod3F0icuyXJBjdCeqHi6rvjIxx4-dEjVHykHXU,412
+pysquril/generator.py,sha256=lcMm_B7pO6Z6otWRAR86eXwjTQVCasDGeMCO15vVXO8,24631
+pysquril/parser.py,sha256=ZuUK4TH4RVUn7vNGXAbcIMK7-2DRjf01qxM9ja2_bfo,14457
+pysquril/test_data.py,sha256=g6CrHH06xTO4GG5RjtIBSL-4Lvd388cgMmyza0bJWVc,2482
+pysquril/tests.py,sha256=8t-W3bT7HuqJuFnOhJjZE2m8n-p1XEMk-Ph_72XP9Go,33598
+pysquril-0.6.0.dist-info/METADATA,sha256=RmBnoMsYQAzWqo4A3zm1F_lEkEWytWl_R6SIqpLY7nw,916
+pysquril-0.6.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pysquril-0.6.0.dist-info/RECORD,,
