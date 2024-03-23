@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: faker-edu
+Version: 1.1.0
+Summary: Provider for Faker which adds fake information about educational institutions and academics.
+Home-page: https://github.com/SFDO-Community-Sprints/Snowfakery-Edu
+Author: Allison Letts, Aaron Crosman, Paul Prescod
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: faker
+
+# Snowfakery Education
+
+Fake data to support educational institutions
+
+## Installation
+
+Install with pip
+
+`pip install faker-edu`
+
+## Faker Use
+
+```python
+from faker import Faker
+import faker_edu
+
+fake = Faker()
+fake.add_provider(faker_edu.Provider)
+
+for _ in range(10):
+    print(fake.institution_name())
+```
+
+## Snowfakery Use
+
+For now you will need to clone the repository and then follow the example in the [sample recipe](snowfakery_edu_example.recipe.yml).
