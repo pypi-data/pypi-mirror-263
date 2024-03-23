@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/pyrepositories.egg-info/PKG-INFO
+src/pyrepositories.egg-info/SOURCES.txt
+src/pyrepositories.egg-info/dependency_links.txt
+src/pyrepositories.egg-info/requires.txt
+src/pyrepositories.egg-info/top_level.txt
+src/repositories/__init__.py
+src/repositories/datasource.py
+src/repositories/datatable.py
+src/repositories/json_repository.py
+src/repositories/lib.py
+src/repositories/pg_repository.py
