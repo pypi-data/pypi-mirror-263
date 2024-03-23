@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: sex-sorter
+Version: 1.0.0
+Summary: Sorts character by sex
+Project-URL: Homepage, https://git.fearvel.de/tools/python/sex-sorter
+Author-email: Andreas Schreiner <fearvel@proton.me>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: anime-character-sex-analyzer
+Description-Content-Type: text/markdown
+
+# character-sex-sorter
+
+This package allows the user to call it via python -m and to sort all *.png files in a directory based on the sex of the depicted characters.
+
+The sorter will create the following folders boy, girl, fury, other in which the images are moved.
+
+
+This package was primary created to increase efficency of my StableDiffusion workflow.

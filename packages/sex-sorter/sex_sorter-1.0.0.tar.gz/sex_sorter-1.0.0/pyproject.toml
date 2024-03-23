@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["sexSorter"]
+
+[tool.hatch.build.targets.app]
+
+[tool.hatch.build]
+exclude = ["/.conda", "/.idea"] 
+
+[project]
+name = "sex-sorter"
+description = "Sorts character by sex"
+version = "1.0.0"
+authors = [
+    { name = "Andreas Schreiner", email = "fearvel@proton.me" }
+]
+dependencies = [
+    "anime-character-sex-analyzer"
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License"
+]
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://git.fearvel.de/tools/python/sex-sorter"
