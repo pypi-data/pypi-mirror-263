@@ -1,0 +1,3 @@
+[console_scripts]
+fitlistreader=fitlistreader:run_wrapper
+

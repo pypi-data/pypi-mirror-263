@@ -1,0 +1,11 @@
+fitlistreader/__init__.py,sha256=9COE__HOPEE1qUDNmUBVgfZNn4fLmooggaMc0uGeIkE,513
+fitlistreader/fitintegral.py,sha256=jKoy9bJ7UOIvbZ71S7VBz8ccytZhZr-LwOVwmns0CXc,1427
+fitlistreader/fitintegralcoll.py,sha256=ny2Lk3OEh7HiKCCzSQuMKPUcbc1Ttl7L1u5O8JsCUEg,4314
+fitlistreader/fitlist.py,sha256=ydF1NEV3JskiodSUR9Is1KHrjojz9NG0yybI4KhGJBE,5682
+fitlistreader/fitlistreader.py,sha256=WijeCxHqcXCgNt4Nydv8VqJYeJ-b_v1lb8m6kObqn7o,12142
+fitlistreader/peak.py,sha256=0wRgCdWpiPCBa41SO2nTDyNPm-hZGhtpfJH7dNE8_JM,7411
+fitlistreader-0.1.1.dist-info/LICENSE,sha256=G8ZWpajqX-wTCuO5hSj_BmUYM_foUvzPTuLZ0CDSDE0,35103
+fitlistreader-0.1.1.dist-info/METADATA,sha256=gXb0Can-9nU0lgWlXLftCFQwwTEYr2ySgqk-7T1XXIE,4440
+fitlistreader-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+fitlistreader-0.1.1.dist-info/entry_points.txt,sha256=DTvD1BuJhaTyJp5nJolF8QlnUY3ncn3SH-dRoeNmGz8,59
+fitlistreader-0.1.1.dist-info/RECORD,,
