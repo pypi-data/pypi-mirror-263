@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+postfixcalc_advanced/__init__.py
+postfixcalc_advanced/add_math_logic_operators.py
+postfixcalc_advanced/avaliable_math_logic_operators.py
+postfixcalc_advanced/exp_tokenization.py
+postfixcalc_advanced/postfix4tokens.py
+postfixcalc_advanced/postfix_tokens_calculation.py
+postfixcalc_advanced.egg-info/PKG-INFO
+postfixcalc_advanced.egg-info/SOURCES.txt
+postfixcalc_advanced.egg-info/dependency_links.txt
+postfixcalc_advanced.egg-info/requires.txt
+postfixcalc_advanced.egg-info/top_level.txt
