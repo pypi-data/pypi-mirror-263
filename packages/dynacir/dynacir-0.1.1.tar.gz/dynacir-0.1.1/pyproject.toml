@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dynacir"
+version = "0.1.1"
+authors = [{name = "Derek Wang", email = "derek.wang@ibm.com"}]
+description = "A Qiskit transpilation plugin for `dyna`mic `cir`cuits."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["qiskit", "quantum", "plugin"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Repository = "https://github.com/derek-wang-ibm/dynacir"
+
+[project.entry-points."qiskit.transpiler.optimization"]
+"dynacir" = "dynacir.dynacir_plugin:DynacirPlugin"
