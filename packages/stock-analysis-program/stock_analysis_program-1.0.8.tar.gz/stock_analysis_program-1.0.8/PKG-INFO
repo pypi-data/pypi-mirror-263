@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: stock-analysis-program
+Version: 1.0.8
+Summary: A Python-based toolkit for fetching and visualizing financial data and metrics for stocks.
+Home-page: https://vcwtech.com/stock-analysis-program
+License: MIT
+Author: Thaddeus Thomas
+Author-email: thaddeus.r.thomas@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Requires-Dist: matplotlib (>=3.8.3,<4.0.0)
+Requires-Dist: pandas (>=2.2.1,<3.0.0)
+Requires-Dist: yfinance (>=0.2.37,<0.3.0)
+Project-URL: Documentation, https://github.com/visionary-code-works/stock-analysis-program/docs
+Project-URL: Repository, https://github.com/visionary-code-works/stock-analysis-program
+Description-Content-Type: text/markdown
+
+# Stock Analysis Program
+
+[![Upload Python Package](https://github.com/Visionary-Code-Works/StockAnalysisProgram/actions/workflows/python_publish.yml/badge.svg)](https://github.com/Visionary-Code-Works/StockAnalysisProgram/actions/workflows/python_publish.yml)
+
+## Overview
+
+The Stock Analysis Program is a Python-based toolkit designed to fetch and visualize financial data and metrics for stocks. It is ideal for financial analysts, traders, and anyone interested in stock market analysis. The program offers functionalities such as retrieving historical stock data, computing moving averages, analyzing revenue growth, and plotting financial metrics.
+
+## Features
+
+- **Data Fetching**: Retrieve historical data, financial summaries, and key metrics for stocks.
+- **Data Visualization**: Visualize stock prices, financial metrics, and revenue growth.
+- **Comparative Analysis**: Compare performance of different stocks and stock indices.
+- **Customizability**: Modular design allows for easy customization and extension.
+
+## Installation
+
+To use this program, ensure you have Python installed on your system. Clone this repository and install the required dependencies:
+
+```bash
+git clone https://github.com/visionary-code-works/stock-analysis-program.git
+cd stock-analysis-program
+pip install -r requirements.txt
+```
+
+## Usage
+
+The program consists of multiple Python classes categorized into Fetchers and Plotters.
+
+### Fetchers
+
+- `StockDataFetcher`
+- `StockSummaryFetcher`
+- `FinancialMetricsFetcher`
+- `RevenueGrowthFetcher`
+
+### Plotters
+
+- `StockPricePlotter`
+- `FinancialMetricsPlotter`
+- `RevenueGrowthPlotter`
+- `StockVolatilityPlotter`
+- `StockExchangePerformancePlotter`
+- `CurrentPricesTickerDisplay`
+
+### Example
+
+```python
+from plotter.stock_price_plotter import StockPricePlotter
+
+# Plotting stock prices for Apple and Microsoft
+price_plotter = StockPricePlotter(['AAPL', 'MSFT'])
+price_plotter.plot_closing_prices('2021-01-01', '2021-12-31')
+```
+
+## Documentation
+
+For detailed documentation on each component, please refer to the `docs` directory.
+
+- [Workflow](./docs/Workflow.md)
+- [Plotter](./docs/Plotter.md)
+- [Fetcher](./docs/Fetcher.md)
+- [Documentation](./docs/documentation.md)
+
+## Contributing
+
+Contributions to enhance the program are welcome. Please fork the repository and submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
