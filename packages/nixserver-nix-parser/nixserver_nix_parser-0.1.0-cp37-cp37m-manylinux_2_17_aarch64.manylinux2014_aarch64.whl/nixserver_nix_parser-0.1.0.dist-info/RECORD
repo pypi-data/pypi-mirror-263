@@ -1,0 +1,5 @@
+nixserver_nix_parser-0.1.0.dist-info/METADATA,sha256=QlBJrheDWAnAntP5gsP2WczNjsx1eKlW1EwREnL06f4,64
+nixserver_nix_parser-0.1.0.dist-info/WHEEL,sha256=OymyyJ-wKE22cY32Reh_OFMhDNCEhhqW7S-7IpmJuUA,130
+nixserver_nix_parser/__init__.py,sha256=BKro7mCoCoDjdx-p8mfVq-1yOL8XqX6XJgh9E1E8jdA,163
+nixserver_nix_parser/nixserver_nix_parser.cpython-37m-aarch64-linux-gnu.so,sha256=6NmF17yXFub1bZpydUKkYkbL3Ba-xO_BVyLNK6m46lU,4229560
+nixserver_nix_parser-0.1.0.dist-info/RECORD,,
