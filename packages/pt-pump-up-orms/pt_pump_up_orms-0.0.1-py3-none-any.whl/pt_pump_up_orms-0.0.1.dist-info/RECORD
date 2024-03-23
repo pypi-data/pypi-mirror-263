@@ -1,0 +1,13 @@
+pt_pump_up_orms/Author.py,sha256=m8xK-amoebzYIo_QgR73LuW8mo9AwK7MXf71RKQYYgY,502
+pt_pump_up_orms/CRUD.py,sha256=rVh4M4sFYO4ZA4M091Ho07bW55Kb1xEMF5Eez9coK7Q,3705
+pt_pump_up_orms/Dataset.py,sha256=LzwaI0WSGIpaM6tbgBRoxpXvQLdd3j_87btjaV1DHnc,1677
+pt_pump_up_orms/Link.py,sha256=Kj-_Bzb03ycXZu3UZS2TvnO0BinJHvisOwsW5jfYPRU,761
+pt_pump_up_orms/Model.py,sha256=qx0xcCno9KUwPzmbrK0l4FXnJ7T79hfWbJlDvJTgLhI,1466
+pt_pump_up_orms/NLP_Task.py,sha256=9dlnJsxLDY4_7BDAGCpNKb7QTUErIIMCjaaPnyK16sQ,706
+pt_pump_up_orms/ResourceStats.py,sha256=Z3-_a4jVSQ9ft83oaGtWyohKG_5l-WmdBkMJ0MWl5Vg,653
+pt_pump_up_orms/Result.py,sha256=3neMT9Pw2xqnB8KvFvW7Hjk8slnRcgIn2p61SsMi0y8,858
+pt_pump_up_orms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pt_pump_up_orms-0.0.1.dist-info/METADATA,sha256=Q1zk833V7XTLz_L_EeHT-M4KLvx8EHbU3bS__eF-OwM,402
+pt_pump_up_orms-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pt_pump_up_orms-0.0.1.dist-info/top_level.txt,sha256=YcGcilU1ygibaMvRMx1abcLFv1aBvRKW0hN3E5eUuHU,16
+pt_pump_up_orms-0.0.1.dist-info/RECORD,,
