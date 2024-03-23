@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: GeminiRequests
+Version: 1.0.4
+Summary: An example Python package
+Author: Promiteus
+Author-email: sbdt.israel@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: requests
