@@ -1,0 +1,9 @@
+bprofanity/__init__.py,sha256=HWnmD8H7H-VryHHFY_MP6ypK_xp013aYsJtJikvG6kI,61
+bprofanity/bprofanity.py,sha256=qygj102xxLdsV5cVUqrJD5MYwNYX3b1GeHGoG2AXmDU,2669
+bprofanity/data/wordlist.enc,sha256=r9qVXXKMNeeKsoX39IkuLjYZ1fiatIAo2BRhc3G3TWU,292
+bprofanity-0.3.data/data/data/wordlist.enc,sha256=r9qVXXKMNeeKsoX39IkuLjYZ1fiatIAo2BRhc3G3TWU,292
+bprofanity-0.3.dist-info/LICENSE,sha256=x3nOZG5CDYNPBl_MqiTEnoz5EJ0GzTXzf6mmsTwsQn0,1075
+bprofanity-0.3.dist-info/METADATA,sha256=aVFdrFOH4ZemPiVbMAjGl1OXMcqST8OK_m4RdkRe2Qs,1692
+bprofanity-0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bprofanity-0.3.dist-info/top_level.txt,sha256=PoHnPcXjgxsqthygkHa5_SAhs3loq6pImQHAgNhAVYs,11
+bprofanity-0.3.dist-info/RECORD,,
