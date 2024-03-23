@@ -1,0 +1,16 @@
+ibeamer/__init__.py,sha256=dQcI_PPEyo9ZS9z2fU2Im38FyvmiuDy8J-rfDTa9R6s,149
+ibeamer/_version.py,sha256=ac3tgjoOzsODOlacRPCwz99LbZv0NK7ZYAaBWulFo7E,171
+ibeamer-0.1.0.data/data/share/jupyter/labextensions/ibeamer/build_log.json,sha256=qU2G67PEP79gLxYvzZLKvRl3qZsLUNFypVAJpXyTBTg,21837
+ibeamer-0.1.0.data/data/share/jupyter/labextensions/ibeamer/package.json,sha256=5YbXjgllZ4cv9DMz-DlbbhKFSddMm5Ba8sxg_eEgAOY,5247
+ibeamer-0.1.0.data/data/share/jupyter/labextensions/ibeamer/static/lib_index_js.8ba62277f402a0c8ea50.js,sha256=QpBO2wV-7MlOQMbLn-XvRd_rtZo-jT5T73ASCz3OIss,3140
+ibeamer-0.1.0.data/data/share/jupyter/labextensions/ibeamer/static/lib_index_js.8ba62277f402a0c8ea50.js.map,sha256=heRv2wGo-KQ-0mT1dP77ZJUeU1-xscSGOteDdXfq3ro,3189
+ibeamer-0.1.0.data/data/share/jupyter/labextensions/ibeamer/static/remoteEntry.13e6c22bf6e99612a14b.js,sha256=U3ha1YIdqGzvMbvNFBX5xF2zgHLxokXdq5zrPlz6dsA,27776
+ibeamer-0.1.0.data/data/share/jupyter/labextensions/ibeamer/static/remoteEntry.13e6c22bf6e99612a14b.js.map,sha256=yOU98dQr2qm_DhZYrEVOMugzkFmzhnjgW4XcP4hLUvs,26360
+ibeamer-0.1.0.data/data/share/jupyter/labextensions/ibeamer/static/style.js,sha256=eTzJRsF3tqdO8Azh3rNiRA0ezRlLoaMR2SqmITvRAvo,150
+ibeamer-0.1.0.data/data/share/jupyter/labextensions/ibeamer/static/style_index_js.4cdef37111d3a5ad1434.js,sha256=1S2uBy2hrHRff_wuzo1steaNSx3HsNlJetKSGk6tGDE,3613468
+ibeamer-0.1.0.data/data/share/jupyter/labextensions/ibeamer/static/style_index_js.4cdef37111d3a5ad1434.js.map,sha256=BKgjiGlOBodv29O0LnEev-Axq6weelOSTuC3XiK4Tr4,955623
+ibeamer-0.1.0.data/data/share/jupyter/labextensions/ibeamer/install.json,sha256=zpe8lxQjbczdpvN87eUztGS7baX4UGB-l8Fk0EXiyDM,175
+ibeamer-0.1.0.dist-info/METADATA,sha256=4acxV9VGTcwgheF8mODYb-h0sprnrYfHdHxjkq6SfPg,5591
+ibeamer-0.1.0.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+ibeamer-0.1.0.dist-info/licenses/LICENSE,sha256=54DCQpMBkR8BnILT5fXGAgZ_6sGZb6WKIhl9v6DGOxk,1514
+ibeamer-0.1.0.dist-info/RECORD,,
