@@ -1,0 +1,2 @@
+[console_scripts]
+i42 = i42.main:main
