@@ -1,0 +1,7 @@
+rust_requests-0.1.0b1.dist-info/METADATA,sha256=GEo13EvNvsPn3a5J6VVcpwLxw90mM855SJhoLen79OI,2046
+rust_requests-0.1.0b1.dist-info/WHEEL,sha256=v9FuYWE63sdh_Mnv9Jf7gmYDM5-GFl6LA_tCS6dqWYg,127
+rust_requests/__init__.py,sha256=8ILYCZ4Az4Bgd5DKSbvfHE4zCDJJZWX64Y6rk80uMpQ,135
+rust_requests/__init__.pyi,sha256=wNU5b2k5weuf3M07aIbZahD0nAhtLdOwePtFZ40CHtg,3170
+rust_requests/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rust_requests/rust_requests.cpython-39-x86_64-linux-gnu.so,sha256=UcKvmztfTZbEltqzbK77lNu-8jgfk96THFqlk8fGAg0,9255072
+rust_requests-0.1.0b1.dist-info/RECORD,,
