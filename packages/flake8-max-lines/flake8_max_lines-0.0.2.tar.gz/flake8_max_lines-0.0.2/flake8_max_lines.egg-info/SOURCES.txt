@@ -1,0 +1,9 @@
+README.md
+flake8_max_lines.py
+setup.py
+flake8_max_lines.egg-info/PKG-INFO
+flake8_max_lines.egg-info/SOURCES.txt
+flake8_max_lines.egg-info/dependency_links.txt
+flake8_max_lines.egg-info/entry_points.txt
+flake8_max_lines.egg-info/requires.txt
+flake8_max_lines.egg-info/top_level.txt
