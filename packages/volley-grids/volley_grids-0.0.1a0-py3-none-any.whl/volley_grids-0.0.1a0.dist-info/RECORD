@@ -1,0 +1,16 @@
+volley_grids/misc/helpers.py,sha256=5UuyJZtWAn5iNgdpnBR0HCxJxB7lgog-Lps-n-QgRWs,708
+volley_grids/models/matches.py,sha256=oD3yDCm95Ow4cDxUZEz3ilt-SLWCDab8eNWWII0srhE,3400
+volley_grids/models/players.py,sha256=iqmxKAo1dVDl8vALQJfHUxe5ZZhngsJDGGXdH5wAoVo,1412
+volley_grids/models/teams.py,sha256=dSdtBUws10dVkOAqccG4ygDlGSiwX6M-Py8W-zswMCE,3379
+volley_grids/models/tournaments.py,sha256=Oo4MteaZgqdNE9xRWQvf6LoLL1Ri-rRWcViLP_Xyg3Q,2079
+volley_grids/seeders/base_seeder.py,sha256=2Sa76ozlXDWISjCmn3o-qUGpL3tWqSu3yKS_wsNszLs,977
+volley_grids/seeders/challenge_24_teams.py,sha256=VZTMQAKmJ7o93zPC0jGuZOO7JW_9Tf9LOqIuc61kWmQ,4292
+volley_grids/seeders/double_elimination.py,sha256=dVsYvj3Fatzjt3tKU7wk9dVqus_ItcAhzY4vnWHHTrc,6157
+volley_grids/seeders/king_of_the_beach.py,sha256=iJASnCUxzff6ffB3T1N1ht5LsRWgiwhcm9UcxfLz068,2441
+volley_grids/seeders/round_robin.py,sha256=7OgnOwAb2FDhEHwrzERGYeSmdYAWMcERVfW5xqYo9G0,1022
+volley_grids/seeders/single_elimination.py,sha256=zRiv2avFnM7WJX4JuiBAkeV272o2PgQ-VYPPq6CwQSw,5770
+volley_grids-0.0.1a0.dist-info/LICENSE,sha256=BEXA2_AtE-3fNiwVXc5JFEAL-PGsRdGm6PJdFY-iApo,1118
+volley_grids-0.0.1a0.dist-info/METADATA,sha256=RO3ycU1O3AEXANx9bn-d7ckfiIHha78BB6cGl-l1LtM,2721
+volley_grids-0.0.1a0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+volley_grids-0.0.1a0.dist-info/top_level.txt,sha256=hnn9GLPhzunLxFAGymp6CqLhRufeYtARn8P-g__LQP0,13
+volley_grids-0.0.1a0.dist-info/RECORD,,
