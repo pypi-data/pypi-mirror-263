@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pdf_page_annotator/PDFAnnotator.py
+pdf_page_annotator/__init__.py
+pdf_page_annotator/preprocess.py
+pdf_page_annotator/prompts.py
+pdf_page_annotator.egg-info/PKG-INFO
+pdf_page_annotator.egg-info/SOURCES.txt
+pdf_page_annotator.egg-info/dependency_links.txt
+pdf_page_annotator.egg-info/requires.txt
+pdf_page_annotator.egg-info/top_level.txt
