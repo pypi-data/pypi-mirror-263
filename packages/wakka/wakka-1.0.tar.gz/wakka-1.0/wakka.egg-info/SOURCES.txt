@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+wakka/__init__.py
+wakka/wakka.py
+wakka.egg-info/PKG-INFO
+wakka.egg-info/SOURCES.txt
+wakka.egg-info/dependency_links.txt
+wakka.egg-info/top_level.txt
