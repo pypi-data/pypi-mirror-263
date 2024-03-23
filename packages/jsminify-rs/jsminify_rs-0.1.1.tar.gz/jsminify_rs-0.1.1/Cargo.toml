@@ -1,0 +1,12 @@
+[package]
+name = "minify-js-odoo"
+version = "0.1.1"
+edition = "2021"
+
+[lib]
+name = "jsminify_rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.20.3", features = ["extension-module"] }
+minify-js = { git = "https://github.com/RuairidhWilliamson/minify-js.git", rev = "8637df1" }

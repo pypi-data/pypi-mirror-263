@@ -1,0 +1,16 @@
+[project]
+name = "jsminify_rs"
+classifiers = [
+"Development Status :: 5 - Production/Stable",
+"Intended Audience :: Developers",
+"License :: OSI Approved :: MIT License",
+]
+authors = [{name = "Oskar Manhart, CM Wedding GmbH", email = "me@oskar.global" }]
+readme = "README.md"
+
+[project.urls]
+source = "https://github.com/cmwedding-it/jsminify-rs"
+
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
