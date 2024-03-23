@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+apt/__init__.py
+apt/apt.py
+aptll.egg-info/PKG-INFO
+aptll.egg-info/SOURCES.txt
+aptll.egg-info/dependency_links.txt
+aptll.egg-info/requires.txt
+aptll.egg-info/top_level.txt

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: aptll
+Version: 2.2.4
+Summary: A proxy package for aplustools with simplified naming and version management
+Author-email: Cariel Becker <cariel.becker@gmx.de>
+Maintainer-email: Cariel Becker <cariel.becker@gmx.de>
+License: GPL-3.0-or-later
+Project-URL: Home, https://pypi.org/project/apt/
+Project-URL: Repository, https://github.com/adalfarus/apt
+Project-URL: Documentation, https://github.com/adalfarus/apt/wiki
+Project-URL: Issue tracker, https://github.com/adalfarus/apt/issues
+Keywords: proxy,aplustools,simplified,apt
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: English
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aplustools
+
+# apt
+ Aplustools linking library
