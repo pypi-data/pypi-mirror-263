@@ -1,0 +1,12 @@
+*.pyc
+tests/*
+RobustGibbs/*
+RobustGibbsObject/*
+*/__pycache__/*
+*/.mypy_cache/*
+*/.pytest_cache/*
+*/.tox/*
+*/.eggs/*
+*/.hypothesis/*
+*/.coverage
+.DS_Store
