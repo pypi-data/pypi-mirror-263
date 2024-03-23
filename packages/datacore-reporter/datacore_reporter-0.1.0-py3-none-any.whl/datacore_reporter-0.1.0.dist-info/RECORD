@@ -1,0 +1,11 @@
+datacore_reporter/__init__.py,sha256=7TrUQ-_o2FOg6-_fLjp8G3sJ11PtstYbSyjHvuFwW04,366
+datacore_reporter/__main__.py,sha256=LyQjPX0LMbTDon7XOA3przOu5v7_eFa3Q1UAvsgkNXk,2673
+datacore_reporter/_version.py,sha256=LihvXsX11I2jla5mXh08c4Nv7nlLSLZJCmSKYdqiruQ,427
+datacore_reporter/client.py,sha256=P7Aj-9oPteCy5RQucDYIG69prM7kByd-VrC1kwYviYM,9138
+datacore_reporter/request.py,sha256=VrmWDalea07o-bl9-3axKBNh4JpHy9FQzvxwdcZdnBE,1460
+datacore_reporter-0.1.0.dist-info/LICENSE.txt,sha256=NKlcsyBoaqpSLoZ8rBmaqw_tqrIvFEV3w9HoKU_wQiY,1099
+datacore_reporter-0.1.0.dist-info/METADATA,sha256=ZRk5zp7UoBd3Etn22HXXkFfoNSV8Vgsq6qlddXTakEo,2162
+datacore_reporter-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+datacore_reporter-0.1.0.dist-info/entry_points.txt,sha256=_rvsjRN6wZXDXUriZv8tqAj3WtN88UOYcGTOpe8BWIw,70
+datacore_reporter-0.1.0.dist-info/top_level.txt,sha256=MAkdxtExaIKRuGbjpWOzZHcYE8-JgU3lhPtjT4rjZa8,18
+datacore_reporter-0.1.0.dist-info/RECORD,,

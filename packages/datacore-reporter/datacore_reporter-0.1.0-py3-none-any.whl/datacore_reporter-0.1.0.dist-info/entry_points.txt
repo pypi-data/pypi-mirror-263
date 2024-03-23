@@ -1,0 +1,2 @@
+[console_scripts]
+datacore-reporter = datacore_reporter.__main__:main
