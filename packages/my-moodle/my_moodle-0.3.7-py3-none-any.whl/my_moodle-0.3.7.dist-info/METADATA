@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: my-moodle
+Version: 0.3.7
+Summary: Download Moodle Course content.
+Home-page: https://github.com/marcocrowe/my-moodle-py-pi/
+Author: Mark Crowe
+Author-email: 66536097+marcocrowe@users.noreply.github.com
+Project-URL: Bug Tracker, https://github.com/marcocrowe/my-moodle-py-pi/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: license
+Requires-Dist: ipython ==8.15.0
+Requires-Dist: pandas ==2.0.3
+Requires-Dist: requests ==2.31.0
+
+# Business with Computing
+
+## Year 1
+
+- [Business Database Development DATB 06023(23-24)](/business-database-development-datb-06023-year-23-24-id-9112/readme.md "Business Database Development DATB 06023(23-24)")
+- [Financial Accounting 1 ACCT 06060(23-24)](/financial-accounting-1-acct-06060-year-23-24-id-9118/readme.md "Financial Accounting 1 ACCT 06060(23-24)")
+- [Financial Accounting 2 ACCT 06061(23-24)](/financial-accounting-2-acct-06061-year-23-24-id-9119/readme.md "Financial Accounting 2 ACCT 06061(23-24)")
+- [Financial Services - S And I FINC 06009(23-24)](/financial-services-s-and-i-finc-06009-year-23-24-id-11372/readme.md "Financial Services - S And I FINC 06009(23-24)")
+- [It and Data Analysis Application ACCT 06081(23-24)](/it-and-data-analysis-application-acct-06081-year-23-24-id-9061/readme.md "It and Data Analysis Application ACCT 06081(23-24)")
+- [Organisational Behaviour BUSS 06069(23-24)](/organisational-behaviour-buss-06069-year-23-24-id-9115/readme.md "Organisational Behaviour BUSS 06069(23-24)")
+- [Responsive Web Development WEDV 06013(23-24)](/responsive-web-development-wedv-06013-year-23-24-id-9114/readme.md "Responsive Web Development WEDV 06013(23-24)")
+- [Stats Methods For Business STAT 06019(23-24)](/stats-methods-for-business-stat-06019-year-23-24-id-9117/readme.md "Stats Methods For Business STAT 06019(23-24)")
+
+## N-TUTORR
+
+- [N-TUTORR Academic Integrity Digital Badge](/n-tutorr-academic-integrity-digital-badge-id-10181/readme.md "N-TUTORR Academic Integrity Digital Badge")
+
+---
