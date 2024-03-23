@@ -1,0 +1,9 @@
+README.md
+setup.py
+sydney_magic/__init__.py
+sydney_magic/sydney_magic.py
+sydney_magic.egg-info/PKG-INFO
+sydney_magic.egg-info/SOURCES.txt
+sydney_magic.egg-info/dependency_links.txt
+sydney_magic.egg-info/requires.txt
+sydney_magic.egg-info/top_level.txt
