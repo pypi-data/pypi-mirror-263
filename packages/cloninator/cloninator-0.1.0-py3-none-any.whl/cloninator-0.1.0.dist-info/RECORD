@@ -1,0 +1,10 @@
+cloninator/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+cloninator/__main__.py,sha256=jIQ9Ay0ESp0LJ3WeFllxn0GL8Cht3s-W9427W7naskA,583
+cloninator/__version__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+cloninator/clone.py,sha256=icvxTiG92VJ550I0zmQNfjqyG5WJNy26bCeqV9GbTEE,1257
+cloninator/generate.py,sha256=XJZY05HtEDYyt3WK4v33uryPb4B4sE-rdogvbmy8GFE,960
+cloninator/utils.py,sha256=Ze_uqC2AL1Re99Q6GoDBN_wgyDUsYSRjsKxog-AV9yk,3831
+cloninator-0.1.0.dist-info/METADATA,sha256=8kqF6d7iTzxmQeIFJ5xMERiXO2sxEersen2e46uZeUs,2345
+cloninator-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cloninator-0.1.0.dist-info/entry_points.txt,sha256=ehyxigwsuZNEb_9s7tIHl69a0bLFQMlFDbvXSC8x0eM,55
+cloninator-0.1.0.dist-info/RECORD,,
