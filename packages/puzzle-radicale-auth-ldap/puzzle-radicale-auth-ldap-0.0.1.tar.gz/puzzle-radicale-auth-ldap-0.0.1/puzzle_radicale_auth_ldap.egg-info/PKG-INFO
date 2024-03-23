@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: puzzle-radicale-auth-ldap
+Version: 0.0.1
+Summary: LDAP Authentication Plugin for Radicale 3
+Home-page: https://github.com/puzzle/puzzle-radicale-auth-ldap
+Download-URL: https://github.com/puzzle/puzzle-radicale-auth-ldap/archive/refs/tags/v.0.0.1.tar.gz
+Author: Raoul Thill
+License: GNU GPL v3
+Requires-Dist: radicale>=3.0
+Requires-Dist: ldap3>=2.3

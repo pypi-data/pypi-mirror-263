@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "puzzle-radicale-auth-ldap"
+version = "0.1.0"
+description = "This is an authentication plugin for Radicale 3. It adds an LDAP authentication backend which can be used for authenticating users against an LDAP server."
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "3.9"
+ldap3 = "^2.9.1"
+
+[tool.poetry.dev-dependencies]
+radicale = "^3.0.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
