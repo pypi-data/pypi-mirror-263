@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "BlueBook_Cite_Abbreviation_Fixer"
+version = "0.0.1"
+authors = [
+  { name="Johnny Konczal", email="johnny@johnnytech.net" },
+]
+description = "The JohnnyTech BlueBook Cite Abbreviation Fixer, as a Python package."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://bluebook.johnnytech.net"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/"]
