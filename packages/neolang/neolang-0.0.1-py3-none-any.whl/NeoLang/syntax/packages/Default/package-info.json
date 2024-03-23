@@ -1,0 +1,87 @@
+{
+	"name": "Default Package",
+	"description": "Contains the default syntax for NeoScript",
+	
+	"requirements": [],
+	
+	"effects":
+	[
+		{
+			"parser": "Print",
+			"filePath": "basic.print",
+			"patterns": [
+				"print $",
+				"print $ to console",
+				"write $",
+				"write $ to console"
+			]
+		}
+	],
+
+	"expressions": 
+	[
+		{
+			"parser": "Input",
+			"filePath": "basic.input",
+			"patterns": [
+				"input",
+				"get input",
+				"user input",
+				"get user input"
+			]
+		},
+
+		{
+			"parser": "Parenthesis",
+			"filePath": "mathematics",
+			"patterns": [
+				"$"
+			]
+		},
+
+		{
+			"parser": "Sin",
+			"filePath": "mathematics",
+			"patterns": [
+				"sin $",
+				"sine of $"
+			]
+		},
+
+		{
+			"parser": "Pi",
+			"filePath": "mathematics",
+			"patterns": [
+				"pi"
+			]
+		},
+
+		{
+			"parser": "Sqrt",
+			"filePath": "mathematics",
+			"patterns": [
+				"sqrt $",
+				"square root of $"
+			]
+		},
+
+		{
+			"parser": "Potency",
+			"filePath": "mathematics",
+			"patterns": [
+				"$to the power of $"
+			]
+		},
+
+		{
+			"parser": "PrefixedInput",
+			"filePath": "basic.input",
+			"patterns": [
+				"input with prefix $",
+				"get input with prefix $",
+				"user input with prefix $",
+				"get user input prefix $"
+			]
+		}
+	]
+}
