@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: DiscordAutoSendMessage
+Version: 1.3
+Summary: script to auto sending messages to discord channel/group
+Home-page: https://github.com/RecodersNodes/DiscordAutoSendMessage
+Download-URL: 
+Author: recodersnodes
+Author-email: hapizdnuryadin1412@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/RecodersNodes/DiscordAutoSendMessage
+Project-URL: Source, https://github.com/RecodersNodes/DiscordAutoSendMessage
+Project-URL: Tracker, https://github.com/RecodersNodes/DiscordAutoSendMessage/issues
+Keywords: discord,auto,bot,message,chat
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.25.0
+Requires-Dist: PyYAML>=5.3
+
+## â€¢ Bagaimana Cara Manjalankan?
+```bash
+cd DiscordAutoSendMessage
+pip install -r requirements.txt
+python bot.py
+```
+
+## â€¢ Bagaimana Cara Dapat Token?
+
+```
+javascript:var i = document.createElement('iframe');i.onload = function(){var localStorage = i.contentWindow.localStorage;prompt('DC Token By @github.com/recodersnodes', localStorage.getItem('token').replace(/["]+/g, ''));};document.body.appendChild(i);
+```
+
+Paste itu di url bar

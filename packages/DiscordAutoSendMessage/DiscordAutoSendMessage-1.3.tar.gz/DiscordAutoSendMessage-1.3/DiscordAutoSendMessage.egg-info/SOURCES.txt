@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+DiscordAutoSendMessage/__init__.py
+DiscordAutoSendMessage/main.py
+DiscordAutoSendMessage.egg-info/PKG-INFO
+DiscordAutoSendMessage.egg-info/SOURCES.txt
+DiscordAutoSendMessage.egg-info/dependency_links.txt
+DiscordAutoSendMessage.egg-info/requires.txt
+DiscordAutoSendMessage.egg-info/top_level.txt
