@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: reporter-utils
+Version: 0.1.1
+Summary: Shared utilities for data extraction.
+Author-email: Sébastien Hocquet <dev@ipamo.net>
+Project-URL: Homepage, https://github.com/ipamo/reporter-utils
+Project-URL: Bug Tracker, https://github.com/ipamo/reporter-utils/issues
+Keywords: data,extraction,reporter,shared,utils,utilities
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: zut[commons] >=0.9
+Requires-Dist: pyyaml
+
+Reporter-utils
+==============
+
+Shared utilities for data extraction.
+
+
+## Installation
+
+Reporter-utils package is published [on PyPI](https://pypi.org/project/reporter-utils/):
+
+```sh
+pip install reporter-utils
+```
+
+## Documentation
+
+See [full documentation](https://ipamo.net/reporter-utils) (including [API reference](https://ipamo.net/reporter-utils/latest/api-reference.html)).
+
+
+## Legal
+
+This project is licensed under the terms of the [MIT license](https://raw.githubusercontent.com/ipamo/reporter-utils/main/LICENSE.txt).
