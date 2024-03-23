@@ -1,0 +1,3 @@
+Django-Waffle
+Django>=3.2
+Wagtail>=4.2
