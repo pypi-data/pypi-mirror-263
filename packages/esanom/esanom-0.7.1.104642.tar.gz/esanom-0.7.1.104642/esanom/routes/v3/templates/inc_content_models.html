@@ -1,0 +1,34 @@
+
+{% if tdata["rows"]|length>0 %}
+
+<table>
+
+<tr>
+{% for column in tdata["columns"] %}
+    <td><b>{{ column|upper }}</b></td>
+{% endfor %}
+</tr>
+
+{% for row in tdata["rows"] %}
+<tr>
+
+{% for column in tdata["columns"] %}
+
+{% if column=="name" %}
+    <td><a href="{{ url_for('.page_model',rolemodel_uid=row['uid']) }}">{{ row[column] }}</a></td>
+{% else %}
+    <td>{{ row[column]|truncate(64) }}</td>
+{% endif %}
+
+{% endfor %}
+
+
+</tr>
+{% endfor %}
+
+
+</table>
+
+{% else %}
+No models found!
+{% endif %}

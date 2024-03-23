@@ -1,0 +1,30 @@
+
+<div class="container">
+<div class="row">
+
+<div class="col">
+<div>INPUTS</div>
+{% for mport_row in tdata["mport_rows"] %}
+{% if mport_row["direction"]=="inputs" %}
+{% include( "inc_content_model_io_port.html" ) %}
+{% endif %}
+{% endfor %}
+</div>
+
+<div class="col">
+<div>OUTPUTS</div>
+{% for mport_row in tdata["mport_rows"] %}
+{% if mport_row["direction"]=="outputs" %}
+{% include( "inc_content_model_io_port.html" ) %}
+{% endif %}
+{% endfor %}
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
