@@ -1,0 +1,10 @@
+gfloat/__init__.py,sha256=mg5EAxnEWKuOT3MqS8TXBjwHKyv4hBSW109Tvksv6_8,351
+gfloat/decode.py,sha256=kqCQnPeJ8CKOOzp_GMC7gL_f0t0S43GwCBCKG7J7sFA,2488
+gfloat/formats.py,sha256=285M8bo2hh8GJFCYpytiDVUqV7UUb9iRM7IHlscVxsc,1895
+gfloat/round.py,sha256=FN1wbZjHkIzKWkdjWWJqdxKo5r7GU9sbjBo40TlJ0z4,3617
+gfloat/types.py,sha256=IcOeQpZPj8FkQ-OOwfHy8rGMolVK-ZKx-X-ykiyR3TI,8083
+gfloat-0.0.4.dist-info/LICENSE,sha256=f6mVKokxdVPexgUTLp96qneB163jRGiqDGQHq0i7ZOA,1074
+gfloat-0.0.4.dist-info/METADATA,sha256=l1yeMbVbInNP8f6kzyv-VSXTJ47P4PbUAG2_wOMCwQU,1568
+gfloat-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gfloat-0.0.4.dist-info/top_level.txt,sha256=jiT_C06Gn0ESnNsa1PgprasU_eRidOnEs6mnr7yn0Hk,7
+gfloat-0.0.4.dist-info/RECORD,,
