@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: scbs
+Version: 0.6.8
+Summary: command line tool for the analysis of single-cell bisulfite-sequencing data
+Home-page: https://github.com/LKremer/scbs
+License: GPL-3.0-or-later
+Keywords: biology,bioinformatics,single cell,methylation,single cell bisulfite sequencing
+Author: Lukas PM Kremer
+Author-email: L-Kremer@web.de
+Maintainer: Lukas PM Kremer
+Maintainer-email: L-Kremer@web.de
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Dist: click (>=7.1.2,<8.1)
+Requires-Dist: click-help-colors (>=0.9,<1)
+Requires-Dist: colorama (>=0.3.9,<1)
+Requires-Dist: numba (>=0.53.0,<1)
+Requires-Dist: numpy (>=1.20.1,<2)
+Requires-Dist: pandas (>=1.2.3,<2)
+Requires-Dist: scipy (>=1.6.1,<2)
+Requires-Dist: statsmodels (>=0.12.2,<1)
+Project-URL: Repository, https://github.com/LKremer/scbs
+Description-Content-Type: text/markdown
+
+[![PyPI](https://img.shields.io/pypi/v/scbs?logo=PyPI)](https://pypi.org/project/scbs)
+[![PyPIDownloads](https://pepy.tech/badge/scbs)](https://pepy.tech/project/scbs)
+[![Stars](https://img.shields.io/github/stars/LKremer/scbs?logo=GitHub&color=yellow)](https://github.com/LKremer/scbs/stargazers)
+
+# `scbs`: A Command Line Tool for the Analysis of Single-Cell Bisulfite-Sequencing Data
+
+> [!NOTE]
+> This package was renamed to MethSCAn.  
+> All further development will take place at its new home at [https://github.com/anders-biostat/MethSCAn](https://github.com/anders-biostat/MethSCAn).
+
+## Contributors
+- [Lukas PM Kremer](https://github.com/LKremer)
+- [Martina Braun](https://github.com/martinabraun)
+- [Leonie Küchenhoff](https://github.com/LeonieKuechenhoff)
+- [Svetlana Ovchinnikova](https://github.com/kloivenn)
+- [Alexey Uvarovskii](https://github.com/alexey0308)
+- [Simon Anders](https://github.com/simon-anders)
+
