@@ -1,0 +1,12 @@
+nbconvert
+papermill
+
+[dev]
+black
+build
+
+[test]
+pytest
+parameterized
+ipython
+ipykernel
