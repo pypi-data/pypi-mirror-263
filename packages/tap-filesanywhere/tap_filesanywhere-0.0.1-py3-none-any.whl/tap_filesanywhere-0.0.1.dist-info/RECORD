@@ -1,0 +1,15 @@
+tap_filesanywhere/__init__.py,sha256=MHPICcXp2VWiQAKyz938QBEs6QuyMugQQQTRux2AfCg,29
+tap_filesanywhere/__main__.py,sha256=0XIz9Q6TvQzl3qx2b7ghMBxM8RF52ookL3XbnNOu-rQ,145
+tap_filesanywhere/csv_handler.py,sha256=fPr627ulREonjputf92WgzrTHdrqYxOa-EbR23zdn-4,1676
+tap_filesanywhere/excel_handler.py,sha256=hC4GoQcDrdK1gWO9leUkf_uls0gjiqPHNPEf5Z7csZQ,4298
+tap_filesanywhere/file_utils.py,sha256=sfbUEQomn5BJojCExBR9F-P5o3zHcZc2uFUMHd5rNDs,19434
+tap_filesanywhere/format_handler.py,sha256=7iUyCCXwuFSnJv1of4HAxP-4EEf59pT_SOomP6q81x8,7847
+tap_filesanywhere/json_handler.py,sha256=rBhlIenpdnBsHT-CcHVwJCnLUwxi__vluwbP_vGy2dU,1315
+tap_filesanywhere/jsonl_handler.py,sha256=UZOF6wX-xfcXT4qI_ed86hs5Qhwa573ichoHuu0_2XM,1104
+tap_filesanywhere/streams.py,sha256=43tTuFP17KeYD_cd38BHXeTdbcPsb5mFweqpI5CpeLY,2641
+tap_filesanywhere/tap.py,sha256=DsEDTpG2WYBQsOzqf6rcJPwjmwnShYH7DuEM3ssSY_Y,5957
+tap_filesanywhere-0.0.1.dist-info/LICENSE,sha256=LjZMF2fLipJd2lHVVZe9FeK2EzutDE7qXUAw8fKxwfs,11344
+tap_filesanywhere-0.0.1.dist-info/METADATA,sha256=xyvagckS_MUnwiKcXBNBbghTSxvMm3xk8XIkiODoJD0,4551
+tap_filesanywhere-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+tap_filesanywhere-0.0.1.dist-info/entry_points.txt,sha256=MPmjlZcT8mBfu4NtYw4w4QHX8scyZ5ymv-6J7CNeO24,80
+tap_filesanywhere-0.0.1.dist-info/RECORD,,
