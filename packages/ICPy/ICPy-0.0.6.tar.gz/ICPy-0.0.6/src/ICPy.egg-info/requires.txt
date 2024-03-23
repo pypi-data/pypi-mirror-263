@@ -1,0 +1,13 @@
+numpy
+scipy
+scikit-learn
+
+[doc]
+sphinx
+furo
+myst_parser
+
+[test]
+pytest
+coverage[toml]
+scipy>=1.7.0

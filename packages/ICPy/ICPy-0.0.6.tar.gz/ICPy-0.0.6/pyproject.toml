@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ICPy"
+version = "0.0.006"
+description = 'Invariant Causal Prediction for python'
+readme = "README.md"
+requires-python = '>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*'
+authors = [{name = 'Jan Gleixner', email = 'jan.gleixner+icpy@gmail.com'}]
+maintainers = [{name = 'Jan Gleixner', email = 'jan.gleixner+icpy@gmail.com'}]
+keywords = ['statistics', 'casual-inference']
+classifiers = [
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+      ]
+urls = {source = 'https://github.com/jan-glx/ICPy'}
+dependencies = ['numpy', 'scipy', 'scikit-learn',]
+
+[project.optional-dependencies]
+test = ['pytest', 'coverage[toml]', 'scipy>=1.7.0']
+doc = ['sphinx', 'furo', 'myst_parser']
+
+[tool.setuptools]
+zip-safe = false
+
+[tool.coverage.run]
+branch = true
+relative_files = true
+
+[tool.coverage.report]
+include_namespace_packages = true
+exclude_lines = [
+    'if self.debug:',
+    'pragma: no cover',
+    'raise NotImplementedError',
+    'if __name__ == .__main__.:'
+]
+omit = ['icpy/tests/*']
+
+[tool.coverage.html]
+directory = "coverage_html_report"

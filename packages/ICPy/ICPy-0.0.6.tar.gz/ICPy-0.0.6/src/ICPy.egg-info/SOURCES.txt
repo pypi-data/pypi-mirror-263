@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/ICPy.egg-info/PKG-INFO
+src/ICPy.egg-info/SOURCES.txt
+src/ICPy.egg-info/dependency_links.txt
+src/ICPy.egg-info/not-zip-safe
+src/ICPy.egg-info/requires.txt
+src/ICPy.egg-info/top_level.txt
+src/icpy/ICP.py
+src/icpy/__init__.py
+tests/test_ICP.py
