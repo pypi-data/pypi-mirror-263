@@ -1,0 +1,13 @@
+huscy/data_acquisition_methods/mri/__init__.py,sha256=DDtBGRGg-DDCJFcnXThhbVTJ1YMrgMtbHeOvfY4woqE,166
+huscy/data_acquisition_methods/mri/apps.py,sha256=YPO8zJYrWwpNN7eyCnVgJwJBxQvCUvoj1BjvGIritnM,802
+huscy/data_acquisition_methods/mri/models.py,sha256=Tr1-aYo26qBBBaJChFvxlY-IN21qq6LSV_5vV3RlY5Q,1280
+huscy/data_acquisition_methods/mri/serializer.py,sha256=zXkaC9i3Qy_fV5yYhb0PqvT_lHDZSBUmKCoTjsEPa7g,2135
+huscy/data_acquisition_methods/mri/services.py,sha256=7ic1Dt9ACV5JS9Jq3vg4k-mMmUX3nuJvglPyrai3dZA,1781
+huscy/data_acquisition_methods/mri/urls.py,sha256=NhwP6t_SPC-hLEpMRKNN2aKP3LQ295ipP6013eFWmEg,544
+huscy/data_acquisition_methods/mri/views.py,sha256=oazZ6h0i1Ah_rfYK9lxsIEkH_j6wo-uUa6b-Pv8evaE,1978
+huscy/data_acquisition_methods/mri/migrations/0001_initial.py,sha256=2uDXkXDwMXM_XgCNj_Ta6QMEQ1lvswS9qSDkbE-3Epo,1711
+huscy/data_acquisition_methods/mri/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+huscy.data_acquisition_methods.mri-0.3.1a9.dist-info/METADATA,sha256=kf_iLu5pBfurA83VO7qzqw4hDeMTF6EDK8hPJZ2Rk6s,1274
+huscy.data_acquisition_methods.mri-0.3.1a9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+huscy.data_acquisition_methods.mri-0.3.1a9.dist-info/top_level.txt,sha256=yP1xCBOAxbmweO3NrSrdrgzzsSyrcuj2pA4XvOekNAM,6
+huscy.data_acquisition_methods.mri-0.3.1a9.dist-info/RECORD,,
