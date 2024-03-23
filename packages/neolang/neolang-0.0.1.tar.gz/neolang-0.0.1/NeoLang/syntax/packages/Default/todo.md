@@ -1,0 +1,3 @@
+- $ expression
+- not $ expression
+- variable effects and expressions

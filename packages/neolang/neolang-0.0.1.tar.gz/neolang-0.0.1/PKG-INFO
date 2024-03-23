@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: neolang
+Version: 0.0.1
+Summary: The Interpreter for the Neo Programming Language
+Home-page: https://https://github.com/NeoLangTeam/NeoLang
+Author: Sv3ks
+Author-email: snorre@silkjaer.dk
+License: GPLv3
+Project-URL: Documentation, https://your-package-name.readthedocs.io/
+Project-URL: Source, https://github.com/NeoLangTeam/NeoLang
+Project-URL: Tracker, https://github.com/NeoLangTeam/NeoLang/issues
+Keywords: programming-language language interpreter scripting syntax
+Platform: any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml==6.0.1
+
+# Currently under development - The Programming Language with the easiest syntax ever.

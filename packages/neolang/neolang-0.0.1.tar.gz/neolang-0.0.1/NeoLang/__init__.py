@@ -1,0 +1,1 @@
+from NeoLang.main import Main
