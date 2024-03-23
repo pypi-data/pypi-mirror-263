@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+applechess/__init__.py
+applechess/chess_agent.py
+applechess/lichess_bot.py
+applechess.egg-info/PKG-INFO
+applechess.egg-info/SOURCES.txt
+applechess.egg-info/dependency_links.txt
+applechess.egg-info/requires.txt
+applechess.egg-info/top_level.txt
