@@ -1,0 +1,13 @@
+boilersaas/__init__.py,sha256=qY8B6GkAGxqWW9KGjaYVXmSQZHqeteBpGsByKnSx3LE,1173
+boilersaas/forms.py,sha256=kuPtAF5do_UlFAyb6erpia5UZYvs-0-hge_DVw5Ey-Y,2549
+boilersaas/models.py,sha256=2tygDk6WInw0TbtppB4Lcwdku3jOlZj9h8zPZJz5-Yg,2045
+boilersaas/routes.py,sha256=piMa8eVI1SlUhnE9ZDJq_Rr1cecUCB0mn55u1V62llE,8721
+boilersaas/signin_social.py,sha256=NmxMxeeK5ACPkAvkIDbf-O6OpJYblqGPXEqLssNJtVw,3205
+boilersaas/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boilersaas/utils/db.py,sha256=gO0xXlZ0OvbDIsvqkuZRBbOHPf86mMmd486Urge-ysU,59
+boilersaas/utils/locale.py,sha256=LnCcjXuMIrJxJEmuN1HDiOOj6O7gd4xEjkQ6O6ZkXYg,930
+boilersaas/utils/mail.py,sha256=0cU4uVPW2f1L_2ca05H3bePHiNx827I0o8Nm4l1xqT8,494
+boilersaas-0.2.4.dist-info/METADATA,sha256=itlgiPLH7n3Dk4XhjK-4E0z7-CI7f5DAhRKJePzLFB8,750
+boilersaas-0.2.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+boilersaas-0.2.4.dist-info/top_level.txt,sha256=fIO56Hic7uAnThXwN7DvHH7Ct6T76TxVetaQw_gZRzw,11
+boilersaas-0.2.4.dist-info/RECORD,,
