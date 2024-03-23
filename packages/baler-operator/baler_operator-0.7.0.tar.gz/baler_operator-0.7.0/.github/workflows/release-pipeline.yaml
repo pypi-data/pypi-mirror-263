@@ -1,0 +1,31 @@
+name: Release Artifacts
+
+on:
+  push:
+    tags:
+      - 'v*'  # This matches tags like 'v1.0.0', 'v1.2.3', etc.
+
+jobs:
+  build-and-publish-to-pypi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'  # Specify the Python version you are using
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install hatch  # Ensure you're installing the correct package for publishing
+
+      - name: Build and publish to PyPI
+        env:
+          PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
+        run: |
+          echo "Publishing to PyPI..."
+          make pip-build
+          hatch publish -u __token__ -a $PYPI_TOKEN
+          echo "Published package to PyPI successfully."
