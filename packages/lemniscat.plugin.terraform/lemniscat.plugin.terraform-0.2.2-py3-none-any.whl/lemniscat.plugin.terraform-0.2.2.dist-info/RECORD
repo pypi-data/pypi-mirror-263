@@ -1,0 +1,12 @@
+lemniscat/plugin/terraform/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+lemniscat/plugin/terraform/azurecli.py,sha256=1NgMjrAgl1Zcy3FbyHbYveM29bCp129gfhMPsBt4X3A,3230
+lemniscat/plugin/terraform/main.py,sha256=C2PS4SKQQqoJ-s83yzMQ4FwxZVe7rM-FV00VTzc3KiQ,7087
+lemniscat/plugin/terraform/plugin.yaml,sha256=_2rl8H5-LCbuORQiHdkd_QG1mLuIFbPv53Ec7GP1s9g,421
+lemniscat/plugin/terraform/requirements.txt,sha256=bEKHQL_thbmkJzM_1d-fO6ZSVjeCIkN8KSQOxG47RoM,49
+lemniscat/plugin/terraform/terraform.py,sha256=TC4hL1VN34cOJvQX5fbBSG56DBiwvGK68wGCEHpK_QE,18639
+lemniscat/plugin/terraform/tfstate.py,sha256=d9V1-NwN-QIc0B0i1j0rMMibqKWCZsNVeWLFqiGAkOw,984
+lemniscat.plugin.terraform-0.2.2.dist-info/LICENSE,sha256=F59LKhQ2PARboC-92s6y2nnwLfVFi8-cahsRuzpltPA,1073
+lemniscat.plugin.terraform-0.2.2.dist-info/METADATA,sha256=pWS6SjVUBleKpm7izGydmyKwddFZmwxpPJf48mXnbeE,5849
+lemniscat.plugin.terraform-0.2.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+lemniscat.plugin.terraform-0.2.2.dist-info/top_level.txt,sha256=bmoVraF-tb2_14VMpstZFlw0ewylXjllv2bwC8bqw4c,10
+lemniscat.plugin.terraform-0.2.2.dist-info/RECORD,,
